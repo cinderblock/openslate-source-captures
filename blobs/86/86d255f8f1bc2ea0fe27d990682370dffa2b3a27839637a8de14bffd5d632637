@@ -1,0 +1,7 @@
+GET /wp-json/heliotrope/v1/candidates/search?state=CA&year=2026&office_level=state&offset=0&limit=100 HTTP/1.1
+Host: gunsensevoter.org
+User-Agent: OpenSlateSourceCapture/1.0 (+https://github.com/cinderblock/openslate-source-captures)
+Accept: text/html,application/json,application/pdf,*/*;q=0.8
+Accept-Encoding: gzip
+Connection: close
+
