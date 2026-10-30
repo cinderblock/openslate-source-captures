@@ -50,7 +50,7 @@ render-hosts.json     hosts also loaded in headless Chrome, and why
 runs/<id>/            manifest.json, stamps/*.tsr, manifest.sigstore.json, placement.json
 blobs/ab/<sha256>     raw requests, responses and certificates
 provenance/<org>/<election>.json   which captures back each slate, and what can be checked
-archived.json         Internet Archive snapshots, and whether their text agrees
+archived.json         Internet Archive snapshots, who asked for them, and whether their text agrees
 trust/                pinned timestamp roots and the Sigstore trust root
 ```
 

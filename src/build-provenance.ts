@@ -229,6 +229,7 @@ if (import.meta.main) {
                 url: record.url,
                 timestamp: record.timestamp,
                 digest: record.digest,
+                ...(record.origin ? { origin: record.origin } : {}),
                 ...(record.statements ? { statements: record.statements } : {}),
               }
             : null,

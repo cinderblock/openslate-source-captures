@@ -39,12 +39,16 @@ export interface CaptureRef {
   rendered?: { status: number | null; dom_sha256: string | null };
 }
 
+/** Whether we asked the Archive for this snapshot, or it had it already. Absent when we can't tell. */
+export type Origin = "requested" | "existing";
+
 export interface Archived {
   url: string;
   /** Wayback's 14-digit timestamp. */
   timestamp: string;
   /** Wayback's base32 SHA-1 of the page as it stored it. */
   digest: string;
+  origin?: Origin;
   /** This slate's statements found in the snapshot's own text. What keeps a dead page checkable. */
   statements?: { found: number; of: number };
 }
