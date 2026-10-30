@@ -45,6 +45,8 @@ export interface Archived {
   timestamp: string;
   /** Wayback's base32 SHA-1 of the page as it stored it. */
   digest: string;
+  /** This slate's statements found in the snapshot's own text. What keeps a dead page checkable. */
+  statements?: { found: number; of: number };
 }
 
 /** How the slate's text relates to this source. Facts only: a failed anchor isn't a judgement. */

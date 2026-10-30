@@ -224,8 +224,13 @@ if (import.meta.main) {
           host: hostFact(url, bundle.attribution?.of?.uri),
           latest: withArchive(latest),
           last_ok: withArchive(last_ok),
-          archived: record
-            ? { url: record.url, timestamp: record.timestamp, digest: record.digest }
+          archived: record?.timestamp
+            ? {
+                url: record.url,
+                timestamp: record.timestamp,
+                digest: record.digest,
+                ...(record.statements ? { statements: record.statements } : {}),
+              }
             : null,
           derivation,
         };
