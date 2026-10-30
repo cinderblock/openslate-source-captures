@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sierra-club-san-diego",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sandiegosierraclub.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sandiegosierraclub.org/news/endorsed-candidates",
+   "positions": 31,
+   "host": {
+    "match": "exact",
+    "host": "sandiegosierraclub.org",
+    "org_host": "sandiegosierraclub.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 407,
+    "captured_at": "2026-10-30T17:47:42.971Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sandiegosierraclub.org/news/endorsed-candidates",
+    "response_sha256": "0e86e19d17e30ae24b3ad67b3a24f8d6c404f52449f95fa476b277d52bae3218",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 7,
+    "quoted_parts": 8,
+    "unanchored": 0,
+    "no_statement": 16
+   }
+  },
+  {
+   "url": "https://sandiegosierraclub.org/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sandiegosierraclub.org",
+    "org_host": "sandiegosierraclub.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 406,
+    "captured_at": "2026-10-30T17:47:40.636Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sandiegosierraclub.org/",
+    "response_sha256": "67b648d9547480737b1780bdcea2dda1eaa12e3157159fff529d8fd3077b5923",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://sandiegosierraclub.org/no-on-45",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "sandiegosierraclub.org",
+    "org_host": "sandiegosierraclub.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 408,
+    "captured_at": "2026-10-30T17:47:44.701Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sandiegosierraclub.org/no-on-45",
+    "response_sha256": "03231cc0d791793da197541b421edcb0d63dd941cd4bed0890687302f7c0fbd4",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

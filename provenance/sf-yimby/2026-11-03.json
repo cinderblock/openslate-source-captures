@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-yimby",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sfyimby.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://yimbyaction.org/chapters/san-francisco-yimby",
+   "positions": 24,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "yimbyaction.org",
+    "org_host": "sfyimby.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 911,
+    "captured_at": "2026-10-30T17:48:59.601Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://yimbyaction.org/chapters/san-francisco-yimby",
+    "response_sha256": "9730e1dce89c73f05f595d51ac8107ef9cfdba8db7e346d3ea5d9b7c0b3d94cf",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 4,
+    "quoted_parts": 0,
+    "unanchored": 20,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "la-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.lagop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://lagop-endorsement-lookup.vercel.app/",
+   "positions": 132,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "lagop-endorsement-lookup.vercel.app",
+    "org_host": "lagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 293,
+    "captured_at": "2026-10-30T17:47:22.936Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lagop-endorsement-lookup.vercel.app/",
+    "response_sha256": "c83769b313054920cd97c0cc078f2b6c7aa9d0f98baa92b3b22762fada9a497f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 20,
+    "unanchored": 98,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.lagop.org/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "lagop.org",
+    "org_host": "lagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 699,
+    "captured_at": "2026-10-30T17:48:23.458Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.lagop.org/",
+    "response_sha256": "bb50c212fceb6b9513a0a7b22d3ddca30184f29bb9fcc4a83a875928194be3ca",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

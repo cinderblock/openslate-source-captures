@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "westside-forward",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://westsideforwardsf.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://westsideforwardsf.org/voter-guide",
+   "positions": 24,
+   "host": {
+    "match": "exact",
+    "host": "westsideforwardsf.org",
+    "org_host": "westsideforwardsf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 613,
+    "captured_at": "2026-10-30T17:47:59.033Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.westsideforwardsf.org/voter-guide",
+    "response_sha256": "9ae4950cceae320aa8c5590c9b55ffe4c928d6ddf2b1543f88a1e13bc4466195",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 2,
+    "unanchored": 21,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "abundant-housing-la",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.abundanthousingla.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.abundanthousingla.org/endorsements-pac",
+   "positions": 44,
+   "host": {
+    "match": "exact",
+    "host": "abundanthousingla.org",
+    "org_host": "abundanthousingla.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 615,
+    "captured_at": "2026-10-30T17:47:59.612Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.abundanthousingla.org/endorsements-pac",
+    "response_sha256": "a94b4ae4bcc5815954ff4926e25118117d601c7469df5dc734c39d65648767a2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 32,
+    "quoted_parts": 0,
+    "unanchored": 12,
+    "no_statement": 0
+   }
+  }
+ ]
+}

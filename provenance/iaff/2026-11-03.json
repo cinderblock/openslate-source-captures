@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "iaff",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.iaff.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cpfelectionguide.org/",
+   "positions": 51,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "cpfelectionguide.org",
+    "org_host": "iaff.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 75,
+    "captured_at": "2026-10-30T17:47:11.225Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cpfelectionguide.org/",
+    "response_sha256": "4b41f490de29f44b3b4e8de8db89af8251f2c9b9dd100731881f7b7ef0e88120",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 51,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "mikelevin.org",
+    "org_host": "iaff.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 712,
+    "captured_at": "2026-10-30T17:48:26.833Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
+    "response_sha256": "47bb72417f6e7aa482e1beb469aabf49bb2a180decc13df4dc2f0ad61b25642f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.iaff.org/political-action/endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "iaff.org",
+    "org_host": "iaff.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 687,
+    "captured_at": "2026-10-30T17:48:20.917Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.iaff.org/political-action/endorsements/",
+    "response_sha256": "8ccf3164e55b04df3dca292a79bbc86bfbcafb6dedad6a0094a1ee99cd8b7b9b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

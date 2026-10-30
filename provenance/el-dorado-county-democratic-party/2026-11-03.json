@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "el-dorado-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://edcdems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://edcdems.org/elections/",
+   "positions": 18,
+   "host": {
+    "match": "exact",
+    "host": "edcdems.org",
+    "org_host": "edcdems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 138,
+    "captured_at": "2026-10-30T17:47:16.357Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://edcdems.org/elections/",
+    "response_sha256": "dadd03be0fdf47fd1178d763bad14b0a3e56efd3aec9fdd885d3555596f90a85",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 16,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://edcdems.org/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "edcdems.org",
+    "org_host": "edcdems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 137,
+    "captured_at": "2026-10-30T17:47:14.485Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://edcdems.org/",
+    "response_sha256": "5350391f299a513fb40698c864a9c046954d0edfae2e9637663dfe30c42f74f6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

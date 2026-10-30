@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-democratic-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://cadem.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cadem.org/endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cadem.org",
+    "org_host": "cadem.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 49,
+    "captured_at": "2026-10-30T17:47:07.435Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cadem.org/endorsements/",
+    "response_sha256": "e561a818b90469643e7c62b36184678e6eaf1ad7f16014edeee3f9ff90a1909e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+   "positions": 152,
+   "host": {
+    "match": "exact",
+    "host": "cadem.org",
+    "org_host": "cadem.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 51,
+    "captured_at": "2026-10-30T17:47:10.760Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+    "response_sha256": "d8bc651a8112ac859ac9b206cd83dea509e9d7fab06623fa770155bd4563c105",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 152
+   }
+  },
+  {
+   "url": "https://cadem.org/wp-content/uploads/2026/10/2026-Proposition-Endorsements-.pdf",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "cadem.org",
+    "org_host": "cadem.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 52,
+    "captured_at": "2026-10-30T17:47:12.296Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cadem.org/wp-content/uploads/2026/10/2026-Proposition-Endorsements-.pdf",
+    "response_sha256": "1a62d052cdec3224d923a0b63f37f9734008fd46d8229b127f50b5b1f7bb5393",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-young-republicans",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfendorsements.com/",
+   "positions": 11,
+   "host": {
+    "match": "unknown",
+    "host": "sfendorsements.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 423,
+    "captured_at": "2026-10-30T17:47:46.279Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfendorsements.com/",
+    "response_sha256": "f3fcb9fa7d06a5f4e499ce36e65faa6ad915269a5afac6ea69eb54b6990f9674",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 11,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.gitlab.com/peterxu/sf-endorsements",
+   "positions": 0,
+   "host": {
+    "match": "unknown",
+    "host": "gitlab.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 679,
+    "captured_at": "2026-10-30T17:48:19.273Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://gitlab.com/peterxu/sf-endorsements",
+    "response_sha256": "90aadaeb95390d2d7a3dec78d7d0ab55a0bd8f8957f8dc94a4b5cf48ddabd015",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

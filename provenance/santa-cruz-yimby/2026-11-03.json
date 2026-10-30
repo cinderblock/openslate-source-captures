@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "santa-cruz-yimby",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://yimbyaction.org/chapters/santa-cruz-yimby",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://yimbyaction.org/chapters/santa-cruz-yimby",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "yimbyaction.org",
+    "org_host": "yimbyaction.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 912,
+    "captured_at": "2026-10-30T17:49:01.397Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://yimbyaction.org/chapters/santa-cruz-yimby",
+    "response_sha256": "f9cff02fcd5b6cd63e4ecbd333885c87d4cb2148f2215d9f2d149d4744631304",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "yimbyaction.org",
+    "org_host": "yimbyaction.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 913,
+    "captured_at": "2026-10-30T17:49:02.981Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://yimbyaction.org/endorsements/november-2026-california-general",
+    "response_sha256": "2e3055dc98478c1aa732b2beebfc04dde41068a2557a7edd74afd0d0d3a6b622",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -2,7 +2,7 @@
  "format": "openslate-source-list/1",
  "generated_from": {
   "repository": "cinderblock/openslate-public-endorsements",
-  "commit": "0898cb2545ab795f45fb7058551345efc70f44ee"
+  "commit": "890cd023d1f28597666c9e5bde9f84e12068faed"
  },
  "sources": [
   {
@@ -289,6 +289,16 @@
    "positions": 701,
    "publish": "public",
    "origin": "cited"
+  },
+  {
+   "url": "https://apps.lavote.gov/statements-api/oc/read/election/4348/contest",
+   "cited_by": [
+    "la-county-registrar/2026-11-03"
+   ],
+   "positions": 0,
+   "publish": "public",
+   "origin": "discovered",
+   "note": "JSON the page loads by XHR. Plain GET, same site, holds all 594 expected surnames. The page's HTML holds none. Found behind https://apps.lavote.gov/candidate-statements/."
   },
   {
    "url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
@@ -828,6 +838,15 @@
    "origin": "cited"
   },
   {
+   "url": "https://directory.runforsomething.net/candidate/0b0082d668cfec7ecb9994e2067139e7/shaughnessy-christian/",
+   "cited_by": [
+    "run-for-something/2026-11-03"
+   ],
+   "positions": 1,
+   "publish": "public",
+   "origin": "cited"
+  },
+  {
    "url": "https://directory.runforsomething.net/candidate/0c27e60fd0fad3552f553e9591252abc/reed-charlotte/",
    "cited_by": [
     "run-for-something/2026-11-03"
@@ -1027,6 +1046,15 @@
   },
   {
    "url": "https://directory.runforsomething.net/candidate/9916b6f74a18d4a5f17f3b2d788b99e3/hebert-shelby/",
+   "cited_by": [
+    "run-for-something/2026-11-03"
+   ],
+   "positions": 1,
+   "publish": "public",
+   "origin": "cited"
+  },
+  {
+   "url": "https://directory.runforsomething.net/candidate/a0b9acb16d44d9d21119861ecb0f4b62/ayra-aram/",
    "cited_by": [
     "run-for-something/2026-11-03"
    ],
@@ -1535,7 +1563,7 @@
     "ca-environmental-voters/2026-06-02",
     "ca-environmental-voters/2026-11-03"
    ],
-   "positions": 217,
+   "positions": 224,
    "publish": "public",
    "origin": "cited"
   },
@@ -1565,6 +1593,16 @@
    "positions": 45,
    "publish": "public",
    "origin": "cited"
+  },
+  {
+   "url": "https://fresnocountydemocrats.org/wp-content/uploads/2026/09/FCDCC-Endorsements-2026-Midterm-Election-792x1024.jpg",
+   "cited_by": [
+    "fresno-county-democratic-party/2026-11-03"
+   ],
+   "positions": 0,
+   "publish": "public",
+   "origin": "discovered",
+   "note": "Same-site image on the cited page, named as the party's endorsements. The contents haven't been read; the name is the evidence. Found behind https://fresnocountydemocrats.org/en_US/democratic-party-endorsements/."
   },
   {
    "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-june-2026-election/",
@@ -1616,7 +1654,7 @@
    "cited_by": [
     "housing-action-coalition/2026-11-03"
    ],
-   "positions": 105,
+   "positions": 106,
    "publish": "public",
    "origin": "cited"
   },
@@ -1625,7 +1663,7 @@
    "cited_by": [
     "inland-empire-labor-council/2026-11-03"
    ],
-   "positions": 74,
+   "positions": 75,
    "publish": "public",
    "origin": "cited"
   },
@@ -1634,7 +1672,7 @@
    "cited_by": [
     "ie-united/2026-11-03"
    ],
-   "positions": 33,
+   "positions": 44,
    "publish": "public",
    "origin": "cited"
   },
@@ -2287,6 +2325,15 @@
    "origin": "cited"
   },
   {
+   "url": "https://laforwardguide.org/guide/associate-justices-court-of-appeal",
+   "cited_by": [
+    "la-forward/2026-11-03"
+   ],
+   "positions": 20,
+   "publish": "public",
+   "origin": "cited"
+  },
+  {
    "url": "https://laforwardguide.org/guide/baldwin-park",
    "cited_by": [
     "la-forward/2026-11-03"
@@ -2552,7 +2599,7 @@
    "cited_by": [
     "la-forward/2026-11-03"
    ],
-   "positions": 1,
+   "positions": 0,
    "publish": "public",
    "origin": "cited"
   },
@@ -2561,7 +2608,7 @@
    "cited_by": [
     "la-forward/2026-11-03"
    ],
-   "positions": 19,
+   "positions": 20,
    "publish": "public",
    "origin": "cited"
   },
@@ -2627,6 +2674,26 @@
    "positions": 132,
    "publish": "public",
    "origin": "cited"
+  },
+  {
+   "url": "https://lagop-endorsement-lookup.vercel.app/_next/static/chunks/app/page-57ab500134c8ff99.js?dpl=dpl_BAE1aVZCupv8xVhYtbuDJxHKpCXd",
+   "cited_by": [
+    "la-county-republican-party/2026-11-03"
+   ],
+   "positions": 0,
+   "publish": "public",
+   "origin": "discovered",
+   "note": "The app's own script chunk, which carries the slate as data: 91 of 93 expected surnames. Same site. The name is build-specific, so a redeploy will turn this into a recorded 404. Found behind https://lagop-endorsement-lookup.vercel.app/."
+  },
+  {
+   "url": "https://linkjar.to/_/pdf/aa0dc48e-a2ea-40c8-8408-d58668b90d0b/",
+   "cited_by": [
+    "oc-republican-party/2026-11-03"
+   ],
+   "positions": 0,
+   "publish": "public",
+   "origin": "discovered",
+   "note": "A PDF the page loads, 206 KB, same site, and the only data it fetched. The check can't read PDFs: the page rendered 33 of 94 expected surnames and its HTML has none, so they came from here. Found behind https://linkjar.to/voter-guide-2026/."
   },
   {
    "url": "https://linkjar.to/voter-guide-2026/",
@@ -3282,7 +3349,7 @@
    "cited_by": [
     "oc-business-council-bizpac/2026-11-03"
    ],
-   "positions": 24,
+   "positions": 29,
    "publish": "public",
    "origin": "cited"
   },
@@ -3374,7 +3441,7 @@
    "cited_by": [
     "oc-democratic-party/2026-11-03"
    ],
-   "positions": 97,
+   "positions": 98,
    "publish": "public",
    "origin": "cited"
   },
@@ -3582,6 +3649,15 @@
     "our-revolution/2026-11-03"
    ],
    "positions": 2,
+   "publish": "public",
+   "origin": "cited"
+  },
+  {
+   "url": "https://peaceandfreedom.us/november-2026-voting-guide/",
+   "cited_by": [
+    "peace-and-freedom-party/2026-11-03"
+   ],
+   "positions": 22,
    "publish": "public",
    "origin": "cited"
   },
@@ -3871,7 +3947,7 @@
    "cited_by": [
     "sf-green-party/2026-11-03"
    ],
-   "positions": 33,
+   "positions": 34,
    "publish": "public",
    "origin": "cited"
   },
@@ -5652,7 +5728,7 @@
    "cited_by": [
     "aclu-northern-california/2026-11-03"
    ],
-   "positions": 1,
+   "positions": 11,
    "publish": "public",
    "origin": "cited"
   },
@@ -5904,7 +5980,7 @@
    "cited_by": [
     "california-faculty-association/2026-11-03"
    ],
-   "positions": 108,
+   "positions": 110,
    "publish": "public",
    "origin": "cited"
   },
@@ -5994,7 +6070,7 @@
    "cited_by": [
     "connected-sf/2026-11-03"
    ],
-   "positions": 32,
+   "positions": 33,
    "publish": "public",
    "origin": "cited"
   },
@@ -6156,7 +6232,7 @@
    "cited_by": [
     "east-bay-young-democrats/2026-11-03"
    ],
-   "positions": 46,
+   "positions": 47,
    "publish": "public",
    "origin": "cited"
   },
@@ -6174,7 +6250,7 @@
    "cited_by": [
     "equality-california/2026-11-03"
    ],
-   "positions": 184,
+   "positions": 224,
    "publish": "public",
    "origin": "cited"
   },
@@ -6192,7 +6268,7 @@
    "cited_by": [
     "fresno-county-republican-party/2026-11-03"
    ],
-   "positions": 43,
+   "positions": 45,
    "publish": "public",
    "origin": "cited"
   },
@@ -6248,7 +6324,7 @@
    "cited_by": [
     "human-rights-campaign/2026-11-03"
    ],
-   "positions": 43,
+   "positions": 45,
    "publish": "public",
    "origin": "cited"
   },
@@ -6293,7 +6369,7 @@
    "cited_by": [
     "sb-independent/2026-11-03"
    ],
-   "positions": 35,
+   "positions": 36,
    "publish": "withheld",
    "origin": "cited"
   },
@@ -6469,6 +6545,15 @@
    "origin": "cited"
   },
   {
+   "url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
+   "cited_by": [
+    "marin-independent-journal/2026-11-03"
+   ],
+   "positions": 0,
+   "publish": "withheld",
+   "origin": "cited"
+  },
+  {
    "url": "https://www.mercurynews.com/",
    "cited_by": [
     "mercury-news/2026-11-03"
@@ -6509,7 +6594,7 @@
    "cited_by": [
     "harvey-milk-club/2026-11-03"
    ],
-   "positions": 53,
+   "positions": 56,
    "publish": "public",
    "origin": "cited"
   },
@@ -6581,7 +6666,7 @@
    "cited_by": [
     "noe-valley-democratic-club/2026-11-03"
    ],
-   "positions": 16,
+   "positions": 18,
    "publish": "public",
    "origin": "cited"
   },
@@ -6637,15 +6722,6 @@
    ],
    "positions": 0,
    "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.peaceandfreedom.us/index.php/news/elections-campaigns/november-2026-voting-guide",
-   "cited_by": [
-    "peace-and-freedom-party/2026-11-03"
-   ],
-   "positions": 22,
-   "publish": "public",
    "origin": "cited"
   },
   {
@@ -7031,7 +7107,7 @@
    "cited_by": [
     "reform-california/2026-11-03"
    ],
-   "positions": 147,
+   "positions": 149,
    "publish": "public",
    "origin": "cited"
   },
@@ -7040,7 +7116,7 @@
    "cited_by": [
     "reform-california/2026-11-03"
    ],
-   "positions": 10,
+   "positions": 165,
    "publish": "public",
    "origin": "cited"
   },
@@ -7207,24 +7283,6 @@
    "origin": "cited"
   },
   {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article316911387.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
    "url": "https://www.sacbee.com/opinion/election-endorsements/article316956698.html",
    "cited_by": [
     "sacramento-bee/2026-11-03"
@@ -7270,15 +7328,6 @@
    "origin": "cited"
   },
   {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article317166989.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
    "url": "https://www.sacbee.com/opinion/election-endorsements/article317171649.html",
    "cited_by": [
     "sacramento-bee/2026-11-03"
@@ -7298,60 +7347,6 @@
   },
   {
    "url": "https://www.sacbee.com/opinion/election-endorsements/article317182902.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article317269166.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article317445836.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article317448027.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article317470188.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article317472706.html",
-   "cited_by": [
-    "sacramento-bee/2026-11-03"
-   ],
-   "positions": 1,
-   "publish": "withheld",
-   "origin": "cited"
-  },
-  {
-   "url": "https://www.sacbee.com/opinion/election-endorsements/article317475362.html",
    "cited_by": [
     "sacramento-bee/2026-11-03"
    ],
@@ -7808,7 +7803,7 @@
    "cited_by": [
     "chinese-american-democratic-club/2026-11-03"
    ],
-   "positions": 40,
+   "positions": 46,
    "publish": "public",
    "origin": "cited"
   },
@@ -8036,7 +8031,7 @@
    "cited_by": [
     "san-mateo-daily-journal/2026-11-03"
    ],
-   "positions": 32,
+   "positions": 60,
    "publish": "withheld",
    "origin": "cited"
   },
@@ -8046,6 +8041,24 @@
     "san-mateo-daily-journal/2026-11-03"
    ],
    "positions": 3,
+   "publish": "withheld",
+   "origin": "cited"
+  },
+  {
+   "url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measure-y/article_8a857ee4-5e2f-4bf7-920a-f92d09e47fcb.html",
+   "cited_by": [
+    "san-mateo-daily-journal/2026-11-03"
+   ],
+   "positions": 1,
+   "publish": "withheld",
+   "origin": "cited"
+  },
+  {
+   "url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measures-j-and-u-no-on-measures-l-and-aa/article_3df72153-8634-48dc-9781-ceecbd5c72e8.html",
+   "cited_by": [
+    "san-mateo-daily-journal/2026-11-03"
+   ],
+   "positions": 1,
    "publish": "withheld",
    "origin": "cited"
   },
@@ -8162,7 +8175,7 @@
    "cited_by": [
     "sf-league-of-pissed-off-voters/2026-11-03"
    ],
-   "positions": 51,
+   "positions": 67,
    "publish": "public",
    "origin": "cited"
   },
@@ -8396,9 +8409,10 @@
   {
    "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
    "cited_by": [
-    "santa-cruz-yimby/2026-11-03"
+    "santa-cruz-yimby/2026-11-03",
+    "yimby-action/2026-11-03"
    ],
-   "positions": 0,
+   "positions": 112,
    "publish": "public",
    "origin": "cited"
   }

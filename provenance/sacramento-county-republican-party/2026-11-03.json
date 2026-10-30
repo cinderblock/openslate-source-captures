@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sacramento-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.saccountygop.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.saccountygop.com/endorsed-candidates/",
+   "positions": 47,
+   "host": {
+    "match": "exact",
+    "host": "saccountygop.com",
+    "org_host": "saccountygop.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 803,
+    "captured_at": "2026-10-30T17:48:38.819Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.saccountygop.com/endorsed-candidates/",
+    "response_sha256": "3c654ae2845fed50948d82cc89a1cf5a37740f30765b71f90daa76102529c33e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 44,
+    "quoted_parts": 3,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.saccountygop.com/ballot-measures/",
+   "positions": 23,
+   "host": {
+    "match": "exact",
+    "host": "saccountygop.com",
+    "org_host": "saccountygop.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 802,
+    "captured_at": "2026-10-30T17:48:35.681Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.saccountygop.com/ballot-measures/",
+    "response_sha256": "a8eacc9f80f16515b0468dd3ac0b1f577e4e4d6acf4bfe320b644cf376337f17",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 9,
+    "quoted_parts": 14,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

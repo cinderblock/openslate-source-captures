@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sd-imperial-labor-council",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.unionyes.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.unionyes.org/2026-endorsements",
+   "positions": 116,
+   "host": {
+    "match": "exact",
+    "host": "unionyes.org",
+    "org_host": "unionyes.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 892,
+    "captured_at": "2026-10-30T17:48:57.302Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.unionyes.org/2026-endorsements",
+    "response_sha256": "fc77ac1d0630644c437e2f504b90215f3a7ffb121778cda0dbb01a06b6fdfbba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 20,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 96
+   }
+  }
+ ]
+}

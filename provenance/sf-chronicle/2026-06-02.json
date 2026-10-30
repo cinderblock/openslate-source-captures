@@ -1,0 +1,84 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-chronicle",
+ "election": "2026-06-02",
+ "mode": "scraped",
+ "org_uri": "https://www.sfchronicle.com/opinion/editorials/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
+   "positions": 16,
+   "host": {
+    "match": "exact",
+    "host": "sfchronicle.com",
+    "org_host": "sfchronicle.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 848,
+    "captured_at": "2026-10-30T17:48:46.190Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
+    "response_sha256": "607b1cf7a97b7eab2837b97b1fdd6b96dbe77901c27d5f9cc1f0ec760b9f3093",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 16
+   }
+  },
+  {
+   "url": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "ballotpedia.org",
+    "org_host": "sfchronicle.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 33,
+    "captured_at": "2026-10-30T17:47:05.659Z",
+    "status": 202,
+    "error": null,
+    "final_url": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
+    "response_sha256": "a6edfe7ae0278c02af94a07af56a202314d65d0e7bfb111f61f62717dbea314e",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 202"
+   }
+  }
+ ]
+}

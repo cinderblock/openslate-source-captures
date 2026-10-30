@@ -1,0 +1,149 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "santa-cruz-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://santacruzrepublicans.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://santacruzrepublicans.com/candidates/",
+   "positions": 12,
+   "host": {
+    "match": "exact",
+    "host": "santacruzrepublicans.com",
+    "org_host": "santacruzrepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 410,
+    "captured_at": "2026-10-30T17:47:43.913Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://santacruzrepublicans.com/candidates/",
+    "response_sha256": "93ff0460dca2fe94994c39ce769d34dffe0386314620b87918162fee8fcc740b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 12,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2-2/",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "santacruzrepublicans.com",
+    "org_host": "santacruzrepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 411,
+    "captured_at": "2026-10-30T17:47:46.627Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2-2/",
+    "response_sha256": "53ee54af92bec87e5448fc38a18e121a33b73a545135fa39c81ccfa12bed5390",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2/",
+   "positions": 15,
+   "host": {
+    "match": "exact",
+    "host": "santacruzrepublicans.com",
+    "org_host": "santacruzrepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 412,
+    "captured_at": "2026-10-30T17:47:48.786Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2/",
+    "response_sha256": "ca4643cc3fcbd9ffa9a65ebc618cdf9ab99b6945225cbe20c50c3225e193d1ca",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 14,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://santacruzrepublicans.com/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "santacruzrepublicans.com",
+    "org_host": "santacruzrepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 409,
+    "captured_at": "2026-10-30T17:47:42.308Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://santacruzrepublicans.com/",
+    "response_sha256": "e61cd7eb0fe092ba7fb02b7aacfc1b9d23f7ec0a589e6ae9df868b3e8ba20585",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

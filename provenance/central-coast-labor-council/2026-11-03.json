@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "central-coast-labor-council",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.centralcoastlabor.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.centralcoastlabor.org/2026-endorsements",
+   "positions": 77,
+   "host": {
+    "match": "exact",
+    "host": "centralcoastlabor.org",
+    "org_host": "centralcoastlabor.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 649,
+    "captured_at": "2026-10-30T17:48:07.122Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.centralcoastlabor.org/2026-endorsements",
+    "response_sha256": "c3657c5b4eac08e13cc6d38fc8994ea2f7794b9a80fcf8ee04eb19256b003143",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 77,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

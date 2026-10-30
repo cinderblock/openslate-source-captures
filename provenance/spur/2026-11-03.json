@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "spur",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.spur.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.spur.org/voter-guide/2026-11",
+   "positions": 25,
+   "host": {
+    "match": "exact",
+    "host": "spur.org",
+    "org_host": "spur.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 881,
+    "captured_at": "2026-10-30T17:48:54.660Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.spur.org/voter-guide/2026-11",
+    "response_sha256": "ef42d5c78802c2175dd852b5adb892a546a4f1979d5038903d99175db9306163",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 25
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "courage-california",
+ "election": "2026-06-02",
+ "mode": "scraped",
+ "org_uri": "https://couragecalifornia.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://couragecalifornia.org/2026-midterm-election-resources/",
+   "positions": 17,
+   "host": {
+    "match": "exact",
+    "host": "couragecalifornia.org",
+    "org_host": "couragecalifornia.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 73,
+    "captured_at": "2026-10-30T17:47:11.133Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://couragecalifornia.org/2026-midterm-election-resources/",
+    "response_sha256": "a0ebd398b4bd3dd338c51e44fa24fe59f4f40d29d8e7909d7f04e591e4392bd1",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 2,
+    "no_statement": 15
+   }
+  },
+  {
+   "url": "https://www.kpbs.org/news/politics/2026/05/06/2026-primary-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "kpbs.org",
+    "org_host": "couragecalifornia.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 692,
+    "captured_at": "2026-10-30T17:48:21.852Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+    "response_sha256": "6c48144cc604417d27f8b69648f8fd0230c299f18526a3395714746140e45641",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

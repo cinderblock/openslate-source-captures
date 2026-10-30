@@ -1,0 +1,153 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-mateo-daily-journal",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.smdailyjournal.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.smdailyjournal.com/opinion/editorials/daily-journal-endorsements-for-the-san-mateo-county-november-election/article_9e726e39-e27e-4b9b-ba42-5addaf7dab5b.html",
+   "positions": 60,
+   "host": {
+    "match": "exact",
+    "host": "smdailyjournal.com",
+    "org_host": "smdailyjournal.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 871,
+    "captured_at": "2026-10-30T17:48:50.721Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.smdailyjournal.com/opinion/editorials/daily-journal-endorsements-for-the-san-mateo-county-november-election/article_9e726e39-e27e-4b9b-ba42-5addaf7dab5b.html",
+    "response_sha256": "c6564288ace5ade31605fdd6df90b5378e83d8ead9546377fd81fc3a9bcf0970",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 403"
+   }
+  },
+  {
+   "url": "https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html",
+   "positions": 3,
+   "host": {
+    "match": "exact",
+    "host": "smdailyjournal.com",
+    "org_host": "smdailyjournal.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 872,
+    "captured_at": "2026-10-30T17:48:52.525Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html",
+    "response_sha256": "ef7b6318f7f8e58e620c7b0842648f779ceebba13d8600a4741291ca5b71aa97",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 403"
+   }
+  },
+  {
+   "url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measure-y/article_8a857ee4-5e2f-4bf7-920a-f92d09e47fcb.html",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "smdailyjournal.com",
+    "org_host": "smdailyjournal.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 873,
+    "captured_at": "2026-10-30T17:48:54.230Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measure-y/article_8a857ee4-5e2f-4bf7-920a-f92d09e47fcb.html",
+    "response_sha256": "ca2942e0b9a04ffa0725bc7446b42922afd058fbf4fbcec621b4be475c567af6",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 403"
+   }
+  },
+  {
+   "url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measures-j-and-u-no-on-measures-l-and-aa/article_3df72153-8634-48dc-9781-ceecbd5c72e8.html",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "smdailyjournal.com",
+    "org_host": "smdailyjournal.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 874,
+    "captured_at": "2026-10-30T17:48:55.988Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measures-j-and-u-no-on-measures-l-and-aa/article_3df72153-8634-48dc-9781-ceecbd5c72e8.html",
+    "response_sha256": "504cc1bcd11d5dccc1838c8c1186c291720322e789b0a388932b947ddfbf139f",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 403"
+   }
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sd-county-taxpayers-association",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf#page=72",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 822,
+    "captured_at": "2026-10-30T17:48:43.098Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf",
+    "response_sha256": "74e3dcd22bfd543d57846f877881461ff6405dae7c5005c70323902dce90e132",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf#page=89",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 823,
+    "captured_at": "2026-10-30T17:48:43.098Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf",
+    "response_sha256": "74e3dcd22bfd543d57846f877881461ff6405dae7c5005c70323902dce90e132",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-247.pdf#page=82",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 826,
+    "captured_at": "2026-10-30T17:48:46.556Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-247.pdf",
+    "response_sha256": "2e5ab7e286119f681891ea93a1f71786d183451cbf847a63ddd4853efb43ff03",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf#page=79",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 827,
+    "captured_at": "2026-10-30T17:48:48.308Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf",
+    "response_sha256": "b4d436d29fe823bb9ed419b90bcdcecd830243f1ef9a4206dadb4814db6da18e",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=80",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 829,
+    "captured_at": "2026-10-30T17:48:51.590Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
+    "response_sha256": "8e30543627051208b255551618426069bec9963c1bbd5ab7467701f28d5065cd",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=83",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 831,
+    "captured_at": "2026-10-30T17:48:51.590Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
+    "response_sha256": "8e30543627051208b255551618426069bec9963c1bbd5ab7467701f28d5065cd",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=87",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 832,
+    "captured_at": "2026-10-30T17:48:51.590Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
+    "response_sha256": "8e30543627051208b255551618426069bec9963c1bbd5ab7467701f28d5065cd",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-575.pdf#page=84",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 833,
+    "captured_at": "2026-10-30T17:48:53.284Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-575.pdf",
+    "response_sha256": "c0bccd588ee0df5ff9e6b3ff343d6eb307763950a72cb3ed35d89a943797116e",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-603.pdf#page=80",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 835,
+    "captured_at": "2026-10-30T17:48:56.952Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-603.pdf",
+    "response_sha256": "d76ff9a35d70c857126b6235b7673306a40328e8f1bdc4c5851c7517fa0a77c4",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

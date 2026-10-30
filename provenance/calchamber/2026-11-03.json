@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "calchamber",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.calchamber.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://advocacy.calchamber.com/alert/2026/09/calchamber-board-announces-positions-on-november-ballot-measures",
+   "positions": 10,
+   "host": {
+    "match": "subdomain",
+    "host": "advocacy.calchamber.com",
+    "org_host": "calchamber.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 23,
+    "captured_at": "2026-10-30T17:47:05.657Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://advocacy.calchamber.com/alert/2026/09/calchamber-board-announces-positions-on-november-ballot-measures",
+    "response_sha256": "852ee7b4f096a9960b9628554612971dc4c6c4b096450e1f274645fed549ac6b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 10,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

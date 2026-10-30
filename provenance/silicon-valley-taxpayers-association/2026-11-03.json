@@ -1,0 +1,248 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "silicon-valley-taxpayers-association",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/721_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 37,
+    "captured_at": "2026-10-30T17:47:07.387Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/721_md.json",
+    "response_sha256": "511752dad4a0c6921e656f4ebe2a8c7638664be165f6a374fad525fede95828a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/723_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 38,
+    "captured_at": "2026-10-30T17:47:09.208Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/723_md.json",
+    "response_sha256": "317ba03d98f6731f32a5c90c6895c850624bc8485d645bdd0d59e6ee58d67776",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/731_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 40,
+    "captured_at": "2026-10-30T17:47:12.687Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/731_md.json",
+    "response_sha256": "94055d00bf7d98d0746eb76abdcbcf9099c7aeaebcdf18764e893ddb232b1790",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/734_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 43,
+    "captured_at": "2026-10-30T17:47:17.915Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/734_md.json",
+    "response_sha256": "944dd42fefd9133de40505ba78843103550a46951fb5ea05231f792384b0f3ee",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/735_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 44,
+    "captured_at": "2026-10-30T17:47:19.671Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/735_md.json",
+    "response_sha256": "097366373d81f1411625090c66ea5278851f5d39d5bcb9ed75924e5bc654f118",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M104-Contest%20Code-7ArgAgainst-City%20of%20San%20Carlos%20Use%20Tax_Redacted%20%281%29.pdf",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "smcacre.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 435,
+    "captured_at": "2026-10-30T17:47:50.175Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M104-Contest%20Code-7ArgAgainst-City%20of%20San%20Carlos%20Use%20Tax_Redacted%20%281%29.pdf",
+    "response_sha256": "cb6d6846e2ddcab1cd92f68be65ef598f4a815e83d225c22026ce14c4087978c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-RebutArgInFavor-Belmont-Special-Tax_Redacted.pdf",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "smcacre.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 470,
+    "captured_at": "2026-10-30T17:48:51.180Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-RebutArgInFavor-Belmont-Special-Tax_Redacted.pdf",
+    "response_sha256": "85b21d23e9ddd19ca7db6bd9f0f745d8a5d6865ecd7bf38654fb9dd5c8598f88",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

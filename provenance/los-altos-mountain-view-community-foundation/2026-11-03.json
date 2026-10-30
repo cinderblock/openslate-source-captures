@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "los-altos-mountain-view-community-foundation",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/725_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 39,
+    "captured_at": "2026-10-30T17:47:10.941Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/725_md.json",
+    "response_sha256": "7edc96c533b1b8296c5d38dd35e1cf380782749612cdc0b724791218749c6e18",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "equality-california",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.eqca.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.eqca.org/elections/",
+   "positions": 224,
+   "host": {
+    "match": "exact",
+    "host": "eqca.org",
+    "org_host": "eqca.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 676,
+    "captured_at": "2026-10-30T17:48:17.398Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.eqca.org/elections/",
+    "response_sha256": "4368da280284f02fac9b57c1b33c90b72777218b093bf4bd5a98df300b8c6cc8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 224,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

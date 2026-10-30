@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "act-pasadena",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.actpasadena.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.actpasadena.org/endorsements",
+   "positions": 38,
+   "host": {
+    "match": "exact",
+    "host": "actpasadena.org",
+    "org_host": "actpasadena.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 621,
+    "captured_at": "2026-10-30T17:48:01.406Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.actpasadena.org/endorsements",
+    "response_sha256": "b6ea44aa1ef8646bc8d41bcab141e8f5ecbf436de7c960e9e53612067ba6872d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 5,
+    "quoted_parts": 30,
+    "unanchored": 3,
+    "no_statement": 0
+   }
+  }
+ ]
+}

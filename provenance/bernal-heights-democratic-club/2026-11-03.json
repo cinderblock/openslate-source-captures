@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "bernal-heights-democratic-club",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://bhdemocrats.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
+   "positions": 47,
+   "host": {
+    "match": "exact",
+    "host": "bhdemocrats.org",
+    "org_host": "bhdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 34,
+    "captured_at": "2026-10-30T17:47:05.659Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
+    "response_sha256": "b52b7b8afe1a349fa3d65fbee5963eb3ef3bbc9c9dec21ccc7dc64ce61928b6f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 47,
+    "no_statement": 0
+   }
+  }
+ ]
+}

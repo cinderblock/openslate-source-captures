@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "mission-local",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://missionlocal.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://missionlocal.org/sitemap_index.xml",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "missionlocal.org",
+    "org_host": "missionlocal.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 354,
+    "captured_at": "2026-10-30T17:47:28.926Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://missionlocal.org/sitemap_index.xml",
+    "response_sha256": "345d6ae3a89de40b5776b491597b063ebb4cd9b57fae456f1a042365de60c726",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

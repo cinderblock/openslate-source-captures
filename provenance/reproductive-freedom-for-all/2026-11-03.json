@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "reproductive-freedom-for-all",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://reproductivefreedomforall.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://reproductivefreedomforall.org/endorsements/",
+   "positions": 44,
+   "host": {
+    "match": "exact",
+    "host": "reproductivefreedomforall.org",
+    "org_host": "reproductivefreedomforall.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 402,
+    "captured_at": "2026-10-30T17:47:38.666Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://reproductivefreedomforall.org/elections/",
+    "response_sha256": "d55df4623a185e019c6c1510183daa98e5859e18b4d0a9e292ec5e288330b691",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 44,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

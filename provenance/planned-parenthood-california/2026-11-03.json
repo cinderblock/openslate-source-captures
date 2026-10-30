@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "planned-parenthood-california",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/voter-guide",
+   "positions": 18,
+   "host": {
+    "match": "exact",
+    "host": "plannedparenthoodaction.org",
+    "org_host": "plannedparenthoodaction.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 729,
+    "captured_at": "2026-10-30T17:48:33.212Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/voter-guide",
+    "response_sha256": "d0ea84eaac20bdf92bb2c3eef54545b530661715896963fefab3f601f526d665",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 17,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

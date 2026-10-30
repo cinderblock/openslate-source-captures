@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-building-trades",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://cabuildingtrades.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cabuildingtrades.org/2026-general-election-endorsements/",
+   "positions": 20,
+   "host": {
+    "match": "exact",
+    "host": "cabuildingtrades.org",
+    "org_host": "cabuildingtrades.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 48,
+    "captured_at": "2026-10-30T17:47:07.396Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cabuildingtrades.org/2026-general-election-endorsements/",
+    "response_sha256": "fa444471f3111a84c6b281b0b8fd4d712784046aa2a873dd75f8bd4f7c77398c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 8,
+    "quoted_parts": 12,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

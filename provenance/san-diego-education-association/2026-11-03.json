@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-diego-education-association",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf#page=79",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 827,
+    "captured_at": "2026-10-30T17:48:48.308Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf",
+    "response_sha256": "b4d436d29fe823bb9ed419b90bcdcecd830243f1ef9a4206dadb4814db6da18e",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

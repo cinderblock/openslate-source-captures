@@ -1,0 +1,117 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "aipac-pac",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://aipacpac.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://candidates.aipacpac.org/page/featured",
+   "positions": 25,
+   "host": {
+    "match": "subdomain",
+    "host": "candidates.aipacpac.org",
+    "org_host": "aipacpac.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 65,
+    "captured_at": "2026-10-30T17:47:10.889Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://candidates.aipacpac.org/page/featured",
+    "response_sha256": "3bba286bd28efc890f3f5dc2a4ba718373aec033f15cad4c2ccdfe656e8090ce",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 25,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
+   "positions": 0,
+   "host": {
+    "match": "subdomain",
+    "host": "candidates.aipacpac.org",
+    "org_host": "aipacpac.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 64,
+    "captured_at": "2026-10-30T17:47:08.793Z",
+    "status": 500,
+    "error": null,
+    "final_url": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
+    "response_sha256": "ec6a5d81287108defeaa2c4c60441caca00792ef2455ea27e42badce1c0a7d14",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 500"
+   }
+  },
+  {
+   "url": "https://www.aipac.org/politics",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "aipac.org",
+    "org_host": "aipacpac.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 623,
+    "captured_at": "2026-10-30T17:48:03.200Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.aipac.org/politics",
+    "response_sha256": "ad49ad020e4488ec9834c27f02e04de818027d1a2a842a70c6d6563907a41674",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

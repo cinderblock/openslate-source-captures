@@ -1,0 +1,3119 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "dsa-los-angeles",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://dsa-la.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://voterguide.dsa-la.org/",
+   "positions": 0,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 503,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://dsa-la.org/voter-guide/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 133,
+    "captured_at": "2026-10-30T17:47:13.895Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "2e634669a847e03f86a466772086d4807fb25b1712d64bcf6257a5fe72ff98a6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#la-mayor",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 562,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#la-city-attorney",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 557,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#la-city-council-3",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 558,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#la-city-council-9",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 559,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#la-county-sheriff",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 560,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#laccd-2",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 563,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#laccd-4",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 564,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#laccd-6",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 565,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#la-county-superior-court",
+   "positions": 4,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 561,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 3,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-appellate-justices",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 520,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-board-of-equalization-3",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 521,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#santa-clarita-council-2",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 568,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#santa-clarita-council-4",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 569,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#santa-clarita-council-5",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 570,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#william-s-hart-union-2",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 594,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#william-s-hart-union-5",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 595,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#saugus-union",
+   "positions": 3,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 573,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 3,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#santa-clarita-valley-water",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 571,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#lynwood-wide",
+   "positions": 3,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 566,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 3,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#huntington-park-council",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 553,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#cudahy-wide",
+   "positions": 2,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 552,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 2,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#west-hollywood-wide",
+   "positions": 3,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 593,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 3,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#alhambra-council-1",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 504,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#alhambra-council-5",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 505,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#monterey-park-council-5",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 567,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#inglewood-usd-1",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 554,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#inglewood-usd-2",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 555,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#inglewood-usd-3",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 556,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-inglewood-bb",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 507,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-inglewood-at",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 506,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-inglewood-mm",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 508,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#west-covina-council-2",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 590,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#west-covina-council-4",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 591,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#west-covina-council-5",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 592,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#burbank-wide",
+   "positions": 3,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 519,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#santa-monica-wide",
+   "positions": 3,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 572,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 3,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-county-a",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 517,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-county-e",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 518,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-te",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 516,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-la",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 511,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-pl",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 512,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-ee",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 509,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-prk",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 513,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-prt",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 514,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-sc",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 515,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ballot-measure-la-city-fd",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 510,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-senate-20",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 546,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-senate-22",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 547,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-senate-24",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 548,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-senate-26",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 549,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-senate-28",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 550,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-senate-30",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 551,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-34",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 522,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-40",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 524,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-44",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 528,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-51",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 532,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-55",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 536,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-61",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 539,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-66",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 543,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-39",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 523,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-41",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 525,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-42",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 526,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-43",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 527,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-46",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 529,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-48",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 530,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-49",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 531,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-52",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 533,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-53",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 534,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-54",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 535,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-56",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 537,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-57",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 538,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-62",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 540,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-64",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 541,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-65",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 542,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-67",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 544,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#ca-state-assembly-69",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 545,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-29",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 577,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-34",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 581,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-37",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 584,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-26",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 574,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-27",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 575,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-28",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 576,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-30",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 578,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-31",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 579,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-32",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 580,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-35",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 582,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-36",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 583,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-38",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 585,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-41",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 586,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-42",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 587,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-43",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 588,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.dsa-la.org/#us-congress-44",
+   "positions": 1,
+   "host": {
+    "match": "subdomain",
+    "host": "voterguide.dsa-la.org",
+    "org_host": "dsa-la.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 589,
+    "captured_at": "2026-10-30T17:47:54.940Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.dsa-la.org/",
+    "response_sha256": "5470d43bc83eea17cd989269665fac7492ece73b27adacb8ac647422ec1a89ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

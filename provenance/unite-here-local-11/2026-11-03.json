@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "unite-here-local-11",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.unitehere11.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+   "positions": 209,
+   "host": {
+    "match": "exact",
+    "host": "unitehere11.org",
+    "org_host": "unitehere11.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 894,
+    "captured_at": "2026-10-30T17:48:57.805Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+    "response_sha256": "6aacf2af23651cc19a343681b4dfb3f73a9d2bcea2e86c5244ce71f2a3fe390b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 60,
+    "quoted_parts": 148,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

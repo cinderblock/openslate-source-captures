@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-diego-union-tribune",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sandiegouniontribune.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sandiegouniontribune.com/2026/10/02/the-u-t-editorial-boards-endorsements/",
+   "positions": 36,
+   "host": {
+    "match": "exact",
+    "host": "sandiegouniontribune.com",
+    "org_host": "sandiegouniontribune.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 807,
+    "captured_at": "2026-10-30T17:48:38.179Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sandiegouniontribune.com/2026/10/02/the-u-t-editorial-boards-endorsements/",
+    "response_sha256": "ed4c712e219c28223fd7703e730954d9c70d0eff7a4a831ec6b2f922eeefcedd",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 36,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sandiegouniontribune.com/opinion/endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sandiegouniontribune.com",
+    "org_host": "sandiegouniontribune.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 809,
+    "captured_at": "2026-10-30T17:48:43.432Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sandiegouniontribune.com/opinion/endorsements/",
+    "response_sha256": "58278c7ab5365770855a2ef8b93f86a6338daed80352b4eb9994689b0317ac20",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

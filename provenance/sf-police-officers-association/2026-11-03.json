@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-police-officers-association",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sfpoa.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfpoa.org/mayor-lurie-joined-by-firefighters-and-police-officers-in-strong-opposition-to-proposition-i/",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "sfpoa.org",
+    "org_host": "sfpoa.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 427,
+    "captured_at": "2026-10-30T17:47:47.678Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfpoa.org/mayor-lurie-joined-by-firefighters-and-police-officers-in-strong-opposition-to-proposition-i/",
+    "response_sha256": "e9f62a5c9f4558342e74634b5358dd648d3fc07ee1d767141c434759a8d27d71",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-yimby",
+ "election": "2026-06-02",
+ "mode": "scraped",
+ "org_uri": "https://sfyimby.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfyimby.org/endorsements/2026-primary-election/",
+   "positions": 10,
+   "host": {
+    "match": "exact",
+    "host": "sfyimby.org",
+    "org_host": "sfyimby.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 433,
+    "captured_at": "2026-10-30T17:47:48.990Z",
+    "status": 404,
+    "error": null,
+    "final_url": "https://sfyimby.org/endorsements/2026-primary-election/",
+    "response_sha256": "7e6a9111146e7516520598fb2a2d896e713d84fab2c7b2d23b1466616f45a947",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 10,
+    "reason": "no good capture: 404"
+   }
+  }
+ ]
+}

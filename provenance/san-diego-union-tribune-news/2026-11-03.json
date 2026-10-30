@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-diego-union-tribune-news",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sandiegouniontribune.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sandiegouniontribune.com/news/politics/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sandiegouniontribune.com",
+    "org_host": "sandiegouniontribune.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 808,
+    "captured_at": "2026-10-30T17:48:39.854Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sandiegouniontribune.com/news/politics/",
+    "response_sha256": "5fdb5bdb623ac190dd0e09552854773a981b8a666d834be2d3f153eceef20640",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

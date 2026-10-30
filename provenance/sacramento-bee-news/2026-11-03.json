@@ -1,0 +1,131 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sacramento-bee-news",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sacbee.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sacbee.com/news/politics-government/election/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sacbee.com",
+    "org_host": "sacbee.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 787,
+    "captured_at": "2026-10-30T17:49:06.509Z",
+    "status": null,
+    "error": "timeout: no data",
+    "final_url": "https://www.sacbee.com/news/politics-government/election/",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": null,
+     "dom_sha256": "4f16d8dd82d33aa1247c631726e4e987336dab5d892dabe83ac298baacfd5974"
+    }
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: timeout: no data"
+   }
+  },
+  {
+   "url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sacbee.com",
+    "org_host": "sacbee.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 786,
+    "captured_at": "2026-10-30T17:48:35.007Z",
+    "status": null,
+    "error": "timeout: no data",
+    "final_url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": null,
+     "dom_sha256": "1e8729fc538fbd0902aa3c26731773a9fb1d0cab122fa8842f4f42785e0a943f"
+    }
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: timeout: no data"
+   }
+  },
+  {
+   "url": "https://www.sacbee.com/search/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sacbee.com",
+    "org_host": "sacbee.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 801,
+    "captured_at": "2026-10-30T17:56:27.555Z",
+    "status": null,
+    "error": "timeout: no data",
+    "final_url": "https://www.sacbee.com/search/",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": null,
+     "dom_sha256": "3bdb68d8f25f274f502738962a448c72e6abab9d2113cc1d4f5b937edec8005f"
+    }
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: timeout: no data"
+   }
+  }
+ ]
+}

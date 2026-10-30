@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "consumer-watchdog",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://consumerwatchdog.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://consumerwatchdog.org/accountability/our-2026-ca-initiative-picks/",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "consumerwatchdog.org",
+    "org_host": "consumerwatchdog.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 71,
+    "captured_at": "2026-10-30T17:47:10.360Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://consumerwatchdog.org/accountability/our-2026-ca-initiative-picks/",
+    "response_sha256": "acec588ae2edd02c03678e534ef071129c99c1d1ed86f46518aafd2f55712b20",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 14,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

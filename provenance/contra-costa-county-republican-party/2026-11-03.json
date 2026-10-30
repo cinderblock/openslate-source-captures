@@ -1,0 +1,152 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "contra-costa-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.cocorepublicans.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.cocorepublicans.com/endorsements",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "cocorepublicans.com",
+    "org_host": "cocorepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 655,
+    "captured_at": "2026-10-30T17:48:09.012Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.cocorepublicans.com/endorsements",
+    "response_sha256": "77c9a76308014018e662818dc8aec2f7a1ac1c148cbaf1b0359907b37714f071",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 13,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/IMG_2317-1920w.PNG",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "irp.cdn-website.com",
+    "org_host": "cocorepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 187,
+    "captured_at": "2026-10-30T17:47:20.249Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/IMG_2317-1920w.PNG",
+    "response_sha256": "1220e3859333879f1596d0991f1a6ceee0971fa34db83c7df9599ab01348d222",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/positions-1920w.png",
+   "positions": 15,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "irp.cdn-website.com",
+    "org_host": "cocorepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 189,
+    "captured_at": "2026-10-30T17:47:24.539Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/positions-1920w.png",
+    "response_sha256": "e6f1a6e98f75dbfe57d648546ec2dcbdc5eeb4707fc1c42515ef63c6f2976043",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/Local+Recommendations+-+Nov+2026-1e648819-1920w.png",
+   "positions": 27,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "irp.cdn-website.com",
+    "org_host": "cocorepublicans.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 188,
+    "captured_at": "2026-10-30T17:47:22.425Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/Local+Recommendations+-+Nov+2026-1e648819-1920w.png",
+    "response_sha256": "83df5b197be616191c7b170cc91309b727e80823621594b00f5e3caff24595b9",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

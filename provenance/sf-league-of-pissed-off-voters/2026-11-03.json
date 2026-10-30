@@ -1,0 +1,109 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-league-of-pissed-off-voters",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.theleaguesf.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.theleaguesf.org/",
+   "positions": 67,
+   "host": {
+    "match": "exact",
+    "host": "theleaguesf.org",
+    "org_host": "theleaguesf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 887,
+    "captured_at": "2026-10-30T17:48:56.244Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.theleaguesf.org/",
+    "response_sha256": "89f45ed3ed91d1bb59ec61ec3b5606bc9023312231ff4f9c4fb5c8b9901fc03b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
+    "run": "2026-10-30T1731Z",
+    "index": 53,
+    "captured_at": "2026-10-30T17:31:17.831Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.theleaguesf.org/",
+    "response_sha256": "3479e48fa3b041cc51aa8b64cee9c4ace5c7803382165abbd3bfd9ef3360bf72",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped"
+    ]
+   },
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 55,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 12
+   }
+  },
+  {
+   "url": "https://www.theleaguesf.org/november_2026_endorsements",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "theleaguesf.org",
+    "org_host": "theleaguesf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 889,
+    "captured_at": "2026-10-30T17:48:59.543Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.theleaguesf.org/november_2026_endorsements",
+    "response_sha256": "ac4470382c0c66efc5401d1c81872dad2019105b48af3e25f51a5e4f90b2226c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
+    "run": "2026-10-30T1731Z",
+    "index": 55,
+    "captured_at": "2026-10-30T17:31:21.886Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.theleaguesf.org/november_2026_endorsements",
+    "response_sha256": "bdd315b547d968406549a5505a9b45c938b6e9a80a5d4fb09b94f6a4a4c82099",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped"
+    ]
+   },
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

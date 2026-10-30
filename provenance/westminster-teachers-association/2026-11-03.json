@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "westminster-teachers-association",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf#page=6",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ocvote.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 366,
+    "captured_at": "2026-10-30T17:47:38.571Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf",
+    "response_sha256": "3d062bb2558c29c600c490439ae2b6b4828f5c3bbc015b9ad2bfff246f166c0e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

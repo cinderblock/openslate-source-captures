@@ -1,0 +1,84 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "california-building-industry-association",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://cbia.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cbia.org/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "cbia.org",
+    "org_host": "cbia.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 67,
+    "captured_at": "2026-10-30T17:47:09.154Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cbia.org/",
+    "response_sha256": "1e1941c26c6f3464bd57590e5fb41e79c342e2ba89cfde42025da74d65802afe",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cbia.org",
+    "org_host": "cbia.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 68,
+    "captured_at": "2026-10-30T17:47:10.933Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
+    "response_sha256": "74f751f1cf984b7fb188af159e50d69754f908fa14231bd5b5f5b53acae9526d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

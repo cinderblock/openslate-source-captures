@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "streets-for-all",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.streetsforall.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.streetsforall.org/2026",
+   "positions": 23,
+   "host": {
+    "match": "exact",
+    "host": "streetsforall.org",
+    "org_host": "streetsforall.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 883,
+    "captured_at": "2026-10-30T17:48:54.421Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.streetsforall.org/2026",
+    "response_sha256": "07a53cda9fe305409f6dd959455cc9d83634e196a6aabcc26cc5bdd256a709b4",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 23,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

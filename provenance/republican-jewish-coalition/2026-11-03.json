@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "republican-jewish-coalition",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.rjchq.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.rjcpac.com/",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "rjcpac.com",
+    "org_host": "rjchq.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 784,
+    "captured_at": "2026-10-30T17:48:34.378Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.rjcpac.com/",
+    "response_sha256": "5fc997a7ac8005679eeb2d3d0629ea7ac617dd10aee5eb25e510b7af6d19f8a8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.rjcpac.com/candidate/david-valadao/",
+   "positions": 1,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "rjcpac.com",
+    "org_host": "rjchq.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 785,
+    "captured_at": "2026-10-30T17:48:36.349Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.rjcpac.com/candidate/david-valadao/",
+    "response_sha256": "00df007961fe95dcb3b86cff88ce7b6a5715bd0c1596fbd81e4732e10f42e3d5",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

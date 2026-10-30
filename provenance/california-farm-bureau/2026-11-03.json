@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "california-farm-bureau",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.cfbf.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.agalert.com/california-ag-news/archives/october-7-2026/2026-voter-guide/",
+   "positions": 25,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "agalert.com",
+    "org_host": "cfbf.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 622,
+    "captured_at": "2026-10-30T17:48:02.742Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.agalert.com/california-ag-news/archives/october-7-2026/2026-voter-guide/",
+    "response_sha256": "3eba74edf6b133eab9dd5b72458b5d8c403ca856b5f4d1b1e90bb05c82209592",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 25,
+    "no_statement": 0
+   }
+  }
+ ]
+}

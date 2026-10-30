@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-mateo-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://smgop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://smgop.org/voter-guide",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "smgop.org",
+    "org_host": "smgop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 475,
+    "captured_at": "2026-10-30T17:47:52.835Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://smgop.org/voter-guide",
+    "response_sha256": "3038cdd5f9ebcb64a196109e7d755096a8bd54d4ef681e0661c36eb741793f0e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://smgop.org/s/SMGOP-November-2026-Election-Guide-v2.pdf",
+   "positions": 59,
+   "host": {
+    "match": "exact",
+    "host": "smgop.org",
+    "org_host": "smgop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 474,
+    "captured_at": "2026-10-30T17:47:51.310Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static1.squarespace.com/static/61b3f88ed47f01182bac0e3f/t/6ad0411fde229b645a49bd2d/1792033055749/SMGOP+++November+2026+Election+Guide+v2.pdf",
+    "response_sha256": "f74b05dd50166b71da5bed89f98442994ab3da3a72664602fc7220b0cbbf2f79",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 57,
+    "quoted_parts": 0,
+    "unanchored": 2,
+    "no_statement": 0
+   }
+  }
+ ]
+}

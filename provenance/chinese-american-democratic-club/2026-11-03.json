@@ -1,0 +1,109 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "chinese-american-democratic-club",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sfcadc.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sfcadc.org/cadc_11_2026_recommendations",
+   "positions": 46,
+   "host": {
+    "match": "exact",
+    "host": "sfcadc.org",
+    "org_host": "sfcadc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 846,
+    "captured_at": "2026-10-30T17:48:45.457Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.sfcadc.org/cadc_11_2026_recommendations",
+    "response_sha256": "bae68eb3ecb1b939aeab0dc37229fe75e8841df8b74162d0ef481fb8cb96815d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
+    "run": "2026-10-30T1731Z",
+    "index": 47,
+    "captured_at": "2026-10-30T17:31:15.992Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfcadc.org/cadc_11_2026_recommendations",
+    "response_sha256": "c34d53ccb41919f0306ca3a5f4dedaf4506099648d134a3f9047ddcaaa8bc62e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped"
+    ]
+   },
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 31,
+    "quoted_parts": 6,
+    "unanchored": 0,
+    "no_statement": 9
+   }
+  },
+  {
+   "url": "https://www.sfcadc.org/endorsements",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sfcadc.org",
+    "org_host": "sfcadc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 847,
+    "captured_at": "2026-10-30T17:48:47.241Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.sfcadc.org/endorsements",
+    "response_sha256": "158ee74e2427a5e821c56714cc47123771c3b6a107c3b5d207623666f3ac5c80",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
+    "run": "2026-10-30T1731Z",
+    "index": 48,
+    "captured_at": "2026-10-30T17:31:18.141Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfcadc.org/endorsements",
+    "response_sha256": "7794158e6a89ad7afe46b4f1edc26cdce678f7017044704f03dd0717a7a63671",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped"
+    ]
+   },
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

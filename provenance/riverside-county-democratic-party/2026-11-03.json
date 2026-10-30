@@ -1,0 +1,118 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "riverside-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.riversidecountydemocrats.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.riversidecountydemocrats.org/endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "riversidecountydemocrats.org",
+    "org_host": "riversidecountydemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 772,
+    "captured_at": "2026-10-30T17:48:32.813Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.riversidecountydemocrats.org/endorsements/",
+    "response_sha256": "76858eda6d670418af5e1dbfbb2a641200e32e475c3b1b98987adbd773aab00a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/RCDP-Voter-Guide-Candidates.jpg",
+   "positions": 77,
+   "host": {
+    "match": "exact",
+    "host": "riversidecountydemocrats.org",
+    "org_host": "riversidecountydemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 774,
+    "captured_at": "2026-10-30T17:48:36.152Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/RCDP-Voter-Guide-Candidates.jpg",
+    "response_sha256": "dfca5f7ab934b5d26ecf0381cffc39bb19b20bc21bd603de3ae2ca2b03f5c2af",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/Propositions.png",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "riversidecountydemocrats.org",
+    "org_host": "riversidecountydemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 773,
+    "captured_at": "2026-10-30T17:48:34.589Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/Propositions.png",
+    "response_sha256": "126141072441296b09d5052ab46b3d7111225fbe18bf342a6349a867dc750256",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

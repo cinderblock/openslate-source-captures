@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "grow-sf",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://growsf.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/",
+   "positions": 66,
+   "host": {
+    "match": "exact",
+    "host": "growsf.org",
+    "org_host": "growsf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 176,
+    "captured_at": "2026-10-30T17:47:19.971Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://growsf.org/voter-guide/",
+    "response_sha256": "1833d4f17ec13e112387142dfa89db24f922df3467a10dfd4d07da383a33de17",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 66,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

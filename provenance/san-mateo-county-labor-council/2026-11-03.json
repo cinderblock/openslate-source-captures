@@ -1,0 +1,149 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-mateo-county-labor-council",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.sanmateolaborcouncil.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sanmateolaborcouncil.org/endorsements",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sanmateolaborcouncil.org",
+    "org_host": "sanmateolaborcouncil.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 810,
+    "captured_at": "2026-10-30T17:48:39.336Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sanmateolaborcouncil.org/endorsements",
+    "response_sha256": "deaed9581423db22587c629a87968002c9785589e8b44195e5ea6cd1de9dae03",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sanmateolaborcouncil.org/s/2026G-State-and-Federal-Endorsements.docx",
+   "positions": 25,
+   "host": {
+    "match": "exact",
+    "host": "sanmateolaborcouncil.org",
+    "org_host": "sanmateolaborcouncil.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 812,
+    "captured_at": "2026-10-30T17:48:43.209Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0a8df59f1c70c578aa78/1789659789888/2026G+State+and+Federal+Endorsements+.docx",
+    "response_sha256": "ec3ae14c69abe28ba192c73293f672462005e3fdc35b37871681adc268be5f3e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 25,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sanmateolaborcouncil.org/s/SMCLC-2026G-Endorsements_Slate-Card.docx",
+   "positions": 35,
+   "host": {
+    "match": "exact",
+    "host": "sanmateolaborcouncil.org",
+    "org_host": "sanmateolaborcouncil.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 813,
+    "captured_at": "2026-10-30T17:48:44.904Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0985ba187d6767429e88/1789659525935/SMCLC+2026G+Endorsements_Slate+Card.docx",
+    "response_sha256": "b61fb3fb1b6ae7a721f7d13b0a332d96afaae05eb0d9603cf2c8f6d66f274fc3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 35,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sanmateolaborcouncil.org/s/2026G-SMC-Ballot-Measure-Endorsements.docx",
+   "positions": 20,
+   "host": {
+    "match": "exact",
+    "host": "sanmateolaborcouncil.org",
+    "org_host": "sanmateolaborcouncil.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 811,
+    "captured_at": "2026-10-30T17:48:41.526Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0763f00586778c3b25cc/1789658979359/2026G+SMC+Ballot+Measure+Endorsements.docx",
+    "response_sha256": "582eaab97a2723f562d5d6907f83e22b77d4f992ef79ce496a1bf9d336ec38f7",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 20,
+    "no_statement": 0
+   }
+  }
+ ]
+}

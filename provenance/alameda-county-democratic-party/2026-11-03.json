@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "alameda-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://acdems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://acdems.org/endorsements-3/",
+   "positions": 152,
+   "host": {
+    "match": "exact",
+    "host": "acdems.org",
+    "org_host": "acdems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 1,
+    "captured_at": "2026-10-30T17:47:05.655Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://acdems.org/endorsements-3/",
+    "response_sha256": "0fec58174396b7bbff07e46fa809bf3add67f92ed2009bf5b4d9036b762777ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 110,
+    "quoted_parts": 42,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

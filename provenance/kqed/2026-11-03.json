@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "kqed",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.kqed.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.kqed.org/propfest",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "kqed.org",
+    "org_host": "kqed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 695,
+    "captured_at": "2026-10-30T17:48:24.831Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.kqed.org/propfest",
+    "response_sha256": "5b543406220fbbc0289f0107a1b5f308bdf37e1153d1ca67f9f83dfef22bde2e",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.kqed.org/news/tag/election-2026",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "kqed.org",
+    "org_host": "kqed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 694,
+    "captured_at": "2026-10-30T17:48:22.996Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.kqed.org/news/tag/election-2026",
+    "response_sha256": "7b12c48e1266c13404db50a73ee6ec92be70ea3c13ef1161a136666086fdb5f3",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

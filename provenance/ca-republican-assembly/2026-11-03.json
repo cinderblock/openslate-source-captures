@@ -1,0 +1,248 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-republican-assembly",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://cragop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cragop.org/statewide-offices/",
+   "positions": 7,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 83,
+    "captured_at": "2026-10-30T17:47:25.569Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cragop.org/statewide-offices/",
+    "response_sha256": "b77c0704b148c3110a2910ed1412143ad885b41709c31e85662b08696c4a31a3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 7
+   }
+  },
+  {
+   "url": "https://cragop.org/statewide-ballot-measures/",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 82,
+    "captured_at": "2026-10-30T17:47:23.980Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cragop.org/statewide-ballot-measures/",
+    "response_sha256": "703f8f146dc6245eb9913a91216eb500d102eeacccaae372b4288a82276e4462",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://cragop.org/state-board-of-equalization/",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 80,
+    "captured_at": "2026-10-30T17:47:19.198Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cragop.org/state-board-of-equalization/",
+    "response_sha256": "e26544c1dad8bfaa8fc5aaf3dc03deb0b9d226dca2df5e476f2377e8406f8194",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 2
+   }
+  },
+  {
+   "url": "https://cragop.org/house-of-representatives/",
+   "positions": 22,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 78,
+    "captured_at": "2026-10-30T17:47:15.966Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cragop.org/house-of-representatives/",
+    "response_sha256": "6985d2e76ac7b12396234c564ff8677792675fc6229d1351e2a89f21b701acdc",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 22
+   }
+  },
+  {
+   "url": "https://cragop.org/state-senate/",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 81,
+    "captured_at": "2026-10-30T17:47:21.015Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cragop.org/state-senate/",
+    "response_sha256": "dc03b0a006561928f2ab97fdeef99e79ebb6aea6abc92daa147e15b239de970f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 14
+   }
+  },
+  {
+   "url": "https://cragop.org/state-assembly/",
+   "positions": 33,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 79,
+    "captured_at": "2026-10-30T17:47:17.576Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cragop.org/state-assembly/",
+    "response_sha256": "bd074e2d6ebae97cd2ce747085d5743b2bfac2218ba6ae03660998b15407dc9e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 33
+   }
+  },
+  {
+   "url": "https://cragop.org/wp-content/uploads/2026/10/Updated-10-01-26-November-2026-General-Election-Endorsements-.pdf",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 84,
+    "captured_at": "2026-10-30T17:47:27.183Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cragop.org/wp-content/uploads/2026/10/Updated-10-01-26-November-2026-General-Election-Endorsements-.pdf",
+    "response_sha256": "b18ce420bffd05f81b15be35c7272cb18352decf043340c1956296a50d256f8c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

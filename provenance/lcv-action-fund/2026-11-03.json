@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "lcv-action-fund",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.lcv.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.lcv.org/endorsements/?state=california&cycle=2026&result_page=2",
+   "positions": 27,
+   "host": {
+    "match": "exact",
+    "host": "lcv.org",
+    "org_host": "lcv.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 705,
+    "captured_at": "2026-10-30T17:48:24.890Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.lcv.org/endorsements/?state=california&cycle=2026&result_page=2",
+    "response_sha256": "88a089ed5b3c79d0081d3e3c40bff3ca9900ffc284d988b9ada3304ea82072c0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 27,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

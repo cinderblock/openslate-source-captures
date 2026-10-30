@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "alameda-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.alamedagop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.alamedagop.org/candidates",
+   "positions": 8,
+   "host": {
+    "match": "exact",
+    "host": "alamedagop.org",
+    "org_host": "alamedagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 624,
+    "captured_at": "2026-10-30T17:48:03.410Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.alamedagop.org/candidates",
+    "response_sha256": "833a86b083120f3f674da8b87b2e59fe1030853ddea7473e544ce1acf892a4be",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 8,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.alamedagop.org/posts/2026-10-11-voter-guide-statewide",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "alamedagop.org",
+    "org_host": "alamedagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 626,
+    "captured_at": "2026-10-30T17:48:06.780Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.alamedagop.org/posts/2026-10-11-voter-guide-statewide",
+    "response_sha256": "97bab0d5411cdda08cc9911fc4052c68c1a840f7d98e61abf5cc14773133b5ce",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.alamedagop.org/posts/2026-10-11-county-voter-guide",
+   "positions": 3,
+   "host": {
+    "match": "exact",
+    "host": "alamedagop.org",
+    "org_host": "alamedagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 625,
+    "captured_at": "2026-10-30T17:48:04.985Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.alamedagop.org/posts/2026-10-11-county-voter-guide",
+    "response_sha256": "dfaf2fa7ed2c34e2be699536610a2bff0023ff7a6c1c79e61831a2a21a5bab3e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 3,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "la-county-registrar",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.lavote.gov/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://apps.lavote.gov/candidate-statements/",
+   "positions": 701,
+   "host": {
+    "match": "subdomain",
+    "host": "apps.lavote.gov",
+    "org_host": "lavote.gov"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 30,
+    "captured_at": "2026-10-30T17:47:05.659Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://apps.lavote.gov/candidate-statements/",
+    "response_sha256": "612a39fcc96c5b125e5b3ca7e9400c48b2ec287a42bc5e0e0842708b2ad7bf26",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 701
+   }
+  },
+  {
+   "url": "https://isb.lavote.gov/",
+   "positions": 136,
+   "host": {
+    "match": "subdomain",
+    "host": "isb.lavote.gov",
+    "org_host": "lavote.gov"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 196,
+    "captured_at": "2026-10-30T17:47:21.387Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://isb.lavote.gov/",
+    "response_sha256": "13cdecaddf45736d77efff27eab4f36c9dde1610b745ef137ced2da3b3498b86",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 136
+   }
+  }
+ ]
+}

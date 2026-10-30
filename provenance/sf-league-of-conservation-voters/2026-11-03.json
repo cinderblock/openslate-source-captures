@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-league-of-conservation-voters",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sflcv.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sflcv.org/endorsements",
+   "positions": 20,
+   "host": {
+    "match": "exact",
+    "host": "sflcv.org",
+    "org_host": "sflcv.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 854,
+    "captured_at": "2026-10-30T17:48:46.465Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sflcv.org/endorsements",
+    "response_sha256": "a24ef3c035651e06ca24a9bb926f0b2b79189cb48377187c9f2a5183a057558d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 20,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

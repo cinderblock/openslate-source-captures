@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "calmatters",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://calmatters.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://calmatters.org/california-voter-guide-2026/propositions/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "calmatters.org",
+    "org_host": "calmatters.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 62,
+    "captured_at": "2026-10-30T17:47:08.606Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calmatters.org/california-voter-guide-2026/propositions/",
+    "response_sha256": "a3139ec6dccc14b88598456f24ed6e02afc96d2e4d812a945727bc1d33bcddf5",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://calmatters.org/category/politics/elections/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "calmatters.org",
+    "org_host": "calmatters.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 63,
+    "captured_at": "2026-10-30T17:47:10.312Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calmatters.org/category/politics/elections/",
+    "response_sha256": "ac02e0910e53cd1a5d77adf8fcc0f66d5eece32339340b21f1b6dc6ad0aa5c86",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

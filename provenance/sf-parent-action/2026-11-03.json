@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-parent-action",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sfparentaction.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfparentaction.org/endorsements-2026-nov/",
+   "positions": 3,
+   "host": {
+    "match": "exact",
+    "host": "sfparentaction.org",
+    "org_host": "sfparentaction.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 426,
+    "captured_at": "2026-10-30T17:47:47.219Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfparentaction.org/endorsements-2026-nov/",
+    "response_sha256": "2ffd1aeb4ba74db4ccd26a02f13d47eea96ad1fa58f7a5db23488a621999124d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 2,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

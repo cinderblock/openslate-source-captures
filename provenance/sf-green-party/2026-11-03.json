@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-green-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sfgreenparty.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfgreenparty.org/endorsements/123-november-2026-endorsements",
+   "positions": 34,
+   "host": {
+    "match": "exact",
+    "host": "sfgreenparty.org",
+    "org_host": "sfgreenparty.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 425,
+    "captured_at": "2026-10-30T17:47:46.745Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfgreenparty.org/endorsements/123-november-2026-endorsements",
+    "response_sha256": "a52d92030031222000d9b12e5a4b0481f328c094fee077556231da9dd8778372",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 32,
+    "quoted_parts": 0,
+    "unanchored": 2,
+    "no_statement": 0
+   }
+  }
+ ]
+}

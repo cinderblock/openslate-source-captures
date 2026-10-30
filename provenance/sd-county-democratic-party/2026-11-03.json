@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sd-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sddemocrats.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sddemocrats.org/candidates.html",
+   "positions": 148,
+   "host": {
+    "match": "exact",
+    "host": "sddemocrats.org",
+    "org_host": "sddemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 817,
+    "captured_at": "2026-10-30T17:48:41.448Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sddemocrats.org/candidates.html",
+    "response_sha256": "db3506cb3846654ef7bdd6843e1e79eaa6afc160e57720e252a41c191c676f8f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 148
+   }
+  },
+  {
+   "url": "https://www.sddemocrats.org/propositions--ballot-measures.html",
+   "positions": 26,
+   "host": {
+    "match": "exact",
+    "host": "sddemocrats.org",
+    "org_host": "sddemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 818,
+    "captured_at": "2026-10-30T17:48:43.212Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sddemocrats.org/propositions--ballot-measures.html",
+    "response_sha256": "1ac495e94d86e7ece701835c0420b896af01b8ccc0f4146cef3ef6b3b48f8f31",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 26
+   }
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "dsa-san-francisco",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://dsasf.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://dsasf.org/dsa-sf-november-2026-voter-guide/",
+   "positions": 27,
+   "host": {
+    "match": "exact",
+    "host": "dsasf.org",
+    "org_host": "dsasf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 134,
+    "captured_at": "2026-10-30T17:47:12.938Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://dsasf.org/dsa-sf-november-2026-voter-guide/",
+    "response_sha256": "2f4b4f13a94a8a55e96da95b881020ecc295103c7bf164e1d0adcc92d63d3d86",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 17,
+    "quoted_parts": 6,
+    "unanchored": 4,
+    "no_statement": 0
+   }
+  }
+ ]
+}

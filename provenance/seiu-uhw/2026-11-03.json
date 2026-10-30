@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "seiu-uhw",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "voterguide.sos.ca.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 603,
+    "captured_at": "2026-10-30T17:48:06.429Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "response_sha256": "6357d7a4446f062d58deab41199535d5aa5a55c98f8833ed0b99aa3892761d16",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "voterguide.sos.ca.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 604,
+    "captured_at": "2026-10-30T17:48:07.948Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "response_sha256": "6efc825953a6427e5a4df28b6e14cb493fd9ede08815f85151054f2e58ce61ae",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "voterguide.sos.ca.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 605,
+    "captured_at": "2026-10-30T17:48:09.575Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "response_sha256": "9cd92f11bc9cc08698e89a795ee8e073fd20bb2ec4b0b078b895247f1daa03ab",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

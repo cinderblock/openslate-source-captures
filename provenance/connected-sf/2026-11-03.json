@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "connected-sf",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.connectedsf.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.connectedsf.com/2026-voter-guide",
+   "positions": 33,
+   "host": {
+    "match": "exact",
+    "host": "connectedsf.com",
+    "org_host": "connectedsf.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 656,
+    "captured_at": "2026-10-30T17:48:10.804Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.connectedsf.com/2026-voter-guide",
+    "response_sha256": "565505db5de24f43b7b8657be47c06f3f06cd2446a050f34311616bb5cef5b87",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 32,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

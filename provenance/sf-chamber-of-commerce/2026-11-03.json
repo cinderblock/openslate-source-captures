@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-chamber-of-commerce",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sfchamber.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfchamber.com/november-2026-voter-guide/",
+   "positions": 16,
+   "host": {
+    "match": "exact",
+    "host": "sfchamber.com",
+    "org_host": "sfchamber.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 422,
+    "captured_at": "2026-10-30T17:47:45.507Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfchamber.com/november-2026-voter-guide/",
+    "response_sha256": "fcd108c106c74e1bd01078831f6cf874fcc5b258efee42d6a442d38c271fcb72",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 15,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

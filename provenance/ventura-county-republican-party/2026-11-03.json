@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ventura-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.venturagop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.venturagop.org/2026-general-election-voter-guides",
+   "positions": 78,
+   "host": {
+    "match": "exact",
+    "host": "venturagop.org",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 909,
+    "captured_at": "2026-10-30T17:48:58.747Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.venturagop.org/2026-general-election-voter-guides",
+    "response_sha256": "cf00b5c9dc25bf0980709320a663f68aefdecaf39d3a1f81a196682a7d3e3440",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 78,
+    "no_statement": 0
+   }
+  }
+ ]
+}

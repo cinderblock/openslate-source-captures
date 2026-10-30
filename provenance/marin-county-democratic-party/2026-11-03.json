@@ -1,0 +1,182 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "marin-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://marindemocrats.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://marindemocrats.org/2026-november-election-endorsements/",
+   "positions": 33,
+   "host": {
+    "match": "exact",
+    "host": "marindemocrats.org",
+    "org_host": "marindemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 302,
+    "captured_at": "2026-10-30T17:47:27.726Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://marindemocrats.org/2026-november-election-endorsements/",
+    "response_sha256": "58f5e4cd5a77cd66d3eacaf6a1ac141164f3fc9569a4e9684c3d3aa7ad665df0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 33,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://marindemocrats.org/measure-n-miller-creek-school-district/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "marindemocrats.org",
+    "org_host": "marindemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 304,
+    "captured_at": "2026-10-30T17:47:31.141Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://marindemocrats.org/measure-n-miller-creek-school-district/",
+    "response_sha256": "c17d64a51872c474ffc6dfd4bbf7a7ade4a90b2fe6d555ac7ec4c8aa4c3fcacb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://marindemocrats.org/measure-p/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "marindemocrats.org",
+    "org_host": "marindemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 305,
+    "captured_at": "2026-10-30T17:47:32.688Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://marindemocrats.org/measure-p/",
+    "response_sha256": "0512f3e53c55bb0aec43084cb7bae09500aea7dedc5ec5141aaef8c406b97c55",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://marindemocrats.org/measure-w-san-rafael-services/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "marindemocrats.org",
+    "org_host": "marindemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 306,
+    "captured_at": "2026-10-30T17:47:34.236Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://marindemocrats.org/measure-w-san-rafael-services/",
+    "response_sha256": "55c70634f6362f366660cdacffe9f9d6b920d179c26aa8ef1457e11e9759e170",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://marindemocrats.org/measure-cc-critical-care-for-marin/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "marindemocrats.org",
+    "org_host": "marindemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 303,
+    "captured_at": "2026-10-30T17:47:29.579Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://marindemocrats.org/measure-cc-critical-care-for-marin/",
+    "response_sha256": "91f4c16c23754d225caa320b10cfbad728f48b5b7d305bd4477fdd8afbb97718",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

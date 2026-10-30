@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sacramento-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sacdems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sacdems.org/endorsements/",
+   "positions": 71,
+   "host": {
+    "match": "exact",
+    "host": "sacdems.org",
+    "org_host": "sacdems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 804,
+    "captured_at": "2026-10-30T17:48:36.372Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sacdems.org/endorsements/",
+    "response_sha256": "2fae157ec19d547a79c24dd593e606eb997680569308a89ba4a988ca7fb072ae",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 71,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

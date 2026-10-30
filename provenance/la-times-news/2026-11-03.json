@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "la-times-news",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.latimes.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-general-election-voter-guide",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "latimes.com",
+    "org_host": "latimes.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 701,
+    "captured_at": "2026-10-30T17:48:26.414Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.latimes.com/california/story/2026-10-01/2026-california-general-election-voter-guide",
+    "response_sha256": "37fca7cfb6145958babc2e9c671e18619137b0a002c1b60d7ac5b36a4f87dd78",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.latimes.com/california",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "latimes.com",
+    "org_host": "latimes.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 700,
+    "captured_at": "2026-10-30T17:48:24.836Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.latimes.com/california",
+    "response_sha256": "2da57017f0d5c3ec23e4fb41f8e8f797cdf3cede38afa9240ab3ec9f95285b75",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.latimes.com/sitemaps/sitemap-202610.xml",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "latimes.com",
+    "org_host": "latimes.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 703,
+    "captured_at": "2026-10-30T17:48:29.504Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.latimes.com/sitemaps/sitemap-202610.xml",
+    "response_sha256": "fcaed7bd70f9c14451e17b1856ed6ef8ba48df1fa264e418dd015e7ea07d0fd0",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

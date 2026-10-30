@@ -1,0 +1,389 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "la-county-federation-of-labor",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://thelafed.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://thelafed.org/resource/lalaborvoterguide/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 500,
+    "captured_at": "2026-10-30T17:48:12.463Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/resource/lalaborvoterguide/",
+    "response_sha256": "0c15175c536b4d5fbdc85dd273b9ec1ab9a25a818ca18455c556f022cb74233f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.jpg",
+   "positions": 8,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 491,
+    "captured_at": "2026-10-30T17:47:54.782Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.jpg",
+    "response_sha256": "4288c8286fca6530d192bd2b35591d044d016fa5b067b91080cc3b9f31e374a6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 8,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.png",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 492,
+    "captured_at": "2026-10-30T17:47:56.929Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.png",
+    "response_sha256": "8aed0fee79b713c210d02d4e16a4ce52ea23ed7bcb1cc57e15610bdbb7007f83",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-2.jpg",
+   "positions": 44,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 493,
+    "captured_at": "2026-10-30T17:47:59.085Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-2.jpg",
+    "response_sha256": "77139cf91dc152f6ff74dcb442b3274a5d74c6c14f408eea655152ea94a16446",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 44,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-3-1-scaled.jpg",
+   "positions": 18,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 494,
+    "captured_at": "2026-10-30T17:48:01.000Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-3-1-scaled.jpg",
+    "response_sha256": "0a1827a1629642ea707bfce8c07b156ff32583f96e65a4fb206ac499951aaeae",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 18,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-4.jpg",
+   "positions": 20,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 495,
+    "captured_at": "2026-10-30T17:48:02.799Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-4.jpg",
+    "response_sha256": "3ab168ce25b908a0b8bf762ad67389f1a52c19f6c61d40daa4e6bb5056edbea8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 20,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-5.jpg",
+   "positions": 22,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 496,
+    "captured_at": "2026-10-30T17:48:04.981Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-5.jpg",
+    "response_sha256": "71f48c41ba46630f04eca413a680ba202714fabe7c09f406219418d5b0bea0c9",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 22,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-6-1.jpg",
+   "positions": 28,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 497,
+    "captured_at": "2026-10-30T17:48:06.761Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-6-1.jpg",
+    "response_sha256": "45fa3dac10cf5620e486cb86d6c47991b1eb465913015a058e0b39d4e05da2bf",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 28,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-8.jpg",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 498,
+    "captured_at": "2026-10-30T17:48:08.701Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-8.jpg",
+    "response_sha256": "dd16dc5528d05db8d98c683b23edc84b762af7649e060a16c841170032611ef1",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 14,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-9.jpg",
+   "positions": 13,
+   "host": {
+    "match": "exact",
+    "host": "thelafed.org",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 499,
+    "captured_at": "2026-10-30T17:48:10.665Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-9.jpg",
+    "response_sha256": "cc8b1a4a9c649caa4dafe3d3edf4da5892c9e2da56762ea3c0667996b1f8107e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 13,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "drive.google.com",
+    "org_host": "thelafed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 131,
+    "captured_at": "2026-10-30T17:47:12.671Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing",
+    "response_sha256": "648fab615ec081fb2a737e7a39125eef398feb63ccd295e3ee99e66d26f5182e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

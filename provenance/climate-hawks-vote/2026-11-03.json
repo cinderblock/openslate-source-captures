@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "climate-hawks-vote",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://climatehawksvote.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://climatehawksvote.com/endorsements/endorsements-2026/",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "climatehawksvote.com",
+    "org_host": "climatehawksvote.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 70,
+    "captured_at": "2026-10-30T17:47:10.314Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://climatehawksvote.com/endorsements/endorsements-2026/",
+    "response_sha256": "f0cbea4e518c7e9148530f5d42168120d3e1be7ff451be19e983ed69e4abf818",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 2,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

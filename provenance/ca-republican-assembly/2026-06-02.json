@@ -1,0 +1,85 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-republican-assembly",
+ "election": "2026-06-02",
+ "mode": "scraped",
+ "org_uri": "https://cragop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cragop.org/2026-primary-election-endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 76,
+    "captured_at": "2026-10-30T17:47:11.391Z",
+    "status": 404,
+    "error": null,
+    "final_url": "https://cragop.org/2026-primary-election-endorsements/",
+    "response_sha256": "f41f0b13dee702a58357390af811c6c5dbdc76cba683183d964a9c723cff7aff",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 404"
+   }
+  },
+  {
+   "url": "https://cragop.org/2026/03/21/california-republican-assembly-june-2026-primary-election-endorsements/",
+   "positions": 94,
+   "host": {
+    "match": "exact",
+    "host": "cragop.org",
+    "org_host": "cragop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 77,
+    "captured_at": "2026-10-30T17:47:13.831Z",
+    "status": 404,
+    "error": null,
+    "final_url": "https://cragop.org/2026/03/21/california-republican-assembly-june-2026-primary-election-endorsements/",
+    "response_sha256": "c35bb21e4dabe15e092365cc4c8f0194e442a945348f70466db88d90efd7068e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 94,
+    "reason": "no good capture: 404"
+   }
+  }
+ ]
+}

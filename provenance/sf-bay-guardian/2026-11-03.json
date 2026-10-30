@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-bay-guardian",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sfbg.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
+   "positions": 42,
+   "host": {
+    "match": "exact",
+    "host": "sfbg.com",
+    "org_host": "sfbg.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 843,
+    "captured_at": "2026-10-30T17:48:46.458Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
+    "response_sha256": "8a6dc8acc9648d58208e9ca8dd120ed4197dfd53cca4f647bd356f864f5588ce",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 42,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sfbg.com/2026/10/07/guardian-clean-slate-guide-take-this-to-the-polls-on-nov-3-2026/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sfbg.com",
+    "org_host": "sfbg.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 844,
+    "captured_at": "2026-10-30T17:48:48.587Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfbg.com/2026/10/07/guardian-clean-slate-guide-take-this-to-the-polls-on-nov-3-2026/",
+    "response_sha256": "e5f6e0b529874b3f53557b926a6712f57337a3b19137cf8a0cb92b618cb28b7c",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

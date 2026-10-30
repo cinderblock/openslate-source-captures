@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "la-area-chamber-of-commerce",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://lachamber.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://lachamber.com/2026-voter-guide",
+   "positions": 25,
+   "host": {
+    "match": "exact",
+    "host": "lachamber.com",
+    "org_host": "lachamber.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 230,
+    "captured_at": "2026-10-30T17:47:22.622Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lachamber.com/2026-voter-guide",
+    "response_sha256": "07998c5c42c9254f3d3208c9e6aa2f3e2ce9336cf69be6f1c5f7d5ee6a9b018a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 15,
+    "quoted_parts": 10,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://lachamber.com/clientuploads/pdf/2026/26_Voter-Guide.pdf",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "lachamber.com",
+    "org_host": "lachamber.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 232,
+    "captured_at": "2026-10-30T17:47:26.496Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lachamber.com/clientuploads/pdf/2026/26_Voter-Guide.pdf",
+    "response_sha256": "eb7aa7c079f8af8cbcb1111dbc07cfe7577f753f55e1397ad10aacec1d37c7ab",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://lachamber.com/blog/2026/10/08/the-business-voice/los-angeles-let-s-turn-out-in-numbers/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "lachamber.com",
+    "org_host": "lachamber.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 231,
+    "captured_at": "2026-10-30T17:47:24.745Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lachamber.com/blog/2026/10/08/the-business-voice/los-angeles-let-s-turn-out-in-numbers/",
+    "response_sha256": "be39fe05701953a2f5854a2873e08495e337bcd09ed52c8f58ccbd7ffe5fa46d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

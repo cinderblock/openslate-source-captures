@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-standard",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sfstandard.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfstandard.com/politics/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sfstandard.com",
+    "org_host": "sfstandard.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 428,
+    "captured_at": "2026-10-30T17:47:48.011Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfstandard.com/politics/",
+    "response_sha256": "105e9f75565118488a7fb6eddb77440cf1c7fa320a6b3a673a6683f4fe43cdbe",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://sfstandard.com/sitemaps/sitemap-index.xml/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sfstandard.com",
+    "org_host": "sfstandard.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 429,
+    "captured_at": "2026-10-30T17:47:49.988Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfstandard.com/sitemaps/sitemap-index.xml/",
+    "response_sha256": "06b48bb96c33f8712cccd590a806f05715f70729088452dfd6601298d9c8c4b3",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

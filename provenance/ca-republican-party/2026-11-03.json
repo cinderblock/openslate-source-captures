@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-republican-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://cagop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cagop.org/endorsements/",
+   "positions": 139,
+   "host": {
+    "match": "exact",
+    "host": "cagop.org",
+    "org_host": "cagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 53,
+    "captured_at": "2026-10-30T17:47:07.557Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cagop.org/endorsements/",
+    "response_sha256": "00f594489520d54478d9d16c42b34a2b2e3a62afd11058b39f1c2e66e2aba8e2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 125
+   }
+  },
+  {
+   "url": "https://cagop.org/wp-content/uploads/2026/10/CRP-2026G-Statewide-Voter-Guide.pdf",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cagop.org",
+    "org_host": "cagop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 54,
+    "captured_at": "2026-10-30T17:47:09.321Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cagop.org/wp-content/uploads/2026/10/CRP-2026G-Statewide-Voter-Guide.pdf",
+    "response_sha256": "a874e6f4fcba2917284deb340c9db21947f6ab97b072bc98a5efd53f068d7dcc",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

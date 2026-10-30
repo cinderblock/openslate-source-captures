@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "blueprint-sf",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sfblueprint.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sfblueprint.org/advocacy/november-2026-voter-guide",
+   "positions": 17,
+   "host": {
+    "match": "exact",
+    "host": "sfblueprint.org",
+    "org_host": "sfblueprint.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 845,
+    "captured_at": "2026-10-30T17:48:44.834Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfblueprint.org/advocacy/november-2026-voter-guide",
+    "response_sha256": "ef8a94d743588d2d3abe0013807e16b2ae9cbb9ce61eccdb8ee057811b4cf571",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 17,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "cdn.prod.website-files.com",
+    "org_host": "sfblueprint.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 69,
+    "captured_at": "2026-10-30T17:47:09.690Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
+    "response_sha256": "2b5445762fdfff96ddbcd5818d03cbf0b2a2751b6acb5f40bc55680f5031b709",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

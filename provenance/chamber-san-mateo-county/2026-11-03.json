@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "chamber-san-mateo-county",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "smcacre.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 437,
+    "captured_at": "2026-10-30T17:47:53.670Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf",
+    "response_sha256": "59f4cc96b826d7888478e9d32780f7580a6c47c3e78b0dd70fb2286f196109a0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

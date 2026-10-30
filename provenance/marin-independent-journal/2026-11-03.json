@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "marin-independent-journal",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.marinij.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.marinij.com/2026/10/16/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
+   "positions": 33,
+   "host": {
+    "match": "exact",
+    "host": "marinij.com",
+    "org_host": "marinij.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 707,
+    "captured_at": "2026-10-30T17:48:25.462Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
+    "response_sha256": "7449f1f3cd2e101f35ef580ff9c0444980ef869e40f2efe8a1db6ba4fe858260",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 33,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "marinij.com",
+    "org_host": "marinij.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 708,
+    "captured_at": "2026-10-30T17:48:27.354Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
+    "response_sha256": "d535a09dd138b751eecb50e67383bb0c436860ca36b54e37971deb28d4035350",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

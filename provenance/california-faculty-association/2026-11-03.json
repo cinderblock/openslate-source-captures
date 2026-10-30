@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "california-faculty-association",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.calfac.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.calfac.org/politics/endorsements/",
+   "positions": 110,
+   "host": {
+    "match": "exact",
+    "host": "calfac.org",
+    "org_host": "calfac.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 646,
+    "captured_at": "2026-10-30T17:48:05.448Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.calfac.org/politics/endorsements/",
+    "response_sha256": "825a283c8cd72eadfbaa44d9ecf8844170445d1829d73ad6102fa86a692dca57",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 110,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

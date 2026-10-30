@@ -1,0 +1,215 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "crime-victims-united",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.crimevictimsunited.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.crimevictimsunited.com/endorsements",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "crimevictimsunited.com",
+    "org_host": "crimevictimsunited.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 657,
+    "captured_at": "2026-10-30T17:48:10.907Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.crimevictimsunited.com/endorsements",
+    "response_sha256": "d8e4cfb6eb885809a6d014947d27817171ab621389215e2538111094cc4911cb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.crimevictimsunited.com/endorsements/-",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "crimevictimsunited.com",
+    "org_host": "crimevictimsunited.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 658,
+    "captured_at": "2026-10-30T17:48:12.637Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.crimevictimsunited.com/endorsements/-",
+    "response_sha256": "1065f042f39384e559c29babd0c20ae5394e06c1bd3e35b1941c1b2cd5022797",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.crimevictimsunited.com/endorsements/Blog%20Post%20Title%20One-3zaa9-zlxng-67tfc-38lgm",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "crimevictimsunited.com",
+    "org_host": "crimevictimsunited.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 659,
+    "captured_at": "2026-10-30T17:48:14.322Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.crimevictimsunited.com/endorsements/Blog%20Post%20Title%20One-3zaa9-zlxng-67tfc-38lgm",
+    "response_sha256": "687177e48c5493b22316b7df9509602d5a305bae0bc04de7d57fb6f95184af7b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.crimevictimsunited.com/endorsements/blog-post-title-three-y3peb-4lwnz-5pkhf-t79gs",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "crimevictimsunited.com",
+    "org_host": "crimevictimsunited.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 660,
+    "captured_at": "2026-10-30T17:48:16.003Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.crimevictimsunited.com/endorsements/blog-post-title-three-y3peb-4lwnz-5pkhf-t79gs",
+    "response_sha256": "1c5b9cfb1e7b3cd529dcf576702f131132169587ece508c489c734498e4e2357",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.crimevictimsunited.com/endorsements/blog-post-title-two-t5my5-k4xmd-67jzh-2rzsp",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "crimevictimsunited.com",
+    "org_host": "crimevictimsunited.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 661,
+    "captured_at": "2026-10-30T17:48:17.728Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.crimevictimsunited.com/endorsements/blog-post-title-two-t5my5-k4xmd-67jzh-2rzsp",
+    "response_sha256": "33d919659208fcb018147f0b804f13dd25156bf708a612c015b8c15b4219cee8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.crimevictimsunited.com/endorsements/t3j02nfo6wbn71i8sikfi11608vcik",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "crimevictimsunited.com",
+    "org_host": "crimevictimsunited.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 662,
+    "captured_at": "2026-10-30T17:48:19.413Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.crimevictimsunited.com/endorsements/t3j02nfo6wbn71i8sikfi11608vcik",
+    "response_sha256": "639ed0b47d66ccbd5396bbfb8b022050f5ad7830cc052e6e2ffd3f9c9cf0440e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

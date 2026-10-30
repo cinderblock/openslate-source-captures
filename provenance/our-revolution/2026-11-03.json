@@ -1,0 +1,578 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "our-revolution",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://ourrevolution.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ourrevolution.com/our-champions/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 386,
+    "captured_at": "2026-10-30T17:47:48.504Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/our-champions/",
+    "response_sha256": "f24b378e25bbb46f0ead5d6116a6ede18cb382c724ecf9052aaf38ab6fa1ecc4",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/ca-house-senate/",
+   "positions": 7,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 378,
+    "captured_at": "2026-10-30T17:47:35.712Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/ca-house-senate/",
+    "response_sha256": "16a76f5052cf9b16758a4c58c820336a0d73ff974b533c883de8836ed19caa89",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 6,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/progressives-building-local-power-across-california/",
+   "positions": 4,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 388,
+    "captured_at": "2026-10-30T17:47:51.654Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/progressives-building-local-power-across-california/",
+    "response_sha256": "d6b4d7f1d1cc97d83aa196633fdfbc163f67df2d006db81c3583d6295c5bc674",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 4,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/our-revolution-endorses-mai-vang/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 387,
+    "captured_at": "2026-10-30T17:47:50.085Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/our-revolution-endorses-mai-vang/",
+    "response_sha256": "fb8dbc11d3885befed6936c41d6803d4e2c86e38543d9d0aca9dcc5cc071ded8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/connie-chan-for-congress-in-ca-11/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 379,
+    "captured_at": "2026-10-30T17:47:37.306Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/connie-chan-for-congress-in-ca-11/",
+    "response_sha256": "fa9aaa5f941310d39c0f5f8c10104292e4ad719899e7ff1a771b856389d4a47c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/lateefah-simon-for-re-election-in-ca-12/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 384,
+    "captured_at": "2026-10-30T17:47:45.305Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/lateefah-simon-for-re-election-in-ca-12/",
+    "response_sha256": "74a79612a2d43818d96cab6f8d7e0b13d0c8159ae9282ceea8ba9ffb5f8560f6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/aisha-wahab-for-congress-ca-14/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 376,
+    "captured_at": "2026-10-30T17:47:32.418Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/aisha-wahab-for-congress-ca-14/",
+    "response_sha256": "eef8a757cfb5395889a0b42c42a8e5806fea77c086f0a1f5e28f468d09db52ae",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/ro-khanna-for-re-election-to-congress/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 390,
+    "captured_at": "2026-10-30T17:47:54.845Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/ro-khanna-for-re-election-to-congress/",
+    "response_sha256": "05d558bd1120230ab8238444cf961b5de5cff69355ea873a55ccd0ce967dd5d3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/randy-villegas-for-u-s-congress-in-california/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 389,
+    "captured_at": "2026-10-30T17:47:53.276Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/randy-villegas-for-u-s-congress-in-california/",
+    "response_sha256": "210b6edff9231f62d104ce3f4e112f555a8383dce89ba3c92e145004a330f780",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/angela-gonzales-torres-for-congress-ca-34/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 377,
+    "captured_at": "2026-10-30T17:47:34.076Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/angela-gonzales-torres-for-congress-ca-34/",
+    "response_sha256": "e4b9a57ae98f946c0b51fd215ef4b44aa50ff7f263a80b801d24474a2b936097",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/jane-kim-for-california-insurance-commissioner/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 381,
+    "captured_at": "2026-10-30T17:47:40.543Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/jane-kim-for-california-insurance-commissioner/",
+    "response_sha256": "e1bd045afbafe79c6d912833fe6961eb2e01a5fce9f856d5e9d7bcc2e4cb8eb9",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/sarah-rascon-for-california-state-senate-sd-26/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 391,
+    "captured_at": "2026-10-30T17:47:56.437Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/sarah-rascon-for-california-state-senate-sd-26/",
+    "response_sha256": "36052f7e822160472fb10606491fad2a65b4f694fc56b5967acf1437e4357d2e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/jessie-lopez-for-california-state-assembly-district-68/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 382,
+    "captured_at": "2026-10-30T17:47:42.168Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/jessie-lopez-for-california-state-assembly-district-68/",
+    "response_sha256": "bc28438fed788b71af46e21bc6a812a1f366a871e8f155a9cdf2c9c7b7a10a71",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/nithya-raman-for-mayor-of-los-angeles/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 385,
+    "captured_at": "2026-10-30T17:47:46.886Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/nithya-raman-for-mayor-of-los-angeles/",
+    "response_sha256": "d6cd1162053e4f78f9eec1a9b3e89f1c82f3e4ed51710c1fda14f962fe2545fd",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/estuardo-mazariegos-for-la-city-council-d-9/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 380,
+    "captured_at": "2026-10-30T17:47:38.901Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/estuardo-mazariegos-for-la-city-council-d-9/",
+    "response_sha256": "a38542cef5a8be58e42a3f561b500427a26154a9fca9d6753384c477b9a1c845",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/jocelyn-joz-sida-for-mayor-of-fontana/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 383,
+    "captured_at": "2026-10-30T17:47:43.737Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/jocelyn-joz-sida-for-mayor-of-fontana/",
+    "response_sha256": "2283db6a2844b119d62fc82641ddbc4663abe63993f0b158e4fc07ab073c2efa",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ourrevolution.com/torres-walker-and-wilson-for-antioch-city-council/",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "ourrevolution.com",
+    "org_host": "ourrevolution.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 392,
+    "captured_at": "2026-10-30T17:47:58.029Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ourrevolution.com/torres-walker-and-wilson-for-antioch-city-council/",
+    "response_sha256": "a6eee8a8a088728cdfc4d8c18c110ebb1111951e1a3313ed51ea8bbf0714ddea",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 2,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

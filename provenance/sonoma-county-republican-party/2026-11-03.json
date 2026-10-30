@@ -1,0 +1,118 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sonoma-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.sonomacountygop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sonomacountygop.org/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sonomacountygop.org",
+    "org_host": "sonomacountygop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 875,
+    "captured_at": "2026-10-30T17:48:50.868Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sonomacountygop.org/",
+    "response_sha256": "35c9dc5b2f67cf18bc8e8927e9e9154a6163dfccba4270501ab60da1a4fda5fd",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sonomacountygop.org/s/cc_images/teaserbox_908396352.PNG?t=1791321085",
+   "positions": 11,
+   "host": {
+    "match": "exact",
+    "host": "sonomacountygop.org",
+    "org_host": "sonomacountygop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 876,
+    "captured_at": "2026-10-30T17:48:53.068Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sonomacountygop.org/s/cc_images/teaserbox_908396352.PNG?t=1791321085",
+    "response_sha256": "7afa7002fd70ce04c85035c6142aa934cb0e1d92cfd5c4dc5af8a4ee6142f8f3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://www.sonomacountygop.org/s/cc_images/teaserbox_908396353.PNG?t=1791321072",
+   "positions": 24,
+   "host": {
+    "match": "exact",
+    "host": "sonomacountygop.org",
+    "org_host": "sonomacountygop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 877,
+    "captured_at": "2026-10-30T17:48:54.871Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sonomacountygop.org/s/cc_images/teaserbox_908396353.PNG?t=1791321072",
+    "response_sha256": "fd860c4f2e3bc6d164380a05d81450722d1b72a6714dbf0864a4d01d91168aef",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

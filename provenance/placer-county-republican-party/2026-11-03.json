@@ -1,0 +1,117 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "placer-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://placergop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://placergop.org/endorsements/",
+   "positions": 84,
+   "host": {
+    "match": "exact",
+    "host": "placergop.org",
+    "org_host": "placergop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 398,
+    "captured_at": "2026-10-30T17:47:37.638Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://placergop.org/endorsements/",
+    "response_sha256": "1a5fb0fa6620e72f423fff171353c39115ebb1d7fc16065e49a1d81f4c3eef54",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 77,
+    "quoted_parts": 7,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://placergop.org/wp-content/uploads/PlacerGOP2026-VoterGuide.pdf",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "placergop.org",
+    "org_host": "placergop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 400,
+    "captured_at": "2026-10-30T17:47:41.896Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://placergop.org/wp-content/uploads/PlacerGOP2026-VoterGuide.pdf",
+    "response_sha256": "a4ed60ae7b002114244e5b0c4d634bc7d77dab870a4df94bdc9f6d29afcea770",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://placergop.org/wp-content/uploads/Judges2026.jpeg",
+   "positions": 9,
+   "host": {
+    "match": "exact",
+    "host": "placergop.org",
+    "org_host": "placergop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 399,
+    "captured_at": "2026-10-30T17:47:40.351Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://placergop.org/wp-content/uploads/Judges2026.jpeg",
+    "response_sha256": "db564e721a7cd765fb6c007a26908336776c02927137cc81ee34a860c97e4708",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

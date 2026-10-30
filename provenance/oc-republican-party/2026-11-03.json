@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "oc-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://ocgop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ocgop.org/endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "ocgop.org",
+    "org_host": "ocgop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 360,
+    "captured_at": "2026-10-30T17:47:36.203Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://linkjar.to/voter-guide-2026/",
+    "response_sha256": "b9729d5fc5f19fc591d8c16696c736210173b2516b1f93bccd78406058fb9df1",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://linkjar.to/voter-guide-2026/",
+   "positions": 118,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "linkjar.to",
+    "org_host": "ocgop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 296,
+    "captured_at": "2026-10-30T17:47:26.001Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://linkjar.to/voter-guide-2026/",
+    "response_sha256": "59117d7e6a62fa94f5a163efd74ad08b0aa25484016eb8b1c0af4331108a6991",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 118,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ocgop.org/november-election/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "ocgop.org",
+    "org_host": "ocgop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 361,
+    "captured_at": "2026-10-30T17:47:37.939Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ocgop.org/november-election/",
+    "response_sha256": "3ecac94a0c6f907f7e860d8c18b986188d1fe41e2503740e8de0b45e85764c03",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

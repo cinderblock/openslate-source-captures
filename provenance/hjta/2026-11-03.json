@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "hjta",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.hjta.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.hjta.org/2026votingguide/",
+   "positions": 87,
+   "host": {
+    "match": "exact",
+    "host": "hjta.org",
+    "org_host": "hjta.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 682,
+    "captured_at": "2026-10-30T17:48:19.680Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.hjta.org/2026votingguide/",
+    "response_sha256": "a6f87ca66226a90b1dea491487081b89dff001f42fcc8c40a33ad9e809066f79",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 86,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

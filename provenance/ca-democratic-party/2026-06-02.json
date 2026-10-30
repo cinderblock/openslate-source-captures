@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-democratic-party",
+ "election": "2026-06-02",
+ "mode": "scraped",
+ "org_uri": "https://cadem.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cadem.org/endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cadem.org",
+    "org_host": "cadem.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 49,
+    "captured_at": "2026-10-30T17:47:07.435Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cadem.org/endorsements/",
+    "response_sha256": "e561a818b90469643e7c62b36184678e6eaf1ad7f16014edeee3f9ff90a1909e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://cadem.org/wp-content/uploads/2026/02/2026-Convention-Endorsing-Conference-Results-FINAL-Results-PDF.pdf",
+   "positions": 11,
+   "host": {
+    "match": "exact",
+    "host": "cadem.org",
+    "org_host": "cadem.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 50,
+    "captured_at": "2026-10-30T17:47:09.219Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cadem.org/wp-content/uploads/2026/02/2026-Convention-Endorsing-Conference-Results-FINAL-Results-PDF.pdf",
+    "response_sha256": "b9e80d0409595fa758b641622e862dc01689cfdad6cc2e20d2291ce533597000",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 11,
+    "no_statement": 0
+   }
+  }
+ ]
+}

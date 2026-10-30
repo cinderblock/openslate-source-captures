@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "la-forward",
+ "election": "2026-06-02",
+ "mode": "scraped",
+ "org_uri": "https://www.laforward.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.laforward.org/voterguide",
+   "positions": 36,
+   "host": {
+    "match": "exact",
+    "host": "laforward.org",
+    "org_host": "laforward.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 698,
+    "captured_at": "2026-10-30T17:48:23.069Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.laforward.org/voterguide",
+    "response_sha256": "6f3deea8d7595647c476f9c9d6d094d186623299de9721502d68a18b5c8fb251",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 35
+   }
+  }
+ ]
+}

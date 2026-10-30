@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "lwv-california",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://lwvc.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://lwvc.org/ballot-recommendations/",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "lwvc.org",
+    "org_host": "lwvc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 298,
+    "captured_at": "2026-10-30T17:47:26.004Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lwvc.org/ballot-recommendations/",
+    "response_sha256": "3c4182747f38688dc84a60eabccd162d98a11585eed35d2adecf0efce26c90f7",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "bay-area-news-group",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.eastbaytimes.com/opinion/endorsements/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.eastbaytimes.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
+   "positions": 35,
+   "host": {
+    "match": "exact",
+    "host": "eastbaytimes.com",
+    "org_host": "eastbaytimes.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 672,
+    "captured_at": "2026-10-30T17:48:14.131Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.eastbaytimes.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
+    "response_sha256": "6b6b0eeb7228abe1ac359deb419a981c1ed58f0e7c2511b5afae03e3dec9122a",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 17,
+    "quoted_parts": 18,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.mercurynews.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
+   "positions": 1,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "mercurynews.com",
+    "org_host": "eastbaytimes.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 710,
+    "captured_at": "2026-10-30T17:48:29.933Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.mercurynews.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
+    "response_sha256": "6c651e09d954de7ebac53c92070ce5fc901a95352aad44686dda349c71ca9a37",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

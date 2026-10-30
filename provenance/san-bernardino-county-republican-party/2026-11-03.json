@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-bernardino-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://sbgop.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://img1.wsimg.com/blobby/go/00e1d586-84bf-47d7-8009-c4d0a6ebcb89/downloads/77573883-533c-4f5c-8832-690624e5aa91/SBGOP_2026_Complete_Updated_Voter_Guide.pdf?ver=1791570575256",
+   "positions": 97,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "img1.wsimg.com",
+    "org_host": "sbgop.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 183,
+    "captured_at": "2026-10-30T17:47:19.841Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://img1.wsimg.com/blobby/go/00e1d586-84bf-47d7-8009-c4d0a6ebcb89/downloads/77573883-533c-4f5c-8832-690624e5aa91/SBGOP_2026_Complete_Updated_Voter_Guide.pdf?ver=1791570575256",
+    "response_sha256": "b50458b47754c12b03da47f2371c12d933edeaea6f0bfb57bca0c2e0d28ea91e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 42,
+    "quoted_parts": 55,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://sbgop.com/2026-general",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sbgop.com",
+    "org_host": "sbgop.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 413,
+    "captured_at": "2026-10-30T17:47:42.594Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sbgop.com/2026-general",
+    "response_sha256": "06b085b5f5d852bde1e23c969acd736e31e2a2dfe318574732614eaba30a6b8b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

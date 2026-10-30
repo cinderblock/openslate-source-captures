@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sd-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sandiegorepublicans.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sandiegorepublicans.org/voter-guides/san-diego",
+   "positions": 149,
+   "host": {
+    "match": "exact",
+    "host": "sandiegorepublicans.org",
+    "org_host": "sandiegorepublicans.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 405,
+    "captured_at": "2026-10-30T17:47:40.942Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sandiegorepublicans.org/voter-guides/san-diego",
+    "response_sha256": "e00f8fef8907139713a23cbad077ee632927f20c38eed0b7e4e0dd771fa59753",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 35,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 114
+   }
+  },
+  {
+   "url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+   "positions": 14,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "kpbs.org",
+    "org_host": "sandiegorepublicans.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 693,
+    "captured_at": "2026-10-30T17:48:23.375Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+    "response_sha256": "399127a5be1ec76c83a4014a9ee2b55788010b81016d572abd0f5f55dace3003",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 14
+   }
+  }
+ ]
+}

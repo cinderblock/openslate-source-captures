@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "democratic-womens-study-club-long-beach",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.facebook.com/DWSCLB",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
+   "positions": 3,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "bluevoterguide.org",
+    "org_host": "facebook.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 35,
+    "captured_at": "2026-10-30T17:47:07.269Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
+    "response_sha256": "9bd380887c0a32c0250f4b65a4064d61998c1dde885d500bf9955600abf4acf9",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 3,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "facebook.com",
+    "org_host": "facebook.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 677,
+    "captured_at": "2026-10-30T17:48:18.182Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
+    "response_sha256": "ed831c24a1f4874f8e83f92cc3a0b1a71320f7e3667b702489a7730a887b2f0a",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

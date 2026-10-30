@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-joaquin-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sjcdems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sjcdems.org/endorsements",
+   "positions": 46,
+   "host": {
+    "match": "exact",
+    "host": "sjcdems.org",
+    "org_host": "sjcdems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 868,
+    "captured_at": "2026-10-30T17:48:48.762Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sjcdems.org/endorsements",
+    "response_sha256": "0d779d3ea83ed43f7e2469a93bdafad7575fbfbe2159112abcae672ba24ada42",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 46,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

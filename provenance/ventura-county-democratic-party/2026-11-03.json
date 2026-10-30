@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ventura-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.venturacountydemocrats.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.venturacountydemocrats.com/endorsements/",
+   "positions": 66,
+   "host": {
+    "match": "exact",
+    "host": "venturacountydemocrats.com",
+    "org_host": "venturacountydemocrats.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 908,
+    "captured_at": "2026-10-30T17:48:58.574Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.venturacountydemocrats.com/endorsements/",
+    "response_sha256": "3ea808c7e3b342ec0856d5c458f56e7649de94a8faaf65de2527aa65bea46279",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 66,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

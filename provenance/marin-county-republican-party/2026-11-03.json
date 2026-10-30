@@ -1,0 +1,151 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "marin-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://maringop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://maringop.org/2026/09/15/marin-gop-endorses/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "maringop.org",
+    "org_host": "maringop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 307,
+    "captured_at": "2026-10-30T17:47:28.011Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://maringop.org/2026/09/15/marin-gop-endorses/",
+    "response_sha256": "ac8ca5002d4aaac77ac5eb80ad649ac2f5d8db923751e0dab7ff85a56a56b655",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://maringop.org/elections/endorsements",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "maringop.org",
+    "org_host": "maringop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 308,
+    "captured_at": "2026-10-30T17:47:30.729Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://maringop.org/ei/elections/endorsements/",
+    "response_sha256": "af04f0b9fcecd9de4a0427c4f7f46d5d0c2839da2b0f7563960036f2cdc73ccb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-1@4x-1.png",
+   "positions": 8,
+   "host": {
+    "match": "exact",
+    "host": "maringop.org",
+    "org_host": "maringop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 309,
+    "captured_at": "2026-10-30T17:47:32.277Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-1@4x-1.png",
+    "response_sha256": "ddb25688d84812aabfddd589f67b62a7a0dc63b068bd7551242b843ebfe562bd",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-2@4x-1.png",
+   "positions": 20,
+   "host": {
+    "match": "exact",
+    "host": "maringop.org",
+    "org_host": "maringop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 310,
+    "captured_at": "2026-10-30T17:47:34.112Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-2@4x-1.png",
+    "response_sha256": "a1904ef7465492124f2681251315a35cc7aa5604f463ddef0b0ca4f60c73d69a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

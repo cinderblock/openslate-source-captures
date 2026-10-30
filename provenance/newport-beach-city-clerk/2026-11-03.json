@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "newport-beach-city-clerk",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.newportbeachca.gov/government/elections",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.newportbeachca.gov/government/elections/general-municipal-election-november-3-2026",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "newportbeachca.gov",
+    "org_host": "newportbeachca.gov"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 717,
+    "captured_at": "2026-10-30T17:48:28.910Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.newportbeachca.gov/government/elections/general-municipal-election-november-3-2026",
+    "response_sha256": "b948b726dd4e0917c571df3d1e1bbdf6c4b7b3f285e01fff78c550e4ed685781",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 2
+   }
+  }
+ ]
+}

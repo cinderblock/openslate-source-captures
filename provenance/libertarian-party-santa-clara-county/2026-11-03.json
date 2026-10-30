@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "libertarian-party-santa-clara-county",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/732_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 41,
+    "captured_at": "2026-10-30T17:47:14.419Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/732_md.json",
+    "response_sha256": "5220ef668a6820e2c82671024b624106a2e96fdbfffa6da78a99030afcdc3eaa",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://ca.omniballot.us/published/06085/1968/vg/734_md.json",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "ca.omniballot.us",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 43,
+    "captured_at": "2026-10-30T17:47:17.915Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/734_md.json",
+    "response_sha256": "944dd42fefd9133de40505ba78843103550a46951fb5ea05231f792384b0f3ee",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

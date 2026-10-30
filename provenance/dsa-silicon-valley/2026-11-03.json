@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "dsa-silicon-valley",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://siliconvalleydsa.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://docs.google.com/document/d/e/2PACX-1vQAtAN3xtKSl7Pkx34nNpJyypPlm_Zga45PZHEYVk6jNpwxcp0GDBFrLsU9wjTjliya6ZP0OrMkljEt/pub",
+   "positions": 158,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "docs.google.com",
+    "org_host": "siliconvalleydsa.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 130,
+    "captured_at": "2026-10-30T17:47:16.190Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://docs.google.com/document/d/e/2PACX-1vQAtAN3xtKSl7Pkx34nNpJyypPlm_Zga45PZHEYVk6jNpwxcp0GDBFrLsU9wjTjliya6ZP0OrMkljEt/pub",
+    "response_sha256": "9f6c949975f28b017e373c4112ac468d6e0929f0cd3eb9383e819615e3777ec5",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 140,
+    "quoted_parts": 17,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://siliconvalleydsa.org/voters-guide/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "siliconvalleydsa.org",
+    "org_host": "siliconvalleydsa.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 434,
+    "captured_at": "2026-10-30T17:47:49.386Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://siliconvalleydsa.org/voters-guide/",
+    "response_sha256": "5f9018f8c4e85bfca446ae0e12fc0ed034fae93ed7c75e479324faaecdc88708",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

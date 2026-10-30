@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "inland-empire-labor-council",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://ielabor.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ielabor.org/cope/2026generalendorsements/",
+   "positions": 75,
+   "host": {
+    "match": "exact",
+    "host": "ielabor.org",
+    "org_host": "ielabor.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 181,
+    "captured_at": "2026-10-30T17:47:18.463Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ielabor.org/cope/2026generalendorsements/",
+    "response_sha256": "11470f702f80d9d6363dc986a62cb466a4ea69ab2217bcd763afa2df78f18368",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 34,
+    "quoted_parts": 0,
+    "unanchored": 41,
+    "no_statement": 0
+   }
+  }
+ ]
+}

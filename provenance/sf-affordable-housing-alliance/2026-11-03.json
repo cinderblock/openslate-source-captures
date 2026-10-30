@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-affordable-housing-alliance",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sfaffordablehousingalliance.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sfaffordablehousingalliance.org/",
+   "positions": 45,
+   "host": {
+    "match": "exact",
+    "host": "sfaffordablehousingalliance.org",
+    "org_host": "sfaffordablehousingalliance.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 841,
+    "captured_at": "2026-10-30T17:48:44.125Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfaffordablehousingalliance.org/",
+    "response_sha256": "b7de17531127cb3e7d7e8dea0362254b352269cd2698cfa9e1d21911552ed6f0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 6,
+    "unanchored": 39,
+    "no_statement": 0
+   }
+  }
+ ]
+}

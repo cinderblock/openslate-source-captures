@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "butte-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.buttecountydems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.buttecountydems.org/endorsements",
+   "positions": 28,
+   "host": {
+    "match": "exact",
+    "host": "buttecountydems.org",
+    "org_host": "buttecountydems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 645,
+    "captured_at": "2026-10-30T17:48:05.291Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.buttecountydems.org/endorsements",
+    "response_sha256": "919716903cbd98165a16190783d673bc62875650c90f33425bb958de60d6b4a7",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 26,
+    "quoted_parts": 2,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

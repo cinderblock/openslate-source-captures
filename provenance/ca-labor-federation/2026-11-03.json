@@ -1,0 +1,184 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-labor-federation",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://calaborfed.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://calaborfed.org/labor-2026-primary-election-endorsements/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "calaborfed.org",
+    "org_host": "calaborfed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 55,
+    "captured_at": "2026-10-30T17:47:07.672Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calaborfed.org/labor-2026-primary-election-endorsements/",
+    "response_sha256": "a71341736c3050f7fe866c46ce5ecfbb4e78932d07834073a8e36530e44cc4fa",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://calaborfed.org/wp-content/uploads/2026/09/V2_Biennial-2026-general-election-endorsements.pdf",
+   "positions": 140,
+   "host": {
+    "match": "exact",
+    "host": "calaborfed.org",
+    "org_host": "calaborfed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 57,
+    "captured_at": "2026-10-30T17:47:11.038Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calaborfed.org/wp-content/uploads/2026/09/V2_Biennial-2026-general-election-endorsements.pdf",
+    "response_sha256": "44dbd7d3eb7d79e81907e5c19f8dd92bc16546be0eb78c656dd28cad5fe0e886",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 139
+   }
+  },
+  {
+   "url": "https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL.jpg",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "calaborfed.org",
+    "org_host": "calaborfed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 59,
+    "captured_at": "2026-10-30T17:47:14.344Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL.jpg",
+    "response_sha256": "cced6cd908e65aca9f47ba27c39b07de15ffdccc7e9a670f7fd8a4d164369dd8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL2.jpg",
+   "positions": 12,
+   "host": {
+    "match": "exact",
+    "host": "calaborfed.org",
+    "org_host": "calaborfed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 60,
+    "captured_at": "2026-10-30T17:47:15.923Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL2.jpg",
+    "response_sha256": "80bd7f46730e74cb9d57302abb3580cde16d2dd75e881e32af74052df7715912",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://calaborfed.org/press-releases/california-federation-of-labor-unions-overwhelmingly-supports-billionaires-tax-prop-40/",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "calaborfed.org",
+    "org_host": "calaborfed.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 56,
+    "captured_at": "2026-10-30T17:47:09.467Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calaborfed.org/press-releases/california-federation-of-labor-unions-overwhelmingly-supports-billionaires-tax-prop-40/",
+    "response_sha256": "7cb2541bebc245754c5fbfe76d9da8f7bcd3fea9b61bedcabb8407ae61b8a074",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

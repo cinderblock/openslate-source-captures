@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "planned-parenthood-action-fund",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.plannedparenthoodaction.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.plannedparenthoodaction.org/endorsements",
+   "positions": 47,
+   "host": {
+    "match": "exact",
+    "host": "plannedparenthoodaction.org",
+    "org_host": "plannedparenthoodaction.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 728,
+    "captured_at": "2026-10-30T17:48:31.490Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.plannedparenthoodaction.org/endorsements",
+    "response_sha256": "5264a62e9324970efb5773f9f35c0683b1dc535368ea387434e3f9ac93a9176a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 47,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

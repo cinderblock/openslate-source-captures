@@ -1,0 +1,322 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "santa-cruz-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.cruzdemocrats.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.cruzdemocrats.org/endorsements",
+   "positions": 11,
+   "host": {
+    "match": "exact",
+    "host": "cruzdemocrats.org",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 663,
+    "captured_at": "2026-10-30T17:48:11.830Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.cruzdemocrats.org/endorsements",
+    "response_sha256": "9dbcf0fdc673186d18e2454e8d70a4d9d535bda16b8832745433fcd2e2a24bb0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 3,
+    "quoted_parts": 0,
+    "unanchored": 8,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_7f18b2c5889243e8916a830fdb159be5~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 484,
+    "captured_at": "2026-10-30T17:47:59.029Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_7f18b2c5889243e8916a830fdb159be5~mv2.png",
+    "response_sha256": "4a367d2298a58170950f86e9ddd7ad52004760cf87a506c3048fd55488f5d5b8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_26acb476d44346d1a8b68da50ef0ce6c~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 480,
+    "captured_at": "2026-10-30T17:47:52.424Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_26acb476d44346d1a8b68da50ef0ce6c~mv2.png",
+    "response_sha256": "5d9c408b1b4fd99f978934b01d3e8abbfcc60882a61bc0ab734b637e00efaa8e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_d27abb08aa114ed99d5bdb3f3b65c910~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 487,
+    "captured_at": "2026-10-30T17:48:03.926Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_d27abb08aa114ed99d5bdb3f3b65c910~mv2.png",
+    "response_sha256": "a77f7bc0eae1b256f193cb821a74a4040265408f3b52a2a56045775afd97843f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_57fab81aae2e4b7ea40be29beeabfcf6~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 483,
+    "captured_at": "2026-10-30T17:47:57.282Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_57fab81aae2e4b7ea40be29beeabfcf6~mv2.png",
+    "response_sha256": "4ab6956bd4452604f41651dddb3bf12b7f8d42df9072d989e58c8c3c6b9c38a3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_9174aa935449415b8f024776031e1d98~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 485,
+    "captured_at": "2026-10-30T17:48:00.885Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_9174aa935449415b8f024776031e1d98~mv2.png",
+    "response_sha256": "e609101c51a6d4e69665bd101a8d998dc050d15af8a99fdc05748156cee8af5d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_50a457cd89e04731b001f2d9ba84690b~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 482,
+    "captured_at": "2026-10-30T17:47:55.500Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_50a457cd89e04731b001f2d9ba84690b~mv2.png",
+    "response_sha256": "9a6882946ea774f2f1cb0d185928c9edb7ac61ae601352e1d3b9d9c79be5a7b3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_c9de14c3784e4214a4d250d75df07a0e~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 486,
+    "captured_at": "2026-10-30T17:48:02.408Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_c9de14c3784e4214a4d250d75df07a0e~mv2.png",
+    "response_sha256": "9ad69bd4bfa803c49a3e4840835a03d199013cd98373a4aaa661bb55902736cd",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/e67f26_42419c235bf348df88a43e0e2c19aa88~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "cruzdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 481,
+    "captured_at": "2026-10-30T17:47:53.966Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/e67f26_42419c235bf348df88a43e0e2c19aa88~mv2.png",
+    "response_sha256": "46cf5f1c39927a80c95421e65b05e1f57c9078ec0fd81ef36ff12a5102721df8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

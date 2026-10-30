@@ -1,0 +1,84 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "santa-clara-county-republican-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://svgop.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://svgop.com/voter-guide",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "svgop.com",
+    "org_host": "svgop.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 489,
+    "captured_at": "2026-10-30T17:47:54.750Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://svgop.com/voter-guide",
+    "response_sha256": "a79aabcdff69da7936f079eb9310d3c1f68401eac6edc3bc21460df46bf98f6c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://svgop.com/s/SVGOP-Endorsements-2026-General-Election.jpg",
+   "positions": 38,
+   "host": {
+    "match": "exact",
+    "host": "svgop.com",
+    "org_host": "svgop.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 488,
+    "captured_at": "2026-10-30T17:47:53.234Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static1.squarespace.com/static/6785b4117fb4713248ac921c/t/6ac0a37ed7b0644dc4fe591f/1791009662259/SVGOP+Endorsements+2026+General+Election.jpg",
+    "response_sha256": "66580f72b8c86a29a07cadfc408f779800d30786000aa391790476a30b0c71fb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

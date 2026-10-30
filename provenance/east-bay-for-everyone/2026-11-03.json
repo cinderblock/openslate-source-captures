@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "east-bay-for-everyone",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://eastbayforeveryone.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://eastbayforeveryone.org/2026/09/21/eb4e-2026-general-election-endorsements/",
+   "positions": 15,
+   "host": {
+    "match": "exact",
+    "host": "eastbayforeveryone.org",
+    "org_host": "eastbayforeveryone.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 136,
+    "captured_at": "2026-10-30T17:47:16.146Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://eastbayforeveryone.org/2026/09/21/eb4e-2026-general-election-endorsements/",
+    "response_sha256": "74e243b3fb99712e6d57497cec14cfe6d155cbf884819df339cf80a6fdcf6045",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 13,
+    "quoted_parts": 0,
+    "unanchored": 2,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://eastbayforeveryone.org/2026/03/05/streamlining-sprawl-is-not-pro-housing/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "eastbayforeveryone.org",
+    "org_host": "eastbayforeveryone.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 135,
+    "captured_at": "2026-10-30T17:47:13.953Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://eastbayforeveryone.org/2026/03/05/streamlining-sprawl-is-not-pro-housing/",
+    "response_sha256": "4fb89bde2c75ae62b77d0daba1bee8fde5a1436c6ae0d3c12c51b0685e4396ed",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

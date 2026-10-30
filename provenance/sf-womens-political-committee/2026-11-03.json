@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-womens-political-committee",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sfwpc.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfwpc.org/endorsements-of-candidates-for-november-2026-election/",
+   "positions": 26,
+   "host": {
+    "match": "exact",
+    "host": "sfwpc.org",
+    "org_host": "sfwpc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 432,
+    "captured_at": "2026-10-30T17:47:50.440Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfwpc.org/endorsements-of-candidates-for-november-2026-election/",
+    "response_sha256": "0f7339c06e1a0b661056fc5f39aa23529e9dc77ead4f8843bfdb36a1adce7442",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 26,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://sfwpc.org/endorsements-of-ballot-measures-for-november-2026-election/",
+   "positions": 25,
+   "host": {
+    "match": "exact",
+    "host": "sfwpc.org",
+    "org_host": "sfwpc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 431,
+    "captured_at": "2026-10-30T17:47:48.479Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sfwpc.org/endorsements-of-ballot-measures-for-november-2026-election/",
+    "response_sha256": "a6d823c9987c3cd0f95bbdf78262339e028bed2db567dea62d146918ced05538",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 25,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "monterey-bay-central-labor-council",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://mbclc.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://mbclc.org/endorsements",
+   "positions": 32,
+   "host": {
+    "match": "exact",
+    "host": "mbclc.org",
+    "org_host": "mbclc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 311,
+    "captured_at": "2026-10-30T17:47:28.091Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://mbclc.org/endorsements",
+    "response_sha256": "2afa1a594d69500fdc937116506f2f61026460af321d97e66d8b8c8b6e261eff",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 32,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "docs.google.com",
+    "org_host": "mbclc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 129,
+    "captured_at": "2026-10-30T17:47:14.282Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
+    "response_sha256": "d086efc5ef360a722c2573664f79e71e721dbefb243430b656a9b245e6a1adc5",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

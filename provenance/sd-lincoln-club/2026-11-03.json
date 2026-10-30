@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sd-lincoln-club",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sdlincolnclub.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sdlincolnclub.com/endorsement-committee/",
+   "positions": 77,
+   "host": {
+    "match": "exact",
+    "host": "sdlincolnclub.com",
+    "org_host": "sdlincolnclub.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 416,
+    "captured_at": "2026-10-30T17:47:43.526Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sdlincolnclub.com/endorsement-committee/",
+    "response_sha256": "8c9dd8dca40c3fa4ac54fba692057b860127c581ea5b888c614c4871861ae713",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 20,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 57
+   }
+  },
+  {
+   "url": "https://drive.google.com/file/d/1e_b4fKKa0L0pSywFKOb4v291Obu1sbS_/view?usp=sharing",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "drive.google.com",
+    "org_host": "sdlincolnclub.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 132,
+    "captured_at": "2026-10-30T17:47:14.475Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://drive.google.com/file/d/1e_b4fKKa0L0pSywFKOb4v291Obu1sbS_/view?usp=sharing",
+    "response_sha256": "b6189349b2f0c134c144fc8fc763bc4f8046dff4df4664d88a80ad556423a4dc",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

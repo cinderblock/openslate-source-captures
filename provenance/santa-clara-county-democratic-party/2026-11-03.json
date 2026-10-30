@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "santa-clara-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sccdp.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sccdp.org/index.php/voter-resources/endorsements/2026-endorsements/",
+   "positions": 79,
+   "host": {
+    "match": "exact",
+    "host": "sccdp.org",
+    "org_host": "sccdp.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 414,
+    "captured_at": "2026-10-30T17:47:43.491Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sccdp.org/index.php/voter-resources/endorsements/2026-endorsements/",
+    "response_sha256": "a3f80d4662f0f84935f6e9132e3d462b4a20ab38ac66d7d96ba013b555d31d45",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 47,
+    "quoted_parts": 32,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://sccdp.org/wp-content/uploads/2026/10/SCCDP-Local-Endorsements-November-3-2026.pdf",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sccdp.org",
+    "org_host": "sccdp.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 415,
+    "captured_at": "2026-10-30T17:47:46.026Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://sccdp.org/wp-content/uploads/2026/10/SCCDP-Local-Endorsements-November-3-2026.pdf",
+    "response_sha256": "07e5a73c865bfdaaccaf9a673421bb01d5ed438de6c4313f42de798be74a7da2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

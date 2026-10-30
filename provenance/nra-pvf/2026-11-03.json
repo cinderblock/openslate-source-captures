@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "nra-pvf",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.nrapvf.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.nrapvf.org/grades/california/",
+   "positions": 34,
+   "host": {
+    "match": "exact",
+    "host": "nrapvf.org",
+    "org_host": "nrapvf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 722,
+    "captured_at": "2026-10-30T17:48:30.643Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.nrapvf.org/grades/california/",
+    "response_sha256": "f5b402a13d025a19854925404e74127b191359aedda6f5bffcf3647fc0c21e7c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 34,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

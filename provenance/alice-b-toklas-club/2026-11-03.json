@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "alice-b-toklas-club",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.alicebtoklas.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.alicebtoklas.org/2026endorsements",
+   "positions": 52,
+   "host": {
+    "match": "exact",
+    "host": "alicebtoklas.org",
+    "org_host": "alicebtoklas.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 627,
+    "captured_at": "2026-10-30T17:48:04.872Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://alicebtoklas.org/2026endorsements",
+    "response_sha256": "96e7c767369d7418b285ab469c9875d7f3118feb554cb85312b989e46c2d3cd0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 7,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 44
+   }
+  }
+ ]
+}

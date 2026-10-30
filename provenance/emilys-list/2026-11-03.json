@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "emilys-list",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://emilyslist.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://emilyslist.org/donate/all-candidates/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "emilyslist.org",
+    "org_host": "emilyslist.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 168,
+    "captured_at": "2026-10-30T17:47:19.552Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://emilyslist.org/donate/all-candidates/",
+    "response_sha256": "9403129d765835e05b6f90d2a6fffcd9b488b965c238022e569e199abfdef1db",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://emilyslist.org/candidate/marni-von-wilpert/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "emilyslist.org",
+    "org_host": "emilyslist.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 167,
+    "captured_at": "2026-10-30T17:47:16.255Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://emilyslist.org/candidate/marni-von-wilpert/",
+    "response_sha256": "8b31f5636c609a996107b84e9751888455fc63b8f2b4d5d3c51d77bfbc9cf749",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://emilyslist.org/state-and-local-candidates/",
+   "positions": 3,
+   "host": {
+    "match": "exact",
+    "host": "emilyslist.org",
+    "org_host": "emilyslist.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 169,
+    "captured_at": "2026-10-30T17:47:21.300Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://emilyslist.org/state-and-local-candidates/",
+    "response_sha256": "21cccc8eeffe0eaae834678c216a8a7ca6b2848c02b0fafb46af06822f667320",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 3,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

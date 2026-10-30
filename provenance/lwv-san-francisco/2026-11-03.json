@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "lwv-san-francisco",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://lwvsf.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://lwvsf.org/ballot-recommendations",
+   "positions": 10,
+   "host": {
+    "match": "exact",
+    "host": "lwvsf.org",
+    "org_host": "lwvsf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 299,
+    "captured_at": "2026-10-30T17:47:26.612Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lwvsf.org/ballot-recommendations",
+    "response_sha256": "cd1c8fd8b407f9a25df1a6a2644d5a8c30f5b4912fc4732a1bd44ae150ef9b19",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 10,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://lwvsf.org/proposition-information",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "lwvsf.org",
+    "org_host": "lwvsf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 300,
+    "captured_at": "2026-10-30T17:47:28.526Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lwvsf.org/proposition-information",
+    "response_sha256": "db3cdca930cd4d0c6f2e77224609da74b01d30fd4212aa4cd06ec3ea0af35850",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

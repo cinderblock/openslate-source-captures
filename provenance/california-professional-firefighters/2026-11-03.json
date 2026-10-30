@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "california-professional-firefighters",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.cpf.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cpfelectionguide.org/",
+   "positions": 126,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "cpfelectionguide.org",
+    "org_host": "cpf.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 75,
+    "captured_at": "2026-10-30T17:47:11.225Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cpfelectionguide.org/",
+    "response_sha256": "4b41f490de29f44b3b4e8de8db89af8251f2c9b9dd100731881f7b7ef0e88120",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 126,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

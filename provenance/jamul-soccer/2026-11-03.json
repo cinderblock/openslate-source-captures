@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "jamul-soccer",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf#page=82",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "sdvote.com",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 836,
+    "captured_at": "2026-10-30T17:48:58.646Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf",
+    "response_sha256": "81aca1e8452905e76410aeab58179525cb0504c09ee351a9693e19a493574c7a",
+    "bytes": "release",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

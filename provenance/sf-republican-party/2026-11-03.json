@@ -1,0 +1,51 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-republican-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://sfgop.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://sfgop.org/nov-2026-endorsements",
+   "positions": 25,
+   "host": {
+    "match": "exact",
+    "host": "sfgop.org",
+    "org_host": "sfgop.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 424,
+    "captured_at": "2026-10-30T17:47:46.428Z",
+    "status": 404,
+    "error": null,
+    "final_url": "https://sfgop.org/nov-2026-endorsements",
+    "response_sha256": "143cdf73ad10e68092cd45011fe111074dc312d63305be63a119f7a45a64596a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: 404"
+   }
+  }
+ ]
+}

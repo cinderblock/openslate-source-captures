@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sacramento-metro-chamber",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.metrochamber.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://edge.growthzonecms.com/sites/2034/2026/09/PAC_26-Comprehensive-Primary_Voter-Guide_FINAL.pdf",
+   "positions": 36,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "edge.growthzonecms.com",
+    "org_host": "metrochamber.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 139,
+    "captured_at": "2026-10-30T17:47:15.076Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://edge.growthzonecms.com/sites/2034/2026/09/PAC_26-Comprehensive-Primary_Voter-Guide_FINAL.pdf",
+    "response_sha256": "0eecd3b36f31234704bce32104ac3cc8c7348606e865037f5f780bfc42892b1b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 23,
+    "quoted_parts": 13,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.metrochamber.org/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "metrochamber.org",
+    "org_host": "metrochamber.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 711,
+    "captured_at": "2026-10-30T17:48:26.718Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.metrochamber.org/",
+    "response_sha256": "9dd80818f988cdb2f3aec01d102e357afbb8ef8446bf7cebcfd196d5c20c0a2a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

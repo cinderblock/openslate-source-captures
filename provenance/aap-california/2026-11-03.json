@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "aap-california",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "voterguide.sos.ca.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 607,
+    "captured_at": "2026-10-30T17:48:12.827Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "response_sha256": "c0dd7b0be2cad58b37b0c0334f9a69f638f800db49755a2cb38d4004bfa1547c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "long-beach-young-democrats",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
+   "positions": 5,
+   "host": {
+    "match": "exact",
+    "host": "bluevoterguide.org",
+    "org_host": "bluevoterguide.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 36,
+    "captured_at": "2026-10-30T17:47:09.493Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
+    "response_sha256": "6f57c9336b9e8450bba15d4e893032a48c62ab2e8b116785b183c4f068a9f73b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 5,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "instagram.com",
+    "org_host": "bluevoterguide.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 690,
+    "captured_at": "2026-10-30T17:48:21.227Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
+    "response_sha256": "3c9b66c3851329d0c92a6128fee296f65550b4d662cc7d659b093c1ebeccff82",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

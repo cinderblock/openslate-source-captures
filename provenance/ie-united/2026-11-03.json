@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ie-united",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://ieunited.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ieunited.org/2026-endorsements/",
+   "positions": 44,
+   "host": {
+    "match": "exact",
+    "host": "ieunited.org",
+    "org_host": "ieunited.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 182,
+    "captured_at": "2026-10-30T17:47:19.067Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ieunited.org/2026-endorsements/",
+    "response_sha256": "960cad65e0b2092de744487098ce67b7f16598416bdc8eae292d5a3916993077",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 28,
+    "quoted_parts": 16,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

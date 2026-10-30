@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "oc-business-council-bizpac",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://ocbc.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ocbc.org/government-affairs/bizpac/",
+   "positions": 29,
+   "host": {
+    "match": "exact",
+    "host": "ocbc.org",
+    "org_host": "ocbc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 359,
+    "captured_at": "2026-10-30T17:47:30.788Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ocbc.org/bizpac/",
+    "response_sha256": "3fa3ecf5b968c4c157a9462d732eca820a676bf51be2e4fda24bbd08a2c38888",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 9,
+    "quoted_parts": 0,
+    "unanchored": 20,
+    "no_statement": 0
+   }
+  }
+ ]
+}

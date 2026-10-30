@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "club-for-growth",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.clubforgrowth.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.clubforgrowth.org/elections/pac-endorsed-candidates/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "clubforgrowth.org",
+    "org_host": "clubforgrowth.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 653,
+    "captured_at": "2026-10-30T17:48:10.239Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.clubforgrowth.org/elections/pac-endorsed-candidates/",
+    "response_sha256": "0a39448e05e6c21258eae66bfc49abbc633204a9056f0159c2595d87c471a84b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.clubforgrowth.org/club-for-growth-pac-endorses-rep-tom-mcclintock-in-ca-05-re-election-campaign/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "clubforgrowth.org",
+    "org_host": "clubforgrowth.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 652,
+    "captured_at": "2026-10-30T17:48:08.674Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.clubforgrowth.org/club-for-growth-pac-endorses-rep-tom-mcclintock-in-ca-05-re-election-campaign/",
+    "response_sha256": "8b179cb636afe314949eebcb869f29aec647f06cc98298c9237b035ff5aff98e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

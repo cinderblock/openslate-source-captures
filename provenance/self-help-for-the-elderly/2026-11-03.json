@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "self-help-for-the-elderly",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "voterguide.sos.ca.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 596,
+    "captured_at": "2026-10-30T17:47:55.671Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "response_sha256": "746d1f4496b03a6a89139920c3b1370818e9c5a77e8442695994c945d6fe3b76",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

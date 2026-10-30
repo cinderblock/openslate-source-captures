@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "csea",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.csea.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://csea.com/issues-and-advocacy/election/statewide-voter-guide",
+   "positions": 138,
+   "host": {
+    "match": "exact",
+    "host": "csea.com",
+    "org_host": "csea.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 85,
+    "captured_at": "2026-10-30T17:47:11.902Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://csea.com/issues-and-advocacy/election/statewide-voter-guide",
+    "response_sha256": "8d8fa4e788e1d1631236c46343cfcb20e8dd12be6b61f7d5dbf0654f0738bf4c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 138,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://csea.com/news/where-csea-stands-props-3-39-and-43",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "csea.com",
+    "org_host": "csea.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 86,
+    "captured_at": "2026-10-30T17:47:13.466Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://csea.com/news/where-csea-stands-props-3-39-and-43",
+    "response_sha256": "df1ffe1815ec211f958c4f62d2fe75f100475db72867b84f4a38267215bb21cd",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

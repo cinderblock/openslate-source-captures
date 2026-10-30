@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ufcw-western-states-council",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.ufcwwest.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.ufcwwest.org/ufcwvotes/",
+   "positions": 156,
+   "host": {
+    "match": "exact",
+    "host": "ufcwwest.org",
+    "org_host": "ufcwwest.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 891,
+    "captured_at": "2026-10-30T17:48:56.693Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.ufcwwest.org/ufcwvotes/",
+    "response_sha256": "0207378fc451953ea56abbe38817fdbc7a71ab5b7b644abba4291716a947886a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 155,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

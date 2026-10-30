@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "la-times",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.latimes.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "latimes.com",
+    "org_host": "latimes.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 702,
+    "captured_at": "2026-10-30T17:48:27.930Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
+    "response_sha256": "7c48b54228dbb5de72e6b55ace7a805ff9227c14e0d4b304d5044c56238a743b",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.latimes.com/topic/editorials",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "latimes.com",
+    "org_host": "latimes.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 704,
+    "captured_at": "2026-10-30T17:48:31.054Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.latimes.com/topic/editorials",
+    "response_sha256": "37dc6303afbbf9723e25ad35383652841c9752398632e75efa6a13e2a3507549",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

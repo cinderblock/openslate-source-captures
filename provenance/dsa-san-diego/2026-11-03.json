@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "dsa-san-diego",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://dsasandiego.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.dsasandiego.org/november-2026-voter-guide",
+   "positions": 45,
+   "host": {
+    "match": "exact",
+    "host": "dsasandiego.org",
+    "org_host": "dsasandiego.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 671,
+    "captured_at": "2026-10-30T17:48:15.687Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.dsasandiego.org/november-2026-voter-guide",
+    "response_sha256": "5de665fe6ff813228b24db2ccf1af3dce792d04d81bc74f0ab8291a87f7131ac",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 44,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.dsasandiego.org/endorsements",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "dsasandiego.org",
+    "org_host": "dsasandiego.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 670,
+    "captured_at": "2026-10-30T17:48:13.797Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.dsasandiego.org/endorsements",
+    "response_sha256": "17c60f1b435c6762666079c04b068b43a62ef1681b60cf312bbf38a79e54e67c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

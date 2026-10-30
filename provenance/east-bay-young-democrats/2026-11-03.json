@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "east-bay-young-democrats",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.ebyd.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.ebyd.org/endorsements",
+   "positions": 47,
+   "host": {
+    "match": "exact",
+    "host": "ebyd.org",
+    "org_host": "ebyd.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 674,
+    "captured_at": "2026-10-30T17:48:17.334Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.ebyd.org/endorsements",
+    "response_sha256": "bc23156bf54d4c9070986495d0be7cc90c496fbd5de45883b98c5154102bf603",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 24,
+    "quoted_parts": 0,
+    "unanchored": 23,
+    "no_statement": 0
+   }
+  }
+ ]
+}

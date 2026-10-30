@@ -1,0 +1,55 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "mcclatchy-california-editorial-boards",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sacbee.com/opinion/election-endorsements/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "sacbee.com",
+    "org_host": "sacbee.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 800,
+    "captured_at": "2026-10-30T17:55:56.052Z",
+    "status": null,
+    "error": "timeout: no data",
+    "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": null,
+     "dom_sha256": "8d3c997efade90e1e5899e0e993e69c1dfd1a3d54d971d100e2fc862f56ffc9a"
+    }
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "no good capture: timeout: no data"
+   }
+  }
+ ]
+}

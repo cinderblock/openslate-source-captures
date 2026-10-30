@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "porac",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://porac.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://porac.org/advocacy/2026-voting-guide/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "porac.org",
+    "org_host": "porac.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 401,
+    "captured_at": "2026-10-30T17:47:38.129Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://porac.org/advocacy/2026-voting-guide/",
+    "response_sha256": "bc6667184e382c5527a7f6bf9d079225a7e7c77ef21dc6f980d4c1db195a0e16",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://maps.cartifact.com/porac/",
+   "positions": 103,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "maps.cartifact.com",
+    "org_host": "porac.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 301,
+    "captured_at": "2026-10-30T17:47:27.524Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://maps.cartifact.com/porac/",
+    "response_sha256": "ece2b574d5b01b771f6eca1fa4a8171b0af5216569159b22a4a2a82818c67be3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 103,
+    "no_statement": 0
+   }
+  }
+ ]
+}

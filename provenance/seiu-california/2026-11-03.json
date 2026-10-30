@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "seiu-california",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://seiuca.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://seiuca.org/elections/",
+   "positions": 120,
+   "host": {
+    "match": "exact",
+    "host": "seiuca.org",
+    "org_host": "seiuca.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 417,
+    "captured_at": "2026-10-30T17:47:44.245Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://seiuca.org/elections/",
+    "response_sha256": "25ea36952ba1ec1da9328d097adbe3ba6ed058444d0824de77fcfcbe7c302a41",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 120,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

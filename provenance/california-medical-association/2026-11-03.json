@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "california-medical-association",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.cmadocs.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.cmadocs.org/voter-guide",
+   "positions": 27,
+   "host": {
+    "match": "exact",
+    "host": "cmadocs.org",
+    "org_host": "cmadocs.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 654,
+    "captured_at": "2026-10-30T17:48:08.991Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.cmadocs.org/voter-guide",
+    "response_sha256": "4bf160b04a7312969a2841c5b1c13580c8d1cd641492a29d0454b8b24e35f29f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 5,
+    "quoted_parts": 22,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

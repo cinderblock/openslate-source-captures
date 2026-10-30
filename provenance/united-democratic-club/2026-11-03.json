@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "united-democratic-club",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.uniteddems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.uniteddems.org/endorsements",
+   "positions": 53,
+   "host": {
+    "match": "exact",
+    "host": "uniteddems.org",
+    "org_host": "uniteddems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 893,
+    "captured_at": "2026-10-30T17:48:57.734Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.uniteddems.org/endorsements",
+    "response_sha256": "d98fba3874d41b72000417a2c5c79fe6c56326972ac305792cba45e616d98bf4",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 47,
+    "quoted_parts": 6,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

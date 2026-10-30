@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sf-bay-guardian",
+ "election": "2026-06-02",
+ "mode": "scraped",
+ "org_uri": "https://www.sfbg.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-election/",
+   "positions": 15,
+   "host": {
+    "match": "exact",
+    "host": "sfbg.com",
+    "org_host": "sfbg.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 842,
+    "captured_at": "2026-10-30T17:48:44.329Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-election/",
+    "response_sha256": "731d9dfd97ba857a417180423736a6aa2f924ab71a6d93e991eaf7fad0c680d2",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 0,
+    "unanchored": 5,
+    "no_statement": 8
+   }
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "san-mateo-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://smcdems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://smcdems.org/",
+   "positions": 67,
+   "host": {
+    "match": "exact",
+    "host": "smcdems.org",
+    "org_host": "smcdems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 473,
+    "captured_at": "2026-10-30T17:47:51.279Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.smcdems.org/",
+    "response_sha256": "c481f8306a48783b32580ed2aac3947c0f12ac20c55b7be06d8aa4100a0c87d7",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
+    "run": "2026-10-30T1731Z",
+    "index": 12,
+    "captured_at": "2026-10-30T17:31:14.590Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.smcdems.org/",
+    "response_sha256": "cd33fd7654512a2084cf031b50ae59590418ffb09e25647acac91ad7caa84965",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped"
+    ]
+   },
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 67,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "assets.nationbuilder.com",
+    "org_host": "smcdems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 32,
+    "captured_at": "2026-10-30T17:47:05.659Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
+    "response_sha256": "cfeb9ec801462c83e5104d25e9dcf1200261cb81871ba7208a73bb6ef4954f1a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

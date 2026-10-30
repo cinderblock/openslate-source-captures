@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "monterey-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://montereycountydems.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://montereycountydems.org/endorsements/",
+   "positions": 48,
+   "host": {
+    "match": "exact",
+    "host": "montereycountydems.org",
+    "org_host": "montereycountydems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 356,
+    "captured_at": "2026-10-30T17:47:30.871Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://montereycountydems.org/endorsements/",
+    "response_sha256": "95ed3176bdfb912aceb664e9e8dd7ce0bec10d0ab0133c837811b86d35930693",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 31,
+    "quoted_parts": 17,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://montereycountydems.org/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "montereycountydems.org",
+    "org_host": "montereycountydems.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 355,
+    "captured_at": "2026-10-30T17:47:29.302Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://montereycountydems.org/",
+    "response_sha256": "eb1f6d71b7d5aac139b35616bb4352ab9e453a186c12f7e765ef1a174d2932d1",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

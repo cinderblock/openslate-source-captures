@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "california-federation-of-teachers",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.cft.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.cft.org/2026-midterm-elections-hub",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cft.org",
+    "org_host": "cft.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 650,
+    "captured_at": "2026-10-30T17:48:08.563Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.cft.org/2026-midterm-elections-hub",
+    "response_sha256": "94bfd106cccffa3400b5bb84bb7087bdc3ef55e8c3be39e7d3c9481d73b5de31",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
+   "positions": 154,
+   "host": {
+    "match": "exact",
+    "host": "cft.org",
+    "org_host": "cft.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 651,
+    "captured_at": "2026-10-30T17:48:10.379Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
+    "response_sha256": "a0a6fc3ba7415b865cf6d5f7c2f60d00bc0c73120ad1354ce62f39261050a98d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 144,
+    "quoted_parts": 10,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

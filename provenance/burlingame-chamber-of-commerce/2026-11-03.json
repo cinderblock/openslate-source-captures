@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "burlingame-chamber-of-commerce",
+ "election": "2026-11-03",
+ "mode": "inferred",
+ "org_uri": null,
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M105-Contest%20Code-5ArgInFavor-Burlingame%20ESD%20Bond_Redacted.pdf",
+   "positions": 1,
+   "host": {
+    "match": "unknown",
+    "host": "smcacre.gov",
+    "org_host": null
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 436,
+    "captured_at": "2026-10-30T17:47:51.944Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M105-Contest%20Code-5ArgInFavor-Burlingame%20ESD%20Bond_Redacted.pdf",
+    "response_sha256": "c3e942f635e4fd31a9bfd12da6994239778b0023a039cf9424898c0c3dd5ef42",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

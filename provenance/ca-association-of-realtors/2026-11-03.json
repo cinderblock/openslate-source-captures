@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-association-of-realtors",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.car.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.car.org/advocacy/stategovernmentaffairs/Ballot-Measures",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "car.org",
+    "org_host": "car.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 647,
+    "captured_at": "2026-10-30T17:48:06.750Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.car.org/advocacy/stategovernmentaffairs/Ballot-Measures",
+    "response_sha256": "ba0c10facd69f12ba93d4eef2945daed83e198a53eb623e2c7e1bc0a596febc8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 12,
+    "quoted_parts": 1,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

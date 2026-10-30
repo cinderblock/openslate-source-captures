@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "lincoln-club-orange-county",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.lincolnclub.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.lincolnclub.org/voterguide",
+   "positions": 113,
+   "host": {
+    "match": "exact",
+    "host": "lincolnclub.org",
+    "org_host": "lincolnclub.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 706,
+    "captured_at": "2026-10-30T17:48:24.904Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.lincolnclub.org/voterguide",
+    "response_sha256": "c02ebc7f3e8e91c537072201b0bff44d52a1a2543c09ef026e93af23c6f6d5b3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 113,
+    "no_statement": 0
+   }
+  }
+ ]
+}

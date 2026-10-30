@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "peace-and-freedom-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.peaceandfreedom.us/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://peaceandfreedom.us/november-2026-voting-guide/",
+   "positions": 22,
+   "host": {
+    "match": "exact",
+    "host": "peaceandfreedom.us",
+    "org_host": "peaceandfreedom.us"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 393,
+    "captured_at": "2026-10-30T17:47:32.934Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://peaceandfreedom.us/november-2026-voting-guide/",
+    "response_sha256": "cd121e6357fb5e3d9f72df9a0839b9c32bdb75438de5323ce0417739348ab804",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 21,
+    "quoted_parts": 0,
+    "unanchored": 1,
+    "no_statement": 0
+   }
+  }
+ ]
+}

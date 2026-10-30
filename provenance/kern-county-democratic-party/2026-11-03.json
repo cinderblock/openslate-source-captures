@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "kern-county-democratic-party",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.kerndemocrats.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.kerndemocrats.com/",
+   "positions": 50,
+   "host": {
+    "match": "exact",
+    "host": "kerndemocrats.com",
+    "org_host": "kerndemocrats.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 691,
+    "captured_at": "2026-10-30T17:48:21.269Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.kerndemocrats.com/",
+    "response_sha256": "542833b25db2d61d73954a4054c69b08a985b4537e85f1f465655fe34d272a7b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 50,
+    "no_statement": 0
+   }
+  }
+ ]
+}

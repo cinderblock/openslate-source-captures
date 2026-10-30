@@ -1,0 +1,50 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "home-sharers-democratic-club",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.homesharersdemclub.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.homesharersdemclub.org/2026/10/hsdc-endorsements-november-3-2026/",
+   "positions": 49,
+   "host": {
+    "match": "exact",
+    "host": "homesharersdemclub.org",
+    "org_host": "homesharersdemclub.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 683,
+    "captured_at": "2026-10-30T17:48:20.332Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.homesharersdemclub.org/2026/10/hsdc-endorsements-november-3-2026/",
+    "response_sha256": "107b622feaa9291958b0aee5a8f4e3e383e820f4a1659794be035f18cb076772",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 42,
+    "quoted_parts": 7,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

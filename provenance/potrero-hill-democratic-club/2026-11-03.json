@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "potrero-hill-democratic-club",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://phdemclub.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://phdemclub.org/endorsements-for-november-3-2026-general-election/",
+   "positions": 57,
+   "host": {
+    "match": "exact",
+    "host": "phdemclub.org",
+    "org_host": "phdemclub.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 395,
+    "captured_at": "2026-10-30T17:47:36.388Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://phdemclub.org/endorsements-for-november-3-2026-general-election/",
+    "response_sha256": "97ce347cb310e4d6e64ba4b03fd048ec6f90d239845489ec0213ffba659f06ff",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 53,
+    "quoted_parts": 2,
+    "unanchored": 2,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://phdemclub.org/2026/09/08/tues-sept-15-more-endorsements/",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "phdemclub.org",
+    "org_host": "phdemclub.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 394,
+    "captured_at": "2026-10-30T17:47:34.625Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://phdemclub.org/2026/09/08/tues-sept-15-more-endorsements/",
+    "response_sha256": "c6c64cdc2d0ce5c6525adb24d8d94152ef2c09e64c06c647da583fccc232ccbd",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "human-rights-campaign",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.hrc.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.hrc.org/lets-get-free-house-elections",
+   "positions": 45,
+   "host": {
+    "match": "exact",
+    "host": "hrc.org",
+    "org_host": "hrc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 684,
+    "captured_at": "2026-10-30T17:48:20.521Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.hrc.org/lets-get-free-house-elections",
+    "response_sha256": "58aef38b3152c221fe9735f21930d556ab2bf411cbc46b42552a84443c05dc74",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 45,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.hrc.org/lets-get-free-state-elections",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "hrc.org",
+    "org_host": "hrc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 685,
+    "captured_at": "2026-10-30T17:48:22.725Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.hrc.org/lets-get-free-state-elections",
+    "response_sha256": "acc7f4ebed5b45a9ecad7b7077768ab615929259097cb35cbbd9244cf9dd47fd",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 2,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.hrc.org/press-releases/human-rights-campaign-endorses-a-slate-of-pro-equality-members-and-candidates-up-for-election-in-key-competitive-u-s-house-districts",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "hrc.org",
+    "org_host": "hrc.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 686,
+    "captured_at": "2026-10-30T17:48:24.866Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.hrc.org/press-releases/human-rights-campaign-endorses-a-slate-of-pro-equality-members-and-candidates-up-for-election-in-key-competitive-u-s-house-districts",
+    "response_sha256": "358305f45b23326092221724f0aa2457560bfd10f55fb6691ca0753a92c6626c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 2,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

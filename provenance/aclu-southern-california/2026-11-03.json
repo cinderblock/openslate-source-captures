@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "aclu-southern-california",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.aclusocal.org/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.aclusocal.org/press-releases/aclu-of-southern-california-proposition-endorsements-for-2026-election/",
+   "positions": 10,
+   "host": {
+    "match": "exact",
+    "host": "aclusocal.org",
+    "org_host": "aclusocal.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 620,
+    "captured_at": "2026-10-30T17:48:03.020Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.aclusocal.org/press-releases/aclu-of-southern-california-proposition-endorsements-for-2026-election/",
+    "response_sha256": "37271fd48cc14797fc58ec2714d0cdd6ea98022f92da803993587a3345d71fd2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 9,
+    "quoted_parts": 1,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.aclusocal.org/aclu-socal-2026-voter-guide/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "aclusocal.org",
+    "org_host": "aclusocal.org"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 619,
+    "captured_at": "2026-10-30T17:48:01.265Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.aclusocal.org/aclu-socal-2026-voter-guide/",
+    "response_sha256": "cf324a7900a1774b9e4997bfed0b8c56e62e1747fa62168b243df2729a46442c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

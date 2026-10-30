@@ -1,0 +1,83 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sd-registrar-of-voters",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sdvote.com/",
+ "generated_from": {
+  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf",
+   "positions": 388,
+   "host": {
+    "match": "exact",
+    "host": "sdvote.com",
+    "org_host": "sdvote.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 819,
+    "captured_at": "2026-10-30T17:48:41.480Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf",
+    "response_sha256": "e40da52c073cb44c36b8c52a2f486270e542fc6e59d76a6eb1401693575eb71a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 388
+   }
+  },
+  {
+   "url": "https://www.sdvote.com/content/rov/en/sample-ballot-info-lookup.html",
+   "positions": 40,
+   "host": {
+    "match": "exact",
+    "host": "sdvote.com",
+    "org_host": "sdvote.com"
+   },
+   "latest": {
+    "run": "2026-10-30T1747Z",
+    "index": 837,
+    "captured_at": "2026-10-30T17:49:00.305Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdvote.com/content/rov/en/sample-ballot-info-lookup.html",
+    "response_sha256": "9338b30a8558ce59a682bba4d3fb570edaa6543f18d4a0893aaa525437ce2490",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 40
+   }
+  }
+ ]
+}
