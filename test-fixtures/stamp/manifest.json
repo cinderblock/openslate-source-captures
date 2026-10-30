@@ -1,0 +1,42 @@
+{
+  "format": "openslate-source-capture/spike-1",
+  "intended": [
+    "https://ca.omniballot.us/published/06085/1968/vg/lookups.json"
+  ],
+  "capturer": {
+    "tool": "experiments/signed-source-capture/04-capture-and-stamp.ts",
+    "user_agent": "openslate-source-capture-exploration (+https://openslate.us)",
+    "runtime": "bun 1.4.2",
+    "platform": "win32"
+  },
+  "captures": [
+    {
+      "intended": "https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
+      "hops": [
+        {
+          "url": "https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
+          "started_at": "2026-10-30T10:17:01.094Z",
+          "ended_at": "2026-10-30T10:17:01.253Z",
+          "remote_ip": "13.249.74.53",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "267a73bad964eed486e1093b162d5f553dfd9a6ea3907894861c9d042f051c6b",
+          "response_sha256": "73c539aff9dae8c38269575f32fafbbde637c83d90e812547ce8997f8365ca00",
+          "response_bytes": 122908,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "chain_sha256": [
+              "db858e711319ed04f9c4a8323e89a5e0e43bd4266f696b056d4712c6bd04300e",
+              "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+              "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+              "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
