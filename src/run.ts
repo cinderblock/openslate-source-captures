@@ -12,7 +12,14 @@ import { execFileSync } from "node:child_process";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { capture, sha256 } from "./capture";
-import { encodeManifest, MANIFEST_FORMAT, type Manifest, putBlob, recordHop } from "./manifest";
+import {
+  encodeManifest,
+  MANIFEST_FORMAT,
+  type Manifest,
+  type ManifestHop,
+  putBlob,
+  recordHop,
+} from "./manifest";
 import type { SourceList } from "./sources";
 
 export const USER_AGENT =
@@ -20,6 +27,8 @@ export const USER_AGENT =
 const ACCEPT = "text/html,application/json,application/pdf,*/*;q=0.8";
 const HOST_GAP_MS = 1500;
 const HOSTS_AT_ONCE = 12;
+
+export const withoutFragment = (url: string) => url.split("#")[0] as string;
 
 const git = (...args: string[]) => execFileSync("git", args).toString().trim();
 
@@ -55,16 +64,25 @@ if (import.meta.main) {
   }
 
   const results = new Map<string, Manifest["captures"][number]>();
+  // "x.pdf#page=57" and "x.pdf#page=58" are one request: a fragment never reaches the server.
+  const fetched = new Map<string, ManifestHop[]>();
   const queue = [...byHost.values()];
   let done = 0;
   const worker = async () => {
     for (let urls = queue.shift(); urls; urls = queue.shift()) {
       for (const url of urls) {
-        const hops = await capture(url, { userAgent: USER_AGENT, accept: ACCEPT });
-        results.set(url, { intended: url, hops: hops.map((hop) => recordHop(blobs, hop)) });
+        const resource = withoutFragment(url);
+        const known = fetched.get(resource);
+        const hops =
+          known ??
+          (await capture(resource, { userAgent: USER_AGENT, accept: ACCEPT })).map((hop) =>
+            recordHop(blobs, hop),
+          );
+        fetched.set(resource, hops);
+        results.set(url, { intended: url, hops });
         done++;
         if (done % 50 === 0) console.log(`${done}/${intended.length}`);
-        await Bun.sleep(HOST_GAP_MS);
+        if (!known) await Bun.sleep(HOST_GAP_MS);
       }
     }
   };

@@ -124,7 +124,11 @@ jobs:
           if compgen -G "large/*" > /dev/null; then
             gh release view large-blobs > /dev/null 2>&1 || gh release create large-blobs \
               --title "Large blobs" --notes "Captured files over 5 MB, each named by its SHA-256."
-            gh release upload large-blobs large/* --clobber
+            # Named by hash, so an asset already there is already right.
+            have=$(gh release view large-blobs --json assets --jq '.assets[].name')
+            for file in large/*; do
+              grep -qx "$(basename "$file")" <<< "$have" || gh release upload large-blobs "$file"
+            done
           fi
           git -C private add blobs
           git -C private diff --cached --quiet || git -C private commit -q -m "capture $id"
