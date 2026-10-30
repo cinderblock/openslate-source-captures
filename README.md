@@ -64,10 +64,15 @@ bun src/run.ts out                                            # capture
 bun src/seal.ts out                                           # timestamp
 bun src/publish.ts out --private <dir>                        # place the bytes
 bun src/verify.ts runs/<id>                                   # verify offline
+bun src/discover.ts --from <endorsements checkout> <url>      # find the data behind a page
 bun test src web
 bun run build-web                                             # build the verifier page into site/
 bun web/e2e.ts out/smoke [<checkout>]                         # drive that page in headless Chrome
 ```
+
+`discover.ts` loads a page once in headless Chrome and reports which responses hold the names the
+slate expects. It only proposes: a person adds what's worth keeping to `discovered.json`, and capture
+stays a plain GET. `discovery-report.md` records the last pass and what still needs a person.
 
 Runs on Windows without WSL and on GitHub Actions.
 
