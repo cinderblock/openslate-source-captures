@@ -1,0 +1,26 @@
+{
+  "name": "openslate-source-captures",
+  "private": true,
+  "type": "module",
+  "description": "Verbatim, time-stamped, CI-witnessed captures of the sources OpenSlate's endorsement slates cite.",
+  "scripts": {
+    "sources": "bun src/sources.ts",
+    "capture": "bun src/run.ts",
+    "seal": "bun src/seal.ts",
+    "publish-run": "bun src/publish.ts",
+    "verify": "bun src/verify.ts",
+    "test": "bun test src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@sigstore/bundle": "^5.0.0",
+    "@sigstore/protobuf-specs": "^0.5.2",
+    "@sigstore/verify": "^4.1.2",
+    "asn1js": "^4.0.0",
+    "pkijs": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}

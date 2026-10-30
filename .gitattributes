@@ -1,0 +1,5 @@
+# Captures are evidence: their bytes must never be line-ending normalized, in either direction.
+# Without this, autocrlf rewrites them on add and on checkout, and the proofs stop verifying.
+blobs/** -text
+runs/** -text
+sources.json -text
