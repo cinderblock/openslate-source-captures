@@ -25,7 +25,19 @@ server sent at all, so none is claimed.
 - The URL list is generated mechanically from the published slates (`src/sources.ts`).
 - No model anywhere in capture or verification.
 
-Each URL is requested once per run, at most one at a time per host.
+Each URL is requested once per run, at most one at a time per host. A file cited with several
+`#page=` fragments is one request.
+
+### Hosts that don't answer a plain GET
+
+- **Blocked from CI.** Some sites refuse GitHub's address range. A separate run from a home address
+  (`bun src/run.ts out --only-hosts ...`) fills those in. It's timestamped but has no CI witness, and
+  its manifest says so. `CAPTURE_GUARD_IPS` keeps any response that prints that address private.
+- **Answered with a stub.** Hosts in `render-hosts.json` are also loaded once in headless Chrome,
+  beside the plain GET and never instead of it, with the same honest user agent and nothing that
+  hides that it's automated. The record is marked `headless-chrome`, because it's Chrome's decoded
+  view and the DOM its scripts built, not socket bytes. The list is public so the exception can be
+  reviewed.
 
 ## Layout
 
@@ -33,8 +45,12 @@ Each URL is requested once per run, at most one at a time per host.
 sources.json          what the latest run set out to fetch, and why
 discovered.json       data URLs a human found behind a page
 withheld-hosts.json   hosts whose bytes stay private, beyond the automatic news rule
+render-hosts.json     hosts also loaded in headless Chrome, and why
 runs/<id>/            manifest.json, stamps/*.tsr, manifest.sigstore.json, placement.json
 blobs/ab/<sha256>     raw requests, responses and certificates
+provenance/<org>/<election>.json   which captures back each slate, and what can be checked
+archived.json         Internet Archive snapshots, and whether their text agrees
+trust/                pinned timestamp roots and the Sigstore trust root
 ```
 
 Responses from news sites and social platforms are captured and proven like everything else, but
@@ -64,6 +80,8 @@ bun src/run.ts out                                            # capture
 bun src/seal.ts out                                           # timestamp
 bun src/publish.ts out --private <dir>                        # place the bytes
 bun src/verify.ts runs/<id>                                   # verify offline
+bun src/build-provenance.ts <endorsements checkout>           # rebuild provenance/
+bun src/archive.ts lookup | compare <checkout> | save         # Internet Archive, best effort
 bun src/discover.ts --from <endorsements checkout> <url>      # find the data behind a page
 bun test src web
 bun run build-web                                             # build the verifier page into site/

@@ -43,6 +43,7 @@ jobs:
             /tsconfig.json
             /discovered.json
             /withheld-hosts.json
+            /render-hosts.json
           sparse-checkout-cone-mode: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -87,9 +88,15 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: cinderblock/openslate-public-endorsements
+          path: endorsements
+          persist-credentials: false
       - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
         with:
           bun-version: 1.4.2
+      - run: bun install --frozen-lockfile
       - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: capture
@@ -114,6 +121,11 @@ jobs:
           cp artifact/sources.json sources.json
           bun src/publish.ts artifact --private private
 
+      # Offline, from what's now in the repo. A failure here must not lose the run.
+      - name: Rebuild provenance
+        continue-on-error: true
+        run: bun src/build-provenance.ts endorsements --private private --large large
+
       - name: Commit
         env:
           GH_TOKEN: ${{ github.token }}
@@ -133,7 +145,7 @@ jobs:
           git -C private add blobs
           git -C private diff --cached --quiet || git -C private commit -q -m "capture $id"
           git -C private push origin HEAD
-          git add runs blobs sources.json
+          git add runs blobs sources.json provenance
           git commit -q -m "capture $id"
           git pull --rebase --autostash
           git push origin HEAD

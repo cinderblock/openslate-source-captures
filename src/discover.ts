@@ -14,17 +14,17 @@
 import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { USER_AGENT } from "./run";
+import { USER_AGENT } from "./user-agent";
 import { comparable } from "./text";
 
 export const SHARE_NEEDED = 0.5;
 
 /** Saves the sites some bytes: nothing we're looking for is in these. */
-const BLOCKED = ["*.png", "*.jpg", "*.jpeg", "*.gif", "*.webp", "*.svg", "*.woff", "*.woff2", "*.mp4"];
+export const BLOCKED = ["*.png", "*.jpg", "*.jpeg", "*.gif", "*.webp", "*.svg", "*.woff", "*.woff2", "*.mp4"];
 
-const LOAD_LIMIT_MS = 45_000;
+export const LOAD_LIMIT_MS = 45_000;
 /** Pages keep loading after the load event, so wait for the network to go quiet. */
-const QUIET_MS = 3_000;
+export const QUIET_MS = 3_000;
 const SUFFIXES = new Set(["jr", "sr", "ii", "iii", "iv", "v", "phd", "md", "esq"]);
 
 /** The last word of a person's name, in comparable form. Null if it can't be a surname. */
@@ -139,7 +139,7 @@ export function findChrome(): string {
 }
 
 /** A DevTools Protocol session: send a command, await its reply, listen for events. */
-class Cdp {
+export class Cdp {
   private id = 0;
   private waiting = new Map<number, { resolve: (v: any) => void; reject: (e: Error) => void }>();
   private listeners: ((method: string, params: any, session?: string) => void)[] = [];
@@ -183,7 +183,7 @@ class Cdp {
   }
 }
 
-async function devtoolsUrl(profile: string): Promise<string> {
+export async function devtoolsUrl(profile: string): Promise<string> {
   const file = join(profile, "DevToolsActivePort");
   for (let i = 0; i < 100; i++) {
     try {

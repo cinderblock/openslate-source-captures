@@ -4,6 +4,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { type Exchange, parseResponse, sha256 } from "./capture";
+import type { Rendered } from "./render";
 
 export const MANIFEST_FORMAT = "openslate-source-capture/1";
 
@@ -52,7 +53,12 @@ export interface Manifest {
     run_url: string | null;
   };
   /** One chain of hops per intended URL, in the same order. */
-  captures: { intended: string; hops: ManifestHop[] }[];
+  captures: {
+    intended: string;
+    hops: ManifestHop[];
+    /** A browser's view, beside the hops, for hosts listed in render-hosts.json. */
+    rendered?: Rendered;
+  }[];
 }
 
 /** Write bytes under their own hash; the name is the integrity check. */

@@ -1,0 +1,1869 @@
+{
+  "format": "openslate-source-capture/1",
+  "run_id": "2026-10-30T1731Z",
+  "started_at": "2026-10-30T17:31:14.370Z",
+  "ended_at": "2026-10-30T17:44:22.368Z",
+  "sources_sha256": "73db55a85d7c664f1184eabf0df1058ad8f8830b48dc5139c257fce81b315ebf",
+  "narrowed_to": [
+    "www.milkclub.org",
+    "apnews.com",
+    "ballotpedia.org",
+    "candidates.aipacpac.org",
+    "files.santaclaracounty.gov",
+    "sfbike.org",
+    "smcdems.org",
+    "www.lacdp.org",
+    "www.nfib.com",
+    "www.sacbee.com",
+    "www.sanbenitocounty-ca-cre.gov",
+    "www.sf.gov",
+    "www.sfcadc.org",
+    "www.smdailyjournal.com",
+    "www.southbaylabor.org",
+    "www.stonewalldems.org",
+    "www.theleaguesf.org"
+  ],
+  "intended": [
+    "http://www.milkclub.org/endorsements",
+    "https://apnews.com/ap-sitemap.xml",
+    "https://apnews.com/hub/california",
+    "https://apnews.com/search",
+    "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
+    "https://candidates.aipacpac.org/api/v2/donation-page/featured",
+    "https://candidates.aipacpac.org/page/featured",
+    "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
+    "https://sfbike.org/news/endorsing-scott-wiener-for-congress/",
+    "https://sfbike.org/news/vote-no-on-prop-g-save-sunset-dunes-park/",
+    "https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/",
+    "https://sfbike.org/our-work/bike-the-vote/",
+    "https://smcdems.org/",
+    "https://www.lacdp.org/ballotmeasures",
+    "https://www.lacdp.org/candidates",
+    "https://www.milkclub.org/endorsements",
+    "https://www.nfib.com/news/press-release/california-small-businesses-endorse-slate-of-candidates-for-election-to-congress/",
+    "https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
+    "https://www.nfib.com/news/press-release/small-business-pac-endorses-30-candidates-for-the-california-legislature/",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/",
+    "https://www.sacbee.com/news/politics-government/election/",
+    "https://www.sacbee.com/opinion/election-endorsements/",
+    "https://www.sacbee.com/opinion/election-endorsements/article316832589.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article316911387.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article316956698.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317045348.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317051745.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317079847.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317131383.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317166989.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317171649.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317172915.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317182902.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317269166.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317445836.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317448027.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317470188.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317472706.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317475362.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317497694.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317514817.html",
+    "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+    "https://www.sacbee.com/search/",
+    "https://www.sanbenitocounty-ca-cre.gov/home/showpublisheddocument/16343/639237846936770000",
+    "https://www.sf.gov/qualified-ballot-measures",
+    "https://www.sf.gov/reports--candidates-nov-3-2026-general-election",
+    "https://www.sfcadc.org/cadc_11_2026_recommendations",
+    "https://www.sfcadc.org/endorsements",
+    "https://www.smdailyjournal.com/opinion/editorials/daily-journal-endorsements-for-the-san-mateo-county-november-election/article_9e726e39-e27e-4b9b-ba42-5addaf7dab5b.html",
+    "https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html",
+    "https://www.southbaylabor.org/2026_endorsements",
+    "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+    "https://www.theleaguesf.org/",
+    "https://www.theleaguesf.org/june_2026_endorsements",
+    "https://www.theleaguesf.org/november_2026_endorsements"
+  ],
+  "capturer": {
+    "tool_repository": "cinderblock/openslate-source-captures",
+    "tool_commit": "71b730ccafd860f0274af3fef7d8fd404e05e50d",
+    "tool_dirty": true,
+    "user_agent": "OpenSlateSourceCapture/1.0 (+https://github.com/cinderblock/openslate-source-captures)",
+    "runtime": "bun 1.4.2",
+    "platform": "win32",
+    "environment": "local",
+    "run_url": null
+  },
+  "captures": [
+    {
+      "intended": "http://www.milkclub.org/endorsements",
+      "hops": [
+        {
+          "url": "http://www.milkclub.org/endorsements",
+          "started_at": "2026-10-30T17:31:14.376Z",
+          "ended_at": "2026-10-30T17:31:14.493Z",
+          "remote_ip": "162.159.128.45",
+          "status": 301,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "8dbef4f88499f81e502e0880de4bdfb39ec945fddc018c437450e98b7f1e239f",
+          "response_sha256": "df415f029e9bab99a7b6de253657034ce03614d2d3db5ee2e0e7807a69c7a07c",
+          "response_bytes": 872,
+          "tls": null
+        },
+        {
+          "url": "https://www.milkclub.org/endorsements",
+          "started_at": "2026-10-30T17:31:14.493Z",
+          "ended_at": "2026-10-30T17:31:15.072Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "8dbef4f88499f81e502e0880de4bdfb39ec945fddc018c437450e98b7f1e239f",
+          "response_sha256": "fa326bc7e3506a3ad8d589525b9f2baf6ab6294df87d154aec7ed22a22900317",
+          "response_bytes": 9739,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "f8dd835046e0401886a63ffcbf9aa8dee958500472fea4633ef1e2dbf8b0e49b",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://apnews.com/ap-sitemap.xml",
+      "hops": [
+        {
+          "url": "https://apnews.com/ap-sitemap.xml",
+          "started_at": "2026-10-30T17:31:14.390Z",
+          "ended_at": "2026-10-30T17:31:14.504Z",
+          "remote_ip": "104.16.22.8",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "5dc9a8c75253f17cb57eda596c4aabfe2fbe82b96ae1ee05f1660654fc1c4831",
+          "response_sha256": "8f939e3bc5141500b12988d66d8808e09acb7c05bbd7fbadc57370a199481f8b",
+          "response_bytes": 3213,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "b644a9e47646964ea4408c9d4540021d79a00f8924859a5f5f0e6f2b8544fc9a",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://apnews.com/hub/california",
+      "hops": [
+        {
+          "url": "https://apnews.com/hub/california",
+          "started_at": "2026-10-30T17:31:16.014Z",
+          "ended_at": "2026-10-30T17:31:16.172Z",
+          "remote_ip": "104.16.22.8",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "f81eed2c4d9fd435700c6189fe52d45ce35bdf51ad0d5faf82d940443f9d7dd0",
+          "response_sha256": "814fb6146d54c18d90168e70bfe63ed69e98fbb85d6b132481d64ebf8d34cb1e",
+          "response_bytes": 137102,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "b644a9e47646964ea4408c9d4540021d79a00f8924859a5f5f0e6f2b8544fc9a",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://apnews.com/search",
+      "hops": [
+        {
+          "url": "https://apnews.com/search",
+          "started_at": "2026-10-30T17:31:17.682Z",
+          "ended_at": "2026-10-30T17:31:17.837Z",
+          "remote_ip": "104.16.22.8",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "b8266cbf679294ed80aeda0dff1e038cd2820582f1daa00558a06dc97c24f8b6",
+          "response_sha256": "29cab60bd05e9727d1fb068b73a92c72d7b77af583025c385a1fa7f6e210a6dd",
+          "response_bytes": 122769,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "b644a9e47646964ea4408c9d4540021d79a00f8924859a5f5f0e6f2b8544fc9a",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
+      "hops": [
+        {
+          "url": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
+          "started_at": "2026-10-30T17:31:14.395Z",
+          "ended_at": "2026-10-30T17:31:14.482Z",
+          "remote_ip": "18.155.202.94",
+          "status": 202,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "7bd6de65ddbc7ee0e07131b09b78d5b24d137f98aee1228c71e5fcaf34906d51",
+          "response_sha256": "12bab11d4d6c657eadfe8d640ebd45c0e6a16c37a3242b2adc1864abed5153cf",
+          "response_bytes": 3035,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "5d9314317bcda2e72e6b41aa0413fc8ca86bc48d842fa325126c21972106fbe5",
+              "5338ebec8fb2ac60996126d3e76aa34fd0f3318ac78ebb7ac8f6f1361f484b33",
+              "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+              "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
+      "hops": [
+        {
+          "url": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
+          "started_at": "2026-10-30T17:31:14.396Z",
+          "ended_at": "2026-10-30T17:31:14.887Z",
+          "remote_ip": "150.171.109.153",
+          "status": 500,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "ef72b2b20212daa1d7e8c37f89e6cea7a5039db883ca42a3f11ed18646fea0c2",
+          "response_sha256": "2ef987cd53f6ce37b0d86e73a71e3642015c4ad845d465492055a9403771a5f7",
+          "response_bytes": 995,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "aaa7ef70d6864c5eff0d8e2279f65c710e4e86da3f588972f44d2b622433c6f9",
+              "c06e307f7cfc1d32fa72a4c033c87b90019af216f0775d64978a2eca6c8a230e",
+              "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://candidates.aipacpac.org/page/featured",
+      "hops": [
+        {
+          "url": "https://candidates.aipacpac.org/page/featured",
+          "started_at": "2026-10-30T17:31:16.394Z",
+          "ended_at": "2026-10-30T17:31:16.784Z",
+          "remote_ip": "150.171.109.153",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "9decb33f4a623bc18e86be572c1c6efc4247883d4665052eee6c2f58cd415065",
+          "response_sha256": "d3b1b3bbbc0e4c6a533687386c8c2c0776bf574ae94dd17a0754d4c44ff9f3b2",
+          "response_bytes": 9809,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "aaa7ef70d6864c5eff0d8e2279f65c710e4e86da3f588972f44d2b622433c6f9",
+              "c06e307f7cfc1d32fa72a4c033c87b90019af216f0775d64978a2eca6c8a230e",
+              "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
+      "hops": [
+        {
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
+          "started_at": "2026-10-30T17:31:14.396Z",
+          "ended_at": "2026-10-30T17:31:14.847Z",
+          "remote_ip": "104.18.0.186",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "be4183e1a5532619b4b7b023ef128efcaf4f7edd5fd9a3e245686a7dd721cd43",
+          "response_sha256": "a3fa95b03c3c5854b3d5f82f57608c7da2ff764e11abe938fce2da85470fc9ce",
+          "response_bytes": 245634,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "08e0aecc3aae9cf23bcd5f3707ea2e5e5f8fa80386a30c8872abc417a8c59ffc",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://sfbike.org/news/endorsing-scott-wiener-for-congress/",
+      "hops": [
+        {
+          "url": "https://sfbike.org/news/endorsing-scott-wiener-for-congress/",
+          "started_at": "2026-10-30T17:31:14.397Z",
+          "ended_at": "2026-10-30T17:31:15.108Z",
+          "remote_ip": "172.67.177.81",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "03b569d6107be7347be3f9380c9bb31fe48faf21e3aeeae65cfaee6f4d0a8b9d",
+          "response_sha256": "acdd1f0691b02b1720de66842b5cbccf284eabd8cebd3635a50076ce736f9e99",
+          "response_bytes": 18088,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "8452186f931a2e3f5030ce6edebce246938bb9ae003b6b554e79526c3348c35b",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://sfbike.org/news/vote-no-on-prop-g-save-sunset-dunes-park/",
+      "hops": [
+        {
+          "url": "https://sfbike.org/news/vote-no-on-prop-g-save-sunset-dunes-park/",
+          "started_at": "2026-10-30T17:31:16.616Z",
+          "ended_at": "2026-10-30T17:31:16.811Z",
+          "remote_ip": "172.67.177.81",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "381456c55906f8bbe2f9d7d3e19090d9141423e777c687fe2bb3836f37607fa5",
+          "response_sha256": "4aa20d4b492f250cefe1b38e947830ce6005fdb80afa93f326710ab3f8c6a679",
+          "response_bytes": 18161,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "8452186f931a2e3f5030ce6edebce246938bb9ae003b6b554e79526c3348c35b",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/",
+      "hops": [
+        {
+          "url": "https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/",
+          "started_at": "2026-10-30T17:31:18.318Z",
+          "ended_at": "2026-10-30T17:31:19.131Z",
+          "remote_ip": "172.67.177.81",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "820a9134a003a121cc847e79985beb65c5b6cf8a9877a605c52845a9ed4f1677",
+          "response_sha256": "8cfd48bec367130b114a4f4a0b7a762062cb57551fd53535ea6ca84c46374926",
+          "response_bytes": 18232,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "8452186f931a2e3f5030ce6edebce246938bb9ae003b6b554e79526c3348c35b",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://sfbike.org/our-work/bike-the-vote/",
+      "hops": [
+        {
+          "url": "https://sfbike.org/our-work/bike-the-vote/",
+          "started_at": "2026-10-30T17:31:20.639Z",
+          "ended_at": "2026-10-30T17:31:21.078Z",
+          "remote_ip": "172.67.177.81",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "8cf9841606bc3d1e2561167f653209016eb7f55d50a11acda8ccd8a16b65bf3a",
+          "response_sha256": "23373cc39d2aa746587e106f446aef7b3e76b32d13c0472a23d1098d4524a60c",
+          "response_bytes": 15054,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "8452186f931a2e3f5030ce6edebce246938bb9ae003b6b554e79526c3348c35b",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://smcdems.org/",
+      "hops": [
+        {
+          "url": "https://smcdems.org/",
+          "started_at": "2026-10-30T17:31:14.397Z",
+          "ended_at": "2026-10-30T17:31:14.589Z",
+          "remote_ip": "89.106.200.1",
+          "status": 301,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "16405ca3f29e37f3407b8e5ee12ac09c653a48326dcdf2dac6155370f11bad20",
+          "response_sha256": "b18e29d91587a4ae7457b9594b7a2a38e2eda5ba6b99ec1ba99e0ca6276e59b8",
+          "response_bytes": 523,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "d794fc48ff9dbdc8672aeccfd47e37ddafd8fde03d877f3acbf331a50171dedf",
+              "a2372d06431e9716365eeed47ec020351497d182fcc038e457e58168a03cac07",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        },
+        {
+          "url": "https://www.smcdems.org/",
+          "started_at": "2026-10-30T17:31:14.590Z",
+          "ended_at": "2026-10-30T17:31:15.091Z",
+          "remote_ip": "162.159.138.44",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "9f7acad74c2ea88d9d9dc103bc4c82842951afa2841967e98a2ca8b93ab66226",
+          "response_sha256": "cd33fd7654512a2084cf031b50ae59590418ffb09e25647acac91ad7caa84965",
+          "response_bytes": 7827,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "6d2e5e0647d41424dd4826f8d7f330486cf8e883b472ca1c6a77af9b355163cc",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.lacdp.org/ballotmeasures",
+      "hops": [
+        {
+          "url": "https://www.lacdp.org/ballotmeasures",
+          "started_at": "2026-10-30T17:31:14.397Z",
+          "ended_at": "2026-10-30T17:31:15.032Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "afcc5dd9d9c937c935aa422f4e5cae615b22bd93d88a76b3c41143593d6a3ca6",
+          "response_sha256": "58f55c62dbaee6515eacdfa7b88ba99c87f7521808903a625497b05bbc3dc8b8",
+          "response_bytes": 16279,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "2a81ac1c18c88b4d0b3f8a53ccb384096460d6173245f2e19dc8987f981bbe04",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.lacdp.org/candidates",
+      "hops": [
+        {
+          "url": "https://www.lacdp.org/candidates",
+          "started_at": "2026-10-30T17:31:16.538Z",
+          "ended_at": "2026-10-30T17:31:16.962Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "4f8153ca46fb91aca5e6c8b48bdf3cc936e2f5aadeb261f95807dadfb079e653",
+          "response_sha256": "6a44df677279760d8a61105ad2b42ac27a39ff4b7c13ecc45ba2a243f89174c7",
+          "response_bytes": 33814,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "2a81ac1c18c88b4d0b3f8a53ccb384096460d6173245f2e19dc8987f981bbe04",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.milkclub.org/endorsements",
+      "hops": [
+        {
+          "url": "https://www.milkclub.org/endorsements",
+          "started_at": "2026-10-30T17:31:16.581Z",
+          "ended_at": "2026-10-30T17:31:17.025Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "8dbef4f88499f81e502e0880de4bdfb39ec945fddc018c437450e98b7f1e239f",
+          "response_sha256": "acff99a5a27ae7c7fa3626e0a189a0529c79bd9028a8584b5c827889002e4c7e",
+          "response_bytes": 9646,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "f8dd835046e0401886a63ffcbf9aa8dee958500472fea4633ef1e2dbf8b0e49b",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.nfib.com/news/press-release/california-small-businesses-endorse-slate-of-candidates-for-election-to-congress/",
+      "hops": [
+        {
+          "url": "https://www.nfib.com/news/press-release/california-small-businesses-endorse-slate-of-candidates-for-election-to-congress/",
+          "started_at": "2026-10-30T17:31:14.398Z",
+          "ended_at": "2026-10-30T17:31:14.611Z",
+          "remote_ip": "162.159.134.42",
+          "status": 403,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "241b22eef015f0a7bdf4027add8a4c74d8a2c53fc6fb1ee06a63a2abd8c3789a",
+          "response_sha256": "a27bec66b3b7a38ac856d8c674503d207ea6b253fc101e947d16a3973d719fd1",
+          "response_bytes": 1752,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "511fb39821cbfe24ef58ffac646ee6e55a7e3d9a13d076e242eb8ae0f1c989ac",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
+      "hops": [
+        {
+          "url": "https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
+          "started_at": "2026-10-30T17:31:16.120Z",
+          "ended_at": "2026-10-30T17:31:16.215Z",
+          "remote_ip": "162.159.134.42",
+          "status": 403,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "4f22951e79a7cdc0421c067f566d1dd4ec6f4e50e367a6fee0cc94bcfbbba9d7",
+          "response_sha256": "c3f11d7ce8c047621236dbfcf44716bf9ccd150fe61243028739f55c588ccf4d",
+          "response_bytes": 1739,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "511fb39821cbfe24ef58ffac646ee6e55a7e3d9a13d076e242eb8ae0f1c989ac",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.nfib.com/news/press-release/small-business-pac-endorses-30-candidates-for-the-california-legislature/",
+      "hops": [
+        {
+          "url": "https://www.nfib.com/news/press-release/small-business-pac-endorses-30-candidates-for-the-california-legislature/",
+          "started_at": "2026-10-30T17:31:17.722Z",
+          "ended_at": "2026-10-30T17:31:17.804Z",
+          "remote_ip": "162.159.134.42",
+          "status": 403,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "6a7c6c896b84b82fd28369544c278d3889c14fad44a427a4baed55b15c9980af",
+          "response_sha256": "15e6acc4daae9ad483b3a6fe22e280bb820a918c495dd103d3617cff48d53565",
+          "response_bytes": 1752,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "511fb39821cbfe24ef58ffac646ee6e55a7e3d9a13d076e242eb8ae0f1c989ac",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/news/politics-government/capitol-alert/",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
+          "started_at": "2026-10-30T17:31:14.398Z",
+          "ended_at": "2026-10-30T17:31:44.403Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "8e0c003c782563684853a523e22daefc8e8ab63279611d7ce5998e057cd0ae6b",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/news/politics-government/election/",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/news/politics-government/election/",
+          "started_at": "2026-10-30T17:31:45.925Z",
+          "ended_at": "2026-10-30T17:32:15.927Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "f13280b672da63cd7f31012392cb4339985a996f62b1499d2df27dff33ff1f6e",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/",
+          "started_at": "2026-10-30T17:32:17.435Z",
+          "ended_at": "2026-10-30T17:32:47.437Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "21d66a92c56df387073bc9b757b4be5841f9275d5db06204fda511b24020995c",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article316832589.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article316832589.html",
+          "started_at": "2026-10-30T17:32:48.942Z",
+          "ended_at": "2026-10-30T17:33:18.942Z",
+          "remote_ip": "23.11.207.242",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "73fd561bb0e4c199c7e8eb8834cc2fd9674956d28400b1f2ef5205cf63e1c0d7",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article316911387.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article316911387.html",
+          "started_at": "2026-10-30T17:33:20.450Z",
+          "ended_at": "2026-10-30T17:33:50.452Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "1a33054060ab27d3dda40783a5f56d9f00cae4a8e1c566fc1cc1fb21c0c03db4",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+          "started_at": "2026-10-30T17:33:51.958Z",
+          "ended_at": "2026-10-30T17:34:21.959Z",
+          "remote_ip": "23.11.207.242",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "60dfc9532b0ace855f21705e744d5be77c5540bb8ebfcb7d501ec9f81b652a51",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article316956698.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article316956698.html",
+          "started_at": "2026-10-30T17:34:23.465Z",
+          "ended_at": "2026-10-30T17:34:53.466Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "392ef0ad20aac19c521ffa1db580711200849f1d119b82bc1a0e3f22b12c6db6",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317045348.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317045348.html",
+          "started_at": "2026-10-30T17:34:54.973Z",
+          "ended_at": "2026-10-30T17:35:24.975Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "c1bc3d5f6ad6a2b0e49586368a6cead186bc179ba3f1a1c47a40bece1738af02",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317051745.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317051745.html",
+          "started_at": "2026-10-30T17:35:26.481Z",
+          "ended_at": "2026-10-30T17:35:56.489Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "1ccd6543e5d1c96a8d3cd91c702fe9b9212812c00600dc7ef8b10607e3dcdbee",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317079847.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317079847.html",
+          "started_at": "2026-10-30T17:35:57.998Z",
+          "ended_at": "2026-10-30T17:36:28.000Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "4dec6d272f1324e51dbef31f8506866a60c2fcf8003148d70fff18f18e068bb9",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317131383.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317131383.html",
+          "started_at": "2026-10-30T17:36:29.508Z",
+          "ended_at": "2026-10-30T17:36:59.510Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "25047ff9896ac7e19ba7c50ef301def0433a5f52988804c470179024748aa0b2",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317166989.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317166989.html",
+          "started_at": "2026-10-30T17:37:01.019Z",
+          "ended_at": "2026-10-30T17:37:31.021Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "396e082b93d7e264ba44f3b68471945e22ab3772f0908853a95cc5959f7dba16",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317171649.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317171649.html",
+          "started_at": "2026-10-30T17:37:32.541Z",
+          "ended_at": "2026-10-30T17:38:02.547Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "a100faec014e5c2abf16c83c58006b2459c13f2b30cd33555ca7a6f897b5ecae",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317172915.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317172915.html",
+          "started_at": "2026-10-30T17:38:04.059Z",
+          "ended_at": "2026-10-30T17:38:34.061Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "110cefcafb8c85af20dafe9e83cbe0bfdf033d9ff41f02896ff9ab77c0cddda3",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317182902.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317182902.html",
+          "started_at": "2026-10-30T17:38:35.573Z",
+          "ended_at": "2026-10-30T17:39:05.575Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "0e53f1cf69eb2ca2a9607ed81745e13d764d769d98d73dd8726fbc983cab1c50",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317269166.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317269166.html",
+          "started_at": "2026-10-30T17:39:07.084Z",
+          "ended_at": "2026-10-30T17:39:37.104Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "fd01fa4c07e86fa11073609736373acc1b7afca52b0de83b3fb6e4b1663bd6c2",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317445836.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317445836.html",
+          "started_at": "2026-10-30T17:39:38.634Z",
+          "ended_at": "2026-10-30T17:40:08.654Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "79e512d6bcccf61a9061d7cf3aacd37f03d4d716530e1bfbefee5e103b02f090",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317448027.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317448027.html",
+          "started_at": "2026-10-30T17:40:10.182Z",
+          "ended_at": "2026-10-30T17:40:40.183Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "3932f01ea8b2c05066ebf50b8b6d1437b7fcf9296907bcda30cf723dd4fdad99",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317470188.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317470188.html",
+          "started_at": "2026-10-30T17:40:41.699Z",
+          "ended_at": "2026-10-30T17:41:11.702Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "9ae76bf5284d883a30330505cfc899bd4a7bc0022b57278f8b31c0c042b1040a",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317472706.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317472706.html",
+          "started_at": "2026-10-30T17:41:13.219Z",
+          "ended_at": "2026-10-30T17:41:43.238Z",
+          "remote_ip": "23.46.216.208",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "39aab1cf76cc1b9d6aa472e48914ce21bfd94b13670104c4697bcdf1e8a249c6",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317475362.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317475362.html",
+          "started_at": "2026-10-30T17:41:44.756Z",
+          "ended_at": "2026-10-30T17:42:14.758Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "e57a0378020e74d565fb579b001fc651803a0f2225fe3b56e6a566fe3cf56fb3",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317497694.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317497694.html",
+          "started_at": "2026-10-30T17:42:16.267Z",
+          "ended_at": "2026-10-30T17:42:46.277Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "3388cd84012c738589842ab786b7af0b13809847ec03420adc70ae3cb50860be",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317514817.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317514817.html",
+          "started_at": "2026-10-30T17:42:47.786Z",
+          "ended_at": "2026-10-30T17:43:17.788Z",
+          "remote_ip": "69.192.139.96",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "66ca9407739dda5f41a40e0ebff0bf176bb26b18893574de55cf9af7cc7e710a",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+          "started_at": "2026-10-30T17:43:19.302Z",
+          "ended_at": "2026-10-30T17:43:49.304Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "dd78711b97076f48b9e2f65bc43bdb3443a75b967e29a4e1c279d74a11ae01f8",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sacbee.com/search/",
+      "hops": [
+        {
+          "url": "https://www.sacbee.com/search/",
+          "started_at": "2026-10-30T17:43:50.847Z",
+          "ended_at": "2026-10-30T17:44:20.856Z",
+          "remote_ip": "23.46.216.196",
+          "status": null,
+          "error": "timeout: no data",
+          "truncated": false,
+          "request_sha256": "98a41afe8fd541638e032285eb17199339ff50d866c8141fcae5b380a24309d1",
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response_bytes": 0,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "c33648dd60789748e6f324f814f0f29ebf812b8338a8c725b614d95664d36460",
+              "97658de8c68dfa98ace1e5028a63d54a1aae911b3e21471076c6850cd08cbab4",
+              "0fc0901cca2bae9e9fdbb02d50d02f1094f7b36672086991b9e897626dc485f0",
+              "ee5f7abd6981bb0255632cd8f49283451b4b18844d12040b44ee00f07b8fe2c6",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sanbenitocounty-ca-cre.gov/home/showpublisheddocument/16343/639237846936770000",
+      "hops": [
+        {
+          "url": "https://www.sanbenitocounty-ca-cre.gov/home/showpublisheddocument/16343/639237846936770000",
+          "started_at": "2026-10-30T17:31:14.398Z",
+          "ended_at": "2026-10-30T17:31:14.667Z",
+          "remote_ip": "69.192.139.105",
+          "status": 403,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "a695fd0c6cd0710dacfe7a92eb1c93cc64ee50c70735e4a12694c258dd0b77c5",
+          "response_sha256": "3030cc6d45792195baa99d7149ecae245ebaa3213cb3b194feed445926526911",
+          "response_bytes": 975,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "748e916aca8fb425c77445e17893c8e03908d397e5e58d816606eb0b16010b26",
+              "238b85a0099c65b970477d5724f1a1d475ce5058cffe4efa8733899bdb863c47",
+              "072639d0b140d5bffae16ad9c3f6cc6086040621f51ee61a6d46a8915c07cf76",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sf.gov/qualified-ballot-measures",
+      "hops": [
+        {
+          "url": "https://www.sf.gov/qualified-ballot-measures",
+          "started_at": "2026-10-30T17:31:14.399Z",
+          "ended_at": "2026-10-30T17:31:14.621Z",
+          "remote_ip": "18.244.214.109",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "255d1fad3f7804187500e6172f36601b4164c72f6a8d3fac6944d54636fd2ee1",
+          "response_sha256": "abdacdb0946da6b98219430d86fc05a723c2a84f4d7532c4fd91e3a13c891646",
+          "response_bytes": 48523,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "0cabd4b19ded35c8cbb1b05a267c71cd82968d72a92e7e53e0237bcdf11edade",
+              "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+              "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+              "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sf.gov/reports--candidates-nov-3-2026-general-election",
+      "hops": [
+        {
+          "url": "https://www.sf.gov/reports--candidates-nov-3-2026-general-election",
+          "started_at": "2026-10-30T17:31:16.130Z",
+          "ended_at": "2026-10-30T17:31:16.193Z",
+          "remote_ip": "18.244.214.109",
+          "status": 308,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "fb0be06dca6bd26408eb1bdedc1b8219d0fdc1853fa911f2c4d6487fcced7272",
+          "response_sha256": "4e8ee5449c0df6c32ce705f84bc373ec7eb100988e748210b0d138835777f7f9",
+          "response_bytes": 609,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "0cabd4b19ded35c8cbb1b05a267c71cd82968d72a92e7e53e0237bcdf11edade",
+              "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+              "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+              "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+            ]
+          }
+        },
+        {
+          "url": "https://www.sf.gov/candidates-november-3-2026-general-election/",
+          "started_at": "2026-10-30T17:31:16.193Z",
+          "ended_at": "2026-10-30T17:31:16.246Z",
+          "remote_ip": "18.244.214.109",
+          "status": 308,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "ba3eb62bf8e96d79a6528046168d88dcd43a5fe0c45c6ec58e95e8c2fb47aafd",
+          "response_sha256": "d9a8f8f9d67e2443d30cb08af140db5b7b43c370f9528fc1260f84be94811b1c",
+          "response_bytes": 555,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "0cabd4b19ded35c8cbb1b05a267c71cd82968d72a92e7e53e0237bcdf11edade",
+              "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+              "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+              "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+            ]
+          }
+        },
+        {
+          "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+          "started_at": "2026-10-30T17:31:16.246Z",
+          "ended_at": "2026-10-30T17:31:16.310Z",
+          "remote_ip": "18.244.214.109",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "478033236fc5c845c0ead3aa9b7e85143278150b1b79be82fb31f8b0673f3d57",
+          "response_sha256": "fdb67f9804f1e41d80b81e43bf8305077215272961572c1ab24e2ebcd28c38a2",
+          "response_bytes": 52098,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "0cabd4b19ded35c8cbb1b05a267c71cd82968d72a92e7e53e0237bcdf11edade",
+              "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+              "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+              "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sfcadc.org/cadc_11_2026_recommendations",
+      "hops": [
+        {
+          "url": "https://www.sfcadc.org/cadc_11_2026_recommendations",
+          "started_at": "2026-10-30T17:31:15.992Z",
+          "ended_at": "2026-10-30T17:31:16.633Z",
+          "remote_ip": "162.159.138.44",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "6508949f30aad8ba6c5ebc04763a263ef5d500108e2afb76c8616fc444a4b6e6",
+          "response_sha256": "c34d53ccb41919f0306ca3a5f4dedaf4506099648d134a3f9047ddcaaa8bc62e",
+          "response_bytes": 22010,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "dbac63a6029afd1ee3351f8e2c298f33ae576b29531e468d904cac44b7346b9e",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sfcadc.org/endorsements",
+      "hops": [
+        {
+          "url": "https://www.sfcadc.org/endorsements",
+          "started_at": "2026-10-30T17:31:18.141Z",
+          "ended_at": "2026-10-30T17:31:18.968Z",
+          "remote_ip": "162.159.138.44",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "a9a1664bb657eb77e0049900efea772233cb8c11318f403159dea8e2b0b931ec",
+          "response_sha256": "7794158e6a89ad7afe46b4f1edc26cdce678f7017044704f03dd0717a7a63671",
+          "response_bytes": 36046,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "dbac63a6029afd1ee3351f8e2c298f33ae576b29531e468d904cac44b7346b9e",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.smdailyjournal.com/opinion/editorials/daily-journal-endorsements-for-the-san-mateo-county-november-election/article_9e726e39-e27e-4b9b-ba42-5addaf7dab5b.html",
+      "hops": [
+        {
+          "url": "https://www.smdailyjournal.com/opinion/editorials/daily-journal-endorsements-for-the-san-mateo-county-november-election/article_9e726e39-e27e-4b9b-ba42-5addaf7dab5b.html",
+          "started_at": "2026-10-30T17:31:16.180Z",
+          "ended_at": "2026-10-30T17:31:16.420Z",
+          "remote_ip": "192.104.183.109",
+          "status": 403,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "f5f0b62d8a357f0a92a2bd7145b2c1eb2264a4219bc4f16f1313e49c6d281916",
+          "response_sha256": "48bca45e1f3ddee82d139d1e7a5af59ec94db80db51d71828de945156971bdce",
+          "response_bytes": 101,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "953ac7fd767b469bf15aadafcffdf40f01aa199443e6eb482274ceab2b83599c",
+              "b10b6f00e609509e8700f6d34687a2bfce38ea05a8fdf1cdc40c3a2a0d0d0e45",
+              "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html",
+      "hops": [
+        {
+          "url": "https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html",
+          "started_at": "2026-10-30T17:31:17.928Z",
+          "ended_at": "2026-10-30T17:31:18.156Z",
+          "remote_ip": "192.104.183.109",
+          "status": 403,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "5204bc8c1e8a8d60a438ec5f3809aa676c3dd1d2a917af6709b78acd27e4f315",
+          "response_sha256": "94b752637fda8e36d3baf2a9869d172a1abf1e6b61d62fb58fcca184b580f641",
+          "response_bytes": 101,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "953ac7fd767b469bf15aadafcffdf40f01aa199443e6eb482274ceab2b83599c",
+              "b10b6f00e609509e8700f6d34687a2bfce38ea05a8fdf1cdc40c3a2a0d0d0e45",
+              "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.southbaylabor.org/2026_endorsements",
+      "hops": [
+        {
+          "url": "https://www.southbaylabor.org/2026_endorsements",
+          "started_at": "2026-10-30T17:31:16.354Z",
+          "ended_at": "2026-10-30T17:31:17.006Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "6d60014d20e8a970e276ae6952d4bec3b5ac74419bd83ed69a02ca1da6a817d4",
+          "response_sha256": "56fa8c3a734ab27d2fb4a7a56b918ca37f42000c7dfa4e6af8b438c5dd138502",
+          "response_bytes": 11500,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "f7acb87ef0bb64545bbd79aaa6f81251acc67a3cf62f729d4b7570c75dc325ed",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "hops": [
+        {
+          "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+          "started_at": "2026-10-30T17:31:16.609Z",
+          "ended_at": "2026-10-30T17:31:17.234Z",
+          "remote_ip": "162.159.138.44",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "c394e8e1e29ca2a4b25dfe95ffa349a297668020656234f77a64dbea95bc1ec7",
+          "response_sha256": "b305a71a610d77f60e30a6a6f472c229fdea18e0d54ce45510df4c4d8d25bd92",
+          "response_bytes": 17678,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "9f55f0ab0f4a87d72ae123847b0acb2b7c2bcfe41469d9308572f0c972a46754",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.theleaguesf.org/",
+      "hops": [
+        {
+          "url": "https://www.theleaguesf.org/",
+          "started_at": "2026-10-30T17:31:17.831Z",
+          "ended_at": "2026-10-30T17:31:18.481Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "101350f04d597df19ca8acc3d970c8e1357baa91772109bd126974de864d152c",
+          "response_sha256": "3479e48fa3b041cc51aa8b64cee9c4ace5c7803382165abbd3bfd9ef3360bf72",
+          "response_bytes": 49710,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "3c7289f3c93d2c5c33567f64b9a07396beb5a2a47d1aa0063fefee8b15fe733e",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.theleaguesf.org/june_2026_endorsements",
+      "hops": [
+        {
+          "url": "https://www.theleaguesf.org/june_2026_endorsements",
+          "started_at": "2026-10-30T17:31:19.989Z",
+          "ended_at": "2026-10-30T17:31:20.378Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "6b38bb484869fa253a3c56a3a69c5aeff019916f6ea3ce503d4a516ede9450fd",
+          "response_sha256": "e5338c54db40917cb54532d072db0f5f9c281480d09143fcfe8745bf3ceaf4db",
+          "response_bytes": 10551,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "3c7289f3c93d2c5c33567f64b9a07396beb5a2a47d1aa0063fefee8b15fe733e",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.theleaguesf.org/november_2026_endorsements",
+      "hops": [
+        {
+          "url": "https://www.theleaguesf.org/november_2026_endorsements",
+          "started_at": "2026-10-30T17:31:21.886Z",
+          "ended_at": "2026-10-30T17:31:22.099Z",
+          "remote_ip": "162.159.128.45",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "6dc7033de9d9006f0a2301858fdab9cf1762d7e7ff073410e1c68b0884b2bf6d",
+          "response_sha256": "bdd315b547d968406549a5505a9b45c938b6e9a80a5d4fb09b94f6a4a4c82099",
+          "response_bytes": 9519,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "3c7289f3c93d2c5c33567f64b9a07396beb5a2a47d1aa0063fefee8b15fe733e",
+              "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+              "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -407,6 +407,8 @@ export interface UrlFacts {
   response_sha256: string;
   bytes: Bytes;
   truncated: boolean;
+  /** Status a headless browser got, where the run also rendered this page. */
+  rendered_status: number | null;
 }
 
 export interface RunReport {
@@ -448,7 +450,11 @@ interface ManifestShape {
   narrowed_to: string[] | null;
   intended: string[];
   capturer: { tool_commit: string; tool_dirty: boolean };
-  captures: { intended: string; hops: Hop[] }[];
+  captures: {
+    intended: string;
+    hops: Hop[];
+    rendered?: { status: number | null; document_sha256: string | null; dom_sha256: string | null };
+  }[];
 }
 
 /** Recompute everything about a run from its bytes. */
@@ -535,7 +541,7 @@ export async function verifyRun(input: RunInput): Promise<RunReport> {
   }
 
   const urls: UrlFacts[] = [];
-  for (const { intended, hops } of manifest.captures) {
+  for (const { intended, hops, rendered } of manifest.captures) {
     let state: Bytes = "missing";
     for (const hop of hops) {
       const request = await hold(hop.request_sha256);
@@ -550,6 +556,9 @@ export async function verifyRun(input: RunInput): Promise<RunReport> {
         problems.push(`manifest status disagrees with the bytes for ${hop.url}`);
       }
     }
+    for (const hash of [rendered?.document_sha256, rendered?.dom_sha256]) {
+      if (hash && (await hold(hash)).state === "missing") problems.push(`missing render ${hash}`);
+    }
     const last = hops.at(-1);
     if (!last) {
       problems.push(`no exchange recorded for ${intended}`);
@@ -563,6 +572,7 @@ export async function verifyRun(input: RunInput): Promise<RunReport> {
       response_sha256: last.response_sha256,
       bytes: state,
       truncated: last.truncated,
+      rendered_status: rendered?.status ?? null,
     });
   }
 

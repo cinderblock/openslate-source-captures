@@ -1,0 +1,8 @@
+{
+  "note": "Hosts whose pages are also loaded once in headless Chrome, beside the plain GET, because a GET doesn't get the page. Same honest user agent. Listed here so the exception is public and reviewable.",
+  "hosts": {
+    "www.sierraclub.org": "A plain GET gets a 726-byte stub on every page, HTTP 200, from a home address and from CI. 12 URLs, 365 positions.",
+    "www.sacbee.com": "No response to a plain GET from a home address or from CI: 25 URLs time out.",
+    "www.sf.gov": "HTTP 202 and an empty challenge to a plain GET from CI; 200 from a home address."
+  }
+}

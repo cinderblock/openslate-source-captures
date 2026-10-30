@@ -20,10 +20,10 @@ import {
   putBlob,
   recordHop,
 } from "./manifest";
+import { type Rendered, renderPage } from "./render";
 import type { SourceList } from "./sources";
+import { USER_AGENT } from "./user-agent";
 
-export const USER_AGENT =
-  "OpenSlateSourceCapture/1.0 (+https://github.com/cinderblock/openslate-source-captures)";
 const ACCEPT = "text/html,application/json,application/pdf,*/*;q=0.8";
 const HOST_GAP_MS = 1500;
 const HOSTS_AT_ONCE = 12;
@@ -51,6 +51,10 @@ if (import.meta.main) {
   const intended = list.sources.map(({ url }) => url).filter((url) => !only || only.has(hostOf(url)));
 
   const started_at = new Date().toISOString();
+  // Read before fetching: this describes the code that ran, whatever happens to the tree later.
+  const tool_commit = git("rev-parse", "HEAD");
+  const tool_dirty =
+    git("status", "--porcelain", "--", "src", "package.json", "bun.lock", "render-hosts.json") !== "";
   const run_id = started_at.slice(0, 16).replace(":", "") + "Z";
   const blobs = join(out, "blobs");
   mkdirSync(blobs, { recursive: true });
@@ -88,6 +92,18 @@ if (import.meta.main) {
   };
   await Promise.all(Array.from({ length: HOSTS_AT_ONCE }, worker));
 
+  // Beside the plain GET, never instead of it, for hosts that only answer a browser.
+  const renderHosts = JSON.parse(readFileSync("render-hosts.json", "utf8")).hosts as Record<
+    string,
+    string
+  >;
+  const toRender = new Set(intended.filter((url) => renderHosts[hostOf(url)]).map(withoutFragment));
+  const renders = new Map<string, Rendered>();
+  for (const url of toRender) {
+    renders.set(url, await renderPage(url, blobs));
+    await Bun.sleep(HOST_GAP_MS);
+  }
+
   const manifest: Manifest = {
     format: MANIFEST_FORMAT,
     run_id,
@@ -98,8 +114,8 @@ if (import.meta.main) {
     intended,
     capturer: {
       tool_repository: "cinderblock/openslate-source-captures",
-      tool_commit: git("rev-parse", "HEAD"),
-      tool_dirty: git("status", "--porcelain", "--", "src", "package.json", "bun.lock") !== "",
+      tool_commit,
+      tool_dirty,
       user_agent: USER_AGENT,
       runtime: `bun ${Bun.version}`,
       platform: process.platform,
@@ -111,7 +127,8 @@ if (import.meta.main) {
     captures: intended.map((url) => {
       const result = results.get(url);
       if (!result) throw new Error(`no outcome recorded for ${url}`);
-      return result;
+      const rendered = renders.get(withoutFragment(url));
+      return rendered ? { ...result, rendered } : result;
     }),
   };
   writeFileSync(join(out, "manifest.json"), encodeManifest(manifest));
@@ -123,4 +140,5 @@ if (import.meta.main) {
     tally[key] = (tally[key] ?? 0) + 1;
   }
   console.log(`run ${run_id}: ${intended.length} URLs`, tally);
+  process.exit(0);
 }
