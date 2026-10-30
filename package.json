@@ -9,7 +9,8 @@
     "seal": "bun src/seal.ts",
     "publish-run": "bun src/publish.ts",
     "verify": "bun src/verify.ts",
-    "test": "bun test src",
+    "build-web": "bun build web/main.ts --outdir site --target browser --format iife --minify && bun -e \"require('node:fs').copyFileSync('web/index.html','site/index.html')\"",
+    "test": "bun test src web",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

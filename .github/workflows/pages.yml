@@ -1,0 +1,66 @@
+# Publish the browser verifier. It's a static page with its trust roots built in: Pages only hands
+# it out, and the page works just as well saved to disk with the network off.
+#
+# Every action is pinned to a commit, as in capture.yml. Capture commits don't touch these paths, so
+# a sweep doesn't redeploy the page.
+name: pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - web/**
+      - src/verify-core.ts
+      - trust/**
+      - package.json
+      - bun.lock
+      - .github/workflows/pages.yml
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          # The page, not past captures.
+          sparse-checkout: |
+            /src
+            /web
+            /trust
+            /package.json
+            /bun.lock
+            /tsconfig.json
+          sparse-checkout-cone-mode: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: 1.4.2
+      - run: bun install --frozen-lockfile
+      - run: bun run build-web
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

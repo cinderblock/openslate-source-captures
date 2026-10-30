@@ -44,6 +44,17 @@ over 5 MB are assets on the `large-blobs` release.
 
 Captures are marked `-text` in `.gitattributes`. Git must never normalize their line endings.
 
+## Verify in a browser
+
+[The verifier page](https://cinderblock.github.io/openslate-source-captures/) checks a run on your
+own machine: no server is involved in the answer. Give it a run id, or pick a folder holding a run
+or a copy of this repository. Its trust roots are built in, so a saved copy works with the network
+off and the source sites long gone, and a mirror of this repository works as well as the original.
+
+It runs the same `src/verify-core.ts` as the command line. The one difference is that the browser
+check skips the Sigstore certificate's Certificate Transparency timestamp; the command line also
+runs the reference Sigstore library, which checks it.
+
 ## Commands
 
 ```
@@ -53,7 +64,9 @@ bun src/run.ts out                                            # capture
 bun src/seal.ts out                                           # timestamp
 bun src/publish.ts out --private <dir>                        # place the bytes
 bun src/verify.ts runs/<id>                                   # verify offline
-bun test src
+bun test src web
+bun run build-web                                             # build the verifier page into site/
+bun web/e2e.ts out/smoke [<checkout>]                         # drive that page in headless Chrome
 ```
 
 Runs on Windows without WSL and on GitHub Actions.

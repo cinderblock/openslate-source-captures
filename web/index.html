@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Verify an OpenSlate source capture</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 70rem;
+        padding: 1rem;
+      }
+      fieldset {
+        margin-bottom: 1rem;
+      }
+      label {
+        display: block;
+        font-weight: 600;
+        margin-top: 0.5rem;
+      }
+      input[type="text"],
+      select {
+        font: inherit;
+        max-width: 100%;
+        padding: 0.25rem;
+        width: 30rem;
+      }
+      button {
+        font: inherit;
+        margin-top: 0.5rem;
+        padding: 0.25rem 0.75rem;
+      }
+      #drop-zone {
+        border: 2px dashed;
+        margin-top: 0.75rem;
+        padding: 1rem;
+      }
+      #drop-zone[data-over] {
+        border-style: solid;
+      }
+      #verdict[data-failed="true"] {
+        color: #c22;
+      }
+      code {
+        overflow-wrap: anywhere;
+      }
+      .hash {
+        font-size: 0.8em;
+      }
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .filters input[type="text"],
+      .filters select {
+        width: auto;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border-bottom: 1px solid currentColor;
+        padding: 0.25rem 0.5rem;
+        text-align: left;
+        vertical-align: top;
+      }
+      caption {
+        text-align: left;
+      }
+      dt {
+        font-weight: 600;
+      }
+      dd {
+        margin: 0 0 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Verify an OpenSlate source capture</h1>
+    <p>
+      This page checks a capture run in your browser. It sends nothing anywhere. It fetches the list
+      of runs from GitHub, and the run you ask for. Everything it needs to judge a run is built into
+      the page, so it also works with no network at all: save this page and pick a folder.
+    </p>
+
+    <form id="mirror-form">
+      <fieldset>
+        <legend>From a copy of the repository online</legend>
+        <label for="run">Run id</label>
+        <input id="run" type="text" list="run-list" autocomplete="off" spellcheck="false" />
+        <datalist id="run-list"></datalist>
+        <label for="base">Repository address, if you're using a mirror</label>
+        <input id="base" type="text" autocomplete="off" spellcheck="false" />
+        <div><button type="submit">Verify this run</button></div>
+      </fieldset>
+    </form>
+
+    <fieldset>
+      <legend>From a folder on this computer</legend>
+      <label for="folder">Folder holding a run, or a copy of the repository</label>
+      <input id="folder" type="file" webkitdirectory />
+      <div id="drop-zone">Or drop the folder here.</div>
+      <div id="folder-run-row" hidden>
+        <label for="folder-run">This folder has several runs</label>
+        <select id="folder-run"></select>
+        <div><button id="folder-run-verify" type="button">Verify this run</button></div>
+      </div>
+    </fieldset>
+
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <section id="results" aria-labelledby="verdict" hidden>
+      <h2 id="verdict" tabindex="-1"></h2>
+      <dl>
+        <dt>Run</dt>
+        <dd><code id="run-id"></code></dd>
+        <dt>Manifest SHA-256</dt>
+        <dd><code id="manifest-hash"></code></dd>
+        <dt>Existed by</dt>
+        <dd id="existed-by"></dd>
+      </dl>
+
+      <section id="problems-section" aria-labelledby="problems-heading" hidden>
+        <h3 id="problems-heading">Problems</h3>
+        <ul id="problems"></ul>
+      </section>
+
+      <h3>Timestamps</h3>
+      <ul id="stamps"></ul>
+
+      <h3>Witness</h3>
+      <div id="witness"></div>
+
+      <h3>What this shows</h3>
+      <p>
+        <strong>Shown:</strong> these bytes existed by the time above, unchanged. If witnessed, this
+        public code on GitHub's runner produced them.
+      </p>
+      <p>
+        <strong>Not shown:</strong> that the site wasn't hacked or showing bots something else, or
+        that a domain speaks for an organization.
+      </p>
+      <p>
+        This browser check skips the Sigstore certificate's Certificate Transparency timestamp (SCT).
+        The command-line verifier, <code>bun src/verify.ts</code>, also runs the reference Sigstore
+        library, which checks it.
+      </p>
+
+      <h3>URLs</h3>
+      <p id="totals"></p>
+      <div class="filters">
+        <div>
+          <label for="filter-text">Find in URL or hash</label>
+          <input id="filter-text" type="text" autocomplete="off" spellcheck="false" />
+        </div>
+        <div>
+          <label for="filter-status">Status</label>
+          <select id="filter-status">
+            <option value="all">All</option>
+            <option value="200">200</option>
+            <option value="other">Another status</option>
+            <option value="none">No response</option>
+          </select>
+        </div>
+        <div>
+          <label for="filter-bytes">Bytes</label>
+          <select id="filter-bytes">
+            <option value="all">All</option>
+            <option value="present">Here</option>
+            <option value="withheld">Elsewhere</option>
+            <option value="missing">Missing</option>
+          </select>
+        </div>
+      </div>
+      <p id="url-count" role="status"></p>
+      <table>
+        <caption>
+          Every URL the run set out to fetch, with what came back from the last hop
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">URL</th>
+            <th scope="col">Status</th>
+            <th scope="col">Bytes</th>
+            <th scope="col">Response SHA-256</th>
+          </tr>
+        </thead>
+        <tbody id="urls"></tbody>
+      </table>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
