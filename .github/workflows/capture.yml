@@ -1,0 +1,135 @@
+# The witness: public code, on GitHub's own runner, fetches every source verbatim and seals the
+# result. There is no signing key. The workflow's short-lived OIDC identity is the signer, and
+# Fulcio's certificate records this repository, commit, workflow file and runner, in a public log.
+#
+# Every action is pinned to a commit, because a witness must not float on a mutable tag. There are
+# no workflow inputs, so a run can't be pointed anywhere a public commit didn't already say.
+name: capture
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily through the election, then weekly.
+    - cron: "0 10 30,31 10 *"
+    - cron: "0 10 1-5 11 *"
+    - cron: "0 10 * * 1"
+
+concurrency:
+  group: capture
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  capture:
+    # Must stay GitHub-hosted: verifiers reject any other `runner_environment`.
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+      # Lets the job ask GitHub for an OIDC token, which is what gets certified.
+      id-token: write
+      # Stores the attestation with GitHub as well as in the public log.
+      attestations: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          # The tool, not past captures.
+          sparse-checkout: |
+            /src
+            /package.json
+            /bun.lock
+            /tsconfig.json
+            /discovered.json
+            /withheld-hosts.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: cinderblock/openslate-public-endorsements
+          path: endorsements
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: 1.4.2
+      - run: bun install --frozen-lockfile
+
+      # Everything that touches the captured bytes runs here, in this one job, which holds no
+      # credential that can write anywhere.
+      - name: List sources
+        run: bun src/sources.ts endorsements
+      - name: Capture
+        run: bun src/run.ts out
+      - name: Timestamp
+        run: bun src/seal.ts out
+
+      # One attestation covers the whole run: the manifest names every other byte by hash.
+      - id: attest
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: out/manifest.json
+      - run: |
+          cp "${{ steps.attest.outputs.bundle-path }}" out/manifest.sigstore.json
+          cp sources.json out/sources.json
+
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: capture
+          path: out
+          retention-days: 7
+          compression-level: 0
+
+  publish:
+    needs: capture
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: 1.4.2
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: capture
+          path: artifact
+
+      # The key goes to an agent, never to the runner's disk, and only this job can read it.
+      - name: Open the private store
+        env:
+          DEPLOY_KEY: ${{ secrets.PRIVATE_STORE_DEPLOY_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          eval "$(ssh-agent -s)"
+          echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> "$GITHUB_ENV"
+          echo "SSH_AGENT_PID=$SSH_AGENT_PID" >> "$GITHUB_ENV"
+          ssh-add - <<< "$DEPLOY_KEY"
+          mkdir -p ~/.ssh
+          gh api meta --jq '.ssh_keys[] | "github.com " + .' > ~/.ssh/known_hosts
+          git clone --depth 1 git@github.com:cinderblock/openslate-source-captures-private.git private
+
+      - name: Place the run
+        run: |
+          cp artifact/sources.json sources.json
+          bun src/publish.ts artifact --private private
+
+      - name: Commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          id=$(ls -t runs | head -1)
+          git config --global user.name "openslate-source-capture[bot]"
+          git config --global user.email "noreply@openslate.us"
+          if compgen -G "large/*" > /dev/null; then
+            gh release view large-blobs > /dev/null 2>&1 || gh release create large-blobs \
+              --title "Large blobs" --notes "Captured files over 5 MB, each named by its SHA-256."
+            gh release upload large-blobs large/* --clobber
+          fi
+          git -C private add blobs
+          git -C private diff --cached --quiet || git -C private commit -q -m "capture $id"
+          git -C private push origin HEAD
+          git add runs blobs sources.json
+          git commit -q -m "capture $id"
+          git pull --rebase --autostash
+          git push origin HEAD
