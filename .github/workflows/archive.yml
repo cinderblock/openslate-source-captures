@@ -33,11 +33,14 @@ jobs:
         with:
           bun-version: 1.4.2
       - run: bun install --frozen-lockfile
-      - run: bun src/archive.ts save --limit 100
+      - run: bun src/archive.ts save --limit 60
+        timeout-minutes: 22
         continue-on-error: true
       - run: bun src/archive.ts lookup --limit 400
+        timeout-minutes: 12
         continue-on-error: true
       - run: bun src/archive.ts compare endorsements --limit 200
+        timeout-minutes: 15
         continue-on-error: true
       - name: Commit
         run: |
