@@ -35,6 +35,8 @@ const CLOCK_SLACK_MS = 60_000;
 const STATUS_KEPT_MS = 2 * 3_600_000;
 const DRAIN_MS = 180_000;
 const DRAIN_GAP_MS = 10_000;
+/** Accounts get 3 concurrent sessions, undocumented, and a capture can take 2 minutes. */
+const SESSION_WAIT_MS = 180_000;
 /** These stop every later request, not just this one. */
 const QUOTA_ERRORS = new Set([
   "error:user-session-limit",
@@ -364,7 +366,12 @@ export async function keyedRequests(
   records: Records,
   limit: number,
   persist: (records: Records) => void = save,
-  gaps = { save: KEYED_SAVE_GAP_MS, drain: DRAIN_GAP_MS, drainFor: DRAIN_MS },
+  gaps = {
+    save: KEYED_SAVE_GAP_MS,
+    drain: DRAIN_GAP_MS,
+    drainFor: DRAIN_MS,
+    sessionFor: SESSION_WAIT_MS,
+  },
 ) {
   const api = {
     ...headers,
@@ -425,18 +432,24 @@ export async function keyedRequests(
     return typeof body?.available !== "number" || body.available > 0;
   };
 
+  const sessionFree = async () => {
+    const until = Date.now() + gaps.sessionFor;
+    while (!(await hasSession())) {
+      if (Date.now() >= until) return false;
+      await Bun.sleep(gaps.drain);
+      await collect();
+    }
+    return true;
+  };
+
   await collect();
   const counts: Record<string, number> = {};
   let done = 0;
   for (const { page, urls } of queue) {
     if (done >= limit || stopped) break;
-    if (!(await hasSession())) {
-      await Bun.sleep(gaps.save);
-      await collect();
-      if (!(await hasSession())) {
-        stop("no capture sessions free");
-        break;
-      }
+    if (!(await sessionFree())) {
+      stop("no capture sessions free");
+      break;
     }
     done++;
     const at = new Date().toISOString();

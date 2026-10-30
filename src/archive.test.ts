@@ -169,7 +169,7 @@ describe("snapshots never lose statements", () => {
 });
 
 describe("keyedRequests", () => {
-  const gaps = { save: 0, drain: 0, drainFor: 50 };
+  const gaps = { save: 0, drain: 0, drainFor: 50, sessionFor: 50 };
   const queue = saveQueue([source("https://a.org/1"), source("https://b.org/2")], {});
   const json = (body: unknown, status = 200) => new Response(JSON.stringify(body), { status });
   const asJobs = (id: string) => [{ status: "success", job_id: id, timestamp: "29991231235959" }];
@@ -177,13 +177,14 @@ describe("keyedRequests", () => {
 
   afterEach(() => spy?.mockRestore());
 
-  const answer = (save: (call: number) => Response) => {
+  const answer = (save: (call: number) => Response, busy = 0) => {
     let calls = 0;
+    let waits = busy;
     const seen: { url: string; authorization: string | null }[] = [];
     spy = spyOn(globalThis, "fetch").mockImplementation((async (url: string, init?: RequestInit) => {
       const text = String(url);
       seen.push({ url: text, authorization: new Headers(init?.headers).get("authorization") });
-      if (text.includes("/status/user")) return json({ available: 12, processing: 0 });
+      if (text.includes("/status/user")) return json({ available: waits-- > 0 ? 0 : 3, processing: 0 });
       if (text.endsWith("/status")) {
         const ids = new URLSearchParams(String(init?.body)).get("job_ids") ?? "";
         return json(ids.split(",").flatMap(asJobs));
@@ -210,6 +211,18 @@ describe("keyedRequests", () => {
     await keyedRequests("LOW a:b", queue, records, 5, () => {}, gaps);
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(1);
     expect(records).toEqual({});
+  });
+
+  test("waits for a free session rather than ending the batch", async () => {
+    const seen = answer((call) => json({ url: "x", job_id: `job-${call}` }), 3);
+    await keyedRequests("LOW a:b", queue, {}, 5, () => {}, gaps);
+    expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(2);
+  });
+
+  test("gives up when no session comes free", async () => {
+    const seen = answer(() => json({}), Number.POSITIVE_INFINITY);
+    await keyedRequests("LOW a:b", queue, {}, 5, () => {}, gaps);
+    expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(0);
   });
 
   test("a quota error ends the batch", async () => {
