@@ -3,7 +3,7 @@
 //
 //   bun src/archive.ts lookup  <endorsements checkout> [--limit n] [--stale-days n]
 //   bun src/archive.ts compare <endorsements checkout> [--limit n]
-//   bun src/archive.ts save    [--limit n]
+//   bun src/archive.ts save    [--limit n] [--minutes n]
 //
 // `lookup` asks which snapshots exist. `compare` reads a snapshot's original bytes (`id_`) and looks
 // for the slate's statements in them; "independently archived" is only claimed when they're there.
@@ -141,7 +141,10 @@ export function saveQueue(sources: SourceList["sources"], records: Records) {
 export function originOf(timestamp: string, record: StoredRecord | undefined): Origin | undefined {
   const attempt = record?.save;
   if (!attempt) return record?.save_requested_at ? undefined : "existing";
-  if (attempt.snapshot === timestamp) return attempt.outcome === "captured" ? "requested" : "existing";
+  if (attempt.snapshot === timestamp) {
+    if (attempt.outcome === "captured") return "requested";
+    return attempt.outcome === "already-archived" ? "existing" : undefined;
+  }
   return timestamp < waybackTime(Date.parse(attempt.at) - CLOCK_SLACK_MS) ? "existing" : undefined;
 }
 
@@ -332,10 +335,16 @@ function applyAttempt(records: Records, urls: string[], attempt: SaveAttempt) {
   }
 }
 
-async function anonymousRequests(queue: ReturnType<typeof saveQueue>, records: Records, limit: number) {
+async function anonymousRequests(
+  queue: ReturnType<typeof saveQueue>,
+  records: Records,
+  limit: number,
+  deadline: number,
+) {
   let done = 0;
   let accepted = 0;
   for (const { page, urls } of queue.slice(0, limit)) {
+    if (Date.now() >= deadline) break;
     done++;
     const at = new Date().toISOString();
     const response = await fetch(`${SAVE_ENDPOINT}/${page}`, {
@@ -365,6 +374,7 @@ export async function keyedRequests(
   queue: ReturnType<typeof saveQueue>,
   records: Records,
   limit: number,
+  deadline = Number.POSITIVE_INFINITY,
   persist: (records: Records) => void = save,
   gaps = {
     save: KEYED_SAVE_GAP_MS,
@@ -417,18 +427,21 @@ export async function keyedRequests(
       }
       const result = settled(attempt, job);
       if (result.outcome === "pending") continue;
+      console.log(`${result.error ?? result.outcome} ${result.snapshot ?? "-"} ${pageOf(urls[0] as string)}`);
       applyAttempt(records, urls, result);
       pending.delete(id);
       if (result.error && QUOTA_ERRORS.has(result.error)) stop(result.error);
     }
   };
 
+  let account: { daily_captures?: number; daily_status?: number } = {};
   const hasSession = async () => {
     const response = await fetch(`${SAVE_ENDPOINT}/status/user?_t=${Date.now()}`, {
       headers: api,
       signal: AbortSignal.timeout(30_000),
     }).catch(() => null);
     const body = response?.ok ? await response.json().catch(() => null) : null;
+    account = body ?? account;
     return typeof body?.available !== "number" || body.available > 0;
   };
 
@@ -446,7 +459,7 @@ export async function keyedRequests(
   const counts: Record<string, number> = {};
   let done = 0;
   for (const { page, urls } of queue) {
-    if (done >= limit || stopped) break;
+    if (done >= limit || stopped || Date.now() >= deadline) break;
     if (!(await sessionFree())) {
       stop("no capture sessions free");
       break;
@@ -479,6 +492,7 @@ export async function keyedRequests(
     } else {
       attempt.outcome = "failed";
       attempt.error = body?.status_ext ?? (response ? String(response.status) : "no-response");
+      console.log(`${attempt.error} - ${page}`);
       if (QUOTA_ERRORS.has(attempt.error)) stop(attempt.error);
     }
     applyAttempt(records, urls, attempt);
@@ -495,21 +509,24 @@ export async function keyedRequests(
   }
   persist(records);
 
+  await hasSession();
   for (const { save: attempt } of Object.values(records)) {
     if (attempt && attempt.via === "key") counts[attempt.outcome] = (counts[attempt.outcome] ?? 0) + 1;
   }
   console.log(`asked for ${done} snapshots with a key. Sources by outcome: ${JSON.stringify(counts)}`);
+  console.log(`captures today: ${account.daily_captures}, status checks today: ${account.daily_status}`);
 }
 
 async function requestSnapshots() {
   const limit = option("--limit", 100);
+  const deadline = Date.now() + option("--minutes", 30) * 60_000;
   const records = load();
   const { sources } = JSON.parse(readFileSync("sources.json", "utf8")) as SourceList;
   const queue = saveQueue(sources, records);
   console.log(`${queue.length} pages need a snapshot`);
   const auth = key();
-  if (auth) await keyedRequests(auth, queue, records, limit);
-  else await anonymousRequests(queue, records, limit);
+  if (auth) await keyedRequests(auth, queue, records, limit, deadline);
+  else await anonymousRequests(queue, records, limit, deadline);
 }
 
 if (import.meta.main) {

@@ -96,6 +96,10 @@ describe("originOf", () => {
   test("a later snapshot that no reply named stays unknown", () => {
     expect(originOf("20261030230000", held("", { save }))).toBeUndefined();
   });
+  test("a named snapshot the Archive didn't attribute stays unknown", () => {
+    const asked = attempt({ outcome: "asked", snapshot: "20261030220000" });
+    expect(originOf("20261030220000", held("", { save: asked }))).toBeUndefined();
+  });
   test("a request with no recorded reply stays unknown, in either direction", () => {
     const legacy = held("", { save_requested_at: "2026-10-30T17:47:33.216Z" });
     expect(originOf("20261030174718", legacy)).toBeUndefined();
@@ -197,7 +201,7 @@ describe("keyedRequests", () => {
   test("sends the key, and records what each job produced", async () => {
     const seen = answer((call) => json({ url: "x", job_id: `job-${call}` }));
     const records = {};
-    await keyedRequests("LOW a:b", queue, records, 5, () => {}, gaps);
+    await keyedRequests("LOW a:b", queue, records, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
     expect(seen.every((call) => call.authorization === "LOW a:b")).toBe(true);
     expect(records).toMatchObject({
       "https://a.org/1": { save: { via: "key", outcome: "captured", job_id: "job-1" } },
@@ -208,33 +212,39 @@ describe("keyedRequests", () => {
   test("a 429 ends the batch without marking the page", async () => {
     const seen = answer(() => json({}, 429));
     const records = {};
-    await keyedRequests("LOW a:b", queue, records, 5, () => {}, gaps);
+    await keyedRequests("LOW a:b", queue, records, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(1);
     expect(records).toEqual({});
   });
 
   test("waits for a free session rather than ending the batch", async () => {
     const seen = answer((call) => json({ url: "x", job_id: `job-${call}` }), 3);
-    await keyedRequests("LOW a:b", queue, {}, 5, () => {}, gaps);
+    await keyedRequests("LOW a:b", queue, {}, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(2);
   });
 
   test("gives up when no session comes free", async () => {
     const seen = answer(() => json({}), Number.POSITIVE_INFINITY);
-    await keyedRequests("LOW a:b", queue, {}, 5, () => {}, gaps);
+    await keyedRequests("LOW a:b", queue, {}, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
+    expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(0);
+  });
+
+  test("stops asking at the deadline", async () => {
+    const seen = answer((call) => json({ url: "x", job_id: `job-${call}` }));
+    await keyedRequests("LOW a:b", queue, {}, 5, Date.now() - 1, () => {}, gaps);
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(0);
   });
 
   test("a quota error ends the batch", async () => {
     const seen = answer(() => json({ status: "error", status_ext: "error:user-session-limit" }));
-    await keyedRequests("LOW a:b", queue, {}, 5, () => {}, gaps);
+    await keyedRequests("LOW a:b", queue, {}, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(1);
   });
 
   test("the limit is respected, and the key is never logged", async () => {
     const seen = answer((call) => json({ url: "x", job_id: `job-${call}` }));
     const log = spyOn(console, "log");
-    await keyedRequests("LOW secret:value", queue, {}, 1, () => {}, gaps);
+    await keyedRequests("LOW secret:value", queue, {}, 1, Number.POSITIVE_INFINITY, () => {}, gaps);
     const printed = JSON.stringify(log.mock.calls);
     log.mockRestore();
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(1);

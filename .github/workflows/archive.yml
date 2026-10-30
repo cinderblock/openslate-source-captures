@@ -23,7 +23,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      # The branch tip: a queued run's own commit predates what the run before it committed.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: master
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: cinderblock/openslate-public-endorsements
@@ -33,8 +36,8 @@ jobs:
         with:
           bun-version: 1.4.2
       - run: bun install --frozen-lockfile
-      # 120 pages at 4 a minute. Without these secrets this falls back to anonymous requests.
-      - run: bun src/archive.ts save --limit 120
+      # At most 4 a minute, and fewer when capture sessions are busy. Without these secrets this falls back to anonymous requests.
+      - run: bun src/archive.ts save --limit 120 --minutes 30
         timeout-minutes: 36
         continue-on-error: true
         env:
@@ -53,5 +56,7 @@ jobs:
           git add archived.json
           git diff --cached --quiet && exit 0
           git commit -q -m "archive: update snapshots"
-          git pull --rebase --autostash
+          # This run's results win: it holds job IDs that can't be fetched again.
+          git pull --rebase --autostash -X theirs
+          jq empty archived.json
           git push origin HEAD
