@@ -1,0 +1,164 @@
+{
+  "format": "openslate-source-capture/1",
+  "run_id": "2026-10-30T1808Z",
+  "started_at": "2026-10-30T18:08:32.630Z",
+  "ended_at": "2026-10-30T18:08:44.911Z",
+  "sources_sha256": "4424c1d8764f44737421f5d9b82a84659ca6b52adefad32b3cb2c23dda1f5e2e",
+  "narrowed_to": [
+    "www.sfchronicle.com",
+    "bhdemocrats.org"
+  ],
+  "intended": [
+    "https://bhdemocrats.org/index.php/endorsements-november-2026/",
+    "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
+    "https://www.sfchronicle.com/projects/2026/california-sf-bay-area-voter-guide/",
+    "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/"
+  ],
+  "capturer": {
+    "tool_repository": "cinderblock/openslate-source-captures",
+    "tool_commit": "b505d31ef02e0966e8443a32241c7339d4f3dfd2",
+    "tool_dirty": false,
+    "user_agent": "OpenSlateSourceCapture/1.0 (+https://github.com/cinderblock/openslate-source-captures)",
+    "runtime": "bun 1.4.2",
+    "platform": "win32",
+    "environment": "local",
+    "run_url": null
+  },
+  "captures": [
+    {
+      "intended": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
+      "hops": [
+        {
+          "url": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
+          "started_at": "2026-10-30T18:08:32.700Z",
+          "ended_at": "2026-10-30T18:08:34.407Z",
+          "remote_ip": "198.57.242.10",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "dce6bb9819638ec7aba7ceec6ce3fac4bd48840e2241a440a90d3c3ff84b9f6a",
+          "response_sha256": "f4e42790e7acdf304481c2762c9aa0a3bf344eb37af76a4f40a5633ca43ef236",
+          "response_bytes": 11754,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "175039f5b7d953c84d9eaed5c96a67f76542275a7f16e6363af87f1a1cfa8a23",
+              "238b85a0099c65b970477d5724f1a1d475ce5058cffe4efa8733899bdb863c47",
+              "072639d0b140d5bffae16ad9c3f6cc6086040621f51ee61a6d46a8915c07cf76",
+              "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+            ]
+          }
+        }
+      ],
+      "rendered": {
+        "method": "headless-chrome",
+        "trigger": "thin",
+        "chrome_version": "Chrome/155.0.8059.85",
+        "url": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
+        "started_at": "2026-10-30T18:08:38.693Z",
+        "ended_at": "2026-10-30T18:08:43.411Z",
+        "final_url": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
+        "status": 200,
+        "error": null,
+        "document_sha256": "f650f30437a2b8bc78a9d8e53a8e25b6519bc3e4cf8bd0b6adeedce404675ef8",
+        "document_bytes": 41133,
+        "dom_sha256": "b8d109d753c414e063c8bac25ad897af7ffd34a1d265cdd379bf442ed98d8a6a",
+        "dom_bytes": 42465
+      }
+    },
+    {
+      "intended": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
+      "hops": [
+        {
+          "url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
+          "started_at": "2026-10-30T18:08:32.710Z",
+          "ended_at": "2026-10-30T18:08:33.196Z",
+          "remote_ip": "151.101.0.200",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "7282ef1624e018b5998e662ca8d50707d11d3b9290fabb1329167b16887e8e95",
+          "response_sha256": "b6b1a37e09ae0e729d1575b38bc40c1717166acd82803fdb204935a1ee044061",
+          "response_bytes": 34477,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "2d84eb3afb8fcf4102e6d42b43ece726f8eee74bef97c668976706f96b62a535",
+              "99aec92eea8fb536f74dfbfb8244e4c8f5ac3b658f7a988619797a4d04ac1036",
+              "a63c1398b5f8dd2d432fbe4c2c19142bea6d5d0221fae794718ae7597acca96d",
+              "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sfchronicle.com/projects/2026/california-sf-bay-area-voter-guide/",
+      "hops": [
+        {
+          "url": "https://www.sfchronicle.com/projects/2026/california-sf-bay-area-voter-guide/",
+          "started_at": "2026-10-30T18:08:34.704Z",
+          "ended_at": "2026-10-30T18:08:35.179Z",
+          "remote_ip": "151.101.0.200",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "8086f3ed126d8ceab24aaa8f081c643a96049acf00e6d88c96232be093ba2123",
+          "response_sha256": "c4ecc32e55d5901ff16dbdf1046469fec76f3c85184b9c9002f82cd8cce6040f",
+          "response_bytes": 144073,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "2d84eb3afb8fcf4102e6d42b43ece726f8eee74bef97c668976706f96b62a535",
+              "99aec92eea8fb536f74dfbfb8244e4c8f5ac3b658f7a988619797a4d04ac1036",
+              "a63c1398b5f8dd2d432fbe4c2c19142bea6d5d0221fae794718ae7597acca96d",
+              "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "intended": "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/",
+      "hops": [
+        {
+          "url": "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/",
+          "started_at": "2026-10-30T18:08:36.684Z",
+          "ended_at": "2026-10-30T18:08:37.151Z",
+          "remote_ip": "151.101.0.200",
+          "status": 200,
+          "error": null,
+          "truncated": false,
+          "request_sha256": "7d2c9fc1a10f6150710f3edce55431c11e309603aca27be286d75ad066b4a67c",
+          "response_sha256": "6b370a8ef1bfdbfc957a0781e9ddc01982ed457bc395289edba22303b33079f5",
+          "response_bytes": 41552,
+          "tls": {
+            "protocol": "TLSv1.3",
+            "cipher": "TLS_AES_128_GCM_SHA256",
+            "alpn": "http/1.1",
+            "authorized": true,
+            "authorization_error": null,
+            "chain_sha256": [
+              "2d84eb3afb8fcf4102e6d42b43ece726f8eee74bef97c668976706f96b62a535",
+              "99aec92eea8fb536f74dfbfb8244e4c8f5ac3b658f7a988619797a4d04ac1036",
+              "a63c1398b5f8dd2d432fbe4c2c19142bea6d5d0221fae794718ae7597acca96d",
+              "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
