@@ -55,6 +55,20 @@ export async function bodyText(
   }
 }
 
+/** Fewer readable characters than this, and an HTML page isn't the page: see isThinHtml. */
+export const THIN_CHARACTERS = 500;
+
+/**
+ * Did a GET get almost no text from an HTML page? That's a stub, a bot check, or an app that loads
+ * its content later. Mechanical on purpose: nobody decides which pages deserve a second look.
+ */
+export async function isThinHtml(raw: Buffer): Promise<boolean> {
+  const parsed = parseResponse(raw);
+  if (parsed.status !== 200 || !/html/i.test(header(parsed, "content-type") ?? "")) return false;
+  const text = await responseText(raw);
+  return "text" in text && text.text.length < THIN_CHARACTERS;
+}
+
 /** The same, from a stored response: raw socket bytes, framing and encoding included. */
 export async function responseText(raw: Buffer) {
   const parsed = parseResponse(raw);

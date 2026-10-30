@@ -3,7 +3,7 @@ import { parseResponse } from "./capture";
 import type { Manifest } from "./manifest";
 import { hostFact } from "./provenance";
 import { classify } from "./publish";
-import { bodyText, responseText } from "./readable";
+import { bodyText, isThinHtml, responseText, THIN_CHARACTERS } from "./readable";
 import { rebuildResponse } from "./render";
 import { withoutFragment } from "./run";
 import { buildSources, type SourceList } from "./sources";
@@ -127,6 +127,22 @@ describe("rebuildResponse", () => {
 test("a fragment never reaches the server", () => {
   expect(withoutFragment("https://a.org/x.pdf#page=57")).toBe("https://a.org/x.pdf");
   expect(withoutFragment("https://a.org/x?y=1")).toBe("https://a.org/x?y=1");
+});
+
+describe("isThinHtml", () => {
+  const page = (text: string) => http(`<html><body><p>${text}</p></body></html>`);
+
+  test("a challenge page is thin, a real page isn't", async () => {
+    expect(await isThinHtml(page("a required part of this site could not load"))).toBe(true);
+    expect(await isThinHtml(page("word ".repeat(THIN_CHARACTERS)))).toBe(false);
+  });
+
+  test("only HTML that answered 200 counts", async () => {
+    const pdf = Buffer.from("HTTP/1.1 200 OK\r\nContent-Type: application/pdf\r\n\r\n%PDF-");
+    const gone = Buffer.from("HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\n\r\ngone");
+    expect(await isThinHtml(pdf)).toBe(false);
+    expect(await isThinHtml(gone)).toBe(false);
+  });
 });
 
 describe("reading stored bytes", () => {

@@ -12,6 +12,8 @@ import { USER_AGENT } from "./user-agent";
 
 export interface Rendered {
   method: "headless-chrome";
+  /** Why this page got a browser: on render-hosts.json, or a GET got almost no text. */
+  trigger: "listed" | "thin";
   chrome_version: string;
   url: string;
   started_at: string;
@@ -56,7 +58,11 @@ export function rebuildResponse(
 }
 
 /** Load one page, once. Nothing is retried. */
-export async function renderPage(url: string, blobs: string): Promise<Rendered> {
+export async function renderPage(
+  url: string,
+  blobs: string,
+  trigger: Rendered["trigger"],
+): Promise<Rendered> {
   const profile = mkdtempSync(join(tmpdir(), "openslate-render-"));
   const chrome = Bun.spawn(
     [
@@ -78,6 +84,7 @@ export async function renderPage(url: string, blobs: string): Promise<Rendered> 
 
   const result: Rendered = {
     method: "headless-chrome",
+    trigger,
     chrome_version: "",
     url,
     started_at: new Date().toISOString(),

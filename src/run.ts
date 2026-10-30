@@ -20,6 +20,7 @@ import {
   putBlob,
   recordHop,
 } from "./manifest";
+import { isThinHtml } from "./readable";
 import { type Rendered, renderPage } from "./render";
 import type { SourceList } from "./sources";
 import { USER_AGENT } from "./user-agent";
@@ -97,10 +98,18 @@ if (import.meta.main) {
     string,
     string
   >;
-  const toRender = new Set(intended.filter((url) => renderHosts[hostOf(url)]).map(withoutFragment));
+  const toRender = new Map<string, Rendered["trigger"]>();
+  for (const url of intended) {
+    if (renderHosts[hostOf(url)]) toRender.set(withoutFragment(url), "listed");
+  }
+  for (const [url, hops] of fetched) {
+    const final = hops.at(-1);
+    if (toRender.has(url) || !final) continue;
+    if (await isThinHtml(readFileSync(join(blobs, final.response_sha256)))) toRender.set(url, "thin");
+  }
   const renders = new Map<string, Rendered>();
-  for (const url of toRender) {
-    renders.set(url, await renderPage(url, blobs));
+  for (const [url, trigger] of toRender) {
+    renders.set(url, await renderPage(url, blobs, trigger));
     await Bun.sleep(HOST_GAP_MS);
   }
 
