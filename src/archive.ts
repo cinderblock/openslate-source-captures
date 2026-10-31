@@ -114,15 +114,27 @@ export function pagesOf(sources: SourceList["sources"]) {
   return pages;
 }
 
+/** A snapshot is public, so a page we keep private for the personal data it may carry isn't sent. */
+export function isPrivateHost(page: string, personalDataHosts: string[]) {
+  const host = URL.canParse(page) ? new URL(page).hostname.toLowerCase() : "";
+  return personalDataHosts.some((listed) => host === listed || host.endsWith(`.${listed}`));
+}
+
 /**
  * Which pages to ask for, in order. Mechanical, and never by who a source is: every page with no
- * snapshot in FRESH_DAYS, unless we asked within RETRY_DAYS; cited pages before discovered ones,
- * then pages with no known snapshot, then oldest snapshot first, then URL.
+ * snapshot in FRESH_DAYS, unless we asked within RETRY_DAYS or its host is on the personal data list;
+ * cited pages before discovered ones, then pages with no known snapshot, then oldest snapshot first,
+ * then URL.
  */
-export function saveQueue(sources: SourceList["sources"], records: Records) {
+export function saveQueue(
+  sources: SourceList["sources"],
+  records: Records,
+  personalDataHosts: string[] = [],
+) {
   const queue: { page: string; urls: string[]; cited: boolean; newest: string }[] = [];
   for (const [page, { urls, cited }] of pagesOf(sources)) {
     if (!page.startsWith("http") || page.startsWith("https://web.archive.org/")) continue;
+    if (isPrivateHost(page, personalDataHosts)) continue;
     const known = urls.map((url) => records[url]);
     const newest = known
       .flatMap((r) => [r?.timestamp, r?.fewer_in, r?.candidate?.timestamp])
@@ -555,12 +567,15 @@ async function requestSnapshots() {
   const records = load();
   const { sources } = JSON.parse(readFileSync("sources.json", "utf8")) as SourceList;
   const only = process.argv[process.argv.indexOf("--only") + 1]?.split(",");
+  const { personal_data_risk: personalDataHosts } = JSON.parse(
+    readFileSync("withheld-hosts.json", "utf8"),
+  ) as { personal_data_risk: string[] };
   const named = process.argv.includes("--only")
     ? [...pagesOf(sources)]
-        .filter(([page]) => only?.includes(page))
+        .filter(([page]) => only?.includes(page) && !isPrivateHost(page, personalDataHosts))
         .map(([page, { urls, cited }]) => ({ page, urls, cited, newest: "" }))
     : null;
-  const queue = named ?? saveQueue(sources, records);
+  const queue = named ?? saveQueue(sources, records, personalDataHosts);
   console.log(`${queue.length} pages need a snapshot`);
   const auth = key();
   if (auth) await keyedRequests(auth, queue, records, limit, deadline);

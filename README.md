@@ -62,7 +62,8 @@ trust/                pinned timestamp roots and the Sigstore trust root
 Responses from news sites and social platforms are captured and proven like everything else, but
 their bytes are kept in a private repository, because they're others' copyrighted work or may carry
 personal data. Their hashes are public, so those bytes can be shared on request and checked. Files
-over 5 MB are assets on the `large-blobs` release.
+over 5 MB are assets on the `large-blobs` release. Pages on the `personal_data_risk` hosts are also
+never sent to the Internet Archive, because a snapshot is public.
 
 Captures are marked `-text` in `.gitattributes`. Git must never normalize their line endings.
 

@@ -66,6 +66,17 @@ describe("saveQueue", () => {
     ]);
   });
 
+  test("never sends a host on the personal data list, or its subdomains", () => {
+    const sources = [
+      source("https://www.social.com/post"),
+      source("https://m.social.com/post"),
+      source("https://notsocial.com/post"),
+    ];
+    expect(saveQueue(sources, {}, ["social.com"]).map((q) => q.page)).toEqual([
+      "https://notsocial.com/post",
+    ]);
+  });
+
   test("skips a citation that's already a Wayback link", () => {
     expect(saveQueue([source("https://web.archive.org/web/2026/https://a.org/")], {})).toEqual([]);
   });
