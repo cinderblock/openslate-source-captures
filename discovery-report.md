@@ -22,22 +22,36 @@ These are the clear cases, and capture will GET them from the next run on.
 The Fresno page also shows `CADEM-Endorsements-2026-Midterm-Election-791x1024.png`, which looks like
 the state party's list, so it wasn't added.
 
-## Needs your eye
+## Resolved on a second pass
 
-| Page | What was seen | Suggested action |
+Checked on 2026-10-30, 5:00 PM PDT (2026-10-31 00:00Z), by reading the saved pages and each slate's
+own evidence notes. None of these needed a person after all.
+
+Transcribed slates were read off images or PDFs, and their notes say which. `src/sources.ts` now
+lists every document those notes name, 149 of them across 19 slates, so what was read gets captured
+as well as the page around it. No one picks them, and that rule also reaches slates this report never
+looked at, Abundant Housing LA's 48 cards for one.
+
+| Page | Finding | Now |
 | --- | --- | --- |
-| `www.sierraclub.org/angeles/endorsements` | Chrome rendered 85 of 86 names, but a plain GET gets a 212-byte stub, on the home survey and on CI. No XHR holds them: the page itself loads after a script step | A plain GET can't capture this. A labelled browser capture, per plan Q5 |
-| `www.venturagop.org/2026-general-election-voter-guides` | 0 of 56 names. The page links several Google Drive files (`drive.google.com/file/d/…/view`) | Probably the guides. A person needs to pick which ones, and `view` URLs are viewer pages, not the files |
-| `www.cruzdemocrats.org/endorsements` | 0 of 8 names. Links two PDFs under `/_files/ugd/24c0bf_…` | Open them. Either may be the slate |
-| `www.sjgop.org/endorsements` | 1 of 23 names in the HTML, none rendered. The page is full of square `wixstatic.com` images | Picks are probably in the images, which would need listing one by one |
-| `smcdems.org` | 0 of 37 names, and CI's plain GET got a **403**, while home Chrome loaded it | Blocked for CI. Also, the source is the home page, so the slate's real page may be elsewhere |
-| `www.alamedagop.org/posts/2026-10-11-voter-guide-statewide` | Nothing to score: no position cites this URL directly, so 0 names were expected. The HTML shows a `county_voter_guide.png` | Confirm whether the guide is that image |
-| `workingfamilies.org/states/california/` | 6 of 31 names rendered, and it redirects to `/state/california/`. It links separate endorsement posts | The picks look spread across several posts, which aren't in the list |
+| `www.sierraclub.org/angeles/endorsements` | The stub is a script step | Covered: `render-hosts.json` loads it in Chrome beside the GET |
+| `www.venturagop.org/2026-general-election-voter-guides` | The five Drive files are the slate's five district flyers, read and confirmed | The notes' copies by rule, and the full-size originals in `discovered.json` |
+| `www.cruzdemocrats.org/endorsements` | The two PDFs are the party's bylaws and procedures manual, not the slate. The picks are eight image cards | Already captured, through `attribution.sources` |
+| `www.sjgop.org/endorsements` | The 23 card images are the slate, and the notes list each | By rule |
+| `smcdems.org` | The list is one PNG, and CI gets a 403 on the page, not on the PNG | PNG already captured from CI. The page needs a home fill-in, listed below |
+| `www.alamedagop.org/posts/2026-10-11-voter-guide-statewide` | `county_voter_guide.png` is the statewide guide, and `alameda_county_candidates.png` the county list. Both read and confirmed | By rule |
+| `workingfamilies.org/states/california/` | The list is in one table, not spread across posts. The page holds 10 rows, and its View More button POSTs for the rest | The POST is in `discovered.json`. One request held all 31 names |
+
+## Still open
+
+Three transcribed slates' evidence notes name no document: `newport-beach-city-clerk`,
+`riverside-county-republican-party`, `sf-department-of-elections`. What they were read from wasn't
+looked into.
 
 ## Nothing found
 
-No response held half the names, and the page text didn't either. Some of these may keep their
-picks in images or linked files. That hasn't been checked.
+No response held half the names, and the page text didn't either. Where the slate was transcribed,
+the rule above now captures the documents its notes name. The rest hasn't been checked.
 
 | Page | Expected | In the page's HTML | Rendered | Note |
 | --- | --- | --- | --- | --- |
@@ -53,8 +67,7 @@ picks in images or linked files. That hasn't been checked.
 
 - The match is surnames as whole words, so a hit isn't proof that a response is the slate, and a
   miss doesn't show the names are absent. Binary responses aren't read.
-- Nothing here needed a login, and no POST was proposed. Capture only does GET, so a source that
-  turned out to need one would have to wait.
+- Nothing here needed a login. Capture sends a POST only where `discovered.json` spells one out.
 - Only XHR and fetch responses are listed in full, and PDFs loaded another way weren't recorded in
   this batch: the PDF listing was added after the loads, on what linkjar showed.
 - `workingfamilies.org` loaded on a second attempt, after a bug in the helper stopped the first
