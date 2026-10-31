@@ -35,8 +35,8 @@ sends, and the saved request bytes show it. A file cited with several
 ### Hosts that don't answer a plain GET
 
 - **Blocked from CI.** Some sites refuse GitHub's address range. A separate run from a home address
-  (`bun src/run.ts out --only-hosts "$(bun src/blocked.ts)"`) fills those in. The hosts are read off
-  the newest CI run, so nobody chooses them. It's timestamped but has no CI witness, and
+  (`bun src/fill-in.ts <private store>`) fills those in. The hosts are read off the newest CI run, so
+  nobody chooses them. It's timestamped but has no CI witness, and
   its manifest says so. `CAPTURE_GUARD_IPS` keeps any response that prints that address private.
 - **Answered with a stub.** A 200 HTML response with under 500 readable characters is a stub, a bot
   check, or an app that loads its content later. Those pages, and hosts in `render-hosts.json`, are

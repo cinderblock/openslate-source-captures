@@ -251,7 +251,13 @@ describe("blockedHosts", () => {
       capture("https://WWW.refused.org/a", 403),
       capture("https://challenged.org/a", 202),
       capture("https://silent.org/a", null),
+      capture("https://www.sfchronicle.com/a", 200),
     ];
-    expect(blockedHosts(captures)).toEqual(["challenged.org", "silent.org", "www.refused.org"]);
+    expect(blockedHosts(captures)).toEqual([
+      "challenged.org",
+      "silent.org",
+      "www.refused.org",
+      "www.sfchronicle.com",
+    ]);
   });
 });

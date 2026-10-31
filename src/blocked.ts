@@ -10,14 +10,18 @@ import { join } from "node:path";
 import type { Manifest } from "./manifest";
 
 const GONE = new Set([404, 410]);
+/** Answers CI with a 200 that holds a challenge, so the status can't show it. */
+const CHALLENGES_CI = new Set(["www.sfchronicle.com"]);
 
 /** Pure: the hosts in a run that CI couldn't read, sorted. */
 export function blockedHosts(captures: Manifest["captures"]): string[] {
   const hosts = new Set<string>();
   for (const { intended, hops } of captures) {
+    const host = URL.canParse(intended) ? new URL(intended).hostname.toLowerCase() : null;
     const status = hops.at(-1)?.status ?? null;
-    if (status === 200 || (status !== null && GONE.has(status))) continue;
-    if (URL.canParse(intended)) hosts.add(new URL(intended).hostname.toLowerCase());
+    if (status === 200 && !CHALLENGES_CI.has(host ?? "")) continue;
+    if (status !== null && GONE.has(status)) continue;
+    if (host) hosts.add(host);
   }
   return [...hosts].sort();
 }
