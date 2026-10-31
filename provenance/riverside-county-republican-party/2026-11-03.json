@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.riversidecountygop.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,85 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 996,
-    "captured_at": "2026-10-31T00:05:39.654Z",
+    "captured_at": "2026-10-31T12:02:54.161Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/2026-endorsed-candidates/",
-    "response_sha256": "64b62121e48709fd9e8b241a21da5e0a4fab0907bab9340ee85d2cb723d9b2fa",
+    "response_sha256": "c537330d6d35a5871a5c58aa3cb1afe3a7c4097bf1a0c15cb77913a1e264b465",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002417id_/https://www.riversidecountygop.com/2026-endorsed-candidates/",
+    "timestamp": "20261031002417",
+    "digest": "Z2RDS27PQAG5Q5IHUIUJRDYOHXHLFS2X",
+    "origin": "requested"
+   },
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_01_Cover.jpg",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "riversidecountygop.com",
+    "org_host": "riversidecountygop.com"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 997,
+    "captured_at": "2026-10-31T12:02:57.717Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_01_Cover.jpg",
+    "response_sha256": "777becae20ecbd9da0a39c8203a29ee110ac69f508830c9717958cd65f3f0023",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_2026_Voter_Guide.pdf",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "riversidecountygop.com",
+    "org_host": "riversidecountygop.com"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 1006,
+    "captured_at": "2026-10-31T12:03:15.282Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_2026_Voter_Guide.pdf",
+    "response_sha256": "a58aaad5319c6b2ea9adb50fbbb66ea3c8ff3c33117cb88e1c5d5b34c7797690",
     "bytes": "public",
     "claims": [
      "captured",
@@ -57,13 +131,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 997,
-    "captured_at": "2026-10-31T00:05:43.320Z",
+    "run": "2026-10-31T1200Z",
+    "index": 998,
+    "captured_at": "2026-10-31T12:02:59.690Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_02_Statewide_Voter_Guide.jpg",
-    "response_sha256": "a359644f4c63025da6d1beb0d9c1341658d82ac3bd70a8d09c7991326e894280",
+    "response_sha256": "ea69623ee9fe7d371e4737f27cc082123e2c80756ffc1351924fc97ef68ab4a7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +146,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031001546id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_02_Statewide_Voter_Guide.jpg",
+    "timestamp": "20261031001546",
+    "digest": "OENMOKWINNOAUJDLFP74XYQXZNYHIIYN",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -91,13 +170,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 998,
-    "captured_at": "2026-10-31T00:05:45.181Z",
+    "run": "2026-10-31T1200Z",
+    "index": 999,
+    "captured_at": "2026-10-31T12:03:01.710Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_03_Congress_and_State_Senate.jpg",
-    "response_sha256": "8c3d2ba6728058f522798023776a4648bf8952d57fa8bff47bc234f6dcd0805f",
+    "response_sha256": "1a13de14c7f00405c7cc95897382b4375cbe3a2f8d20c8a5c592536fb8c11bea",
     "bytes": "public",
     "claims": [
      "captured",
@@ -106,7 +185,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031001604id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_03_Congress_and_State_Senate.jpg",
+    "timestamp": "20261031001604",
+    "digest": "5GZEUNMV5FUCZUOS2MZP2KZ5HUWGIM4I",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -125,13 +209,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 999,
-    "captured_at": "2026-10-31T00:05:47.034Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1000,
+    "captured_at": "2026-10-31T12:03:03.685Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_04_AD36_Jeff_Gonzalez.jpg",
-    "response_sha256": "89e6c23d20df7160d1644fe67ba18da32c97aaeca9ba2ad0544ded1542e692be",
+    "response_sha256": "431c70e560da576c012105c31bbac5945aa4f5aea21fccf51f3e3e2d4e9ebc6c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -140,7 +224,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031001620id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_04_AD36_Jeff_Gonzalez.jpg",
+    "timestamp": "20261031001620",
+    "digest": "WOO2BBTK2CCFJZQQKLMFJ7METWEZRGVI",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -159,13 +248,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1000,
-    "captured_at": "2026-10-31T00:05:48.876Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1001,
+    "captured_at": "2026-10-31T12:03:05.634Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_05_AD47_Greg_Wallis.jpg",
-    "response_sha256": "6139f5489a5ae98e50e4d8a85abd7c8a91082a2a220b4ca46c7e2247f967e79f",
+    "response_sha256": "df3efc846fbccc193dc5566e1714f075efaabdfc0e3af9ac7aea994ec4963508",
     "bytes": "public",
     "claims": [
      "captured",
@@ -174,7 +263,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002420id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_05_AD47_Greg_Wallis.jpg",
+    "timestamp": "20261031002420",
+    "digest": "XFXJSBK2ZV6RFLE6KPQH3U5Q6UKSRX2E"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -193,13 +286,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1001,
-    "captured_at": "2026-10-31T00:05:50.757Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1002,
+    "captured_at": "2026-10-31T12:03:07.628Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_06_AD58_Leticia_Castillo.jpg",
-    "response_sha256": "67e52e8699b9fd9a5976e4c1278c659d354d31ca3b8f6300af4d7072791e52cb",
+    "response_sha256": "73aec8c774944e739681c6b92e95263d77dad4d599532372c5d410de080c91b1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -208,7 +301,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031001703id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_06_AD58_Leticia_Castillo.jpg",
+    "timestamp": "20261031001703",
+    "digest": "35BPSJDJWAZ62OLRV4NOJZIPCO6PGYPY",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -227,13 +325,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1002,
-    "captured_at": "2026-10-31T00:05:52.619Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1003,
+    "captured_at": "2026-10-31T12:03:09.526Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_07_AD60_Ed_Delgado.jpg",
-    "response_sha256": "af525a78531f0955ca6998642588e2a8a99bc75b17c8ea829001b8978a13fae8",
+    "response_sha256": "7391bdf46108adb33891c923f313f70e6f066a2a5ebc534a39899c2082588b70",
     "bytes": "public",
     "claims": [
      "captured",
@@ -242,7 +340,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031001737id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_07_AD60_Ed_Delgado.jpg",
+    "timestamp": "20261031001737",
+    "digest": "R7SNNVZYOFOPVI24BLCXE4D7FLRKWT4P",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 8
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -261,13 +368,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1003,
-    "captured_at": "2026-10-31T00:05:54.419Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1004,
+    "captured_at": "2026-10-31T12:03:11.421Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_08_AD63_Natasha_Johnson.jpg",
-    "response_sha256": "5d7d697dd346b67e55eb717019d28b550db72df788a78c724521c8e5763b107b",
+    "response_sha256": "c8ff12c3aaf9937bb310a14d395c7a69089ec878af28f555f8f2f63ea3c10d16",
     "bytes": "public",
     "claims": [
      "captured",
@@ -276,7 +383,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031001735id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_08_AD63_Natasha_Johnson.jpg",
+    "timestamp": "20261031001735",
+    "digest": "RO5JVPZINMJCOYSWBMN7O6CXASLZREAC",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -295,13 +407,13 @@
     "org_host": "riversidecountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1004,
-    "captured_at": "2026-10-31T00:05:56.527Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1005,
+    "captured_at": "2026-10-31T12:03:13.246Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_09_AD71_Kate_Sanchez.jpg",
-    "response_sha256": "fadb435e1e4098383992354f1f297778efdf968e305b5908d0c766d4bfbb1602",
+    "response_sha256": "66937e099bc4b01f32bf6831bbefa18ece58e2118717476d4a250b25e21bfc5f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -310,7 +422,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031001805id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_09_AD71_Kate_Sanchez.jpg",
+    "timestamp": "20261031001805",
+    "digest": "DOXTEUZU7RTSLS5VDTRZV5XX2SAGFJ3J",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

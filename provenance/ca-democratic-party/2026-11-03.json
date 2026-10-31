@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://cadem.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 52,
-    "captured_at": "2026-10-31T00:03:44.384Z",
+    "captured_at": "2026-10-31T12:01:00.190Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/endorsements/",
-    "response_sha256": "ba8a3a9c98b221202a8a06779a82e2452280fa203b7778dcc3f00519ac5f24a0",
+    "response_sha256": "fdb3d478c5ede020805948bff30aa3f8ff62a3011a2276c78a71380533255b5c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -61,13 +63,13 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 55,
-    "captured_at": "2026-10-31T00:03:49.261Z",
+    "captured_at": "2026-10-31T12:01:05.258Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
-    "response_sha256": "fc063f9469ce6629b9f2a68f92cc6c5ffeef06e639cb594d97b658cb231024f0",
+    "response_sha256": "9286842a8a823ec05ae35858a5733dc31ab863442a400afa42e63f8ed67a234e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -98,13 +100,13 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 56,
-    "captured_at": "2026-10-31T00:03:50.866Z",
+    "captured_at": "2026-10-31T12:01:06.815Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/wp-content/uploads/2026/10/2026-Proposition-Endorsements-.pdf",
-    "response_sha256": "a23e20d2c4a99d470a6481f4afe632e910b4f40cef6d773538bfe3769af9d23a",
+    "response_sha256": "9e33499239c5be27ec016b6032659b72582af4485c2373b9b18f900733b55c38",
     "bytes": "public",
     "claims": [
      "captured",
@@ -127,6 +129,44 @@
    "derivation": {
     "kind": "anchored",
     "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://cadem.org/wp-content/uploads/2026/08/2026-Statewide-Endorsements-Insurance-Commissioner-Results.pdf",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "cadem.org",
+    "org_host": "cadem.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 54,
+    "captured_at": "2026-10-31T12:01:03.700Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cadem.org/wp-content/uploads/2026/08/2026-Statewide-Endorsements-Insurance-Commissioner-Results.pdf",
+    "response_sha256": "3d7a2d94fd8eea93a7e7fc46f7f5be51f348078c56deaedbf8f83cac853fa2be",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260830062309id_/https://cadem.org/wp-content/uploads/2026/08/2026-Statewide-Endorsements-Insurance-Commissioner-Results.pdf",
+    "timestamp": "20260830062309",
+    "digest": "5BC4KLHLLZJ7XTKBG2ES2UYASHDEUJPZ",
+    "origin": "existing"
+   },
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
     "quoted_parts": 0,
     "unanchored": 0,
     "no_statement": 0

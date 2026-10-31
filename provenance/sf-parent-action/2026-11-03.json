@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sfparentaction.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfparentaction.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 535,
-    "captured_at": "2026-10-31T00:04:40.885Z",
+    "captured_at": "2026-10-31T12:01:54.351Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfparentaction.org/endorsements-2026-nov/",
-    "response_sha256": "6b12cf4e50d95db8ab0bbeb3571f5c307b447fb58fec42c5e1b0268fe6ab507c",
+    "response_sha256": "f457327a69ccedfbaa0c6d9fb5a20bf1694deedec833c1f71c2ed3a9c23528ba",
     "bytes": "public",
     "claims": [
      "captured",

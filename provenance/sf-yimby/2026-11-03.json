@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sfyimby.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfyimby.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1137,
-    "captured_at": "2026-10-31T00:06:08.563Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1144,
+    "captured_at": "2026-10-31T12:03:23.630Z",
     "status": 200,
     "error": null,
     "final_url": "https://yimbyaction.org/chapters/san-francisco-yimby",
-    "response_sha256": "dff43aa235408699acde5c7db1b14fb4c98e771b0696e96ff294c36a13a22691",
+    "response_sha256": "332ba58b13ed4aac68e2ee1b3059c8b823790027d0aead31f2f23f489dd703d6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031415id_/https://yimbyaction.org/chapters/san-francisco-yimby",
+    "timestamp": "20261031031415",
+    "digest": "GWKHGBWCUZICYZIW5BMPBPULPXX2IJDX",
+    "origin": "requested",
+    "statements": {
+     "found": 4,
+     "of": 24
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 4,

@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://weareprogressives.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "weareprogressives.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 768,
-    "captured_at": "2026-10-31T00:04:56.524Z",
+    "captured_at": "2026-10-31T12:02:09.703Z",
     "status": 200,
     "error": null,
     "final_url": "https://weareprogressives.org/",
-    "response_sha256": "36cae602285c5d626d137b1c80c4e58e04cb4c9b639d02724477538bebb99a23",
+    "response_sha256": "cf1ecbc8cec8b960af4b79f3475a28ba0df1665d14b932347cddba9eeffca7d3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,7 +45,11 @@
     "url": "https://web.archive.org/web/20261023233855id_/https://weareprogressives.org/",
     "timestamp": "20261023233855",
     "digest": "EY3JIR5B2WUSDZOAYTL6LL46MZCNX27Y",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 4
+    }
    },
    "derivation": {
     "kind": "anchored",
@@ -51,6 +57,162 @@
     "quoted_parts": 0,
     "unanchored": 4,
     "no_statement": 0
+   }
+  },
+  {
+   "url": "https://weareprogressives.org/wp-content/uploads/2025/11/rv-twitter.png",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "weareprogressives.org",
+    "org_host": "weareprogressives.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 769,
+    "captured_at": "2026-10-31T12:02:11.517Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://weareprogressives.org/wp-content/uploads/2025/11/rv-twitter.png",
+    "response_sha256": "9ebf27fcb4a944cd1d79fcc7aecbd09f7a8eb76df8a95f31de228ec5046403f0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023233859id_/https://weareprogressives.org/wp-content/uploads/2025/11/rv-twitter.png",
+    "timestamp": "20261023233859",
+    "digest": "SKVH2XO5J33255VFHTFHRJUCW2J4QCAP",
+    "origin": "existing"
+   },
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://weareprogressives.org/wp-content/uploads/2026/03/hilda-solis_rv-twitter.png",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "weareprogressives.org",
+    "org_host": "weareprogressives.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 770,
+    "captured_at": "2026-10-31T12:02:13.237Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://weareprogressives.org/wp-content/uploads/2026/03/hilda-solis_rv-twitter.png",
+    "response_sha256": "72aee8776a42288665cca4ad1833fa10829d115ae9b733d94ecad82ff0cbeaa6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023233859id_/https://weareprogressives.org/wp-content/uploads/2026/03/hilda-solis_rv-twitter.png",
+    "timestamp": "20261023233859",
+    "digest": "DIPU7UNO7IU4DMR55FPLQARYEFHCQMA6",
+    "origin": "existing"
+   },
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://weareprogressives.org/wp-content/uploads/2026/04/aisha-wahab-ca-14_rv-twitter.png",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "weareprogressives.org",
+    "org_host": "weareprogressives.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 771,
+    "captured_at": "2026-10-31T12:02:14.960Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://weareprogressives.org/wp-content/uploads/2026/04/aisha-wahab-ca-14_rv-twitter.png",
+    "response_sha256": "425d9f2877bbc0e4621f514f724d918c658a094db3fd5171b28240f2b5542e7d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023233900id_/https://weareprogressives.org/wp-content/uploads/2026/04/aisha-wahab-ca-14_rv-twitter.png",
+    "timestamp": "20261023233900",
+    "digest": "FX6CUFOCPEENQRO3HWBXILTGM5QKICLS",
+    "origin": "existing"
+   },
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://weareprogressives.org/wp-content/uploads/2026/06/ca-01_cpc-endorsement_rv-twitter.png",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "weareprogressives.org",
+    "org_host": "weareprogressives.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 772,
+    "captured_at": "2026-10-31T12:02:16.692Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://weareprogressives.org/wp-content/uploads/2026/06/ca-01_cpc-endorsement_rv-twitter.png",
+    "response_sha256": "751f9059d23321109b35cf2b1c3661db03dedef880a0e15fff41a28452d527e4",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023233901id_/https://weareprogressives.org/wp-content/uploads/2026/06/ca-01_cpc-endorsement_rv-twitter.png",
+    "timestamp": "20261023233901",
+    "digest": "CSVWXB6WKWTDDYDMADUWOQZFYDKC74OA",
+    "origin": "existing"
+   },
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
    }
   }
  ]

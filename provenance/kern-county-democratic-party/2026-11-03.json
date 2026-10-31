@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.kerndemocrats.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,55 @@
     "org_host": "kerndemocrats.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 854,
-    "captured_at": "2026-10-31T00:05:28.830Z",
+    "captured_at": "2026-10-31T12:02:42.922Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kerndemocrats.com/",
-    "response_sha256": "b529c12c140d94cc399319333c4da89c72d96c332db2bcf10c95a86ef241c382",
+    "response_sha256": "fd7f2cc1d325d93ddcea803d350b1d3a1dc91e20f07aabf0dba0a2d4ce269f4f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021175136id_/https://www.kerndemocrats.com/",
+    "timestamp": "20261021175136",
+    "digest": "5RPZEZ5DMXOZQ32HWUIDPOSHS7WFFKTD",
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 50
+    }
+   },
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 50,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/48caea_ce0917ace2134ce29357121dbda3139f~mv2.jpeg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "kerndemocrats.com"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 623,
+    "captured_at": "2026-10-31T12:02:57.126Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/48caea_ce0917ace2134ce29357121dbda3139f~mv2.jpeg",
+    "response_sha256": "49beada8b4568ed945025a51f477077d0e949a48b87e304e4d62e9d4ea966476",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,11 +85,12 @@
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "anchored",
+    "kind": "not-checkable",
     "exact": 0,
     "quoted_parts": 0,
-    "unanchored": 50,
-    "no_statement": 0
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
    }
   }
  ]

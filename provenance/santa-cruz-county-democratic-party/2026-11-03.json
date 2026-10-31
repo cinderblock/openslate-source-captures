@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.cruzdemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 826,
-    "captured_at": "2026-10-31T00:05:15.722Z",
+    "captured_at": "2026-10-31T12:02:31.808Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cruzdemocrats.org/endorsements",
-    "response_sha256": "fbf95591f86996d59c654add1d7117a925480690f0f19ef05e6116009b149db3",
+    "response_sha256": "2b1f0bf611e52a654200ff8c07c08bdf43c1b2ef53b06dd7bb7acf4e58deebd9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261009122142id_/https://www.cruzdemocrats.org/endorsements",
+    "timestamp": "20261009122142",
+    "digest": "FFHWB2335EFQSDK6G6RNQDT5D2PVRHSM",
+    "origin": "existing",
+    "statements": {
+     "found": 3,
+     "of": 11
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 3,
@@ -57,13 +68,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 631,
-    "captured_at": "2026-10-31T00:06:03.857Z",
+    "captured_at": "2026-10-31T12:03:09.924Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_7f18b2c5889243e8916a830fdb159be5~mv2.png",
-    "response_sha256": "657ca3177c09b4994b567260a53e73d6f1d03608cbc3e7bf1733d1b2b7f9aa1b",
+    "response_sha256": "07c9b4bd17130ad207a49ff6e16bd6e2ee1541fe4da9bc95ac6c2a16edb09e87",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +83,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234443id_/https://static.wixstatic.com/media/e67f26_7f18b2c5889243e8916a830fdb159be5~mv2.png",
+    "timestamp": "20261030234443",
+    "digest": "P3Q7TFKCVW2F5KKURRTLIU6Q7YCUDBKX",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -91,13 +107,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 627,
-    "captured_at": "2026-10-31T00:05:57.344Z",
+    "captured_at": "2026-10-31T12:03:03.518Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_26acb476d44346d1a8b68da50ef0ce6c~mv2.png",
-    "response_sha256": "39dddc0146105dd710e0ecb28d7b7f9d573e4710d573fb6aa0cea2c2dbe80ee3",
+    "response_sha256": "124d62b42c9915b07685b0677adf897f84fa47eb3981ecccd6e6307504b78ac0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -106,7 +122,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234343id_/https://static.wixstatic.com/media/e67f26_26acb476d44346d1a8b68da50ef0ce6c~mv2.png",
+    "timestamp": "20261030234343",
+    "digest": "ACRXMZFDEIKZEYG7PIYPRQ6CX5KPJRYA",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -125,13 +146,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 634,
-    "captured_at": "2026-10-31T00:06:08.820Z",
+    "captured_at": "2026-10-31T12:03:14.796Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_d27abb08aa114ed99d5bdb3f3b65c910~mv2.png",
-    "response_sha256": "2409ec772215cf11d8bcfdd64e30ceb4906fcf9364ff1749d41a56a259ad0277",
+    "response_sha256": "b6ec347dd2782716951261997557d0bb03273f65edaad9e62fb77efbf7f78d3b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -140,7 +161,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234538id_/https://static.wixstatic.com/media/e67f26_d27abb08aa114ed99d5bdb3f3b65c910~mv2.png",
+    "timestamp": "20261030234538",
+    "digest": "ZHAI2C4TKDQEWLDBKE3QJHHPCPSPQL53",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -159,13 +185,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 630,
-    "captured_at": "2026-10-31T00:06:02.212Z",
+    "captured_at": "2026-10-31T12:03:08.333Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_57fab81aae2e4b7ea40be29beeabfcf6~mv2.png",
-    "response_sha256": "6bfdcabb9262cae7b68c99642bea27d03938d34c2706e2ed13864ff2703d5485",
+    "response_sha256": "f385d5f7c203c7f6f52a2ca23b7962b33fb90bda8953f730e81b9316c5967c74",
     "bytes": "public",
     "claims": [
      "captured",
@@ -174,7 +200,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234419id_/https://static.wixstatic.com/media/e67f26_57fab81aae2e4b7ea40be29beeabfcf6~mv2.png",
+    "timestamp": "20261030234419",
+    "digest": "R3YWPU4RX2SLA3D44FSGHOOQUL253HEN",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -193,13 +224,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 632,
-    "captured_at": "2026-10-31T00:06:05.480Z",
+    "captured_at": "2026-10-31T12:03:11.555Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_9174aa935449415b8f024776031e1d98~mv2.png",
-    "response_sha256": "b933e304fe8d074fbdfe3aaeb0e23db35a39d8d05073d7e5283abfde891e94b2",
+    "response_sha256": "8e4e8f52d0871c84f519eb350fe22dc75aac27ddba7b2caeb06f0b33297e76ae",
     "bytes": "public",
     "claims": [
      "captured",
@@ -208,7 +239,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234504id_/https://static.wixstatic.com/media/e67f26_9174aa935449415b8f024776031e1d98~mv2.png",
+    "timestamp": "20261030234504",
+    "digest": "KJG4U7PNYULLBRGP4T72IQIGQPI3ML4R",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -227,13 +263,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 629,
-    "captured_at": "2026-10-31T00:06:00.576Z",
+    "captured_at": "2026-10-31T12:03:06.723Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_50a457cd89e04731b001f2d9ba84690b~mv2.png",
-    "response_sha256": "a16dcadc47e6f29ce6b059cc317f0e6c2631ee8598b7f7b67f4dbc09ca486727",
+    "response_sha256": "306bb30da24e58d5ca5d567bc98fe0f5474d540519a6c0d34a40daeea2fa12ad",
     "bytes": "public",
     "claims": [
      "captured",
@@ -242,7 +278,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234401id_/https://static.wixstatic.com/media/e67f26_50a457cd89e04731b001f2d9ba84690b~mv2.png",
+    "timestamp": "20261030234401",
+    "digest": "PHLPYFWDU3M6ZS6VDXZBCYYXOEPX55YS",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -261,13 +302,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 633,
-    "captured_at": "2026-10-31T00:06:07.186Z",
+    "captured_at": "2026-10-31T12:03:13.186Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_c9de14c3784e4214a4d250d75df07a0e~mv2.png",
-    "response_sha256": "c2f305203aaa1cda45e3c93a6a2497932104b85b4938e6b20b3d4ae841430ad3",
+    "response_sha256": "2390dea17b11788f5a028d15e2c86988428bec5c9d378f0b2cc35ea6c33941db",
     "bytes": "public",
     "claims": [
      "captured",
@@ -276,7 +317,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234521id_/https://static.wixstatic.com/media/e67f26_c9de14c3784e4214a4d250d75df07a0e~mv2.png",
+    "timestamp": "20261030234521",
+    "digest": "TQ3JZAAY5Y27IVWVH2SSD4MMZZBANIV2",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -295,13 +341,13 @@
     "org_host": "cruzdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 628,
-    "captured_at": "2026-10-31T00:05:58.976Z",
+    "captured_at": "2026-10-31T12:03:05.132Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/e67f26_42419c235bf348df88a43e0e2c19aa88~mv2.png",
-    "response_sha256": "b9cbbb31bb90cbafb4db5d14ac07595aed462fb3726b88b91050a4b069ca31c6",
+    "response_sha256": "37c1df19dbb8392d2454dfb22b0cd4d18c348c92034377b998ff99912eae1f6e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -310,7 +356,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234346id_/https://static.wixstatic.com/media/e67f26_42419c235bf348df88a43e0e2c19aa88~mv2.png",
+    "timestamp": "20261030234346",
+    "digest": "XYTI5HCRPEZACZ3UE6MA6Q7KFWH6YGY7",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

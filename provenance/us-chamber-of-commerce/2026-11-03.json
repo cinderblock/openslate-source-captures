@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.uschamber.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1123,
-    "captured_at": "2026-10-31T00:06:12.630Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1130,
+    "captured_at": "2026-10-31T12:03:26.410Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-james-gallagher-for-californias-first-district",
-    "response_sha256": "c18e540986a42b5c8d1db809e3a49d172f25845bf76c2db91d145d007a2f5ddc",
+    "response_sha256": "0f153a90a1612025542a507c7ebf2409776ada2610b2fcf3fe9909b0470dc5ea",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261006173153id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-james-gallagher-for-californias-first-district",
+    "timestamp": "20261006173153",
+    "digest": "DNXDAJ23DGBVYTPVKLRLNLOY36547VLY",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -57,22 +69,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1131,
-    "captured_at": "2026-10-31T00:06:26.610Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1138,
+    "captured_at": "2026-10-31T12:03:40.549Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-tom-mcclintock-for-californias-fifth-district",
-    "response_sha256": "62b354cdde6b56d9635be599be94a0a011ec08b0037b3374879cb8096462a926",
+    "response_sha256": "f55c9c9819126e846d4c8ba41f47373f840ea70bfc9b02e8d8bdd0e26403d931",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031203id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-tom-mcclintock-for-californias-fifth-district",
+    "timestamp": "20261031031203",
+    "digest": "HGUAEKATNFRLFS3G7ZSLVBNV5LN6FXMY",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -90,22 +112,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1127,
-    "captured_at": "2026-10-31T00:06:19.635Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1134,
+    "captured_at": "2026-10-31T12:03:33.507Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-kevin-kiley-for-californias-sixth-congressional-district",
-    "response_sha256": "9cd0fb2f062927d15537d5fe33feef2b367d93accb6420bc39bb2d963794b7c3",
+    "response_sha256": "4ff8221df9f009cec3c1255f9298ffaf63527feb3b773a2f11c9f795964061ae",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261016131200id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-kevin-kiley-for-californias-sixth-congressional-district",
+    "timestamp": "20261016131200",
+    "digest": "WW7I7S4V7HE7F3WF6ZMBHU7JVONYQ5BZ",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -123,22 +155,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1121,
-    "captured_at": "2026-10-31T00:06:09.087Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1128,
+    "captured_at": "2026-10-31T12:03:22.870Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-adam-gray-for-californias-thirteenth-district",
-    "response_sha256": "e1eaf0d47bc47c411fabbd0cee32a4f90ece61f226d0986d0a9b550bad407683",
+    "response_sha256": "27fae1a1f421bca75009a9a9eb536944f3311ddacc03090e7a285f6fbe7cb025",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261007210822id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-adam-gray-for-californias-thirteenth-district",
+    "timestamp": "20261007210822",
+    "digest": "ECGWAWRDXD3PEMUVUBV6NIOM27GEO5ZF",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -156,22 +198,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1129,
-    "captured_at": "2026-10-31T00:06:23.190Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1136,
+    "captured_at": "2026-10-31T12:03:37.036Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-sam-liccardo-for-californias-sixteenth-congressional-district",
-    "response_sha256": "06ab06717876c47cc62692f313aaf8375508a9b2dfd5d3c97e772768e259c607",
+    "response_sha256": "8ba192997db9821d491331deb59ffa43c975efe702fdcd73100c711e14c53cc8",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261015145946id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-sam-liccardo-for-californias-sixteenth-congressional-district",
+    "timestamp": "20261015145946",
+    "digest": "KBJ7EFIPMK43FBNXRMEFO6G5ESLOOCHF",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -189,22 +241,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1126,
-    "captured_at": "2026-10-31T00:06:17.893Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1133,
+    "captured_at": "2026-10-31T12:03:31.732Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jimmy-panetta-for-californias-nineteenth-district",
-    "response_sha256": "84903973335268bce65d08a30fdf6bb15495a8e480b31f2af3dc5d3bb098de36",
+    "response_sha256": "4341abf2438f50d5899c05fe33974010b7bb9a5ebb9664693df7fbe67763438d",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260922115958id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jimmy-panetta-for-californias-nineteenth-district",
+    "timestamp": "20260922115958",
+    "digest": "42642EMQH7562MFBXE4W4YZTZPCUFJCD",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -222,22 +284,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1132,
-    "captured_at": "2026-10-31T00:06:28.347Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1139,
+    "captured_at": "2026-10-31T12:03:42.313Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-vince-fong-for-californias-twentieth-district",
-    "response_sha256": "a7f565bbc50ee535f997c7fbb6bf0f56b7ae76ab4e6816588e24d99d89f776ac",
+    "response_sha256": "6a174314e2b46102779182140c5b188e164a9342e2a5ed4632123054b9ffe689",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031217id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-vince-fong-for-californias-twentieth-district",
+    "timestamp": "20261031031217",
+    "digest": "VL6R5VPXRYJUCVOSFILX6CIPFYULDSFW",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -255,22 +327,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1125,
-    "captured_at": "2026-10-31T00:06:16.150Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1132,
+    "captured_at": "2026-10-31T12:03:29.966Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jim-costa-for-californias-twenty-first-congressional-district",
-    "response_sha256": "b937d5406cfbae793f5f29db1739b39f5301411cd2a3a2821aab3d4fc40a274b",
+    "response_sha256": "38fed51914d82ebf0f05d7ea477b17ee1f9146c99507cbe8791b86a3be3e7ee1",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260916013402id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jim-costa-for-californias-twenty-first-congressional-district",
+    "timestamp": "20260916013402",
+    "digest": "LPH6NIBSLIDSEUQOGYURG4FI46U3LGHV",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -288,22 +370,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1122,
-    "captured_at": "2026-10-31T00:06:10.851Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1129,
+    "captured_at": "2026-10-31T12:03:24.637Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-david-valadao-for-californias-twenty-second-congressional-district",
-    "response_sha256": "a972a98cf446f70f03cc92c7f4d9620d30400e7127559238e7d8d68e4fb06e1f",
+    "response_sha256": "efb9b420ba6d017b582d51f7af9d40413befde0bac5247efddefb0701e46b9f3",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261012071917id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-david-valadao-for-californias-twenty-second-congressional-district",
+    "timestamp": "20261012071917",
+    "digest": "6EYI54KECPTH33HE2JFIQSOSNFXBZCIA",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -321,22 +413,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1124,
-    "captured_at": "2026-10-31T00:06:14.429Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1131,
+    "captured_at": "2026-10-31T12:03:28.193Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jay-obernolte-for-californias-twenty-third-district",
-    "response_sha256": "135abef78a5e312c0bdd517d62f49f9fa4a00da5953f926e1910a5e08676478b",
+    "response_sha256": "66daba7679feb9fb31d06bb4f47dd2070ad46638b7d911236581c0c52620b3a8",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261005025804id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jay-obernolte-for-californias-twenty-third-district",
+    "timestamp": "20261005025804",
+    "digest": "RLXRKDHSVKMN767GQ7HRGIV7ASTO7GRF",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -354,22 +456,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1128,
-    "captured_at": "2026-10-31T00:06:21.401Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1135,
+    "captured_at": "2026-10-31T12:03:35.269Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-lou-correa-for-californias-forty-sixth-congressional-district",
-    "response_sha256": "ecfe906cc97943baba71d2d666f6ff2f589b486fd49608abbfd5d43c5826dd03",
+    "response_sha256": "0d2d6ed4627c2651515b80266a3724ece222b4da37cad8059e401311b1acaa7c",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261013004527id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-lou-correa-for-californias-forty-sixth-congressional-district",
+    "timestamp": "20261013004527",
+    "digest": "YMSFRB7MDBBY2EID3OMBGKWOYSENGJTU",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -387,22 +499,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1120,
-    "captured_at": "2026-10-31T00:06:06.976Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1127,
+    "captured_at": "2026-10-31T12:03:21.008Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-candidate-jim-desmond-for-californias-forty-eighth-congressional-district",
-    "response_sha256": "8d1f796f049193459ffd4ae1c93c5a7f124de51852b4016d5e894b02f44acca8",
+    "response_sha256": "e8f0d60114f3d46d726da06099e0700160e38e07791712a77766129ab060e2c9",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261010052131id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-candidate-jim-desmond-for-californias-forty-eighth-congressional-district",
+    "timestamp": "20261010052131",
+    "digest": "I2CPMSKOYB6JHNLDIXZD5WPM6JON7HU7",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -420,22 +542,32 @@
     "org_host": "uschamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1130,
-    "captured_at": "2026-10-31T00:06:24.847Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1137,
+    "captured_at": "2026-10-31T12:03:38.778Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-scott-peters-for-californias-fiftieth-congressional-district",
-    "response_sha256": "64874e1e4431e5e8e1c4a52d251346fdf6601f371f7cf109555ba4cdd56b46b1",
+    "response_sha256": "affc4f47c9b95cb57418becb7bdbb0604c2c3a973c80b8d7306b1eab692e3f9c",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031154id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-scott-peters-for-californias-fiftieth-congressional-district",
+    "timestamp": "20261031031154",
+    "digest": "Y3JWG3G27MVUUIBVVQMGGHZT7V4DESCC",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sfbg.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfbg.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1067,
-    "captured_at": "2026-10-31T00:05:52.432Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1070,
+    "captured_at": "2026-10-31T12:03:06.589Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-election/",
-    "response_sha256": "cbe6d6b1b209c1f6f3a90b30ee4b7637be83c9cc2fdeb6f7128ed5a6ca339539",
+    "response_sha256": "968b5518ff3f06efa10a070ee331f0a0d233aabfad8b6fb3c60e5cd448142f98",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031004824id_/https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-election/",
+    "timestamp": "20261031004824",
+    "digest": "47ZJKA5RCLSFZBA57FLSWSZNKY4TVDLM",
+    "statements": {
+     "found": 2,
+     "of": 7
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,

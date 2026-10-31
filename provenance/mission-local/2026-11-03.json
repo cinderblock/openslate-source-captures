@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://missionlocal.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "missionlocal.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 434,
-    "captured_at": "2026-10-31T00:04:15.383Z",
+    "captured_at": "2026-10-31T12:01:28.246Z",
     "status": 200,
     "error": null,
     "final_url": "https://missionlocal.org/sitemap_index.xml",
-    "response_sha256": "8fe61850d77161e133e7e36ad13367f68d5ff490c42761da82751f8c0b842c95",
+    "response_sha256": "c89fd88557b749d36137f3a9c7268f517d81ea57b9f9016d04d46f694546ce77",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -40,9 +42,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260401023303id_/https://missionlocal.org/sitemap_index.xml",
-    "timestamp": "20260401023303",
-    "digest": "OMJHTZRCIIG6WVWPMD27WTUZWK2ZPZ3R"
+    "url": "https://web.archive.org/web/20261031030408id_/https://missionlocal.org/sitemap_index.xml",
+    "timestamp": "20261031030408",
+    "digest": "I4GGIAK3K5MPDNMY73NNGJHUFKG2ZEIB",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

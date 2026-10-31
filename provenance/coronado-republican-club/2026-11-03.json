@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1053,
-    "captured_at": "2026-10-31T00:05:58.531Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1055,
+    "captured_at": "2026-10-31T12:03:14.379Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf",
-    "response_sha256": "48b7feb00475031393b453f83e701cb884596fead50dabbd31a41873020328fa",
+    "response_sha256": "5377b83148e895c52404f06dd019c4f497e1b3ba1f8fb15c835ba25c2841bdf0",
     "bytes": "release",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003141id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf#page=76",
+    "timestamp": "20261031003141",
+    "digest": "JQN7MGSBMIZSZGFKDBZMJANP4HBO766N",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

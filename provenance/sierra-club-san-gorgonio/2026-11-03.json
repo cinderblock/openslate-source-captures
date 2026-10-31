@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.sierraclub.org/san-gorgonio",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1088,
-    "captured_at": "2026-10-31T00:06:03.513Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1091,
+    "captured_at": "2026-10-31T12:03:19.038Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/san-gorgonio/politics-and-government-inland-empire",
-    "response_sha256": "e03e1a04c92ffe0c2109123d7987dbb319098fddc1e186720a2cdacee93d4dd8",
+    "response_sha256": "166e66ef8044287eebf74c7b1d9b1405f36739f06aa0325b517f0ab14ff95b98",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,11 +41,15 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "a19bd09294a4dc082b588d1c2fc3d926f2d49ca3ad6742e45948070acdddcedd"
+     "dom_sha256": "97be079a2b140b8bec7dc7da71bc6c61143210ed770ebe67e4f2f871f911649e"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031032229id_/https://www.sierraclub.org/san-gorgonio/politics-and-government-inland-empire",
+    "timestamp": "20261031032229",
+    "digest": "YMFDCHS6TZB7V6AWDOWMDH4BGHUZ7F77"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -61,13 +67,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1092,
-    "captured_at": "2026-10-31T00:06:09.736Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1095,
+    "captured_at": "2026-10-31T12:03:25.275Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sites/default/files/2026-10/final-endorsement-article-2026-p-p.pdf",
-    "response_sha256": "37d560320bf16d0f9ed29f0d4fd44f2d415d9dc35ebf9078fc6c99fec255059c",
+    "response_sha256": "3a9520b4369a0e46503571016b9e6d7381823b0e36c4b004308e73b3297a5b14",
     "bytes": "public",
     "claims": [
      "captured",
@@ -80,7 +86,16 @@
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031024727id_/https://www.sierraclub.org/sites/default/files/2026-10/final-endorsement-article-2026-p-p.pdf",
+    "timestamp": "20261031024727",
+    "digest": "FG5DY7BI6GO7IG3XUC6C75YGSWYTJQ47",
+    "origin": "requested",
+    "statements": {
+     "found": 14,
+     "of": 20
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

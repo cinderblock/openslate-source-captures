@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.cpf.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "cpf.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 84,
-    "captured_at": "2026-10-31T00:03:49.378Z",
+    "captured_at": "2026-10-31T12:01:05.391Z",
     "status": 200,
     "error": null,
     "final_url": "https://cpfelectionguide.org/",
-    "response_sha256": "03a6396104c1949b0cd52f7a0da10f86a3ec8b80979fe1a39fa4d84c9583e009",
+    "response_sha256": "e8a5c6b1c43326454aacd767c7b711e0980c4071725e537f7efa0d069c02dc4c",
     "bytes": "public",
     "claims": [
      "captured",

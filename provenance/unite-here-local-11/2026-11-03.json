@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.unitehere11.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "unitehere11.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1119,
-    "captured_at": "2026-10-31T00:06:06.546Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1126,
+    "captured_at": "2026-10-31T12:03:20.861Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
-    "response_sha256": "d68c6405b1d343e70e5a37c9f55c77aef3fd22a6b6857d1a460385d6d9714622",
+    "response_sha256": "b7aed09cf3fbc7d5bbebd7bba7695dac3a01982d919de771937629fb033148a2",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021071613id_/https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+    "timestamp": "20261021071613",
+    "digest": "5OPICYMCM5QD6KMGWWE757YG62E55FKB",
+    "origin": "existing",
+    "statements": {
+     "found": 209,
+     "of": 209
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 60,

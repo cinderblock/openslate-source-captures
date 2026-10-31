@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://indivisible.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 251,
-    "captured_at": "2026-10-31T00:04:08.467Z",
+    "captured_at": "2026-10-31T12:01:21.226Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/resources/candidates/",
-    "response_sha256": "07f616d1428deafe4d5d65a4257fd833b2b205f307dafffa27f3b9b0d339474e",
+    "response_sha256": "f93017a0e55635146c44b5e38db5b251f572f7c7b8e0749ea0ccfb2f9a290b7e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -61,13 +63,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 250,
-    "captured_at": "2026-10-31T00:04:05.368Z",
+    "captured_at": "2026-10-31T12:01:19.616Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/candidates/randy-villegas-ca-22/",
-    "response_sha256": "a98182c5182bf357a0f5f099c03792bca832e898d612c47930b5f56926d59a9d",
+    "response_sha256": "945a03fddbf63d7aeaec12986f3dc5e2c5e25ae3aea16ef5c2a77bc4b6ddd13d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -103,13 +105,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 249,
-    "captured_at": "2026-10-31T00:04:01.795Z",
+    "captured_at": "2026-10-31T12:01:17.931Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/candidates/aisha-wahab-ca-14/",
-    "response_sha256": "39747e458392c99e1b373cf3c88200f7f796fe8ee1ff8e945c0007f90f6c6390",
+    "response_sha256": "e370d0abe64b82f8e0dfecc465989a3343165a12b73ad122b736f6b01ae3b7ea",
     "bytes": "public",
     "claims": [
      "captured",

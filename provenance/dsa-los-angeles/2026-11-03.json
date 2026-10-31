@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://dsa-la.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 661,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -62,13 +64,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 147,
-    "captured_at": "2026-10-31T00:03:51.900Z",
+    "captured_at": "2026-10-31T12:01:08.054Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d81a5334fa821eece0747c52937b0e95c4fca02590a025d909489e341406c616",
+    "response_sha256": "ed548c16dcac5f13a85fe024e2f0423b2169996c53711ea12ba7494b9861a7c3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -78,9 +80,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20240109164606id_/https://dsa-la.org/voter-guide/",
-    "timestamp": "20240109164606",
-    "digest": "E6LSVJLUYAFAXPNRUUWY2ZOYXQJ5PSP3"
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -99,13 +102,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 720,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -142,13 +145,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 715,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -185,13 +188,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 716,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -228,13 +231,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 717,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -271,13 +274,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 718,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -314,13 +317,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 721,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -357,13 +360,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 722,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -400,13 +403,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 723,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -443,13 +446,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 719,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -486,13 +489,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 678,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -529,13 +532,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 679,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -572,13 +575,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 726,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -615,13 +618,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 727,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -658,13 +661,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 728,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -701,13 +704,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 752,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -744,13 +747,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 753,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -787,13 +790,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 731,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -830,13 +833,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 729,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -873,13 +876,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 724,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -916,13 +919,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 711,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -959,13 +962,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 710,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1002,13 +1005,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 751,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1045,13 +1048,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 662,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1088,13 +1091,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 663,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1131,13 +1134,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 725,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1174,13 +1177,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 712,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1217,13 +1220,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 713,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1260,13 +1263,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 714,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1303,13 +1306,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 665,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1346,13 +1349,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 664,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1389,13 +1392,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 666,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1432,13 +1435,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 748,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1475,13 +1478,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 749,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1518,13 +1521,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 750,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1561,13 +1564,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 677,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1604,13 +1607,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 730,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1647,13 +1650,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 675,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1690,13 +1693,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 676,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1733,13 +1736,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 674,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1776,13 +1779,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 669,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1819,13 +1822,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 670,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1862,13 +1865,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 667,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1905,13 +1908,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 671,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1948,13 +1951,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 672,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1991,13 +1994,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 673,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2034,13 +2037,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 668,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2077,13 +2080,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 704,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2120,13 +2123,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 705,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2163,13 +2166,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 706,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2206,13 +2209,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 707,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2249,13 +2252,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 708,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2292,13 +2295,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 709,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2335,13 +2338,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 680,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2378,13 +2381,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 682,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2421,13 +2424,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 686,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2464,13 +2467,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 690,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2507,13 +2510,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 694,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2550,13 +2553,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 697,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2593,13 +2596,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 701,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2636,13 +2639,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 681,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2679,13 +2682,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 683,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2722,13 +2725,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 684,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2765,13 +2768,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 685,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2808,13 +2811,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 687,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2851,13 +2854,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 688,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2894,13 +2897,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 689,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2937,13 +2940,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 691,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2980,13 +2983,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 692,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3023,13 +3026,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 693,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3066,13 +3069,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 695,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3109,13 +3112,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 696,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3152,13 +3155,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 698,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3195,13 +3198,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 699,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3238,13 +3241,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 700,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3281,13 +3284,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 702,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3324,13 +3327,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 703,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3367,13 +3370,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 735,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3410,13 +3413,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 739,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3453,13 +3456,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 742,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3496,13 +3499,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 732,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3539,13 +3542,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 733,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3582,13 +3585,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 734,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3625,13 +3628,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 736,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3668,13 +3671,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 737,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3711,13 +3714,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 738,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3754,13 +3757,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 740,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3797,13 +3800,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 741,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3840,13 +3843,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 743,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3883,13 +3886,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 744,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3926,13 +3929,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 745,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3969,13 +3972,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 746,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -4012,13 +4015,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 747,
-    "captured_at": "2026-10-31T00:04:52.841Z",
+    "captured_at": "2026-10-31T12:02:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "dcb69319e766d4e32c16377e87eb33a2b8b3a0ca1628b12fbc744f5236a9468b",
+    "response_sha256": "017d422a9abcd0391c536dabd800a6fdc56f6bd22aa375abc335dc42ca21079a",
     "bytes": "public",
     "claims": [
      "captured",

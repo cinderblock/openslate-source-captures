@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.cmadocs.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "cmadocs.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 817,
-    "captured_at": "2026-10-31T00:05:13.780Z",
+    "captured_at": "2026-10-31T12:02:27.866Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cmadocs.org/voter-guide",
-    "response_sha256": "b2ac7334867c7f731e5139c96ffe67692f5efbe9039c3e6ba6eb5d698f558760",
+    "response_sha256": "7047c44256e21170a829c7de2b12a5dfc309571555325e2ab3d0f72825be134a",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235454id_/https://www.cmadocs.org/voter-guide",
+    "timestamp": "20261030235454",
+    "digest": "EJQJ6S2VEK6AE2ZCBTUT6E23XZ2KP5RQ",
+    "origin": "requested",
+    "statements": {
+     "found": 27,
+     "of": 27
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 5,

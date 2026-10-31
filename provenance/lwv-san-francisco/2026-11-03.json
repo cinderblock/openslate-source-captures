@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://lwvsf.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "lwvsf.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 379,
-    "captured_at": "2026-10-31T00:04:10.080Z",
+    "captured_at": "2026-10-31T12:01:24.639Z",
     "status": 200,
     "error": null,
     "final_url": "https://lwvsf.org/ballot-recommendations",
-    "response_sha256": "f008e5d528a4ed3f5ee5db5befead5ac76aed34ae97c72f69a24bae1613056c9",
+    "response_sha256": "8e85b63ec95307fd26f8f02fb4524bbef5cb68c9280401a0aa42b772cf73196c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -65,13 +67,13 @@
     "org_host": "lwvsf.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 380,
-    "captured_at": "2026-10-31T00:04:11.830Z",
+    "captured_at": "2026-10-31T12:01:26.541Z",
     "status": 200,
     "error": null,
     "final_url": "https://lwvsf.org/proposition-information",
-    "response_sha256": "5a3651b48ceeabbe41228f678931c04b65d353e49b5783e873ac83e029412161",
+    "response_sha256": "6e888f30a432556c9966763558bd6040864426f71dcfe20c27ed42d84394a5bf",
     "bytes": "public",
     "claims": [
      "captured",

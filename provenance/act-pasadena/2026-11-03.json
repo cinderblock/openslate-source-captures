@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.actpasadena.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "actpasadena.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 784,
-    "captured_at": "2026-10-31T00:05:03.552Z",
+    "captured_at": "2026-10-31T12:02:18.769Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.actpasadena.org/endorsements",
-    "response_sha256": "1490142f7423797440d4b36d15ca6155cede079e71fcd82ae3fdaffbdfd139b9",
+    "response_sha256": "92c5e155d916fffc51518692f9fa31e08f9839426a1bdf38ea67467aa36b7fd6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235150id_/https://www.actpasadena.org/endorsements",
+    "timestamp": "20261030235150",
+    "digest": "CWTAPWOFBLVE3PMI5VL6626PVC5MOABJ",
+    "origin": "requested",
+    "statements": {
+     "found": 35,
+     "of": 38
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 5,

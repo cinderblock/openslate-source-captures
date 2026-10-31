@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 548,
-    "captured_at": "2026-10-31T00:04:51.836Z",
+    "captured_at": "2026-10-31T12:02:05.363Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M304-Contest%20Code-6ArgAgainst-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
-    "response_sha256": "ddc60e79aac476b7c6836fd7dc12e6b4261f08d641e257c3b6fd377e177c3d3a",
+    "response_sha256": "9fbf970770ef32bbc6398fe709ddcebc173938ec399a7c424ae1276f9457d29e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030233251id_/https://smcacre.gov/system/files/2026-08/52-ENG-M304-Contest%20Code-6ArgAgainst-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
+    "timestamp": "20261030233251",
+    "digest": "QIBWFYQW3LKWZLXV5JC2U7ZRGJJOCSSS",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

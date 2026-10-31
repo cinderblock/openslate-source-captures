@@ -1,0 +1,153 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "track-aipac",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.trackaipac.com/",
+ "generated_from": {
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.trackaipac.com/endorsements",
+   "positions": 8,
+   "host": {
+    "match": "exact",
+    "host": "trackaipac.com",
+    "org_host": "trackaipac.com"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 1122,
+    "captured_at": "2026-10-31T12:03:24.736Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.trackaipac.com/endorsements",
+    "response_sha256": "ea53ceb2800af6f21f4e22df83f3eab570c0fd9f5a5e5d7b9676b180a11588d8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 8,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.trackaipac.com/candidates",
+   "positions": 5,
+   "host": {
+    "match": "exact",
+    "host": "trackaipac.com",
+    "org_host": "trackaipac.com"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 1120,
+    "captured_at": "2026-10-31T12:03:21.424Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.trackaipac.com/candidates",
+    "response_sha256": "44b56b30cd849e3ab9deb245030d1afd3822ba588a30ada7887a5de3d8c530d6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 5,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.trackaipac.com/congress",
+   "positions": 40,
+   "host": {
+    "match": "exact",
+    "host": "trackaipac.com",
+    "org_host": "trackaipac.com"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 1121,
+    "captured_at": "2026-10-31T12:03:23.033Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.trackaipac.com/congress",
+    "response_sha256": "fe29fb3c463b5a63633fa99c9ac053939dca3634f3e343bab16e350b9a315cbb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 40,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.trackaipac.com/blog/updated-methodology",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "trackaipac.com",
+    "org_host": "trackaipac.com"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 1119,
+    "captured_at": "2026-10-31T12:03:19.758Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.trackaipac.com/blog/updated-methodology",
+    "response_sha256": "49443f0b0cc6b286e7f240c3b42864527b0ef5e454bc714732de430053ed02d0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

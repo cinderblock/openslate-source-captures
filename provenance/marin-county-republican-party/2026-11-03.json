@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://maringop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "maringop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 387,
-    "captured_at": "2026-10-31T00:04:11.995Z",
+    "captured_at": "2026-10-31T12:01:25.722Z",
     "status": 200,
     "error": null,
     "final_url": "https://maringop.org/2026/09/15/marin-gop-endorses/",
-    "response_sha256": "ac24fbebbf6b3ffc283cc2ce712ad7edb19342d104f092d0ab79370730b636c1",
+    "response_sha256": "6e03d497d1e614e2df547618e98a51a424d7dfc39d117931d81a9b542d04dc6b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -61,22 +63,31 @@
     "org_host": "maringop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 388,
-    "captured_at": "2026-10-31T00:04:15.823Z",
+    "captured_at": "2026-10-31T12:01:28.322Z",
     "status": 200,
     "error": null,
     "final_url": "https://maringop.org/ei/elections/endorsements/",
-    "response_sha256": "daeb0ca313b53aabb0c2eb59571648e4ee23dd3f57386f718ac79dafe9738aea",
+    "response_sha256": "808c6238d8dcf0712b58a74b666e53e47c3bce7673feb1cb826dc59b49d24ed8",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030225136id_/https://maringop.org/ei/elections/endorsements/",
+    "timestamp": "20261030225136",
+    "digest": "S32XWD3GUFKO3YSQ74E75PV7ORSHRQVW",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,
@@ -94,13 +105,13 @@
     "org_host": "maringop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 389,
-    "captured_at": "2026-10-31T00:04:18.508Z",
+    "captured_at": "2026-10-31T12:01:29.919Z",
     "status": 200,
     "error": null,
     "final_url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-1@4x-1.png",
-    "response_sha256": "7951682cad8c27400e91fff32853ccb46d7379622d536ad67b487370f3b2ead8",
+    "response_sha256": "33038f6e03e41b13b4bb797a17a295f143b857050462a4dee0b84bdae96fa4b4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -132,13 +143,13 @@
     "org_host": "maringop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 390,
-    "captured_at": "2026-10-31T00:04:20.227Z",
+    "captured_at": "2026-10-31T12:01:31.608Z",
     "status": 200,
     "error": null,
     "final_url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-2@4x-1.png",
-    "response_sha256": "5fe53337da2908465f8423ebf6328ce04bed946dbdbd366d8a1859d3af3be2e3",
+    "response_sha256": "d8429d2560e795117bdebfd46241cfb44b3fe9325bb3500cc35d6fea24d37bc0",
     "bytes": "public",
     "claims": [
      "captured",

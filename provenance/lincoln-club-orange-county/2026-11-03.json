@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.lincolnclub.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "lincolnclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 869,
-    "captured_at": "2026-10-31T00:05:32.241Z",
+    "captured_at": "2026-10-31T12:02:46.796Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lincolnclub.org/voterguide",
-    "response_sha256": "94873de95e9edd7ab7418d71ab13b0fc6bca7e7977f67a87c70a399b7432927d",
+    "response_sha256": "0719280ad2680288d42428b594eb18c5269244a46e3b78fff19cd6741604b80b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,17 +41,128 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "8ad4dd8b2564f9f4d231b740fb96b69d6c5ec03c4eae157b4c913c9ddc1b5c49"
+     "dom_sha256": "24841e44a4171443f2d086959be1a20ae5889fc176df08a72bcf5cfb7217e1fe"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261016022144id_/https://www.lincolnclub.org/voterguide",
+    "timestamp": "20261016022144",
+    "digest": "4ZQLKW3NCI462FS272NVHV566DZI4VUY",
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 113
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
     "quoted_parts": 0,
     "unanchored": 113,
     "no_statement": 0
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/611ecf_569d5f81b0d7416dae1751722b8d5cd8~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "lincolnclub.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 624,
+    "captured_at": "2026-10-31T12:02:58.707Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/611ecf_569d5f81b0d7416dae1751722b8d5cd8~mv2.png",
+    "response_sha256": "b2653eae149865a06d6db35fdc7316da0dec3c7abb86db8ef60b1520f027ed2a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/611ecf_774662615d734600ab33eb57e87cebc9~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "lincolnclub.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 625,
+    "captured_at": "2026-10-31T12:03:00.309Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/611ecf_774662615d734600ab33eb57e87cebc9~mv2.png",
+    "response_sha256": "4b814a5a553c03f9426bd613b905a9364051a3ddadf5f08253a5002aceed0232",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/611ecf_cd21701a490f46bb9125eacefbec9558~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "lincolnclub.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 626,
+    "captured_at": "2026-10-31T12:03:01.908Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/611ecf_cd21701a490f46bb9125eacefbec9558~mv2.png",
+    "response_sha256": "4fd381369b3fa3c1305309c74c8f1f6f086c4b843dbc9c4f1eab9872ad949626",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
    }
   }
  ]

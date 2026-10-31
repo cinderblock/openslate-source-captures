@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.kqed.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "kqed.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 858,
-    "captured_at": "2026-10-31T00:05:31.516Z",
+    "captured_at": "2026-10-31T12:02:47.328Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kqed.org/propfest",
-    "response_sha256": "8ce40f2829498a2eb7f8b544c5096d1dfcff80a88a57d4b193be3f61a16d9c27",
+    "response_sha256": "9eb5763ef0c618f689b89de412cbebedabcda0bb21e21876f8a9276947258308",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261022182841id_/https://www.kqed.org/propfest",
+    "timestamp": "20261022182841",
+    "digest": "QHQ727JINELXOMW2GCK3EFP4L5SMP3EN",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +64,13 @@
     "org_host": "kqed.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 857,
-    "captured_at": "2026-10-31T00:05:29.590Z",
+    "captured_at": "2026-10-31T12:02:44.272Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kqed.org/news/tag/election-2026",
-    "response_sha256": "259a7d2b8fd169ca8cb4fafd943d10d38212251c1d289d0a5ebecd2146690375",
+    "response_sha256": "aa07a7adf71d9176b86e866788c312de68c9299c600b00a56aea9c5b5f9717fb",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -72,7 +79,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021133947id_/https://www.kqed.org/news/tag/election-2026",
+    "timestamp": "20261021133947",
+    "digest": "VEHVUZOJPV52HF6WWP3MGTKZMED6JT4Q",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://placerdems.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "placerdems.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 506,
-    "captured_at": "2026-10-31T00:04:27.178Z",
+    "captured_at": "2026-10-31T12:01:41.039Z",
     "status": 200,
     "error": null,
     "final_url": "https://placerdems.org/endorsements",
-    "response_sha256": "4b6da05ed2faaf3815e6c58832679c5ab4bf200fda2a65bf09ca5898f38aa51e",
+    "response_sha256": "0229ded5b4ea16b85d76d58a3938526a2ceb8b2851d51366dfd36536ea2bf9a3",
     "bytes": "public",
     "claims": [
      "captured",

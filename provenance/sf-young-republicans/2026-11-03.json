@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 532,
-    "captured_at": "2026-10-31T00:04:39.422Z",
+    "captured_at": "2026-10-31T12:01:52.826Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfendorsements.com/",
-    "response_sha256": "b3776bd9869a71de4a3a59ddccb9596292c9dc9cc0c97681330f461b3708b8cc",
+    "response_sha256": "1a7be8a1e20a13365098eb8328956faab8711f62d31c3c8b8658c6be4b699648",
     "bytes": "public",
     "claims": [
      "captured",
@@ -67,13 +69,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 842,
-    "captured_at": "2026-10-31T00:05:25.401Z",
+    "captured_at": "2026-10-31T12:02:39.893Z",
     "status": 200,
     "error": null,
     "final_url": "https://gitlab.com/peterxu/sf-endorsements",
-    "response_sha256": "5603c1a094d7ad1e48068a9f51e58e922cfef4771ba7c9726f3c0ee9a20fb658",
+    "response_sha256": "6e0fcade722bd1698faf0da41f03a298b578064dc196713745305109ba1b5aff",
     "bytes": "public",
     "claims": [
      "captured",
@@ -82,11 +84,16 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "03d08fff63d51470424319ced2d2c20aa20d8744c0a5a3b7bdd146b9ed6efac8"
+     "dom_sha256": "ffd24e95d773424cd8ad708409f41816cf1d61ffc1d3404bff48877837795597"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261018054525id_/https://www.gitlab.com/peterxu/sf-endorsements",
+    "timestamp": "20261018054525",
+    "digest": "HUJSTM7W2NYJUHHVTHJYA2565KMTICMK",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

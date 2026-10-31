@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://placergop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "placergop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 507,
-    "captured_at": "2026-10-31T00:04:27.245Z",
+    "captured_at": "2026-10-31T12:01:42.309Z",
     "status": 200,
     "error": null,
     "final_url": "https://placergop.org/endorsements/",
-    "response_sha256": "fa6fe155450c94a765d123df94e5c965f261080138f8ac8efa7cb19a41c5168d",
+    "response_sha256": "780f61b0acbbe684a12686100f0436f22f369b3f3f25255a8dc3b457f07fe9a5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -65,13 +67,13 @@
     "org_host": "placergop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 509,
-    "captured_at": "2026-10-31T00:04:31.581Z",
+    "captured_at": "2026-10-31T12:01:46.923Z",
     "status": 200,
     "error": null,
     "final_url": "https://placergop.org/wp-content/uploads/PlacerGOP2026-VoterGuide.pdf",
-    "response_sha256": "af00f25eb83e02c398e0a6d11f2b6f49ffb0096a0bd647e9b1fde91dff29fd08",
+    "response_sha256": "c4baf0b009823cbd28578bd75afd094c7a6c94dbe3eaf53ae73f1ee81c89f658",
     "bytes": "public",
     "claims": [
      "captured",
@@ -98,13 +100,13 @@
     "org_host": "placergop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 508,
-    "captured_at": "2026-10-31T00:04:30.002Z",
+    "captured_at": "2026-10-31T12:01:45.097Z",
     "status": 200,
     "error": null,
     "final_url": "https://placergop.org/wp-content/uploads/Judges2026.jpeg",
-    "response_sha256": "0684570df6eef943e2c7cdd03399d10268188811fdc69defb4e8d857be5c8adf",
+    "response_sha256": "ae78f63be3ba42a31758376dfa4d531953ab8a16ad087dd6e989a6a90b4cb74b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -121,6 +123,39 @@
     "unanchored": 0,
     "no_statement": 0,
     "reason": "image"
+   }
+  },
+  {
+   "url": "https://www.placercountyelections.gov/Uploads/documents/11032026/11032026_Measures_Appear_on_Ballot.pdf",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "placercountyelections.gov",
+    "org_host": "placergop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 892,
+    "captured_at": "2026-10-31T12:02:52.493Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.placercountyelections.gov/Uploads/documents/11032026/11032026_Measures_Appear_on_Ballot.pdf",
+    "response_sha256": "f900cf7e250a16ebce3c94844a661ea6e0415d66d89cd69be8d6cf31028d4df8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
    }
   }
  ]

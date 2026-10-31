@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.thrivelosangeles.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "thrivelosangeles.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1115,
-    "captured_at": "2026-10-31T00:06:04.411Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1118,
+    "captured_at": "2026-10-31T12:03:18.794Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.thrivelosangeles.org/voter-guide",
-    "response_sha256": "06cec8b8fb07c9a24a5fdcf4a2816bad0e381f6bf24ce319b79216b5f5eea6a1",
+    "response_sha256": "2fb51a5fe47339745d1a270c9ad501961b4240f845859939ad3b444fdc135faf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031032941id_/https://www.thrivelosangeles.org/voter-guide",
+    "timestamp": "20261031032941",
+    "digest": "KMXPJ5IWAHBL76IZ2UJN4ZXLYV5IVL7X",
+    "origin": "requested",
+    "statements": {
+     "found": 48,
+     "of": 56
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

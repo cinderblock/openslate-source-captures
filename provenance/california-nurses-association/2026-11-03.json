@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.nationalnursesunited.org/california-nurses-association",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "nationalnursesunited.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 879,
-    "captured_at": "2026-10-31T00:05:35.418Z",
+    "captured_at": "2026-10-31T12:02:49.403Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.nationalnursesunited.org/california-endorsements",
-    "response_sha256": "dc04183d2fa048f88ed71db9145819d3b0dbe73c9cd519f0cbcd39469fb3134f",
+    "response_sha256": "cf4e3fdf69e9992c3b45c8df53dac7763ec029d1d0e898fc6ed7e055035597da",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021072115id_/https://www.nationalnursesunited.org/california-endorsements",
+    "timestamp": "20261021072115",
+    "digest": "OLOZHMQOSYLSLZJKBGGD2TYCNBCG3ZZD",
+    "origin": "existing",
+    "statements": {
+     "found": 77,
+     "of": 77
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 77,

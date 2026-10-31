@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.noevalleydemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "noevalleydemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 885,
-    "captured_at": "2026-10-31T00:05:37.101Z",
+    "captured_at": "2026-10-31T12:02:51.193Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.noevalleydemocrats.org/endorsements",
-    "response_sha256": "9bf0152c93c17b80c845beb30fd19e2e55603b0619e37413b5ba24d65a12c73d",
+    "response_sha256": "d53d5738d5c0b4252f3f41c88b7dd5b6e24f0ac3c2db5e02b504e262e9986a3a",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261005221756id_/https://www.noevalleydemocrats.org/endorsements",
+    "timestamp": "20261005221756",
+    "digest": "2JWICGGOJOAZDVK2DHXKPMMXNZ7XYQYS",
+    "origin": "existing",
+    "statements": {
+     "found": 4,
+     "of": 4
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 3,

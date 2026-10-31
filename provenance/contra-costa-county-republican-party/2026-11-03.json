@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.cocorepublicans.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 818,
-    "captured_at": "2026-10-31T00:05:14.701Z",
+    "captured_at": "2026-10-31T12:02:30.028Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cocorepublicans.com/endorsements",
-    "response_sha256": "2ee465fb9cc17909fca5d1c2ace28b58e26c3a1f43fadffa05a0fd13db56728e",
+    "response_sha256": "91f8e6d0f56306e0805457083b9a28da4100f1df8b5ba977281e19b205df0cdf",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235457id_/https://www.cocorepublicans.com/endorsements",
+    "timestamp": "20261030235457",
+    "digest": "B3QXP6FQEOBPCEIE3RVI6ANOERH6Y454",
+    "origin": "requested",
+    "statements": {
+     "found": 14,
+     "of": 14
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -57,13 +69,13 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 252,
-    "captured_at": "2026-10-31T00:04:02.028Z",
+    "captured_at": "2026-10-31T12:01:18.923Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/IMG_2317-1920w.PNG",
-    "response_sha256": "00d69de49a8456bdf1b363c6e193f53866062cdc1fc278cc9cb208041df411b4",
+    "response_sha256": "a57d912066c49e0158f411b9037aa9b98d148a4c7c97f57fb24befeb424029b7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -91,13 +103,13 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 254,
-    "captured_at": "2026-10-31T00:04:05.472Z",
+    "captured_at": "2026-10-31T12:01:22.231Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/positions-1920w.png",
-    "response_sha256": "e1af3ded63d25cb33256482231fb826d5af6365deab4929301cab4bc34020a6d",
+    "response_sha256": "1276cbb27e2c4ba556593d0a2c79a7690fd9f860bc5dce51c7da33d27fbe069a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -125,13 +137,13 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 253,
-    "captured_at": "2026-10-31T00:04:03.765Z",
+    "captured_at": "2026-10-31T12:01:20.574Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/Local+Recommendations+-+Nov+2026-1e648819-1920w.png",
-    "response_sha256": "bc0b719179e75c250a079bc1ce9d742d06c44ab0f03dbb90ae576ab678aaeca2",
+    "response_sha256": "a2e4d0e525df553d73b062e288f1ac3161a03da567ea7f0812afcb1553de5ede",
     "bytes": "public",
     "claims": [
      "captured",

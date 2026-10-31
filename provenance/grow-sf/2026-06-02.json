@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://growsf.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "growsf.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 192,
-    "captured_at": "2026-10-31T00:03:56.261Z",
+    "captured_at": "2026-10-31T12:01:12.730Z",
     "status": 200,
     "error": null,
     "final_url": "https://growsf.org/voter-guide/san-francisco-voter-guide-june-2026-election/",
-    "response_sha256": "39db233379b8879a6e3581ebe2048d3250c483b4ab2aa516aff6c491f5793494",
+    "response_sha256": "7c2ebf24c56c6ec7eb3b5eef8a7509952263d22f281b680cbf8130f831f54899",
     "bytes": "public",
     "claims": [
      "captured",

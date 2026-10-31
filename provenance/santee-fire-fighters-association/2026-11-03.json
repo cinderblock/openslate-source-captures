@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1054,
-    "captured_at": "2026-10-31T00:06:00.466Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1056,
+    "captured_at": "2026-10-31T12:03:16.168Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
-    "response_sha256": "6cfd45c1d8f583382f88b96b840025f6e54e3da98713a66d6815c2f30782a965",
+    "response_sha256": "17341293448eddd890af554a0b63b7439376a1ea7673b645278c4f49525a2fcb",
     "bytes": "release",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003208id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=80",
+    "timestamp": "20261031003208",
+    "digest": "TAINMJHFCQQWVJUZKPDSD7XJMR3AK3NH",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +68,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1055,
-    "captured_at": "2026-10-31T00:06:00.466Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1057,
+    "captured_at": "2026-10-31T12:03:16.168Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
-    "response_sha256": "6cfd45c1d8f583382f88b96b840025f6e54e3da98713a66d6815c2f30782a965",
+    "response_sha256": "17341293448eddd890af554a0b63b7439376a1ea7673b645278c4f49525a2fcb",
     "bytes": "release",
     "claims": [
      "captured",
@@ -72,7 +83,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003208id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=81",
+    "timestamp": "20261031003208",
+    "digest": "TAINMJHFCQQWVJUZKPDSD7XJMR3AK3NH",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

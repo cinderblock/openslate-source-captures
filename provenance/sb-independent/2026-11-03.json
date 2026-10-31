@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.independent.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "independent.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 852,
-    "captured_at": "2026-10-31T00:05:28.987Z",
+    "captured_at": "2026-10-31T12:02:44.597Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.independent.com/2026/10/07/the-santa-barbara-independent-endorsements-for-the-general-election-november-3-2026/",
-    "response_sha256": "4c987c3e93fef4650f2d6c7a430a8d474d2abc5666be6e402866b97c9c7b50a0",
+    "response_sha256": "a5fa8446618a697e513fa795fdf7ab3b78d34d2790027a048f48fc4db51ca40a",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261022134629id_/https://www.independent.com/2026/10/07/the-santa-barbara-independent-endorsements-for-the-general-election-november-3-2026/",
+    "timestamp": "20261022134629",
+    "digest": "5ZISI6ZCEDRF3UQZDPGPVEYWIJLQAXFM",
+    "origin": "existing",
+    "statements": {
+     "found": 24,
+     "of": 25
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 25,

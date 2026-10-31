@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://sbgop.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sbgop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 248,
-    "captured_at": "2026-10-31T00:04:01.369Z",
+    "captured_at": "2026-10-31T12:01:17.821Z",
     "status": 200,
     "error": null,
     "final_url": "https://img1.wsimg.com/blobby/go/00e1d586-84bf-47d7-8009-c4d0a6ebcb89/downloads/77573883-533c-4f5c-8832-690624e5aa91/SBGOP_2026_Complete_Updated_Voter_Guide.pdf?ver=1791570575256",
-    "response_sha256": "783219632a1266d023a4ce1da0b61fafed0b1e0dd54628f4a08f763b8c6a2081",
+    "response_sha256": "6a6a052049b16436e6a2aaf8fdfc207d1507866490106f446e4651cfa68f0c0c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -57,13 +59,13 @@
     "org_host": "sbgop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 522,
-    "captured_at": "2026-10-31T00:04:34.828Z",
+    "captured_at": "2026-10-31T12:01:47.571Z",
     "status": 200,
     "error": null,
     "final_url": "https://sbgop.com/2026-general",
-    "response_sha256": "6cdae69f695381733948c0e53726a73a5b1f2ad65588e40a10851a6ca67e770a",
+    "response_sha256": "62aecd50d5a28dae7a2217a290734513be8f06e3512fc33d7d63af5e2faf2fad",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +74,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030225753id_/https://sbgop.com/2026-general",
+    "timestamp": "20261030225753",
+    "digest": "CA3X4X57KBEBWFH4VCWNVRVEWKJZEDQP"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

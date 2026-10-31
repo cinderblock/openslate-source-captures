@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/california/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1085,
-    "captured_at": "2026-10-31T00:05:58.800Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1088,
+    "captured_at": "2026-10-31T12:03:14.350Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/california/2026-endorsements-scc-political-committee",
-    "response_sha256": "c24b6fc6cf1085eea2f17256d1e191d8efa2aa79fe42e83d5bac561b893b3c52",
+    "response_sha256": "78dc96f0745b3a436e6b8929bbf29f40743657a2c9a3503ee72e6b3a502d597e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,11 +41,16 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "ab0c53742f90b0c21890700db807d84caf5d64ca5d77dbabe701e6402bfbe3d4"
+     "dom_sha256": "39de810c4916f684f2526deefc118915ee4787ad912cd47940102374925f7c76"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021071558id_/https://www.sierraclub.org/california/2026-endorsements-scc-political-committee",
+    "timestamp": "20261021071558",
+    "digest": "Z546DIFW65RQMCSSNCDESTNQWGZOAU5X",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

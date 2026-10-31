@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://cayimby.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "cayimby.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 73,
-    "captured_at": "2026-10-31T00:03:47.113Z",
+    "captured_at": "2026-10-31T12:01:02.888Z",
     "status": 200,
     "error": null,
     "final_url": "https://cayimby.org/endorsements/",
-    "response_sha256": "027538c569afec9a8ca31d1e2d4c08ccbc5355ef197b1503d81c01cf74bfc014",
+    "response_sha256": "0c45abd40c3389cbfa2b7d9069620ddbe190e5d12c743bd99399099c45028c20",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.nbclc.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "nbclc.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 880,
-    "captured_at": "2026-10-31T00:05:35.823Z",
+    "captured_at": "2026-10-31T12:02:50.557Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.nbclc.org/2026endorsements",
-    "response_sha256": "3942a3cae16a3f31ba4c27994b25b353882b901fa79ecab26a2d2aec864f4ad0",
+    "response_sha256": "d48679a3b8c80af0dd1a5ad2535f7f87e3bba0af3fe703961f660ffc5943f932",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031032844id_/https://www.nbclc.org/2026endorsements",
+    "timestamp": "20261031032844",
+    "digest": "JMIDE3YB5GGGPZMQSS4OWMLEEPCLNQ5E",
+    "origin": "requested",
+    "statements": {
+     "found": 68,
+     "of": 68
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 59,

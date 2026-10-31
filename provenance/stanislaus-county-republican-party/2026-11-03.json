@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://stangop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,28 +26,29 @@
     "org_host": "stangop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 587,
-    "captured_at": "2026-10-31T00:04:47.827Z",
+    "captured_at": "2026-10-31T12:02:00.562Z",
     "status": 200,
     "error": null,
     "final_url": "https://stangop.org/endorsements/",
-    "response_sha256": "bf19cf9433e7d8cf425ea603606268daac1863e6f799dcb8f1af5e0b8ebfd25a",
+    "response_sha256": "152a4bc93ec41bb900c66e48ea23bd033784b57b40e2faa1879317856e38efcb",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260615021602id_/https://stangop.org/endorsements/",
-    "timestamp": "20260615021602",
-    "digest": "3OPKPLO2XHQSRDPTVKBYZY4JGNNJ54FB",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261031101838id_/https://stangop.org/endorsements/",
+    "timestamp": "20261031101838",
+    "digest": "ZFAVUVVRZKYJBBNLJMK7QF55P6LLR3I5",
+    "origin": "requested",
     "statements": {
-     "found": 6,
+     "found": 43,
      "of": 43
     }
    },
@@ -66,13 +69,13 @@
     "org_host": "stangop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 588,
-    "captured_at": "2026-10-31T00:04:49.754Z",
+    "captured_at": "2026-10-31T12:02:02.518Z",
     "status": 200,
     "error": null,
     "final_url": "https://stangop.org/voter-guide/",
-    "response_sha256": "0d2be86bdf199faacb83a6422829ad5ffa02c8be569e44f2913fcc89774c0284",
+    "response_sha256": "4521a9194ce5f0b7788747662e84c688e1d56328eb3ccba600b7d936420ddf7e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,7 +84,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234714id_/https://stangop.org/voter-guide/",
+    "timestamp": "20261030234714",
+    "digest": "VFZBCL7YTBQT374JGDENYO3YFJS2YXLI",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

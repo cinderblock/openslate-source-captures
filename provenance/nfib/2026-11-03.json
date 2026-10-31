@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.nfib.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 883,
-    "captured_at": "2026-10-31T00:05:38.002Z",
+    "captured_at": "2026-10-31T12:02:52.280Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
-    "response_sha256": "1671506923efdb2f2ad23518d0d606e6da44af2649a470eb5bfdd2ca553e6a0c",
+    "response_sha256": "9b46d1fde1572abb52ed2c0b1c08c31ad1372b3fb29a313c1e5f40c4da3b243a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261010195617id_/https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
+    "timestamp": "20261010195617",
+    "digest": "WWLA65GUFE3BJR3RRMSKJAJERNDXAXNZ",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -58,13 +65,13 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 773,
-    "captured_at": "2026-10-31T00:04:57.225Z",
+    "captured_at": "2026-10-31T12:02:11.806Z",
     "status": 200,
     "error": null,
     "final_url": "https://web.archive.org/web/20261010195617/https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
-    "response_sha256": "f676a6ff8f03f8354d7c72e7646efd76f18af10c322566542d25e7f693c61d76",
+    "response_sha256": "8e085c53ed0c345e48dbd59173346b9a59f3e4c840d332871556998e1a4e8dd0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -91,13 +98,13 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 882,
-    "captured_at": "2026-10-31T00:05:36.354Z",
+    "captured_at": "2026-10-31T12:02:50.610Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.nfib.com/news/press-release/california-small-businesses-endorse-slate-of-candidates-for-election-to-congress/",
-    "response_sha256": "3b9a06acf7ecd1cd574d28f0e30225307b400e0178e667a123986ec122ad387d",
+    "response_sha256": "e09820735b37637847f02826a4885a2eb54427dd6cb809cca0ced50c45d4e0c4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -125,22 +132,32 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 884,
-    "captured_at": "2026-10-31T00:05:39.575Z",
+    "captured_at": "2026-10-31T12:02:53.895Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.nfib.com/news/press-release/small-business-pac-endorses-30-candidates-for-the-california-legislature/",
-    "response_sha256": "4ab9b708236187a32c4ad9e423fae6eddb8e604313519b4978d219cf3b97dae4",
+    "response_sha256": "b1c7bb426494f6a608aa4b68ad43dd897f22ae7e9cab798f6a32b0594e0dd75b",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023145136id_/https://www.nfib.com/news/press-release/small-business-pac-endorses-30-candidates-for-the-california-legislature/",
+    "timestamp": "20261023145136",
+    "digest": "CJSBRX2ZHPCCTQ6NJSQZAUYOB6FKGB5E",
+    "origin": "existing",
+    "statements": {
+     "found": 30,
+     "of": 30
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

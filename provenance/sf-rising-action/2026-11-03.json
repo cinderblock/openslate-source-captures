@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sfrisingaction.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1080,
-    "captured_at": "2026-10-31T00:05:57.056Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1083,
+    "captured_at": "2026-10-31T12:03:12.349Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/",
-    "response_sha256": "e358813d66cc38722886f19892ce38c3aec45e5066a07719a77718bf05e2b450",
+    "response_sha256": "edb026d9a75d23fd7437f94d9d09d6b6a7add39dc859355a5fb5423642408fdf",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031005300id_/https://www.sfrisingaction.org/election/november-3-2026-general-election/",
+    "timestamp": "20261031005300",
+    "digest": "FJNNETPZOYBU46MZV4BZNFTKPPQ7JY5B",
+    "origin": "requested",
+    "statements": {
+     "found": 7,
+     "of": 7
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 5,
@@ -57,22 +69,32 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1081,
-    "captured_at": "2026-10-31T00:05:58.648Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1084,
+    "captured_at": "2026-10-31T12:03:14.147Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/page/2/",
-    "response_sha256": "dde30b78826fcfbd5af35ea245ce4eb2bc9e8f359b09a61bac31f42a8de52499",
+    "response_sha256": "e5839a2ec91f6d4e6663b050a2e32be9e7478f963c8c9369d3d1145fae58001d",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031005346id_/https://www.sfrisingaction.org/election/november-3-2026-general-election/page/2/",
+    "timestamp": "20261031005346",
+    "digest": "QZZU7TD7GC34ZGWHMWZHPR7QYXBG7NOU",
+    "origin": "requested",
+    "statements": {
+     "found": 6,
+     "of": 6
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -90,22 +112,32 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1082,
-    "captured_at": "2026-10-31T00:06:00.232Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1085,
+    "captured_at": "2026-10-31T12:03:15.702Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/page/3/",
-    "response_sha256": "b6e2a9bd4224f7fcd48d8b74f2b9cc28e08e31736925ff8d1ff779238d044ba6",
+    "response_sha256": "cbc55404e2c788e495f7f20c05eb7527447bd3e2db1e182f9d83aba84ada3730",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031005356id_/https://www.sfrisingaction.org/election/november-3-2026-general-election/page/3/",
+    "timestamp": "20261031005356",
+    "digest": "ERKMHTSS4SBJP233Y7EAL37AKRKIXIXV",
+    "origin": "requested",
+    "statements": {
+     "found": 6,
+     "of": 6
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -123,22 +155,32 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1083,
-    "captured_at": "2026-10-31T00:06:01.779Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1086,
+    "captured_at": "2026-10-31T12:03:17.241Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/page/4/",
-    "response_sha256": "10eb76b364e19799d04e9cac8ccdf652e68ef97ece9f43e4fcee19687fded22b",
+    "response_sha256": "736a853b6decbc0aa44f34f7402a4fc30b719c75ccd6ebc96c52d65078fb177e",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031005409id_/https://www.sfrisingaction.org/election/november-3-2026-general-election/page/4/",
+    "timestamp": "20261031005409",
+    "digest": "3IUOX5DNJ3JI57PC6RO3BCJUEAJ46URB",
+    "origin": "requested",
+    "statements": {
+     "found": 5,
+     "of": 5
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

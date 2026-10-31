@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.southbaylabor.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,35 +26,46 @@
     "org_host": "southbaylabor.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1104,
-    "captured_at": "2026-10-31T00:06:00.128Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1107,
+    "captured_at": "2026-10-31T12:03:14.987Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.southbaylabor.org/2026_endorsements",
-    "response_sha256": "cf2d14bd626d8d0499c6e670616a40ac3d90601f2b5f882061829b9a2f1ae2fa",
+    "response_sha256": "f7075690a656bd7ef1ec8cb521e18156ba3a28d8e45bcf1c88a81d94f982e3dd",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
-    "index": 51,
-    "captured_at": "2026-10-30T17:31:16.354Z",
+    "run": "2026-10-31T0024Z",
+    "index": 48,
+    "captured_at": "2026-10-31T00:24:58.331Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.southbaylabor.org/2026_endorsements",
-    "response_sha256": "56fa8c3a734ab27d2fb4a7a56b918ca37f42000c7dfa4e6af8b438c5dd138502",
+    "response_sha256": "c142f8d970009a28c778fbeff2f126d694c1e78cb6681b7e6ebed8a258c1fecc",
     "bytes": "public",
     "claims": [
      "captured",
-     "time-stamped"
+     "time-stamped",
+     "independently-archived"
     ]
    },
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023191331id_/https://www.southbaylabor.org/2026_endorsements",
+    "timestamp": "20261023191331",
+    "digest": "KCYQPH7FRT6AQ2MG66AW35M6VH5WOMKU",
+    "origin": "existing",
+    "statements": {
+     "found": 91,
+     "of": 91
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 81,
@@ -70,13 +83,13 @@
     "org_host": "southbaylabor.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1026,
-    "captured_at": "2026-10-31T00:05:44.201Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1028,
+    "captured_at": "2026-10-31T12:02:58.332Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.sanbenitocounty-ca-cre.gov/home/showpublisheddocument/16343/639237846936770000",
-    "response_sha256": "2d0ab074eaacd50a06e5e56e236d3e89dd9f9d8ff8cf42b24ea5860d114e362c",
+    "response_sha256": "629d7ecdac3c3c417339a188b234aebc2438d210b063a9edea24561b01a27c58",
     "bytes": "public",
     "claims": [
      "captured",

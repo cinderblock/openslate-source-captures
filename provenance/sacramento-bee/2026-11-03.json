@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sacbee.com/opinion/election-endorsements/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,9 +26,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1009,
-    "captured_at": "2026-10-31T00:06:44.171Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1011,
+    "captured_at": "2026-10-31T12:03:58.463Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/",
@@ -39,11 +41,16 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "9a92c7150f218923b2706fec6d1d93c98d97641f34bd196c1fcaa6e4b2a13b71"
+     "dom_sha256": "86f940b6bf5e2c46292b8cd14f514f8043e4b57f7345122428f9f98a6e720049"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002932id_/https://www.sacbee.com/opinion/election-endorsements/",
+    "timestamp": "20261031002932",
+    "digest": "YH6KEGVWM7DOS2LFEVCMYPAONOVG6GVE",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -62,9 +69,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1015,
-    "captured_at": "2026-10-31T00:09:53.188Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1017,
+    "captured_at": "2026-10-31T12:07:07.481Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317131383.html",
@@ -73,15 +80,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "5d9f8c8848cf89a3f2cf59aee09d628e805a9180d54e6d3b066ecf4c745f0404"
+     "dom_sha256": "9853d9b9a4856d70867858d0f237051dd769a1e9509f8e53bc01fbc6d4f08236"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003215id_/https://www.sacbee.com/opinion/election-endorsements/article317131383.html",
+    "timestamp": "20261031003215",
+    "digest": "EGX6HKEI3FF3EJGYBDOVFIJYTWKV2XMC",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -100,9 +117,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1010,
-    "captured_at": "2026-10-31T00:07:15.673Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1012,
+    "captured_at": "2026-10-31T12:04:29.966Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article316832589.html",
@@ -111,15 +128,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "db3de16bbfab8a2f5aafe5b2d5562e8a142b1337d735bc6d6469b475882c9767"
+     "dom_sha256": "6723fad9f02b1ced122b3f93694f4c84f2aa89c125528a29f85b5587d7d34632"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002942id_/https://www.sacbee.com/opinion/election-endorsements/article316832589.html",
+    "timestamp": "20261031002942",
+    "digest": "7AQCNFXUQ6FWU4756OBUAYS652NLAU7M",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -138,9 +165,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1016,
-    "captured_at": "2026-10-31T00:10:24.691Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1018,
+    "captured_at": "2026-10-31T12:07:38.983Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317171649.html",
@@ -149,15 +176,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "9abf86838fb45b225e66ef1050e622519ffbf9b871f42f8efeaffc3018e6da0c"
+     "dom_sha256": "499695e22c80491bb8e9737f7020099b600a824e24cbbb87ad30234490e8f22f"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003237id_/https://www.sacbee.com/opinion/election-endorsements/article317171649.html",
+    "timestamp": "20261031003237",
+    "digest": "X3IRSU7PUTN47NOGJQH737C2RXLELETD",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -176,9 +213,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1017,
-    "captured_at": "2026-10-31T00:10:56.194Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1019,
+    "captured_at": "2026-10-31T12:08:10.486Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317172915.html",
@@ -187,15 +224,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "8223af14cc8ca9a4bfa4e793ea165c3d5fb79fa2836244860d6054bea917d961"
+     "dom_sha256": "9062ded371281f90eabac0d52ef5caf327d9d94a400627d1e8f82ebf90400f0d"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003353id_/https://www.sacbee.com/opinion/election-endorsements/article317172915.html",
+    "timestamp": "20261031003353",
+    "digest": "UWMBCZ4EQYUG4WGBVT2FQ7CME62J5BXM",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -214,9 +261,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1012,
-    "captured_at": "2026-10-31T00:08:18.679Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1014,
+    "captured_at": "2026-10-31T12:05:32.972Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317045348.html",
@@ -225,15 +272,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "32a726779ce7a813ef44236a05427573447a55ff1046adc51fe380b3bee24141"
+     "dom_sha256": "c7a4961907fb013f2eb121bee29c771fcfc88a9365af06b408c860a0dbba5dc6"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003038id_/https://www.sacbee.com/opinion/election-endorsements/article317045348.html",
+    "timestamp": "20261031003038",
+    "digest": "VIT3NMAMULLDBYEGRDO22WBW2UB73PGW",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -252,9 +309,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1018,
-    "captured_at": "2026-10-31T00:11:27.697Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1020,
+    "captured_at": "2026-10-31T12:08:41.989Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317182902.html",
@@ -263,15 +320,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "b4e5cfb0ce74a5a73d47eaf5fb56a22d8df6d0f1cc8cd0b8a648103394f9e0f7"
+     "dom_sha256": "e20be00be308d2b19e7f3b64958aabe74309685d395f42f4c68234f0c53e8a33"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003400id_/https://www.sacbee.com/opinion/election-endorsements/article317182902.html",
+    "timestamp": "20261031003400",
+    "digest": "46NNTR4OK7CPVVX3ZOWMH2KLTUBAD7L7",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -290,9 +357,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1014,
-    "captured_at": "2026-10-31T00:09:21.685Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1016,
+    "captured_at": "2026-10-31T12:06:35.978Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317079847.html",
@@ -301,15 +368,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "7d2b66a6359d4ecaaeff6d562c6620bf4e446ef3efb0c975cfb6dea24033dfc8"
+     "dom_sha256": "9eac9670abd4949d89902a98c06fafeccc56b909070a7c7755e8f0005678e11e"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003207id_/https://www.sacbee.com/opinion/election-endorsements/article317079847.html",
+    "timestamp": "20261031003207",
+    "digest": "RBT45TYVSAYCJLGLMLGV55T76JSM4KBU",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -328,9 +405,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1011,
-    "captured_at": "2026-10-31T00:07:47.177Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1013,
+    "captured_at": "2026-10-31T12:05:01.469Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article316956698.html",
@@ -339,15 +416,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "0ace24c2aa732aa8930fbb92b46f57fe0febfcfa2d1afc7d44118ab71c7925e1"
+     "dom_sha256": "ec43bc1b99005683cf9641ca3068b300b745afa7c8a04ac875c8a74b10568bdf"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003045id_/https://www.sacbee.com/opinion/election-endorsements/article316956698.html",
+    "timestamp": "20261031003045",
+    "digest": "ASWCMD656BI22Z3QWRX2KSIFCXOAV2GD",
+    "origin": "requested",
+    "statements": {
+     "found": 3,
+     "of": 3
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -366,9 +453,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1013,
-    "captured_at": "2026-10-31T00:08:50.182Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1015,
+    "captured_at": "2026-10-31T12:06:04.475Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317051745.html",
@@ -377,15 +464,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "2a428602ac748e435eb463e88006c4639412b28418badea36b36a9df4b6d368d"
+     "dom_sha256": "7a37eec75d1452433b2da16e5cfe0a0474f42737fae6d79e0e591f9cf0af2153"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003111id_/https://www.sacbee.com/opinion/election-endorsements/article317051745.html",
+    "timestamp": "20261031003111",
+    "digest": "R6ZQWQMGCWGEMV6SHKUY7X35WOTU6Y6I",
+    "origin": "requested",
+    "statements": {
+     "found": 3,
+     "of": 3
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -404,9 +501,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1019,
-    "captured_at": "2026-10-31T00:11:59.200Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1021,
+    "captured_at": "2026-10-31T12:09:13.492Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317497694.html",
@@ -415,15 +512,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "947d2ce2558da964353e22c9c9e0b737325f980bc773cdf630b25e19fd72c5ca"
+     "dom_sha256": "90e6ecf8dd4ef86f7ea5349b8aff48671af1d54b470112a0c60d6128e5aa00cf"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003430id_/https://www.sacbee.com/opinion/election-endorsements/article317497694.html",
+    "timestamp": "20261031003430",
+    "digest": "XJTQCHK4FR32U6QYBJ7U5DLEVAUNTN53",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -442,9 +549,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1020,
-    "captured_at": "2026-10-31T00:12:30.703Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1022,
+    "captured_at": "2026-10-31T12:09:44.995Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317514817.html",
@@ -453,15 +560,25 @@
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "65497c3cd7c78303b536ba003a28bafa33bb02447eed4288a2faf0798226ebc7"
+     "dom_sha256": "acccce250618807d59285b4e8cea2a3e36d4b4e54bbc19c2b3bfdc45e1be1d9d"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003450id_/https://www.sacbee.com/opinion/election-endorsements/article317514817.html",
+    "timestamp": "20261031003450",
+    "digest": "EWTNV44SMPQUSZAQ7LLIOVQPLTEYH3RT",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

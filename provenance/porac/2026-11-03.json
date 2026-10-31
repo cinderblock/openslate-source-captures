@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://porac.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 510,
-    "captured_at": "2026-10-31T00:04:29.008Z",
+    "captured_at": "2026-10-31T12:01:42.905Z",
     "status": 200,
     "error": null,
     "final_url": "https://porac.org/advocacy/2026-voting-guide/",
-    "response_sha256": "5ce3556c1af184de6ee9fd0da1fe3aeeebcfa7b81983f9fa63d30213598ecce5",
+    "response_sha256": "2b663c37aae9caf84231fbf259ca5fb9c90e478e0ba63e4b5b3434dc035be251",
     "bytes": "public",
     "claims": [
      "captured",
@@ -61,13 +63,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 381,
-    "captured_at": "2026-10-31T00:04:10.263Z",
+    "captured_at": "2026-10-31T12:01:25.415Z",
     "status": 200,
     "error": null,
     "final_url": "https://maps.cartifact.com/porac/",
-    "response_sha256": "bc2db02559e77b46f87a86d6430827ee01788ca4788ea9099bbad844cc35da18",
+    "response_sha256": "7aa637895c0bb5b268a39327d09b85513b6a4e2340e89df04c1e5049a394a302",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,9 +83,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20241030041419id_/https://maps.cartifact.com/porac/",
-    "timestamp": "20241030041419",
-    "digest": "G2JFZOL34QLBCPJFPGWFHSSJHLSJUL5H",
+    "url": "https://web.archive.org/web/20261031031708id_/https://maps.cartifact.com/porac/",
+    "timestamp": "20261031031708",
+    "digest": "VTIXEMCBIDCTVURHZYNTOTPCF25S6G53",
+    "origin": "requested",
     "statements": {
      "found": 0,
      "of": 103

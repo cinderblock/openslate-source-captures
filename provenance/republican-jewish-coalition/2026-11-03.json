@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.rjchq.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "rjchq.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1005,
-    "captured_at": "2026-10-31T00:05:39.671Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1007,
+    "captured_at": "2026-10-31T12:02:54.529Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.rjcpac.com/",
-    "response_sha256": "9cd7f63a97d82bd057f02ddc285e934ea8184a8b89208f00d703195d04363275",
+    "response_sha256": "48dbfc6577bbedfac3728d555c082deb22375f4131484d918c9f7e983d4f43df",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002806id_/https://www.rjcpac.com/",
+    "timestamp": "20261031002806",
+    "digest": "V2OMAHZGPDUC2GQNLY5ILCZBYG5RBUSH",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +64,13 @@
     "org_host": "rjchq.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1006,
-    "captured_at": "2026-10-31T00:05:41.492Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1008,
+    "captured_at": "2026-10-31T12:02:56.251Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.rjcpac.com/candidate/david-valadao/",
-    "response_sha256": "13c5fb50105aff5ee88616c1bd5e00ae07818b57d1efbbfa568ec0ccec8a25fd",
+    "response_sha256": "d89fff702c1def7a586e79ed74667090f2ead979321e61dd0b981e6e5b9c0edb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +79,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002809id_/https://www.rjcpac.com/candidate/david-valadao/",
+    "timestamp": "20261031002809",
+    "digest": "4DKW3UDPQQDY2IYHTB6OHR23D77Z242G",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

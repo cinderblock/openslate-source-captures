@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.calchamber.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "calchamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 25,
-    "captured_at": "2026-10-31T00:03:42.456Z",
+    "captured_at": "2026-10-31T12:00:58.025Z",
     "status": 200,
     "error": null,
     "final_url": "https://advocacy.calchamber.com/alert/2026/09/calchamber-board-announces-positions-on-november-ballot-measures",
-    "response_sha256": "596ed6de85aeb4f717926b0c7915403befe0ca8138d99ff360729d611105dd82",
+    "response_sha256": "383a0fdb56f6590d1caf7221c86aab2af638b772b30bac60b5f29a5a8f91a166",
     "bytes": "public",
     "claims": [
      "captured",

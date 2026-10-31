@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1047,
-    "captured_at": "2026-10-31T00:05:51.110Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1049,
+    "captured_at": "2026-10-31T12:03:06.305Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf",
-    "response_sha256": "d8a8fa95db025aa32b92165822148e29eca8594e3a366ac0b7b38501ed723eb1",
+    "response_sha256": "66e993d767810e513dfd938f339974fd4d077526b4c523dca3e664b2e8a146d4",
     "bytes": "release",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003026id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf#page=72",
+    "timestamp": "20261031003026",
+    "digest": "2TTQJY6LCY7MDEZL6A6GW74HTEDWX3DU",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +68,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1048,
-    "captured_at": "2026-10-31T00:05:51.110Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1050,
+    "captured_at": "2026-10-31T12:03:06.305Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf",
-    "response_sha256": "d8a8fa95db025aa32b92165822148e29eca8594e3a366ac0b7b38501ed723eb1",
+    "response_sha256": "66e993d767810e513dfd938f339974fd4d077526b4c523dca3e664b2e8a146d4",
     "bytes": "release",
     "claims": [
      "captured",
@@ -72,7 +83,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003026id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf#page=89",
+    "timestamp": "20261031003026",
+    "digest": "2TTQJY6LCY7MDEZL6A6GW74HTEDWX3DU",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 4
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -90,13 +110,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1051,
-    "captured_at": "2026-10-31T00:05:54.825Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1053,
+    "captured_at": "2026-10-31T12:03:10.350Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-247.pdf",
-    "response_sha256": "be63cbae82a665d0b86f006b3f867b63389ae72c69fa9fbfdc3d828193d095fe",
+    "response_sha256": "7b6c341acf1e829c5cf839820c162dd8c6213e70215ff40fd444601a82ea5778",
     "bytes": "release",
     "claims": [
      "captured",
@@ -105,7 +125,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003104id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-247.pdf#page=82",
+    "timestamp": "20261031003104",
+    "digest": "6KSQKYCP7S5AD5PVW6AGWQBSCTS6XGPL",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -123,13 +152,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1052,
-    "captured_at": "2026-10-31T00:05:56.570Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1054,
+    "captured_at": "2026-10-31T12:03:12.347Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf",
-    "response_sha256": "9dbd58ca7f9879013ef3f44ddaa7373986042f8ebc0f534198158edd557a0843",
+    "response_sha256": "dbc989881df0a9c82caf37eb47ca1b2c19ac5e862a1850e96903c0253b2d0c7a",
     "bytes": "release",
     "claims": [
      "captured",
@@ -138,7 +167,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003129id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf#page=79",
+    "timestamp": "20261031003129",
+    "digest": "SSGIRWJUSOFPLBNMOSMQ63IJQXUTQHON",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -156,13 +194,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1054,
-    "captured_at": "2026-10-31T00:06:00.466Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1056,
+    "captured_at": "2026-10-31T12:03:16.168Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
-    "response_sha256": "6cfd45c1d8f583382f88b96b840025f6e54e3da98713a66d6815c2f30782a965",
+    "response_sha256": "17341293448eddd890af554a0b63b7439376a1ea7673b645278c4f49525a2fcb",
     "bytes": "release",
     "claims": [
      "captured",
@@ -171,7 +209,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003208id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=80",
+    "timestamp": "20261031003208",
+    "digest": "TAINMJHFCQQWVJUZKPDSD7XJMR3AK3NH",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -189,13 +236,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1056,
-    "captured_at": "2026-10-31T00:06:00.466Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1058,
+    "captured_at": "2026-10-31T12:03:16.168Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
-    "response_sha256": "6cfd45c1d8f583382f88b96b840025f6e54e3da98713a66d6815c2f30782a965",
+    "response_sha256": "17341293448eddd890af554a0b63b7439376a1ea7673b645278c4f49525a2fcb",
     "bytes": "release",
     "claims": [
      "captured",
@@ -204,7 +251,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003208id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=83",
+    "timestamp": "20261031003208",
+    "digest": "TAINMJHFCQQWVJUZKPDSD7XJMR3AK3NH",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -222,13 +278,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1057,
-    "captured_at": "2026-10-31T00:06:00.466Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1059,
+    "captured_at": "2026-10-31T12:03:16.168Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf",
-    "response_sha256": "6cfd45c1d8f583382f88b96b840025f6e54e3da98713a66d6815c2f30782a965",
+    "response_sha256": "17341293448eddd890af554a0b63b7439376a1ea7673b645278c4f49525a2fcb",
     "bytes": "release",
     "claims": [
      "captured",
@@ -237,7 +293,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003208id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-369.pdf#page=87",
+    "timestamp": "20261031003208",
+    "digest": "TAINMJHFCQQWVJUZKPDSD7XJMR3AK3NH",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -255,13 +320,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1058,
-    "captured_at": "2026-10-31T00:06:02.322Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1060,
+    "captured_at": "2026-10-31T12:03:18.096Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-575.pdf",
-    "response_sha256": "7136938136c1b93434f8feb86556351f923344f5be9c0e2ceda9140e30c6c27f",
+    "response_sha256": "fe9e123cd154b3955afe81fe75ab1a289fed1f78d44711d3019e2494dd5708da",
     "bytes": "release",
     "claims": [
      "captured",
@@ -270,7 +335,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003230id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-575.pdf#page=84",
+    "timestamp": "20261031003230",
+    "digest": "FNHC3YTQO7745S3H7MBBYPDVZQK3I4BZ",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -288,13 +362,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1060,
-    "captured_at": "2026-10-31T00:06:06.090Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1062,
+    "captured_at": "2026-10-31T12:03:21.997Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-603.pdf",
-    "response_sha256": "7b1159c38c0ef6792244c30d23465514dff63ab7ba6af4d0a15384d00be0ed6f",
+    "response_sha256": "c677689f79e01af19a0b30138e5410ff6be6bff9fd843cef5b4db24adf7bf620",
     "bytes": "release",
     "claims": [
      "captured",
@@ -303,7 +377,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003307id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-603.pdf#page=80",
+    "timestamp": "20261031003307",
+    "digest": "7MJAOHN4DFUQWT3TXFLGAHPWLC5OPHGR",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://localnewsmatters.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "localnewsmatters.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 366,
-    "captured_at": "2026-10-31T00:04:07.722Z",
+    "captured_at": "2026-10-31T12:01:22.861Z",
     "status": 200,
     "error": null,
     "final_url": "https://localnewsmatters.org/2026/10/22/regional-transit-measure-bay-area/",
-    "response_sha256": "9aa448b35417881ce87eeccdcb7f00c6a92e603d23392cc7d979d0e912bfb0fb",
+    "response_sha256": "77518b007fe8cb5127478f2b1b5b3e5c61cd41b55fa01219009efc100045c6a3",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030225050id_/https://localnewsmatters.org/2026/10/22/regional-transit-measure-bay-area/",
+    "timestamp": "20261030225050",
+    "digest": "PCLUG4HIKEDO2CKSGDAHL34KYETD6K4R"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

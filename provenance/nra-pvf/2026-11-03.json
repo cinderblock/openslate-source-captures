@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.nrapvf.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "nrapvf.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 886,
-    "captured_at": "2026-10-31T00:05:37.166Z",
+    "captured_at": "2026-10-31T12:02:51.209Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.nrapvf.org/grades/california/",
-    "response_sha256": "c365df29551ac300030cffd9e0d921ae268781e4e532ab6a7ddd4a6e00f1aa44",
+    "response_sha256": "b7bfc3ecd032bb0a8df5fc213054dcc73150c468e9729a613d294db2bf474f2a",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021015151id_/https://www.nrapvf.org/grades/california/",
+    "timestamp": "20261021015151",
+    "digest": "JHILCHIURY3UIVBKH2KQACUUYWUMKORG",
+    "origin": "existing",
+    "statements": {
+     "found": 34,
+     "of": 34
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.svyd.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "svyd.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1111,
-    "captured_at": "2026-10-31T00:06:03.526Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1114,
+    "captured_at": "2026-10-31T12:03:18.730Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.svyd.org/2026-general-endorsements",
-    "response_sha256": "a1b902390bd85dc9526c15e2c5b36d2e4061e746bfeab04a3eedae18ae6b8b46",
+    "response_sha256": "1d28a220f9022dde664782a0c45cb30184e23a390afc81facfbb0bed106f6764",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031129id_/https://www.svyd.org/2026-general-endorsements",
+    "timestamp": "20261031031129",
+    "digest": "C3NJCQUV3ZWJJIPGAB7WMLOUHIZ4VKFN",
+    "origin": "requested",
+    "statements": {
+     "found": 6,
+     "of": 6
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

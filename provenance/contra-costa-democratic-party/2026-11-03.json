@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://contracostadems.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "contracostadems.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 81,
-    "captured_at": "2026-10-31T00:03:48.111Z",
+    "captured_at": "2026-10-31T12:01:04.836Z",
     "status": 200,
     "error": null,
     "final_url": "https://contracostadems.com/",
-    "response_sha256": "e8b54cf19f61471d9e4f26b83b970e22f76a93f047e6c232f898b045f2bbbed1",
+    "response_sha256": "b80a7243998dfbf869d239c1465008951d04042bf08e053b56f8d8d416a1f942",
     "bytes": "public",
     "claims": [
      "captured",

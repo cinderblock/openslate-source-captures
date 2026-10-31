@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.alicebtoklas.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,18 +26,19 @@
     "org_host": "alicebtoklas.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 790,
-    "captured_at": "2026-10-31T00:05:07.135Z",
+    "captured_at": "2026-10-31T12:02:22.227Z",
     "status": 200,
     "error": null,
     "final_url": "https://alicebtoklas.org/2026endorsements",
-    "response_sha256": "7861dd63137eeb029ebcd0765fab95936c43f6022244834f21c17f49e49ea0de",
+    "response_sha256": "ddf6a225b5d6adf2660bf2e0fcc97865f9e6baba23d8de4fbd1ccc6bd0a48838",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
@@ -43,7 +46,11 @@
     "url": "https://web.archive.org/web/20261017033358id_/https://www.alicebtoklas.org/2026endorsements",
     "timestamp": "20261017033358",
     "digest": "GWYCKSHE7LWJXV4YP74NCITDYJXF5MDN",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 8,
+     "of": 8
+    }
    },
    "derivation": {
     "kind": "anchored",

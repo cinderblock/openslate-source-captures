@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1052,
-    "captured_at": "2026-10-31T00:05:56.570Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1054,
+    "captured_at": "2026-10-31T12:03:12.347Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf",
-    "response_sha256": "9dbd58ca7f9879013ef3f44ddaa7373986042f8ebc0f534198158edd557a0843",
+    "response_sha256": "dbc989881df0a9c82caf37eb47ca1b2c19ac5e862a1850e96903c0253b2d0c7a",
     "bytes": "release",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003129id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf#page=79",
+    "timestamp": "20261031003129",
+    "digest": "SSGIRWJUSOFPLBNMOSMQ63IJQXUTQHON",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

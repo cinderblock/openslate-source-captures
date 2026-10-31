@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.smdailyjournal.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "smdailyjournal.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1096,
-    "captured_at": "2026-10-31T00:05:58.707Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1099,
+    "captured_at": "2026-10-31T12:03:13.463Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smdailyjournal.com/opinion/editorials/daily-journal-endorsements-for-the-san-mateo-county-november-election/article_9e726e39-e27e-4b9b-ba42-5addaf7dab5b.html",
-    "response_sha256": "db1c7c88caf3c2861063448d759e4c66bf3509aedeadebf4d6f0b72eafe1ac90",
+    "response_sha256": "1e3df3288ff56c46ec850487bac09f24f25d7d1af7f2bb609d616ddc753eec23",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023103233id_/https://www.smdailyjournal.com/opinion/editorials/daily-journal-endorsements-for-the-san-mateo-county-november-election/article_9e726e39-e27e-4b9b-ba42-5addaf7dab5b.html",
+    "timestamp": "20261023103233",
+    "digest": "MLIF3MZ2VJ7UURIZEW7SDWGUPATKTKGY",
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 60
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -58,13 +69,13 @@
     "org_host": "smdailyjournal.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1097,
-    "captured_at": "2026-10-31T00:06:00.482Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1100,
+    "captured_at": "2026-10-31T12:03:15.168Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html",
-    "response_sha256": "dd2fccd9134cf75e9d58b6a6a2efc72d45ed7872349554e628c3a663291819fa",
+    "response_sha256": "bc61242246760c095a1a3ce9efdc40d13c181e7069b3fcc86e1f238dda97d9e3",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -73,7 +84,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261014225736id_/https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html",
+    "timestamp": "20261014225736",
+    "digest": "GG3NCNSFPR3HP3BTIFWCFZ7MACVYEI6F",
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 3
+    }
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -92,13 +112,13 @@
     "org_host": "smdailyjournal.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1098,
-    "captured_at": "2026-10-31T00:06:02.125Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1101,
+    "captured_at": "2026-10-31T12:03:16.829Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measure-y/article_8a857ee4-5e2f-4bf7-920a-f92d09e47fcb.html",
-    "response_sha256": "0532335baf79e64e4ee8fc2b12f407d90874b331bf3e1063ac1ed2d7b2757a17",
+    "response_sha256": "a6f281f2ca65dcef49639541204a617ab3c1e440d9f4ac118a7c5438c60b0278",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -126,13 +146,13 @@
     "org_host": "smdailyjournal.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1099,
-    "captured_at": "2026-10-31T00:06:03.820Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1102,
+    "captured_at": "2026-10-31T12:03:18.426Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measures-j-and-u-no-on-measures-l-and-aa/article_3df72153-8634-48dc-9781-ceecbd5c72e8.html",
-    "response_sha256": "76b7813007e2d097eda65bc63b8e5c8de2c3dfcd9fe63e7402a43d33825b47cb",
+    "response_sha256": "23a9306c24b799784090b65da25689e5c07b3218c76f9a2e877e90634c1d9b5f",
     "bytes": "withheld",
     "claims": [
      "captured",

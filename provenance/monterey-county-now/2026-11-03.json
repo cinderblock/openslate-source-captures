@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.montereycountynow.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "montereycountynow.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 877,
-    "captured_at": "2026-10-31T00:05:34.027Z",
+    "captured_at": "2026-10-31T12:02:48.787Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.montereycountynow.com/archives/2026/1015/our-editorial-board-s-guide-to-nov-3-elections/article_86f13834-8400-4469-aeb7-cfd0e6cac6a5.html",
-    "response_sha256": "46bcd9d9b64edf6bd1a63795babec813b945064f9e90cf86e566adf118c89b85",
+    "response_sha256": "e2aa5cb79a67291e1ccf8ce1e9a5692944f921eb92d0a7027440431646cc95e0",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261024022201id_/https://www.montereycountynow.com/archives/2026/1015/our-editorial-board-s-guide-to-nov-3-elections/article_86f13834-8400-4469-aeb7-cfd0e6cac6a5.html",
+    "timestamp": "20261024022201",
+    "digest": "7GU56AE3P2FHLMPKRADKDKYA6RN44DAA",
+    "origin": "existing",
+    "statements": {
+     "found": 46,
+     "of": 63
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 46,

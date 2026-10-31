@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.pressdemocrat.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "pressdemocrat.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 896,
-    "captured_at": "2026-10-31T00:05:39.730Z",
+    "captured_at": "2026-10-31T12:02:54.629Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.pressdemocrat.com/2026/10/12/endorsements-press-democrat-recommendations-for-nov-3-election/",
-    "response_sha256": "22eee3f6a54afe8954cae2157bf86497490ddf818f8ad5fa6051270fecd22ad9",
+    "response_sha256": "9bc7c86b9abac6790fbc95b66f8144a01aea806d67bee87ca1fdb03a66fd71ff",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261018163637id_/https://www.pressdemocrat.com/2026/10/12/endorsements-press-democrat-recommendations-for-nov-3-election/",
+    "timestamp": "20261018163637",
+    "digest": "K3UBSUMIVHIF7LLS7T6HBYS57FGZHKKD",
+    "origin": "existing",
+    "statements": {
+     "found": 36,
+     "of": 37
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 33,
@@ -57,22 +68,32 @@
     "org_host": "pressdemocrat.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 895,
-    "captured_at": "2026-10-31T00:05:38.102Z",
+    "captured_at": "2026-10-31T12:02:52.744Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.pressdemocrat.com/2026/09/22/endorsement-herrod-lopez-are-best-choices-for-healdsburgs-future/",
-    "response_sha256": "efe4a2dbc0a7ef8b0d1b3a656288a6a707efd4093aeab351f4689b3709c3fa94",
+    "response_sha256": "4214fc3193f7a433db3c31b239df335702d29260470711548a17134c028960ac",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260923194002id_/https://www.pressdemocrat.com/2026/09/22/endorsement-herrod-lopez-are-best-choices-for-healdsburgs-future/",
+    "timestamp": "20260923194002",
+    "digest": "ZZ5RLL5TSDR4YMQ26U3PKABJASUPGE25",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -90,22 +111,32 @@
     "org_host": "pressdemocrat.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 897,
-    "captured_at": "2026-10-31T00:05:41.288Z",
+    "captured_at": "2026-10-31T12:02:56.203Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.pressdemocrat.com/2026/10/13/endorsement-fortino-dickson-potter-for-windsor-town-council/",
-    "response_sha256": "c26895bd915918e8f587f6d1a0ea881c1d3654d0eb84ea3dc6587ea14cc20f50",
+    "response_sha256": "53190713d18bbeaca45313ef8516cfca116b3d37944336a31f136b8fefd993e6",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261025040823id_/https://www.pressdemocrat.com/2026/10/13/endorsement-fortino-dickson-potter-for-windsor-town-council/",
+    "timestamp": "20261025040823",
+    "digest": "NWSSJMDEIQV6UWYSJPHSM5C5C3J4KOGE",
+    "origin": "existing",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,
@@ -123,22 +154,32 @@
     "org_host": "pressdemocrat.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 898,
-    "captured_at": "2026-10-31T00:05:42.852Z",
+    "captured_at": "2026-10-31T12:02:58.172Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.pressdemocrat.com/2026/10/13/endorsement-yes-on-measure-j-windsors-students-deserve-safe-classrooms/",
-    "response_sha256": "c4f515371769af01ea17b24a2ed5d046db9f8726f14de6d66a76f65cdbfc27fc",
+    "response_sha256": "73fad78f05748ec1b4ce8d1630d38230131339dd4075ca48fca03b6a9a6773da",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261014094456id_/https://www.pressdemocrat.com/2026/10/13/endorsement-yes-on-measure-j-windsors-students-deserve-safe-classrooms/",
+    "timestamp": "20261014094456",
+    "digest": "ZUSSLI3IW4BKYT3O533KL47CG6AG5YUB",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -156,22 +197,32 @@
     "org_host": "pressdemocrat.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 899,
-    "captured_at": "2026-10-31T00:05:44.412Z",
+    "captured_at": "2026-10-31T12:02:59.745Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.pressdemocrat.com/2026/10/14/endorsement-props-1-and-38-would-only-bring-more-debt-for-california/",
-    "response_sha256": "2ca9f5f01b28e6ade1292832df0b0d5a40c1f4370d84dcec1e3a2c548ff394e7",
+    "response_sha256": "473e87587faa6895b0b98b2ea817882f012fe8d3b191b96f6237e1eea70a9cf5",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261018061712id_/https://www.pressdemocrat.com/2026/10/14/endorsement-props-1-and-38-would-only-bring-more-debt-for-california/",
+    "timestamp": "20261018061712",
+    "digest": "K3I3BU3LCSSY4LOFURYU6UKKHUOZGFWU",
+    "origin": "existing",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,
@@ -189,13 +240,13 @@
     "org_host": "pressdemocrat.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 900,
-    "captured_at": "2026-10-31T00:05:45.971Z",
+    "captured_at": "2026-10-31T12:03:01.548Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.pressdemocrat.com/opinion/editorials/",
-    "response_sha256": "adb053294a75f620cd5496aa4f467e5f1381af08debb39cfb2c7e4b6d05cea79",
+    "response_sha256": "9152ec03b1f2ff54bd96b78b5fe5c1fa46cb7d025fd836786f2d7f91f045bbe8",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -204,7 +255,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261018163559id_/https://www.pressdemocrat.com/opinion/editorials/",
+    "timestamp": "20261018163559",
+    "digest": "6N7U64VNBRUAHPHZLTMMQ52GSKTN76C7",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

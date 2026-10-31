@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://cbia.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 74,
-    "captured_at": "2026-10-31T00:03:47.210Z",
+    "captured_at": "2026-10-31T12:01:03.682Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/",
-    "response_sha256": "3b9a1437ae48f31f9659c042b22a46dc9bbe07ac16ebc7f836da7f58c7b16698",
+    "response_sha256": "53f3e01fdd2aa7d9f58f2269188bc92be28911033b4dd00630020a16e1ef1a61",
     "bytes": "public",
     "claims": [
      "captured",
@@ -65,13 +67,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 75,
-    "captured_at": "2026-10-31T00:03:48.825Z",
+    "captured_at": "2026-10-31T12:01:05.303Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
-    "response_sha256": "87e34e2e55e6bb6e5458c13adab5eac215aec43dbc54e181016d0f3fbcdcd022",
+    "response_sha256": "88aabbd78cbf1f8d9fa5e8574f4190f7e22d4dc16fb8473a94ae8436bf382cc7",
     "bytes": "public",
     "claims": [
      "captured",

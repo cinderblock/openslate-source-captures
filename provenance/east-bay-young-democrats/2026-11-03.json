@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.ebyd.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "ebyd.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 837,
-    "captured_at": "2026-10-31T00:05:22.234Z",
+    "captured_at": "2026-10-31T12:02:36.608Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ebyd.org/endorsements",
-    "response_sha256": "84f2555ea91e4906bb801f61e94f5f57e138529961b21c376d002769c7db8dc4",
+    "response_sha256": "88d2fb0a04b8fe3ee25327f5c7413169eb7870ac771189f76fd91bd8abd6ffe5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030084412id_/https://www.ebyd.org/endorsements",
+    "timestamp": "20261030084412",
+    "digest": "Y26R3X7H4L5M3D3H56H2LRY7OG5FKNNV",
+    "origin": "existing",
+    "statements": {
+     "found": 24,
+     "of": 47
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 24,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://vote.santaclaracounty.gov/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 187,
-    "captured_at": "2026-10-31T00:03:57.820Z",
+    "captured_at": "2026-10-31T12:01:14.128Z",
     "status": 403,
     "error": null,
     "final_url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
-    "response_sha256": "9c2842afa8a0b90a74abeb9ed84bf5a058a07ac68bbbac127a495d61281b897a",
+    "response_sha256": "c860b3c2c87a0aed852c1f24b91a2a01ecbfa3e4fc1872aa4f61d62db9d248e9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,13 +41,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
-    "index": 7,
-    "captured_at": "2026-10-30T17:31:14.396Z",
+    "run": "2026-10-31T0024Z",
+    "index": 9,
+    "captured_at": "2026-10-31T00:24:56.657Z",
     "status": 200,
     "error": null,
     "final_url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
-    "response_sha256": "a3fa95b03c3c5854b3d5f82f57608c7da2ff764e11abe938fce2da85470fc9ce",
+    "response_sha256": "23187768d3b8fd57845e9ce86ffcf4d7b721443f8de4e9c6c26a0c1ae30e1702",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 50,
-    "captured_at": "2026-10-31T00:04:01.379Z",
+    "captured_at": "2026-10-31T12:01:17.359Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
-    "response_sha256": "bc0048765252a95e4a87223a774298db9bf95914585e875b34f58fa22d042947",
+    "response_sha256": "9fb6993607a2752cfee880507329e61edaec76534b1ee76c22317b64323bbd22",
     "bytes": "public",
     "claims": [
      "captured",

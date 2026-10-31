@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/DWSCLB",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 38,
-    "captured_at": "2026-10-31T00:03:44.177Z",
+    "captured_at": "2026-10-31T12:00:59.916Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "c1cdff231df11b7899eebac2c04e59947c0ae37bff8c5a44a6ffe85f4c38d5bd",
+    "response_sha256": "9b68450d4cb4c5899facc7224172993886bd086398f722b1f8cee35150019176",
     "bytes": "public",
     "claims": [
      "captured",
@@ -66,13 +68,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 840,
-    "captured_at": "2026-10-31T00:05:23.530Z",
+    "captured_at": "2026-10-31T12:02:38.753Z",
     "status": 200,
     "error": null,
-    "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FDWSCLB%2Fposts%2Fpfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "1780b3983a8b9789270e10652619e3c94332a6a993b7496cab87b39b22d421be",
+    "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
+    "response_sha256": "9d49fa3ffb4e9873c5119c303a64bf1349f93e0ee0ffa21e9d4eeccb626953dc",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -81,11 +83,16 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "c2fbbac6d974738a96d23a16eab47313249dea437fd2580f2beb18f4a9e7e4d2"
+     "dom_sha256": "7b2b0f687f7f3868a3f48b203cb6448ba8cb3d4920be6f9be6eb3298241de529"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021165508id_/https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
+    "timestamp": "20261021165508",
+    "digest": "N5MZWA6K7I4T3O6N4WIPCUNF7RGTOURU",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

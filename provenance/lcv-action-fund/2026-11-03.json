@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.lcv.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "lcv.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 868,
-    "captured_at": "2026-10-31T00:05:31.512Z",
+    "captured_at": "2026-10-31T12:02:46.568Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lcv.org/endorsements/?state=california&cycle=2026&result_page=2",
-    "response_sha256": "aac3164eb6dd8c2b25a13afad27f12fcb5daa2075a0cb915b3c10481d50175f9",
+    "response_sha256": "ae48fbfd2f0f6cbf8fa2c5dd2650f972cf47823b1775bd81a7b2f04fb0fd5741",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002222id_/https://www.lcv.org/endorsements/?state=california&cycle=2026&result_page=2",
+    "timestamp": "20261031002222",
+    "digest": "IZIQ7WLWOR6XGOGAAGXGD33LHKD2FYIN",
+    "origin": "requested",
+    "statements": {
+     "found": 27,
+     "of": 27
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

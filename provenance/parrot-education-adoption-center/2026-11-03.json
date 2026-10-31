@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1059,
-    "captured_at": "2026-10-31T00:06:04.140Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1061,
+    "captured_at": "2026-10-31T12:03:19.988Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf",
-    "response_sha256": "15e242eb65aca04c3268df48c4bef987ca4d84d03e7ef79c9cb815d46878cb1f",
+    "response_sha256": "a961ae8c8c2e23ad89e09927d9b115e757ad8cedab9b9e299d854a3d206cd253",
     "bytes": "release",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003240id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf#page=81",
+    "timestamp": "20261031003240",
+    "digest": "CMTGAFV3K5V2BJNXANIIH73L7EMBZZDD",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

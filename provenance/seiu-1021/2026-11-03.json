@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.seiu1021.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "seiu1021.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1063,
-    "captured_at": "2026-10-31T00:05:50.174Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1065,
+    "captured_at": "2026-10-31T12:03:04.843Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.seiu1021.org/post/election-endorsements-nov-3-2026",
-    "response_sha256": "40c95007abaec8cb4327b531d7c362a993e055d77ea7cec2933caaad37e46f7b",
+    "response_sha256": "cadb4022b71017e0cc58bb398d8680343a380814db32a4e542f9e87adfd5f15e",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031004629id_/https://www.seiu1021.org/post/election-endorsements-nov-3-2026",
+    "timestamp": "20261031004629",
+    "digest": "HX52X7HXDFQWLJ62ETZUVOACWDNZ6EUH",
+    "origin": "requested",
+    "statements": {
+     "found": 43,
+     "of": 43
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 36,

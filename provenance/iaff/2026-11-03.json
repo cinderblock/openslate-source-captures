@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.iaff.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 84,
-    "captured_at": "2026-10-31T00:03:49.378Z",
+    "captured_at": "2026-10-31T12:01:05.391Z",
     "status": 200,
     "error": null,
     "final_url": "https://cpfelectionguide.org/",
-    "response_sha256": "03a6396104c1949b0cd52f7a0da10f86a3ec8b80979fe1a39fa4d84c9583e009",
+    "response_sha256": "e8a5c6b1c43326454aacd767c7b711e0980c4071725e537f7efa0d069c02dc4c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -66,13 +68,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 875,
-    "captured_at": "2026-10-31T00:05:33.510Z",
+    "captured_at": "2026-10-31T12:02:48.782Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
-    "response_sha256": "5cac37e680e5ddc0ca8dde2cc7cbdbf76bb0f62f6727b6e5bea0522025766586",
+    "response_sha256": "d13ee98cbfa3f33c9d881b4437e4643e22843b2a2c66a19c2112cb98f420a65d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,7 +83,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260922055619id_/https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
+    "timestamp": "20260922055619",
+    "digest": "36MCLXGYJBKBSBF3H2HNJQEXQMMLNBZO",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -99,13 +106,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 850,
-    "captured_at": "2026-10-31T00:05:27.271Z",
+    "captured_at": "2026-10-31T12:02:42.366Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.iaff.org/political-action/endorsements/",
-    "response_sha256": "39d2e0f88f7e2c09ef40891a3f44fe75bf03c3c2933ab615adb6379ae242b17f",
+    "response_sha256": "dbc14c73e56a4fff0c1f57623ee41f87f19cb9ced29bde7fec077f0fec040607",
     "bytes": "public",
     "claims": [
      "captured",
@@ -114,7 +121,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031032808id_/https://www.iaff.org/political-action/endorsements/",
+    "timestamp": "20261031032808",
+    "digest": "T5P7NMCLNG62ITWGYYEYZ5WMGP4CRMJC",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

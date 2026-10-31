@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1045,
-    "captured_at": "2026-10-31T00:05:51.110Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1047,
+    "captured_at": "2026-10-31T12:03:06.305Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf",
-    "response_sha256": "d8a8fa95db025aa32b92165822148e29eca8594e3a366ac0b7b38501ed723eb1",
+    "response_sha256": "66e993d767810e513dfd938f339974fd4d077526b4c523dca3e664b2e8a146d4",
     "bytes": "release",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003026id_/https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-155.pdf#page=57",
+    "timestamp": "20261031003026",
+    "digest": "2TTQJY6LCY7MDEZL6A6GW74HTEDWX3DU",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 3
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

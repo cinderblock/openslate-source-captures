@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.venturacountydemocrats.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "venturacountydemocrats.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1133,
-    "captured_at": "2026-10-31T00:06:07.083Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1140,
+    "captured_at": "2026-10-31T12:03:21.907Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.venturacountydemocrats.com/endorsements/",
-    "response_sha256": "b74d3b74a36fcb59087e04af6e618890930621a0d08831c6622c02f32399f87e",
+    "response_sha256": "cdb14714a5b5f8f641aa92b637f36744a7c10de6c1b618492bd388889e2c9d8b",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031241id_/https://www.venturacountydemocrats.com/endorsements/",
+    "timestamp": "20261031031241",
+    "digest": "IK6I5LNUZBLHLCBWR6X5M3ZG77UKVNNY",
+    "origin": "requested",
+    "statements": {
+     "found": 66,
+     "of": 66
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 66,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sanbernardinodemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sanbernardinodemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1027,
-    "captured_at": "2026-10-31T00:05:44.561Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1029,
+    "captured_at": "2026-10-31T12:03:00.064Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sanbernardinodemocrats.org/endorsements-nov-2026/",
-    "response_sha256": "6a80250064b06a67f6113afb1f52653ade30c275c44e315bf84eeb4766c9569c",
+    "response_sha256": "818a3cbd03b295a76ccc3d2c5aacecc168fca0c89a18272baf7e046656f2feb7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003706id_/https://www.sanbernardinodemocrats.org/endorsements-nov-2026/",
+    "timestamp": "20261031003706",
+    "digest": "X5ZYFSEEKHPJLILCHY52JRFSUQ3HNOYZ",
+    "origin": "requested",
+    "statements": {
+     "found": 34,
+     "of": 51
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 33,

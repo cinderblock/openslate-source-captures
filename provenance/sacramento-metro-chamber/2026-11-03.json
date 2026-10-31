@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.metrochamber.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "metrochamber.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 153,
-    "captured_at": "2026-10-31T00:03:53.119Z",
+    "captured_at": "2026-10-31T12:01:09.964Z",
     "status": 200,
     "error": null,
     "final_url": "https://edge.growthzonecms.com/sites/2034/2026/09/PAC_26-Comprehensive-Primary_Voter-Guide_FINAL.pdf",
-    "response_sha256": "3403dc5a81a9d656f7fd9f233c6b26fc598dfb2ae1688a4a14980b5c72b91f81",
+    "response_sha256": "594bee95292474763092095a1b4dfc13887bdb91b3780650f6d1abc5d3634d54",
     "bytes": "public",
     "claims": [
      "captured",
@@ -67,13 +69,13 @@
     "org_host": "metrochamber.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 874,
-    "captured_at": "2026-10-31T00:05:33.300Z",
+    "captured_at": "2026-10-31T12:02:48.776Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.metrochamber.org/",
-    "response_sha256": "dfe00c5ae8aedda42146d63ec74004087e2e7bac859e4ee2b703ddcbf2643248",
+    "response_sha256": "83a10ad604a84bad5e2d55d80f068a6f8cdec29c8f9ae7b4ced0dacfe54c6be1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -82,7 +84,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261017055535id_/https://www.metrochamber.org/",
+    "timestamp": "20261017055535",
+    "digest": "E5M4T2JPFPI4U4INWBZJZZHOTQOL6SQW",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.homesharersdemclub.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "homesharersdemclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 846,
-    "captured_at": "2026-10-31T00:05:25.968Z",
+    "captured_at": "2026-10-31T12:02:41.844Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.homesharersdemclub.org/2026/10/hsdc-endorsements-november-3-2026/",
-    "response_sha256": "b191f20b8d2e0bf2838b5b12c4ccfc6821586eb2c6245c301fca509f6a52d839",
+    "response_sha256": "4adf904f4d46335ee8b1cb220966301fe30668a184c886093c92d568a28eaef8",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002024id_/https://www.homesharersdemclub.org/2026/10/hsdc-endorsements-november-3-2026/",
+    "timestamp": "20261031002024",
+    "digest": "AVHGQW33AUABOJ64WSJNZEPM5A4AU7UW",
+    "origin": "requested",
+    "statements": {
+     "found": 49,
+     "of": 49
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 42,

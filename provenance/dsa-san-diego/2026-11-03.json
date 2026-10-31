@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://dsasandiego.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "dsasandiego.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 834,
-    "captured_at": "2026-10-31T00:05:20.455Z",
+    "captured_at": "2026-10-31T12:02:35.925Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dsasandiego.org/november-2026-voter-guide",
-    "response_sha256": "db09cf2c59e67173aa3294975c9420b19f670d8bb49cca44ad64a4e19cf0f617",
+    "response_sha256": "0eedadbf78f16d14d5e99d5873a23bae9e004fc83451aa7ef965bb8cd58c3041",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261017042600id_/https://www.dsasandiego.org/november-2026-voter-guide",
+    "timestamp": "20261017042600",
+    "digest": "KY5WDOY2UIDBHQ7TWWIBBE3TASZ6L46N",
+    "origin": "existing",
+    "statements": {
+     "found": 45,
+     "of": 45
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 44,
@@ -57,22 +69,32 @@
     "org_host": "dsasandiego.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 833,
-    "captured_at": "2026-10-31T00:05:18.371Z",
+    "captured_at": "2026-10-31T12:02:33.785Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dsasandiego.org/endorsements",
-    "response_sha256": "278f2cbb63f9e6416e77843a5ec3cb51701e5b6c58fd9001d9320734940ba545",
+    "response_sha256": "0c97b1e2104a5de4fe84f05d75d31fcbfa2d432e5dc22f9615bc8ddf9abf6ba0",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261017045027id_/https://www.dsasandiego.org/endorsements",
+    "timestamp": "20261017045027",
+    "digest": "EDVZMU5Y3QSB3DD4UUSCDQWMNIFYQSAG",
+    "origin": "existing",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,

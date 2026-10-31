@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.mercurynews.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "mercurynews.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 872,
-    "captured_at": "2026-10-31T00:05:32.970Z",
+    "captured_at": "2026-10-31T12:02:47.916Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.mercurynews.com/",
-    "response_sha256": "a33903dcbec2072e1f637135a261774fe2f53162c665c9bfe351176453914e6b",
+    "response_sha256": "fa797e96e95b74dbd3719dff333326c70c38376c373d796dd7e9e0811b777471",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261029152504id_/https://www.mercurynews.com/",
+    "timestamp": "20261029152504",
+    "digest": "F6SXUM5SXOPKUQPSBXDIIVAHNO4AKF3O",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

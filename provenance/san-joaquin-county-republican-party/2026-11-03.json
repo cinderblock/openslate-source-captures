@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.sjgop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1094,
-    "captured_at": "2026-10-31T00:05:58.315Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1097,
+    "captured_at": "2026-10-31T12:03:12.991Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sjgop.org/endorsements",
-    "response_sha256": "dcd1d2dbe67bfa4aeb761f5d9ea0adff1eea0c3d13f30c7698b26315c87f5830",
+    "response_sha256": "083007d187aac242930c76ffaf20c6165027543536cad8e6526afc49cdc3a84e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,17 +41,808 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "590e3d28a74d64c607c438fbeb9ff2a151a15d0bead6d3b36e37c7d925b8000f"
+     "dom_sha256": "c86b75e3f0f47dd72433bf29a1d23819bf2b73b9be8ea3bd7adaf4f35508b73d"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031101857id_/https://www.sjgop.org/endorsements",
+    "timestamp": "20261031101857",
+    "digest": "QRLRJZVALOU6JCANQLCKCQEO6SFPATZL",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 23
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
     "quoted_parts": 0,
     "unanchored": 23,
     "no_statement": 0
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_1bd827b9d0be4905b1ceec6b71227d33~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 600,
+    "captured_at": "2026-10-31T12:02:19.646Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_1bd827b9d0be4905b1ceec6b71227d33~mv2.png",
+    "response_sha256": "dcf6ef170ccb6855563fa97367aa8640c72301644ee9f2b754ef579ef564bbaf",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_1cbdf10a2ae64bdab0a6bd430b917568~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 601,
+    "captured_at": "2026-10-31T12:02:21.307Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_1cbdf10a2ae64bdab0a6bd430b917568~mv2.png",
+    "response_sha256": "091db5631060da23fd6dc7194c5732f9d66591f38101f0e300fc749ebc741ae6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_2c76a849eb7148beb0ca2fc0f6310e1c~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 602,
+    "captured_at": "2026-10-31T12:02:22.935Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_2c76a849eb7148beb0ca2fc0f6310e1c~mv2.png",
+    "response_sha256": "b6abbedc29efba6cea379c2b9e3d12a961937f18fb0cdc1cbbc433739861d421",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_314010f01a9c47ac822495e6590fab86~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 603,
+    "captured_at": "2026-10-31T12:02:24.543Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_314010f01a9c47ac822495e6590fab86~mv2.png",
+    "response_sha256": "5cd5e6e3baa9c502f70458734ad30c673afe9915e873f3d0f3b2188699eb3690",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_4b8f8fe58ed5460c8b80c7f12b59a66b~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 604,
+    "captured_at": "2026-10-31T12:02:26.183Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_4b8f8fe58ed5460c8b80c7f12b59a66b~mv2.png",
+    "response_sha256": "a0749499305fa54810b519e7d173e3e4c14015f9a7cdd20b9f539e526e98987b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_4fbe061e9ba04f6587bfd4a99e4ff9d6~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 605,
+    "captured_at": "2026-10-31T12:02:27.815Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_4fbe061e9ba04f6587bfd4a99e4ff9d6~mv2.png",
+    "response_sha256": "322106540b6180431a70d1442da2c6c17b5b7f2488e155624f016a0b9e40a73d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_53e941e6ddcc4b27a19098c9045e994b~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 606,
+    "captured_at": "2026-10-31T12:02:29.417Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_53e941e6ddcc4b27a19098c9045e994b~mv2.png",
+    "response_sha256": "5fdce87fd327df43518ebe5d12fb7f222f68dba05b7a0b1a328cee0db1b11bb3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_76406639f05942fba49b365132b30a05~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 607,
+    "captured_at": "2026-10-31T12:02:31.235Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_76406639f05942fba49b365132b30a05~mv2.png",
+    "response_sha256": "dd690cce969b45ceeb3171066aac31d8dc12b9020c1440c5996b64016a5a2677",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_76407815c9df42e3acca84317b78501a~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 608,
+    "captured_at": "2026-10-31T12:02:32.873Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_76407815c9df42e3acca84317b78501a~mv2.png",
+    "response_sha256": "c1682abf05954baf2a99962fad55182809e35431b3d30c5ca71aaec516fd97b2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_8a933021a63e4c1694bacbf89c02c5bf~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 609,
+    "captured_at": "2026-10-31T12:02:34.504Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_8a933021a63e4c1694bacbf89c02c5bf~mv2.png",
+    "response_sha256": "7303f88275342a743a6e94ca427f12ef88cecd0d91b1f0f9b3e7e0da097a4cd2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_9b35a9771db34b85bc3c7d4786312750~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 610,
+    "captured_at": "2026-10-31T12:02:36.110Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_9b35a9771db34b85bc3c7d4786312750~mv2.png",
+    "response_sha256": "7a9b6ecc10b8fe1a2f7eda1769f7c37083a77267e8faaf55437ee631bf9adbad",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_9b410ea453d9472ea5c058851b043a3b~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 611,
+    "captured_at": "2026-10-31T12:02:37.730Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_9b410ea453d9472ea5c058851b043a3b~mv2.png",
+    "response_sha256": "76722fe2ce2e000430baaf4526b58b909574aa12b05c2ad491a47c67880df338",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_b550fbf5a4a44e30af204ad07cf08c9b~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 612,
+    "captured_at": "2026-10-31T12:02:39.368Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_b550fbf5a4a44e30af204ad07cf08c9b~mv2.png",
+    "response_sha256": "410f0a101fcef957921c0d9ca4d17b8a36f6623db6149ee7d4c9b2f49da6971c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_c3b18a983fc14a57a2567b3ebcc337c7~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 613,
+    "captured_at": "2026-10-31T12:02:41.005Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_c3b18a983fc14a57a2567b3ebcc337c7~mv2.png",
+    "response_sha256": "b4d956630f61acab247fb04926ba50b01ac4efa0d16bf1454dd062a2d8646045",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_cbf04195531043fba1fa0f88a79c42c7~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 614,
+    "captured_at": "2026-10-31T12:02:42.602Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_cbf04195531043fba1fa0f88a79c42c7~mv2.png",
+    "response_sha256": "c9a973a2de72bbe658f0ab20a0a2f90890a50cf2f3684b4bac6a1c4e14f19152",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_d3868e133e5f40ada85aceea5e48b0a8~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 615,
+    "captured_at": "2026-10-31T12:02:44.231Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_d3868e133e5f40ada85aceea5e48b0a8~mv2.png",
+    "response_sha256": "e840186c3a92e5b61be5f895a98657a95b173304b219dc96f9b4c77f01e12613",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_d7ea50f62b424e2bbaac99f988762b3c~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 616,
+    "captured_at": "2026-10-31T12:02:45.840Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_d7ea50f62b424e2bbaac99f988762b3c~mv2.png",
+    "response_sha256": "550a5b890fbc569f311df9c33a71c6f8b3241bb172669c92aab79bc33e98487f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_e40d6ad3680b41f1a033a6db11746b8d~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 617,
+    "captured_at": "2026-10-31T12:02:47.452Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_e40d6ad3680b41f1a033a6db11746b8d~mv2.png",
+    "response_sha256": "188db2f791e9aa1304c15cedec048bd00edbb56596012ce82df7732664b1175f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_e67a3173cfe04ca3883c37cbdbae4e7d~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 618,
+    "captured_at": "2026-10-31T12:02:49.074Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_e67a3173cfe04ca3883c37cbdbae4e7d~mv2.png",
+    "response_sha256": "7e21bdef0fa25571979cdd2efdf742c7635988e59510009f02ba842a90c042c0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_e8f461d64553494da29c007803bfabd5~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 619,
+    "captured_at": "2026-10-31T12:02:50.682Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_e8f461d64553494da29c007803bfabd5~mv2.png",
+    "response_sha256": "25d21c50546f0d46320f38553183c83c82f75cd3c2c4760a389ae8b9964ce878",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_e9b1af9852c64317bcb14d6eb955b2b7~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 620,
+    "captured_at": "2026-10-31T12:02:52.303Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_e9b1af9852c64317bcb14d6eb955b2b7~mv2.png",
+    "response_sha256": "52fac41cf06658dca8052f255640d1ee2329897876efad59e330afe59bd07630",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_f47e2f92d03f4f45becb474e39bd9ce9~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 621,
+    "captured_at": "2026-10-31T12:02:53.944Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_f47e2f92d03f4f45becb474e39bd9ce9~mv2.png",
+    "response_sha256": "0babcd8e1b57a68e3bb68414f943e0f1c52356153d1d7ba58faa8d70b6735f1f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/334d01_fed2539b7a664e77995c778d95fac3f3~mv2.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "sjgop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 622,
+    "captured_at": "2026-10-31T12:02:55.537Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/334d01_fed2539b7a664e77995c778d95fac3f3~mv2.png",
+    "response_sha256": "244b8264f0e7f466401b89fa419a36be26b66004ce833c21cbeaa3f01966f69d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
    }
   }
  ]

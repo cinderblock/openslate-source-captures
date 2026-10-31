@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sdgreenparty.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 855,
-    "captured_at": "2026-10-31T00:05:29.702Z",
+    "captured_at": "2026-10-31T12:02:44.295Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-    "response_sha256": "f4ccf833aa0ca7b1ec48c30d8871dd2e4cb4f9cc33e933628860e28be4bc2202",
+    "response_sha256": "f7673bfd48b6d4389b94fbdce2b0f09b690d3c71fec2df193635e8fd231d565d",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260808031229id_/https://www.kpbs.org/news/politics/2026/05/06/2026-primary-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+    "timestamp": "20260808031229",
+    "digest": "MPUC7DVTOENINIW45UHGIDQATMSO2CKT",
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

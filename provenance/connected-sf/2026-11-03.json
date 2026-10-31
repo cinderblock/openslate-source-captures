@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.connectedsf.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "connectedsf.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 819,
-    "captured_at": "2026-10-31T00:05:15.345Z",
+    "captured_at": "2026-10-31T12:02:31.347Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.connectedsf.com/2026-voter-guide",
-    "response_sha256": "adad215edc6fcb53f55ad75286404b9954d9c2978f5056f609669428f296b3eb",
+    "response_sha256": "0572ce7557c3c9e48293fe2151f1441229afc557022d8116065610d39f14ee20",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235550id_/https://www.connectedsf.com/2026-voter-guide",
+    "timestamp": "20261030235550",
+    "digest": "7IFQL63EPXACUT62NNT7SD5ITVMG6SVN",
+    "origin": "requested",
+    "statements": {
+     "found": 33,
+     "of": 33
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 32,

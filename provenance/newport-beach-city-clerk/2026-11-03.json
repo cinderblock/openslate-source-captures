@@ -2,16 +2,18 @@
  "format": "openslate-source-provenance/1",
  "org": "newport-beach-city-clerk",
  "election": "2026-11-03",
- "mode": "transcribed",
+ "mode": "scraped",
  "org_uri": "https://www.newportbeachca.gov/government/elections",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "newportbeachca.gov"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 881,
-    "captured_at": "2026-10-31T00:05:36.045Z",
+    "captured_at": "2026-10-31T12:02:50.591Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.newportbeachca.gov/government/elections/general-municipal-election-november-3-2026",
-    "response_sha256": "bcfd660e68e031cfa17910345f3ff4c22a1b83b0fdbbd64fbbd5749f12e347fc",
+    "response_sha256": "d31daf9cb466d06cbadb0df619aab4380b44f92228f86d9e6f7e5ab068cf3253",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002324id_/https://www.newportbeachca.gov/government/elections/general-municipal-election-november-3-2026",
+    "timestamp": "20261031002324",
+    "digest": "PTPAYW4TUNOJ67T7ID2IXTJXBHY5KM6S",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

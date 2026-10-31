@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.peaceandfreedom.us/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "peaceandfreedom.us"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 502,
-    "captured_at": "2026-10-31T00:04:22.534Z",
+    "captured_at": "2026-10-31T12:01:35.215Z",
     "status": 200,
     "error": null,
     "final_url": "https://peaceandfreedom.us/november-2026-voting-guide/",
-    "response_sha256": "2310456e0a5e1c50da1a4fec77afdce5a803bce39b4a938844c56acada7c414b",
+    "response_sha256": "e7ea812950a9227b8cf83473df3c72bda850bd044f850dff70c86b2706a2b183",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030225457id_/https://peaceandfreedom.us/november-2026-voting-guide/",
+    "timestamp": "20261030225457",
+    "digest": "WCO2VMUV4UGHPL4RRRZGGCOBQU5UXKFZ",
+    "statements": {
+     "found": 21,
+     "of": 22
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 21,

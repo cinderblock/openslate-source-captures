@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://seiuca.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "seiuca.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 526,
-    "captured_at": "2026-10-31T00:04:36.572Z",
+    "captured_at": "2026-10-31T12:01:49.296Z",
     "status": 200,
     "error": null,
     "final_url": "https://seiuca.org/elections/",
-    "response_sha256": "1378925797118fcb28de53f7ea06d889649072aa37a0cb71c3ef98395d32965d",
+    "response_sha256": "2c7eeb52c8aa96c2d0f5dde511a36d324600e8b8aa5cc0648a52053062f1cd3c",
     "bytes": "public",
     "claims": [
      "captured",

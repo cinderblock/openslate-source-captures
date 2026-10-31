@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 546,
-    "captured_at": "2026-10-31T00:04:48.260Z",
+    "captured_at": "2026-10-31T12:02:01.612Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf",
-    "response_sha256": "833f51902da0ceaf828741fcafcd4ffc4d23bb12629cc131435d1ba74eb8f2a8",
+    "response_sha256": "5008ae3e87c2008b191f49f82c11e760509a7ffdf8e2dd20d7f9d14a3f13e939",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030233205id_/https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf",
+    "timestamp": "20261030233205",
+    "digest": "64CIZWPLCHUA3V7PTRROKV6TXTF4P2O2",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

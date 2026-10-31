@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://calmatters.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "calmatters.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 69,
-    "captured_at": "2026-10-31T00:03:46.288Z",
+    "captured_at": "2026-10-31T12:01:02.554Z",
     "status": 200,
     "error": null,
     "final_url": "https://calmatters.org/california-voter-guide-2026/propositions/",
-    "response_sha256": "88b33c15e02e862ca5db6aa42630acdf841492a6fe41ae37056ecbeacebe695a",
+    "response_sha256": "d0ae9b80e1dc303094e3c9381bdef00b37a494d81ae30d6d0909e7dc99c19caa",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -61,13 +63,13 @@
     "org_host": "calmatters.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 70,
-    "captured_at": "2026-10-31T00:03:48.081Z",
+    "captured_at": "2026-10-31T12:01:04.160Z",
     "status": 200,
     "error": null,
     "final_url": "https://calmatters.org/category/politics/elections/",
-    "response_sha256": "7faee7fff8ec2bcf9d4902f19c14802964c34b7c008e0cf52bd50d7bda6bdd12",
+    "response_sha256": "a6c0658a373c85f32a10f0e7a05b7dfcea61deb8f209c98e906d696b3236cde8",
     "bytes": "withheld",
     "claims": [
      "captured",

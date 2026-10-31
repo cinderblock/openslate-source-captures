@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.socalnewsgroup.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "socalnewsgroup.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 888,
-    "captured_at": "2026-10-31T00:05:37.676Z",
+    "captured_at": "2026-10-31T12:02:52.306Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ocregister.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
-    "response_sha256": "a9923eb71c1b73acd88d1ffd85703d7c7dfae20553646f2504de9c2f6f184581",
+    "response_sha256": "9ce5e5ca0391466312739f927257efdfb680e8ec5220813023fb77d608dd1c39",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261022110931id_/https://www.ocregister.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+    "timestamp": "20261022110931",
+    "digest": "KHJ245DDHFS3OFMO74YRFZA2IJP67TRX",
+    "origin": "existing",
+    "statements": {
+     "found": 68,
+     "of": 68
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 68,
@@ -57,22 +69,32 @@
     "org_host": "socalnewsgroup.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 831,
-    "captured_at": "2026-10-31T00:05:19.298Z",
+    "captured_at": "2026-10-31T12:02:35.790Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dailynews.com/2026/10/07/endorsement-vote-no-on-retaining-justices-tamzarian-and-mori/",
-    "response_sha256": "5a7d7fc7b93771743c0fdcdf0d29d278d9f74e25f49f16af443c975e6873084c",
+    "response_sha256": "73c666c722a54cdb218a2b34bd2575b534f6725508d803d5302efd02da6a2f6e",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021183648id_/https://www.dailynews.com/2026/10/07/endorsement-vote-no-on-retaining-justices-tamzarian-and-mori/",
+    "timestamp": "20261021183648",
+    "digest": "COUP5YP3YGU2WM6ZLZYEZJ57R4PYXCHF",
+    "origin": "existing",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,
@@ -90,13 +112,13 @@
     "org_host": "socalnewsgroup.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 832,
-    "captured_at": "2026-10-31T00:05:20.895Z",
+    "captured_at": "2026-10-31T12:02:37.417Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dailynews.com/2026/10/09/confused-by-the-judicial-races-here-are-our-la-county-superior-court-endorsements/",
-    "response_sha256": "cb47cfc6bd6f9507bccb3fb4c3d3c2438225179e3147d09b179f86667da273a5",
+    "response_sha256": "ecae7a9cd9f48e075e6ba9e9183ea58adaefe51913ab5e0dae9f13c76ca83b8a",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -105,7 +127,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261022173122id_/https://www.dailynews.com/2026/10/09/confused-by-the-judicial-races-here-are-our-la-county-superior-court-endorsements/",
+    "timestamp": "20261022173122",
+    "digest": "GQ7RVE5R2XNTURX2LMBOINHHHO4Y5R3L",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -123,22 +150,32 @@
     "org_host": "socalnewsgroup.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 830,
-    "captured_at": "2026-10-31T00:05:17.045Z",
+    "captured_at": "2026-10-31T12:02:33.757Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dailynews.com/2026/10/03/endorsement-no-on-los-angeles-measure-fd-yet-another-sales-tax-increase/",
-    "response_sha256": "eb5b32c1f69698b2520aead8611bb6dcb5001cbc07c176b12be7439826e5d8a9",
+    "response_sha256": "d2e63cd789dfad784e4adbd97d87c4ede611a6ef30f80987fb24f4f7969628b5",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261016084259id_/https://www.dailynews.com/2026/10/03/endorsement-no-on-los-angeles-measure-fd-yet-another-sales-tax-increase/",
+    "timestamp": "20261016084259",
+    "digest": "ZKTTZEVKX65WCT6NSRB4XWQJS63Z4SJF",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -156,22 +193,32 @@
     "org_host": "socalnewsgroup.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 890,
-    "captured_at": "2026-10-31T00:05:41.402Z",
+    "captured_at": "2026-10-31T12:02:56.762Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ocregister.com/2026/10/04/endorsement-david-penaloza-for-assembly-district-68/",
-    "response_sha256": "0a3f7da4be36661b5c685ebe85ec012a16c8990f02ee428987c41634ca8efabf",
+    "response_sha256": "b90455c8f47260f219200dd0163aad628a70da99299520eb010817f42b3a756d",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261008143456id_/https://www.ocregister.com/2026/10/04/endorsement-david-penaloza-for-assembly-district-68/",
+    "timestamp": "20261008143456",
+    "digest": "SUSBON7S24Z4HUN3D2TXSZGD2YDSZPAG",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -189,22 +236,32 @@
     "org_host": "socalnewsgroup.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 889,
-    "captured_at": "2026-10-31T00:05:39.296Z",
+    "captured_at": "2026-10-31T12:02:54.734Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ocregister.com/2026/10/03/endorsement-carlos-rodriguez-for-yorba-linda-city-council/",
-    "response_sha256": "f1b85786a022ee621297e791377c88483e223936dd774d2a6521be98ab3e24ff",
+    "response_sha256": "53854e690144b2111969298182c5a1278c09a9266f75c9e32b993c4b68f5d95a",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261005110414id_/https://www.ocregister.com/2026/10/03/endorsement-carlos-rodriguez-for-yorba-linda-city-council/",
+    "timestamp": "20261005110414",
+    "digest": "EPGVOHLQG2TCVT3D5YEFPDSW5JIV3UWA",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -222,13 +279,13 @@
     "org_host": "socalnewsgroup.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 891,
-    "captured_at": "2026-10-31T00:05:42.969Z",
+    "captured_at": "2026-10-31T12:02:58.794Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ocregister.com/2026/10/09/endorsement-no-on-newport-beach-measures-h-p-q-and-r/",
-    "response_sha256": "ebc1172f81856dadaf04c068e4f0614af0812838f0c431bd9bc6092e1b5efc99",
+    "response_sha256": "fc2d95ae425fa03c0c6337ef5bb4edccc06ed7e421eb1749e97b89228755401c",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -237,7 +294,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261018145136id_/https://www.ocregister.com/2026/10/09/endorsement-no-on-newport-beach-measures-h-p-q-and-r/",
+    "timestamp": "20261018145136",
+    "digest": "ZOAHSFFEYO2FDGO2LPVHIPOZ34KCRXHK",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

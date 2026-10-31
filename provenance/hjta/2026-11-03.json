@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.hjta.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "hjta.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 845,
-    "captured_at": "2026-10-31T00:05:25.443Z",
+    "captured_at": "2026-10-31T12:02:40.965Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hjta.org/2026votingguide/",
-    "response_sha256": "18fa33bdcd73f5d2b7664a24d3a9edd7c2cfc3b26f6d5b055b3f02a3be9b3543",
+    "response_sha256": "a36e51cf749c24c273d714e7b260331cbafb8b9a75745c46f8ad5ebc7d0f5863",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261026183530id_/https://www.hjta.org/2026votingguide/",
+    "timestamp": "20261026183530",
+    "digest": "IKKZIS6ALRIY55E5UMDUGDO7JWY4KFYO",
+    "origin": "existing",
+    "statements": {
+     "found": 87,
+     "of": 87
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.streetsforall.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "streetsforall.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1108,
-    "captured_at": "2026-10-31T00:06:01.845Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1111,
+    "captured_at": "2026-10-31T12:03:17.016Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.streetsforall.org/2026",
-    "response_sha256": "6e33dffc579df3feab33c30d8c4836203111b33b3b69039e21543a9b2cb9084f",
+    "response_sha256": "811fe95375c0337da4f5c8f56e89207a1e79039d07e8dc2c0503c4eb73ce7824",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021071124id_/https://www.streetsforall.org/2026",
+    "timestamp": "20261021071124",
+    "digest": "ABTR4BWOM3ELGJRRBRUQ2VVN4QFKRAZU",
+    "origin": "existing",
+    "statements": {
+     "found": 23,
+     "of": 23
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 23,

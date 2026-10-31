@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sfaffordablehousingalliance.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfaffordablehousingalliance.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1066,
-    "captured_at": "2026-10-31T00:05:51.948Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1069,
+    "captured_at": "2026-10-31T12:03:06.324Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfaffordablehousingalliance.org/",
-    "response_sha256": "b149278392373da190c95779a8d2c0c4d737d19208250749a45055884e1417f3",
+    "response_sha256": "a732e6efca7b8ca9ab4c65b1a0bac39b5b4c76aed9063773b868847c0e6e4a89",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031004720id_/https://www.sfaffordablehousingalliance.org/",
+    "timestamp": "20261031004720",
+    "digest": "4B77S3MS2HFY5HJOB5AVCOYEBI73IWER",
+    "origin": "requested",
+    "statements": {
+     "found": 6,
+     "of": 45
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

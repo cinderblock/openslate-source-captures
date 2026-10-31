@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://lachamber.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "lachamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 299,
-    "captured_at": "2026-10-31T00:04:03.567Z",
+    "captured_at": "2026-10-31T12:01:19.622Z",
     "status": 200,
     "error": null,
     "final_url": "https://lachamber.com/2026-voter-guide",
-    "response_sha256": "2e797406d3ac6a7c51aad886f42fc3ab43831936d10c0dc313bc7192423450a3",
+    "response_sha256": "953640e43c3dd7b566a269f24c7b6e3491299fb47a9598e79b7a6cf1fad6f13e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -65,13 +67,13 @@
     "org_host": "lachamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 301,
-    "captured_at": "2026-10-31T00:04:07.327Z",
+    "captured_at": "2026-10-31T12:01:23.416Z",
     "status": 200,
     "error": null,
     "final_url": "https://lachamber.com/clientuploads/pdf/2026/26_Voter-Guide.pdf",
-    "response_sha256": "d6c5048a3d83c2bcd6c1653d360e71adafe91ae6b7992d5214bcc2c16d247d78",
+    "response_sha256": "adbfca5e2ad8fdbdde11cebfb5991c6de4a47cb5f9c622dd762c41bc54a98937",
     "bytes": "public",
     "claims": [
      "captured",
@@ -98,13 +100,13 @@
     "org_host": "lachamber.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 300,
-    "captured_at": "2026-10-31T00:04:05.614Z",
+    "captured_at": "2026-10-31T12:01:21.572Z",
     "status": 200,
     "error": null,
     "final_url": "https://lachamber.com/blog/2026/10/08/the-business-voice/los-angeles-let-s-turn-out-in-numbers/",
-    "response_sha256": "10e327021969add9717cb27e50f73d673c794603d32a3a98f4978d2baab5a6c4",
+    "response_sha256": "4f2fcfb028a17c8e93f11435844208a522360dab0617abd93a8d1081cb885d65",
     "bytes": "public",
     "claims": [
      "captured",
@@ -113,7 +115,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030224900id_/https://lachamber.com/blog/2026/10/08/the-business-voice/los-angeles-let-s-turn-out-in-numbers/",
+    "timestamp": "20261030224900",
+    "digest": "ZHQ7WK4RWZLX7AI2AYG7GO3K44NMRR7M"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

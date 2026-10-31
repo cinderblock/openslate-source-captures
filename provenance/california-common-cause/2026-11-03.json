@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 759,
-    "captured_at": "2026-10-31T00:05:03.243Z",
+    "captured_at": "2026-10-31T12:02:18.003Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
-    "response_sha256": "869470c38f53625dbe86155dca489a78dda60517719e05a0d8443ea3e4d21e83",
+    "response_sha256": "dc2e96f61dc547b71dd6eaad7e7b81d1939ad73ed44386809e92f2b57b0b4c40",
     "bytes": "public",
     "claims": [
      "captured",
@@ -66,13 +68,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 760,
-    "captured_at": "2026-10-31T00:05:04.851Z",
+    "captured_at": "2026-10-31T12:02:19.748Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
-    "response_sha256": "08f198044afd89ed16f8d69b06d25b285d1749f4aafd8a9283c66babc2227e2e",
+    "response_sha256": "3b7f2286d9193bdae0912a5efc46ed2a5e2c5c98e14b9b700a76bde227ac0640",
     "bytes": "public",
     "claims": [
      "captured",
@@ -108,13 +110,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 767,
-    "captured_at": "2026-10-31T00:05:16.545Z",
+    "captured_at": "2026-10-31T12:02:32.020Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
-    "response_sha256": "b3db51f8742f06e026c725eee39c5bf757434d83177731ca7746a92783e57141",
+    "response_sha256": "fff193e41d7b49836962bac0438165735718d2be333b5bb7012e91886f57fbd3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -127,7 +129,11 @@
     "url": "https://web.archive.org/web/20261030065041id_/https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
     "timestamp": "20261030065041",
     "digest": "WWG55EQB3B7JBGRKWQ6YQQVD2H365Q34",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
    },
    "derivation": {
     "kind": "anchored",

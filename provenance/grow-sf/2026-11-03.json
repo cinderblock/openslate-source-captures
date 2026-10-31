@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://growsf.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,31 @@
     "org_host": "growsf.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 193,
-    "captured_at": "2026-10-31T00:03:58.524Z",
+    "captured_at": "2026-10-31T12:01:14.552Z",
     "status": 200,
     "error": null,
     "final_url": "https://growsf.org/voter-guide/",
-    "response_sha256": "d81a96c38968059c19c2d6388c4a2af487d0767339906d1bd5e3f3d4e9c9b4e9",
+    "response_sha256": "ad7023996d6047bb74c106f673e831a7400cd8a782271b50a78b31737355b239",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030221821id_/https://growsf.org/voter-guide/",
+    "timestamp": "20261030221821",
+    "digest": "RNVAZ2ABMG7IH3NTRRPX3QIHYMMYSTEY",
+    "statements": {
+     "found": 66,
+     "of": 66
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 66,

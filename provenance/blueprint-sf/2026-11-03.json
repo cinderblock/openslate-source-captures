@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sfblueprint.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "sfblueprint.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1070,
-    "captured_at": "2026-10-31T00:05:52.893Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1073,
+    "captured_at": "2026-10-31T12:03:07.556Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfblueprint.org/advocacy/november-2026-voter-guide",
-    "response_sha256": "c7bfa45c7da93d894b9d6ef3cd867050129869b629c021891f0e61f6fcc719aa",
+    "response_sha256": "682d68fecf85ff94cfda8a5ae1ea8e96844501a3759856bd60a487bbbc6e1284",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031004911id_/https://www.sfblueprint.org/advocacy/november-2026-voter-guide",
+    "timestamp": "20261031004911",
+    "digest": "SRTEESBFFHIBF77PK3M4QRSSYYQ3HCSQ",
+    "origin": "requested",
+    "statements": {
+     "found": 17,
+     "of": 17
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 17,
@@ -57,13 +69,13 @@
     "org_host": "sfblueprint.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 76,
-    "captured_at": "2026-10-31T00:03:47.762Z",
+    "captured_at": "2026-10-31T12:01:03.691Z",
     "status": 200,
     "error": null,
     "final_url": "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
-    "response_sha256": "4a944a444c8724f19d658a15de9d82febd80b600613b84149556837da8345060",
+    "response_sha256": "5b16bad567563e53835581f5c4bba3373fbf483fa91b6f461a28daa1b3961dde",
     "bytes": "public",
     "claims": [
      "captured",

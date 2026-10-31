@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.venturagop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,55 @@
     "org_host": "venturagop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1134,
-    "captured_at": "2026-10-31T00:06:07.330Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1141,
+    "captured_at": "2026-10-31T12:03:22.100Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.venturagop.org/2026-general-election-voter-guides",
-    "response_sha256": "85bf15c9a42d095b02a8bc385c9c98665567b9b31e53fe5c49d58dd051d50613",
+    "response_sha256": "117807d6df18580d9d87ef04aac350cf327346860d131fa8cf3be258f7f497dc",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031321id_/https://www.venturagop.org/2026-general-election-voter-guides",
+    "timestamp": "20261031031321",
+    "digest": "5Y2NECMD35VYDE3K7IPNL3YOIYL7Q7QV",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 78
+    }
+   },
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 78,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://drive.google.com/uc?export=download&id=19QkeF7jYYmCPQkEXt-z764T_P5Hupp8l",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "drive.google.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 142,
+    "captured_at": "2026-10-31T12:01:10.742Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://drive.usercontent.google.com/download?id=19QkeF7jYYmCPQkEXt-z764T_P5Hupp8l&export=download",
+    "response_sha256": "eedf0fd6f5c107a274f9ee44b91b05cc0f33f520b3b714927ae90c443a691910",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,11 +85,527 @@
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "anchored",
+    "kind": "not-checkable",
     "exact": 0,
     "quoted_parts": 0,
-    "unanchored": 78,
-    "no_statement": 0
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://drive.google.com/uc?export=download&id=1JuM2lZRgeOa0qdhYg48Sy_ffEEzHjIi_",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "drive.google.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 143,
+    "captured_at": "2026-10-31T12:01:13.601Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://drive.usercontent.google.com/download?id=1JuM2lZRgeOa0qdhYg48Sy_ffEEzHjIi_&export=download",
+    "response_sha256": "678ebfb16d58b8d48d171c9b646c91800e29adfb086b7700f7194522647a76e4",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://drive.google.com/uc?export=download&id=1R5emmc0KQfodW9QwcGMnN1RSjJJi6k2J",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "drive.google.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 144,
+    "captured_at": "2026-10-31T12:01:16.832Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://drive.usercontent.google.com/download?id=1R5emmc0KQfodW9QwcGMnN1RSjJJi6k2J&export=download",
+    "response_sha256": "4203cad316693b79aadc7b784d055e1f0c2556960097e64b730056d51986b0e7",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://drive.google.com/uc?export=download&id=1XcKRSICD9B92qzso8_r8aRgMSwvXuovF",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "drive.google.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 145,
+    "captured_at": "2026-10-31T12:01:20.088Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://drive.usercontent.google.com/download?id=1XcKRSICD9B92qzso8_r8aRgMSwvXuovF&export=download",
+    "response_sha256": "77e2ec3601e1aa3c5bcf78372464682b30ee311f2834ca056786922722a3f91a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://drive.google.com/uc?export=download&id=1c6WlknTdirSq60EORC4V-p_Ls_pYg9KY",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "drive.google.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 146,
+    "captured_at": "2026-10-31T12:01:22.865Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://drive.usercontent.google.com/download?id=1c6WlknTdirSq60EORC4V-p_Ls_pYg9KY&export=download",
+    "response_sha256": "758ef466b59ad620d56532df5821c16b68254206c845af943fe380ee90e6f4a4",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_09eebc55f359493698ada25d8080c021~mv2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 589,
+    "captured_at": "2026-10-31T12:02:01.857Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_09eebc55f359493698ada25d8080c021~mv2.jpg",
+    "response_sha256": "b60e21736d7ebeb210c0022d7908d6333a821a79db26a094944adaa03dcda81c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_09eebc55f359493698ada25d8080c021~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%201%20Ventura%20Ojai_v2_edited.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 590,
+    "captured_at": "2026-10-31T12:02:03.523Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_09eebc55f359493698ada25d8080c021~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%201%20Ventura%20Ojai_v2_edited.jpg",
+    "response_sha256": "d5b653c90d6bee3a3b1f5db7065bed0e737b54790396f5dbfe04ed70d53dc56d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_33f8fa84548841e3aa496d37db7415bc~mv2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 591,
+    "captured_at": "2026-10-31T12:02:05.093Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_33f8fa84548841e3aa496d37db7415bc~mv2.jpg",
+    "response_sha256": "c4c967f984590795bfda9a87d51063d41ddf5e8c6d826edb0f113d9cb6f8a363",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_33f8fa84548841e3aa496d37db7415bc~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%203%20Camarillo%20Fillmore%20Santa%20Paula_v2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 592,
+    "captured_at": "2026-10-31T12:02:06.719Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_33f8fa84548841e3aa496d37db7415bc~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%203%20Camarillo%20Fillmore%20Santa%20Paula_v2.jpg",
+    "response_sha256": "651f4a116e55f3d52b354f202c5e99b9123d23ad5e49d4956f8251fce93b439c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_5b758da5ed9d4f0f9bc3e57c041a0d09~mv2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 593,
+    "captured_at": "2026-10-31T12:02:08.285Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_5b758da5ed9d4f0f9bc3e57c041a0d09~mv2.jpg",
+    "response_sha256": "eb001f7ae6e57a69129cd9e7a56ea6626a2fbecbc91cd33e2c5ad87265756f87",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_5b758da5ed9d4f0f9bc3e57c041a0d09~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%205%20Oxnard%20Port%20Hueneme_v2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 594,
+    "captured_at": "2026-10-31T12:02:09.902Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_5b758da5ed9d4f0f9bc3e57c041a0d09~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%205%20Oxnard%20Port%20Hueneme_v2.jpg",
+    "response_sha256": "7e622d229aecd48fda848c0f78e425a0588f378c38a495bc093d738e1a4e1e77",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_85a57443c1a04597bf5785917f51870b~mv2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 595,
+    "captured_at": "2026-10-31T12:02:11.472Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_85a57443c1a04597bf5785917f51870b~mv2.jpg",
+    "response_sha256": "3fd28534f6b99d66b2c0729c37e812e0c162837fd2e60548e7904f35b0fb18b6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_85a57443c1a04597bf5785917f51870b~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%202%20Thousand%20Oaks_v2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 596,
+    "captured_at": "2026-10-31T12:02:13.101Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_85a57443c1a04597bf5785917f51870b~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%202%20Thousand%20Oaks_v2.jpg",
+    "response_sha256": "6279602261ba1f830e9e14846fa95ac7354d820fcf19c236767a9e457b92b050",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_f5972f509a4d435e8d4adb8656884eae~mv2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 597,
+    "captured_at": "2026-10-31T12:02:14.684Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_f5972f509a4d435e8d4adb8656884eae~mv2.jpg",
+    "response_sha256": "f12004cca8dda95dd6b461c3f7102c41bd1c3e751b194a586b39f527c9648403",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/03ea7f_f5972f509a4d435e8d4adb8656884eae~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%204%20Moorpark%20Simi%20Valley_v2.jpg",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 598,
+    "captured_at": "2026-10-31T12:02:16.541Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/03ea7f_f5972f509a4d435e8d4adb8656884eae~mv2.jpg/v1/fill/w_403,h_535,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/VCRP%201-PG%20LTR%20DISTRICT%204%20Moorpark%20Simi%20Valley_v2.jpg",
+    "response_sha256": "a3945546df8d56b4307bb26b03b85a0dad23c418d74ea7a8187bfee1f9258ffb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://static.wixstatic.com/media/0c619f_8d8f0cf8cc554c5781520dedc646ce42~mv2.png/v1/fill/w_326,h_47,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3735532601364092757-1_edited_edited.png",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "static.wixstatic.com",
+    "org_host": "venturagop.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 599,
+    "captured_at": "2026-10-31T12:02:18.096Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://static.wixstatic.com/media/0c619f_8d8f0cf8cc554c5781520dedc646ce42~mv2.png/v1/fill/w_326,h_47,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3735532601364092757-1_edited_edited.png",
+    "response_sha256": "0b0abd4f9eafa8e13b2bc2c8f4cb85fdd988668ac01dceaddf151d9d150a29ad",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261016204537id_/https://static.wixstatic.com/media/0c619f_8d8f0cf8cc554c5781520dedc646ce42~mv2.png/v1/fill/w_326,h_47,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3735532601364092757-1_edited_edited.png",
+    "timestamp": "20261016204537",
+    "digest": "C3ZOH7BO3P56KD37PPLJHHJSF7WLC6VD",
+    "origin": "existing"
+   },
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
    }
   }
  ]

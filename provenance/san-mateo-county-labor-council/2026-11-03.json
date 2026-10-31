@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.sanmateolaborcouncil.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sanmateolaborcouncil.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1031,
-    "captured_at": "2026-10-31T00:05:46.517Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1033,
+    "captured_at": "2026-10-31T12:03:00.519Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sanmateolaborcouncil.org/endorsements",
-    "response_sha256": "ce1a347b400d1e6821fb61008a221f885a3ff5c5c9903c33f42d15f5f889024f",
+    "response_sha256": "77b7d7eadd2d73d36e47b884d10d7021375ac69df0e63b5e2ea1fb7795f96472",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003830id_/https://www.sanmateolaborcouncil.org/endorsements",
+    "timestamp": "20261031003830",
+    "digest": "MDMGLFNE37TLIFA642HPDFMHYUA2DC42",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +64,13 @@
     "org_host": "sanmateolaborcouncil.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1033,
-    "captured_at": "2026-10-31T00:05:50.271Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1035,
+    "captured_at": "2026-10-31T12:03:04.141Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0a8df59f1c70c578aa78/1789659789888/2026G+State+and+Federal+Endorsements+.docx",
-    "response_sha256": "40f6c131fafd948cee98425b8ebf604eb19b5f6f6645cf2cbe8b0e12a534de54",
+    "response_sha256": "815a7f0aca1450fb6f04b598389081000850aaf11e293b318f0277c24f659c58",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +79,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002741id_/https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0a8df59f1c70c578aa78/1789659789888/2026G+State+and+Federal+Endorsements+.docx",
+    "timestamp": "20261031002741",
+    "digest": "WBWSO2VLKNTI4RWJJW674XGHT4GXVXZQ",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 25
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -90,13 +106,13 @@
     "org_host": "sanmateolaborcouncil.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1034,
-    "captured_at": "2026-10-31T00:05:52.294Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1036,
+    "captured_at": "2026-10-31T12:03:05.946Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0985ba187d6767429e88/1789659525935/SMCLC+2026G+Endorsements_Slate+Card.docx",
-    "response_sha256": "3efe985d16a5ebc4175ea960ef067b508fad2148105acdd7a066351df9daf868",
+    "response_sha256": "667486567cd27f3077a5dab11602e109e12f33f0551d045d15ab83d212f4cffe",
     "bytes": "public",
     "claims": [
      "captured",
@@ -105,7 +121,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002808id_/https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0985ba187d6767429e88/1789659525935/SMCLC+2026G+Endorsements_Slate+Card.docx",
+    "timestamp": "20261031002808",
+    "digest": "RZKWK46LAYZGEIVCGZANBAMOHG764MP6",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 35
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -123,13 +148,13 @@
     "org_host": "sanmateolaborcouncil.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1032,
-    "captured_at": "2026-10-31T00:05:48.528Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1034,
+    "captured_at": "2026-10-31T12:03:02.309Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0763f00586778c3b25cc/1789658979359/2026G+SMC+Ballot+Measure+Endorsements.docx",
-    "response_sha256": "d2cdd3c13f43f50b40aa2fb7c7ce174168129cce1c29f7cc32696d41530d5a95",
+    "response_sha256": "eaf1fb174e4fcce0f74c90303a5f4393a888e123232110feae153c087fa1fa38",
     "bytes": "public",
     "claims": [
      "captured",
@@ -138,7 +163,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002729id_/https://static1.squarespace.com/static/6837833f9287a7226a61a889/t/6aac0763f00586778c3b25cc/1789658979359/2026G+SMC+Ballot+Measure+Endorsements.docx",
+    "timestamp": "20261031002729",
+    "digest": "YPB2YET5RFM7K2F7X3P7NY4YM2XXMCB5",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 20
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

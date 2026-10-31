@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://smcdems.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 582,
-    "captured_at": "2026-10-31T00:04:45.917Z",
+    "captured_at": "2026-10-31T12:01:58.964Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smcdems.org/",
-    "response_sha256": "4c9f2267c0522c6f5633b1d7e699cdd8a9ec1f33a2f577ac8775157815022efd",
+    "response_sha256": "f56c3b4c8ab7d21f8cc55ae75a3e832cfd1f84706ac57d7e73108b1d4806a064",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,13 +41,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
-    "index": 12,
-    "captured_at": "2026-10-30T17:31:14.590Z",
+    "run": "2026-10-31T0024Z",
+    "index": 14,
+    "captured_at": "2026-10-31T00:24:54.868Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.smcdems.org/",
-    "response_sha256": "cd33fd7654512a2084cf031b50ae59590418ffb09e25647acac91ad7caa84965",
+    "response_sha256": "6434eae930eba441864d1f7469431b16b07a9825ac8863a5edf3f11eb00eb8da",
     "bytes": "public",
     "claims": [
      "captured",
@@ -79,13 +81,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 34,
-    "captured_at": "2026-10-31T00:03:42.457Z",
+    "captured_at": "2026-10-31T12:00:58.026Z",
     "status": 200,
     "error": null,
     "final_url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
-    "response_sha256": "83a8912e44fae5a9dbbcd38bb46a5d5408907a8ef57e56320f75b69669b5213c",
+    "response_sha256": "8781dcf887eb01d8ade5716c771df3a7fa1e89b5699d2639964d8dc52015c500",
     "bytes": "public",
     "claims": [
      "captured",

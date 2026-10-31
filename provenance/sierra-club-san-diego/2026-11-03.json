@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sandiegosierraclub.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 516,
-    "captured_at": "2026-10-31T00:04:35.923Z",
+    "captured_at": "2026-10-31T12:01:49.461Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/news/endorsed-candidates",
-    "response_sha256": "909a14ff95bf7b5664edb38c2bedb7f838faaf4a7e47e140fa4b9b5de8d76a03",
+    "response_sha256": "54b5ed0874f1157651ea0229aeb486af058dfabac029a0f10ba8ff567fb8f5af",
     "bytes": "public",
     "claims": [
      "captured",
@@ -66,13 +68,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 515,
-    "captured_at": "2026-10-31T00:04:33.727Z",
+    "captured_at": "2026-10-31T12:01:47.183Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/",
-    "response_sha256": "9b8b51ff4d69340b6a17b2f2cf54963e0d04ad9b77af038cb3362f0985375d36",
+    "response_sha256": "8deb7be7b71bd2fad20ac019c0e1b0daba58e156e6f1ead4888e7c78461f6b2a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -103,22 +105,31 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 517,
-    "captured_at": "2026-10-31T00:04:37.744Z",
+    "captured_at": "2026-10-31T12:01:51.183Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/no-on-45",
-    "response_sha256": "147a2c8838e9f0629c4e39e26a308831e4efde8b9e4e7137b62da2c0fed3665f",
+    "response_sha256": "6be0016f096560315288fb93aee06679e4ac5d330ff8001a79d1e78482ba43c5",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030225620id_/https://sandiegosierraclub.org/no-on-45",
+    "timestamp": "20261030225620",
+    "digest": "JTGXJ3ZRRLGJVECU7CSM32373CPAPLO5",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,

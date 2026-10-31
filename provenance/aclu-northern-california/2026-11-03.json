@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.aclunorcal.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "aclunorcal.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 781,
-    "captured_at": "2026-10-31T00:05:01.860Z",
+    "captured_at": "2026-10-31T12:02:18.464Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aclunorcal.org/vote/",
-    "response_sha256": "0b425d04e0d70ec3b3d141bcb55da7cf133f1959d929ae7781d8aa95a959fdb4",
+    "response_sha256": "a18dbc5d5bb58c8674e875230f074d4f1d719baf8684628bc21947e1b1c8c685",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,7 +45,11 @@
     "url": "https://web.archive.org/web/20261021071438id_/https://www.aclunorcal.org/vote/",
     "timestamp": "20261021071438",
     "digest": "FKNKRH2DWC6QJCC3AE3B6KKSDEVLHDQE",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 5,
+     "of": 11
+    }
    },
    "derivation": {
     "kind": "anchored",

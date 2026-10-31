@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.saccountygop.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "saccountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1024,
-    "captured_at": "2026-10-31T00:05:45.057Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1026,
+    "captured_at": "2026-10-31T12:02:59.405Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.saccountygop.com/endorsed-candidates/",
-    "response_sha256": "3cb790b6eb87bc1bf68b8bbef4bb6b87f15af516a77aa576a7378167cda0a3ee",
+    "response_sha256": "a27529719e89b9f127cff20bb9f02a01fcd8e3e9d9a0f1ef48554813666d60e2",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003601id_/https://www.saccountygop.com/endorsed-candidates/",
+    "timestamp": "20261031003601",
+    "digest": "OOID23L3P7BJVAEEQPM2B2NM6WURNPNX",
+    "origin": "requested",
+    "statements": {
+     "found": 47,
+     "of": 47
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 44,
@@ -57,22 +69,32 @@
     "org_host": "saccountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1023,
-    "captured_at": "2026-10-31T00:05:41.789Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1025,
+    "captured_at": "2026-10-31T12:02:56.188Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.saccountygop.com/ballot-measures/",
-    "response_sha256": "7ad3c4982dcdd8438d32ecc3007d34303831a1366b5d875b34e04549a2d29283",
+    "response_sha256": "00a78d67e3faf45c291f90f75ae568e25e0bfb0d84f173cd48563b650e624bda",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003553id_/https://www.saccountygop.com/ballot-measures/",
+    "timestamp": "20261031003553",
+    "digest": "OYMM37B2CJGPKABZ5N3I2NJGWKTHMSCA",
+    "origin": "requested",
+    "statements": {
+     "found": 23,
+     "of": 23
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 9,

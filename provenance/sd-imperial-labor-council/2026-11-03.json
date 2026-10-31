@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.unionyes.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "unionyes.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1117,
-    "captured_at": "2026-10-31T00:06:05.250Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1124,
+    "captured_at": "2026-10-31T12:03:20.233Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.unionyes.org/2026-endorsements",
-    "response_sha256": "dfaf6808a152e134909688e3ac5023e0ec2260140808984796bad477f886ed46",
+    "response_sha256": "562341e45307d5fa2bb3b9f0d20badeb803fa0c44f47372d03b03bf57e8d711e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021072134id_/https://www.unionyes.org/2026-endorsements",
+    "timestamp": "20261021072134",
+    "digest": "ES2N7QH5HUTX3RXBTT5XHBED27ZWVAYH",
+    "origin": "existing",
+    "statements": {
+     "found": 20,
+     "of": 25
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 20,

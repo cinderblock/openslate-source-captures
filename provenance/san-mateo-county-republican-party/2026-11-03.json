@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://smgop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 584,
-    "captured_at": "2026-10-31T00:04:47.214Z",
+    "captured_at": "2026-10-31T12:02:00.172Z",
     "status": 200,
     "error": null,
     "final_url": "https://smgop.org/voter-guide",
-    "response_sha256": "35755f7c682354bc35e5070069860fe4f77be4946eb60e50da2242b7367d3726",
+    "response_sha256": "be8043f402e5cc9f77ece7fa9afd906c4af8b13713a2556a41506d8b8b256897",
     "bytes": "public",
     "claims": [
      "captured",
@@ -62,13 +64,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 583,
-    "captured_at": "2026-10-31T00:04:45.567Z",
+    "captured_at": "2026-10-31T12:01:58.558Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/61b3f88ed47f01182bac0e3f/t/6ad0411fde229b645a49bd2d/1792033055749/SMGOP+++November+2026+Election+Guide+v2.pdf",
-    "response_sha256": "1f9d9d72a1f36ce58e7b34c46ea82cb01f441746b8ddcfcc0a104a63b8bc127c",
+    "response_sha256": "5d8c7a66b7fe1bfe28a417345889c81fdc4b4bc694a47ce504931484ba7d7351",
     "bytes": "public",
     "claims": [
      "captured",
@@ -77,7 +79,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234243id_/https://static1.squarespace.com/static/61b3f88ed47f01182bac0e3f/t/6ad0411fde229b645a49bd2d/1792033055749/SMGOP+++November+2026+Election+Guide+v2.pdf",
+    "timestamp": "20261030234243",
+    "digest": "LG7AWPAFQ6MCX2FOIH7IJDOVWPR5E4KW",
+    "origin": "requested",
+    "statements": {
+     "found": 57,
+     "of": 59
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 57,

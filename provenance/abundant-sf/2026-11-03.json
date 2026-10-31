@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.abundantsanfrancisco.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "abundantsanfrancisco.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 779,
-    "captured_at": "2026-10-31T00:05:01.633Z",
+    "captured_at": "2026-10-31T12:02:16.313Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.abundantsanfrancisco.org/vote",
-    "response_sha256": "c8d4c6c39b7d45bca86825c847b7eef7b489cd8d0a50d40c77099266be6326a7",
+    "response_sha256": "f845f7128a5e1f8867732af5c7d8f6111655d18177253263177bdcf167cc68f1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,7 +45,11 @@
     "url": "https://web.archive.org/web/20261005220357id_/https://www.abundantsanfrancisco.org/vote",
     "timestamp": "20261005220357",
     "digest": "2TFNADZSCCRETMDSF2T4RDLGYJ4YECLY",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 16,
+     "of": 17
+    }
    },
    "derivation": {
     "kind": "anchored",
@@ -62,18 +68,19 @@
     "org_host": "abundantsanfrancisco.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 780,
-    "captured_at": "2026-10-31T00:05:03.550Z",
+    "captured_at": "2026-10-31T12:02:18.151Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.abundantsanfrancisco.org/vote/ballot-measures",
-    "response_sha256": "7495061766ac2968f71013022d2adf633ebaab146c8168be229600ef6cf4a21f",
+    "response_sha256": "84048ea2b67ca6f956330695fd0b5aced294776cef96dcadeb3eaa4becd87c77",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
@@ -81,7 +88,11 @@
     "url": "https://web.archive.org/web/20261005220258id_/https://www.abundantsanfrancisco.org/vote/ballot-measures",
     "timestamp": "20261005220258",
     "digest": "XVX3OFBWL3LBPSG4JYQEWOT5WPF7HGYM",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 11,
+     "of": 11
+    }
    },
    "derivation": {
     "kind": "anchored",

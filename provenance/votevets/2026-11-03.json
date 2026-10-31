@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.votevets.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "votevets.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1135,
-    "captured_at": "2026-10-31T00:06:07.838Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1142,
+    "captured_at": "2026-10-31T12:03:22.679Z",
     "status": 200,
     "error": null,
     "final_url": "https://votevets.org/candidates",
-    "response_sha256": "698a42e566815524e78e3348244047ab058641282d5c1d54d65200ca921ab8ea",
+    "response_sha256": "1e73816a9ab81d3f3cf46a1cbf7b8cd79170671856f5c6706a093324ec4da597",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031346id_/https://votevets.org/candidates",
+    "timestamp": "20261031031346",
+    "digest": "XXS3ADBZJTOU7ZGLRXDBBXQ3GKLAOLGY",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 10
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

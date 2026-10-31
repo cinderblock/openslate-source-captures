@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.santacruzsentinel.com/opinion/endorsements/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "santacruzsentinel.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1036,
-    "captured_at": "2026-10-31T00:05:47.550Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1038,
+    "captured_at": "2026-10-31T12:03:02.875Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.santacruzsentinel.com/2026/10/28/endorsements-editorial-board-recommendations-for-nov-3/",
-    "response_sha256": "6a9eeb2323154b1f141b77e5dda7a17b8fd79616dcd87cfe0c7b53be7c1f613b",
+    "response_sha256": "4666c4e8a7ebc7549e2913b8beaae00f121307ff43bd5a9b7690ca50ca901ac1",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031004026id_/https://www.santacruzsentinel.com/2026/10/28/endorsements-editorial-board-recommendations-for-nov-3/",
+    "timestamp": "20261031004026",
+    "digest": "7NFJPLQZLCYL4BJEQA7TD4CK7HX5I624",
+    "origin": "requested",
+    "statements": {
+     "found": 19,
+     "of": 35
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 19,

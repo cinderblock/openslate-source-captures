@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://swingleft.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "swingleft.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 638,
-    "captured_at": "2026-10-31T00:04:50.470Z",
+    "captured_at": "2026-10-31T12:02:04.251Z",
     "status": 200,
     "error": null,
     "final_url": "https://swingleft.org/house",
-    "response_sha256": "5645efd74420c8cc4577a664891a88050c53cb272d0efb19f0dffd2d17951429",
+    "response_sha256": "cc96d437a830e7147719f87c253e3616c7835a94fa65f68139d03dd0297d4034",
     "bytes": "public",
     "claims": [
      "captured",

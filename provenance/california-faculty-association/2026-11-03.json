@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.calfac.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "calfac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 809,
-    "captured_at": "2026-10-31T00:05:08.914Z",
+    "captured_at": "2026-10-31T12:02:24.037Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.calfac.org/politics/endorsements/",
-    "response_sha256": "c575ff6cf27e2c7e75030f664abfb9420c8f6f4bb39615f8dde6ef0f373fcc1c",
+    "response_sha256": "844a44cdec7c75485ea8ffd81f286c92f9e60b6d969e4b709317ba28b75be4e8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,7 +45,11 @@
     "url": "https://web.archive.org/web/20261021071534id_/https://www.calfac.org/politics/endorsements/",
     "timestamp": "20261021071534",
     "digest": "SELDSGBGBTGEGIXLHXSTYXVIMC5CVVUI",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 108,
+     "of": 110
+    }
    },
    "derivation": {
     "kind": "anchored",

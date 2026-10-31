@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://climatehawksvote.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "climatehawksvote.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 77,
-    "captured_at": "2026-10-31T00:03:47.830Z",
+    "captured_at": "2026-10-31T12:01:03.747Z",
     "status": 200,
     "error": null,
     "final_url": "https://climatehawksvote.com/endorsements/endorsements-2026/",
-    "response_sha256": "f721651904c1a688d6607d3be2c39307da5680a829e37332573f4abdba645c7b",
+    "response_sha256": "ec698857afec010d3249df69c951911c2c7ce86ce72f197fb35384bfda41a7ec",
     "bytes": "public",
     "claims": [
      "captured",

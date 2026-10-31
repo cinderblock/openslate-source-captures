@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://cabuildingtrades.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "cabuildingtrades.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 51,
-    "captured_at": "2026-10-31T00:03:44.355Z",
+    "captured_at": "2026-10-31T12:01:00.069Z",
     "status": 200,
     "error": null,
     "final_url": "https://cabuildingtrades.org/2026-general-election-endorsements/",
-    "response_sha256": "12f07eb3df6036a2bd8b595a931417a2eaef03ef28c19bdf05fc0937377fd3d8",
+    "response_sha256": "e2622140abb9e7b2f2f6ee0e0b7edbced50143941da609366dfc89434f6d1f55",
     "bytes": "public",
     "claims": [
      "captured",

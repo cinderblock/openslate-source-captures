@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.cagreens.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "cagreens.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 59,
-    "captured_at": "2026-10-31T00:03:45.238Z",
+    "captured_at": "2026-10-31T12:01:00.675Z",
     "status": 200,
     "error": null,
     "final_url": "https://cagreens.org/green-party-california-state-voter-guide-nov-2026",
-    "response_sha256": "ec52944421c7a474403c276fbb2324b1a5c47f53fbda7f6bb4fa0759d7ee2e1c",
+    "response_sha256": "51ee1b18756c3a3c8075019d89120b2773301e6db9be090fef492081a01c43bb",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261002045838id_/https://cagreens.org/green-party-california-state-voter-guide-nov-2026",
+    "timestamp": "20261002045838",
+    "digest": "UYDDTSZRKZ6NGV3WRKIMPSW54WK64BOL",
+    "origin": "existing",
+    "statements": {
+     "found": 14,
+     "of": 14
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 14,

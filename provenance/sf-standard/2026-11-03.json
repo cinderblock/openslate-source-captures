@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sfstandard.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfstandard.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 537,
-    "captured_at": "2026-10-31T00:04:41.904Z",
+    "captured_at": "2026-10-31T12:01:54.700Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfstandard.com/politics/",
-    "response_sha256": "2a481ba57240571a52c4567779e8ba7ec757ec0bbd03e717b1bb161bba890280",
+    "response_sha256": "a4e74ff598d025779c865fce97a71c4a65393b78ad11d0fafddb3c5c3177d7da",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -62,13 +64,13 @@
     "org_host": "sfstandard.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 538,
-    "captured_at": "2026-10-31T00:04:43.663Z",
+    "captured_at": "2026-10-31T12:01:56.637Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfstandard.com/sitemaps/sitemap-index.xml/",
-    "response_sha256": "d51881421b6229fa8776a112289116bbdde6c89d841d8240740ce0ead54b964e",
+    "response_sha256": "dc129aa35cce9b84bd76d5554e06d514554b834ecf053b79f91b481b6a957263",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -78,9 +80,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260501014804id_/https://sfstandard.com/sitemaps/sitemap-index.xml/",
-    "timestamp": "20260501014804",
-    "digest": "SXXM7IHNV5WA7GUAM6T54EB6R2UTHLRL",
+    "url": "https://web.archive.org/web/20261030230428id_/https://sfstandard.com/sitemaps/sitemap-index.xml/",
+    "timestamp": "20261030230428",
+    "digest": "PXIITV7B64EFWN2BHOKDM223LA77ZPTP",
     "origin": "existing"
    },
    "derivation": {

@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://bhdemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "bhdemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 36,
-    "captured_at": "2026-10-31T00:03:44.141Z",
+    "captured_at": "2026-10-31T12:00:59.836Z",
     "status": 200,
     "error": null,
     "final_url": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
-    "response_sha256": "d6958942200a1e3c25948e6cdce62e928d29e29d83dc77effc2e6824186bf7ec",
+    "response_sha256": "08e0e522cd03e6268b6c667ad93a2f5e3d5066167971f01f498cb707d2214f99",
     "bytes": "public",
     "claims": [
      "captured",
@@ -59,6 +61,40 @@
     "quoted_parts": 0,
     "unanchored": 47,
     "no_statement": 0
+   }
+  },
+  {
+   "url": "https://bhdemocrats.org/wp-content/uploads/2026/10/image.png",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "bhdemocrats.org",
+    "org_host": "bhdemocrats.org"
+   },
+   "latest": {
+    "run": "2026-10-31T1200Z",
+    "index": 37,
+    "captured_at": "2026-10-31T12:01:03.188Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://bhdemocrats.org/wp-content/uploads/2026/10/image.png",
+    "response_sha256": "cc9c7c9f8b930aa06ccf82716c594c2f00223bb30126a06d3595e61d3b54b130",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
    }
   }
  ]

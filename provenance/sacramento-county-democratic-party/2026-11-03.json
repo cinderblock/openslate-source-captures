@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sacdems.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "sacdems.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1025,
-    "captured_at": "2026-10-31T00:05:43.611Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1027,
+    "captured_at": "2026-10-31T12:02:58.224Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sacdems.org/endorsements/",
-    "response_sha256": "f851c9c8e5fe3c8c418d7fa311d995f7a8aff7b5c9606550069ba072901f961e",
+    "response_sha256": "81de744a62ddf6b982604bab57f1e5bcf85f3da876d9309efbc684f0688f311d",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003612id_/https://www.sacdems.org/endorsements/",
+    "timestamp": "20261031003612",
+    "digest": "W64KRJXDGZC2IQ63ILLMNDYZE6BC4SF7",
+    "origin": "requested",
+    "statements": {
+     "found": 71,
+     "of": 71
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 71,

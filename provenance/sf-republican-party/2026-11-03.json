@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sfgop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfgop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 533,
-    "captured_at": "2026-10-31T00:04:40.017Z",
+    "captured_at": "2026-10-31T12:01:52.966Z",
     "status": 404,
     "error": null,
     "final_url": "https://sfgop.org/nov-2026-endorsements",
-    "response_sha256": "77296bbae30340e2649c64a69aedde76c8f4f0ab00349dd14441806222d556c6",
+    "response_sha256": "1abd255baef891e46cc1b5c9cdd9ea583012000b1f9d366e6d821fef71367b25",
     "bytes": "public",
     "claims": [
      "captured",

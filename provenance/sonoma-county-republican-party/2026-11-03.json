@@ -5,13 +5,15 @@
  "mode": "transcribed",
  "org_uri": "https://www.sonomacountygop.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sonomacountygop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1100,
-    "captured_at": "2026-10-31T00:05:59.287Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1103,
+    "captured_at": "2026-10-31T12:03:14.489Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sonomacountygop.org/",
-    "response_sha256": "251033e535d858b6c5cd87c5ade389546632426bb450b628a2661f9b1f52d7c4",
+    "response_sha256": "38457b0491b75a933fa5f37b9efed25ed387d565434c6864386b7f3cf88a9a7d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031101839id_/https://www.sonomacountygop.org/",
+    "timestamp": "20261031101839",
+    "digest": "TJY45SVEVV6FS2IJ4L5P5PBXET5W3A77",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +64,13 @@
     "org_host": "sonomacountygop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1101,
-    "captured_at": "2026-10-31T00:06:01.477Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1104,
+    "captured_at": "2026-10-31T12:03:16.483Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sonomacountygop.org/s/cc_images/teaserbox_908396352.PNG?t=1791321085",
-    "response_sha256": "406062f7c495633431f01666f0cb8b047109eb6d356a073b5b928757f3ee1df7",
+    "response_sha256": "24addb41df3d6e7ceba07b978913a6ad762b77e087fe803fb47aff0e5adb9525",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +79,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031024829id_/https://www.sonomacountygop.org/s/cc_images/teaserbox_908396352.PNG?t=1791321085",
+    "timestamp": "20261031024829",
+    "digest": "X3DANIZRXKJXQA5XWZJCCAO5WYI3UTWH",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -91,13 +103,13 @@
     "org_host": "sonomacountygop.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1102,
-    "captured_at": "2026-10-31T00:06:03.241Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1105,
+    "captured_at": "2026-10-31T12:03:18.117Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sonomacountygop.org/s/cc_images/teaserbox_908396353.PNG?t=1791321072",
-    "response_sha256": "5bf9d9d4547fb612a97f728a31df37800c4acf2ee7e339aee47c7bf3b7996b46",
+    "response_sha256": "6bf988f4dead8e030700bb204ecc8671fe575fd1955e78b2ef79ef16487ff91b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -106,7 +118,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031024846id_/https://www.sonomacountygop.org/s/cc_images/teaserbox_908396353.PNG?t=1791321072",
+    "timestamp": "20261031024846",
+    "digest": "ETHXCGXZTSFA3NFHY7WIDU54SZ5RCSVF",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

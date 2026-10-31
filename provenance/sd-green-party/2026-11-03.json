@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sdgreenparty.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1043,
-    "captured_at": "2026-10-31T00:05:54.957Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1045,
+    "captured_at": "2026-10-31T12:03:10.422Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/candidates",
-    "response_sha256": "092affd83a27d95a14ce3316609374d229abe7b501e0b45068679419d4a6d1f2",
+    "response_sha256": "92b8687f0e8b16202503ab1275166a0ca48dd439619c7b9c96ede8c0fee6c57f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031030918id_/https://www.sdgreenparty.org/candidates",
+    "timestamp": "20261031030918",
+    "digest": "AV3SJ3C5UPTPJP3ZPEW7NZFEVV2JUHNE",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +64,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1040,
-    "captured_at": "2026-10-31T00:05:49.174Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1042,
+    "captured_at": "2026-10-31T12:03:03.942Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/announcements",
-    "response_sha256": "8986b8b0b3ab29527989d3ed22bbc8dee579f9db600dd3347acacd1acfab7155",
+    "response_sha256": "45f557df016a7f630b1652a08b3ad8a3620085ce5d1602ed8a8c7431f7fc1d42",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +79,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031030855id_/https://www.sdgreenparty.org/announcements",
+    "timestamp": "20261031030855",
+    "digest": "XUCGCLIANC52S7Q75VN2POYNKVFVYRI5",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -90,13 +102,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 856,
-    "captured_at": "2026-10-31T00:05:31.302Z",
+    "captured_at": "2026-10-31T12:02:47.119Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-    "response_sha256": "0d48701237e25137d9854f5cac4150fae20b2cc8f6188f072fe944f0263fa65c",
+    "response_sha256": "f45c3692143aa741822f4a544e1d629add564d7246c09fc1348bcba4ac6e3c4f",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -105,7 +117,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261011054130id_/https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+    "timestamp": "20261011054130",
+    "digest": "QJZ4G2QSR4LDV3RJSCJAJO4LJLUGAU6Q",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -123,22 +140,32 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1041,
-    "captured_at": "2026-10-31T00:05:51.158Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1043,
+    "captured_at": "2026-10-31T12:03:06.232Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/announcements/feb-2026-endorsements",
-    "response_sha256": "3d648a41a937eb22ddcfa1022b0b718c53b971ba07d3e2239f5a9a2872aaeb97",
+    "response_sha256": "47d88c60c3af87b14eb1f7ace73a698424aa2bc79477742b1a9a414d5c97dc6f",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031030914id_/https://www.sdgreenparty.org/announcements/feb-2026-endorsements",
+    "timestamp": "20261031030914",
+    "digest": "AT3UWBE4VAC4YJCVC4V7KBA5R5XNF7DL",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -156,22 +183,32 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1042,
-    "captured_at": "2026-10-31T00:05:53.172Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1044,
+    "captured_at": "2026-10-31T12:03:08.310Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/announcements/gpsd-gm-endorses-lemon-grove-bird-initiative-drop-the-jnf-and-gkn-out",
-    "response_sha256": "cf599c22ad8f6ab6593df84560f217d4b4d09cf1ed3984e85f9dfa0f2884434b",
+    "response_sha256": "b33efce96e69b8acb03028a8a178fe48b53e6166f9daec2b026e39ac9d52b7c6",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031030916id_/https://www.sdgreenparty.org/announcements/gpsd-gm-endorses-lemon-grove-bird-initiative-drop-the-jnf-and-gkn-out",
+    "timestamp": "20261031030916",
+    "digest": "5PJQY6FEHQA2MMP7P7Y3U3C2DRWVOTFA",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://jstreetpac.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 297,
-    "captured_at": "2026-10-31T00:05:13.041Z",
+    "captured_at": "2026-10-31T12:02:31.336Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidates/",
-    "response_sha256": "34d12cde5dc96299b2fe060d8912568b83aeb04e0f600b79234841fa52466815",
+    "response_sha256": "c16e67352184aa45b99d95c5223d3839746c042a2901cc3b9b2220892a0d806a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -61,13 +63,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 283,
-    "captured_at": "2026-10-31T00:04:40.917Z",
+    "captured_at": "2026-10-31T12:01:59.756Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mike-mcguire/",
-    "response_sha256": "ba12e9de51720c76d964dd33e88913cae9659065bdedd0e446db9af5247dce18",
+    "response_sha256": "1216f051b993c4e513ed2978cb17715e4e6cbbdb34f35972afd5b4a5a679d054",
     "bytes": "public",
     "claims": [
      "captured",
@@ -103,13 +105,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 271,
-    "captured_at": "2026-10-31T00:04:14.457Z",
+    "captured_at": "2026-10-31T12:01:31.329Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/jared-huffman/",
-    "response_sha256": "7479aa642c68a812ae3b3c782f03b6a786485311936044b0d94e0185294a24e8",
+    "response_sha256": "cbaf297412abb849e999057b0e017a734c24241bafe2e553e23b6568082920ab",
     "bytes": "public",
     "claims": [
      "captured",
@@ -120,9 +122,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806221516id_/https://jstreetpac.org/candidate/jared-huffman/",
-    "timestamp": "20260806221516",
-    "digest": "SJYS5ZYP2JZHO4WQ3GB2ERDQUJLCVTQQ",
+    "url": "https://web.archive.org/web/20261031102235id_/https://jstreetpac.org/candidate/jared-huffman/",
+    "timestamp": "20261031102235",
+    "digest": "FF2Q6KBD4TPTWWEGL7RC6ZQS3LPFCLPU",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -145,13 +148,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 267,
-    "captured_at": "2026-10-31T00:04:05.359Z",
+    "captured_at": "2026-10-31T12:01:21.875Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/ami-bera/",
-    "response_sha256": "9a5950d7a641c8d212b63b954f124456e3e64998e29f34d561b3c09cc305b7af",
+    "response_sha256": "7867ded6543afd0742de6cb4a2faabbdd7cda8f92ff89a97cc435fa64db55168",
     "bytes": "public",
     "claims": [
      "captured",
@@ -162,9 +165,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806195346id_/https://jstreetpac.org/candidate/ami-bera/",
-    "timestamp": "20260806195346",
-    "digest": "J3ZFFSLNYAWASJT2WVY4WOU3BXUJ4PZY",
+    "url": "https://web.archive.org/web/20261031102053id_/https://jstreetpac.org/candidate/ami-bera/",
+    "timestamp": "20261031102053",
+    "digest": "5GFPU7RDYV57KXVMGTVQOZBFDR2IDTMV",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -187,13 +191,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 284,
-    "captured_at": "2026-10-31T00:04:43.277Z",
+    "captured_at": "2026-10-31T12:02:02.262Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mike-thompson/",
-    "response_sha256": "6ae4ed2fd27ea6919644f42ed3d3398f0bdb2170413e0eca337577d646cc25a8",
+    "response_sha256": "4afde1ac21446e888007d1f10cbb1157c99d3848d5cb5173ec1eac40dca19b40",
     "bytes": "public",
     "claims": [
      "captured",
@@ -204,9 +208,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806221516id_/https://jstreetpac.org/candidate/mike-thompson/",
-    "timestamp": "20260806221516",
-    "digest": "Z6NZN25BEJU3EBE2CABEJS435MP7HV56",
+    "url": "https://web.archive.org/web/20261031102327id_/https://jstreetpac.org/candidate/mike-thompson/",
+    "timestamp": "20261031102327",
+    "digest": "UV722FVLCA42OMIKLGUULLSYK2ZIXI4S",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -229,13 +234,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 287,
-    "captured_at": "2026-10-31T00:04:49.925Z",
+    "captured_at": "2026-10-31T12:02:09.528Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/richard-pan/",
-    "response_sha256": "d2410d63e4b24ee80bb8e6b00f3ebcc259cb419fc9b3ab0f905f7d3b2cfd9deb",
+    "response_sha256": "94c281183e694f78ce6137639c63db7b7910d9c7a118a5818db814147257e819",
     "bytes": "public",
     "claims": [
      "captured",
@@ -271,13 +276,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 272,
-    "captured_at": "2026-10-31T00:04:16.716Z",
+    "captured_at": "2026-10-31T12:01:33.956Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/john-garamendi/",
-    "response_sha256": "0d3fb32b846d7593337b7cda661b878cb7b4ccec101cc20c2e4226704cd6e599",
+    "response_sha256": "6699529ce03039f260cfbd2ecb151d52c1ef944af389ecb2a484ef0d5a30ba38",
     "bytes": "public",
     "claims": [
      "captured",
@@ -288,9 +293,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260116084809id_/https://jstreetpac.org/candidate/john-garamendi/",
-    "timestamp": "20260116084809",
-    "digest": "E2SIFH3VDTH6WVXGGKBNBBHTMH53AMFK",
+    "url": "https://web.archive.org/web/20261031032343id_/https://jstreetpac.org/candidate/john-garamendi/",
+    "timestamp": "20261031032343",
+    "digest": "SLSHOCK3BC344PJVBGLQXZKEWCHQ54XK",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -313,13 +319,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 273,
-    "captured_at": "2026-10-31T00:04:19.152Z",
+    "captured_at": "2026-10-31T12:01:36.489Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/josh-harder/",
-    "response_sha256": "18fda7f9f8ab2defb6fc29e1db48b280946580059846ca08d21550e9d8a95503",
+    "response_sha256": "2a7385a570a653caf0b8a7f34a035c4cfc1874d3af7e9670da44c38443a9987a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -330,9 +336,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260602230425id_/https://jstreetpac.org/candidate/josh-harder/",
-    "timestamp": "20260602230425",
-    "digest": "M77SOCN26JWFYGUO3JAGG7RQJ2JAOLW4",
+    "url": "https://web.archive.org/web/20261031101720id_/https://jstreetpac.org/candidate/josh-harder/",
+    "timestamp": "20261031101720",
+    "digest": "27MMMK5WMQ6IZ4UYE4VUPTM5U64ZKTG7",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -355,13 +362,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 279,
-    "captured_at": "2026-10-31T00:04:32.239Z",
+    "captured_at": "2026-10-31T12:01:50.367Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mark-desaulnier/",
-    "response_sha256": "091180ab652c9ca239023fdecb131a59c745975559f4f18cba6ebb0e08033b95",
+    "response_sha256": "8b7e4e8572ba149fbc4b2505395bf72405744d453d78ed08ad74ebac1ef631e3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -372,9 +379,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806181315id_/https://jstreetpac.org/candidate/mark-desaulnier/",
-    "timestamp": "20260806181315",
-    "digest": "ZGL5ZAZKOMVDWXG2HPMMERJRHKVGMDWI",
+    "url": "https://web.archive.org/web/20261031102021id_/https://jstreetpac.org/candidate/mark-desaulnier/",
+    "timestamp": "20261031102021",
+    "digest": "JKTPSNMLLGYHKISQVOC5H52FWBLTL2FB",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -397,13 +405,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 294,
-    "captured_at": "2026-10-31T00:05:06.100Z",
+    "captured_at": "2026-10-31T12:02:24.675Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/scott-wiener/",
-    "response_sha256": "847be9331548e0912cebe4e8082bccccd2f6770dd915023431d9aeef963b54ec",
+    "response_sha256": "8885529bb3563bed63ad11c3a37b86d20a5b636bb4b5101bf11b8ba91126f043",
     "bytes": "public",
     "claims": [
      "captured",
@@ -439,13 +447,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 276,
-    "captured_at": "2026-10-31T00:04:25.730Z",
+    "captured_at": "2026-10-31T12:01:43.575Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/lateefah-simon/",
-    "response_sha256": "85e9a5bb00de5d8170024288c43d98b7889f6ffcd9ebd178f0e8e996a3f1fe53",
+    "response_sha256": "720738f0e910c5176e4d45563058b41856bda0ba5f51905b1da0388b7cae5e35",
     "bytes": "public",
     "claims": [
      "captured",
@@ -481,13 +489,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 266,
-    "captured_at": "2026-10-31T00:04:03.039Z",
+    "captured_at": "2026-10-31T12:01:19.074Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/aisha-wahab/",
-    "response_sha256": "01ed1835da82a63b1a9b0b79b1aa35ce07a53482a4ae981fda55c54193d91f48",
+    "response_sha256": "6a96e79621d2c0d026bfe1e68d5fc4c33e196073021178fd04b86a5be28e036d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -523,13 +531,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 275,
-    "captured_at": "2026-10-31T00:04:23.557Z",
+    "captured_at": "2026-10-31T12:01:41.151Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/kevin-mullin/",
-    "response_sha256": "6bb5252e7efe57e83c6e5b7e1c63df9b40e6ff9a1cffd8743386855e6c04367c",
+    "response_sha256": "e2a9be716c925764c5b1a270537887c731c7ed3d68aa42af0c923086a5fd518d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -540,9 +548,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806221516id_/https://jstreetpac.org/candidate/kevin-mullin/",
-    "timestamp": "20260806221516",
-    "digest": "C4OJ77HGJAZDFK4PVYDBMGJDLIQRQX4M",
+    "url": "https://web.archive.org/web/20261031102244id_/https://jstreetpac.org/candidate/kevin-mullin/",
+    "timestamp": "20261031102244",
+    "digest": "4ZQJK7RXB2UIVGMYO5HOBMFC6BIMIKYS",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -565,13 +574,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 291,
-    "captured_at": "2026-10-31T00:04:58.805Z",
+    "captured_at": "2026-10-31T12:02:18.081Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/sam-liccardo/",
-    "response_sha256": "974413074bf331e4c205b3fe90f471776b60075727645281308a8839a60611b5",
+    "response_sha256": "1e556b9b4806a11305ea3f93a4d7e7bea22e6bf6c600437e83f3bd986f71e876",
     "bytes": "public",
     "claims": [
      "captured",
@@ -582,9 +591,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260114143801id_/https://jstreetpac.org/candidate/sam-liccardo/",
-    "timestamp": "20260114143801",
-    "digest": "WWSMFM57QAMGLXPOE3KEK5YMBSB33FTB",
+    "url": "https://web.archive.org/web/20261031032316id_/https://jstreetpac.org/candidate/sam-liccardo/",
+    "timestamp": "20261031032316",
+    "digest": "2HZ22KBMBLYUHBIOTTEEMLFWLFLPZBSM",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -607,13 +617,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 288,
-    "captured_at": "2026-10-31T00:04:52.184Z",
+    "captured_at": "2026-10-31T12:02:11.894Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/ro-khanna/",
-    "response_sha256": "5a936fb93d65c0ec66370643fb5052e1cf3b975abbbe50533ff702047c31ab2e",
+    "response_sha256": "7c80c75c8b33de6815ee72334790cb3a45a1abcf969320c79d927ca17e1d7c7c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -624,9 +634,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260807155122id_/https://jstreetpac.org/candidate/ro-khanna/",
-    "timestamp": "20260807155122",
-    "digest": "YWG3KA2MO6VXQQQDECXXXQXDGDN26DDF",
+    "url": "https://web.archive.org/web/20261031102440id_/https://jstreetpac.org/candidate/ro-khanna/",
+    "timestamp": "20261031102440",
+    "digest": "G77NHY2R7VIHTF3N3JLLVGM4I5GKCZGS",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -649,13 +660,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 296,
-    "captured_at": "2026-10-31T00:05:10.661Z",
+    "captured_at": "2026-10-31T12:02:28.885Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/zoe-lofgren/",
-    "response_sha256": "76e6b8c13e243d429d503d63dc6b30eb30556d96695074157e79df132e6af4d1",
+    "response_sha256": "12dca89a73390334d8c32b347b9e38b39f29450a336e416e9cee0e15e15f3268",
     "bytes": "public",
     "claims": [
      "captured",
@@ -666,9 +677,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260807004102id_/https://jstreetpac.org/candidate/zoe-lofgren/",
-    "timestamp": "20260807004102",
-    "digest": "WQZRN4I3DMP63U2XZVCB3ZK5B64FU5HU",
+    "url": "https://web.archive.org/web/20261031102423id_/https://jstreetpac.org/candidate/zoe-lofgren/",
+    "timestamp": "20261031102423",
+    "digest": "2BX72I7TF23R3UOZYDG7ZTSCR6U7TBAX",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -691,13 +703,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 290,
-    "captured_at": "2026-10-31T00:04:56.651Z",
+    "captured_at": "2026-10-31T12:02:15.993Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/salud-carbajal/",
-    "response_sha256": "786436cb5c803232afc254428efdfeb185870c0513d3c3147fcd90866ee4500d",
+    "response_sha256": "3e38b3a3f801f0ead2d323218e7948ba2717f1e536bf161edcc3b7436629dd50",
     "bytes": "public",
     "claims": [
      "captured",
@@ -708,9 +720,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260807004102id_/https://jstreetpac.org/candidate/salud-carbajal/",
-    "timestamp": "20260807004102",
-    "digest": "NV6V4YXYDT57DS2VF5FY3X5AC5PKBURC",
+    "url": "https://web.archive.org/web/20261031102345id_/https://jstreetpac.org/candidate/salud-carbajal/",
+    "timestamp": "20261031102345",
+    "digest": "WSW3CTFIKRQNTFBYXM5WW5C3P2BBKOQC",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -733,13 +746,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 286,
-    "captured_at": "2026-10-31T00:04:47.758Z",
+    "captured_at": "2026-10-31T12:02:07.288Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/raul-ruiz/",
-    "response_sha256": "9541e6f74f00086bb093b093b29138223408411e95b68757580ef3517541d4f3",
+    "response_sha256": "81929efb49c2fef25ef898a078d4efe2235a41ac822bdb4588acb02fe9ad129f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -750,9 +763,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806195346id_/https://jstreetpac.org/candidate/raul-ruiz/",
-    "timestamp": "20260806195346",
-    "digest": "3TQIUL3OETUJTODCZHWOMCBZEXFEZW76",
+    "url": "https://web.archive.org/web/20261031102144id_/https://jstreetpac.org/candidate/raul-ruiz/",
+    "timestamp": "20261031102144",
+    "digest": "IE6H4LYCTVQ6HMZAIRLFTFTDZ7ASM3ON",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -775,13 +789,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 274,
-    "captured_at": "2026-10-31T00:04:21.333Z",
+    "captured_at": "2026-10-31T12:01:38.611Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/judy-chu/",
-    "response_sha256": "e89143a571f474795063ae548295a6f0b2227698cc132b9acc565f135b448f05",
+    "response_sha256": "f69975c99cb9554dcbec7efda0cdae5905e60bfb739d1a7bf0495fdf273e3c90",
     "bytes": "public",
     "claims": [
      "captured",
@@ -792,9 +806,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806195346id_/https://jstreetpac.org/candidate/judy-chu/",
-    "timestamp": "20260806195346",
-    "digest": "BYD6TLO5XCPK7OYA7ESK5FYSNZPXDSI4",
+    "url": "https://web.archive.org/web/20261031102131id_/https://jstreetpac.org/candidate/judy-chu/",
+    "timestamp": "20261031102131",
+    "digest": "ZPY7ARBWGYGMT4XJN5LL4BT2WITJTF24",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -817,13 +832,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 277,
-    "captured_at": "2026-10-31T00:04:27.780Z",
+    "captured_at": "2026-10-31T12:01:45.659Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/laura-friedman/",
-    "response_sha256": "2d1594380bb7330793f9e67dabbde35bda983593bf3dd4e539e63ace5e6d450c",
+    "response_sha256": "1725353e372e51fcd08d5c09fc1a7ca491d4490b56b9f1fc7f267227ca80876d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -859,13 +874,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 270,
-    "captured_at": "2026-10-31T00:04:12.237Z",
+    "captured_at": "2026-10-31T12:01:29.267Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/gil-cisneros/",
-    "response_sha256": "d9004446af5df9a9e21f74dbedb7df2f260d03401e109ec1967bc66fa098497e",
+    "response_sha256": "e031a5393eb9237c81ca75ac4f37d01092bbf1349359e81816be0d48ea29f5ff",
     "bytes": "public",
     "claims": [
      "captured",
@@ -876,9 +891,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806195346id_/https://jstreetpac.org/candidate/gil-cisneros/",
-    "timestamp": "20260806195346",
-    "digest": "UVAVLGDPTIR3EUDL5TV366WHE76Z3DWP",
+    "url": "https://web.archive.org/web/20261031102121id_/https://jstreetpac.org/candidate/gil-cisneros/",
+    "timestamp": "20261031102121",
+    "digest": "I4EJODBOVVDKEF732AABOAHKEIJ7KEKE",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -901,13 +917,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 285,
-    "captured_at": "2026-10-31T00:04:45.581Z",
+    "captured_at": "2026-10-31T12:02:05.149Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/pete-aguilar/",
-    "response_sha256": "a1938b2dd221ae8a31a7b96f632bf7fb5431ad55233ecbb4b3eaacefe3efc8d2",
+    "response_sha256": "36927b8a50270d4964c7d381ef0e8448dd2010a95b363c5edf586120a4743697",
     "bytes": "public",
     "claims": [
      "captured",
@@ -918,9 +934,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806181315id_/https://jstreetpac.org/candidate/pete-aguilar/",
-    "timestamp": "20260806181315",
-    "digest": "H6PGH4YOXCOE2CSCLMHYWJAGN33PDVT2",
+    "url": "https://web.archive.org/web/20261031102106id_/https://jstreetpac.org/candidate/pete-aguilar/",
+    "timestamp": "20261031102106",
+    "digest": "4JPFKBS4WRA7JYDLMVMDSNLGKJCIR2EJ",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -943,13 +960,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 295,
-    "captured_at": "2026-10-31T00:05:08.321Z",
+    "captured_at": "2026-10-31T12:02:26.847Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/sydney-kamlager/",
-    "response_sha256": "f0826db339af53e7c779e7f654db032a7370d439f89b48d24ea708da83d0f1e1",
+    "response_sha256": "c9f00fab700c1c4b0581e0f1fae8e7053fc0e4fb5d2712f7202303523cf36f24",
     "bytes": "public",
     "claims": [
      "captured",
@@ -960,9 +977,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260807104739id_/https://jstreetpac.org/candidate/sydney-kamlager/",
-    "timestamp": "20260807104739",
-    "digest": "VAHYOYXHIDBDM5B6Z6JJGRTTWE6TDZUK",
+    "url": "https://web.archive.org/web/20261031102432id_/https://jstreetpac.org/candidate/sydney-kamlager/",
+    "timestamp": "20261031102432",
+    "digest": "XBJ3WWDTURK5G2T6KUN5LUJYQEWYNEX4",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -985,13 +1003,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 280,
-    "captured_at": "2026-10-31T00:04:34.721Z",
+    "captured_at": "2026-10-31T12:01:52.889Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mark-takano/",
-    "response_sha256": "54468ae35f037c62f47c24c8ce0d1010a4bf4cbce79ada0f04326746668d8e47",
+    "response_sha256": "eaff61d5344a02240b3c2ea052b9d1af2676e6def9f73f5732fb99d067b6d552",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1027,13 +1045,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 278,
-    "captured_at": "2026-10-31T00:04:29.941Z",
+    "captured_at": "2026-10-31T12:01:47.733Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/linda-sanchez/",
-    "response_sha256": "d9ac3dda1929d259629e76a3d799c3f2c4186108b7486a73887cb4db2b6f0667",
+    "response_sha256": "bd0201aa7a55b374c7cdd63bbba5b9080cea8dbe474df8fd17b9e2dc4921014c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1069,13 +1087,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 289,
-    "captured_at": "2026-10-31T00:04:54.386Z",
+    "captured_at": "2026-10-31T12:02:13.962Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/robert-garcia/",
-    "response_sha256": "adb0927ec460fb8a56e202aa9f0593c87f67b31cf3f1def377590421b7b56a17",
+    "response_sha256": "0856842c547c437706ca46e2ee81fe95e33c096cb8dcc26b5e432535165f2df6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1111,13 +1129,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 269,
-    "captured_at": "2026-10-31T00:04:10.012Z",
+    "captured_at": "2026-10-31T12:01:27.076Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/derek-tran/",
-    "response_sha256": "7886e674a0537b996b73c2752908d99d401b173a2db66561f1243a64969374fc",
+    "response_sha256": "87784dd1631e7478ac7787ec9776b52ac6bcab29a258e1c8ba6968bc2d1484ac",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1153,13 +1171,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 268,
-    "captured_at": "2026-10-31T00:04:07.723Z",
+    "captured_at": "2026-10-31T12:01:24.390Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/dave-min/",
-    "response_sha256": "1a81169b820ef10649102d79e91f0ae867c2aadff29429d7eb54b7554660ae8a",
+    "response_sha256": "4af36ea9b5bc945b91bbe6a3161482064232d3906b6f31d55c5efa2eeb682277",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1195,13 +1213,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 281,
-    "captured_at": "2026-10-31T00:04:36.944Z",
+    "captured_at": "2026-10-31T12:01:55.342Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/marni-von-wilpert/",
-    "response_sha256": "682530c9a559af912acadb97260070404197082a30de31ce9f5396c1756835d3",
+    "response_sha256": "772cca6038ac10b01b7c8e5a62b6dd9651d917cfe4dc6e564b01397d5459368d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1212,9 +1230,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260806233145id_/https://jstreetpac.org/candidate/marni-von-wilpert/",
-    "timestamp": "20260806233145",
-    "digest": "VK7TZW3UMOMFS27HSRT22VVJDJRR3CGF",
+    "url": "https://web.archive.org/web/20261031102332id_/https://jstreetpac.org/candidate/marni-von-wilpert/",
+    "timestamp": "20261031102332",
+    "digest": "A6ZIJUXCLRQALOF5J7LCCNR77HW5CWRC",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -1237,13 +1256,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 282,
-    "captured_at": "2026-10-31T00:04:38.691Z",
+    "captured_at": "2026-10-31T12:01:57.690Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mike-levin/",
-    "response_sha256": "1882b2cad184866731139363615e254dc283bb9a7c2d5592a6088ca49585d433",
+    "response_sha256": "5c97e67f346378df33b1ae280a586d731c8e40aa59cdd23e616c9b9b88032f04",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1279,13 +1298,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 293,
-    "captured_at": "2026-10-31T00:05:03.636Z",
+    "captured_at": "2026-10-31T12:02:22.563Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/scott-peters/",
-    "response_sha256": "40a7409bef6a7d39b4220a9257faf4c1cb996fbf6eab4f288f9faeff1f8ef7bb",
+    "response_sha256": "684ea62d6c9c925181af2adf25ea36752e677967d38b879db99550fbf9518ffd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1321,13 +1340,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 292,
-    "captured_at": "2026-10-31T00:05:01.167Z",
+    "captured_at": "2026-10-31T12:02:20.317Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/sara-jacobs/",
-    "response_sha256": "80e64bc1529f687a9ec3c347416bbca491342612022e5d2894ac2e672c19a422",
+    "response_sha256": "8085f84af0e528fd9e732053ad05cfb11e56d2606de17f778def77df08e98ef8",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.ebar.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "ebar.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 836,
-    "captured_at": "2026-10-31T00:05:21.614Z",
+    "captured_at": "2026-10-31T12:02:35.870Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ebar.com/story/170984/Opinion/Editorial/Quick%20guide%20to%20B.A.R.%20election%20endorsements",
-    "response_sha256": "66bd95515de79d643fe5992bd0477e62bf52e818afa226fd8833b044ef76fe33",
+    "response_sha256": "5422e86f491b2cb91efdd67ccafcd3675862acffae1ad1df47ec2715cbc67fd9",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002006id_/https://www.ebar.com/story/170984/Opinion/Editorial/Quick%20guide%20to%20B.A.R.%20election%20endorsements",
+    "timestamp": "20261031002006",
+    "digest": "DNVWXLSIMAUA37VD3UV5LJT74UGTSROV",
+    "origin": "requested",
+    "statements": {
+     "found": 69,
+     "of": 109
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 69,

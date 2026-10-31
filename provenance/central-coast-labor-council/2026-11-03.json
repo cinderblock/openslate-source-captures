@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.centralcoastlabor.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "centralcoastlabor.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 812,
-    "captured_at": "2026-10-31T00:05:11.753Z",
+    "captured_at": "2026-10-31T12:02:26.059Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.centralcoastlabor.org/2026-endorsements",
-    "response_sha256": "8bbc93d28af0fb3661eeb9f26ecf9a4541eb275f87d781a9c99bce0394a16eae",
+    "response_sha256": "46f1bf5e51980904eed6e4bc2bb5f826d69b9e7aa3239af3e019b8267efa5b40",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235315id_/https://www.centralcoastlabor.org/2026-endorsements",
+    "timestamp": "20261030235315",
+    "digest": "JTAJNWUB7ZJGQZPDBIPQPHGIFKW3ZP4V",
+    "origin": "requested",
+    "statements": {
+     "found": 77,
+     "of": 77
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 77,

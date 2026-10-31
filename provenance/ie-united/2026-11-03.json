@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://ieunited.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,27 +26,29 @@
     "org_host": "ieunited.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 199,
-    "captured_at": "2026-10-31T00:04:01.043Z",
+    "captured_at": "2026-10-31T12:01:17.527Z",
     "status": 200,
     "error": null,
     "final_url": "https://ieunited.org/2026-endorsements/",
-    "response_sha256": "aeabd22af081d8e228b6d0d30b9570bac49cc37ddfbc3c126a371af99df521af",
+    "response_sha256": "7acf654e3ddbf9e8e647d6ff30e5907bf01d8cec1d0714919eb7d35e280d4cee",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260607140707id_/https://ieunited.org/2026-endorsements/",
-    "timestamp": "20260607140707",
-    "digest": "GHN7ETLZDCYYDPZSCJRSBWW537UDZM4N",
+    "url": "https://web.archive.org/web/20261031101819id_/https://ieunited.org/2026-endorsements/",
+    "timestamp": "20261031101819",
+    "digest": "CIDRVZER3LI5U57BBAXUSUSDHB4SUQKQ",
+    "origin": "requested",
     "statements": {
-     "found": 5,
+     "found": 44,
      "of": 44
     }
    },

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.cfbf.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "cfbf.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 785,
-    "captured_at": "2026-10-31T00:05:05.205Z",
+    "captured_at": "2026-10-31T12:02:19.915Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.agalert.com/california-ag-news/archives/october-7-2026/2026-voter-guide/",
-    "response_sha256": "a6dbbfa9e2c8bdeff3512b0331f1c83494572487fb13f8827a6ca7329c2b99ef",
+    "response_sha256": "e2594a315e8614d945b136337961ebb5df73998fcc23fc8c39f2673ffccce590",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -43,7 +45,11 @@
     "url": "https://web.archive.org/web/20261009030150id_/https://www.agalert.com/california-ag-news/archives/october-7-2026/2026-voter-guide/",
     "timestamp": "20261009030150",
     "digest": "OTGLLN6IRRDCSOXRL2RABPHPYMFQYP3N",
-    "origin": "existing"
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 25
+    }
    },
    "derivation": {
     "kind": "anchored",

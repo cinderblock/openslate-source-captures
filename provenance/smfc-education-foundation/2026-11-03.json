@@ -5,13 +5,15 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 549,
-    "captured_at": "2026-10-31T00:04:53.663Z",
+    "captured_at": "2026-10-31T12:02:07.216Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-5ArgInFavor-SMFCSD%20Bond_Redacted.pdf",
-    "response_sha256": "557e890ac94058d1ecc9abc0c15eab27427262c590d35efa7bd318ce47ab1ef5",
+    "response_sha256": "5db8cd2882735a0f89c38f912f74578d87da1a1610adb53f69d8d3cab83ccbe8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,7 +41,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030233318id_/https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-5ArgInFavor-SMFCSD%20Bond_Redacted.pdf",
+    "timestamp": "20261030233318",
+    "digest": "VW3CWJABPJFW4MYNGITZL3WJHBIUMEXK",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,13 +68,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 576,
-    "captured_at": "2026-10-31T00:05:41.901Z",
+    "captured_at": "2026-10-31T12:02:54.704Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-RebutArgAgainst-SMFCSD-Bond_Redacted.pdf",
-    "response_sha256": "83ff74bd9ae24497d20b058f3d91ee912c93de968c2ca9f0fc5d99f8fb7e29ab",
+    "response_sha256": "50e8c856306f6a08603d52a5842463bd9ac7b0ec5f6b0eaa5495f4979953351a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,7 +83,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030234105id_/https://smcacre.gov/system/files/2026-08/52-ENG-MW-RebutArgAgainst-SMFCSD-Bond_Redacted.pdf",
+    "timestamp": "20261030234105",
+    "digest": "HCFO7SAUKPVHL5DNMWME2U47RD4FBK6W",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

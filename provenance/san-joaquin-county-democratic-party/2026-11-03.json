@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sjcdems.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "sjcdems.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1093,
-    "captured_at": "2026-10-31T00:05:58.193Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1096,
+    "captured_at": "2026-10-31T12:03:12.701Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sjcdems.org/endorsements",
-    "response_sha256": "92ebdce8e2c926a9ebd9d9bf212b9b31de3f36dba16c33ed1bd6ef73b98ebbc3",
+    "response_sha256": "476f7e434a10ddcf0f12df612b741bfa125c7036d2b12e31625d0cbb31b318a6",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031031635id_/https://www.sjcdems.org/endorsements",
+    "timestamp": "20261031031635",
+    "digest": "CAGE3YKBGXJNCSSY2L6VRCLY5NTLXA2O",
+    "origin": "requested",
+    "statements": {
+     "found": 46,
+     "of": 46
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 46,

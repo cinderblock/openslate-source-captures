@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.hrc.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 847,
-    "captured_at": "2026-10-31T00:05:26.153Z",
+    "captured_at": "2026-10-31T12:02:42.179Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/lets-get-free-house-elections",
-    "response_sha256": "307c6f2a1518a277193defafc1aca9761414a088c1484cca40d506b6dc103479",
+    "response_sha256": "3795a10c2194f898212c84f7d9a1284f7dcd8e3801127b59bb9137476d4e72c5",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002057id_/https://www.hrc.org/lets-get-free-house-elections",
+    "timestamp": "20261031002057",
+    "digest": "BWFX2HRTCXCXIF6I22LKYNXLYTJS7Z7W",
+    "origin": "requested",
+    "statements": {
+     "found": 45,
+     "of": 45
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -57,22 +69,32 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 848,
-    "captured_at": "2026-10-31T00:05:28.446Z",
+    "captured_at": "2026-10-31T12:02:44.672Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/lets-get-free-state-elections",
-    "response_sha256": "a758268d79daecc1b2725abb6c69d7fad27379329982e0c2ca89cb84e6eac0fb",
+    "response_sha256": "5bb80a868db98321e2cde770721e642defa10d3cf5d717dd177af2f0eb33aa03",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002106id_/https://www.hrc.org/lets-get-free-state-elections",
+    "timestamp": "20261031002106",
+    "digest": "AMGBIJ3XH3MMY3DWAPPACNO74FOFUPRS",
+    "origin": "requested",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -90,22 +112,32 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 849,
-    "captured_at": "2026-10-31T00:05:30.803Z",
+    "captured_at": "2026-10-31T12:02:46.991Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/press-releases/human-rights-campaign-endorses-a-slate-of-pro-equality-members-and-candidates-up-for-election-in-key-competitive-u-s-house-districts",
-    "response_sha256": "afb504aab08c66c2a1b5fc9b96a488389686c85660ee61c5166c6d4e0343991c",
+    "response_sha256": "a4aafd0667edf950cc3873ba8561d0e9113d41461bbd0a9961dc33ead979f25a",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021065958id_/https://www.hrc.org/press-releases/human-rights-campaign-endorses-a-slate-of-pro-equality-members-and-candidates-up-for-election-in-key-competitive-u-s-house-districts",
+    "timestamp": "20261021065958",
+    "digest": "AZBEYAM2A3ZDRMVB522JH224KKN5Y3MZ",
+    "origin": "existing",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

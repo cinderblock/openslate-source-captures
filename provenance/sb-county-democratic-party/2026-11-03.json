@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sbdems.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "sbdems.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1037,
-    "captured_at": "2026-10-31T00:05:48.376Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1039,
+    "captured_at": "2026-10-31T12:03:03.129Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sbdems.org/endorsements",
-    "response_sha256": "c5871b34f0a7eeaad02659b1cacdb190e7b1b0d8cad1f30202cce83b2e6e1faf",
+    "response_sha256": "15dd3e650a3de711328c31ac28570a24b8a6614b076e2a55a12eda2b33b85837",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031004034id_/https://www.sbdems.org/endorsements",
+    "timestamp": "20261031004034",
+    "digest": "OVVX5YPJMTWJ2BCFF4M7IE6QPJ4TIMDV",
+    "origin": "requested",
+    "statements": {
+     "found": 49,
+     "of": 49
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 18,

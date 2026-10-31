@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sfbg.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,22 +26,32 @@
     "org_host": "sfbg.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1068,
-    "captured_at": "2026-10-31T00:05:54.551Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1071,
+    "captured_at": "2026-10-31T12:03:08.731Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
-    "response_sha256": "16fd7276b11bfbb553a22e26c922a831347cf58e75d5da30272d142fc6c7c572",
+    "response_sha256": "8f665e94a88a2b129bcf0d2fbe8e15b37bb80409f6329174cb9f70e15e9fbc59",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261025182210id_/https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
+    "timestamp": "20261025182210",
+    "digest": "HRT2JHR4BLBXUBMY66XUSWSL2DQ63WF4",
+    "origin": "existing",
+    "statements": {
+     "found": 42,
+     "of": 42
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 42,
@@ -57,13 +69,13 @@
     "org_host": "sfbg.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1069,
-    "captured_at": "2026-10-31T00:05:56.629Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1072,
+    "captured_at": "2026-10-31T12:03:10.895Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfbg.com/2026/10/07/guardian-clean-slate-guide-take-this-to-the-polls-on-nov-3-2026/",
-    "response_sha256": "c0ec99ac49770eb5a01de38effc7362acbcbea08479e610dbe667734bd1ecf67",
+    "response_sha256": "a47850898c9a1773b743f465eb3af3ef8e3fe502541858a9926a6b6b6f6171f1",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -72,7 +84,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031004836id_/https://www.sfbg.com/2026/10/07/guardian-clean-slate-guide-take-this-to-the-polls-on-nov-3-2026/",
+    "timestamp": "20261031004836",
+    "digest": "XZUWBB54ASMWOH46PYB3WU7YZYBZK3JB",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

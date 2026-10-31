@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://standems.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "standems.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 586,
-    "captured_at": "2026-10-31T00:04:46.161Z",
+    "captured_at": "2026-10-31T12:01:59.982Z",
     "status": 200,
     "error": null,
     "final_url": "https://standems.org/endorsed-candidates",
-    "response_sha256": "2368546846d5566733ba567af44f04ca53922898b26e24f700b432e11ac31f26",
+    "response_sha256": "976a6e21f0ee0ad3522bee2c20d33efe1c922a5fa1cfcb48a7cdd48fcca00b2e",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sdlincolnclub.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,28 +26,29 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 525,
-    "captured_at": "2026-10-31T00:04:35.773Z",
+    "captured_at": "2026-10-31T12:01:48.899Z",
     "status": 200,
     "error": null,
     "final_url": "https://sdlincolnclub.com/endorsement-committee/",
-    "response_sha256": "f001f7d5c3bb7807debd684df95b2e1bd8008b18d66bc4017709c6ed466f76c2",
+    "response_sha256": "309536f7dbf63bf0ef2002dd8fb7e4715f411f3f19e9380b036e052ef8f0c166",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260518184704id_/https://sdlincolnclub.com/endorsement-committee/",
-    "timestamp": "20260518184704",
-    "digest": "AAEEBHRTLITYEGIFTJ4XTZQAAH7SRSSK",
+    "url": "https://web.archive.org/web/20261030225907id_/https://sdlincolnclub.com/endorsement-committee/",
+    "timestamp": "20261030225907",
+    "digest": "LDFQI7YCCYZYJZ7RZQXGMMAWXKLODWHM",
     "origin": "existing",
     "statements": {
-     "found": 0,
+     "found": 20,
      "of": 20
     }
    },
@@ -66,13 +69,13 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 141,
-    "captured_at": "2026-10-31T00:03:52.283Z",
+    "captured_at": "2026-10-31T12:01:08.832Z",
     "status": 200,
     "error": null,
     "final_url": "https://drive.google.com/file/d/1e_b4fKKa0L0pSywFKOb4v291Obu1sbS_/view?usp=sharing",
-    "response_sha256": "95be1e309d03f28a4db90ed699e2b4b6ddba35bfa5978fcb0da80cf114a43a35",
+    "response_sha256": "1829bbf5e31319b1cd832af71cbc7feac911d53a8602252a6e0cdcb9c62ad6eb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,7 +84,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "fa661dbe3021d9304f82444b0ca55ca637c1b8c114d0cb1fa80b82df2e2637da"
+     "dom_sha256": "a3922c3da84636db26dc72a6c54fc22b8b63e538a430143b2da5b2b20793dc10"
     }
    },
    "last_ok": null,

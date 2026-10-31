@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "http://www.milkclub.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "milkclub.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 0,
-    "captured_at": "2026-10-31T00:03:42.746Z",
+    "captured_at": "2026-10-31T12:00:58.276Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.milkclub.org/endorsements",
-    "response_sha256": "ecf6eb79abf5ea1cf2153500a08609544bb86e6da58072f05a079490a59d951f",
+    "response_sha256": "bf74e75c5dca9492dbd99afe65eb19d02c78ac54efe95760ecb0bbc8f02cd6a0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -39,13 +41,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
+    "run": "2026-10-31T0024Z",
     "index": 0,
-    "captured_at": "2026-10-30T17:31:14.493Z",
+    "captured_at": "2026-10-31T00:24:54.760Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.milkclub.org/endorsements",
-    "response_sha256": "fa326bc7e3506a3ad8d589525b9f2baf6ab6294df87d154aec7ed22a22900317",
+    "response_sha256": "ac5a33601a95d1ac5541fab85983f5334fdcaf80211dbd9156a24641b9435f9d",
     "bytes": "public",
     "claims": [
      "captured",

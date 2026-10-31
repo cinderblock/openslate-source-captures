@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sfyimby.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfyimby.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 542,
-    "captured_at": "2026-10-31T00:04:43.044Z",
+    "captured_at": "2026-10-31T12:01:56.454Z",
     "status": 404,
     "error": null,
     "final_url": "https://sfyimby.org/endorsements/2026-primary-election/",
-    "response_sha256": "279a6798f91b83569f0482b5de20a3faa78d971fc972c3b1315bba1f3f14d819",
+    "response_sha256": "2f1ed3e464fec1c7dc2112497af131aa3342e664994426c65a310a857cf3122f",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://sfbike.org/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,13 +26,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 530,
-    "captured_at": "2026-10-31T00:04:42.598Z",
+    "captured_at": "2026-10-31T12:01:56.100Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/our-work/bike-the-vote/",
-    "response_sha256": "5a093cd92e09a4289d08032f515548fcc10759df7c746ac7e1a3077c7235588c",
+    "response_sha256": "4e54b6ffda4ec12b1521d6ed482c48bb357f418cb739cdee7957604d16a625ee",
     "bytes": "public",
     "claims": [
      "captured",
@@ -40,13 +42,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
-    "index": 11,
-    "captured_at": "2026-10-30T17:31:20.639Z",
+    "run": "2026-10-31T0024Z",
+    "index": 13,
+    "captured_at": "2026-10-31T00:25:01.001Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfbike.org/our-work/bike-the-vote/",
-    "response_sha256": "23373cc39d2aa746587e106f446aef7b3e76b32d13c0472a23d1098d4524a60c",
+    "response_sha256": "b62ccf055e5794d09329ad37012d594d8fc2f25dfd5960261b4f6618171f55a4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,13 +83,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 528,
-    "captured_at": "2026-10-31T00:04:39.422Z",
+    "captured_at": "2026-10-31T12:01:52.942Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/news/vote-no-on-prop-g-save-sunset-dunes-park/",
-    "response_sha256": "4cb9dc45e2b6bd4918bfb9b9981a2755d401169816f321f8886a0d781ac4cd99",
+    "response_sha256": "662d075caabc2e6b7caa5ecdcf62518b2e88d71e1614761897c736f9ba5348a5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -96,13 +98,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
-    "index": 9,
-    "captured_at": "2026-10-30T17:31:16.616Z",
+    "run": "2026-10-31T0024Z",
+    "index": 11,
+    "captured_at": "2026-10-31T00:24:56.915Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfbike.org/news/vote-no-on-prop-g-save-sunset-dunes-park/",
-    "response_sha256": "4aa20d4b492f250cefe1b38e947830ce6005fdb80afa93f326710ab3f8c6a679",
+    "response_sha256": "f8864c6875f8c1a42770667966065d92cba6ccfb81b57edbd8b11d29af00aa7e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -127,13 +129,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 529,
-    "captured_at": "2026-10-31T00:04:41.016Z",
+    "captured_at": "2026-10-31T12:01:54.518Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/",
-    "response_sha256": "2b707ca5a11d0098009632d4ab6954333dfbe7a6208a752c3a42882699769998",
+    "response_sha256": "56677ef25bc478aafec539b6997008a160c20f9a4d6b4b22213391194c449b29",
     "bytes": "public",
     "claims": [
      "captured",
@@ -142,13 +144,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
-    "index": 10,
-    "captured_at": "2026-10-30T17:31:18.318Z",
+    "run": "2026-10-31T0024Z",
+    "index": 12,
+    "captured_at": "2026-10-31T00:24:58.980Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/",
-    "response_sha256": "8cfd48bec367130b114a4f4a0b7a762062cb57551fd53535ea6ca84c46374926",
+    "response_sha256": "8d7be922a7c2e2b3fd81d44e4f1c6d55ff0e0207af1cff44f02f4935271dd50e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -173,13 +175,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
+    "run": "2026-10-31T1200Z",
     "index": 527,
-    "captured_at": "2026-10-31T00:04:37.684Z",
+    "captured_at": "2026-10-31T12:01:51.100Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/news/endorsing-scott-wiener-for-congress/",
-    "response_sha256": "6fb07f262c972c3e0813d23a5684e742f44e817740345f6e8602cffea0edfff7",
+    "response_sha256": "861b23953666988f490e57c02db7b51092162915bea345717f5a49a7efb70799",
     "bytes": "public",
     "claims": [
      "captured",
@@ -188,13 +190,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-30T1731Z",
-    "index": 8,
-    "captured_at": "2026-10-30T17:31:14.397Z",
+    "run": "2026-10-31T0024Z",
+    "index": 10,
+    "captured_at": "2026-10-31T00:24:54.626Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfbike.org/news/endorsing-scott-wiener-for-congress/",
-    "response_sha256": "acdd1f0691b02b1720de66842b5cbccf284eabd8cebd3635a50076ce736f9e99",
+    "response_sha256": "94fe6f10c77a4f62b7460a3b8e5329ec0f66c98f488ef6242f7242cf0c4017e8",
     "bytes": "public",
     "claims": [
      "captured",

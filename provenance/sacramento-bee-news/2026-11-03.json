@@ -5,13 +5,15 @@
  "mode": "scraped",
  "org_uri": "https://www.sacbee.com/",
  "generated_from": {
-  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
    "2026-10-30T1747Z",
    "2026-10-30T1808Z",
-   "2026-10-31T0003Z"
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z"
   ]
  },
  "sources": [
@@ -24,9 +26,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1008,
-    "captured_at": "2026-10-31T00:06:12.669Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1010,
+    "captured_at": "2026-10-31T12:03:26.962Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/election/",
@@ -39,11 +41,16 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "1294e2cd2a4d76c413aa1d30f1a7433ab59c72121f50e608338b3c122bb9ba9b"
+     "dom_sha256": "07fbf8d878db554e2f6d763211d23ac0505e4b5e6b9777a439337d00ec032930"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002929id_/https://www.sacbee.com/news/politics-government/election/",
+    "timestamp": "20261031002929",
+    "digest": "C54GK6423SP7NH4VLM6LBEXHWVPBRFWR",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -62,9 +69,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1007,
-    "captured_at": "2026-10-31T00:05:41.168Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1009,
+    "captured_at": "2026-10-31T12:02:55.461Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
@@ -77,11 +84,16 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "41ff20d2736bdfd404b76ed4d74f7d5f0609201312eeef45cb685f2e903ce930"
+     "dom_sha256": "591298e13376060ac949aab850a66ba5bbc2cd893b73f7a4e25b19190c2e112a"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031002842id_/https://www.sacbee.com/news/politics-government/capitol-alert/",
+    "timestamp": "20261031002842",
+    "digest": "DSKWZKL2GRYZENWTPQE5YPHH5UPFHSLE",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -100,9 +112,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-10-31T0003Z",
-    "index": 1022,
-    "captured_at": "2026-10-31T00:13:33.708Z",
+    "run": "2026-10-31T1200Z",
+    "index": 1024,
+    "captured_at": "2026-10-31T12:10:48.001Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/search/",
@@ -115,11 +127,16 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "35cd7d7efdb29f1422703222cd5f8b0e29a4db498a610f678e5053fb0c40affd"
+     "dom_sha256": "7803f8603b991c5df44cde6fd315ecb2bacfb05d3d52e74e9adf46478c52ed1b"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031003508id_/https://www.sacbee.com/search/",
+    "timestamp": "20261031003508",
+    "digest": "ZVCZUUQXKPHH25OPFMFNMSRA7MEGOOVL",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
