@@ -100,7 +100,9 @@ const pageOf = (url: string) => url.split("#")[0] as string;
 
 export function pagesOf(sources: SourceList["sources"]) {
   const pages = new Map<string, { urls: string[]; cited: boolean }>();
-  for (const { url, origin } of sources) {
+  for (const { url, origin, post } of sources) {
+    // Wayback saves what a GET returns, and this source only answers a POST.
+    if (post) continue;
     const page = pages.get(pageOf(url)) ?? { urls: [], cited: false };
     page.urls.push(url);
     page.cited ||= origin === "cited";

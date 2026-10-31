@@ -6,7 +6,8 @@ import { classify } from "./publish";
 import { bodyText, isThinHtml, responseText, THIN_CHARACTERS } from "./readable";
 import { rebuildResponse } from "./render";
 import { withoutFragment } from "./run";
-import { buildSources, type SourceList } from "./sources";
+import { requestBytes } from "./capture";
+import { buildSources, documentsIn, type SourceList } from "./sources";
 
 const http = (body: string, extra = "") =>
   Buffer.from(`HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n${extra}\r\n${body}`);
@@ -49,6 +50,66 @@ describe("buildSources", () => {
     );
   });
 
+  test("finds documents in notes, and no pages", () => {
+    const notes = [
+      "Read off https://cdn.club.org/card.png, and [the list](https://club.org/list.PDF#page=2).",
+      "From https://club.org/endorsements and https://cdn.club.org/card.png.",
+    ];
+    expect(documentsIn(notes)).toEqual(["https://cdn.club.org/card.png", "https://club.org/list.PDF"]);
+  });
+
+  test("a transcribed slate's documents are listed, and an inferred slate's aren't", () => {
+    const notes = ["https://cdn.example/card.png"];
+    const sources = buildSources(
+      [
+        { id: "read/2026-11-03", bundle: { attribution: { mode: "transcribed" } }, notes },
+        { id: "other/2026-11-03", bundle: { attribution: { mode: "inferred" } }, notes },
+      ],
+      [],
+    );
+    expect(sources).toEqual([
+      {
+        url: "https://cdn.example/card.png",
+        cited_by: ["read/2026-11-03"],
+        positions: 0,
+        publish: "public",
+        origin: "evidence",
+      },
+    ]);
+  });
+
+  test("a paper's document stays private without taking the rest of its CDN with it", () => {
+    const sources = buildSources(
+      [
+        {
+          id: "a-paper/2026-11-03",
+          bundle: { attribution: { mode: "transcribed", of: { kind: "news_organization" } } },
+          notes: ["https://cdn.example/page.png"],
+        },
+        {
+          id: "a-club/2026-11-03",
+          bundle: { attribution: { mode: "transcribed" } },
+          notes: ["https://cdn.example/card.png"],
+        },
+      ],
+      [],
+    );
+    expect(sources.map(({ url, publish }) => [url, publish])).toEqual([
+      ["https://cdn.example/card.png", "public"],
+      ["https://cdn.example/page.png", "withheld"],
+    ]);
+  });
+
+  test("a discovered POST keeps its body, and a cited URL isn't relabelled", () => {
+    const entry = { found_behind: "https://club.org/x", cited_by: ["a-club/2026-11-03"], note: "More." };
+    const sources = buildSources(bundles, [
+      { ...entry, url: "https://club.org/ajax", post: "action=more" },
+      { ...entry, url: "https://club.org/x" },
+    ]);
+    expect(sources.find(({ url }) => url.endsWith("ajax"))?.post).toBe("action=more");
+    expect(sources.find(({ url }) => url.endsWith("/x"))?.origin).toBe("cited");
+  });
+
   test("a discovered URL says it was discovered, and why", () => {
     const sources = buildSources(bundles, [
       {
@@ -61,6 +122,23 @@ describe("buildSources", () => {
     const found = sources.find(({ url }) => url.endsWith("data.json"));
     expect(found?.origin).toBe("discovered");
     expect(found?.note).toContain("https://club.org/x");
+  });
+});
+
+describe("requestBytes", () => {
+  const options = { userAgent: "test" };
+  const url = new URL("https://club.org/ajax?x=1");
+
+  test("a plain request has no body", () => {
+    expect(requestBytes(url, options).toString()).toStartWith("GET /ajax?x=1 HTTP/1.1\r\n");
+    expect(requestBytes(url, options).toString()).toEndWith("Connection: close\r\n\r\n");
+  });
+
+  test("a POST says how long its body is, and sends it", () => {
+    const sent = requestBytes(url, { ...options, post: "city=Mar\u00edn" }).toString();
+    expect(sent).toStartWith("POST /ajax?x=1 HTTP/1.1\r\n");
+    expect(sent).toContain("Content-Length: 11\r\n");
+    expect(sent).toEndWith("Connection: close\r\n\r\ncity=Mar\u00edn");
   });
 });
 

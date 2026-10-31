@@ -1,7 +1,8 @@
 #!/usr/bin/env bun
-// Generate sources.json: every URL a published slate cites, plus any data URLs a human found behind
-// a page (discovered.json). Mechanical on purpose: selection is the one place a capture system can
-// cherry-pick, so it's a pure function of a public commit, and a run reads the committed result.
+// Generate sources.json: every URL a published slate cites, every document named in a transcribed
+// slate's evidence notes, plus any data URLs a human found behind a page (discovered.json). Mechanical
+// on purpose: selection is the one place a capture system can cherry-pick, so it's a pure function of
+// a public commit, and a run reads the committed result.
 //
 //   bun src/sources.ts <openslate-public-endorsements checkout>
 //
@@ -22,9 +23,14 @@ export interface Source {
   cited_by: string[];
   positions: number;
   publish: "public" | "withheld";
-  /** "discovered" if a human added it, with why, in discovered.json. */
-  origin: "cited" | "discovered";
+  /**
+   * "evidence" if a transcribed slate's notes name this document, "discovered" if a human added it,
+   * with why, in discovered.json.
+   */
+  origin: "cited" | "evidence" | "discovered";
   note?: string;
+  /** Form body, for the rare source a page only gets by POST. Absent means a plain GET. */
+  post?: string;
 }
 
 export interface SourceList {
@@ -34,7 +40,7 @@ export interface SourceList {
 }
 
 interface Bundle {
-  attribution?: { sources?: string[]; of?: { kind?: string } };
+  attribution?: { sources?: string[]; mode?: string; of?: { kind?: string } };
   positions?: { source?: string }[];
 }
 
@@ -44,6 +50,29 @@ export interface Discovered {
   found_behind: string;
   cited_by: string[];
   note: string;
+  post?: string;
+}
+
+const DOCUMENT = /\.(pdf|png|jpe?g|webp|gif)$/i;
+
+/**
+ * Pure: the documents named in a slate's evidence notes. A transcribed slate was read off these, so
+ * they're the source in fact, whatever page the positions cite. Every one counts, with no judging
+ * which is the list: that keeps a stray logo, and keeps this from being a choice.
+ */
+export function documentsIn(notes: string[]): string[] {
+  const found = new Set<string>();
+  for (const note of notes) {
+    for (const [match] of note.matchAll(/https?:\/\/[^\s"'<>)\]`|]+/g)) {
+      const url = match.replace(/#.*$/, "").replace(/[.,;:*]+$/, "");
+      try {
+        if (DOCUMENT.test(new URL(url).pathname)) found.add(url);
+      } catch {
+        // Not a URL after all.
+      }
+    }
+  }
+  return [...found];
 }
 
 const hostOf = (url: string) => {
@@ -56,12 +85,14 @@ const hostOf = (url: string) => {
 
 /** Pure: bundles in, source list out, sorted so the same input always gives the same bytes. */
 export function buildSources(
-  bundles: { id: string; bundle: Bundle }[],
+  bundles: { id: string; bundle: Bundle; notes?: string[] }[],
   discovered: Discovered[],
   extraWithheld: string[] = [],
 ): Source[] {
   const byUrl = new Map<string, Source>();
   const newsHosts = new Set<string>(extraWithheld);
+  // A shared CDN isn't a paper's own host, so these go one URL at a time.
+  const newsDocuments = new Set<string>();
   for (const { id, bundle } of bundles) {
     const counts = new Map<string, number>();
     for (const url of bundle.attribution?.sources ?? []) counts.set(url, counts.get(url) ?? 0);
@@ -83,7 +114,18 @@ export function buildSources(
       byUrl.set(url, entry);
     }
   }
-  for (const { url, cited_by, found_behind, note } of discovered) {
+  for (const { id, bundle, notes } of bundles) {
+    if (bundle.attribution?.mode !== "transcribed") continue;
+    const news = NEWS_KINDS.has(bundle.attribution.of?.kind ?? "");
+    for (const url of documentsIn(notes ?? [])) {
+      if (news) newsDocuments.add(url);
+      const entry = byUrl.get(url);
+      if (entry?.cited_by.includes(id)) continue;
+      if (entry) entry.cited_by.push(id);
+      else byUrl.set(url, { url, cited_by: [id], positions: 0, publish: "public", origin: "evidence" });
+    }
+  }
+  for (const { url, cited_by, found_behind, note, post } of discovered) {
     const known = byUrl.get(url);
     if (known) {
       known.note = `${note} Found behind ${found_behind}.`;
@@ -96,13 +138,17 @@ export function buildSources(
       publish: "public",
       origin: "discovered",
       note: `${note} Found behind ${found_behind}.`,
+      ...(post ? { post } : {}),
     });
   }
   return [...byUrl.values()]
     .map((source) => ({
       ...source,
       cited_by: [...source.cited_by].sort(),
-      publish: newsHosts.has(hostOf(source.url)) ? ("withheld" as const) : ("public" as const),
+      publish:
+        newsHosts.has(hostOf(source.url)) || newsDocuments.has(source.url)
+          ? ("withheld" as const)
+          : ("public" as const),
     }))
     .sort((a, b) => (a.url < b.url ? -1 : 1));
 }
@@ -110,14 +156,21 @@ export function buildSources(
 if (import.meta.main) {
   const root = process.argv[2];
   if (!root) throw new Error("usage: sources.ts <endorsements checkout>");
-  const bundles: { id: string; bundle: Bundle }[] = [];
+  const bundles: { id: string; bundle: Bundle; notes: string[] }[] = [];
   for (const org of readdirSync(join(root, "orgs"))) {
     const orgDir = join(root, "orgs", org);
     if (!statSync(orgDir).isDirectory()) continue;
     for (const election of readdirSync(orgDir)) {
       const file = join(orgDir, election, "positions.json");
       if (!existsSync(file)) continue;
-      bundles.push({ id: `${org}/${election}`, bundle: JSON.parse(readFileSync(file, "utf8")) });
+      const evidence = join(orgDir, election, "evidence");
+      const notes = existsSync(evidence)
+        ? readdirSync(evidence)
+            .filter((name) => name.endsWith(".md"))
+            .sort()
+            .map((name) => readFileSync(join(evidence, name), "utf8"))
+        : [];
+      bundles.push({ id: `${org}/${election}`, bundle: JSON.parse(readFileSync(file, "utf8")), notes });
     }
   }
   const discovered: Discovered[] = existsSync("discovered.json")

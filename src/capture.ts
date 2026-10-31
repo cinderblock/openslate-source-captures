@@ -45,6 +45,8 @@ export interface CaptureOptions {
   idleMs?: number;
   /** Give up after this long regardless. */
   totalMs?: number;
+  /** Form body. Sent once: a redirect is followed with a plain GET, as a browser does. */
+  post?: string;
 }
 
 function peerChain(socket: TLSSocket): string[] {
@@ -60,13 +62,18 @@ function peerChain(socket: TLSSocket): string[] {
 }
 
 export function requestBytes(url: URL, options: CaptureOptions): Buffer {
+  const { post } = options;
   return Buffer.from(
-    `GET ${url.pathname}${url.search} HTTP/1.1\r\n` +
+    `${post === undefined ? "GET" : "POST"} ${url.pathname}${url.search} HTTP/1.1\r\n` +
       `Host: ${url.host}\r\n` +
       `User-Agent: ${options.userAgent}\r\n` +
       `Accept: ${options.accept ?? "*/*"}\r\n` +
       "Accept-Encoding: gzip\r\n" +
-      "Connection: close\r\n\r\n",
+      (post === undefined
+        ? ""
+        : "Content-Type: application/x-www-form-urlencoded\r\n" +
+          `Content-Length: ${Buffer.byteLength(post)}\r\n`) +
+      `Connection: close\r\n\r\n${post ?? ""}`,
   );
 }
 
@@ -219,7 +226,7 @@ export async function capture(target: string, options: CaptureOptions): Promise<
   const hops: Exchange[] = [];
   let url = target;
   for (let i = 0; i <= (options.maxRedirects ?? 5); i++) {
-    const hop = await exchange(url, options);
+    const hop = await exchange(url, i === 0 ? options : { ...options, post: undefined });
     hops.push(hop);
     const parsed = parseResponse(hop.response);
     const location = header(parsed, "location");

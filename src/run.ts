@@ -50,6 +50,7 @@ if (import.meta.main) {
   const sourcesBytes = readFileSync("sources.json");
   const list = JSON.parse(sourcesBytes.toString("utf8")) as SourceList;
   const intended = list.sources.map(({ url }) => url).filter((url) => !only || only.has(hostOf(url)));
+  const posts = new Map(list.sources.flatMap(({ url, post }) => (post ? [[url, post]] : [])) as [string, string][]);
 
   const started_at = new Date().toISOString();
   // Read before fetching: this describes the code that ran, whatever happens to the tree later.
@@ -80,8 +81,8 @@ if (import.meta.main) {
         const known = fetched.get(resource);
         const hops =
           known ??
-          (await capture(resource, { userAgent: USER_AGENT, accept: ACCEPT })).map((hop) =>
-            recordHop(blobs, hop),
+          (await capture(resource, { userAgent: USER_AGENT, accept: ACCEPT, post: posts.get(url) })).map(
+            (hop) => recordHop(blobs, hop),
           );
         fetched.set(resource, hops);
         results.set(url, { intended: url, hops });

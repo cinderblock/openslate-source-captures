@@ -7,7 +7,7 @@
 //   bun src/discover.ts --names "Ann Lee,Bob Ruiz" <url>
 //
 // It proposes, a person decides. This never edits the capture list: anything worth keeping goes in
-// discovered.json by hand, and capture stays a plain GET. Bodies are measured and thrown away, so
+// discovered.json by hand. Capture only sends a POST that entry spells out. Bodies are measured and thrown away, so
 // the report holds URLs and counts only. It speaks to Chrome over the DevTools Protocol directly,
 // which needs no dependency and no browser download, and uses a throwaway profile.
 

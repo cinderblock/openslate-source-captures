@@ -22,10 +22,14 @@ server sent at all, so none is claimed.
 - Whole responses, verbatim. No filtering, cleaning or byte ranges.
 - Every intended URL gets an outcome, including errors, timeouts, 403s and stubs.
 - The same tool, rules and honest user agent for every organization.
-- The URL list is generated mechanically from the published slates (`src/sources.ts`).
+- The URL list is generated mechanically from the published slates (`src/sources.ts`). When a slate
+  was transcribed from images or PDFs, every document its evidence notes name is on the list too, so
+  what was read gets captured, not only the page around it. Nobody picks which.
 - No model anywhere in capture or verification.
 
-Each URL is requested once per run, at most one at a time per host. A file cited with several
+Each URL is requested once per run, at most one at a time per host. Requests are GETs, except an
+entry in `discovered.json` that spells out a form body: that's the same POST the page's own button
+sends, and the saved request bytes show it. A file cited with several
 `#page=` fragments is one request.
 
 ### Hosts that don't answer a plain GET
@@ -90,8 +94,8 @@ bun web/e2e.ts out/smoke [<checkout>]                         # drive that page 
 ```
 
 `discover.ts` loads a page once in headless Chrome and reports which responses hold the names the
-slate expects. It only proposes: a person adds what's worth keeping to `discovered.json`, and capture
-stays a plain GET. `discovery-report.md` records the last pass and what still needs a person.
+slate expects. It only proposes: a person adds what's worth keeping to `discovered.json`.
+`discovery-report.md` records the last pass and what still needs a person.
 
 Runs on Windows without WSL and on GitHub Actions.
 
