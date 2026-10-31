@@ -1,12 +1,12 @@
 import { describe, expect, test } from "bun:test";
-import { parseResponse } from "./capture";
+import { blockedHosts } from "./blocked";
+import { parseResponse, requestBytes } from "./capture";
 import type { Manifest } from "./manifest";
 import { hostFact } from "./provenance";
 import { classify } from "./publish";
 import { bodyText, isThinHtml, responseText, THIN_CHARACTERS } from "./readable";
 import { rebuildResponse } from "./render";
 import { withoutFragment } from "./run";
-import { requestBytes } from "./capture";
 import { buildSources, documentsIn, type SourceList } from "./sources";
 
 const http = (body: string, extra = "") =>
@@ -237,5 +237,21 @@ describe("reading stored bytes", () => {
   test("a broken stream reports why instead of throwing", async () => {
     const result = await responseText(http("not gzip", "Content-Encoding: gzip\r\n"));
     expect(result).toHaveProperty("reason");
+  });
+});
+
+describe("blockedHosts", () => {
+  const capture = (intended: string, status: number | null) =>
+    ({ intended, hops: [{ status }] }) as unknown as Manifest["captures"][number];
+
+  test("a refusal or silence counts, and a page that's gone doesn't", () => {
+    const captures = [
+      capture("https://read.org/a", 200),
+      capture("https://gone.org/a", 404),
+      capture("https://WWW.refused.org/a", 403),
+      capture("https://challenged.org/a", 202),
+      capture("https://silent.org/a", null),
+    ];
+    expect(blockedHosts(captures)).toEqual(["challenged.org", "silent.org", "www.refused.org"]);
   });
 });
