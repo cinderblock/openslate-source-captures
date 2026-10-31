@@ -42,11 +42,18 @@ looked at, Abundant Housing LA's 48 cards for one.
 | `www.alamedagop.org/posts/2026-10-11-voter-guide-statewide` | `county_voter_guide.png` is the statewide guide, and `alameda_county_candidates.png` the county list. Both read and confirmed | By rule |
 | `workingfamilies.org/states/california/` | The list is in one table, not spread across posts. The page holds 10 rows, and its View More button POSTs for the rest | The POST is in `discovered.json`. One request held all 31 names |
 
-## Still open
+## Resolved on a third pass
 
-Three transcribed slates' evidence notes name no document: `newport-beach-city-clerk`,
-`riverside-county-republican-party`, `sf-department-of-elections`. What they were read from wasn't
-looked into.
+Three transcribed slates' evidence notes named no document. Checked on 2026-10-30, about 5:45 PM PDT
+(2026-10-31 00:45Z). One was read from images, and two turned out not to be transcribed at all.
+
+| Slate | Read from | Now |
+| --- | --- | --- |
+| `riverside-county-republican-party` | Eight JPEGs of its guide, which its positions already cite. The notes named them by relative path, which the rule can't read | Its notes give full URLs, adding the guide's cover and PDF, which the next run captures |
+| `sf-department-of-elections` | The HTML text of two sf.gov pages. No document | Says `scraped`, and cites the ranked-choice page its `ballot.ranks` comes from |
+| `newport-beach-city-clerk` | The HTML text of the city's page. No document | Says `scraped` |
+
+Details are in each slate's `evidence/NOTES.md`.
 
 ## Nothing found
 
