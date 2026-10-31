@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 31 Oct 2026 00:04:59 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=3600
+expires: Sat, 31 Oct 2026 00:51:47 GMT
+location: https://workingfamilies.org/state/california/
+Server: cloudflare
+strict-transport-security: max-age=300
+x-pantheon-styx-hostname: styx-us-a-75b4b7ff76-8sp8c
+x-redirect-by: WordPress
+x-styx-req-id: de4975ca-d4bc-11f1-8a96-d2438d80e022
+x-served-by: cache-chi-kigq8000089-CHI, cache-dfw-kdfw8210022-DFW
+x-cache: HIT, MISS
+x-cache-hits: 2, 0
+x-timer: S1793405100.607374,VS0,VE32
+vary: Cookie, Cookie
+Age: 792
+Accept-Ranges: bytes
+via: 1.1 varnish, 1.1 varnish
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=13,cfOrigin;dur=33
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UUVdrSQsBb99M5ms5MACW11x9T5udk6fW2yBuQxO3tWnftwMWDbmtDnKtLepu0WfVGZVvlvzkspubN1lxzi2nbaR1Ruu654AMgxLM89xui%2BEj%2FIdaKEOSHsFd9nd1DHOcqbqoR%2BR"}]}
+CF-RAY: a52e67d07b1af789-DFW
+alt-svc: h3=":443"; ma=86400
+
+0
+

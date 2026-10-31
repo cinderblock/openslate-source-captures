@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://standems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,32 @@
     "org_host": "standems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 477,
-    "captured_at": "2026-10-30T17:47:51.447Z",
+    "run": "2026-10-31T0003Z",
+    "index": 586,
+    "captured_at": "2026-10-31T00:04:46.161Z",
     "status": 200,
     "error": null,
     "final_url": "https://standems.org/endorsed-candidates",
-    "response_sha256": "bbb0a218cae25a30644e22e79441740a098faea98f59f38655940a939b0fd0d1",
+    "response_sha256": "2368546846d5566733ba567af44f04ca53922898b26e24f700b432e11ac31f26",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021161315id_/https://standems.org/endorsed-candidates",
+    "timestamp": "20261021161315",
+    "digest": "FQHB335H2VEPOUI2ANK3RELAJLSNN3SA",
+    "origin": "existing",
+    "statements": {
+     "found": 27,
+     "of": 27
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 25,

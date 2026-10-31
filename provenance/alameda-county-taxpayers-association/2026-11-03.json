@@ -5,11 +5,13 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 3,
-    "captured_at": "2026-10-30T17:47:05.657Z",
+    "run": "2026-10-31T0003Z",
+    "index": 5,
+    "captured_at": "2026-10-31T00:03:42.456Z",
     "status": 200,
     "error": null,
     "final_url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
-    "response_sha256": "723b6af088d1b23ed7e4d1e5398ff46b1d85a6c4e6317ba564b39ed8f1c94074",
+    "response_sha256": "e86b3980f45c2b235c8245a7ac99daeffc3588277abef5193f22d6bc454c7f10",
     "bytes": "release",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261015055925id_/https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=759",
+    "timestamp": "20261015055925",
+    "digest": "XB2MZMDWCT2J5CTNW2477ZWJLHYTMAWM",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,13 +65,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 4,
-    "captured_at": "2026-10-30T17:47:05.657Z",
+    "run": "2026-10-31T0003Z",
+    "index": 6,
+    "captured_at": "2026-10-31T00:03:42.456Z",
     "status": 200,
     "error": null,
     "final_url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
-    "response_sha256": "723b6af088d1b23ed7e4d1e5398ff46b1d85a6c4e6317ba564b39ed8f1c94074",
+    "response_sha256": "e86b3980f45c2b235c8245a7ac99daeffc3588277abef5193f22d6bc454c7f10",
     "bytes": "release",
     "claims": [
      "captured",
@@ -70,7 +80,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261015055925id_/https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=760",
+    "timestamp": "20261015055925",
+    "digest": "XB2MZMDWCT2J5CTNW2477ZWJLHYTMAWM"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -88,13 +102,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 22,
-    "captured_at": "2026-10-30T17:47:05.657Z",
+    "run": "2026-10-31T0003Z",
+    "index": 24,
+    "captured_at": "2026-10-31T00:03:42.456Z",
     "status": 200,
     "error": null,
     "final_url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
-    "response_sha256": "723b6af088d1b23ed7e4d1e5398ff46b1d85a6c4e6317ba564b39ed8f1c94074",
+    "response_sha256": "e86b3980f45c2b235c8245a7ac99daeffc3588277abef5193f22d6bc454c7f10",
     "bytes": "release",
     "claims": [
      "captured",
@@ -103,7 +117,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261015055925id_/https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=961",
+    "timestamp": "20261015055925",
+    "digest": "XB2MZMDWCT2J5CTNW2477ZWJLHYTMAWM",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

@@ -5,11 +5,13 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 825,
-    "captured_at": "2026-10-30T17:48:44.880Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1050,
+    "captured_at": "2026-10-31T00:05:52.955Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-235.pdf",
-    "response_sha256": "a8b735b0ae1af357c21504252c0346447d39e2ea04af3fb84097c04af1df9764",
+    "response_sha256": "b1f415437126644a283d1a1cdd2d75dfc1aba55ae8703a14a1dc263611ea9143",
     "bytes": "release",
     "claims": [
      "captured",

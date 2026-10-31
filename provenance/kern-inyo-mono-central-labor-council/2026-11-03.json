@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/Kern-Inyo-and-Mono-Counties-Central-Labor-Council-264507513370/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,32 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 58,
-    "captured_at": "2026-10-30T17:47:12.624Z",
+    "run": "2026-10-31T0003Z",
+    "index": 64,
+    "captured_at": "2026-10-31T00:03:53.264Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/2026G-CLC-web-endorsements-2.csv",
-    "response_sha256": "219370599c2b4f7ca97eadd6c63d5b84328f74ce917ebcac5c431553ed1cde80",
+    "response_sha256": "e90ce77976fad51ca24fa793584639a24cca855440e206cec680d0698b46dd72",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030214356id_/https://calaborfed.org/wp-content/uploads/2026/10/2026G-CLC-web-endorsements-2.csv",
+    "timestamp": "20261030214356",
+    "digest": "FVMKVCDZIODGAR4AWUBVHKFDD75PRYWR",
+    "origin": "requested",
+    "statements": {
+     "found": 19,
+     "of": 19
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -55,13 +67,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 55,
-    "captured_at": "2026-10-30T17:47:07.672Z",
+    "run": "2026-10-31T0003Z",
+    "index": 60,
+    "captured_at": "2026-10-31T00:03:45.863Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/labor-2026-primary-election-endorsements/",
-    "response_sha256": "a71341736c3050f7fe866c46ce5ecfbb4e78932d07834073a8e36530e44cc4fa",
+    "response_sha256": "c13e387d4ba3c4d5a07589434c6a51220462c026a566bb0399b968a2a1ae2faf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,7 +82,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260512051135id_/https://calaborfed.org/labor-2026-primary-election-endorsements/",
+    "timestamp": "20260512051135",
+    "digest": "ZNIJG3KDPV67GATPIYAKXLAC2OHAJPN4"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.ufcwwest.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "ufcwwest.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 891,
-    "captured_at": "2026-10-30T17:48:56.693Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1116,
+    "captured_at": "2026-10-31T00:06:05.020Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ufcwwest.org/ufcwvotes/",
-    "response_sha256": "0207378fc451953ea56abbe38817fdbc7a71ab5b7b644abba4291716a947886a",
+    "response_sha256": "5b16f15a694f1f72bff570e0e2d4e50d1afa5d89b140cf835f6509bbc5f0174d",
     "bytes": "public",
     "claims": [
      "captured",

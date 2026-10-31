@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://westsidefamilysf.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "westsidefamilysf.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 612,
-    "captured_at": "2026-10-30T17:47:58.141Z",
+    "run": "2026-10-31T0003Z",
+    "index": 774,
+    "captured_at": "2026-10-31T00:04:58.500Z",
     "status": 200,
     "error": null,
     "final_url": "https://westsidefamilysf.com/current-endorsements",
-    "response_sha256": "8ec2b0903b86c067f63880cdc40db1a94ca4d18f39ff3079d3082e10f1ad78f3",
+    "response_sha256": "77d4443d3dcc95e15f0c165ef7ca8242b23c37e00d19f5a6c99e42c406c9a85d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261017100119id_/https://westsidefamilysf.com/current-endorsements",
+    "timestamp": "20261017100119",
+    "digest": "YSKZLBR3VIWIPECNGHK3VIWLR4BNGPRC",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 23,

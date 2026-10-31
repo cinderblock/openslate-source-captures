@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://growsf.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "growsf.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 176,
-    "captured_at": "2026-10-30T17:47:19.971Z",
+    "run": "2026-10-31T0003Z",
+    "index": 193,
+    "captured_at": "2026-10-31T00:03:58.524Z",
     "status": 200,
     "error": null,
     "final_url": "https://growsf.org/voter-guide/",
-    "response_sha256": "1833d4f17ec13e112387142dfa89db24f922df3467a10dfd4d07da383a33de17",
+    "response_sha256": "d81a96c38968059c19c2d6388c4a2af487d0767339906d1bd5e3f3d4e9c9b4e9",
     "bytes": "public",
     "claims": [
      "captured",

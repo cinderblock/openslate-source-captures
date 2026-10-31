@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.streetsforall.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "streetsforall.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 883,
-    "captured_at": "2026-10-30T17:48:54.421Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1108,
+    "captured_at": "2026-10-31T00:06:01.845Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.streetsforall.org/2026",
-    "response_sha256": "07a53cda9fe305409f6dd959455cc9d83634e196a6aabcc26cc5bdd256a709b4",
+    "response_sha256": "6e33dffc579df3feab33c30d8c4836203111b33b3b69039e21543a9b2cb9084f",
     "bytes": "public",
     "claims": [
      "captured",

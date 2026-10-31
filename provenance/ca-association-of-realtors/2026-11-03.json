@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.car.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "car.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 647,
-    "captured_at": "2026-10-30T17:48:06.750Z",
+    "run": "2026-10-31T0003Z",
+    "index": 810,
+    "captured_at": "2026-10-31T00:05:09.739Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.car.org/advocacy/stategovernmentaffairs/Ballot-Measures",
-    "response_sha256": "ba0c10facd69f12ba93d4eef2945daed83e198a53eb623e2c7e1bc0a596febc8",
+    "response_sha256": "ca1cce17fc641d9de9753c3bdc6d05f5699cb6b6acc21429115278cd20b4bf4f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261020000935id_/https://www.car.org/advocacy/stategovernmentaffairs/Ballot-Measures",
+    "timestamp": "20261020000935",
+    "digest": "F2DSR5LMIFHMV3BQCB52X6IKRESH3XQI",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 12,

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://stangop.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "stangop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 478,
-    "captured_at": "2026-10-30T17:47:51.527Z",
+    "run": "2026-10-31T0003Z",
+    "index": 587,
+    "captured_at": "2026-10-31T00:04:47.827Z",
     "status": 200,
     "error": null,
     "final_url": "https://stangop.org/endorsements/",
-    "response_sha256": "d1dd0d8597e830ca478395960fe55729ef2c4e4cfa8e77377ea64f7982bdb117",
+    "response_sha256": "bf19cf9433e7d8cf425ea603606268daac1863e6f799dcb8f1af5e0b8ebfd25a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260615021602id_/https://stangop.org/endorsements/",
+    "timestamp": "20260615021602",
+    "digest": "3OPKPLO2XHQSRDPTVKBYZY4JGNNJ54FB",
+    "origin": "existing",
+    "statements": {
+     "found": 6,
+     "of": 43
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 41,
@@ -55,13 +66,13 @@
     "org_host": "stangop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 479,
-    "captured_at": "2026-10-30T17:47:53.598Z",
+    "run": "2026-10-31T0003Z",
+    "index": 588,
+    "captured_at": "2026-10-31T00:04:49.754Z",
     "status": 200,
     "error": null,
     "final_url": "https://stangop.org/voter-guide/",
-    "response_sha256": "b95dc7f9a77bbe31e1e3ef0c2c3faaae36aff4b71b2f42e867290fe0cc94631d",
+    "response_sha256": "0d2be86bdf199faacb83a6422829ad5ffa02c8be569e44f2913fcc89774c0284",
     "bytes": "public",
     "claims": [
      "captured",

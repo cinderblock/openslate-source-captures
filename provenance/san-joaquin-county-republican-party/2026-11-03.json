@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://www.sjgop.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,19 +24,23 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 869,
-    "captured_at": "2026-10-30T17:48:50.113Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1094,
+    "captured_at": "2026-10-31T00:05:58.315Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sjgop.org/endorsements",
-    "response_sha256": "fdfef110ae5b15afcbc96e1ea3a6de2da3952c1f9a3a9c717932843e38ce4453",
+    "response_sha256": "dcd1d2dbe67bfa4aeb761f5d9ea0adff1eea0c3d13f30c7698b26315c87f5830",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "590e3d28a74d64c607c438fbeb9ff2a151a15d0bead6d3b36e37c7d925b8000f"
+    }
    },
    "last_ok": null,
    "archived": null,

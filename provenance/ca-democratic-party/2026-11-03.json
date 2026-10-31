@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://cadem.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 49,
-    "captured_at": "2026-10-30T17:47:07.435Z",
+    "run": "2026-10-31T0003Z",
+    "index": 52,
+    "captured_at": "2026-10-31T00:03:44.384Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/endorsements/",
-    "response_sha256": "e561a818b90469643e7c62b36184678e6eaf1ad7f16014edeee3f9ff90a1909e",
+    "response_sha256": "ba8a3a9c98b221202a8a06779a82e2452280fa203b7778dcc3f00519ac5f24a0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261024011846id_/https://cadem.org/endorsements/",
+    "timestamp": "20261024011846",
+    "digest": "QKZUZJTP4W6WXAKQI7NCJEKSWAFXVUAR"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,13 +61,13 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 51,
-    "captured_at": "2026-10-30T17:47:10.760Z",
+    "run": "2026-10-31T0003Z",
+    "index": 55,
+    "captured_at": "2026-10-31T00:03:49.261Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
-    "response_sha256": "d8bc651a8112ac859ac9b206cd83dea509e9d7fab06623fa770155bd4563c105",
+    "response_sha256": "fc063f9469ce6629b9f2a68f92cc6c5ffeef06e639cb594d97b658cb231024f0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,7 +76,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021071444id_/https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+    "timestamp": "20261021071444",
+    "digest": "T2K3AVB6J2UF23YOP6FLLKADAVDMTYMW"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -88,22 +98,32 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 52,
-    "captured_at": "2026-10-30T17:47:12.296Z",
+    "run": "2026-10-31T0003Z",
+    "index": 56,
+    "captured_at": "2026-10-31T00:03:50.866Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/wp-content/uploads/2026/10/2026-Proposition-Endorsements-.pdf",
-    "response_sha256": "1a62d052cdec3224d923a0b63f37f9734008fd46d8229b127f50b5b1f7bb5393",
+    "response_sha256": "a23e20d2c4a99d470a6481f4afe632e910b4f40cef6d773538bfe3769af9d23a",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030214330id_/https://cadem.org/wp-content/uploads/2026/10/2026-Proposition-Endorsements-.pdf",
+    "timestamp": "20261030214330",
+    "digest": "PYQLY7REB55RNZ4FTD2YXKZFSXV3OTFZ",
+    "origin": "requested",
+    "statements": {
+     "found": 14,
+     "of": 14
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 14,

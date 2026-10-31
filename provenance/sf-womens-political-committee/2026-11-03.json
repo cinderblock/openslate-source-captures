@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://sfwpc.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,32 @@
     "org_host": "sfwpc.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 432,
-    "captured_at": "2026-10-30T17:47:50.440Z",
+    "run": "2026-10-31T0003Z",
+    "index": 541,
+    "captured_at": "2026-10-31T00:04:44.334Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfwpc.org/endorsements-of-candidates-for-november-2026-election/",
-    "response_sha256": "0f7339c06e1a0b661056fc5f39aa23529e9dc77ead4f8843bfdb36a1adce7442",
+    "response_sha256": "cc6eb0f106b0d31693ed1c7824d87791c110b45f10b26bf0c6632582ba49253b",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023170655id_/https://sfwpc.org/endorsements-of-candidates-for-november-2026-election/",
+    "timestamp": "20261023170655",
+    "digest": "RZOWDTIACSNO7KJL7QCL7W3J3RB3NCEY",
+    "origin": "existing",
+    "statements": {
+     "found": 26,
+     "of": 26
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 26,
@@ -55,22 +67,32 @@
     "org_host": "sfwpc.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 431,
-    "captured_at": "2026-10-30T17:47:48.479Z",
+    "run": "2026-10-31T0003Z",
+    "index": 540,
+    "captured_at": "2026-10-31T00:04:42.615Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfwpc.org/endorsements-of-ballot-measures-for-november-2026-election/",
-    "response_sha256": "a6d823c9987c3cd0f95bbdf78262339e028bed2db567dea62d146918ced05538",
+    "response_sha256": "3e9273c9f28a9558b34019e26a148508f1b5111609a7530e1c2b135a32f0959b",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023170722id_/https://sfwpc.org/endorsements-of-ballot-measures-for-november-2026-election/",
+    "timestamp": "20261023170722",
+    "digest": "IICCMWSPEAAZJ7T4HU5IOXHIJYWOCHRY",
+    "origin": "existing",
+    "statements": {
+     "found": 25,
+     "of": 25
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 25,

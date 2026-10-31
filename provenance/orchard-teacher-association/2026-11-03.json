@@ -5,11 +5,13 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 46,
-    "captured_at": "2026-10-30T17:47:23.155Z",
+    "run": "2026-10-31T0003Z",
+    "index": 49,
+    "captured_at": "2026-10-31T00:03:59.683Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/739_md.json",
-    "response_sha256": "fbbc6ca30c2e65348ab5632b794b2cf27ce10669c2b66f1af77124ca44477a14",
+    "response_sha256": "fd3ecd00eaf44204d1b2fcb0e031269f44ec73d3b876e4d8e1dba1ec402c9075",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030214238id_/https://ca.omniballot.us/published/06085/1968/vg/739_md.json",
+    "timestamp": "20261030214238",
+    "digest": "6PHKPMOFBO7NTHXNEAIY4LDKUGWY4PBI",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

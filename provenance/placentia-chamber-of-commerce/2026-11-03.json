@@ -5,11 +5,13 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 368,
-    "captured_at": "2026-10-30T17:47:41.907Z",
+    "run": "2026-10-31T0003Z",
+    "index": 448,
+    "captured_at": "2026-10-31T00:04:31.166Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf",
-    "response_sha256": "655ef358a74ef90f539cb3f52d4cc4a46648fabde8b795a602f48908f12486fc",
+    "response_sha256": "e929e82cdd70e3f230c6cb35f39bfbeda66adcbe965122358b441cff214cf24c",
     "bytes": "public",
     "claims": [
      "captured",

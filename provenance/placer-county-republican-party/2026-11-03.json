@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://placergop.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "placergop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 398,
-    "captured_at": "2026-10-30T17:47:37.638Z",
+    "run": "2026-10-31T0003Z",
+    "index": 507,
+    "captured_at": "2026-10-31T00:04:27.245Z",
     "status": 200,
     "error": null,
     "final_url": "https://placergop.org/endorsements/",
-    "response_sha256": "1a5fb0fa6620e72f423fff171353c39115ebb1d7fc16065e49a1d81f4c3eef54",
+    "response_sha256": "fa6fe155450c94a765d123df94e5c965f261080138f8ac8efa7cb19a41c5168d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260914183624id_/https://placergop.org/endorsements/",
+    "timestamp": "20260914183624",
+    "digest": "VAMAJD24T4UZUCWH2EBXYGNYY52WP55F",
+    "statements": {
+     "found": 72,
+     "of": 84
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 77,
@@ -55,13 +65,13 @@
     "org_host": "placergop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 400,
-    "captured_at": "2026-10-30T17:47:41.896Z",
+    "run": "2026-10-31T0003Z",
+    "index": 509,
+    "captured_at": "2026-10-31T00:04:31.581Z",
     "status": 200,
     "error": null,
     "final_url": "https://placergop.org/wp-content/uploads/PlacerGOP2026-VoterGuide.pdf",
-    "response_sha256": "a4ed60ae7b002114244e5b0c4d634bc7d77dab870a4df94bdc9f6d29afcea770",
+    "response_sha256": "af00f25eb83e02c398e0a6d11f2b6f49ffb0096a0bd647e9b1fde91dff29fd08",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,13 +98,13 @@
     "org_host": "placergop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 399,
-    "captured_at": "2026-10-30T17:47:40.351Z",
+    "run": "2026-10-31T0003Z",
+    "index": 508,
+    "captured_at": "2026-10-31T00:04:30.002Z",
     "status": 200,
     "error": null,
     "final_url": "https://placergop.org/wp-content/uploads/Judges2026.jpeg",
-    "response_sha256": "db564e721a7cd765fb6c007a26908336776c02927137cc81ee34a860c97e4708",
+    "response_sha256": "0684570df6eef943e2c7cdd03399d10268188811fdc69defb4e8d857be5c8adf",
     "bytes": "public",
     "claims": [
      "captured",

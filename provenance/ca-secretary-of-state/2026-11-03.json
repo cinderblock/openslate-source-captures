@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://www.sos.ca.gov/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sos.ca.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 166,
-    "captured_at": "2026-10-30T17:47:16.029Z",
+    "run": "2026-10-31T0003Z",
+    "index": 180,
+    "captured_at": "2026-10-31T00:03:54.737Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
-    "response_sha256": "9188a016685951bf7c65ccf83a358f1b2805fd082bc9253a760314315ca8b976",
+    "response_sha256": "868c091ffcb57d795c40b0bb90f6fbc80e86385d97b82abd52e373cb92aa1855",
     "bytes": "release",
     "claims": [
      "captured",
@@ -37,7 +39,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261023064031id_/https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+    "timestamp": "20261023064031",
+    "digest": "JQ7JOPGCVL44APJQFY4UF76HTONNHVIK"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,13 +61,13 @@
     "org_host": "sos.ca.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 878,
-    "captured_at": "2026-10-30T17:48:51.979Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1103,
+    "captured_at": "2026-10-31T00:05:59.991Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sos.ca.gov/elections/ballot-measures/qualified-ballot-measures",
-    "response_sha256": "70d0da7d38b98aecff96434e30c2c183b535e08b778b009d411b204d141d1401",
+    "response_sha256": "01612b41956516426f49f0cc60475bf21d6c63ba783a032a8b4918bc026d8a23",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://climatehawksvote.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,31 @@
     "org_host": "climatehawksvote.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 70,
-    "captured_at": "2026-10-30T17:47:10.314Z",
+    "run": "2026-10-31T0003Z",
+    "index": 77,
+    "captured_at": "2026-10-31T00:03:47.830Z",
     "status": 200,
     "error": null,
     "final_url": "https://climatehawksvote.com/endorsements/endorsements-2026/",
-    "response_sha256": "f0cbea4e518c7e9148530f5d42168120d3e1be7ff451be19e983ed69e4abf818",
+    "response_sha256": "f721651904c1a688d6607d3be2c39307da5680a829e37332573f4abdba645c7b",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021151017id_/https://climatehawksvote.com/endorsements/endorsements-2026/",
+    "timestamp": "20261021151017",
+    "digest": "S6BK3O5ABBAP3PRUMAFKHBZJPEH3YVN4",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

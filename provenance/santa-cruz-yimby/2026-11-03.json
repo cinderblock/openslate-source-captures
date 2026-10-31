@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://yimbyaction.org/chapters/santa-cruz-yimby",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "yimbyaction.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 912,
-    "captured_at": "2026-10-30T17:49:01.397Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1138,
+    "captured_at": "2026-10-31T00:06:10.619Z",
     "status": 200,
     "error": null,
     "final_url": "https://yimbyaction.org/chapters/santa-cruz-yimby",
-    "response_sha256": "f9cff02fcd5b6cd63e4ecbd333885c87d4cb2148f2215d9f2d149d4744631304",
+    "response_sha256": "716c44b4b392c8267dcfc60d8ee03149972835555e2070c24b8e0446fa296410",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,13 +57,13 @@
     "org_host": "yimbyaction.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 913,
-    "captured_at": "2026-10-30T17:49:02.981Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1139,
+    "captured_at": "2026-10-31T00:06:12.635Z",
     "status": 200,
     "error": null,
     "final_url": "https://yimbyaction.org/endorsements/november-2026-california-general",
-    "response_sha256": "2e3055dc98478c1aa732b2beebfc04dde41068a2557a7edd74afd0d0d3a6b622",
+    "response_sha256": "41f3317e17703812b9d69f653f63030c761b16c5ab79141782439d1874d23965",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://www.lincolnclub.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,19 +24,23 @@
     "org_host": "lincolnclub.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 706,
-    "captured_at": "2026-10-30T17:48:24.904Z",
+    "run": "2026-10-31T0003Z",
+    "index": 869,
+    "captured_at": "2026-10-31T00:05:32.241Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lincolnclub.org/voterguide",
-    "response_sha256": "c02ebc7f3e8e91c537072201b0bff44d52a1a2543c09ef026e93af23c6f6d5b3",
+    "response_sha256": "94873de95e9edd7ab7418d71ab13b0fc6bca7e7977f67a87c70a399b7432927d",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "8ad4dd8b2564f9f4d231b740fb96b69d6c5ec03c4eae157b4c913c9ddc1b5c49"
+    }
    },
    "last_ok": null,
    "archived": null,

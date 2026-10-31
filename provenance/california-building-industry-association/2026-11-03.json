@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://cbia.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 67,
-    "captured_at": "2026-10-30T17:47:09.154Z",
+    "run": "2026-10-31T0003Z",
+    "index": 74,
+    "captured_at": "2026-10-31T00:03:47.210Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/",
-    "response_sha256": "1e1941c26c6f3464bd57590e5fb41e79c342e2ba89cfde42025da74d65802afe",
+    "response_sha256": "3b9a1437ae48f31f9659c042b22a46dc9bbe07ac16ebc7f836da7f58c7b16698",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261020014713id_/https://cbia.org/",
+    "timestamp": "20261020014713",
+    "digest": "CPENQWTE6WQWEAE2J6JOAAMDSV7JQSPR",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,13 +65,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 68,
-    "captured_at": "2026-10-30T17:47:10.933Z",
+    "run": "2026-10-31T0003Z",
+    "index": 75,
+    "captured_at": "2026-10-31T00:03:48.825Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
-    "response_sha256": "74f751f1cf984b7fb188af159e50d69754f908fa14231bd5b5f5b53acae9526d",
+    "response_sha256": "87e34e2e55e6bb6e5458c13adab5eac215aec43dbc54e181016d0f3fbcdcd022",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,7 +80,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261020015653id_/https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
+    "timestamp": "20261020015653",
+    "digest": "AGXVVNJHJYX5J43PKECCL3FTVEKZ7M7F"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

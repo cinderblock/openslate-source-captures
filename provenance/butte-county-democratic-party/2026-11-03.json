@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.buttecountydems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "buttecountydems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 645,
-    "captured_at": "2026-10-30T17:48:05.291Z",
+    "run": "2026-10-31T0003Z",
+    "index": 808,
+    "captured_at": "2026-10-31T00:05:07.887Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.buttecountydems.org/endorsements",
-    "response_sha256": "919716903cbd98165a16190783d673bc62875650c90f33425bb958de60d6b4a7",
+    "response_sha256": "85e401a391677d3c1d5561c239d31d07f879cd4af898d243b962766c61354c94",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021071547id_/https://www.buttecountydems.org/endorsements",
+    "timestamp": "20261021071547",
+    "digest": "7BJ4HZ4P7FJ252HFCKX72V7HD37BXPGX",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 26,

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://dsasf.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "dsasf.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 134,
-    "captured_at": "2026-10-30T17:47:12.938Z",
+    "run": "2026-10-31T0003Z",
+    "index": 148,
+    "captured_at": "2026-10-31T00:03:52.248Z",
     "status": 200,
     "error": null,
     "final_url": "https://dsasf.org/dsa-sf-november-2026-voter-guide/",
-    "response_sha256": "2f4b4f13a94a8a55e96da95b881020ecc295103c7bf164e1d0adcc92d63d3d86",
+    "response_sha256": "9198eae8f67779056bdbcf4b804f530c7d52653687a270efda5970e9891acb39",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261020235807id_/https://dsasf.org/dsa-sf-november-2026-voter-guide/",
+    "timestamp": "20261020235807",
+    "digest": "CNV6D2YQFM4KVKJRNSQOZPVJ7QGB72NJ",
+    "statements": {
+     "found": 23,
+     "of": 27
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 17,

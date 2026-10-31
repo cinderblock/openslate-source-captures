@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://lwvc.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,31 @@
     "org_host": "lwvc.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 298,
-    "captured_at": "2026-10-30T17:47:26.004Z",
+    "run": "2026-10-31T0003Z",
+    "index": 377,
+    "captured_at": "2026-10-31T00:04:09.364Z",
     "status": 200,
     "error": null,
     "final_url": "https://lwvc.org/ballot-recommendations/",
-    "response_sha256": "3c4182747f38688dc84a60eabccd162d98a11585eed35d2adecf0efce26c90f7",
+    "response_sha256": "48b65c40fad1b2c34d0a997f5250a17d39d97d53c95bfbbb2bf606446d955e90",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021100648id_/https://lwvc.org/ballot-recommendations/",
+    "timestamp": "20261021100648",
+    "digest": "CTXM5X6RYYYISAIH4XEFDN4NVV64XZNB",
+    "statements": {
+     "found": 14,
+     "of": 14
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 14,

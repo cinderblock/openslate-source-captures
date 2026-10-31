@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://workingfamilies.org/states/california/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "workingfamilies.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 614,
-    "captured_at": "2026-10-30T17:47:59.699Z",
+    "run": "2026-10-31T0003Z",
+    "index": 776,
+    "captured_at": "2026-10-31T00:04:59.646Z",
     "status": 200,
     "error": null,
     "final_url": "https://workingfamilies.org/state/california/",
-    "response_sha256": "b50495f0e4eed8dfe23e595b373c672aeb1470d2e463a12b3d657304f6aad0b8",
+    "response_sha256": "b0820532665ce873a08505bbbb3da76142a202a4e46e561f5bc5d92306526fa6",
     "bytes": "public",
     "claims": [
      "captured",

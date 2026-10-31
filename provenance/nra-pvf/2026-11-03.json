@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.nrapvf.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "nrapvf.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 722,
-    "captured_at": "2026-10-30T17:48:30.643Z",
+    "run": "2026-10-31T0003Z",
+    "index": 886,
+    "captured_at": "2026-10-31T00:05:37.166Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.nrapvf.org/grades/california/",
-    "response_sha256": "f5b402a13d025a19854925404e74127b191359aedda6f5bffcf3647fc0c21e7c",
+    "response_sha256": "c365df29551ac300030cffd9e0d921ae268781e4e532ab6a7ddd4a6e00f1aa44",
     "bytes": "public",
     "claims": [
      "captured",

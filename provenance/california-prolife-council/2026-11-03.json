@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://californiaprolife.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "californiaprolife.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 61,
-    "captured_at": "2026-10-30T17:47:07.849Z",
+    "run": "2026-10-31T0003Z",
+    "index": 68,
+    "captured_at": "2026-10-31T00:03:46.191Z",
     "status": 200,
     "error": null,
     "final_url": "https://californiaprolife.org/2026election/",
-    "response_sha256": "c0a4dc0b896a9b755ede861099d528aa64a0d2e13f6b28d1b564ae45434e1911",
+    "response_sha256": "4f1272811ff6e661318cfdb25789e50cae048096511147351a67fbd88f001f1f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030214518id_/https://californiaprolife.org/2026election/",
+    "timestamp": "20261030214518",
+    "digest": "WNESGSKXRNSEEFEDBYSLBRFVVJBKT6QE",
+    "origin": "requested",
+    "statements": {
+     "found": 10,
+     "of": 49
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,

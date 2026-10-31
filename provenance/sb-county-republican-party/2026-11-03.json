@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://www.santabarbaracountyrepublicanparty.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "santabarbaracountyrepublicanparty.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 814,
-    "captured_at": "2026-10-30T17:48:39.640Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1035,
+    "captured_at": "2026-10-31T00:05:47.258Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.santabarbaracountyrepublicanparty.com/2026-voter-guide",
-    "response_sha256": "646e4b42e77607c2e6b4ff0911f35a59c7552f0c967c37071a1c1f33528942c6",
+    "response_sha256": "01b0a136290f2a95e5872ce13142f27aedcec7db98a9de33ee8b1eb00e0ec776",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,22 +57,31 @@
     "org_host": "santabarbaracountyrepublicanparty.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 192,
-    "captured_at": "2026-10-30T17:47:30.575Z",
+    "run": "2026-10-31T0003Z",
+    "index": 259,
+    "captured_at": "2026-10-31T00:04:13.897Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/1.South_County_Voter_Guide_2_Page_Americana_QR.pdf",
-    "response_sha256": "306782b59bc9595abe32cca6c7a0db94f5abdcad57b66ae0cf8e4afadf90665a",
+    "response_sha256": "e054513fd3dd14e6e18ef367d3098b1f46e7a573379da5fc997fc3b3eab80303",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261009182704id_/https://irp.cdn-website.com/6880267d/files/uploaded/1.South_County_Voter_Guide_2_Page_Americana_QR.pdf",
+    "timestamp": "20261009182704",
+    "digest": "R7EHRAFDGF3WEF7LZCWOQY7WAOTK2WA3",
+    "statements": {
+     "found": 29,
+     "of": 29
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 29,
@@ -88,13 +99,13 @@
     "org_host": "santabarbaracountyrepublicanparty.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 193,
-    "captured_at": "2026-10-30T17:47:32.475Z",
+    "run": "2026-10-31T0003Z",
+    "index": 262,
+    "captured_at": "2026-10-31T00:04:19.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/2.South_County_Voter_Guide_2_Page_Americana_QR.pdf",
-    "response_sha256": "d99baa16af1f9130b4787c7482d2096dcc793922548b4886d7c1149db42b0aec",
+    "response_sha256": "1a836962a9e943cd9ef70c6f96854d0a236eab1ce0ac12c687814d15ed11b3d3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -121,13 +132,13 @@
     "org_host": "santabarbaracountyrepublicanparty.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 190,
-    "captured_at": "2026-10-30T17:47:26.730Z",
+    "run": "2026-10-31T0003Z",
+    "index": 256,
+    "captured_at": "2026-10-31T00:04:08.918Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/1.Final+Front.cht.Lompoc_Voter_Guide_Clean_Colorful_No_Logo_QR.pdf",
-    "response_sha256": "8ae2a00cbbd80c9ad1df37abca507252e11b7f511404614f3f733e5bda5a6791",
+    "response_sha256": "9cc2d1cfaec0b17235a167579bd2a5ae753cfe0ab4c0490f4304905cb957dc6f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -154,13 +165,13 @@
     "org_host": "santabarbaracountyrepublicanparty.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 191,
-    "captured_at": "2026-10-30T17:47:28.703Z",
+    "run": "2026-10-31T0003Z",
+    "index": 258,
+    "captured_at": "2026-10-31T00:04:12.265Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/1.Santa_Ynez_2026_Voter_Guide_Professional.pdf",
-    "response_sha256": "66b540c40e2111bfa0d9dbf7c7e145105b22f4685dd727a95c869469db3e72f3",
+    "response_sha256": "fcc6087c35efe8da546e2d7ca217ebce5216cf0221c6fb5fcef0b3143db0c9d8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -187,13 +198,13 @@
     "org_host": "santabarbaracountyrepublicanparty.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 195,
-    "captured_at": "2026-10-30T17:47:36.275Z",
+    "run": "2026-10-31T0003Z",
+    "index": 264,
+    "captured_at": "2026-10-31T00:04:22.419Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/9.Fed..SOS.FEDERAL.Santa_Barbara_Voter_Guide_With_Bob_Smith.pdf",
-    "response_sha256": "c7f1d2f9b2127570f60232037fe3b23f994381aa8ba72d7d58de5516b3912d5d",
+    "response_sha256": "4f9b1ad0d7ba7f0939185bfd71d02f1ba09ae3e1fd6813df115f5a6b91e2e1fa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -220,13 +231,13 @@
     "org_host": "santabarbaracountyrepublicanparty.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 194,
-    "captured_at": "2026-10-30T17:47:34.297Z",
+    "run": "2026-10-31T0003Z",
+    "index": 263,
+    "captured_at": "2026-10-31T00:04:20.740Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/3..Final.Local+Measures+.pdf",
-    "response_sha256": "6a8b14db0741532075fe449e7111c50029d200fa0afae3f34f075d9bfe8bf87b",
+    "response_sha256": "6dc3fb6e7df3a8cea9927a6bc794bda9506fe52e7dc54be23746c117c03cf90e",
     "bytes": "public",
     "claims": [
      "captured",

@@ -1,0 +1,17 @@
+HTTP/1.1 308 Permanent Redirect
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: application/json
+Date: Sat, 31 Oct 2026 00:04:17 GMT
+Location: https://www.newdemactionfund.com/candidates
+Refresh: 0;url=https://www.newdemactionfund.com/candidates
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Id: iad1::9qj42-1793405057153-7a0e4a719626
+Connection: close
+Transfer-Encoding: chunked
+
+4d
+{"redirect": "https://www.newdemactionfund.com/candidates", "status": "308"}
+
+0
+

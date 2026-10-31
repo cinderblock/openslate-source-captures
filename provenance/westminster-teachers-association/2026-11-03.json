@@ -5,11 +5,13 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 366,
-    "captured_at": "2026-10-30T17:47:38.571Z",
+    "run": "2026-10-31T0003Z",
+    "index": 446,
+    "captured_at": "2026-10-31T00:04:27.213Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf",
-    "response_sha256": "3d062bb2558c29c600c490439ae2b6b4828f5c3bbc015b9ad2bfff246f166c0e",
+    "response_sha256": "2a065bff4df8cbc64533b4e97df7fb61818320c3a221a788ed7330d3d08e4046",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261003204246id_/https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf#page=6",
+    "timestamp": "20261003204246",
+    "digest": "4CJSYKEEUCGZKZER24X5NBYFKMOKMRCG",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

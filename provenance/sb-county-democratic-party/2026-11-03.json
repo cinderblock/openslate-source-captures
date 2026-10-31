@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.sbdems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sbdems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 816,
-    "captured_at": "2026-10-30T17:48:41.270Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1037,
+    "captured_at": "2026-10-31T00:05:48.376Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sbdems.org/endorsements",
-    "response_sha256": "8921d4b65b07b00ae330cb7354dc8f76f40c5baf8c6cc6e70e4d39d5e511d6db",
+    "response_sha256": "c5871b34f0a7eeaad02659b1cacdb190e7b1b0d8cad1f30202cce83b2e6e1faf",
     "bytes": "public",
     "claims": [
      "captured",

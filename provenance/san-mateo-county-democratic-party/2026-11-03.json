@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://smcdems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 473,
-    "captured_at": "2026-10-30T17:47:51.279Z",
+    "run": "2026-10-31T0003Z",
+    "index": 582,
+    "captured_at": "2026-10-31T00:04:45.917Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smcdems.org/",
-    "response_sha256": "c481f8306a48783b32580ed2aac3947c0f12ac20c55b7be06d8aa4100a0c87d7",
+    "response_sha256": "4c9f2267c0522c6f5633b1d7e699cdd8a9ec1f33a2f577ac8775157815022efd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -50,7 +52,16 @@
      "time-stamped"
     ]
    },
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261006195316id_/https://smcdems.org/",
+    "timestamp": "20261006195316",
+    "digest": "UIKCQLLFSGFRTQBTSN7NEE3ZVVF3KEHQ",
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 67
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -68,13 +79,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 32,
-    "captured_at": "2026-10-30T17:47:05.659Z",
+    "run": "2026-10-31T0003Z",
+    "index": 34,
+    "captured_at": "2026-10-31T00:03:42.457Z",
     "status": 200,
     "error": null,
     "final_url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
-    "response_sha256": "cfeb9ec801462c83e5104d25e9dcf1200261cb81871ba7208a73bb6ef4954f1a",
+    "response_sha256": "83a8912e44fae5a9dbbcd38bb46a5d5408907a8ef57e56320f75b69669b5213c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,7 +94,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261006195316id_/https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
+    "timestamp": "20261006195316",
+    "digest": "7WRJJDWHQ5CZBVY2A657XNAJMDPE4DIM"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

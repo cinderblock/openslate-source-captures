@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://ocbc.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "ocbc.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 359,
-    "captured_at": "2026-10-30T17:47:30.788Z",
+    "run": "2026-10-31T0003Z",
+    "index": 439,
+    "captured_at": "2026-10-31T00:04:20.535Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocbc.org/bizpac/",
-    "response_sha256": "3fa3ecf5b968c4c157a9462d732eca820a676bf51be2e4fda24bbd08a2c38888",
+    "response_sha256": "882a37a1681e3f86bb5423b795341d0f9822ebb64eb78a844e866aeec28b1030",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260813113011id_/https://ocbc.org/government-affairs/bizpac/",
+    "timestamp": "20260813113011",
+    "digest": "XKPKAS5M7BY6BLMYZCADKMP74VFASFGX",
+    "statements": {
+     "found": 0,
+     "of": 29
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 9,

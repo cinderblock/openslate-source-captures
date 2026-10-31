@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://thelafed.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 500,
-    "captured_at": "2026-10-30T17:48:12.463Z",
+    "run": "2026-10-31T0003Z",
+    "index": 658,
+    "captured_at": "2026-10-31T00:05:27.055Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/resource/lalaborvoterguide/",
-    "response_sha256": "0c15175c536b4d5fbdc85dd273b9ec1ab9a25a818ca18455c556f022cb74233f",
+    "response_sha256": "077b3454c5aa03c09ee2ab3592e7d7dfed553026d12159af01f6283e6d6490ae",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260531224057id_/https://thelafed.org/resource/lalaborvoterguide/",
+    "timestamp": "20260531224057",
+    "digest": "R3MURCTKSFVG2L4WVBHBSXQGV2UFPF7M",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,13 +62,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 491,
-    "captured_at": "2026-10-30T17:47:54.782Z",
+    "run": "2026-10-31T0003Z",
+    "index": 641,
+    "captured_at": "2026-10-31T00:04:55.348Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.jpg",
-    "response_sha256": "4288c8286fca6530d192bd2b35591d044d016fa5b067b91080cc3b9f31e374a6",
+    "response_sha256": "72e7c68fac47b4cf4dfc6d0de9472bfd821f5c30f86d6ddaa5750f343b3adb1d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,7 +77,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261006011855id_/https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.jpg",
+    "timestamp": "20261006011855",
+    "digest": "K47MWZ7BI7W73Q5YSDYSWPLKCHF26MOS",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -89,13 +101,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 492,
-    "captured_at": "2026-10-30T17:47:56.929Z",
+    "run": "2026-10-31T0003Z",
+    "index": 642,
+    "captured_at": "2026-10-31T00:04:57.419Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.png",
-    "response_sha256": "8aed0fee79b713c210d02d4e16a4ce52ea23ed7bcb1cc57e15610bdbb7007f83",
+    "response_sha256": "fae70fb3ebdc9a0773493b63048bfbb83018e78ebbb23dd1b5d2464497f514bb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -123,13 +135,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 493,
-    "captured_at": "2026-10-30T17:47:59.085Z",
+    "run": "2026-10-31T0003Z",
+    "index": 644,
+    "captured_at": "2026-10-31T00:05:01.305Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-2.jpg",
-    "response_sha256": "77139cf91dc152f6ff74dcb442b3274a5d74c6c14f408eea655152ea94a16446",
+    "response_sha256": "bb55b2cd5480e190e803218182ebdc97e24b1af9982515b5034278a90b04e5f7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -138,7 +150,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261006004248id_/https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-2.jpg",
+    "timestamp": "20261006004248",
+    "digest": "ICDQD3AVJX4OAIGHRRO5I4JP2NWP56DT",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -157,13 +174,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 494,
-    "captured_at": "2026-10-30T17:48:01.000Z",
+    "run": "2026-10-31T0003Z",
+    "index": 646,
+    "captured_at": "2026-10-31T00:05:04.877Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-3-1-scaled.jpg",
-    "response_sha256": "0a1827a1629642ea707bfce8c07b156ff32583f96e65a4fb206ac499951aaeae",
+    "response_sha256": "e29c400f86860bce7ede10c48e60979b311b17002ac56aa94846994790d4cfe4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -191,13 +208,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 495,
-    "captured_at": "2026-10-30T17:48:02.799Z",
+    "run": "2026-10-31T0003Z",
+    "index": 648,
+    "captured_at": "2026-10-31T00:05:08.809Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-4.jpg",
-    "response_sha256": "3ab168ce25b908a0b8bf762ad67389f1a52c19f6c61d40daa4e6bb5056edbea8",
+    "response_sha256": "fde1e2f125147c749c1669dcde1e92b706ed004e7a8c9dea74748bd2b49ca079",
     "bytes": "public",
     "claims": [
      "captured",
@@ -206,7 +223,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261006002337id_/https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-4.jpg",
+    "timestamp": "20261006002337",
+    "digest": "ILIHUGHGTEH5BD5PTSUN56UZAEDFTCGR",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -225,13 +247,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 496,
-    "captured_at": "2026-10-30T17:48:04.981Z",
+    "run": "2026-10-31T0003Z",
+    "index": 650,
+    "captured_at": "2026-10-31T00:05:12.610Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-5.jpg",
-    "response_sha256": "71f48c41ba46630f04eca413a680ba202714fabe7c09f406219418d5b0bea0c9",
+    "response_sha256": "5a6fe2bb99075b414c9f1f2b608cc07732c84edffb0c95074e6c51c8b1520416",
     "bytes": "public",
     "claims": [
      "captured",
@@ -240,7 +262,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261005221821id_/https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-5.jpg",
+    "timestamp": "20261005221821",
+    "digest": "NGQN4PFCQYBIK6DYTHAXO5AL2QIRFA6F",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -259,13 +286,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 497,
-    "captured_at": "2026-10-30T17:48:06.761Z",
+    "run": "2026-10-31T0003Z",
+    "index": 652,
+    "captured_at": "2026-10-31T00:05:16.358Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-6-1.jpg",
-    "response_sha256": "45fa3dac10cf5620e486cb86d6c47991b1eb465913015a058e0b39d4e05da2bf",
+    "response_sha256": "4bc4b8d7585054f7305ec842445f8f3e99daa24d9b7cd8793ce54ecc2df6ffc0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -274,7 +301,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261005202122id_/https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-6-1.jpg",
+    "timestamp": "20261005202122",
+    "digest": "WUIYKTRZYJNNNYWFZ7WL2K44GJXPAAFU",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -293,13 +325,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 498,
-    "captured_at": "2026-10-30T17:48:08.701Z",
+    "run": "2026-10-31T0003Z",
+    "index": 654,
+    "captured_at": "2026-10-31T00:05:19.940Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-8.jpg",
-    "response_sha256": "dd16dc5528d05db8d98c683b23edc84b762af7649e060a16c841170032611ef1",
+    "response_sha256": "2eb2fac7d9273bbaf4d5e74be470da20ebe64f8bd7369be38039c1b72dba5aa0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -308,7 +340,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261009012211id_/https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-8.jpg",
+    "timestamp": "20261009012211",
+    "digest": "IKLDOYILBVR4XTTHOMXRMH3KX7N2OPVN",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -327,13 +364,13 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 499,
-    "captured_at": "2026-10-30T17:48:10.665Z",
+    "run": "2026-10-31T0003Z",
+    "index": 656,
+    "captured_at": "2026-10-31T00:05:23.526Z",
     "status": 200,
     "error": null,
     "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-9.jpg",
-    "response_sha256": "cc8b1a4a9c649caa4dafe3d3edf4da5892c9e2da56762ea3c0667996b1f8107e",
+    "response_sha256": "77d8cc4aca22b76f25e74ac292067231416617207bf0f563141b018a06f3d500",
     "bytes": "public",
     "claims": [
      "captured",
@@ -342,7 +379,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261005234312id_/https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-9.jpg",
+    "timestamp": "20261005234312",
+    "digest": "UPLIJYNMPHAYA7UT35ZLURKJYFAN3ELW",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -361,22 +403,31 @@
     "org_host": "thelafed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 131,
-    "captured_at": "2026-10-30T17:47:12.671Z",
+    "run": "2026-10-31T0003Z",
+    "index": 140,
+    "captured_at": "2026-10-31T00:03:50.574Z",
     "status": 200,
     "error": null,
     "final_url": "https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing",
-    "response_sha256": "648fab615ec081fb2a737e7a39125eef398feb63ccd295e3ee99e66d26f5182e",
+    "response_sha256": "431abf2679d1c18c16593ac53b9236277edb0a1b610572a40ad2541f6a0a8318",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "b65519029cdfe80d3c5575bc682342fb6b0595c2e0d46af5e5413998caf35b15"
+    }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030220640id_/https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing",
+    "timestamp": "20261030220640",
+    "digest": "37VJD2QXJDYEOBRSOLK6YNHSDTYN4JH4",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

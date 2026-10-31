@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.sfbg.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sfbg.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 843,
-    "captured_at": "2026-10-30T17:48:46.458Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1068,
+    "captured_at": "2026-10-31T00:05:54.551Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
-    "response_sha256": "8a6dc8acc9648d58208e9ca8dd120ed4197dfd53cca4f647bd356f864f5588ce",
+    "response_sha256": "16fd7276b11bfbb553a22e26c922a831347cf58e75d5da30272d142fc6c7c572",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -55,13 +57,13 @@
     "org_host": "sfbg.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 844,
-    "captured_at": "2026-10-30T17:48:48.587Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1069,
+    "captured_at": "2026-10-31T00:05:56.629Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfbg.com/2026/10/07/guardian-clean-slate-guide-take-this-to-the-polls-on-nov-3-2026/",
-    "response_sha256": "e5f6e0b529874b3f53557b926a6712f57337a3b19137cf8a0cb92b618cb28b7c",
+    "response_sha256": "c0ec99ac49770eb5a01de38effc7362acbcbea08479e610dbe667734bd1ecf67",
     "bytes": "withheld",
     "claims": [
      "captured",

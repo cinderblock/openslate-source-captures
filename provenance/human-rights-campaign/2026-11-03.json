@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.hrc.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 684,
-    "captured_at": "2026-10-30T17:48:20.521Z",
+    "run": "2026-10-31T0003Z",
+    "index": 847,
+    "captured_at": "2026-10-31T00:05:26.153Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/lets-get-free-house-elections",
-    "response_sha256": "58aef38b3152c221fe9735f21930d556ab2bf411cbc46b42552a84443c05dc74",
+    "response_sha256": "307c6f2a1518a277193defafc1aca9761414a088c1484cca40d506b6dc103479",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,13 +57,13 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 685,
-    "captured_at": "2026-10-30T17:48:22.725Z",
+    "run": "2026-10-31T0003Z",
+    "index": 848,
+    "captured_at": "2026-10-31T00:05:28.446Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/lets-get-free-state-elections",
-    "response_sha256": "acc7f4ebed5b45a9ecad7b7077768ab615929259097cb35cbbd9244cf9dd47fd",
+    "response_sha256": "a758268d79daecc1b2725abb6c69d7fad27379329982e0c2ca89cb84e6eac0fb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,13 +90,13 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 686,
-    "captured_at": "2026-10-30T17:48:24.866Z",
+    "run": "2026-10-31T0003Z",
+    "index": 849,
+    "captured_at": "2026-10-31T00:05:30.803Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/press-releases/human-rights-campaign-endorses-a-slate-of-pro-equality-members-and-candidates-up-for-election-in-key-competitive-u-s-house-districts",
-    "response_sha256": "358305f45b23326092221724f0aa2457560bfd10f55fb6691ca0753a92c6626c",
+    "response_sha256": "afb504aab08c66c2a1b5fc9b96a488389686c85660ee61c5166c6d4e0343991c",
     "bytes": "public",
     "claims": [
      "captured",

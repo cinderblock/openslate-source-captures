@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://www.alamedagop.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "alamedagop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 624,
-    "captured_at": "2026-10-30T17:48:03.410Z",
+    "run": "2026-10-31T0003Z",
+    "index": 787,
+    "captured_at": "2026-10-31T00:05:06.570Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.alamedagop.org/candidates",
-    "response_sha256": "833a86b083120f3f674da8b87b2e59fe1030853ddea7473e544ce1acf892a4be",
+    "response_sha256": "76241df3ba523c2f9e95618428a0e56c2083b03424ae29984e5325686f610bfd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20120407040002id_/https://www.alamedagop.org/candidates",
+    "timestamp": "20120407040002",
+    "digest": "XLDVO74JHY6JTYAKMCJXS2B56QHIGBLS",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,13 +62,13 @@
     "org_host": "alamedagop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 626,
-    "captured_at": "2026-10-30T17:48:06.780Z",
+    "run": "2026-10-31T0003Z",
+    "index": 789,
+    "captured_at": "2026-10-31T00:05:10.144Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.alamedagop.org/posts/2026-10-11-voter-guide-statewide",
-    "response_sha256": "97bab0d5411cdda08cc9911fc4052c68c1a840f7d98e61abf5cc14773133b5ce",
+    "response_sha256": "0032e4e22dd245f2fa14c420899c86948ba00475f634b2d3fafc3f079da00e32",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,13 +95,13 @@
     "org_host": "alamedagop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 625,
-    "captured_at": "2026-10-30T17:48:04.985Z",
+    "run": "2026-10-31T0003Z",
+    "index": 788,
+    "captured_at": "2026-10-31T00:05:08.420Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.alamedagop.org/posts/2026-10-11-county-voter-guide",
-    "response_sha256": "dfaf2fa7ed2c34e2be699536610a2bff0023ff7a6c1c79e61831a2a21a5bab3e",
+    "response_sha256": "ccf67b769807ecc070c608cef78400e8236c9cd778c4f940730d03bac5705ae0",
     "bytes": "public",
     "claims": [
      "captured",

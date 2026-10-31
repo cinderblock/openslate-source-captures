@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://cragop.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 76,
-    "captured_at": "2026-10-30T17:47:11.391Z",
+    "run": "2026-10-31T0003Z",
+    "index": 85,
+    "captured_at": "2026-10-31T00:03:49.578Z",
     "status": 404,
     "error": null,
     "final_url": "https://cragop.org/2026-primary-election-endorsements/",
-    "response_sha256": "f41f0b13dee702a58357390af811c6c5dbdc76cba683183d964a9c723cff7aff",
+    "response_sha256": "8d9f656f9325ef1ff12a13a170ea66b1cfd2f4f13dbfe844395041bd31621e72",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260605013055id_/https://cragop.org/2026-primary-election-endorsements/",
+    "timestamp": "20260605013055",
+    "digest": "XNHKRQ7KKLPWN3SGQ7N4LKJY5T2PKPKQ"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -56,13 +62,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 77,
-    "captured_at": "2026-10-30T17:47:13.831Z",
+    "run": "2026-10-31T0003Z",
+    "index": 86,
+    "captured_at": "2026-10-31T00:03:51.989Z",
     "status": 404,
     "error": null,
     "final_url": "https://cragop.org/2026/03/21/california-republican-assembly-june-2026-primary-election-endorsements/",
-    "response_sha256": "c35bb21e4dabe15e092365cc4c8f0194e442a945348f70466db88d90efd7068e",
+    "response_sha256": "192af3f6826be3e6d331b4beebf5cbe4071bf2be2ef9de3adb0d40801287b632",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,7 +77,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260605010204id_/https://cragop.org/2026/03/21/california-republican-assembly-june-2026-primary-election-endorsements/",
+    "timestamp": "20260605010204",
+    "digest": "4XZNFLEZLC7C55PNDKX45VLLPQB7X2CH"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

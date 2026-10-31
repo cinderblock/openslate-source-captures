@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.kqed.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "kqed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 695,
-    "captured_at": "2026-10-30T17:48:24.831Z",
+    "run": "2026-10-31T0003Z",
+    "index": 858,
+    "captured_at": "2026-10-31T00:05:31.516Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kqed.org/propfest",
-    "response_sha256": "5b543406220fbbc0289f0107a1b5f308bdf37e1153d1ca67f9f83dfef22bde2e",
+    "response_sha256": "8ce40f2829498a2eb7f8b544c5096d1dfcff80a88a57d4b193be3f61a16d9c27",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -55,13 +57,13 @@
     "org_host": "kqed.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 694,
-    "captured_at": "2026-10-30T17:48:22.996Z",
+    "run": "2026-10-31T0003Z",
+    "index": 857,
+    "captured_at": "2026-10-31T00:05:29.590Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kqed.org/news/tag/election-2026",
-    "response_sha256": "7b12c48e1266c13404db50a73ee6ec92be70ea3c13ef1161a136666086fdb5f3",
+    "response_sha256": "259a7d2b8fd169ca8cb4fafd943d10d38212251c1d289d0a5ebecd2146690375",
     "bytes": "withheld",
     "claims": [
      "captured",

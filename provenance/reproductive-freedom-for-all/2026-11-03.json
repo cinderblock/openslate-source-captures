@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://reproductivefreedomforall.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "reproductivefreedomforall.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 402,
-    "captured_at": "2026-10-30T17:47:38.666Z",
+    "run": "2026-10-31T0003Z",
+    "index": 511,
+    "captured_at": "2026-10-31T00:04:32.029Z",
     "status": 200,
     "error": null,
     "final_url": "https://reproductivefreedomforall.org/elections/",
-    "response_sha256": "d55df4623a185e019c6c1510183daa98e5859e18b4d0a9e292ec5e288330b691",
+    "response_sha256": "b3641ad2ae011ee19eade89e6f3ec863044e00087ed34f6c7a504f7ec4820614",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20240422075159id_/https://reproductivefreedomforall.org/endorsements/",
+    "timestamp": "20240422075159",
+    "digest": "CGODC2OEPFN6Q2GEXHZVKG5NJKK2OAB3",
+    "statements": {
+     "found": 0,
+     "of": 44
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

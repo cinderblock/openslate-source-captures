@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.eastbaytimes.com/opinion/endorsements/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "eastbaytimes.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 672,
-    "captured_at": "2026-10-30T17:48:14.131Z",
+    "run": "2026-10-31T0003Z",
+    "index": 835,
+    "captured_at": "2026-10-31T00:05:19.531Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.eastbaytimes.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
-    "response_sha256": "6b6b0eeb7228abe1ac359deb419a981c1ed58f0e7c2511b5afae03e3dec9122a",
+    "response_sha256": "24bb0cd715ea89d02d2686afbf5ca8622e7310aec887d34eb14695e0b77d9fe8",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -55,13 +57,13 @@
     "org_host": "eastbaytimes.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 710,
-    "captured_at": "2026-10-30T17:48:29.933Z",
+    "run": "2026-10-31T0003Z",
+    "index": 873,
+    "captured_at": "2026-10-31T00:05:36.460Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.mercurynews.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
-    "response_sha256": "6c651e09d954de7ebac53c92070ce5fc901a95352aad44686dda349c71ca9a37",
+    "response_sha256": "3fd53861ddaad4b88f3113fb04ef791a10f0d2f7ed26b6028d4948dd3d95c212",
     "bytes": "withheld",
     "claims": [
      "captured",

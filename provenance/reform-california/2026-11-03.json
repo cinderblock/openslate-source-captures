@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://reformcalifornia.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "reformcalifornia.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 770,
-    "captured_at": "2026-10-30T17:48:32.581Z",
+    "run": "2026-10-31T0003Z",
+    "index": 940,
+    "captured_at": "2026-10-31T00:05:47.141Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.reformcalifornia.org/voter-guides/california",
-    "response_sha256": "6138423d598731f4237e6e25c241b0e4484617df40a50eda049933d79a686f0e",
+    "response_sha256": "b77761ebf2a62b4254673a41ce1f37b8043029c76a7856545bc96893708a0909",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,13 +57,13 @@
     "org_host": "reformcalifornia.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 771,
-    "captured_at": "2026-10-30T17:48:34.140Z",
+    "run": "2026-10-31T0003Z",
+    "index": 971,
+    "captured_at": "2026-10-31T00:06:36.663Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.reformcalifornia.org/voter-guides/san-diego",
-    "response_sha256": "6ab82e20aa86d67a71a3fb2f31e44f3d979e9d5a52126e8d33c2c817b93e6068",
+    "response_sha256": "31b9b0f91ee9616a2e4725f9a403642e5c3b7ad50837d4ea4ecdab686a2c2d14",
     "bytes": "public",
     "claims": [
      "captured",
@@ -87,16 +89,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 935,
+    "captured_at": "2026-10-31T00:05:39.046Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/alameda",
+    "response_sha256": "74799e004c883188f16b964618820dc6af6926b01c368e7346f4f5a1d8a06eb2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 46,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 2,
+    "no_statement": 0
    }
   },
   {
@@ -107,16 +122,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 936,
+    "captured_at": "2026-10-31T00:05:40.814Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/alpine",
+    "response_sha256": "e1bb53cfedfcf88b6a5ee0d7275886cccbeaf9815c4dc06de191e149d829201d",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 9,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -127,16 +155,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 937,
+    "captured_at": "2026-10-31T00:05:42.380Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/amador",
+    "response_sha256": "a0be4b7fe77cf3b63b953cbe68e7d726f04eef18bb032f0c013acaddf78d779b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 6,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 9,
+    "no_statement": 0
    }
   },
   {
@@ -147,16 +188,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 938,
+    "captured_at": "2026-10-31T00:05:43.993Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/butte",
+    "response_sha256": "1c58264e6d6e64c9650c6eb661f85d0c87e02235e4d55b6978125f7a2e4d6ad8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 16,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 5,
+    "no_statement": 0
    }
   },
   {
@@ -167,16 +221,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 939,
+    "captured_at": "2026-10-31T00:05:45.563Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/calaveras",
+    "response_sha256": "cb470f4096579260583a6a5c2b009de7a5f090965de3b5d63310f5427b32396b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 11,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -187,16 +254,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 941,
+    "captured_at": "2026-10-31T00:05:48.735Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/colusa",
+    "response_sha256": "c05fe642ebad6a77d88958a9a6b1e62880fa9edc6bb6b40abad71e724e27df56",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 7,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -207,16 +287,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 942,
+    "captured_at": "2026-10-31T00:05:50.309Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/contra-costa",
+    "response_sha256": "2bbd42fc9db267ba0654d87ce1b075e668bc214ba39343bded3839d217f618fe",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 19,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 3,
+    "no_statement": 0
    }
   },
   {
@@ -227,16 +320,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 943,
+    "captured_at": "2026-10-31T00:05:51.888Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/del-norte",
+    "response_sha256": "65d955302e9981a6a913dab1e897d48adf4a7dd845c83d78b54b9123176de3b3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 3,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 3,
+    "no_statement": 0
    }
   },
   {
@@ -247,16 +353,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 944,
+    "captured_at": "2026-10-31T00:05:53.516Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/el-dorado",
+    "response_sha256": "81d9e1c7a8b2df7a902adc934d8f0b78757656078b0b6824127d1198fe673709",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 40,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 8,
+    "no_statement": 0
    }
   },
   {
@@ -267,16 +386,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 945,
+    "captured_at": "2026-10-31T00:05:55.102Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/fresno",
+    "response_sha256": "cc687de5afe68f967082553d1bb195f2b93d464a0e2b6776ded479189082fafe",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "kind": "anchored",
+    "exact": 47,
+    "quoted_parts": 2,
+    "unanchored": 17,
+    "no_statement": 0
    }
   },
   {
@@ -287,16 +419,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 946,
+    "captured_at": "2026-10-31T00:05:56.693Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/glenn",
+    "response_sha256": "d67fa95dec9a178acf1ce018a0a0d1c7913d8b3df500b2aadef2adfeb7b3247b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 8,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -307,16 +452,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 947,
+    "captured_at": "2026-10-31T00:05:58.271Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/humboldt",
+    "response_sha256": "23e04a702306e8359f9b84f027d9f4f303dadeba4171c58e7eb7ffc016361b63",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 17,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 7,
+    "no_statement": 0
    }
   },
   {
@@ -327,16 +485,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 948,
+    "captured_at": "2026-10-31T00:05:59.861Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/imperial",
+    "response_sha256": "ad98cebd96c1e1b7b24a961a2d8acb58e4227c966745948c0743003243422b61",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 12,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 1,
+    "no_statement": 0
    }
   },
   {
@@ -347,16 +518,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 949,
+    "captured_at": "2026-10-31T00:06:01.552Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/inyo",
+    "response_sha256": "a6edd47ad605c091997dab0daab8668d77e5efaf8809bab9f5572cb2a3ceeb68",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 20,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 2,
+    "no_statement": 0
    }
   },
   {
@@ -367,16 +551,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 950,
+    "captured_at": "2026-10-31T00:06:03.132Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/kern",
+    "response_sha256": "268b9aa160d841a93674c1ad6431fbf1f179ff7298d10f208f09f03742a80979",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 51,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 17,
+    "no_statement": 0
    }
   },
   {
@@ -387,16 +584,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 951,
+    "captured_at": "2026-10-31T00:06:04.737Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/kings",
+    "response_sha256": "0cdd72f434149a992cd6e9486228c0158363eace356aa988df03192c29111379",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "kind": "anchored",
+    "exact": 38,
+    "quoted_parts": 1,
+    "unanchored": 23,
+    "no_statement": 0
    }
   },
   {
@@ -407,16 +617,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 952,
+    "captured_at": "2026-10-31T00:06:06.307Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/lake",
+    "response_sha256": "4c9aa4a1d2250fead8b9225d251281a1397c5f8708a4b6435d4bb9fb08b2db51",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 4,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 3,
+    "no_statement": 0
    }
   },
   {
@@ -427,16 +650,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 953,
+    "captured_at": "2026-10-31T00:06:07.882Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/lassen",
+    "response_sha256": "249a535723b4339d101de0f1bab4a55f53381299dceda065080284594ef0b773",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 5,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 3,
+    "no_statement": 0
    }
   },
   {
@@ -447,16 +683,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 954,
+    "captured_at": "2026-10-31T00:06:09.531Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+    "response_sha256": "6647dca161bd546260bb685168aca007f1676b3e15b724afe1a84c139e2f549f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 113,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 19,
+    "no_statement": 0
    }
   },
   {
@@ -467,16 +716,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 955,
+    "captured_at": "2026-10-31T00:06:11.117Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/madera",
+    "response_sha256": "ea05a43a0cede7e2a7cca587f96a53390796ca37ef9b8f371359e1ae631b74b0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "kind": "anchored",
+    "exact": 22,
+    "quoted_parts": 1,
+    "unanchored": 10,
+    "no_statement": 0
    }
   },
   {
@@ -487,16 +749,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 956,
+    "captured_at": "2026-10-31T00:06:12.756Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/marin",
+    "response_sha256": "1cadc224a5336af5c492da4c1ef0f7b12990de68653c4ebadb48659b93aa147a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 25,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -507,16 +782,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 957,
+    "captured_at": "2026-10-31T00:06:14.330Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/mariposa",
+    "response_sha256": "f7a3f68edf7aba8e85537d21542ef0c0b919655a5be1b627e24b86e41fe12138",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 2,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -527,16 +815,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 958,
+    "captured_at": "2026-10-31T00:06:15.943Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/mendocino",
+    "response_sha256": "69bce42c8964e38f654addcf00897529c6beb1d59989c5fab551db5ec9caec09",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 7,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -547,16 +848,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 959,
+    "captured_at": "2026-10-31T00:06:17.535Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/merced",
+    "response_sha256": "ded359db2ed5780e19bb5339e6db51ce1f1354eedbc4706827e6ae47abbe0f9c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 32,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 6,
+    "no_statement": 0
    }
   },
   {
@@ -567,16 +881,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 960,
+    "captured_at": "2026-10-31T00:06:19.111Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/modoc",
+    "response_sha256": "77e6f5a2b30434646ffe14a2b1382228a40ae452eff92ca85b09d552f583578e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 3,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -587,16 +914,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 961,
+    "captured_at": "2026-10-31T00:06:20.751Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/mono",
+    "response_sha256": "04ab458ee48c290d125269ffcc780bc7eb9f5b1c225b7103e53cb7dc49e0d832",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 9,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -607,16 +947,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 962,
+    "captured_at": "2026-10-31T00:06:22.376Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/monterey",
+    "response_sha256": "02e91f0dd544a2101585c6075b2e2799da8ef54b4c35a014eedce2b536b4174e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 48,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 19,
+    "no_statement": 0
    }
   },
   {
@@ -627,16 +980,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 963,
+    "captured_at": "2026-10-31T00:06:23.994Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/napa",
+    "response_sha256": "951eba7594bc57cb139acd9c1179154734bbb770a5a3fd099c173d0e307b795c",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 8,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 4,
+    "no_statement": 0
    }
   },
   {
@@ -647,16 +1013,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 964,
+    "captured_at": "2026-10-31T00:06:25.605Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/nevada",
+    "response_sha256": "d66aac4ac6244dc04cf8f81e4a119b604a5d0a47fcb0a25d4a6ebacb4b78c202",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 16,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 6,
+    "no_statement": 0
    }
   },
   {
@@ -667,16 +1046,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 965,
+    "captured_at": "2026-10-31T00:06:27.189Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/orange",
+    "response_sha256": "e876dbbf89107b534b7f460f1b1004edf0aeddd18b532cdb8e8f60af29d01082",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 68,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 77,
+    "no_statement": 0
    }
   },
   {
@@ -687,16 +1079,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 966,
+    "captured_at": "2026-10-31T00:06:28.764Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/placer",
+    "response_sha256": "7eef83fde98887f41dc5e29fdfa89ee460ba29c8e204abc631fea569367fd0eb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 38,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 15,
+    "no_statement": 0
    }
   },
   {
@@ -707,16 +1112,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 967,
+    "captured_at": "2026-10-31T00:06:30.359Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/riverside",
+    "response_sha256": "53b39ea634f40bafe9eae06eee907f7db6226983033ddf44a11f2c906e86fd20",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 58,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 52,
+    "no_statement": 0
    }
   },
   {
@@ -727,16 +1145,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 968,
+    "captured_at": "2026-10-31T00:06:31.956Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/sacramento",
+    "response_sha256": "1ad341e94ba6d3cb53f83e7c1f0c9b01f33ac342adadb2efd61a086fa4bc5090",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 47,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 17,
+    "no_statement": 0
    }
   },
   {
@@ -747,16 +1178,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 969,
+    "captured_at": "2026-10-31T00:06:33.533Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/san-benito",
+    "response_sha256": "e801663f61928747ad9874a02b09357d481b959850ef02e6f5836329c3c6a9e2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 3,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -767,16 +1211,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 970,
+    "captured_at": "2026-10-31T00:06:35.093Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/san-bernardino",
+    "response_sha256": "966202d9d84cb4265333ebc3ce55c4ccc359508da5d62600833fc5bf68aedd36",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "kind": "anchored",
+    "exact": 81,
+    "quoted_parts": 1,
+    "unanchored": 62,
+    "no_statement": 0
    }
   },
   {
@@ -787,16 +1244,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 972,
+    "captured_at": "2026-10-31T00:06:38.259Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/san-francisco",
+    "response_sha256": "4dc68cfd714343ddfe3766700112368dbb86527d3e5f89bb8d425541c959e168",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 11,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -807,16 +1277,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 973,
+    "captured_at": "2026-10-31T00:06:39.842Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/san-joaquin",
+    "response_sha256": "0b21f3a217ee118bc6c426a021f24adf09d4eb750fa964128f660ae4322ad3d3",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 23,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 17,
+    "no_statement": 0
    }
   },
   {
@@ -827,16 +1310,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 974,
+    "captured_at": "2026-10-31T00:06:41.446Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/san-luis-obispo",
+    "response_sha256": "19b2f641999fdb361d40897053459443797dae9488af09c4d1d1ed4aae6c1d9e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 15,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 5,
+    "no_statement": 0
    }
   },
   {
@@ -847,16 +1343,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 975,
+    "captured_at": "2026-10-31T00:06:43.022Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/san-mateo",
+    "response_sha256": "f6f22dc66b4cc20ee7ea6ba3b4f0088b2f9ccd3b606102f64bd8577c4a0c7574",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 31,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -867,16 +1376,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 976,
+    "captured_at": "2026-10-31T00:06:44.577Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/santa-barbara",
+    "response_sha256": "c112182b481697301e4b07e4497586a89cc7357f7d5948273bde4a038b44a3e0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "kind": "anchored",
+    "exact": 27,
+    "quoted_parts": 1,
+    "unanchored": 11,
+    "no_statement": 0
    }
   },
   {
@@ -887,16 +1409,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 977,
+    "captured_at": "2026-10-31T00:06:46.158Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/santa-clara",
+    "response_sha256": "eaeac41bf3dfc41f993847dbf3fd29ccea22531cee426497fe0eea85239f87c0",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 20,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 1,
+    "no_statement": 0
    }
   },
   {
@@ -907,16 +1442,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 978,
+    "captured_at": "2026-10-31T00:06:47.727Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/santa-cruz",
+    "response_sha256": "4a6469b2a6f53d47a1b082fafbdbf8d5c81597e959f0e6ec10c861f2939cef0b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 10,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 6,
+    "no_statement": 0
    }
   },
   {
@@ -927,16 +1475,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 979,
+    "captured_at": "2026-10-31T00:06:49.308Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/shasta",
+    "response_sha256": "18e7cdabcfc42ce52f3ddf6e721db2c9c049964b7d7d9af2e896d78f92ef94d7",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 36,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 8,
+    "no_statement": 0
    }
   },
   {
@@ -947,16 +1508,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 980,
+    "captured_at": "2026-10-31T00:06:50.871Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/sierra",
+    "response_sha256": "86aa82a01d95ed3072b945cf8e6915dd1b196416852941c78d8e4b4c39114f82",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 1,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -967,16 +1541,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 981,
+    "captured_at": "2026-10-31T00:06:52.449Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/siskiyou",
+    "response_sha256": "a59e174c293468c52dbe686a954be96b10986ce004bd9750f5947d46696fe8e6",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 19,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -987,16 +1574,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 982,
+    "captured_at": "2026-10-31T00:06:54.087Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/solano",
+    "response_sha256": "2fff5cfaf0d0cf4b0a711d12f59eb2c8d140cb1ac8e0685a15dce388ef997768",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 19,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 4,
+    "no_statement": 0
    }
   },
   {
@@ -1007,16 +1607,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 983,
+    "captured_at": "2026-10-31T00:06:55.651Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/sonoma",
+    "response_sha256": "89b58c0d3538b2456867b1354c6c4fc55634d15a0832d6fa5f8170beace7a681",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 28,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 5,
+    "no_statement": 0
    }
   },
   {
@@ -1027,16 +1640,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 984,
+    "captured_at": "2026-10-31T00:06:57.265Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/stanislaus",
+    "response_sha256": "30b7bbf143f3a74fcdd1688010218d07c5801211a55348d1aa38f6c6fa71f8e5",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 28,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 15,
+    "no_statement": 0
    }
   },
   {
@@ -1047,16 +1673,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 985,
+    "captured_at": "2026-10-31T00:06:58.843Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/sutter",
+    "response_sha256": "58086a22404ff011e7f2b5335f1044b9b065d895b459aa5e48b88bcf9d933285",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 4,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 1,
+    "no_statement": 0
    }
   },
   {
@@ -1067,16 +1706,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 986,
+    "captured_at": "2026-10-31T00:07:00.420Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/tehama",
+    "response_sha256": "6c4cede6f437256cecdce1cbe3e63f9c0072a614c5d4b2ada3021b6648af5733",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 14,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 1,
+    "no_statement": 0
    }
   },
   {
@@ -1087,16 +1739,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 987,
+    "captured_at": "2026-10-31T00:07:02.000Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/trinity",
+    "response_sha256": "b02067b15f303251eaa4c44236cc91e34400dfd6396d2e795cc546403c35d49f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 6,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -1107,16 +1772,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 988,
+    "captured_at": "2026-10-31T00:07:03.570Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/tulare",
+    "response_sha256": "cf37a8d0a71a162fa73e70bf3548529fba81818580e982ad0adaaa1c1b706b9a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 40,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 13,
+    "no_statement": 0
    }
   },
   {
@@ -1127,16 +1805,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 989,
+    "captured_at": "2026-10-31T00:07:05.149Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/tuolumne",
+    "response_sha256": "ac3fa769db480c49654ec3e453a99701ef80b38c3f9661a741e08f244a6aa939",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 7,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 3,
+    "no_statement": 0
    }
   },
   {
@@ -1147,16 +1838,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 990,
+    "captured_at": "2026-10-31T00:07:06.726Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/ventura",
+    "response_sha256": "ba98628a42715aaba0141c7e924ef1085b88f8cb6be2f90878b703fc92db1a99",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 24,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 17,
+    "no_statement": 0
    }
   },
   {
@@ -1167,16 +1871,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 991,
+    "captured_at": "2026-10-31T00:07:08.297Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/yolo",
+    "response_sha256": "4b264b525a833dd869cab87dcf4f834076db94e804fc63cedf0a1d98484fc9ea",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 10,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 3,
+    "no_statement": 0
    }
   },
   {
@@ -1187,16 +1904,29 @@
     "host": "reformcalifornia.org",
     "org_host": "reformcalifornia.org"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 992,
+    "captured_at": "2026-10-31T00:07:09.879Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.reformcalifornia.org/voter-guides/yuba",
+    "response_sha256": "1fbb3bfc9896a50061669f4e753383924459ef35ca7b9be96e1c30130459fd1f",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 11,
     "quoted_parts": 0,
-    "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "unanchored": 2,
+    "no_statement": 0
    }
   }
  ]

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://eastbayforeveryone.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "eastbayforeveryone.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 136,
-    "captured_at": "2026-10-30T17:47:16.146Z",
+    "run": "2026-10-31T0003Z",
+    "index": 150,
+    "captured_at": "2026-10-31T00:03:54.342Z",
     "status": 200,
     "error": null,
     "final_url": "https://eastbayforeveryone.org/2026/09/21/eb4e-2026-general-election-endorsements/",
-    "response_sha256": "74e243b3fb99712e6d57497cec14cfe6d155cbf884819df339cf80a6fdcf6045",
+    "response_sha256": "f80ba719b6a41e2d2e487254cb702e828994c706d2021324896416f01a2a0103",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030090121id_/https://eastbayforeveryone.org/2026/09/21/eb4e-2026-general-election-endorsements/",
+    "timestamp": "20261030090121",
+    "digest": "RJJJO3D7J3SZJI3UQM4Z763S4KSWA2LK",
+    "statements": {
+     "found": 13,
+     "of": 15
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 13,
@@ -55,13 +65,13 @@
     "org_host": "eastbayforeveryone.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 135,
-    "captured_at": "2026-10-30T17:47:13.953Z",
+    "run": "2026-10-31T0003Z",
+    "index": 149,
+    "captured_at": "2026-10-31T00:03:52.356Z",
     "status": 200,
     "error": null,
     "final_url": "https://eastbayforeveryone.org/2026/03/05/streamlining-sprawl-is-not-pro-housing/",
-    "response_sha256": "4fb89bde2c75ae62b77d0daba1bee8fde5a1436c6ae0d3c12c51b0685e4396ed",
+    "response_sha256": "e6e9cb5bfe0f2b2b91d7a2a11e6d469852c527c41c983e178200bb152f4f9a4d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,7 +80,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261016184751id_/https://eastbayforeveryone.org/2026/03/05/streamlining-sprawl-is-not-pro-housing/",
+    "timestamp": "20261016184751",
+    "digest": "ZC37TUE7OS6Y2J7MEHV7F26RLO3LOGBA",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

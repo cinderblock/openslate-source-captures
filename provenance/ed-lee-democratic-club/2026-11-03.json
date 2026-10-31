@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.edleedems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "edleedems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 675,
-    "captured_at": "2026-10-30T17:48:17.347Z",
+    "run": "2026-10-31T0003Z",
+    "index": 838,
+    "captured_at": "2026-10-31T00:05:22.481Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.edleedems.org/nov2026/",
-    "response_sha256": "ec821c529b297179d62ebc3a694ebe1690ea1628962a8b044baabc8d8328ee81",
+    "response_sha256": "167c9bb87c3e8ae7aa218efe4a47c9564a24591cf1abdf02db7e2c7be6c53226",
     "bytes": "public",
     "claims": [
      "captured",

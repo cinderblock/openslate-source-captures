@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.alicebtoklas.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "alicebtoklas.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 627,
-    "captured_at": "2026-10-30T17:48:04.872Z",
+    "run": "2026-10-31T0003Z",
+    "index": 790,
+    "captured_at": "2026-10-31T00:05:07.135Z",
     "status": 200,
     "error": null,
     "final_url": "https://alicebtoklas.org/2026endorsements",
-    "response_sha256": "96e7c767369d7418b285ab469c9875d7f3118feb554cb85312b989e46c2d3cd0",
+    "response_sha256": "7861dd63137eeb029ebcd0765fab95936c43f6022244834f21c17f49e49ea0de",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261017033358id_/https://www.alicebtoklas.org/2026endorsements",
+    "timestamp": "20261017033358",
+    "digest": "GWYCKSHE7LWJXV4YP74NCITDYJXF5MDN",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 7,

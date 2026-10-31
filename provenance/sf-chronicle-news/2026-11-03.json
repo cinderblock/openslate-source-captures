@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.sfchronicle.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,19 +24,23 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 849,
-    "captured_at": "2026-10-30T17:48:47.757Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1074,
+    "captured_at": "2026-10-31T00:05:56.102Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfchronicle.com/projects/2026/california-sf-bay-area-voter-guide/",
-    "response_sha256": "89404c006c9c27d8c47d7db3315affc405adcab3ce0a5fdd202ca4e0363be601",
+    "response_sha256": "443a8ab0cffc304b14da127fb772f243ace5ff0200006b813fd07432ff05acb1",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "d361f61235f982eec94bbd19a2682831cbcf4722ddb0bea1be2fc5058978cf2a"
+    }
    },
    "last_ok": null,
    "archived": null,

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://ieunited.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "ieunited.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 182,
-    "captured_at": "2026-10-30T17:47:19.067Z",
+    "run": "2026-10-31T0003Z",
+    "index": 199,
+    "captured_at": "2026-10-31T00:04:01.043Z",
     "status": 200,
     "error": null,
     "final_url": "https://ieunited.org/2026-endorsements/",
-    "response_sha256": "960cad65e0b2092de744487098ce67b7f16598416bdc8eae292d5a3916993077",
+    "response_sha256": "aeabd22af081d8e228b6d0d30b9570bac49cc37ddfbc3c126a371af99df521af",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20260607140707id_/https://ieunited.org/2026-endorsements/",
+    "timestamp": "20260607140707",
+    "digest": "GHN7ETLZDCYYDPZSCJRSBWW537UDZM4N",
+    "statements": {
+     "found": 5,
+     "of": 44
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 28,

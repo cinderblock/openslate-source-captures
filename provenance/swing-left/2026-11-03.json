@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://swingleft.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "swingleft.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 490,
-    "captured_at": "2026-10-30T17:47:53.181Z",
+    "run": "2026-10-31T0003Z",
+    "index": 638,
+    "captured_at": "2026-10-31T00:04:50.470Z",
     "status": 200,
     "error": null,
     "final_url": "https://swingleft.org/house",
-    "response_sha256": "f828813bcf417032b8f35dd77a94780a1960f16cab6dad1a0274148cab6055ba",
+    "response_sha256": "5645efd74420c8cc4577a664891a88050c53cb272d0efb19f0dffd2d17951429",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021212830id_/https://swingleft.org/house",
+    "timestamp": "20261021212830",
+    "digest": "PZL6GXSZXCWXBNZEBBRZWM73N7V6AC3V",
+    "origin": "existing",
+    "statements": {
+     "found": 2,
+     "of": 5
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

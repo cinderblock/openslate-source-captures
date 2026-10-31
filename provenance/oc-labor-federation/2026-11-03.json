@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.oclabor.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "oclabor.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 723,
-    "captured_at": "2026-10-30T17:48:30.678Z",
+    "run": "2026-10-31T0003Z",
+    "index": 887,
+    "captured_at": "2026-10-31T00:05:37.308Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oclabor.org/cope-endorsements-2026/",
-    "response_sha256": "d4f78d58bea132f604fab090477aba6be4f79e8cbe635915d623f89c88b1cde6",
+    "response_sha256": "b119ecd373ec31181acb474c27d972ffcae38c259d2ebf7a78439133c6b5a11d",
     "bytes": "public",
     "claims": [
      "captured",

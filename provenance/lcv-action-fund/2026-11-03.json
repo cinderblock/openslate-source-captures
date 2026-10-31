@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.lcv.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "lcv.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 705,
-    "captured_at": "2026-10-30T17:48:24.890Z",
+    "run": "2026-10-31T0003Z",
+    "index": 868,
+    "captured_at": "2026-10-31T00:05:31.512Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lcv.org/endorsements/?state=california&cycle=2026&result_page=2",
-    "response_sha256": "88a089ed5b3c79d0081d3e3c40bff3ca9900ffc284d988b9ada3304ea82072c0",
+    "response_sha256": "aac3164eb6dd8c2b25a13afad27f12fcb5daa2075a0cb915b3c10481d50175f9",
     "bytes": "public",
     "claims": [
      "captured",

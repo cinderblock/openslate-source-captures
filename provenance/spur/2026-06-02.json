@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.spur.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "spur.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 880,
-    "captured_at": "2026-10-30T17:48:52.706Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1105,
+    "captured_at": "2026-10-31T00:06:00.156Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.spur.org/voter-guide/2026-06",
-    "response_sha256": "40c069e6cc12d3025749a1f0d7de4bb75c3fe0f2ea652c08491e770a11e8362e",
+    "response_sha256": "0fb36f6054b377aaa79a69e52a8f5f40d9f6a28493f0f387790c887505c40db1",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.stonewalldems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "stonewalldems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 882,
-    "captured_at": "2026-10-30T17:48:54.114Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1107,
+    "captured_at": "2026-10-31T00:06:01.779Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
-    "response_sha256": "888914249e3f88bb60bc40812776d16985ee6bbdaf1a7bc46af5fb8b52edeb03",
+    "response_sha256": "4bbead932544a33a317affd236ae1e2a0d68126dbc74b26d1c7778217754ca8b",
     "bytes": "public",
     "claims": [
      "captured",

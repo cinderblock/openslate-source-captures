@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://sfparentaction.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,32 @@
     "org_host": "sfparentaction.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 426,
-    "captured_at": "2026-10-30T17:47:47.219Z",
+    "run": "2026-10-31T0003Z",
+    "index": 535,
+    "captured_at": "2026-10-31T00:04:40.885Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfparentaction.org/endorsements-2026-nov/",
-    "response_sha256": "2ffd1aeb4ba74db4ccd26a02f13d47eea96ad1fa58f7a5db23488a621999124d",
+    "response_sha256": "6b12cf4e50d95db8ab0bbeb3571f5c307b447fb58fec42c5e1b0268fe6ab507c",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261017035143id_/https://sfparentaction.org/endorsements-2026-nov/",
+    "timestamp": "20261017035143",
+    "digest": "IF3XJSZMO73Q7N2CWYXEILBKADCUOVUH",
+    "origin": "existing",
+    "statements": {
+     "found": 3,
+     "of": 3
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,

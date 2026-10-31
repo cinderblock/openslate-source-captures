@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.sjcdems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sjcdems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 868,
-    "captured_at": "2026-10-30T17:48:48.762Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1093,
+    "captured_at": "2026-10-31T00:05:58.193Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sjcdems.org/endorsements",
-    "response_sha256": "0d779d3ea83ed43f7e2469a93bdafad7575fbfbe2159112abcae672ba24ada42",
+    "response_sha256": "92ebdce8e2c926a9ebd9d9bf212b9b31de3f36dba16c33ed1bd6ef73b98ebbc3",
     "bytes": "public",
     "claims": [
      "captured",

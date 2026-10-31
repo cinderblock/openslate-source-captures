@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.cmadocs.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "cmadocs.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 654,
-    "captured_at": "2026-10-30T17:48:08.991Z",
+    "run": "2026-10-31T0003Z",
+    "index": 817,
+    "captured_at": "2026-10-31T00:05:13.780Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cmadocs.org/voter-guide",
-    "response_sha256": "4bf160b04a7312969a2841c5b1c13580c8d1cd641492a29d0454b8b24e35f29f",
+    "response_sha256": "b2ac7334867c7f731e5139c96ffe67692f5efbe9039c3e6ba6eb5d698f558760",
     "bytes": "public",
     "claims": [
      "captured",

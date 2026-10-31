@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://svgop.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "svgop.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 489,
-    "captured_at": "2026-10-30T17:47:54.750Z",
+    "run": "2026-10-31T0003Z",
+    "index": 637,
+    "captured_at": "2026-10-31T00:04:51.212Z",
     "status": 200,
     "error": null,
     "final_url": "https://svgop.com/voter-guide",
-    "response_sha256": "a79aabcdff69da7936f079eb9310d3c1f68401eac6edc3bc21460df46bf98f6c",
+    "response_sha256": "99ecef528e90d312499a95e10c9c9ca57a051338eaa235bae412c037a5edc3d2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261006232332id_/https://svgop.com/voter-guide",
+    "timestamp": "20261006232332",
+    "digest": "LHJSUJMKAID5CNFSPU54J637HRQI7I2C",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,13 +62,13 @@
     "org_host": "svgop.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 488,
-    "captured_at": "2026-10-30T17:47:53.234Z",
+    "run": "2026-10-31T0003Z",
+    "index": 636,
+    "captured_at": "2026-10-31T00:04:49.594Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/6785b4117fb4713248ac921c/t/6ac0a37ed7b0644dc4fe591f/1791009662259/SVGOP+Endorsements+2026+General+Election.jpg",
-    "response_sha256": "66580f72b8c86a29a07cadfc408f779800d30786000aa391790476a30b0c71fb",
+    "response_sha256": "8207b6fb4080fb9e7360641d12d09d63c2475ca3c945d799e3306ee6bc691365",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://ielabor.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "ielabor.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 181,
-    "captured_at": "2026-10-30T17:47:18.463Z",
+    "run": "2026-10-31T0003Z",
+    "index": 198,
+    "captured_at": "2026-10-31T00:04:00.239Z",
     "status": 200,
     "error": null,
     "final_url": "https://ielabor.org/cope/2026generalendorsements/",
-    "response_sha256": "11470f702f80d9d6363dc986a62cb466a4ea69ab2217bcd763afa2df78f18368",
+    "response_sha256": "2dd63086187ef9d8163d36d97ed3c4c61d4018a1e50c39636ffcd6aaffd471e9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021160037id_/https://ielabor.org/cope/2026generalendorsements/",
+    "timestamp": "20261021160037",
+    "digest": "7MYPCGNKODZFCRBFD2LVGYUJS33AP7YE",
+    "statements": {
+     "found": 33,
+     "of": 75
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 34,

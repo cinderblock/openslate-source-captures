@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://vote.santaclaracounty.gov/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 172,
-    "captured_at": "2026-10-30T17:47:17.510Z",
+    "run": "2026-10-31T0003Z",
+    "index": 187,
+    "captured_at": "2026-10-31T00:03:57.820Z",
     "status": 403,
     "error": null,
     "final_url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
-    "response_sha256": "622866262e6fdf4ee7e77263c27a658d70b9f95c3c36ff8e01af2bcb817f0a44",
+    "response_sha256": "9c2842afa8a0b90a74abeb9ed84bf5a058a07ac68bbbac127a495d61281b897a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -68,13 +70,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 47,
-    "captured_at": "2026-10-30T17:47:24.876Z",
+    "run": "2026-10-31T0003Z",
+    "index": 50,
+    "captured_at": "2026-10-31T00:04:01.379Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
-    "response_sha256": "cbbf77824a99b9bea85ea78a0af71a7ab3e563227ac84ed5bf3bb865a968b13c",
+    "response_sha256": "bc0048765252a95e4a87223a774298db9bf95914585e875b34f58fa22d042947",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,7 +85,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030214304id_/https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
+    "timestamp": "20261030214304",
+    "digest": "6BSY2MYXEVJPBEDM7JNZZWRGIR73QEO7",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

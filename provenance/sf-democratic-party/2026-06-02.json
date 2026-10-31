@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.sfdems.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sfdems.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 851,
-    "captured_at": "2026-10-30T17:48:46.399Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1076,
+    "captured_at": "2026-10-31T00:05:54.739Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfdems.org/endorsements/june-2-2026-primary-election",
-    "response_sha256": "cd3f159d47cd25759428e1828fdbf6e7d4eb31490b57c8d6d173a72594f4860c",
+    "response_sha256": "0cf2207b383c564b7010c577e588c7a596aff1a674359e02544c7f46c85672ca",
     "bytes": "public",
     "claims": [
      "captured",

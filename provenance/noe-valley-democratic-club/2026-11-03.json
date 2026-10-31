@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.noevalleydemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "noevalleydemocrats.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 721,
-    "captured_at": "2026-10-30T17:48:30.251Z",
+    "run": "2026-10-31T0003Z",
+    "index": 885,
+    "captured_at": "2026-10-31T00:05:37.101Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.noevalleydemocrats.org/endorsements",
-    "response_sha256": "1ab651284f40c87cce31fe7fff5f90664c603dc0623aa7d4af0fca7146ca217c",
+    "response_sha256": "9bf0152c93c17b80c845beb30fd19e2e55603b0619e37413b5ba24d65a12c73d",
     "bytes": "public",
     "claims": [
      "captured",

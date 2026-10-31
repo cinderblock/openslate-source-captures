@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.plannedparenthoodaction.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,6 +24,21 @@
     "org_host": "plannedparenthoodaction.org"
    },
    "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 893,
+    "captured_at": "2026-10-31T00:05:37.994Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.plannedparenthoodaction.org/endorsements",
+    "response_sha256": "a449bbc51fd6346b1e66fdae8c53662a55be6618791c43fdb0e1d60525daa0cb",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
     "run": "2026-10-30T1747Z",
     "index": 728,
     "captured_at": "2026-10-30T17:48:31.490Z",
@@ -36,7 +53,6 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": null,
    "archived": null,
    "derivation": {
     "kind": "anchored",

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://justicedemocrats.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,31 @@
     "org_host": "justicedemocrats.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 229,
-    "captured_at": "2026-10-30T17:47:22.201Z",
+    "run": "2026-10-31T0003Z",
+    "index": 298,
+    "captured_at": "2026-10-31T00:04:03.080Z",
     "status": 200,
     "error": null,
     "final_url": "https://justicedemocrats.com/candidates/",
-    "response_sha256": "041212fcf365b6c2cbd57be895f4f5828580c2fcafb3fcdd8ba9d2a6d4252cdc",
+    "response_sha256": "0087f42d1b223fdc3f1c08e661517e1eae755ad023de98b06ed3dcf1e5fe54ff",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261022224725id_/https://justicedemocrats.com/candidates/",
+    "timestamp": "20261022224725",
+    "digest": "KVBT6YW5JCSLXENUMXOW3NZIT5PCPLQX",
+    "statements": {
+     "found": 3,
+     "of": 3
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

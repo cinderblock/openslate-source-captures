@@ -1,0 +1,184 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "sd-green-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.sdgreenparty.org/",
+ "generated_from": {
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.sdgreenparty.org/candidates",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sdgreenparty.org",
+    "org_host": "sdgreenparty.org"
+   },
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 1043,
+    "captured_at": "2026-10-31T00:05:54.957Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdgreenparty.org/candidates",
+    "response_sha256": "092affd83a27d95a14ce3316609374d229abe7b501e0b45068679419d4a6d1f2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdgreenparty.org/announcements",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "sdgreenparty.org",
+    "org_host": "sdgreenparty.org"
+   },
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 1040,
+    "captured_at": "2026-10-31T00:05:49.174Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdgreenparty.org/announcements",
+    "response_sha256": "8986b8b0b3ab29527989d3ed22bbc8dee579f9db600dd3347acacd1acfab7155",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "kpbs.org",
+    "org_host": "sdgreenparty.org"
+   },
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 856,
+    "captured_at": "2026-10-31T00:05:31.302Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+    "response_sha256": "0d48701237e25137d9854f5cac4150fae20b2cc8f6188f072fe944f0263fa65c",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdgreenparty.org/announcements/feb-2026-endorsements",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "sdgreenparty.org",
+    "org_host": "sdgreenparty.org"
+   },
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 1041,
+    "captured_at": "2026-10-31T00:05:51.158Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdgreenparty.org/announcements/feb-2026-endorsements",
+    "response_sha256": "3d648a41a937eb22ddcfa1022b0b718c53b971ba07d3e2239f5a9a2872aaeb97",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://www.sdgreenparty.org/announcements/gpsd-gm-endorses-lemon-grove-bird-initiative-drop-the-jnf-and-gkn-out",
+   "positions": 1,
+   "host": {
+    "match": "exact",
+    "host": "sdgreenparty.org",
+    "org_host": "sdgreenparty.org"
+   },
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 1042,
+    "captured_at": "2026-10-31T00:05:53.172Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.sdgreenparty.org/announcements/gpsd-gm-endorses-lemon-grove-bird-initiative-drop-the-jnf-and-gkn-out",
+    "response_sha256": "cf599c22ad8f6ab6593df84560f217d4b4d09cf1ed3984e85f9dfa0f2884434b",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 1,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

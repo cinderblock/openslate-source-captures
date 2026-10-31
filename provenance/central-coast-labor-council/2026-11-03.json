@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.centralcoastlabor.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "centralcoastlabor.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 649,
-    "captured_at": "2026-10-30T17:48:07.122Z",
+    "run": "2026-10-31T0003Z",
+    "index": 812,
+    "captured_at": "2026-10-31T00:05:11.753Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.centralcoastlabor.org/2026-endorsements",
-    "response_sha256": "c3657c5b4eac08e13cc6d38fc8994ea2f7794b9a80fcf8ee04eb19256b003143",
+    "response_sha256": "8bbc93d28af0fb3661eeb9f26ecf9a4541eb275f87d781a9c99bce0394a16eae",
     "bytes": "public",
     "claims": [
      "captured",

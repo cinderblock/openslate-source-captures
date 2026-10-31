@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.rjchq.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "rjchq.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 784,
-    "captured_at": "2026-10-30T17:48:34.378Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1005,
+    "captured_at": "2026-10-31T00:05:39.671Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.rjcpac.com/",
-    "response_sha256": "5fc997a7ac8005679eeb2d3d0629ea7ac617dd10aee5eb25e510b7af6d19f8a8",
+    "response_sha256": "9cd7f63a97d82bd057f02ddc285e934ea8184a8b89208f00d703195d04363275",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,13 +57,13 @@
     "org_host": "rjchq.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 785,
-    "captured_at": "2026-10-30T17:48:36.349Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1006,
+    "captured_at": "2026-10-31T00:05:41.492Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.rjcpac.com/candidate/david-valadao/",
-    "response_sha256": "00df007961fe95dcb3b86cff88ce7b6a5715bd0c1596fbd81e4732e10f42e3d5",
+    "response_sha256": "13c5fb50105aff5ee88616c1bd5e00ae07818b57d1efbbfa568ec0ccec8a25fd",
     "bytes": "public",
     "claims": [
      "captured",

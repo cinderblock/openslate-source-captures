@@ -5,11 +5,13 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 827,
-    "captured_at": "2026-10-30T17:48:48.308Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1052,
+    "captured_at": "2026-10-31T00:05:56.570Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-312.pdf",
-    "response_sha256": "b4d436d29fe823bb9ed419b90bcdcecd830243f1ef9a4206dadb4814db6da18e",
+    "response_sha256": "9dbd58ca7f9879013ef3f44ddaa7373986042f8ebc0f534198158edd557a0843",
     "bytes": "release",
     "claims": [
      "captured",

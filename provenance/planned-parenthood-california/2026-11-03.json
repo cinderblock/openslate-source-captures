@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "plannedparenthoodaction.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 729,
-    "captured_at": "2026-10-30T17:48:33.212Z",
+    "run": "2026-10-31T0003Z",
+    "index": 894,
+    "captured_at": "2026-10-31T00:05:40.064Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/voter-guide",
-    "response_sha256": "d0ea84eaac20bdf92bb2c3eef54545b530661715896963fefab3f601f526d665",
+    "response_sha256": "22cc161b29fdf2c5be44e3a18b615707896b4273377b98927aa1d6cf1b0f452b",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://cabuildingtrades.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,31 @@
     "org_host": "cabuildingtrades.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 48,
-    "captured_at": "2026-10-30T17:47:07.396Z",
+    "run": "2026-10-31T0003Z",
+    "index": 51,
+    "captured_at": "2026-10-31T00:03:44.355Z",
     "status": 200,
     "error": null,
     "final_url": "https://cabuildingtrades.org/2026-general-election-endorsements/",
-    "response_sha256": "fa444471f3111a84c6b281b0b8fd4d712784046aa2a873dd75f8bd4f7c77398c",
+    "response_sha256": "12f07eb3df6036a2bd8b595a931417a2eaef03ef28c19bdf05fc0937377fd3d8",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021071108id_/https://cabuildingtrades.org/2026-general-election-endorsements/",
+    "timestamp": "20261021071108",
+    "digest": "M4GEX3IFQM3ELD3QTX6QLHRL2J6A7PLY",
+    "statements": {
+     "found": 20,
+     "of": 20
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 8,

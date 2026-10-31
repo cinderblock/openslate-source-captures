@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://sftu.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,32 @@
     "org_host": "sftu.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 430,
-    "captured_at": "2026-10-30T17:47:48.177Z",
+    "run": "2026-10-31T0003Z",
+    "index": 539,
+    "captured_at": "2026-10-31T00:04:42.522Z",
     "status": 200,
     "error": null,
     "final_url": "https://sftu.org/endorsements/",
-    "response_sha256": "9be47828034de6964d1b8c9b986c7f7e660a30a9e5fbdcbab44705d7358da4dd",
+    "response_sha256": "254612de7a4de61ce403e05999a64a224643ca0ef4874129e7c3b6b44ef8e743",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261021071202id_/https://sftu.org/endorsements/",
+    "timestamp": "20261021071202",
+    "digest": "KXGWBY7CHNKYSUFLTLTFYEMBZ22HZKPU",
+    "origin": "existing",
+    "statements": {
+     "found": 9,
+     "of": 9
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,

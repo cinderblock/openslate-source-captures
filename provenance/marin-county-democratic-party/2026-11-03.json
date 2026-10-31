@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://marindemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,31 @@
     "org_host": "marindemocrats.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 302,
-    "captured_at": "2026-10-30T17:47:27.726Z",
+    "run": "2026-10-31T0003Z",
+    "index": 382,
+    "captured_at": "2026-10-31T00:04:10.783Z",
     "status": 200,
     "error": null,
     "final_url": "https://marindemocrats.org/2026-november-election-endorsements/",
-    "response_sha256": "58f5e4cd5a77cd66d3eacaf6a1ac141164f3fc9569a4e9684c3d3aa7ad665df0",
+    "response_sha256": "d26b1627263d9ffd09c0073ef2f836e066f897fe7c1ab107400bb09c47a74963",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261009122152id_/https://marindemocrats.org/2026-november-election-endorsements/",
+    "timestamp": "20261009122152",
+    "digest": "OIUAVE5GGMKVA2LBPBBLJ7PXCR7GOQHT",
+    "statements": {
+     "found": 33,
+     "of": 33
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 33,
@@ -55,22 +66,31 @@
     "org_host": "marindemocrats.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 304,
-    "captured_at": "2026-10-30T17:47:31.141Z",
+    "run": "2026-10-31T0003Z",
+    "index": 384,
+    "captured_at": "2026-10-31T00:04:14.190Z",
     "status": 200,
     "error": null,
     "final_url": "https://marindemocrats.org/measure-n-miller-creek-school-district/",
-    "response_sha256": "c17d64a51872c474ffc6dfd4bbf7a7ade4a90b2fe6d555ac7ec4c8aa4c3fcacb",
+    "response_sha256": "15317d1b5d7cd81985e46d0144804ae31a3d9c264dae2193bff3c110e68f4be3",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261008095657id_/https://marindemocrats.org/measure-n-miller-creek-school-district/",
+    "timestamp": "20261008095657",
+    "digest": "HOVKCZA7P3HYQTOH32YAQC7S23HSUWGJ",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -88,22 +108,31 @@
     "org_host": "marindemocrats.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 305,
-    "captured_at": "2026-10-30T17:47:32.688Z",
+    "run": "2026-10-31T0003Z",
+    "index": 385,
+    "captured_at": "2026-10-31T00:04:15.866Z",
     "status": 200,
     "error": null,
     "final_url": "https://marindemocrats.org/measure-p/",
-    "response_sha256": "0512f3e53c55bb0aec43084cb7bae09500aea7dedc5ec5141aaef8c406b97c55",
+    "response_sha256": "99b4f0e006212edb4c6b9423a0e13b8123b39ead5ba247bd463acb3b06d1e87e",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261007214131id_/https://marindemocrats.org/measure-p/",
+    "timestamp": "20261007214131",
+    "digest": "XCBLOA32P5DR5V3FGENO3PJ32VQG33OA",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -121,22 +150,31 @@
     "org_host": "marindemocrats.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 306,
-    "captured_at": "2026-10-30T17:47:34.236Z",
+    "run": "2026-10-31T0003Z",
+    "index": 386,
+    "captured_at": "2026-10-31T00:04:17.539Z",
     "status": 200,
     "error": null,
     "final_url": "https://marindemocrats.org/measure-w-san-rafael-services/",
-    "response_sha256": "55c70634f6362f366660cdacffe9f9d6b920d179c26aa8ef1457e11e9759e170",
+    "response_sha256": "cfffa763b7e5e9cf903c8e759c0a74b5c3289f585ba90cc23c17781333fac26e",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261007215539id_/https://marindemocrats.org/measure-w-san-rafael-services/",
+    "timestamp": "20261007215539",
+    "digest": "ZT5CFFOHDWWHWUXJNN3E6SQNFY5K56GS",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -154,22 +192,31 @@
     "org_host": "marindemocrats.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 303,
-    "captured_at": "2026-10-30T17:47:29.579Z",
+    "run": "2026-10-31T0003Z",
+    "index": 383,
+    "captured_at": "2026-10-31T00:04:12.451Z",
     "status": 200,
     "error": null,
     "final_url": "https://marindemocrats.org/measure-cc-critical-care-for-marin/",
-    "response_sha256": "91f4c16c23754d225caa320b10cfbad728f48b5b7d305bd4477fdd8afbb97718",
+    "response_sha256": "4d4c4295c9c334827326a5187c73ba8bc02896a644ba10a8960c289520b08466",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261007210459id_/https://marindemocrats.org/measure-cc-critical-care-for-marin/",
+    "timestamp": "20261007210459",
+    "digest": "IKXDEUDGBR6Z5HHHGMJ3F4N2J33UHBZ3",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,

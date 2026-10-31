@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.thrivelosangeles.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "thrivelosangeles.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 890,
-    "captured_at": "2026-10-30T17:48:56.376Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1115,
+    "captured_at": "2026-10-31T00:06:04.411Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.thrivelosangeles.org/voter-guide",
-    "response_sha256": "6d7f45fcfb0371a35fdae7dbe3dc9d3a269990214f1276a72df18d346ebe3baf",
+    "response_sha256": "06cec8b8fb07c9a24a5fdcf4a2816bad0e381f6bf24ce319b79216b5f5eea6a1",
     "bytes": "public",
     "claims": [
      "captured",

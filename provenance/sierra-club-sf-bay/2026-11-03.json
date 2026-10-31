@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/sfbay",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 865,
-    "captured_at": "2026-10-30T17:48:57.639Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1090,
+    "captured_at": "2026-10-31T00:06:06.616Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/2026-endorsements",
-    "response_sha256": "e03bfc18efc256eef7adfc855f9b901a7775674f87487a9f54ade914983d3869",
+    "response_sha256": "526e405a8f72dd21aaa80c475c54dedb7be4a593570110be97dcfc31fffdc029",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "eec592d6d3567f63b349604f3cbfc0c425e6515b50b6f7b6c177a280805a9eb4"
+     "dom_sha256": "89175793c885433384698faa464db89a04ea9ae0908cf4698b29b0c5f01e2f25"
     }
    },
    "last_ok": null,
@@ -59,13 +61,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 866,
-    "captured_at": "2026-10-30T17:48:59.148Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1091,
+    "captured_at": "2026-10-31T00:06:08.165Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/november-2026-combined-endorsements-explanations",
-    "response_sha256": "48840bbc791f75aed0b65bbe96d3da18e837f9a0bd61ec341c4ff616b4269040",
+    "response_sha256": "f86b863453d70524f7d8836e4679ca6c49d1bad070cca81c7f898e004ca250cb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -74,7 +76,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "2e5bc689e13094490b720c4cd1ea54b40fde1dc061d0a8fde36d84b87d70d6df"
+     "dom_sha256": "347b29774b5ce7ab67cf3d26d0d5ed23c1bbafaf45e314cdc4318e26f92fab0e"
     }
    },
    "last_ok": null,

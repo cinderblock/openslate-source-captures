@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.ebyd.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "ebyd.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 674,
-    "captured_at": "2026-10-30T17:48:17.334Z",
+    "run": "2026-10-31T0003Z",
+    "index": 837,
+    "captured_at": "2026-10-31T00:05:22.234Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.ebyd.org/endorsements",
-    "response_sha256": "bc23156bf54d4c9070986495d0be7cc90c496fbd5de45883b98c5154102bf603",
+    "response_sha256": "84f2555ea91e4906bb801f61e94f5f57e138529961b21c376d002769c7db8dc4",
     "bytes": "public",
     "claims": [
      "captured",

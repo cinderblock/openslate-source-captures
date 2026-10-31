@@ -5,11 +5,13 @@
  "mode": "transcribed",
  "org_uri": "https://www.sf.gov/departments--department-elections",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sf.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 840,
-    "captured_at": "2026-10-30T17:48:44.677Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1065,
+    "captured_at": "2026-10-31T00:05:53.339Z",
     "status": 202,
     "error": null,
     "final_url": "https://www.sf.gov/reports--candidates-nov-3-2026-general-election",
-    "response_sha256": "2cf5d5bfdd8c9ec9d80298bdd95fb8d2075ed5e1cec62046a803601d05eb16a7",
+    "response_sha256": "31efe28204dadd384ed2831655bca4a942c98a01e22247b1d641fd96d459ffc5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,13 +74,13 @@
     "org_host": "sf.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 839,
-    "captured_at": "2026-10-30T17:48:43.155Z",
+    "run": "2026-10-31T0003Z",
+    "index": 1064,
+    "captured_at": "2026-10-31T00:05:51.746Z",
     "status": 202,
     "error": null,
     "final_url": "https://www.sf.gov/qualified-ballot-measures",
-    "response_sha256": "1ccd095f74179f9851566a7fa487cb9c37443b10984cb4bf47949390e78caae9",
+    "response_sha256": "340c0466875bd1d9835ed7a69fec88e8a60ba31a1ee747c5830df6c8c72c5f5a",
     "bytes": "public",
     "claims": [
      "captured",

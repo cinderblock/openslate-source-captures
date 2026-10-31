@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://lookout.co/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -21,16 +23,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 376,
+    "captured_at": "2026-10-31T00:04:31.060Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/author/lookout-editorial-board",
+    "response_sha256": "00b53ef578276e26b386641ae75206cae336778568b9287d796db6321c5db098",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
+    "kind": "anchored",
     "exact": 0,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -41,16 +56,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 368,
+    "captured_at": "2026-10-31T00:04:11.966Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-how-we-choose-our-2026-election-endorsements/story",
+    "response_sha256": "b47d268816c803a7714f4e2a0342c771e381c52a40e907c78095ac813d291ff7",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
+    "kind": "anchored",
     "exact": 0,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -61,16 +89,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 372,
+    "captured_at": "2026-10-31T00:04:21.338Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-ryan-coonerty-for-santa-cruz-mayor-2/story",
+    "response_sha256": "a9abbb4b8a4d2e2c5b53ee2b235811f652b3bdad745fb7b2a4f125c7dca3878d",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 1,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -81,16 +122,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 367,
+    "captured_at": "2026-10-31T00:04:09.297Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-casey-clark-and-nancy-bilicich-for-watsonville-city-council/story",
+    "response_sha256": "c0ffa44f23e8ba96d826674c1d2b6013506176c8110a5c37811f00ad41ec7518",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 2,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -101,16 +155,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 369,
+    "captured_at": "2026-10-31T00:04:14.581Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-joe-clarke-and-tory-del-favero-for-capitola-city-council/story",
+    "response_sha256": "e82e6ddad5e8d1885e3e97b8ef6aaa174c5c27d00e0049a48ff3e4810474f48c",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 2,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -121,16 +188,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 371,
+    "captured_at": "2026-10-31T00:04:19.711Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-michael-zeller-and-danny-reber-for-scotts-valley-city-council/story",
+    "response_sha256": "34c938ee107ba87f326b841f51f274947868523054686b0a589f102e6f9f012a",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 2,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -141,16 +221,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 370,
+    "captured_at": "2026-10-31T00:04:17.106Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-karen-cogswell-for-cabrillo-college-trustee/story",
+    "response_sha256": "19a9a8ecc656ff55318e43d665666fc1844d412d01509a86b8f59c4176c9063c",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 1,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -161,16 +254,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 373,
+    "captured_at": "2026-10-31T00:04:23.749Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-yes-on-measure-d/story",
+    "response_sha256": "726b64c7c053f79383eb38c59f8d6bc29c567926541e22d2a4d8382549d3e20f",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 1,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -181,16 +287,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 374,
+    "captured_at": "2026-10-31T00:04:26.208Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-yes-on-measure-e/story",
+    "response_sha256": "aa8213b89239127245656d00434b558171906cda04dff2e0636c6abf35035350",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 1,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   },
   {
@@ -201,16 +320,29 @@
     "host": "lookout.co",
     "org_host": "lookout.co"
    },
-   "latest": null,
+   "latest": {
+    "run": "2026-10-31T0003Z",
+    "index": 375,
+    "captured_at": "2026-10-31T00:04:28.677Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://lookout.co/a-lookout-view-yes-on-scotts-valleys-measure-g/story",
+    "response_sha256": "1177d0d7d44854f9edb6112d3d7190361520263505358e0b0d4037bed71bff5b",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
    "last_ok": null,
    "archived": null,
    "derivation": {
-    "kind": "not-checkable",
-    "exact": 0,
+    "kind": "anchored",
+    "exact": 1,
     "quoted_parts": 0,
     "unanchored": 0,
-    "no_statement": 0,
-    "reason": "no capture yet"
+    "no_statement": 0
    }
   }
  ]

@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.lagop.org/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 293,
-    "captured_at": "2026-10-30T17:47:22.936Z",
+    "run": "2026-10-31T0003Z",
+    "index": 362,
+    "captured_at": "2026-10-31T00:04:04.376Z",
     "status": 200,
     "error": null,
     "final_url": "https://lagop-endorsement-lookup.vercel.app/",
-    "response_sha256": "c83769b313054920cd97c0cc078f2b6c7aa9d0f98baa92b3b22762fada9a497f",
+    "response_sha256": "27f60e10e8f6d466502ec1b3170303bdeb76022c78067d62e8bc2765a525152a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,15 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261008041437id_/https://lagop-endorsement-lookup.vercel.app/",
+    "timestamp": "20261008041437",
+    "digest": "MNLUJMD4VXDSMDLROUKHT2QEVAGSXIGJ",
+    "statements": {
+     "found": 34,
+     "of": 132
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 14,
@@ -55,13 +65,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 699,
-    "captured_at": "2026-10-30T17:48:23.458Z",
+    "run": "2026-10-31T0003Z",
+    "index": 862,
+    "captured_at": "2026-10-31T00:05:30.559Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lagop.org/",
-    "response_sha256": "bb50c212fceb6b9513a0a7b22d3ddca30184f29bb9fcc4a83a875928194be3ca",
+    "response_sha256": "cb2fad329928c9d9dbf9b7741ce57ba0ced0051d24e0b217243750de3913c6f9",
     "bytes": "public",
     "claims": [
      "captured",

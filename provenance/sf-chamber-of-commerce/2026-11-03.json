@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://sfchamber.com/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,13 +24,13 @@
     "org_host": "sfchamber.com"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 422,
-    "captured_at": "2026-10-30T17:47:45.507Z",
+    "run": "2026-10-31T0003Z",
+    "index": 531,
+    "captured_at": "2026-10-31T00:04:38.368Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfchamber.com/november-2026-voter-guide/",
-    "response_sha256": "fcd108c106c74e1bd01078831f6cf874fcc5b258efee42d6a442d38c271fcb72",
+    "response_sha256": "4a1c7df8f0c7c8a7fc8a5ee48dde6f11a219eb3b839e2238ec56df2dcdd60261",
     "bytes": "public",
     "claims": [
      "captured",
@@ -37,7 +39,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261013032935id_/https://sfchamber.com/november-2026-voter-guide/",
+    "timestamp": "20261013032935",
+    "digest": "TE6TRG4IEAJ55B4BLWCMXHAXX44JTQYD",
+    "origin": "existing",
+    "statements": {
+     "found": 11,
+     "of": 16
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 15,

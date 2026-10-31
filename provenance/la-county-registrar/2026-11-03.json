@@ -5,11 +5,13 @@
  "mode": "scraped",
  "org_uri": "https://www.lavote.gov/",
  "generated_from": {
-  "endorsements_commit": "bd7c71c5dbcda04eaef9aad7806719bc1e137d59",
+  "endorsements_commit": "c7457aa20ca666833092662ee347d0ea4d3c098d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
-   "2026-10-30T1747Z"
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z"
   ]
  },
  "sources": [
@@ -22,22 +24,30 @@
     "org_host": "lavote.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 30,
-    "captured_at": "2026-10-30T17:47:05.659Z",
+    "run": "2026-10-31T0003Z",
+    "index": 32,
+    "captured_at": "2026-10-31T00:03:42.457Z",
     "status": 200,
     "error": null,
     "final_url": "https://apps.lavote.gov/candidate-statements/",
-    "response_sha256": "612a39fcc96c5b125e5b3ca7e9400c48b2ec287a42bc5e0e0842708b2ad7bf26",
+    "response_sha256": "b1a7fb986f17ee211e6a5418f5a9e7e5355844b7d8b53b441149c39177671802",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "527ce961355a899917498f32a97c3d1b31f78aa1e4af352088c022876a3cc2ff"
+    }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261012082146id_/https://apps.lavote.gov/candidate-statements/",
+    "timestamp": "20261012082146",
+    "digest": "P5KKP6KANF4NGF3VUIVFUKEP4BAATDSN"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -55,22 +65,30 @@
     "org_host": "lavote.gov"
    },
    "latest": {
-    "run": "2026-10-30T1747Z",
-    "index": 196,
-    "captured_at": "2026-10-30T17:47:21.387Z",
+    "run": "2026-10-31T0003Z",
+    "index": 265,
+    "captured_at": "2026-10-31T00:04:02.084Z",
     "status": 200,
     "error": null,
     "final_url": "https://isb.lavote.gov/",
-    "response_sha256": "13cdecaddf45736d77efff27eab4f36c9dde1610b745ef137ced2da3b3498b86",
+    "response_sha256": "945f5182bbed52bca1ea2c506e810d943c090630400c55949a3c1ac19ef06d35",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "29ba7f80283417100bcb3eeee01aa422bf7a638731cd59c1cab4c3c472eea9ed"
+    }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261027223009id_/https://isb.lavote.gov/",
+    "timestamp": "20261027223009",
+    "digest": "KKBCGUNVXYJYR5DEWNFEYFJ4WIOR6T3D"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
