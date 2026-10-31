@@ -270,6 +270,19 @@ describe("keyedRequests", () => {
     expect(printed).toContain("Not this time.");
   });
 
+  test("a copy inside the window is already archived, for lookup to find", async () => {
+    const message =
+      "The same snapshot had been made 127 hours, 1 minute ago. You can make new capture of this URL after 168 hours.";
+    answer(() => json({ url: "x", job_id: null, message }));
+    const records = { "https://a.org/1": { url: "", timestamp: "", digest: "", checked_at: "2026-10-30" } };
+    await keyedRequests("LOW key1:key2", queue.slice(0, 1), records, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
+    expect(records["https://a.org/1"]).toMatchObject({
+      checked_at: "",
+      save: { via: "key", outcome: "already-archived" },
+    });
+    expect(records["https://a.org/1"]).not.toHaveProperty("save.error");
+  });
+
   test("a reply that isn't JSON is still a failure with a reason", async () => {
     answer(() => new Response("<html><p>Busy</p></html>"));
     const records = {};
@@ -308,6 +321,6 @@ describe("noJob", () => {
     const { error, reply } = noJob(200, JSON.stringify({ message: `access1 secret2 ${"x".repeat(500)}` }), "LOW access1:secret2");
     expect(`${error}${reply}`).not.toMatch(/access1|secret2/);
     expect(reply.length).toBeLessThanOrEqual(200);
-    expect(error.length).toBeLessThanOrEqual(208);
+    expect(error?.length).toBeLessThanOrEqual(208);
   });
 });

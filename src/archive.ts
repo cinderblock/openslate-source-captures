@@ -34,6 +34,8 @@ const SAVE_ENDPOINT = "https://web.archive.org/save";
 const CLOCK_SLACK_MS = 60_000;
 /** The run log and `archived.json` are public, so a reply is quoted only this far. */
 const REPLY_CHARS = 200;
+/** How Save Page Now says it already has a copy inside `if_not_archived_within`. */
+const RECENT_COPY = /^The same snapshot had been made /;
 /** Status results are kept for about an hour. */
 const STATUS_KEPT_MS = 2 * 3_600_000;
 const DRAIN_MS = 180_000;
@@ -216,10 +218,11 @@ export function settled(
 }
 
 /**
- * Why a reply to a save request named no job, and a short quote of it for the log. The Save Page Now
- * documentation doesn't describe this reply, so nothing here assumes what it means.
+ * Why a reply to a save request named no job, and a short quote of it for the log. No error means
+ * `if_not_archived_within` found a copy, so the Archive took none. The Save Page Now documentation
+ * doesn't describe this reply. It names no timestamp, so `lookup` has to find the snapshot.
  */
-export function noJob(status: number, text: string, auth: string) {
+export function noJob(status: number, text: string, auth: string): { error?: string; reply: string } {
   const parts = auth.replace(/^LOW /, "").split(":").filter(Boolean);
   const clean = (reply: string) =>
     parts
@@ -235,6 +238,7 @@ export function noJob(status: number, text: string, auth: string) {
   const reply = clean(text);
   if (typeof body?.status_ext === "string") return { error: body.status_ext, reply };
   const message = typeof body?.message === "string" ? clean(body.message) : "";
+  if (RECENT_COPY.test(message)) return { reply };
   return { error: message ? `no-job: ${message}` : `no-job: HTTP ${status}`, reply };
 }
 
@@ -370,7 +374,7 @@ function applyAttempt(records: Records, urls: string[], attempt: SaveAttempt) {
     records[url] = {
       ...(records[url] ?? { url: "", timestamp: "", digest: "", checked_at: "" }),
       save: attempt,
-      ...(attempt.snapshot ? { checked_at: "" } : {}),
+      ...(attempt.snapshot || attempt.outcome === "already-archived" ? { checked_at: "" } : {}),
     };
   }
 }
@@ -531,13 +535,13 @@ export async function keyedRequests(
       attempt.job_id = body.job_id;
       pending.set(body.job_id, { attempt, urls });
     } else {
-      attempt.outcome = "failed";
       const { error, reply } = response
         ? noJob(response.status, text, auth)
         : { error: "no-response", reply: "" };
-      attempt.error = error;
-      console.log(`${error} - ${page}${reply ? ` - reply: ${reply}` : ""}`);
-      if (QUOTA_ERRORS.has(attempt.error)) stop(attempt.error);
+      attempt.outcome = error ? "failed" : "already-archived";
+      if (error) attempt.error = error;
+      console.log(`${error ?? attempt.outcome} - ${page}${reply ? ` - reply: ${reply}` : ""}`);
+      if (error && QUOTA_ERRORS.has(error)) stop(error);
     }
     applyAttempt(records, urls, attempt);
     await collect();
