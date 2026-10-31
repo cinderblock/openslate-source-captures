@@ -65,6 +65,10 @@ describe("saveQueue", () => {
     ]);
   });
 
+  test("skips a citation that's already a Wayback link", () => {
+    expect(saveQueue([source("https://web.archive.org/web/2026/https://a.org/")], {})).toEqual([]);
+  });
+
   test("skips a recent snapshot, a recent ask, and counts a held-back snapshot as recent", () => {
     const sources = [source("https://a.org/1"), source("https://a.org/2"), source("https://a.org/3")];
     const now = new Date().toISOString();

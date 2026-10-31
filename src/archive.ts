@@ -50,7 +50,7 @@ export interface SaveAttempt {
   via: "key" | "anonymous";
   /**
    * `captured`: the Archive fetched the page because we asked. `already-archived`: it had a recent
-   * copy and took no new one. `asked`: an anonymous request that didn't say which it was.
+   * copy and took no new one. `asked`: a request whose reply doesn't settle which it was.
    */
   outcome: "pending" | "captured" | "already-archived" | "asked" | "failed";
   job_id?: string;
@@ -119,7 +119,7 @@ export function pagesOf(sources: SourceList["sources"]) {
 export function saveQueue(sources: SourceList["sources"], records: Records) {
   const queue: { page: string; urls: string[]; cited: boolean; newest: string }[] = [];
   for (const [page, { urls, cited }] of pagesOf(sources)) {
-    if (!page.startsWith("http")) continue;
+    if (!page.startsWith("http") || page.startsWith("https://web.archive.org/")) continue;
     const known = urls.map((url) => records[url]);
     const newest = known
       .flatMap((r) => [r?.timestamp, r?.fewer_in, r?.candidate?.timestamp])
