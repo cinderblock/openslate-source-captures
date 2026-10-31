@@ -3,7 +3,7 @@
 //
 //   bun src/archive.ts lookup  <endorsements checkout> [--limit n] [--stale-days n]
 //   bun src/archive.ts compare <endorsements checkout> [--limit n]
-//   bun src/archive.ts save    [--limit n] [--minutes n]
+//   bun src/archive.ts save    [--limit n] [--minutes n] [--only page,page]
 //
 // `lookup` asks which snapshots exist. `compare` reads a snapshot's original bytes (`id_`) and looks
 // for the slate's statements in them; "independently archived" is only claimed when they're there.
@@ -12,6 +12,7 @@
 // touches a capture. With ARCHIVE_ORG_ACCESS_KEY and ARCHIVE_ORG_SECRET_KEY it uses the Save Page Now
 // API; without them it makes plain anonymous requests. Either way requests are spaced well inside the
 // published limits (7 a minute with a key, 3 without) and a 429 or a quota error ends the batch.
+// `--only` is for a person diagnosing named pages by hand: it replaces the queue, so nothing scheduled uses it.
 
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -31,6 +32,8 @@ const RETRY_DAYS = 1;
 const SAVE_ENDPOINT = "https://web.archive.org/save";
 /** The clocks differ, so a snapshot this long before we asked may still be ours. */
 const CLOCK_SLACK_MS = 60_000;
+/** The run log and `archived.json` are public, so a reply is quoted only this far. */
+const REPLY_CHARS = 200;
 /** Status results are kept for about an hour. */
 const STATUS_KEPT_MS = 2 * 3_600_000;
 const DRAIN_MS = 180_000;
@@ -198,6 +201,29 @@ export function settled(
     snapshot: job.timestamp,
     ...(job.original_url ? { final_url: job.original_url } : {}),
   };
+}
+
+/**
+ * Why a reply to a save request named no job, and a short quote of it for the log. The Save Page Now
+ * documentation doesn't describe this reply, so nothing here assumes what it means.
+ */
+export function noJob(status: number, text: string, auth: string) {
+  const parts = auth.replace(/^LOW /, "").split(":").filter(Boolean);
+  const clean = (reply: string) =>
+    parts
+      .reduce((quoted, part) => quoted.replaceAll(part, "***"), reply)
+      .replace(/<[^>]*>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, REPLY_CHARS);
+  let body: { status_ext?: unknown; message?: unknown } | null = null;
+  try {
+    body = JSON.parse(text);
+  } catch {}
+  const reply = clean(text);
+  if (typeof body?.status_ext === "string") return { error: body.status_ext, reply };
+  const message = typeof body?.message === "string" ? clean(body.message) : "";
+  return { error: message ? `no-job: ${message}` : `no-job: HTTP ${status}`, reply };
 }
 
 const key = () => {
@@ -483,18 +509,22 @@ export async function keyedRequests(
       stop("429 from the Archive");
       break;
     }
-    const body = (await response?.json().catch(() => null)) as {
-      job_id?: string;
-      status_ext?: string;
-    } | null;
+    const text = (await response?.text().catch(() => "")) ?? "";
+    let body: { job_id?: string } | null = null;
+    try {
+      body = JSON.parse(text);
+    } catch {}
     const attempt: SaveAttempt = { at, via: "key", outcome: "pending" };
     if (body?.job_id) {
       attempt.job_id = body.job_id;
       pending.set(body.job_id, { attempt, urls });
     } else {
       attempt.outcome = "failed";
-      attempt.error = body?.status_ext ?? (response ? String(response.status) : "no-response");
-      console.log(`${attempt.error} - ${page}`);
+      const { error, reply } = response
+        ? noJob(response.status, text, auth)
+        : { error: "no-response", reply: "" };
+      attempt.error = error;
+      console.log(`${error} - ${page}${reply ? ` - reply: ${reply}` : ""}`);
       if (QUOTA_ERRORS.has(attempt.error)) stop(attempt.error);
     }
     applyAttempt(records, urls, attempt);
@@ -524,7 +554,13 @@ async function requestSnapshots() {
   const deadline = Date.now() + option("--minutes", 30) * 60_000;
   const records = load();
   const { sources } = JSON.parse(readFileSync("sources.json", "utf8")) as SourceList;
-  const queue = saveQueue(sources, records);
+  const only = process.argv[process.argv.indexOf("--only") + 1]?.split(",");
+  const named = process.argv.includes("--only")
+    ? [...pagesOf(sources)]
+        .filter(([page]) => only?.includes(page))
+        .map(([page, { urls, cited }]) => ({ page, urls, cited, newest: "" }))
+    : null;
+  const queue = named ?? saveQueue(sources, records);
   console.log(`${queue.length} pages need a snapshot`);
   const auth = key();
   if (auth) await keyedRequests(auth, queue, records, limit, deadline);

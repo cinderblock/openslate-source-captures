@@ -2,6 +2,7 @@ import { afterEach, describe, expect, spyOn, test } from "bun:test";
 import {
   judged,
   keyedRequests,
+  noJob,
   originOf,
   pagesOf,
   type SaveAttempt,
@@ -245,6 +246,28 @@ describe("keyedRequests", () => {
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(1);
   });
 
+  test("a reply with no job records what it said, and logs a short quote", async () => {
+    answer(() => json({ url: "x", job_id: null, message: "Not this time." }));
+    const log = spyOn(console, "log");
+    const records = {};
+    await keyedRequests("LOW key1:key2", queue.slice(0, 1), records, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
+    const printed = JSON.stringify(log.mock.calls);
+    log.mockRestore();
+    expect(records).toMatchObject({
+      "https://a.org/1": { save: { outcome: "failed", error: "no-job: Not this time." } },
+    });
+    expect(printed).toContain("Not this time.");
+  });
+
+  test("a reply that isn't JSON is still a failure with a reason", async () => {
+    answer(() => new Response("<html><p>Busy</p></html>"));
+    const records = {};
+    await keyedRequests("LOW a:b", queue.slice(0, 1), records, 5, Number.POSITIVE_INFINITY, () => {}, gaps);
+    expect(records).toMatchObject({
+      "https://a.org/1": { save: { outcome: "failed", error: "no-job: HTTP 200" } },
+    });
+  });
+
   test("the limit is respected, and the key is never logged", async () => {
     const seen = answer((call) => json({ url: "x", job_id: `job-${call}` }));
     const log = spyOn(console, "log");
@@ -253,5 +276,27 @@ describe("keyedRequests", () => {
     log.mockRestore();
     expect(seen.filter((call) => call.url.endsWith("/save"))).toHaveLength(1);
     expect(printed).not.toContain("secret:value");
+  });
+});
+
+describe("noJob", () => {
+  test("a status_ext is the reason", () => {
+    expect(noJob(200, '{"status":"error","status_ext":"error:blocked-url"}', "LOW a1:b2").error).toBe(
+      "error:blocked-url",
+    );
+  });
+
+  test("an unreadable reply names the HTTP status, and is quoted without markup", () => {
+    expect(noJob(502, "<h1>Bad\n  gateway</h1>", "LOW a1:b2")).toEqual({
+      error: "no-job: HTTP 502",
+      reply: "Bad gateway",
+    });
+  });
+
+  test("a quote is short, and never holds the key", () => {
+    const { error, reply } = noJob(200, JSON.stringify({ message: `access1 secret2 ${"x".repeat(500)}` }), "LOW access1:secret2");
+    expect(`${error}${reply}`).not.toMatch(/access1|secret2/);
+    expect(reply.length).toBeLessThanOrEqual(200);
+    expect(error.length).toBeLessThanOrEqual(208);
   });
 });

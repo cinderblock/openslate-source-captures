@@ -4,6 +4,10 @@ name: archive
 
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Pages to ask for now, comma separated, instead of the queue. Blank runs the queue."
+        required: false
   schedule:
     # Hourly through the election, then weekly.
     - cron: "30 * 30,31 10 *"
@@ -37,10 +41,11 @@ jobs:
           bun-version: 1.4.2
       - run: bun install --frozen-lockfile
       # At most 4 a minute, and fewer when capture sessions are busy. Without these secrets this falls back to anonymous requests.
-      - run: bun src/archive.ts save --limit 120 --minutes 30
+      - run: bun src/archive.ts save --limit 120 --minutes 30 ${ONLY:+--only "$ONLY"}
         timeout-minutes: 36
         continue-on-error: true
         env:
+          ONLY: ${{ inputs.only }}
           ARCHIVE_ORG_ACCESS_KEY: ${{ secrets.ARCHIVE_ORG_ACCESS_KEY }}
           ARCHIVE_ORG_SECRET_KEY: ${{ secrets.ARCHIVE_ORG_SECRET_KEY }}
       - run: bun src/archive.ts lookup --limit 200
