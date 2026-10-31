@@ -21,6 +21,7 @@ import {
   type SourceProvenance,
 } from "./provenance";
 import { bodyText, responseText } from "./readable";
+import type { SourceList } from "./sources";
 import { anchorStatement } from "./text";
 import { verifyRun } from "./verify-core";
 import { loadTrust } from "./verify";
@@ -132,6 +133,15 @@ if (import.meta.main) {
   const archive: Record<string, ArchiveRecord> = existsSync("archived.json")
     ? JSON.parse(readFileSync("archived.json", "utf8"))
     : {};
+  // A document a slate was read from is part of its record, though no position cites it.
+  const behind = new Map<string, string[]>();
+  if (existsSync("sources.json")) {
+    const { sources } = JSON.parse(readFileSync("sources.json", "utf8")) as SourceList;
+    for (const { url, cited_by, origin } of sources) {
+      if (origin === "cited") continue;
+      for (const id of cited_by) behind.set(id, [...(behind.get(id) ?? []), url]);
+    }
+  }
   const endorsementsCommit = execFileSync("git", ["-C", root, "rev-parse", "HEAD"])
     .toString()
     .trim();
@@ -159,6 +169,7 @@ if (import.meta.main) {
 
       const citing = new Map<string, Position[]>();
       for (const url of bundle.attribution?.sources ?? []) citing.set(url, citing.get(url) ?? []);
+      for (const url of behind.get(`${org}/${election}`) ?? []) citing.set(url, citing.get(url) ?? []);
       const fallback = bundle.attribution?.sources?.[0];
       for (const position of bundle.positions ?? []) {
         const url = position.source ?? fallback;
