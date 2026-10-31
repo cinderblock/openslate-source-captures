@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfrisingaction.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1083,
-    "captured_at": "2026-10-31T12:03:12.349Z",
+    "captured_at": "2026-10-31T15:39:04.845Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/",
-    "response_sha256": "edb026d9a75d23fd7437f94d9d09d6b6a7add39dc859355a5fb5423642408fdf",
+    "response_sha256": "7be0a6b3c35c63564d6d6d7ae9db0515bd1754f1174bb2490d6fed34bae6b229",
     "bytes": "public",
     "claims": [
      "captured",
@@ -69,13 +71,13 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1084,
-    "captured_at": "2026-10-31T12:03:14.147Z",
+    "captured_at": "2026-10-31T15:39:06.541Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/page/2/",
-    "response_sha256": "e5839a2ec91f6d4e6663b050a2e32be9e7478f963c8c9369d3d1145fae58001d",
+    "response_sha256": "783721df5f53ea7ce3118c51f49e588e7a6cfccec3f653870b87acad91ae0e3e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -112,13 +114,13 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1085,
-    "captured_at": "2026-10-31T12:03:15.702Z",
+    "captured_at": "2026-10-31T15:39:08.094Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/page/3/",
-    "response_sha256": "cbc55404e2c788e495f7f20c05eb7527447bd3e2db1e182f9d83aba84ada3730",
+    "response_sha256": "093ca86933d2d26fb3e1a9790f0509a69b2b668d0321913babb75c7a498e00ca",
     "bytes": "public",
     "claims": [
      "captured",
@@ -155,13 +157,13 @@
     "org_host": "sfrisingaction.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1086,
-    "captured_at": "2026-10-31T12:03:17.241Z",
+    "captured_at": "2026-10-31T15:39:09.653Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfrisingaction.org/election/november-3-2026-general-election/page/4/",
-    "response_sha256": "736a853b6decbc0aa44f34f7402a4fc30b719c75ccd6ebc96c52d65078fb177e",
+    "response_sha256": "c6afaa646f81f6748cd120a16a894e9deeaa5fcb429ed79157a3ef802ad4ffee",
     "bytes": "public",
     "claims": [
      "captured",

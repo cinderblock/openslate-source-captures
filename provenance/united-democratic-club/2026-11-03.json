@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.uniteddems.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "uniteddems.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1125,
-    "captured_at": "2026-10-31T12:03:20.518Z",
+    "captured_at": "2026-10-31T15:39:14.658Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uniteddems.org/endorsements",
-    "response_sha256": "e7f3c0b9b8e0042c9dd2cda178525d5f4dcaedcf12c253ba7d74f6a0a14bcc3f",
+    "response_sha256": "4f65456ac9b79ccfde28dfef4c1e21a52f07b1ad2096c24c6503fc65ed3ce092",
     "bytes": "public",
     "claims": [
      "captured",

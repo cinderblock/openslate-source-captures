@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 757,
-    "captured_at": "2026-10-31T12:02:14.471Z",
+    "captured_at": "2026-10-31T15:38:09.122Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
-    "response_sha256": "ce63cd715f9563740215a27cedd5437db15aa365a32dabc233677aa06c9148ba",
+    "response_sha256": "4b3580758270ba240a975224ec7d16abe682ad2fc98dc04f15df0a898031cd3e",
     "bytes": "public",
     "claims": [
      "captured",

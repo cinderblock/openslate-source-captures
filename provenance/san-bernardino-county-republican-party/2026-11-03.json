@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://sbgop.com/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sbgop.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 248,
-    "captured_at": "2026-10-31T12:01:17.821Z",
+    "captured_at": "2026-10-31T15:37:11.739Z",
     "status": 200,
     "error": null,
     "final_url": "https://img1.wsimg.com/blobby/go/00e1d586-84bf-47d7-8009-c4d0a6ebcb89/downloads/77573883-533c-4f5c-8832-690624e5aa91/SBGOP_2026_Complete_Updated_Voter_Guide.pdf?ver=1791570575256",
-    "response_sha256": "6a6a052049b16436e6a2aaf8fdfc207d1507866490106f446e4651cfa68f0c0c",
+    "response_sha256": "069c020ca22d41f7e96ee4c621a925fb028963abf51fd9c175b8a6e6ca941045",
     "bytes": "public",
     "claims": [
      "captured",
@@ -59,13 +61,13 @@
     "org_host": "sbgop.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 522,
-    "captured_at": "2026-10-31T12:01:47.571Z",
+    "captured_at": "2026-10-31T15:37:43.122Z",
     "status": 200,
     "error": null,
     "final_url": "https://sbgop.com/2026-general",
-    "response_sha256": "62aecd50d5a28dae7a2217a290734513be8f06e3512fc33d7d63af5e2faf2fad",
+    "response_sha256": "9f0c586475e77a961ffc52a65f4a09768e55523bbe29e3a4252a1d1c152ff2de",
     "bytes": "public",
     "claims": [
      "captured",

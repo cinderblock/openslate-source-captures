@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1063,
-    "captured_at": "2026-10-31T12:03:23.950Z",
+    "captured_at": "2026-10-31T15:39:15.448Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf",
-    "response_sha256": "986f684e66048b9ba69a6c7c309ef1258c268828c0e96bf72f75952891594771",
+    "response_sha256": "34b27a1e32b228cc0804d1c4c72fe4dbc4148f678114abac8ce44f8b25e3d230",
     "bytes": "release",
     "claims": [
      "captured",

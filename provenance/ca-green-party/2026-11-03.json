@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.cagreens.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "cagreens.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 59,
-    "captured_at": "2026-10-31T12:01:00.675Z",
+    "captured_at": "2026-10-31T15:36:55.576Z",
     "status": 200,
     "error": null,
     "final_url": "https://cagreens.org/green-party-california-state-voter-guide-nov-2026",
-    "response_sha256": "51ee1b18756c3a3c8075019d89120b2773301e6db9be090fef492081a01c43bb",
+    "response_sha256": "15a3704c359d500f6a216a2ff8ac8dd8acb0091d30839bf29a64094bcb3d1b33",
     "bytes": "public",
     "claims": [
      "captured",

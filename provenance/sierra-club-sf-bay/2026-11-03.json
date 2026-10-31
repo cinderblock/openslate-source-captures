@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/sfbay",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1093,
-    "captured_at": "2026-10-31T12:03:22.138Z",
+    "captured_at": "2026-10-31T15:39:15.580Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/2026-endorsements",
-    "response_sha256": "6ddce336ff871fefabc93562d0654af829817eb7e05afddb289f774a5ee59144",
+    "response_sha256": "db2b1830a751429ca07341287215bffd774c634262b967ae927537df4bc42a15",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,7 +43,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "87c75168f3935ce98d5b000794238d3d9be2ddd709a24a378794964b1f45f9cf"
+     "dom_sha256": "580db837225403f649e9c63842f1c232cca856e64bc0e59b8b04d2a1b88b1430"
     }
    },
    "last_ok": null,
@@ -72,13 +74,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1094,
-    "captured_at": "2026-10-31T12:03:23.705Z",
+    "captured_at": "2026-10-31T15:39:17.121Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/november-2026-combined-endorsements-explanations",
-    "response_sha256": "607fcf8f701137193d70673921052eabe6eaa4fb5f9ae4ca98474b9033c40a95",
+    "response_sha256": "6bb94a61d34c0aa246922ec9af49aa0a0f9de1d8bd6b7ee09284405d33f9a7c2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -87,7 +89,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "7cb2c3632daad1f86c38dd9eeb653f2a1e381a81b6b5523814a4daec69a7455a"
+     "dom_sha256": "351b6d2d22520ca509e6f76937de5b26caedd9bb4e0b7d3004f2bf586bde4752"
     }
    },
    "last_ok": null,

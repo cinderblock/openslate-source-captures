@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 39,
-    "captured_at": "2026-10-31T12:01:01.844Z",
+    "captured_at": "2026-10-31T15:36:56.224Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "3b8ba20bed53e440e9c4874314b62257824956cb70d37a0f188796c87f8a72f8",
+    "response_sha256": "c269b12ff63b42d2665214c3c7f299e4b43f890a0c68a1402b52a3e57c673454",
     "bytes": "public",
     "claims": [
      "captured",
@@ -68,13 +70,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 853,
-    "captured_at": "2026-10-31T12:02:42.599Z",
+    "captured_at": "2026-10-31T15:38:36.596Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "5e25864984204ec4d342b3523ee35870ef8f0cf6d77e698ac919fc71d90c903f",
+    "response_sha256": "5da12e36a9246aa76ea68a15332fb81187cccbddb7668a92dc64fae727b95032",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -83,7 +85,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "c7c041ae8936dcab446d21e498aa9f3b7e6608a5555a02cf03cffc508221d886"
+     "dom_sha256": "df43a63d1e7a518a0c39a65d6aef3e391a9bc4492be8aa81227bac7f5df7d2fd"
     }
    },
    "last_ok": null,

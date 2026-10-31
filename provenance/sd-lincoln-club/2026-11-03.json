@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sdlincolnclub.com/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 525,
-    "captured_at": "2026-10-31T12:01:48.899Z",
+    "captured_at": "2026-10-31T15:37:44.529Z",
     "status": 200,
     "error": null,
     "final_url": "https://sdlincolnclub.com/endorsement-committee/",
-    "response_sha256": "309536f7dbf63bf0ef2002dd8fb7e4715f411f3f19e9380b036e052ef8f0c166",
+    "response_sha256": "b137de4918466359432505fa1b1aee9268715ab7a14843a64682a3c56f82fff0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -69,13 +71,13 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 141,
-    "captured_at": "2026-10-31T12:01:08.832Z",
+    "captured_at": "2026-10-31T15:37:02.877Z",
     "status": 200,
     "error": null,
     "final_url": "https://drive.google.com/file/d/1e_b4fKKa0L0pSywFKOb4v291Obu1sbS_/view?usp=sharing",
-    "response_sha256": "1829bbf5e31319b1cd832af71cbc7feac911d53a8602252a6e0cdcb9c62ad6eb",
+    "response_sha256": "1ccc69e84bd3aa0c9dfb055ed61dfb12539f9b279ce2e6e9c4101256ed918aae",
     "bytes": "public",
     "claims": [
      "captured",
@@ -84,7 +86,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "a3922c3da84636db26dc72a6c54fc22b8b63e538a430143b2da5b2b20793dc10"
+     "dom_sha256": "1ba4d9b35ab32e5e8ef82de5b220ccb2f7823d6a2f1cecdf2d71f70ef17bde5e"
     }
    },
    "last_ok": null,

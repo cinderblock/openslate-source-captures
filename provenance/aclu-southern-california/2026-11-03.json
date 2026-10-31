@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.aclusocal.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "aclusocal.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 783,
-    "captured_at": "2026-10-31T12:02:20.266Z",
+    "captured_at": "2026-10-31T15:38:13.520Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aclusocal.org/press-releases/aclu-of-southern-california-proposition-endorsements-for-2026-election/",
-    "response_sha256": "30a4d1022b4604811645fbaf1c19f25cc3f7660be6a4b10cf547ba9d2fabce8a",
+    "response_sha256": "c451706e517f9ef948b60ce36ad5081cd1fdf20bd4f5cbacd29d0d3f4b6c9c8f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -69,13 +71,13 @@
     "org_host": "aclusocal.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 782,
-    "captured_at": "2026-10-31T12:02:18.489Z",
+    "captured_at": "2026-10-31T15:38:11.923Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aclusocal.org/aclu-socal-2026-voter-guide/",
-    "response_sha256": "effcb607db70e20803ea2591431da79d6628f1bb9ade74ed13d13b3dd22d7c02",
+    "response_sha256": "3709190541bee09d52885eed5d031dbef99bf009de7f00b599db990568ccb3ca",
     "bytes": "public",
     "claims": [
      "captured",

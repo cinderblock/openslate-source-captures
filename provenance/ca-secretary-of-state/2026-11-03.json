@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.sos.ca.gov/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sos.ca.gov"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 180,
-    "captured_at": "2026-10-31T12:01:10.587Z",
+    "captured_at": "2026-10-31T15:37:04.190Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
-    "response_sha256": "3a0b9872f3f8c1e164ef29f50cc49bba325eae2ad0b4ca3e3f29949198bc2739",
+    "response_sha256": "8860528fb8f3c97019fe40575ae2d9b360ca5b4406a73076062c55702da15693",
     "bytes": "release",
     "claims": [
      "captured",
@@ -63,13 +65,13 @@
     "org_host": "sos.ca.gov"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1106,
-    "captured_at": "2026-10-31T12:03:14.842Z",
+    "captured_at": "2026-10-31T15:39:08.473Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sos.ca.gov/elections/ballot-measures/qualified-ballot-measures",
-    "response_sha256": "248588a843fa14a8dad0fde08f08855a00d92a4dc7178212db52296cc7a9ebc5",
+    "response_sha256": "5e7c5c6567f4900e7c94d3e291ba3ba233e1f8c5278eeffb62d9cb1a9cc7e28b",
     "bytes": "public",
     "claims": [
      "captured",

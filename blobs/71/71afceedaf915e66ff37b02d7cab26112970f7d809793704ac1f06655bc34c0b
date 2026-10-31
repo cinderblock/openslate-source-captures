@@ -1,0 +1,36 @@
+HTTP/1.1 200 
+accept-ranges: bytes
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+cache-control: no-cache, must-revalidate
+x-chrome-original-content-length: 382
+content-security-policy: script-src 'nonce-ZZ-KYwWkmUC6VyN2x1CSYA' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/apiserving; base-uri 'none'
+require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apiserving
+content-type: text/html
+cross-origin-embedder-policy: require-corp; report-to="apiserving"
+cross-origin-opener-policy-report-only: same-origin; report-to="apiserving"
+cross-origin-resource-policy: cross-origin
+date: Sat, 31 Oct 2026 15:50:59 GMT
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+last-modified: Tue, 17 Sep 2024 03:08:00 GMT
+pragma: no-cache
+report-to: {"group":"apiserving","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/apiserving"}]}
+server: sffe
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script nonce="ZZ-KYwWkmUC6VyN2x1CSYA">
+  window['startup'] = function() {
+    googleapis.server.init();
+  };
+</script>
+<script src="https://apis.google.com/js/googleapis.proxy.js?onload=startup" async defer nonce="ZZ-KYwWkmUC6VyN2x1CSYA"></script>
+</head>
+<body>
+</body>
+</html>

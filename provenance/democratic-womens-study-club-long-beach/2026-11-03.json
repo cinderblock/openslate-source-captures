@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/DWSCLB",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 38,
-    "captured_at": "2026-10-31T12:00:59.916Z",
+    "captured_at": "2026-10-31T15:36:54.392Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "9b68450d4cb4c5899facc7224172993886bd086398f722b1f8cee35150019176",
+    "response_sha256": "394002eba4c26145f32e9a53c26a7287c4d4827c5e841720770367ee01ce2c8d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -68,13 +70,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 840,
-    "captured_at": "2026-10-31T12:02:38.753Z",
+    "captured_at": "2026-10-31T15:38:32.491Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "9d49fa3ffb4e9873c5119c303a64bf1349f93e0ee0ffa21e9d4eeccb626953dc",
+    "response_sha256": "cb68e29e60ea7d937b172acdae8fcf166d29ef2fb8d45a4444b588afe7c9b782",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -83,7 +85,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "7b2b0f687f7f3868a3f48b203cb6448ba8cb3d4920be6f9be6eb3298241de529"
+     "dom_sha256": "92809d34d9e30ca725bcf7e2c85a1a078ce0b0986ffd6d39caeded4393422587"
     }
    },
    "last_ok": null,

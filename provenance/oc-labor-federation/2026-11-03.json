@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.oclabor.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,29 +28,13 @@
     "org_host": "oclabor.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 887,
-    "captured_at": "2026-10-31T12:02:51.240Z",
-    "status": 202,
-    "error": null,
-    "final_url": "https://www.oclabor.org/cope-endorsements-2026/",
-    "response_sha256": "839f9d34e077838cef536f67e73150b0317c203ca954e7aa77717f2dff1de48e",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci",
-     "independently-archived"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-10-31T0003Z",
-    "index": 887,
-    "captured_at": "2026-10-31T00:05:37.308Z",
+    "captured_at": "2026-10-31T15:38:45.156Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oclabor.org/cope-endorsements-2026/",
-    "response_sha256": "b119ecd373ec31181acb474c27d972ffcae38c259d2ebf7a78439133c6b5a11d",
+    "response_sha256": "b543de50ca958efb73d6f6e7efa455bc27ca87b3dbe4b2e45aa8610cd1263e65",
     "bytes": "public",
     "claims": [
      "captured",
@@ -57,6 +43,7 @@
      "independently-archived"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261031002339id_/https://www.oclabor.org/cope-endorsements-2026/",
     "timestamp": "20261031002339",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/redwood",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1090,
-    "captured_at": "2026-10-31T12:03:17.466Z",
+    "captured_at": "2026-10-31T15:39:10.883Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/redwood/endorsements",
-    "response_sha256": "cc26644ff5fa3e11ba11cc6b7dd1adba95ee9068b8d399bc969d4f7b19794390",
+    "response_sha256": "1a9c9255afa5ce93821dfc759f76122ea76f903c2ae079ff72a660e8d11a9bb6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,7 +43,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "6bcab390706a339f0fbcc9a2b56fcb0d4c6ed127794a53407ba36ab6751693c1"
+     "dom_sha256": "c4f14991ea09c3f9af047e984397d60afbd9302bf6564ea9cbfede8be5d583d0"
     }
    },
    "last_ok": null,

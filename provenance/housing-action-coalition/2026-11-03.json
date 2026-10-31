@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://housingactioncoalition.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "housingactioncoalition.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 197,
-    "captured_at": "2026-10-31T12:01:15.676Z",
+    "captured_at": "2026-10-31T15:37:09.610Z",
     "status": 200,
     "error": null,
     "final_url": "https://housingactioncoalition.org/2026-endorsements",
-    "response_sha256": "aab7d9aa3804bac83daad119a4d0049877c6a9aed2ae1b2772898dd25aeee053",
+    "response_sha256": "bc06a6cc68e2fd87b75660f16b1e3a4ea024197261edacd9d8350e9441c19c91",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfchronicle.com/opinion/editorials/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1076,
-    "captured_at": "2026-10-31T12:03:08.634Z",
+    "captured_at": "2026-10-31T15:39:02.954Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
-    "response_sha256": "fb1b92abec46f3ddaeb146d2a29e88404eaef86ec54db0ed7e6a4fded69928e6",
+    "response_sha256": "3506bb4f2c9d18a517f5a8c526676e20920aea08108de06aa382eeead03e9023",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -41,7 +43,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "b2236e92afadd90549af55b74c3659761ad8d977b7821b2ce77c22a420b2b503"
+     "dom_sha256": "0ec4afb1b187ebba8e813d32307cb5d85afd63d686ccd03782ec2d8d505318f3"
     }
    },
    "last_ok": null,
@@ -68,13 +70,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 35,
-    "captured_at": "2026-10-31T12:00:58.027Z",
+    "captured_at": "2026-10-31T15:36:52.516Z",
     "status": 202,
     "error": null,
     "final_url": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
-    "response_sha256": "2424fde21b3bb488b0e3804fb6b4a69d5bbd0cf817d36bf63f29c8e7ff809ffe",
+    "response_sha256": "283ac42f8cb1e936c56ae0f1413750215bc332b62544b6b57a9f0d2d35f62a00",
     "bytes": "withheld",
     "claims": [
      "captured",

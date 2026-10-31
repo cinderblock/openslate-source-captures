@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0
+x-chrome-original-Content-Encoding: gzip
+Content-Type: application/pdf
+Date: Sat, 31 Oct 2026 15:50:24 GMT
+Etag: W/"6ac6a2f4-2a124"
+Last-Modified: Wed, 07 Oct 2026 19:52:20 GMT
+Traceresponse: 00-18e3a806f794c981914f0f3847138278-8b0da8b43c1c101e-01
+x-chrome-original-Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-CDN: Imperva
+X-Debug-Info: eyJyZXRyaWVzIjowfQ==
+X-Iinfo: 47-178035104-177957110 pNNy RT(1793461824266 206) q(0 0 0 -1) r(1 1) U18
+X-Platform-Cluster: 27bxf5qsldbxy-main-bvxea6i
+X-Platform-Processor: 7lo7pmvmao2lwjzavsz2bhnxue
+X-Platform-Router: wiqhd4jmwil2bkjqm4j4tatvwa
+
+<!doctype html>
+<html style="height:100%;width:100%">
+  <!-- the placeholder in the body style is for an optional background-color -->
+  <body style="height:100%;width:100%;overflow:hidden;margin:0;padding:0;background-color:rgb(40,40,40);">
+    <template shadowrootmode="closed">
+      <iframe name="05F0384A355FDC80451B1E05E789CE4D" src="about:blank" type="application/pdf" internalid="05F0384A355FDC80451B1E05E789CE4D"
+        style="border:0;position:absolute;top:0;left:0;width:100%;height:100%"
+        allow="fullscreen *">
+      </iframe>
+      <slot></slot>
+    </template>
+  </body>
+</html>

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sfchamber.com/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sfchamber.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 531,
-    "captured_at": "2026-10-31T12:01:51.190Z",
+    "captured_at": "2026-10-31T15:37:46.569Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfchamber.com/november-2026-voter-guide/",
-    "response_sha256": "74700de71b91e49b4d6662171d9f91ca00eb51eaae6620ceee2c4d2925ac4fac",
+    "response_sha256": "6e66503225254c16777de7512babf85e2ba98b547b44dd78313e068acf8baadd",
     "bytes": "public",
     "claims": [
      "captured",

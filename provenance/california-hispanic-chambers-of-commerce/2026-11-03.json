@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 756,
-    "captured_at": "2026-10-31T12:02:12.706Z",
+    "captured_at": "2026-10-31T15:38:07.504Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
-    "response_sha256": "7d5626f01f7313fbddb26f5edf6279b40129306b21b9ffac8e7bfe19f2d9ed06",
+    "response_sha256": "15f546a71af2c81122fe657fb9b3669eae421b9ebe6066e9e9baebc2ca9d3162",
     "bytes": "public",
     "claims": [
      "captured",
@@ -68,13 +70,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 760,
-    "captured_at": "2026-10-31T12:02:19.748Z",
+    "captured_at": "2026-10-31T15:38:14.187Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
-    "response_sha256": "3b7f2286d9193bdae0912a5efc46ed2a5e2c5c98e14b9b700a76bde227ac0640",
+    "response_sha256": "42f5499be1f3148d85014eb04763a8d84f3e59ed8485b9fec19bc938eb79d260",
     "bytes": "public",
     "claims": [
      "captured",
@@ -110,13 +112,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 764,
-    "captured_at": "2026-10-31T12:02:26.656Z",
+    "captured_at": "2026-10-31T15:38:20.731Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
-    "response_sha256": "41ebcbe8616207bb90789b663107a18cb10deb3bb9d4ea3f85ea7d1d368c1763",
+    "response_sha256": "8421fbe9cae1f757ae300f2ff0731be3c6106b27cb306e2a5a4520e4976b3cac",
     "bytes": "public",
     "claims": [
      "captured",

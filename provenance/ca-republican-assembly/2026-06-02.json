@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://cragop.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 85,
-    "captured_at": "2026-10-31T12:01:05.493Z",
+    "captured_at": "2026-10-31T15:36:59.767Z",
     "status": 404,
     "error": null,
     "final_url": "https://cragop.org/2026-primary-election-endorsements/",
-    "response_sha256": "2b13ed197071ca9681a64f9517a6f5cb806770e81de7d6409b420ce43d90a8f7",
+    "response_sha256": "54cde4abd3876a5555122e510cfb088fe2f0b3790765b1c4149a1b89cf1cc643",
     "bytes": "public",
     "claims": [
      "captured",
@@ -64,13 +66,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 86,
-    "captured_at": "2026-10-31T12:01:07.939Z",
+    "captured_at": "2026-10-31T15:37:02.234Z",
     "status": 404,
     "error": null,
     "final_url": "https://cragop.org/2026/03/21/california-republican-assembly-june-2026-primary-election-endorsements/",
-    "response_sha256": "5e0d75434696eccdaecb5fc63158f7308feba7a7f9fbf1b9e7e75f0e5d2ff4d5",
+    "response_sha256": "44022e04bac7e2bcef7faa8775d974de77475b73aec5dbcf632110ac448b4c5c",
     "bytes": "public",
     "claims": [
      "captured",

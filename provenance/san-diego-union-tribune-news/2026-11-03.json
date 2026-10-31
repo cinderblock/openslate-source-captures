@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sandiegouniontribune.com/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sandiegouniontribune.com"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1031,
-    "captured_at": "2026-10-31T12:03:02.503Z",
+    "captured_at": "2026-10-31T15:38:55.826Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sandiegouniontribune.com/news/politics/",
-    "response_sha256": "1603e967e67768b9518c4780ef09a66b72237c6941eb06e027dfb5310bc4d224",
+    "response_sha256": "683045d1496bd787397b1d165a9f0e8ca847de38a2b2e22d40a0e41c69adfd0c",
     "bytes": "withheld",
     "claims": [
      "captured",

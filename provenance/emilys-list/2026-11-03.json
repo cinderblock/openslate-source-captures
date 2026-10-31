@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://emilyslist.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "emilyslist.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 182,
-    "captured_at": "2026-10-31T12:01:13.542Z",
+    "captured_at": "2026-10-31T15:37:07.168Z",
     "status": 200,
     "error": null,
     "final_url": "https://emilyslist.org/donate/all-candidates/",
-    "response_sha256": "95e8e06ee6dac64e2359b99883fc92ba32517217d5466025701fee220c7c90e4",
+    "response_sha256": "aa01bb82e434a7d2329dd2f8d23fef7c31c5f3353f89e3f3b28c8fa7c23ca1ab",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,7 +43,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "e3a99eadedbc8a5cf7a20f315c0337dcf9a291cdbb63ee174269f910fc75bfdf"
+     "dom_sha256": "adfc504224169f1660aa96758b9cbcc422726ddd0e85091ab9dfbbdbe7f26676"
     }
    },
    "last_ok": null,
@@ -67,13 +69,13 @@
     "org_host": "emilyslist.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 181,
-    "captured_at": "2026-10-31T12:01:11.597Z",
+    "captured_at": "2026-10-31T15:37:05.548Z",
     "status": 200,
     "error": null,
     "final_url": "https://emilyslist.org/candidate/marni-von-wilpert/",
-    "response_sha256": "34417e17900297fd317c909a1c89dd22ee7ba0cd47a1aad37eb40f1e9b0b719c",
+    "response_sha256": "512cdac8137c60ee9a3664fc7f90bb46f879ae4b7ae393971bae15f7b57c971f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -110,13 +112,13 @@
     "org_host": "emilyslist.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 183,
-    "captured_at": "2026-10-31T12:01:15.702Z",
+    "captured_at": "2026-10-31T15:37:08.743Z",
     "status": 200,
     "error": null,
     "final_url": "https://emilyslist.org/state-and-local-candidates/",
-    "response_sha256": "dba49279ac2937c03689b107248415a0744aeed24822066677f1c3cdefd57fa1",
+    "response_sha256": "c37876f0212e54dab101706083f3bb380b23ffe62ccddc261450a05dc3e8b8fb",
     "bytes": "public",
     "claims": [
      "captured",

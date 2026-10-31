@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,6 +28,21 @@
     "org_host": "plannedparenthoodaction.org"
    },
    "latest": {
+    "run": "2026-10-31T1536Z",
+    "index": 894,
+    "captured_at": "2026-10-31T15:38:47.566Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/voter-guide",
+    "response_sha256": "0bad8239a419de4ae9c2ec42d2e69a823050c1caf761f1b7554ae2058d258f53",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
     "run": "2026-10-31T1200Z",
     "index": 894,
     "captured_at": "2026-10-31T12:02:54.333Z",
@@ -40,7 +57,6 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20260528204641id_/https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/voter-guide",
     "timestamp": "20260528204641",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.southbaylabor.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "southbaylabor.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1107,
-    "captured_at": "2026-10-31T12:03:14.987Z",
+    "captured_at": "2026-10-31T15:39:09.951Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.southbaylabor.org/2026_endorsements",
-    "response_sha256": "f7075690a656bd7ef1ec8cb521e18156ba3a28d8e45bcf1c88a81d94f982e3dd",
+    "response_sha256": "b8bf1d4e4f9d4b0ae4c1f176a7fc86cb8655d1866ca0715fcf7932427e9338aa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -42,13 +44,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-31T0024Z",
-    "index": 48,
-    "captured_at": "2026-10-31T00:24:58.331Z",
+    "run": "2026-10-31T1220Z",
+    "index": 63,
+    "captured_at": "2026-10-31T12:20:21.474Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.southbaylabor.org/2026_endorsements",
-    "response_sha256": "c142f8d970009a28c778fbeff2f126d694c1e78cb6681b7e6ebed8a258c1fecc",
+    "response_sha256": "972343fe0fcc22bf4b9f92c1efa0a5b74049da30c1a37fa6fc6ada2aa7bbee80",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,13 +85,13 @@
     "org_host": "southbaylabor.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1028,
-    "captured_at": "2026-10-31T12:02:58.332Z",
+    "captured_at": "2026-10-31T15:38:52.119Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.sanbenitocounty-ca-cre.gov/home/showpublisheddocument/16343/639237846936770000",
-    "response_sha256": "629d7ecdac3c3c417339a188b234aebc2438d210b063a9edea24561b01a27c58",
+    "response_sha256": "b061aecd22e3287476900c77f8040f579483812f7fbb2a23ee99670c0bf0699a",
     "bytes": "public",
     "claims": [
      "captured",

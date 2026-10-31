@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.cft.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "cft.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 813,
-    "captured_at": "2026-10-31T12:02:26.921Z",
+    "captured_at": "2026-10-31T15:38:20.404Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cft.org/2026-midterm-elections-hub",
-    "response_sha256": "354ccef14e31e919cc946a2071ddd6399f74b7ff7f0c5220c26f687c8317c485",
+    "response_sha256": "e254f8b3d3465695dd8f414735263e9f4f19e084d9b904b2171b86fc487d0b43",
     "bytes": "public",
     "claims": [
      "captured",
@@ -64,13 +66,13 @@
     "org_host": "cft.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 814,
-    "captured_at": "2026-10-31T12:02:29.580Z",
+    "captured_at": "2026-10-31T15:38:22.122Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
-    "response_sha256": "75d236da7b6857a5495e347ffcbb2ffcdfb5c3cab9022eeca29325ee6fa34be9",
+    "response_sha256": "f4f46d538615e8db6d7ccbe2bd8167d8e7a1ef03f97b6bec716ff99c9470c3f7",
     "bytes": "public",
     "claims": [
      "captured",

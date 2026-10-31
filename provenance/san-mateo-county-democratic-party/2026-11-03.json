@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://smcdems.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 582,
-    "captured_at": "2026-10-31T12:01:58.964Z",
+    "captured_at": "2026-10-31T15:37:55.009Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smcdems.org/",
-    "response_sha256": "f56c3b4c8ab7d21f8cc55ae75a3e832cfd1f84706ac57d7e73108b1d4806a064",
+    "response_sha256": "64157555847da066915bdb2e512af1a9b2ef4d8640cbf1457fa56a2104ab1549",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,13 +43,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-10-31T0024Z",
-    "index": 14,
-    "captured_at": "2026-10-31T00:24:54.868Z",
+    "run": "2026-10-31T1220Z",
+    "index": 25,
+    "captured_at": "2026-10-31T12:20:17.822Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.smcdems.org/",
-    "response_sha256": "6434eae930eba441864d1f7469431b16b07a9825ac8863a5edf3f11eb00eb8da",
+    "response_sha256": "59d18c87af773eebf7a914486f3741f2e5fae848d588eeab1e4e1ed8826285c2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,13 +83,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 34,
-    "captured_at": "2026-10-31T12:00:58.026Z",
+    "captured_at": "2026-10-31T15:36:52.516Z",
     "status": 200,
     "error": null,
     "final_url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
-    "response_sha256": "8781dcf887eb01d8ade5716c771df3a7fa1e89b5699d2639964d8dc52015c500",
+    "response_sha256": "99fde3fbf6fd3165cf81ac170a900b0a71a68abbe475b8c679609c836e52194e",
     "bytes": "public",
     "claims": [
      "captured",

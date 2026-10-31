@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.clubforgrowth.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "clubforgrowth.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 816,
-    "captured_at": "2026-10-31T12:02:29.877Z",
+    "captured_at": "2026-10-31T15:38:24.635Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.clubforgrowth.org/elections/pac-endorsed-candidates/",
-    "response_sha256": "50b3c3e9aadc451a0e09a3efecbf5a079fa566d495a4c1de222fa770ce78047e",
+    "response_sha256": "16f927bded1ab68dce0d0bae408bc3a4e5c40e18775b20cea8b864fccd9e5f16",
     "bytes": "public",
     "claims": [
      "captured",
@@ -64,13 +66,13 @@
     "org_host": "clubforgrowth.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 815,
-    "captured_at": "2026-10-31T12:02:27.528Z",
+    "captured_at": "2026-10-31T15:38:22.440Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.clubforgrowth.org/club-for-growth-pac-endorses-rep-tom-mcclintock-in-ca-05-re-election-campaign/",
-    "response_sha256": "b4f0b21e1869ba99c89b5555d52f1fc72c077edb36ee06b35d31e2e9546cb01c",
+    "response_sha256": "4c1dbf8d2eb4d57850717c4571cebfdd09861e9e11928d78fca8d17355347399",
     "bytes": "public",
     "claims": [
      "captured",

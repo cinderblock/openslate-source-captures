@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://mbclc.org/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 391,
-    "captured_at": "2026-10-31T12:01:27.184Z",
+    "captured_at": "2026-10-31T15:37:23.876Z",
     "status": 200,
     "error": null,
     "final_url": "https://mbclc.org/endorsements",
-    "response_sha256": "33b72c8b26919bc061b6463842d8d68c343af5f843d5d8837dfdbc449b11de30",
+    "response_sha256": "d8857ed901739a3c30654b847661919bed0d7507553bb568dc4f0037276f6b96",
     "bytes": "public",
     "claims": [
      "captured",
@@ -68,13 +70,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 138,
-    "captured_at": "2026-10-31T12:01:08.969Z",
+    "captured_at": "2026-10-31T15:37:02.826Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
-    "response_sha256": "79b21fa8886bae46767a0223cbd2eab3bd45e51fbfad865fe7bb0237e7fc07d4",
+    "response_sha256": "71d6198b301b6c2d3c8e9f9c883cb6f5faa9d4aa9d8e314c257e865d42406789",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,7 +85,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "9f8c2514df7883d4da57abf897def664ba395fb2c328d0212ec290d29b1fcae5"
+     "dom_sha256": "676698311353bcaf52f62478e0096139a263915c2d2af17ec88efbae2b7ed37c"
     }
    },
    "last_ok": null,

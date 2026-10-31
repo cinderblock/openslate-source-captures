@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.sierraclub.org/san-gorgonio",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1091,
-    "captured_at": "2026-10-31T12:03:19.038Z",
+    "captured_at": "2026-10-31T15:39:12.448Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/san-gorgonio/politics-and-government-inland-empire",
-    "response_sha256": "166e66ef8044287eebf74c7b1d9b1405f36739f06aa0325b517f0ab14ff95b98",
+    "response_sha256": "1a8d012903235e9f54eaa15678294265c9001c40d93b7a491f4c2b8d5ca1d870",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,7 +43,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "97be079a2b140b8bec7dc7da71bc6c61143210ed770ebe67e4f2f871f911649e"
+     "dom_sha256": "e9a613f0ebdd7c2c35ffaf2a4ec5e26ca18af9bfb9d8a5c5571e066499f0966f"
     }
    },
    "last_ok": null,
@@ -67,13 +69,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1095,
-    "captured_at": "2026-10-31T12:03:25.275Z",
+    "captured_at": "2026-10-31T15:39:18.669Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sites/default/files/2026-10/final-endorsement-article-2026-p-p.pdf",
-    "response_sha256": "3a9520b4369a0e46503571016b9e6d7381823b0e36c4b004308e73b3297a5b14",
+    "response_sha256": "8af02ae8e9f9514bdcc4fd19e35c88f64d33732500000748401b3ae232399863",
     "bytes": "public",
     "claims": [
      "captured",

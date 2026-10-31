@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://pirg.org/california/",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "pirg.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 505,
-    "captured_at": "2026-10-31T12:01:39.912Z",
+    "captured_at": "2026-10-31T15:37:35.474Z",
     "status": 200,
     "error": null,
     "final_url": "https://pirg.org/california/articles/vote-no-on-prop-45/",
-    "response_sha256": "67ea97a34f82f6699a4bc140dabb27482588e4f22dc5b8e1500bd3f727215db7",
+    "response_sha256": "73d256506b96c0a0caa401716ade89c76364f9c73d3ee940d5d505f5978b53de",
     "bytes": "public",
     "claims": [
      "captured",

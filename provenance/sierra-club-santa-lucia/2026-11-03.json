@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/santa-lucia",
  "generated_from": {
-  "endorsements_commit": "0a5a554f0ef90fc70ad0f30cb2356a511feaf6ac",
+  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -13,7 +13,9 @@
    "2026-10-30T1808Z",
    "2026-10-31T0003Z",
    "2026-10-31T0024Z",
-   "2026-10-31T1200Z"
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z"
   ]
  },
  "sources": [
@@ -26,13 +28,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1200Z",
+    "run": "2026-10-31T1536Z",
     "index": 1092,
-    "captured_at": "2026-10-31T12:03:20.599Z",
+    "captured_at": "2026-10-31T15:39:14.013Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/santa-lucia/november-2026-general-election-endorsements",
-    "response_sha256": "744f6e7f9e46281616787298dc429188522db466837b556cf8ecd741674041c0",
+    "response_sha256": "46cf6d033062e513ff3d61cc156ceb4b7c9b898446feb8f64c7c3da585b3b8cb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -41,7 +43,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "47de2c3ec3e168612dd4288f8300423794f92ca7dd5e81a048974bf3519bc93a"
+     "dom_sha256": "5b132c14794004cd19ded92e29db3d4dbc07d019f167615092505a682e89b6f3"
     }
    },
    "last_ok": null,
