@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 546,
-    "captured_at": "2026-11-01T13:01:53.649Z",
+    "captured_at": "2026-11-01T16:32:28.978Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfendorsements.com/",
-    "response_sha256": "30a7a07dd2898ec6eaca06be42df8ff2cf7c4c14e53f9a329727fcacf1341b74",
+    "response_sha256": "c801d6c42c5641fc85d02fc6dfe870f982f87dd8c588d434da286ed300d5e96c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,13 +74,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 856,
-    "captured_at": "2026-11-01T13:02:40.542Z",
+    "captured_at": "2026-11-01T16:33:13.929Z",
     "status": 200,
     "error": null,
     "final_url": "https://gitlab.com/peterxu/sf-endorsements",
-    "response_sha256": "320bff02fe30513e893f486395598f2cb5105e2841eb0abcb2b80631dad5edcd",
+    "response_sha256": "379d73f0721991d6048ecca0dbe32bd4b4cbae54d4fc2f4e7783ee7453f5f10b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -87,7 +89,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "d4abaf93f55a59ce59af3d3cac9cfee4471231508cbc7c6d95122debab2abd4c"
+     "dom_sha256": "e14308b3e8a8139f020d171c0fabb8fe7ad15b6f23c8b99c995af5330d7ff4b4"
     }
    },
    "last_ok": null,

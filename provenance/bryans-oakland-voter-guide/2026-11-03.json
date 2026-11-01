@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "docs.google.com"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 150,
-    "captured_at": "2026-11-01T13:01:10.251Z",
+    "captured_at": "2026-11-01T16:31:47.631Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
-    "response_sha256": "4791c0ca5c8a84b6e664455a04e16a609c1a2c48212f3b308fa7a28d136a34b2",
+    "response_sha256": "547b20908ce89c0200f0375fdb88a76b591b68205985f9594ab7842a0fc4ad52",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,11 +46,20 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "8187f259c46d1aa59ff8ed31ea49e7717d6b778ff3aefc7d8178e203209e1fc4"
+     "dom_sha256": "e68e55da02653f7d97855ee95989ef5aa00e727a3c1b0deb7faab747d7aa9dd6"
     }
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101142939id_/https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
+    "timestamp": "20261101142939",
+    "digest": "FJPIQ5NLVRJRV7N3FP6FZHHCY63AOJGJ",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 48
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

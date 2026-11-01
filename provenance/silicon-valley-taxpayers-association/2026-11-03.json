@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 42,
-    "captured_at": "2026-11-01T13:00:54.992Z",
+    "captured_at": "2026-11-01T16:31:32.651Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/721_md.json",
-    "response_sha256": "ea861e1f3645efb42a55dedea0d6d8bc6e5b7ac552b8cc20ebbe0cbcc1529475",
+    "response_sha256": "879a24901683b66effb8993b445703197eb0acb134b638793ea622f314434430",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +73,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 43,
-    "captured_at": "2026-11-01T13:00:56.929Z",
+    "captured_at": "2026-11-01T16:31:34.512Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/723_md.json",
-    "response_sha256": "429168c11c3ed48f1af573fae9de6492b921ada05c5b4e299dc9f10a2262fe84",
+    "response_sha256": "565ced6765f42fa7daf644e2db0421cea14fbd80b05356eb6f25f7e0652d3384",
     "bytes": "public",
     "claims": [
      "captured",
@@ -113,13 +115,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 45,
-    "captured_at": "2026-11-01T13:01:00.295Z",
+    "captured_at": "2026-11-01T16:31:38.021Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/731_md.json",
-    "response_sha256": "9661e98638916e01b32991df53fd0d10d07bea920ad43d0e49f2a47e86265d88",
+    "response_sha256": "20289c31f299154efc237c0b566de8ddf573c09e1cc0023e083b9854994ea124",
     "bytes": "public",
     "claims": [
      "captured",
@@ -155,13 +157,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 48,
-    "captured_at": "2026-11-01T13:01:05.410Z",
+    "captured_at": "2026-11-01T16:31:43.533Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/734_md.json",
-    "response_sha256": "e512ee78a9ebd3c1f3ae9b64f256d53db13d2f450522866969f4362b3bc90b83",
+    "response_sha256": "743b8aa23569b279b86dfdc93a482d187ef00228a865f63bfb0035e1b22b3aa9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -197,13 +199,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 49,
-    "captured_at": "2026-11-01T13:01:07.109Z",
+    "captured_at": "2026-11-01T16:31:45.338Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/735_md.json",
-    "response_sha256": "683abd6a7e7598a45523605b75859dd63562ef3e2bf2a8596ca65c40724863ae",
+    "response_sha256": "afd482cc0d755f8f95b42a12328c8eb6beb6ff3cc22454a2557cb8e96333eeae",
     "bytes": "public",
     "claims": [
      "captured",
@@ -239,13 +241,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 558,
-    "captured_at": "2026-11-01T13:01:59.095Z",
+    "captured_at": "2026-11-01T16:32:33.526Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M104-Contest%20Code-7ArgAgainst-City%20of%20San%20Carlos%20Use%20Tax_Redacted%20%281%29.pdf",
-    "response_sha256": "c3b1628d85ded9eedbf333c8683cce0ab9cf87ba70680c42d2aa628027e89a49",
+    "response_sha256": "b0cf212ae99ff1bf12e95f5e8a88dd07b91a0b272656fd0eef7d78de6a0c2726",
     "bytes": "public",
     "claims": [
      "captured",
@@ -281,13 +283,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 593,
-    "captured_at": "2026-11-01T13:03:01.698Z",
+    "captured_at": "2026-11-01T16:33:36.412Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-RebutArgInFavor-Belmont-Special-Tax_Redacted.pdf",
-    "response_sha256": "ef4e41723a8665a2a1de9442ff228ba24db62c74e6141ae855764588c83727c7",
+    "response_sha256": "46ea2ce57c482bbc8c10e8a0ded378d026cd46d3b2804eb3fe3b51d9d5edda4f",
     "bytes": "public",
     "claims": [
      "captured",

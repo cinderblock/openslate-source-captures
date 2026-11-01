@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.iaff.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 94,
-    "captured_at": "2026-11-01T13:01:02.047Z",
+    "captured_at": "2026-11-01T16:31:39.975Z",
     "status": 200,
     "error": null,
     "final_url": "https://cpfelectionguide.org/",
-    "response_sha256": "19591c5fcf8ba8162a8e90f5af8eeb3ccb2c8f3186e9b0bd3dcd36a258617ee0",
+    "response_sha256": "39c48ae6e4f0b424b47e4cb0a5b2194a7900707102af782525a1448db76e9667",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,13 +74,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 890,
-    "captured_at": "2026-11-01T13:02:48.032Z",
+    "captured_at": "2026-11-01T16:33:23.250Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
-    "response_sha256": "31083b199e62f7d3a6522b72d7704a60e21c959d24bda706f3b3e6fb3fbc4243",
+    "response_sha256": "71f2682ce882aa7b502bb5003e83238c9e1a046414e4808a13e2e29c425c7e72",
     "bytes": "public",
     "claims": [
      "captured",
@@ -110,13 +112,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 864,
-    "captured_at": "2026-11-01T13:02:41.513Z",
+    "captured_at": "2026-11-01T16:33:15.975Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.iaff.org/political-action/endorsements/",
-    "response_sha256": "d62a01dd9a644bab7ccb1093af57ff3f319bcd7b6915b2da8ab75594fd486a11",
+    "response_sha256": "2bda14c445f223796405fd0a2ae79b7c59924701dbfb24e5fc0d83646ac01395",
     "bytes": "public",
     "claims": [
      "captured",

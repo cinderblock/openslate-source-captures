@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://consumerwatchdog.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "consumerwatchdog.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 87,
-    "captured_at": "2026-11-01T13:01:00.369Z",
+    "captured_at": "2026-11-01T16:31:38.311Z",
     "status": 200,
     "error": null,
     "final_url": "https://consumerwatchdog.org/accountability/our-2026-ca-initiative-picks/",
-    "response_sha256": "557e617ec856d1857ed484ad8a0164f7be29b6562f809c0faa6d1f85cfc6d595",
+    "response_sha256": "979bd8abc568d4741184d923762189501e85dcd0915252a0d62135ccc2c093f3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -46,10 +48,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261022084951id_/https://consumerwatchdog.org/accountability/our-2026-ca-initiative-picks/",
-    "timestamp": "20261022084951",
-    "digest": "F3ZCWPXG2JC7LKJL6T62FOQFBSDLD5QU",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261101145016id_/https://consumerwatchdog.org/accountability/our-2026-ca-initiative-picks/",
+    "timestamp": "20261101145016",
+    "digest": "7F5VRSD5POHGMNC2UWPJTU5FWZSTQ26Z",
+    "origin": "requested",
     "statements": {
      "found": 14,
      "of": 14

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.laforward.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 875,
-    "captured_at": "2026-11-01T13:02:44.529Z",
+    "captured_at": "2026-11-01T16:33:19.599Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.laforward.org/voterguide",
-    "response_sha256": "db751f4518f5360f959ae6ffe606488839d57053ed42788216e1a75706f9f643",
+    "response_sha256": "74ae29dc0b2b243b2806425a0e9303dd639d9363e8382fc171c66d93d2152634",
     "bytes": "public",
     "claims": [
      "captured",

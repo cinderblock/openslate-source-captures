@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfblueprint.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "sfblueprint.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 1115,
-    "captured_at": "2026-11-01T13:03:09.590Z",
+    "captured_at": "2026-11-01T16:33:45.885Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfblueprint.org/advocacy/november-2026-voter-guide",
-    "response_sha256": "f1ca091d5705a4c0ce4110260c203a2c8f0bafe0c8718caa896238cf9fa45d5b",
+    "response_sha256": "6ac87ee83d8247517622319be37f66d5a0992adf2267edbfbb1bfa6ef84a2bd1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,13 +74,13 @@
     "org_host": "sfblueprint.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 83,
-    "captured_at": "2026-11-01T13:00:59.156Z",
+    "captured_at": "2026-11-01T16:31:37.407Z",
     "status": 200,
     "error": null,
     "final_url": "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
-    "response_sha256": "a8025a95e365a04f6ecb89de2c8795ade7e80c89230e85e27cc3d97573d29a0b",
+    "response_sha256": "ea56313f29a27645841f5827d0247172a7910980f99b7825c6b64e161b70ad47",
     "bytes": "public",
     "claims": [
      "captured",

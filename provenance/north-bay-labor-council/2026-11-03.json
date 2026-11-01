@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.nbclc.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "nbclc.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 895,
-    "captured_at": "2026-11-01T13:02:49.831Z",
+    "captured_at": "2026-11-01T16:33:25.068Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.nbclc.org/2026endorsements",
-    "response_sha256": "1e7afc5c827328d62d08d48fa4c19df7bfad1288bbe9ff8a661f1633245e24f6",
+    "response_sha256": "a33a521ba7f0946c135003c13091a85ae12cccbcc636aa3adeec8dcaab89b25c",
     "bytes": "public",
     "claims": [
      "captured",

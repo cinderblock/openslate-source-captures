@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sflcv.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "sflcv.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 1124,
-    "captured_at": "2026-11-01T13:03:14.601Z",
+    "captured_at": "2026-11-01T16:33:49.797Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sflcv.org/endorsements",
-    "response_sha256": "f4c4e6fb82c21718f5ad000c31f250471c611fab62c9cae8ae55ccfb6e21478d",
+    "response_sha256": "5d0dd6dd7db9069c02ab3edd26bcbcb3df7ccfdf9a3b6ff8152faf005c3705eb",
     "bytes": "public",
     "claims": [
      "captured",

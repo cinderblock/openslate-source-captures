@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.lagop.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 376,
-    "captured_at": "2026-11-01T13:01:18.643Z",
+    "captured_at": "2026-11-01T16:31:55.887Z",
     "status": 200,
     "error": null,
     "final_url": "https://lagop-endorsement-lookup.vercel.app/",
-    "response_sha256": "51143340388fbd2275ad282afdc30724a67ac828487b95cedb538c4c1a0bd144",
+    "response_sha256": "37d1cd7ed39d9413d00bbf0e909be08acbf26ce294147a29c92351c12cce6b36",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +73,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 876,
-    "captured_at": "2026-11-01T13:02:44.621Z",
+    "captured_at": "2026-11-01T16:33:19.736Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lagop.org/",
-    "response_sha256": "8b3aa1d7b837ad9fc775da9e21d3cd7ebf13f67e1e8a4a0aa17d8b2edb63af90",
+    "response_sha256": "6ddb7678620873ebb3c2111a80e64217f696f2bc15a0287b7beea643f4e03450",
     "bytes": "public",
     "claims": [
      "captured",
@@ -109,13 +111,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 377,
-    "captured_at": "2026-11-01T13:01:20.390Z",
+    "captured_at": "2026-11-01T16:31:57.561Z",
     "status": 200,
     "error": null,
     "final_url": "https://lagop-endorsement-lookup.vercel.app/_next/static/chunks/app/page-6de5274a16e7b1f6.js?dpl=dpl_GQ36V56UvLmxAzBWhCHYevkbNL3s",
-    "response_sha256": "a6b0c4af4bf9de4800ee72d3b7649b29109b0a4a8fa5d26b7740813015947265",
+    "response_sha256": "c84aa42bb3c5d09b0284653316e65679c786fc1a327fdb61e349b432d8137dbf",
     "bytes": "public",
     "claims": [
      "captured",

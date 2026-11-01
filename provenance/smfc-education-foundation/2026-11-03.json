@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 563,
-    "captured_at": "2026-11-01T13:02:08.228Z",
+    "captured_at": "2026-11-01T16:32:42.685Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-5ArgInFavor-SMFCSD%20Bond_Redacted.pdf",
-    "response_sha256": "7a1a60b69acebaea786265508b0029ff0f27bfeced76515ffc99dee4013889f3",
+    "response_sha256": "d8d5579d181a7d9d0ac3e1f992bace4bd49217685671918805059b2a78c4d0b0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +73,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 590,
-    "captured_at": "2026-11-01T13:02:56.403Z",
+    "captured_at": "2026-11-01T16:33:31.043Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-RebutArgAgainst-SMFCSD-Bond_Redacted.pdf",
-    "response_sha256": "55173c1409d2671c358ae817c2ce716f446566c3be15d5972653ad938c727b1d",
+    "response_sha256": "e61196dcef1173060e76370bfbbc37c6ce06417c26ff1c0e26b76b8bb4265c02",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.oaklandreviewofbooks.org/",
  "generated_from": {
-  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -16,7 +16,9 @@
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
    "2026-10-31T1536Z",
-   "2026-11-01T1300Z"
+   "2026-11-01T1300Z",
+   "2026-11-01T1320Z",
+   "2026-11-01T1631Z"
   ]
  },
  "sources": [
@@ -29,13 +31,13 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 902,
-    "captured_at": "2026-11-01T13:02:51.558Z",
+    "captured_at": "2026-11-01T16:33:26.096Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/",
-    "response_sha256": "695013a30128bba940af2234a0723369954721f773d9c6b762545fa22d34c219",
+    "response_sha256": "ef2e3ba71f48dc9e2a86f67425e240614583556cd0b0b8f8d961ce4ca2e03f93",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -44,7 +46,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143038id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/",
+    "timestamp": "20261101143038",
+    "digest": "GGRFBAN7UE6UAWM4HVFAGPFGOP7Z4EM5",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -62,22 +69,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 904,
-    "captured_at": "2026-11-01T13:02:55.029Z",
+    "captured_at": "2026-11-01T16:33:29.464Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/lateefah-simon-will-in-fact-do-it/",
-    "response_sha256": "63798e40f2ed52f56286b9c7e5e1dd37e54aec429910530d00c466e256133a45",
+    "response_sha256": "b7f90c1ad5c0773cc5d395ac1f9883005840e8955fc3590d19bfa5ef5970cf29",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143122id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/lateefah-simon-will-in-fact-do-it/",
+    "timestamp": "20261101143122",
+    "digest": "NZL5SXO3QK45XK5Q64WZSMDXHKDVISXR",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -95,22 +112,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 903,
-    "captured_at": "2026-11-01T13:02:53.375Z",
+    "captured_at": "2026-11-01T16:33:27.900Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/fiona-ma-for-lieutenant-governor-and-adriana-valencia-for-ac-transit-ward-3/",
-    "response_sha256": "e3e698c14d354d06cfdfef528850c9d0d8a6f9787d5645738e05dd7fe2869359",
+    "response_sha256": "ea7e724d7c2b82e30f764fd6baccbf84bfaa6cd38617a0476e5754d8dbc4f618",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143104id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/fiona-ma-for-lieutenant-governor-and-adriana-valencia-for-ac-transit-ward-3/",
+    "timestamp": "20261101143104",
+    "digest": "MF4JUPBQ7ZVVDKR7POXHVNSI3U23SZSZ",
+    "origin": "requested",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,
@@ -128,22 +155,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 925,
-    "captured_at": "2026-11-01T13:03:29.180Z",
+    "captured_at": "2026-11-01T16:34:02.285Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/we-dont-talk-about-the-bontas/",
-    "response_sha256": "09232ac70e8dfa2ceb71d9be4475cbd2eea8bd3a903b1e12855e5f8f2dc58059",
+    "response_sha256": "ec95590d6bf5932fe4b34d814cc7fa6887491c3de1487e616cf9390b75002ca4",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143927id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/we-dont-talk-about-the-bontas/",
+    "timestamp": "20261101143927",
+    "digest": "XDM3JOBVJ4WOFZ5THJV4GBZTG75EEOHZ",
+    "origin": "requested",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,
@@ -161,22 +198,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 924,
-    "captured_at": "2026-11-01T13:03:27.523Z",
+    "captured_at": "2026-11-01T16:34:00.724Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/vote-for-eleni-kounalakis/",
-    "response_sha256": "54530d2d4f5a436348c8fea59706ba791df941c96f6e79b68af3c984b808e1e9",
+    "response_sha256": "727d26cba2c9d1e698006107517670a46444eedb25f85f9ef673271ffed02891",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143856id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/vote-for-eleni-kounalakis/",
+    "timestamp": "20261101143856",
+    "digest": "DWDYSMTXYT376XT7FJTL4V7OLXEPB5QB",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -194,22 +241,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 922,
-    "captured_at": "2026-11-01T13:03:24.202Z",
+    "captured_at": "2026-11-01T16:33:57.604Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/somebody-is-going-to-vote-for-herb-morgan-dont-let-it-be-you/",
-    "response_sha256": "d93402d35d715814f8d9cdcc9bef573c9882f4c77949a7a4ba6877ed978be1a3",
+    "response_sha256": "33fbac863dddfa8af08480cebca26bf9500db2d42c48091a61b9e162ef7f3642",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143806id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/somebody-is-going-to-vote-for-herb-morgan-dont-let-it-be-you/",
+    "timestamp": "20261101143806",
+    "digest": "KW4CETXFP2RQNMWHSPPOR5T2TLKF2CHW",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -227,22 +284,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 923,
-    "captured_at": "2026-11-01T13:03:25.858Z",
+    "captured_at": "2026-11-01T16:33:59.162Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/vote-barrera-bury-the-transphobe/",
-    "response_sha256": "c673a5b7c3c97bdc92475a4909f030de939a350c9159552e05e9bddce3d6761c",
+    "response_sha256": "1c4763817b42e27b2681e79442396dfac1974454a92307093c828fab5b42a72c",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143820id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/vote-barrera-bury-the-transphobe/",
+    "timestamp": "20261101143820",
+    "digest": "RNGKTBKTZ6IL2J4AGM7HC42CODK6HUE3",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -260,22 +327,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 928,
-    "captured_at": "2026-11-01T13:03:34.150Z",
+    "captured_at": "2026-11-01T16:34:06.968Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/youre-not-voting-for-the-board-of-equalization/",
-    "response_sha256": "e65656d2d3b85ca8f0b6dd6d00c14e90e3c3318886e02d0d96f46e02b229fb6e",
+    "response_sha256": "642337f6888ba01f6cfada831635719bb54d8e44c2d6650a1c3781c55189ddd3",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101144028id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/youre-not-voting-for-the-board-of-equalization/",
+    "timestamp": "20261101144028",
+    "digest": "QRKM4X4MXUX22RNCQFKU2GI7HXLAIJ6K",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -293,22 +370,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 921,
-    "captured_at": "2026-11-01T13:03:22.660Z",
+    "captured_at": "2026-11-01T16:33:56.044Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/screw-realistic-mark-rendon-over-buffy-wicks/",
-    "response_sha256": "4637932f4c8f0f7ac906aeb2cb73829d2691f1a14bf223d6420e755da4e8bfd6",
+    "response_sha256": "3d7b4de61133c311fbdbf2a4796e827c00689b2c64886182e31ab4860b2e4af5",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143820id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/screw-realistic-mark-rendon-over-buffy-wicks/",
+    "timestamp": "20261101143820",
+    "digest": "T3DINQRX7YL36K2SKD57LYVASDK4C2MD",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -326,22 +413,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 927,
-    "captured_at": "2026-11-01T13:03:32.498Z",
+    "captured_at": "2026-11-01T16:34:05.409Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/you-actually-dont-need-to-vote-for-michael-houston/",
-    "response_sha256": "a1ee1c4c2545db773d2fa77af7258500897ab4070230a6de70f785fa2da556fd",
+    "response_sha256": "623449fe01a1c4373cfd3a41645201e1255bb34107a9dcf1e2f86a989d188e28",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143959id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/you-actually-dont-need-to-vote-for-michael-houston/",
+    "timestamp": "20261101143959",
+    "digest": "ZLOFCKM65DQLC7M6DJ67PJRKWATAVNNX",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -359,22 +456,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 906,
-    "captured_at": "2026-11-01T13:02:58.345Z",
+    "captured_at": "2026-11-01T16:33:32.587Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-1-yes/",
-    "response_sha256": "ce922e7b4a4816752aa72233c1961ba2a0ea05ae24bb2154634cec8120065109",
+    "response_sha256": "88b860e92f537dc3f396acb79cfdcbfb2087042d00f1f634d6a3f83b873ea43d",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143219id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-1-yes/",
+    "timestamp": "20261101143219",
+    "digest": "2TO2W6CNC7MVUO6DSMZN5NLLXI5HTPX3",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -392,22 +499,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 907,
-    "captured_at": "2026-11-01T13:02:59.890Z",
+    "captured_at": "2026-11-01T16:33:34.150Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-2-yes/",
-    "response_sha256": "4aa202fddc03f297a0e1756670cdbe66499cbdde93dbc5d5f3c7fd50235045bb",
+    "response_sha256": "e7a1ddfe066a50e921b735e2ee3995d81911293e487e9e7f21d974c48588bd33",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143249id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-2-yes/",
+    "timestamp": "20261101143249",
+    "digest": "32FX2XJASLEHBZIPXJFZSOUCQ62EICBE",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -425,22 +542,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 910,
-    "captured_at": "2026-11-01T13:03:04.637Z",
+    "captured_at": "2026-11-01T16:33:38.844Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-3-yes/",
-    "response_sha256": "d620e57170792527aee847cbd0551bceca1d238970d2c8df5ae52ab33cdf2bb7",
+    "response_sha256": "519e1c9eb491f6f8ef436a474d73cec2e72b21b626e849084b3e4529e8686245",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143403id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-3-yes/",
+    "timestamp": "20261101143403",
+    "digest": "2SFXMLEVFUK7I7XWZNBZURNZL6YRVVBW",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -458,22 +585,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 908,
-    "captured_at": "2026-11-01T13:03:01.538Z",
+    "captured_at": "2026-11-01T16:33:35.715Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-4-yes/",
-    "response_sha256": "2b0249bcf86d856dc9b0e6ab8421a9cd3d465fb8f767c83e44748e09e71ff4b0",
+    "response_sha256": "8daa30ca31cf6ed7cb56a17c70361f38db29cb4a305154f7c8d07f79bf19d4b7",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143306id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-4-yes/",
+    "timestamp": "20261101143306",
+    "digest": "6AKQ5QUN3LQIQX55DKZN42UHGYJFT63C",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -491,22 +628,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 917,
-    "captured_at": "2026-11-01T13:03:16.145Z",
+    "captured_at": "2026-11-01T16:33:49.789Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-5-yes/",
-    "response_sha256": "fdabb2260b40c68f38e1bd6ec14a7a2c321cb04e68ea21d484190b90913a42bd",
+    "response_sha256": "7b86158210f5e20543816b7607bb4e6509102de38886400a9d37069c010270c7",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143648id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-5-yes/",
+    "timestamp": "20261101143648",
+    "digest": "BYO4K2E22RGP6R7EPWDCRFSVSCDVIDDA",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -524,22 +671,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 911,
-    "captured_at": "2026-11-01T13:03:06.291Z",
+    "captured_at": "2026-11-01T16:33:40.408Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-37-no/",
-    "response_sha256": "a6c2b69a5105212e77ec30fb136d2a5c5299aea49400a9159287335b69fc8dbc",
+    "response_sha256": "1bf5a8e2cb727fdb8342a14dccd244c8b221e67b70f1b2b9c43c66cdbe680d16",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143452id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-37-no/",
+    "timestamp": "20261101143452",
+    "digest": "DWU5X6ULNAEOAXNXSW42S4WPRDHEC5SH",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -557,22 +714,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 912,
-    "captured_at": "2026-11-01T13:03:07.838Z",
+    "captured_at": "2026-11-01T16:33:41.969Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-38-no/",
-    "response_sha256": "e44ebe08ba28d398ffb6cff4708439d3042ac736288b9da65b769d77132a014b",
+    "response_sha256": "b1d29bfffad4890e2f6a7ddcd66af03c43a395a61f8a44a6c2da2d45950b49c1",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143448id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-38-no/",
+    "timestamp": "20261101143448",
+    "digest": "63TIZDMW3PE77KIQYVUDANHA443HW5HV",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -590,22 +757,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 913,
-    "captured_at": "2026-11-01T13:03:09.502Z",
+    "captured_at": "2026-11-01T16:33:43.532Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-39-no/",
-    "response_sha256": "1c6e7d9ca4af666597f52eb262a02663d199e961c98c6fbdeba4a73ff492bf5c",
+    "response_sha256": "b501405ba98e2ae24cffd03d62f801c1f943429cd5c48a53ae9963302db77774",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143534id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-39-no/",
+    "timestamp": "20261101143534",
+    "digest": "U3IQ7FL7RNZYATQLS6G3NSFCXD3ZRAT6",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -623,22 +800,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 909,
-    "captured_at": "2026-11-01T13:03:03.087Z",
+    "captured_at": "2026-11-01T16:33:37.278Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-40-hell-yes/",
-    "response_sha256": "b5e2bfd3babf7b684df488b86836df88da117455258ad21c96e1c62d33805352",
+    "response_sha256": "0cad184db997d3b4129ad03c493c4154a03625b8d4324954d878f8c998174705",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143415id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/prop-40-hell-yes/",
+    "timestamp": "20261101143415",
+    "digest": "IA77JFRI3B4TQHTZYTOBEVSXYDA6K54Z",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -656,22 +843,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 918,
-    "captured_at": "2026-11-01T13:03:17.790Z",
+    "captured_at": "2026-11-01T16:33:51.351Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/props-41-42-hell-no/",
-    "response_sha256": "14b9bc6555aff77e4213c827afd1c4928b91bdba58a2c19423cc245a456e496f",
+    "response_sha256": "84bfe1806a9a941886d221181dac78ff20cc042c70bc690f95aca1e2d5370d5e",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143615id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/props-41-42-hell-no/",
+    "timestamp": "20261101143615",
+    "digest": "4QSWS23LLLGO2URHR2KDXDCD44XYOHMN",
+    "origin": "requested",
+    "statements": {
+     "found": 2,
+     "of": 2
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 2,
@@ -689,22 +886,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 914,
-    "captured_at": "2026-11-01T13:03:11.158Z",
+    "captured_at": "2026-11-01T16:33:45.094Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-43-no/",
-    "response_sha256": "b492bc19fff97ebe9889ccc9d25585d5448355e7c4f848baa0e55d1c0afa9c5f",
+    "response_sha256": "85541ae5438d36ee8ac0c2c73cb1806ac0aa9f1d86b774946096e564fea6a641",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143525id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-43-no/",
+    "timestamp": "20261101143525",
+    "digest": "YMPGEZWPKAE6JRB6ECA6TOJGQ3XZV5LP",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -722,22 +929,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 915,
-    "captured_at": "2026-11-01T13:03:12.817Z",
+    "captured_at": "2026-11-01T16:33:46.657Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-44-no/",
-    "response_sha256": "984f20890a5f6cf0550959e9721b996d8913cb62ce428fa493958adc2a586ed8",
+    "response_sha256": "cb4369df43cec376184354930209dda0828c8ad53c37e7e608b2764200a46bd5",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143551id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-44-no/",
+    "timestamp": "20261101143551",
+    "digest": "OS4FQE3GJ5C5KG2QLYPEARAAXNWWQUS6",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -755,22 +972,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 916,
-    "captured_at": "2026-11-01T13:03:14.473Z",
+    "captured_at": "2026-11-01T16:33:48.221Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-45-no/",
-    "response_sha256": "db34e03e28fb584b3ff52999fb582c6cb8fd924dab637857a80197c6190579f1",
+    "response_sha256": "3e60ab94da281f69ec60c07f4b7ac71ce71e770e12eb8e47413f921c80b16d3f",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261015125642id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-45-no/",
+    "timestamp": "20261015125642",
+    "digest": "BSV4HTCZWJXDN2TQBXQ7KQRK33MWAYCV",
+    "origin": "existing",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -788,22 +1015,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 919,
-    "captured_at": "2026-11-01T13:03:19.458Z",
+    "captured_at": "2026-11-01T16:33:52.916Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/regional-transit-measure-god-yes/",
-    "response_sha256": "7f7fb1232e33b2ba2bc7574b894476a12b9504c743620dc7bb3c6a5fd6771587",
+    "response_sha256": "153d83dcbc6a0437e77664dc414943bdea5f327e78ee567ee0a13ec2415b5bac",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143632id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/regional-transit-measure-god-yes/",
+    "timestamp": "20261101143632",
+    "digest": "Y6AUJ2Q7E3H6LTDCYGGPQHGEYVFCGUP6",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -821,22 +1058,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 905,
-    "captured_at": "2026-11-01T13:02:56.687Z",
+    "captured_at": "2026-11-01T16:33:31.025Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/measure-ee-doesnt-speak-for-me-vote-no/",
-    "response_sha256": "3d348d1dcee0ca67d7210d1b4b9db0c0cff68f931c528349b1ebf09e623ee9a1",
+    "response_sha256": "9f43ad9878690a082a108d906a2824013f6b903e562ef2b9d7aec7c22c607cdf",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143136id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/measure-ee-doesnt-speak-for-me-vote-no/",
+    "timestamp": "20261101143136",
+    "digest": "EZOQW6MW7KDK2YKRHZ2SM3LJDPSNNHRX",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -854,22 +1101,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 926,
-    "captured_at": "2026-11-01T13:03:30.836Z",
+    "captured_at": "2026-11-01T16:34:03.846Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/yes-on-ff-obviously/",
-    "response_sha256": "f970ca0d7ab739871395a0e290d91b95d0d156cd8120aa9bffc341bfdf08c97c",
+    "response_sha256": "d5ddc4590e87fdc583f7a614626efe76d6a78475dec82adc715c6d35abbfee98",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143949id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/yes-on-ff-obviously/",
+    "timestamp": "20261101143949",
+    "digest": "D4UQ5KKFJXEGCV2JQEBRUHJ55OCCDSSJ",
+    "origin": "requested",
+    "statements": {
+     "found": 1,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 1,
@@ -887,22 +1144,32 @@
     "org_host": "oaklandreviewofbooks.org"
    },
    "latest": {
-    "run": "2026-11-01T1300Z",
+    "run": "2026-11-01T1631Z",
     "index": 920,
-    "captured_at": "2026-11-01T13:03:21.003Z",
+    "captured_at": "2026-11-01T16:33:54.480Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.oaklandreviewofbooks.org/voting-guide-2026/retain-the-judges/",
-    "response_sha256": "27e309556d7bc09d511276b872c0d75018da9ce87a97b3401387c53ccb9f7283",
+    "response_sha256": "92407ac39d1108edd9957923cba30d477d795d1bd5813983a865c3514b72b200",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101143658id_/https://www.oaklandreviewofbooks.org/voting-guide-2026/retain-the-judges/",
+    "timestamp": "20261101143658",
+    "digest": "NVIQI5RWEMRVYNO4FOE2WCA7RYYMZQOK",
+    "origin": "requested",
+    "statements": {
+     "found": 13,
+     "of": 13
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 13,
