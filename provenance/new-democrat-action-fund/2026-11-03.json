@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://newdemactionfund.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "newdemactionfund.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 437,
-    "captured_at": "2026-10-31T15:37:27.172Z",
+    "run": "2026-11-01T1300Z",
+    "index": 451,
+    "captured_at": "2026-11-01T13:01:28.739Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.newdemactionfund.com/candidates",
-    "response_sha256": "51e0edfdf54e1f8ece5551d196b0818830422dd2eb22ced69bdd2fd10086b178",
+    "response_sha256": "cfafafbd542d9cc4f4dbd75aeb654dd63c036d9284fce3406b957919179eba67",
     "bytes": "public",
     "claims": [
      "captured",
@@ -48,6 +49,7 @@
     "url": "https://web.archive.org/web/20261025143321id_/https://newdemactionfund.com/candidates",
     "timestamp": "20261025143321",
     "digest": "EE3BJ7IOFJL57HLMCBRVEPOWROK372UK",
+    "origin": "existing",
     "statements": {
      "found": 3,
      "of": 3

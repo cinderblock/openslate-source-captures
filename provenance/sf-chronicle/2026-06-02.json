@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfchronicle.com/opinion/editorials/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1076,
-    "captured_at": "2026-10-31T15:39:02.954Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1118,
+    "captured_at": "2026-11-01T13:03:11.332Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
-    "response_sha256": "3506bb4f2c9d18a517f5a8c526676e20920aea08108de06aa382eeead03e9023",
+    "response_sha256": "6d5a2f38b5885df0f1162ece0632b9d5c248a3ebc7f5f5cd9b54f84f928c34b5",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -43,7 +44,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "0ec4afb1b187ebba8e813d32307cb5d85afd63d686ccd03782ec2d8d505318f3"
+     "dom_sha256": "a8ae81a2292ccf0ec3238f694cf7c74bda164950db9c0cf19f381276b40bc7a6"
     }
    },
    "last_ok": null,
@@ -70,13 +71,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
+    "run": "2026-11-01T1300Z",
     "index": 35,
-    "captured_at": "2026-10-31T15:36:52.516Z",
+    "captured_at": "2026-11-01T13:00:52.992Z",
     "status": 202,
     "error": null,
     "final_url": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
-    "response_sha256": "283ac42f8cb1e936c56ae0f1413750215bc332b62544b6b57a9f0d2d35f62a00",
+    "response_sha256": "f5347d8f8635af88702fabf7f9c8803dcb6d607e15c2388014ae3381786fc8cd",
     "bytes": "withheld",
     "claims": [
      "captured",

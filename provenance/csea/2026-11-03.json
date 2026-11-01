@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.csea.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "csea.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 94,
-    "captured_at": "2026-10-31T15:37:00.098Z",
+    "run": "2026-11-01T1300Z",
+    "index": 104,
+    "captured_at": "2026-11-01T13:01:03.102Z",
     "status": 200,
     "error": null,
     "final_url": "https://csea.com/issues-and-advocacy/election/statewide-voter-guide",
-    "response_sha256": "9b9ae779012f2df24419624795ca324908eb4d90ad650b2aeda640784ad5e2c9",
+    "response_sha256": "90555b591891d92fce578a1aec32a1589591919d686668557c83d320c0bf021f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071122id_/https://csea.com/issues-and-advocacy/election/statewide-voter-guide",
-    "timestamp": "20261021071122",
-    "digest": "YMUBVQCTBGOFRBTBKSOQAHC3MUWSHS37",
+    "url": "https://web.archive.org/web/20261101065831id_/https://csea.com/issues-and-advocacy/election/statewide-voter-guide",
+    "timestamp": "20261101065831",
+    "digest": "BOX5JIDKO6EZ5XNKHELN6GYCXU7UE3ZO",
+    "origin": "requested",
     "statements": {
      "found": 138,
      "of": 138
@@ -70,13 +72,13 @@
     "org_host": "csea.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 95,
-    "captured_at": "2026-10-31T15:37:01.759Z",
+    "run": "2026-11-01T1300Z",
+    "index": 105,
+    "captured_at": "2026-11-01T13:01:04.794Z",
     "status": 200,
     "error": null,
     "final_url": "https://csea.com/news/where-csea-stands-props-3-39-and-43",
-    "response_sha256": "bc0fc914f26c5fbb9a98af0ade3a28dde00358db5229b612c95c4788ffe21b75",
+    "response_sha256": "4eb324bc11c161d25ee04ac98d1124652cfa3f37a0a0c2b1393681b46fc2a97b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,9 +88,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261018065328id_/https://csea.com/news/where-csea-stands-props-3-39-and-43",
-    "timestamp": "20261018065328",
-    "digest": "2TCV3NGT7VMB6UN4L7QRBENGEZTKHOZT"
+    "url": "https://web.archive.org/web/20261101064740id_/https://csea.com/news/where-csea-stands-props-3-39-and-43",
+    "timestamp": "20261101064740",
+    "digest": "K3UJRUTVI5WBXQBH2KS6AVYBILX5EGSR",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

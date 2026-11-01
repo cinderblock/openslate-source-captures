@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://calaborfed.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "calaborfed.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 60,
-    "captured_at": "2026-10-31T15:36:55.882Z",
+    "run": "2026-11-01T1300Z",
+    "index": 62,
+    "captured_at": "2026-11-01T13:00:56.564Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/labor-2026-primary-election-endorsements/",
-    "response_sha256": "585b03631f9045991d5687a1ef48f8782b1dd1361926aeb2413fc8b204b451a3",
+    "response_sha256": "0ea531761821d21b46acc198ead337d753042815a1bf19ab913358978977158e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -59,20 +60,20 @@
   },
   {
    "url": "https://calaborfed.org/wp-content/uploads/2026/09/V2_Biennial-2026-general-election-endorsements.pdf",
-   "positions": 140,
+   "positions": 141,
    "host": {
     "match": "exact",
     "host": "calaborfed.org",
     "org_host": "calaborfed.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 63,
-    "captured_at": "2026-10-31T15:37:01.722Z",
+    "run": "2026-11-01T1300Z",
+    "index": 65,
+    "captured_at": "2026-11-01T13:01:01.702Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/09/V2_Biennial-2026-general-election-endorsements.pdf",
-    "response_sha256": "71dc32f00bf0ecdea4d9b72bfd44067ad747f6eb89751cb97413103bc5cda601",
+    "response_sha256": "51cadee86cf7a4f59372d1bc5b68efdcc8b1828611c29fe9f860a625f0986cf6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,6 +87,7 @@
     "url": "https://web.archive.org/web/20261009131032id_/https://calaborfed.org/wp-content/uploads/2026/09/V2_Biennial-2026-general-election-endorsements.pdf",
     "timestamp": "20261009131032",
     "digest": "KQDTAB3UNHIBVYDFZPQCQQXSLYK4BDLG",
+    "origin": "existing",
     "statements": {
      "found": 1,
      "of": 1
@@ -93,7 +95,7 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 0,
+    "exact": 1,
     "quoted_parts": 1,
     "unanchored": 0,
     "no_statement": 139
@@ -108,13 +110,13 @@
     "org_host": "calaborfed.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 65,
-    "captured_at": "2026-10-31T15:37:05.433Z",
+    "run": "2026-11-01T1300Z",
+    "index": 67,
+    "captured_at": "2026-11-01T13:01:05.353Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL.jpg",
-    "response_sha256": "3bcadc8e3c4a5f97d05f3e8baceac9735c0977aacf2a95998839d7d0f0cb45e1",
+    "response_sha256": "43e06ed107c3ae71ab08ab9588c1bfbfeb02dcf67e5f48cff23bf552d1adb3e0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -147,13 +149,13 @@
     "org_host": "calaborfed.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 66,
-    "captured_at": "2026-10-31T15:37:07.244Z",
+    "run": "2026-11-01T1300Z",
+    "index": 68,
+    "captured_at": "2026-11-01T13:01:07.073Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL2.jpg",
-    "response_sha256": "f95adbaf7e6bc44de1c743fd0affb7fc35730fbc66e5c0e1f7d92d5ba05f5f01",
+    "response_sha256": "86129db4f400bd0740dbbe12ae31c3ef4f2fc8b0676d34382ad46f115c0b1caa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -186,13 +188,13 @@
     "org_host": "calaborfed.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 61,
-    "captured_at": "2026-10-31T15:36:57.763Z",
+    "run": "2026-11-01T1300Z",
+    "index": 63,
+    "captured_at": "2026-11-01T13:00:58.276Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/press-releases/california-federation-of-labor-unions-overwhelmingly-supports-billionaires-tax-prop-40/",
-    "response_sha256": "d3cf8c70ef014709aea5dd305292004837bc05cc876a36714f3ed0af9184cf38",
+    "response_sha256": "b26248e302cc896c21fa40ef4e902be227cdc1fd3bf50f7bba839a6b7547ec6b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -203,9 +205,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017032942id_/https://calaborfed.org/press-releases/california-federation-of-labor-unions-overwhelmingly-supports-billionaires-tax-prop-40/",
-    "timestamp": "20261017032942",
-    "digest": "62X22UW36K6ZU7FD2MLIGRII2KKQKIOB",
+    "url": "https://web.archive.org/web/20261031234629id_/https://calaborfed.org/press-releases/california-federation-of-labor-unions-overwhelmingly-supports-billionaires-tax-prop-40/",
+    "timestamp": "20261031234629",
+    "digest": "YHNEOQMSRJ6WCFXM5JYG4G6KNND7QJ4D",
+    "origin": "requested",
     "statements": {
      "found": 2,
      "of": 2
@@ -228,13 +231,13 @@
     "org_host": "calaborfed.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 62,
-    "captured_at": "2026-10-31T15:36:59.798Z",
+    "run": "2026-11-01T1300Z",
+    "index": 64,
+    "captured_at": "2026-11-01T13:00:59.975Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/08/Biennial-2026-general-election-endorsements.pdf",
-    "response_sha256": "1b010159319f399ccea039096a8bff150ae94c3636d9425cea0d71fcd48accb4",
+    "response_sha256": "a36f89352364ebc30a353840835e02ebea21b44c758fa8a6584130bbe5fffb10",
     "bytes": "public",
     "claims": [
      "captured",
@@ -266,13 +269,13 @@
     "org_host": "calaborfed.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 67,
-    "captured_at": "2026-10-31T15:37:09.064Z",
+    "run": "2026-11-01T1300Z",
+    "index": 69,
+    "captured_at": "2026-11-01T13:01:08.900Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/NO-on-prop-45.png",
-    "response_sha256": "269379e9becd9b7a690ccfca11c79f39550eb1485ec779dd63178a9f72fab557",
+    "response_sha256": "66dcf3a1a95d21a10e6fbbeb502d3ced318b5c058eae21c4f4d7ff5328f7a9a6",
     "bytes": "public",
     "claims": [
      "captured",

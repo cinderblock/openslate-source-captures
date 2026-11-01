@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.cta.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "cta.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 829,
-    "captured_at": "2026-10-31T15:38:31.153Z",
+    "run": "2026-11-01T1300Z",
+    "index": 843,
+    "captured_at": "2026-11-01T13:02:37.964Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cta.org/our-advocacy/election-2026",
-    "response_sha256": "43719ea7a4fb7e0fde38c82a191e6e1315d9fe94e416b1e2a45b2729ed28c8af",
+    "response_sha256": "5502f338f37d63fb309cc32d74820b086eaf7b6481c6ebdc28106cf8e8c5354a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,10 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017092542id_/https://www.cta.org/our-advocacy/election-2026",
-    "timestamp": "20261017092542",
-    "digest": "VGLD37AQJNF6R747GJD4AFXBJHID6PCP",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261031235518id_/https://www.cta.org/our-advocacy/election-2026",
+    "timestamp": "20261031235518",
+    "digest": "NTZ3TGYATYXFUUBKAJFBJ7RRT47UW2BR",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -66,13 +67,13 @@
     "org_host": "cta.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 827,
-    "captured_at": "2026-10-31T15:38:26.344Z",
+    "run": "2026-11-01T1300Z",
+    "index": 841,
+    "captured_at": "2026-11-01T13:02:31.692Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cta.org/document/2026-candidate-recommendations",
-    "response_sha256": "b16e979af30ee2f790bfb1d19da485fe262b470bca3a8ba4644879365492acb0",
+    "response_sha256": "b2ddd8db9f807d62969b9656625478f9f809d105974fb87babd4e722ed894cfb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -109,13 +110,13 @@
     "org_host": "cta.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 828,
-    "captured_at": "2026-10-31T15:38:28.795Z",
+    "run": "2026-11-01T1300Z",
+    "index": 842,
+    "captured_at": "2026-11-01T13:02:35.480Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cta.org/document/2026-november-general-election-initiative-recommendations",
-    "response_sha256": "0734feb2f38738e133f6d84f4cc9f3295220c86bf4f6acfa5a26f8ebd406a367",
+    "response_sha256": "572bd29de4935ca3303bafc6bbdefec684e42f3d1e4df7826e591481931cac43",
     "bytes": "public",
     "claims": [
      "captured",

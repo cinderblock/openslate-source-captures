@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.sierraclub.org/san-gorgonio",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1091,
-    "captured_at": "2026-10-31T15:39:12.448Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1133,
+    "captured_at": "2026-11-01T13:03:22.287Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/san-gorgonio/politics-and-government-inland-empire",
-    "response_sha256": "1a8d012903235e9f54eaa15678294265c9001c40d93b7a491f4c2b8d5ca1d870",
+    "response_sha256": "be65170296bcc82b42e3029817dec3301f9d6326d9fd43252c35fc49f8487d6d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,7 +44,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "e9a613f0ebdd7c2c35ffaf2a4ec5e26ca18af9bfb9d8a5c5571e066499f0966f"
+     "dom_sha256": "5805396946ae848333fb9688d37bc43802d134ac2dc09e7e330ee16c46cead7f"
     }
    },
    "last_ok": null,
@@ -69,13 +70,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1095,
-    "captured_at": "2026-10-31T15:39:18.669Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1137,
+    "captured_at": "2026-11-01T13:03:28.528Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sites/default/files/2026-10/final-endorsement-article-2026-p-p.pdf",
-    "response_sha256": "8af02ae8e9f9514bdcc4fd19e35c88f64d33732500000748401b3ae232399863",
+    "response_sha256": "31b9844ce1b6f6a008165d3d4d41467c1d9a29021dd9e0c215a469dea4f4f2e2",
     "bytes": "public",
     "claims": [
      "captured",

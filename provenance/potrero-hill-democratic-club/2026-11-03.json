@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://phdemclub.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "phdemclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 504,
-    "captured_at": "2026-10-31T15:37:35.516Z",
+    "run": "2026-11-01T1300Z",
+    "index": 518,
+    "captured_at": "2026-11-01T13:01:38.740Z",
     "status": 200,
     "error": null,
     "final_url": "https://phdemclub.org/endorsements-for-november-3-2026-general-election/",
-    "response_sha256": "3d8ae958b39ad085bfd5cc204af65d1e396afe1299978657d4fc719fc634499c",
+    "response_sha256": "43a410a78f9c04e1f54dbd0f0508615dbb497bfd304eaa3a37ea82078a6154bc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,11 +45,12 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261005221848id_/https://phdemclub.org/endorsements-for-november-3-2026-general-election/",
-    "timestamp": "20261005221848",
-    "digest": "H4LSEZVIKEGVQTOXJHGOQ4COOA7YM3CH",
+    "url": "https://web.archive.org/web/20261031155402id_/https://phdemclub.org/endorsements-for-november-3-2026-general-election/",
+    "timestamp": "20261031155402",
+    "digest": "HEU4NJSSYHRCO7UIVCYBCP4BB7YDRPUS",
+    "origin": "requested",
     "statements": {
-     "found": 35,
+     "found": 55,
      "of": 57
     }
    },
@@ -69,13 +71,13 @@
     "org_host": "phdemclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 503,
-    "captured_at": "2026-10-31T15:37:33.796Z",
+    "run": "2026-11-01T1300Z",
+    "index": 517,
+    "captured_at": "2026-11-01T13:01:36.965Z",
     "status": 200,
     "error": null,
     "final_url": "https://phdemclub.org/2026/09/08/tues-sept-15-more-endorsements/",
-    "response_sha256": "fe5aa3e8c451e1b22e906fedd26fc15d0b22d9f3962143390fe4b2d8e00564c5",
+    "response_sha256": "55218f4275e224e759aa0f0971e7f5ea0fdba08261e7a59791e99f660b34d3c6",
     "bytes": "public",
     "claims": [
      "captured",

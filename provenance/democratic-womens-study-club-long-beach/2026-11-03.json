@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/DWSCLB",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
+    "run": "2026-11-01T1300Z",
     "index": 38,
-    "captured_at": "2026-10-31T15:36:54.392Z",
+    "captured_at": "2026-11-01T13:00:54.967Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "394002eba4c26145f32e9a53c26a7287c4d4827c5e841720770367ee01ce2c8d",
+    "response_sha256": "2633b1cee0fcf5759dd2578094931f578ef6762d73952cef42dbc8e3e735b833",
     "bytes": "public",
     "claims": [
      "captured",
@@ -48,6 +49,7 @@
     "url": "https://web.archive.org/web/20261021163211id_/https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
     "timestamp": "20261021163211",
     "digest": "V357ETRQ5BJG6EUWVNASJZFI4JLBNGYQ",
+    "origin": "existing",
     "statements": {
      "found": 3,
      "of": 3
@@ -70,13 +72,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 840,
-    "captured_at": "2026-10-31T15:38:32.491Z",
+    "run": "2026-11-01T1300Z",
+    "index": 854,
+    "captured_at": "2026-11-01T13:02:38.492Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "cb68e29e60ea7d937b172acdae8fcf166d29ef2fb8d45a4444b588afe7c9b782",
+    "response_sha256": "c97e5768571b236d7a6f85fb3f080776ccdf236d9c99ea14fd3001396335ee4a",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -85,7 +87,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "92809d34d9e30ca725bcf7e2c85a1a078ce0b0986ffd6d39caeded4393422587"
+     "dom_sha256": "0880621e89b1bc0614d894d74f5c6504ce44064f4fab20738420bed330ac31c2"
     }
    },
    "last_ok": null,

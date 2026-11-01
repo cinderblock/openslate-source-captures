@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.cocorepublicans.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 818,
-    "captured_at": "2026-10-31T15:38:23.807Z",
+    "run": "2026-11-01T1300Z",
+    "index": 832,
+    "captured_at": "2026-11-01T13:02:29.527Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cocorepublicans.com/endorsements",
-    "response_sha256": "a9e403a86cf64d51e4d0bc24885c16f690dbd939dfbd54e3ac014cada344eaab",
+    "response_sha256": "b7bf0ea19b9fda37643082284b479fad688242ec3164266f795d055fd9442034",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +72,13 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 252,
-    "captured_at": "2026-10-31T15:37:12.274Z",
+    "run": "2026-11-01T1300Z",
+    "index": 266,
+    "captured_at": "2026-11-01T13:01:16.006Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/IMG_2317-1920w.PNG",
-    "response_sha256": "b6b1e3e8feb945b0b3c76260e863f5f0e76a0796e7c9271211bff6aac250e492",
+    "response_sha256": "52bb24f37ee9d0c4fa8a0c97b318e10044a9f9565eb98a416e8f9b98a0e3e016",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,7 +87,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235458id_/https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/IMG_2317-1920w.PNG",
+    "timestamp": "20261030235458",
+    "digest": "PEUYXT64NK7I32E73GBKGR2YRJ4P5336"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -105,13 +110,13 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 254,
-    "captured_at": "2026-10-31T15:37:15.488Z",
+    "run": "2026-11-01T1300Z",
+    "index": 268,
+    "captured_at": "2026-11-01T13:01:19.329Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/positions-1920w.png",
-    "response_sha256": "6d8b0818e914a357dc715ed4b9e2593b7d106d6bf50666ba864a2fdf05c6cb42",
+    "response_sha256": "0c3c654c46a9491f28ca4ef5551fa6614889a933c71fb398da4db324f98c726f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -120,7 +125,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235458id_/https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/positions-1920w.png",
+    "timestamp": "20261030235458",
+    "digest": "AKUAWKYI5JEN6HA2QUVLC2X3F7FS4F5E"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -139,13 +148,13 @@
     "org_host": "cocorepublicans.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 253,
-    "captured_at": "2026-10-31T15:37:13.885Z",
+    "run": "2026-11-01T1300Z",
+    "index": 267,
+    "captured_at": "2026-11-01T13:01:17.695Z",
     "status": 200,
     "error": null,
     "final_url": "https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/Local+Recommendations+-+Nov+2026-1e648819-1920w.png",
-    "response_sha256": "04bda821e45697c7d62deba773987929accc4388e144a8252474c9d4fc92ce1b",
+    "response_sha256": "3ca2409ccc16468ca042b2bc7d9399302013f3615e8728286f49d44f16cc871e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -154,7 +163,11 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030235458id_/https://irp.cdn-website.com/0af916fd/dms3rep/multi/opt/Local+Recommendations+-+Nov+2026-1e648819-1920w.png",
+    "timestamp": "20261030235458",
+    "digest": "QA5L6L6OCY2FJBE2S4S7SB5BTSLFVHPW"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

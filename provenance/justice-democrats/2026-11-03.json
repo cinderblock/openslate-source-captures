@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://justicedemocrats.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "justicedemocrats.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 298,
-    "captured_at": "2026-10-31T15:37:13.502Z",
+    "run": "2026-11-01T1300Z",
+    "index": 312,
+    "captured_at": "2026-11-01T13:01:16.820Z",
     "status": 200,
     "error": null,
     "final_url": "https://justicedemocrats.com/candidates/",
-    "response_sha256": "29513db599b48dae0e7957fdf7ff6ef1e9c3060615debaf94e4ecc331e6e98b6",
+    "response_sha256": "827dd9dbe0607d14f70e129e947a86052709562f6166a13b6e5213e321c397e7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -48,6 +49,7 @@
     "url": "https://web.archive.org/web/20261022224725id_/https://justicedemocrats.com/candidates/",
     "timestamp": "20261022224725",
     "digest": "KVBT6YW5JCSLXENUMXOW3NZIT5PCPLQX",
+    "origin": "existing",
     "statements": {
      "found": 3,
      "of": 3

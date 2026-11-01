@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.iaff.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 84,
-    "captured_at": "2026-10-31T15:36:59.398Z",
+    "run": "2026-11-01T1300Z",
+    "index": 94,
+    "captured_at": "2026-11-01T13:01:02.047Z",
     "status": 200,
     "error": null,
     "final_url": "https://cpfelectionguide.org/",
-    "response_sha256": "404ef13258061001d23c5f2fa508ec2ebd02b94af23dfc832dec13e4b3811044",
+    "response_sha256": "19591c5fcf8ba8162a8e90f5af8eeb3ccb2c8f3186e9b0bd3dcd36a258617ee0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261016185226id_/https://cpfelectionguide.org/",
-    "timestamp": "20261016185226",
-    "digest": "K7JPYYJA667FMU5ZLOUMIOAEAUHPQ7HL",
+    "url": "https://web.archive.org/web/20261031234347id_/https://cpfelectionguide.org/",
+    "timestamp": "20261031234347",
+    "digest": "PNTZWQCUA5FY4GU3EFTCLXHCVEMDFPMW",
+    "origin": "requested",
     "statements": {
      "found": 177,
      "of": 177
@@ -70,13 +72,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 875,
-    "captured_at": "2026-10-31T15:38:42.452Z",
+    "run": "2026-11-01T1300Z",
+    "index": 890,
+    "captured_at": "2026-11-01T13:02:48.032Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
-    "response_sha256": "f83657b730a72582ec49c14af96d030ac69cc159909c556b40c7c8de7c581d99",
+    "response_sha256": "31083b199e62f7d3a6522b72d7704a60e21c959d24bda706f3b3e6fb3fbc4243",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,10 +88,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260922055619id_/https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
-    "timestamp": "20260922055619",
-    "digest": "36MCLXGYJBKBSBF3H2HNJQEXQMMLNBZO",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261031103442id_/https://www.mikelevin.org/2026/03/26/iaff-endorses-mike-levin-for-congress/",
+    "timestamp": "20261031103442",
+    "digest": "MD7WPNEKBPRTLXNQ2UGGER3V5IILCL3G",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -108,13 +110,13 @@
     "org_host": "iaff.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 850,
-    "captured_at": "2026-10-31T15:38:35.083Z",
+    "run": "2026-11-01T1300Z",
+    "index": 864,
+    "captured_at": "2026-11-01T13:02:41.513Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.iaff.org/political-action/endorsements/",
-    "response_sha256": "7b3c5ca831664441d4ad5e8d298963e36f1bea74af0a6c30786ef35b00212e70",
+    "response_sha256": "d62a01dd9a644bab7ccb1093af57ff3f319bcd7b6915b2da8ab75594fd486a11",
     "bytes": "public",
     "claims": [
      "captured",

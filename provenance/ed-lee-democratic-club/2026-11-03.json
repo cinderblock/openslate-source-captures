@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.edleedems.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "edleedems.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 838,
-    "captured_at": "2026-10-31T15:38:32.002Z",
+    "run": "2026-11-01T1300Z",
+    "index": 852,
+    "captured_at": "2026-11-01T13:02:37.784Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.edleedems.org/nov2026/",
-    "response_sha256": "c69abfdf4bf1275993f6fab8c3db0494d6c16d3a77940b23fdef84599d8ce538",
+    "response_sha256": "ff0480e4cdbe49bdd22f64e2dcc4de3261cfc793a112e375247cdd89e40c0535",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,10 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017015956id_/https://www.edleedems.org/nov2026/",
-    "timestamp": "20261017015956",
-    "digest": "WXNIANFG7YKBWQRLRHFQ3IAO7U5CY4VH",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261031234526id_/https://www.edleedems.org/nov2026/",
+    "timestamp": "20261031234526",
+    "digest": "5VDMJEGNXKJ5ZC33R2TSHBK7LYTJE43V",
+    "origin": "requested",
     "statements": {
      "found": 8,
      "of": 8

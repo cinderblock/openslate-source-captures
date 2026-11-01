@@ -1,0 +1,16 @@
+HTTP/1.1 307 Temporary Redirect
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: application/json
+Date: Sun, 01 Nov 2026 13:01:12 GMT
+Location: /voter-guide/
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Id: iad1::m5t4f-1793538072402-582fe5b3e718
+Connection: close
+Transfer-Encoding: chunked
+
+2f
+{"redirect": "/voter-guide/", "status": "307"}
+
+0
+

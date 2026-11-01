@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://ocgop.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 440,
-    "captured_at": "2026-10-31T15:37:34.417Z",
+    "run": "2026-11-01T1300Z",
+    "index": 454,
+    "captured_at": "2026-11-01T13:01:36.133Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/voter-guide-2026/",
-    "response_sha256": "859ff85bba54ab1d5fc4c586bd42d7074db3234d2bf2b0cc8151f286d3323eda",
+    "response_sha256": "ee419eca94f682e59e381bb1b6d6b47fa64fac96c4f4889280ed8c0d067559fd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,14 +44,15 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "6f2cce0c5b3b6809ab05529920b361dc2896a012ae7504a76035bb990f693f04"
+     "dom_sha256": "375e7303cad1f4dcf82f760d1fd96c2c9105f1ee4ff85937bd4ab54f7e475a2d"
     }
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260921213134id_/https://ocgop.org/endorsements/",
-    "timestamp": "20260921213134",
-    "digest": "JGJ4KVCJJ6NWJN73WGHTRVAMYRJQFIC7"
+    "url": "https://web.archive.org/web/20261031103422id_/https://linkjar.to/voter-guide-2026/",
+    "timestamp": "20261031103422",
+    "digest": "JM2LXG6RKFQJGZAZTINUK64OTAFTQ24N",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -69,13 +71,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 365,
-    "captured_at": "2026-10-31T15:37:21.303Z",
+    "run": "2026-11-01T1300Z",
+    "index": 379,
+    "captured_at": "2026-11-01T13:01:22.173Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/voter-guide-2026/",
-    "response_sha256": "4e4044da1e2863b223c8cf3e5f3094151d8575b5a2502f0cfa4cfb9ec8d88872",
+    "response_sha256": "ecccfbe54ca51b12e5129042d19cc1a7d52a6b38c4f5040406b2b0218d2de81d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -89,9 +91,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030125625id_/https://linkjar.to/voter-guide-2026/",
-    "timestamp": "20261030125625",
-    "digest": "Y4LRWCUL2QQCU64HAYWEHDP4Z63AEDLJ",
+    "url": "https://web.archive.org/web/20261031103422id_/https://linkjar.to/voter-guide-2026/",
+    "timestamp": "20261031103422",
+    "digest": "JM2LXG6RKFQJGZAZTINUK64OTAFTQ24N",
+    "origin": "existing",
     "statements": {
      "found": 0,
      "of": 118
@@ -114,13 +117,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 441,
-    "captured_at": "2026-10-31T15:37:36.125Z",
+    "run": "2026-11-01T1300Z",
+    "index": 455,
+    "captured_at": "2026-11-01T13:01:37.850Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocgop.org/november-election/",
-    "response_sha256": "40e6b3736d2af4366db6c5b22aaf136efaff1be63e7f7958a4dac575e685393a",
+    "response_sha256": "aca44b596977e04a04df53fa809eda768f3c012bf989f962d6f3cf9d5b9400d4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -151,13 +154,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 364,
-    "captured_at": "2026-10-31T15:37:19.107Z",
+    "run": "2026-11-01T1300Z",
+    "index": 378,
+    "captured_at": "2026-11-01T13:01:20.105Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/_/pdf/aa0dc48e-a2ea-40c8-8408-d58668b90d0b/",
-    "response_sha256": "38002554651040ad968ecf0401c9f9217dcec78bbac1f9483d6b9fecff6f4704",
+    "response_sha256": "3960fc35462a03a63bd292e6d508aeec11e7429a35c1e64362bbe9658ab250eb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -167,8 +170,8 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030125626id_/https://linkjar.to/_/pdf/aa0dc48e-a2ea-40c8-8408-d58668b90d0b/",
-    "timestamp": "20261030125626",
+    "url": "https://web.archive.org/web/20261031103423id_/https://linkjar.to/_/pdf/aa0dc48e-a2ea-40c8-8408-d58668b90d0b/",
+    "timestamp": "20261031103423",
     "digest": "2YILYVCBM73AEYCXB5KTGT3LQ4B35WPK",
     "origin": "existing"
    },

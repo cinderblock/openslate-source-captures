@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://envirovoters.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "envirovoters.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 184,
-    "captured_at": "2026-10-31T15:37:05.972Z",
+    "run": "2026-11-01T1300Z",
+    "index": 195,
+    "captured_at": "2026-11-01T13:01:08.669Z",
     "status": 200,
     "error": null,
     "final_url": "https://envirovoters.org/2026-endorsements/",
-    "response_sha256": "e19c32c741bd5c2461dec18efe6584bf4cf481e19f00aebd71661072a57d1b4d",
+    "response_sha256": "61c4266fee652b6a8b47369ed807127f078e0d20747ba00b9ff48e47e3924786",
     "bytes": "public",
     "claims": [
      "captured",
@@ -47,6 +48,7 @@
     "url": "https://web.archive.org/web/20261027025629id_/https://envirovoters.org/2026-endorsements/",
     "timestamp": "20261027025629",
     "digest": "BGLGSJSTUHU4ZXPLXC5CHZHHR3QSRPUE",
+    "origin": "existing",
     "statements": {
      "found": 10,
      "of": 18
@@ -69,13 +71,13 @@
     "org_host": "envirovoters.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 185,
-    "captured_at": "2026-10-31T15:37:10.317Z",
+    "run": "2026-11-01T1300Z",
+    "index": 196,
+    "captured_at": "2026-11-01T13:01:13.019Z",
     "status": 200,
     "error": null,
     "final_url": "https://envirovoters.org/california-governor-2026/",
-    "response_sha256": "cc371554c64aa874dcbce4eb0b1fee274f721bdfc844cab1c1852f195205f86c",
+    "response_sha256": "e5f062a4f6363a38fc2cdc41c4895b9960a6e7c9f8bee3e3b423661d8851112d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -85,9 +87,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261016203319id_/https://envirovoters.org/california-governor-2026/",
-    "timestamp": "20261016203319",
-    "digest": "EHYOI3YZZNFY7CQAW6L6NOQW3R3OBFYF",
+    "url": "https://web.archive.org/web/20261031234440id_/https://envirovoters.org/california-governor-2026/",
+    "timestamp": "20261031234440",
+    "digest": "Z5FJCLKTPTGTRWJ4NJVEEKA5DQGSXR2D",
+    "origin": "requested",
     "statements": {
      "found": 0,
      "of": 2

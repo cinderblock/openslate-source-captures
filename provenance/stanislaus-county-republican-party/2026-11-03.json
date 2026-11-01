@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://stangop.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "stangop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 587,
-    "captured_at": "2026-10-31T15:37:56.751Z",
+    "run": "2026-11-01T1300Z",
+    "index": 601,
+    "captured_at": "2026-11-01T13:02:02.326Z",
     "status": 200,
     "error": null,
     "final_url": "https://stangop.org/endorsements/",
-    "response_sha256": "764e5e21cb3363344570005595eeddf8887f7efd8765b330f6cfbcaa536345f5",
+    "response_sha256": "8ec6ffd1de799de5218db56fb8a3b9815ff1912d065e9c5c844c9cf5fa747935",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +72,13 @@
     "org_host": "stangop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 588,
-    "captured_at": "2026-10-31T15:37:58.599Z",
+    "run": "2026-11-01T1300Z",
+    "index": 602,
+    "captured_at": "2026-11-01T13:02:04.117Z",
     "status": 200,
     "error": null,
     "final_url": "https://stangop.org/voter-guide/",
-    "response_sha256": "b3852968e9c98c3688e5453618873a2bd01753ff4b4ed55341b06b9592ed5a3d",
+    "response_sha256": "d22ca0dced6f3e4ba9947810ee627073ea60e5b1f088b0fd294dcb869ca9a651",
     "bytes": "public",
     "claims": [
      "captured",

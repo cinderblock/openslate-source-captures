@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.cft.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "cft.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 813,
-    "captured_at": "2026-10-31T15:38:20.404Z",
+    "run": "2026-11-01T1300Z",
+    "index": 827,
+    "captured_at": "2026-11-01T13:02:27.453Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cft.org/2026-midterm-elections-hub",
-    "response_sha256": "e254f8b3d3465695dd8f414735263e9f4f19e084d9b904b2171b86fc487d0b43",
+    "response_sha256": "cfe5f38b426481801bf8f03a2350cb3ba47b77d22a91f47dc7d29ef4f6ec49ea",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,10 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030235345id_/https://www.cft.org/2026-midterm-elections-hub",
-    "timestamp": "20261030235345",
-    "digest": "LHG4IAT7PLLQ73WN4YL5CIGFCRLWQABT",
-    "origin": "requested"
+    "url": "https://web.archive.org/web/20261016212819id_/https://www.cft.org/2026-midterm-elections-hub",
+    "timestamp": "20261016212819",
+    "digest": "SXROBT4TOZUKIIPWWQBUAALV76WAYNQG",
+    "origin": "existing"
    },
    "derivation": {
     "kind": "anchored",
@@ -66,13 +67,13 @@
     "org_host": "cft.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 814,
-    "captured_at": "2026-10-31T15:38:22.122Z",
+    "run": "2026-11-01T1300Z",
+    "index": 828,
+    "captured_at": "2026-11-01T13:02:29.202Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
-    "response_sha256": "f4f46d538615e8db6d7ccbe2bd8167d8e7a1ef03f97b6bec716ff99c9470c3f7",
+    "response_sha256": "53a395a17908c0366a030f375b25943fd7de00e2e075806956c9afb4690660ad",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.votevets.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "votevets.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1142,
-    "captured_at": "2026-10-31T15:39:16.867Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1184,
+    "captured_at": "2026-11-01T13:03:27.384Z",
     "status": 200,
     "error": null,
     "final_url": "https://votevets.org/candidates",
-    "response_sha256": "f646312efaf740dff5427a207630dbe8097687641d2316b78998f0f4a08e3ed9",
+    "response_sha256": "8b4079cfae9b4369c95b97612051da94a3f99461a3f7a1a33bae848ad4616942",
     "bytes": "public",
     "claims": [
      "captured",

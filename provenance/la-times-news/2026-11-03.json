@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.latimes.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 864,
-    "captured_at": "2026-10-31T15:38:42.203Z",
+    "run": "2026-11-01T1300Z",
+    "index": 878,
+    "captured_at": "2026-11-01T13:02:47.588Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/california/story/2026-10-01/2026-california-general-election-voter-guide",
-    "response_sha256": "93d632a830a3dfdf36662919f01218ac7676cf174a1ebae1cd541799ca9eb761",
+    "response_sha256": "1440e86bee238a198ecad4370b0fbbeaa34395e45b3e941a1ffe8b1f5b9e57aa",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -66,13 +67,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 863,
-    "captured_at": "2026-10-31T15:38:40.580Z",
+    "run": "2026-11-01T1300Z",
+    "index": 877,
+    "captured_at": "2026-11-01T13:02:45.881Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/california",
-    "response_sha256": "0c6187d584e820c2db5d2b41c5e02f3c188cb9ca69de6e861faf45ed4af874a8",
+    "response_sha256": "94287f9c3bc965a7523c67624293c91c196cbfe4166db55a0c8812f6c924e319",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -82,9 +83,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261027162028id_/https://www.latimes.com/california",
-    "timestamp": "20261027162028",
-    "digest": "M6GWLS4PJFGLT6AWRMN2WJENWZQXQMPT",
+    "url": "https://web.archive.org/web/20261031151329id_/https://www.latimes.com/california",
+    "timestamp": "20261031151329",
+    "digest": "VU4NNIN6B4XDCNEQYJUBVZYTQKSWC5VS",
     "origin": "existing"
    },
    "derivation": {
@@ -104,13 +105,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 866,
-    "captured_at": "2026-10-31T15:38:45.425Z",
+    "run": "2026-11-01T1300Z",
+    "index": 880,
+    "captured_at": "2026-11-01T13:02:50.815Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/sitemaps/sitemap-202610.xml",
-    "response_sha256": "28c33c689f58df6a3b0472472cb278b33237ca35fa537893fac6c271de845562",
+    "response_sha256": "6af0e393424e327ea8530c165a67beed11f986ed1a46d06fc4baf3a51a1043e9",
     "bytes": "withheld",
     "claims": [
      "captured",

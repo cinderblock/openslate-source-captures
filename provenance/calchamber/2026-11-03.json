@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.calchamber.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "calchamber.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
+    "run": "2026-11-01T1300Z",
     "index": 25,
-    "captured_at": "2026-10-31T15:36:52.515Z",
+    "captured_at": "2026-11-01T13:00:52.991Z",
     "status": 200,
     "error": null,
     "final_url": "https://advocacy.calchamber.com/alert/2026/09/calchamber-board-announces-positions-on-november-ballot-measures",
-    "response_sha256": "e34e5a97717edcfb4c18dd501b63eac822efc0c194324d843a3ea77bb95cf40a",
+    "response_sha256": "d31a10b039118c61aa10bd99633456fdc007ddb5e6bb29c75d775f68fa50f788",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017054729id_/https://advocacy.calchamber.com/alert/2026/09/calchamber-board-announces-positions-on-november-ballot-measures",
-    "timestamp": "20261017054729",
-    "digest": "22CT2AV4VCRQCPG2B4AIATJUE3OW25SA",
+    "url": "https://web.archive.org/web/20261031234837id_/https://advocacy.calchamber.com/alert/2026/09/calchamber-board-announces-positions-on-november-ballot-measures",
+    "timestamp": "20261031234837",
+    "digest": "43ZF4ZYDYK4G2L7EYIYIDVAXDACZFWAL",
+    "origin": "requested",
     "statements": {
      "found": 10,
      "of": 10

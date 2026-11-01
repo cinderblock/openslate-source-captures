@@ -1,0 +1,57 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "wellstone-democratic-renewal-club",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://www.wellstoneclub.org/",
+ "generated_from": {
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.wellstoneclub.org/endorsements.html",
+   "positions": 60,
+   "host": {
+    "match": "exact",
+    "host": "wellstoneclub.org",
+    "org_host": "wellstoneclub.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 1185,
+    "captured_at": "2026-11-01T13:03:27.083Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://www.wellstoneclub.org/endorsements.html",
+    "response_sha256": "8ed7d1e57a308cd4709cc913c090876407d42d0f10e1a1953424b384ffdc7dc1",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 6,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 54
+   }
+  }
+ ]
+}

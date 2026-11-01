@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://mbclc.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 391,
-    "captured_at": "2026-10-31T15:37:23.876Z",
+    "run": "2026-11-01T1300Z",
+    "index": 405,
+    "captured_at": "2026-11-01T13:01:25.210Z",
     "status": 200,
     "error": null,
     "final_url": "https://mbclc.org/endorsements",
-    "response_sha256": "d8857ed901739a3c30654b847661919bed0d7507553bb568dc4f0037276f6b96",
+    "response_sha256": "fc4d8138fbb6c19952dc0550735ab9aa7fbc07e4118ccccde4c16a7bd6713c29",
     "bytes": "public",
     "claims": [
      "captured",
@@ -48,6 +49,7 @@
     "url": "https://web.archive.org/web/20261021164837id_/https://mbclc.org/endorsements",
     "timestamp": "20261021164837",
     "digest": "6B5VVI6AOXOLKRL4F6U4DJGZFLLA2UY2",
+    "origin": "existing",
     "statements": {
      "found": 32,
      "of": 32
@@ -70,13 +72,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 138,
-    "captured_at": "2026-10-31T15:37:02.826Z",
+    "run": "2026-11-01T1300Z",
+    "index": 148,
+    "captured_at": "2026-11-01T13:01:05.649Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
-    "response_sha256": "71d6198b301b6c2d3c8e9f9c883cb6f5faa9d4aa9d8e314c257e865d42406789",
+    "response_sha256": "3a4a61fd3d7b6df70a5f3f5d299a492eb0823d685fbebe18279b10fb6fdd24be",
     "bytes": "public",
     "claims": [
      "captured",
@@ -85,14 +87,15 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "676698311353bcaf52f62478e0096139a263915c2d2af17ec88efbae2b7ed37c"
+     "dom_sha256": "18818b13c78f2f822a164a7e85f0f35630b742f804b62b295f251ffae5772406"
     }
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261011195318id_/https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
-    "timestamp": "20261011195318",
-    "digest": "ELHE2WI473OKHYZR6XMCE5JKVOHQRS3U"
+    "url": "https://web.archive.org/web/20261031161501id_/https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
+    "timestamp": "20261031161501",
+    "digest": "4QP2TUY25N22BXW6DJ25FSHK52UU4JDX",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

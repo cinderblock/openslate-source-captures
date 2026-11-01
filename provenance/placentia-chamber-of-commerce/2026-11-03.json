@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 448,
-    "captured_at": "2026-10-31T15:37:39.466Z",
+    "run": "2026-11-01T1300Z",
+    "index": 462,
+    "captured_at": "2026-11-01T13:01:42.679Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf",
-    "response_sha256": "13a621b04e6a3147e33c2672f949547e91fef16cbec31430e9fec9df4349ecff",
+    "response_sha256": "60d000633f82d2e1168c518d822e805e4e29726ddc44fea0f3a9f02a78bfb780",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,7 +44,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261030225034id_/https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf#page=4",
+    "timestamp": "20261030225034",
+    "digest": "BOMGU2DJ6VNDTTAUTEJPFABHMUNXN6CI",
+    "origin": "existing",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

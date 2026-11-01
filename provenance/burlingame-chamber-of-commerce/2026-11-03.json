@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 545,
-    "captured_at": "2026-10-31T15:37:55.629Z",
+    "run": "2026-11-01T1300Z",
+    "index": 559,
+    "captured_at": "2026-11-01T13:02:00.922Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M105-Contest%20Code-5ArgInFavor-Burlingame%20ESD%20Bond_Redacted.pdf",
-    "response_sha256": "d02b008a9ee953ce173a5166027efc0e398f59ce2e073cf2d0768f817aac6b44",
+    "response_sha256": "140f1d31afa09865cd7b01935d89fcc9887f285738fff145febd4185c04a810f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,7 +44,16 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031233720id_/https://smcacre.gov/system/files/2026-08/52-ENG-M105-Contest%20Code-5ArgInFavor-Burlingame%20ESD%20Bond_Redacted.pdf",
+    "timestamp": "20261031233720",
+    "digest": "CGTGRKKRM3KKY4OXYAD4ER3KJD2W4ZAX",
+    "origin": "requested",
+    "statements": {
+     "found": 0,
+     "of": 1
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

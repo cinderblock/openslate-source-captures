@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
+    "run": "2026-11-01T1300Z",
     "index": 39,
-    "captured_at": "2026-10-31T15:36:56.224Z",
+    "captured_at": "2026-11-01T13:00:57.065Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "c269b12ff63b42d2665214c3c7f299e4b43f890a0c68a1402b52a3e57c673454",
+    "response_sha256": "6d3340a5b34972a53f81616c2699844898ae7d4165b5b376dde3908d3e401fa9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071016id_/https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "timestamp": "20261021071016",
-    "digest": "TLLU7JPQZL3LWF73CRCWEKIMSH7RGOLK",
+    "url": "https://web.archive.org/web/20261101065747id_/https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
+    "timestamp": "20261101065747",
+    "digest": "UKNB3JRKTXCNSFO5LG7ASJVLXWU7KZIS",
+    "origin": "requested",
     "statements": {
      "found": 5,
      "of": 5
@@ -70,13 +72,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 853,
-    "captured_at": "2026-10-31T15:38:36.596Z",
+    "run": "2026-11-01T1300Z",
+    "index": 867,
+    "captured_at": "2026-11-01T13:02:42.567Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "5da12e36a9246aa76ea68a15332fb81187cccbddb7668a92dc64fae727b95032",
+    "response_sha256": "423f8868a93d4caa3ae77cd78e1afb41dfb5c4a24bcf3bc0f95cf5009666960c",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -85,7 +87,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "df43a63d1e7a518a0c39a65d6aef3e391a9bc4492be8aa81227bac7f5df7d2fd"
+     "dom_sha256": "2a69d25f6388583c34ac85127b8a9448842408a14a80e4259e38aa666c7312bc"
     }
    },
    "last_ok": null,

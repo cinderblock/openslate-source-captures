@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.metrochamber.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "metrochamber.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 153,
-    "captured_at": "2026-10-31T15:37:03.830Z",
+    "run": "2026-11-01T1300Z",
+    "index": 164,
+    "captured_at": "2026-11-01T13:01:06.975Z",
     "status": 200,
     "error": null,
     "final_url": "https://edge.growthzonecms.com/sites/2034/2026/09/PAC_26-Comprehensive-Primary_Voter-Guide_FINAL.pdf",
-    "response_sha256": "de4d24e89e171fd2eb0fa4ce839d3ce55ebece8a46dff0e24c3540b6e747430e",
+    "response_sha256": "800d9dfd46430e0b6a7aa6bad2bd0eea533fa6ddb8e0935a26db8d9918baa610",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +72,13 @@
     "org_host": "metrochamber.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 874,
-    "captured_at": "2026-10-31T15:38:42.085Z",
+    "run": "2026-11-01T1300Z",
+    "index": 889,
+    "captured_at": "2026-11-01T13:02:47.639Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.metrochamber.org/",
-    "response_sha256": "ead5076dbdb5ebd5a40759f29b42a6c5454be1fd2e1165410966b6ff5848c5bd",
+    "response_sha256": "f8aaf13df9a327f2ea67661542a2e893f1cac64819918cf6ca8e209167f5a541",
     "bytes": "public",
     "claims": [
      "captured",
@@ -87,10 +88,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017055535id_/https://www.metrochamber.org/",
-    "timestamp": "20261017055535",
-    "digest": "E5M4T2JPFPI4U4INWBZJZZHOTQOL6SQW",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261031234903id_/https://www.metrochamber.org/",
+    "timestamp": "20261031234903",
+    "digest": "AQZ7HL46ETE4P5N7FBJJOOLI5ETGIVO7",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

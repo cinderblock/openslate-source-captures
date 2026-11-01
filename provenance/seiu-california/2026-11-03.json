@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://seiuca.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "seiuca.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 526,
-    "captured_at": "2026-10-31T15:37:44.816Z",
+    "run": "2026-11-01T1300Z",
+    "index": 540,
+    "captured_at": "2026-11-01T13:01:50.332Z",
     "status": 200,
     "error": null,
     "final_url": "https://seiuca.org/elections/",
-    "response_sha256": "bbb7afc1ac90a519cea9b735e68ccf4ba823f7d654369ffe8d73ddfc525665df",
+    "response_sha256": "94d1227a9f151abcf8ddccb11c1afcdc39b00e3336212fcd628513d05a518efb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071544id_/https://seiuca.org/elections/",
-    "timestamp": "20261021071544",
-    "digest": "FO2FG5OVSAW3ML2LRU3IB7OUUTDXBLXF",
+    "url": "https://web.archive.org/web/20261030225943id_/https://seiuca.org/elections/",
+    "timestamp": "20261030225943",
+    "digest": "OSPJ3SCA4KZUTQHLEZOES4FKHZKGYJB5",
     "origin": "existing",
     "statements": {
      "found": 120,

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.southbaylabor.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "southbaylabor.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1107,
-    "captured_at": "2026-10-31T15:39:09.951Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1149,
+    "captured_at": "2026-11-01T13:03:18.217Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.southbaylabor.org/2026_endorsements",
-    "response_sha256": "b8bf1d4e4f9d4b0ae4c1f176a7fc86cb8655d1866ca0715fcf7932427e9338aa",
+    "response_sha256": "95d4c4d388f31cde4911f7e9e81acab107b018ee79cff6402f6bd44815536a8b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -85,13 +86,13 @@
     "org_host": "southbaylabor.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1028,
-    "captured_at": "2026-10-31T15:38:52.119Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1070,
+    "captured_at": "2026-11-01T13:02:59.103Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.sanbenitocounty-ca-cre.gov/home/showpublisheddocument/16343/639237846936770000",
-    "response_sha256": "b061aecd22e3287476900c77f8040f579483812f7fbb2a23ee99670c0bf0699a",
+    "response_sha256": "64cfcc8ba6c12e6512042ccebed357537c9d35e90ae5d7bff65a6d77261d4da6",
     "bytes": "public",
     "claims": [
      "captured",

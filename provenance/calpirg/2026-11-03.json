@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://pirg.org/california/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "pirg.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 505,
-    "captured_at": "2026-10-31T15:37:35.474Z",
+    "run": "2026-11-01T1300Z",
+    "index": 519,
+    "captured_at": "2026-11-01T13:01:37.035Z",
     "status": 200,
     "error": null,
     "final_url": "https://pirg.org/california/articles/vote-no-on-prop-45/",
-    "response_sha256": "73d256506b96c0a0caa401716ade89c76364f9c73d3ee940d5d505f5978b53de",
+    "response_sha256": "1dd594f26c24470197f3123556378661f54551b936377ebda400e963226aafa6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017025428id_/https://pirg.org/california/articles/vote-no-on-prop-45/",
-    "timestamp": "20261017025428",
-    "digest": "4UJJXS4SYIY7CJHKBORNYSBDVUTRXIV6",
+    "url": "https://web.archive.org/web/20261031234612id_/https://pirg.org/california/articles/vote-no-on-prop-45/",
+    "timestamp": "20261031234612",
+    "digest": "B6SYB4BZK46UOKRXRW6ZK7AI62ZCSGZJ",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1

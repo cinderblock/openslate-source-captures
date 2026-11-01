@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://edcdems.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "edcdems.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 152,
-    "captured_at": "2026-10-31T15:37:05.182Z",
+    "run": "2026-11-01T1300Z",
+    "index": 163,
+    "captured_at": "2026-11-01T13:01:07.029Z",
     "status": 200,
     "error": null,
     "final_url": "https://edcdems.org/elections/",
-    "response_sha256": "bba9cd63a8a58866fb6c417140d2cd491a0c6348af4a3f9406cf5f5c97fef022",
+    "response_sha256": "c1cc1f7d40f5dfaeac6da6d6dff302ed4f25a7272280e962e5435843ac54acf7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261015032454id_/https://edcdems.org/elections/",
-    "timestamp": "20261015032454",
-    "digest": "F6D4J3PDDY3IA7YTNHNSYT4SW5OAZKQX",
+    "url": "https://web.archive.org/web/20261031162012id_/https://edcdems.org/elections/",
+    "timestamp": "20261031162012",
+    "digest": "GH5N7QKY63A7SPHGAQ6V37UEW466MN6E",
+    "origin": "requested",
     "statements": {
      "found": 18,
      "of": 18
@@ -70,13 +72,13 @@
     "org_host": "edcdems.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 151,
-    "captured_at": "2026-10-31T15:37:03.427Z",
+    "run": "2026-11-01T1300Z",
+    "index": 162,
+    "captured_at": "2026-11-01T13:01:05.177Z",
     "status": 200,
     "error": null,
     "final_url": "https://edcdems.org/",
-    "response_sha256": "1734ac5607c8a03b1c20fedbc4a12449a4d814aa8f44fe262d9ea972ed2ef09a",
+    "response_sha256": "8c03ca4ad3f30aaf8900f3c3c8d73d04a7f744fb5fc7111e73f4d352473d86d1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,9 +88,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261015032525id_/https://edcdems.org/",
-    "timestamp": "20261015032525",
-    "digest": "3LJ7H5W2JLCXEH6BUWMWZKDC2BK7J6N2",
+    "url": "https://web.archive.org/web/20261031162027id_/https://edcdems.org/",
+    "timestamp": "20261031162027",
+    "digest": "W3IGOT4RNFTW6DO4YZI3BQCORLZ7SAVR",
+    "origin": "requested",
     "statements": {
      "found": 0,
      "of": 1

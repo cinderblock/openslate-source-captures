@@ -1,0 +1,123 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "afscme-california",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://calafscme.org/",
+ "generated_from": {
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://calafscme.org/afscme-california-people-endorsements",
+   "positions": 91,
+   "host": {
+    "match": "exact",
+    "host": "calafscme.org",
+    "org_host": "calafscme.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 70,
+    "captured_at": "2026-11-01T13:00:56.780Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calafscme.org/afscme-california-people-endorsements",
+    "response_sha256": "87a96b26ae943e0069641cb1ca170df2a7ac26ee2528223b6a6e5008ae1829d2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 84,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 7
+   }
+  },
+  {
+   "url": "https://calafscme.org/afscme-federal-election-endorsements",
+   "positions": 46,
+   "host": {
+    "match": "exact",
+    "host": "calafscme.org",
+    "org_host": "calafscme.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 71,
+    "captured_at": "2026-11-01T13:00:58.391Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calafscme.org/afscme-federal-election-endorsements",
+    "response_sha256": "1533525f8b1ad6e24595f7657089193dd07fcdb48f49c1ee47c58bb8c0719653",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 46,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://calafscme.org/afscme-federal-election-endorsements/afscme-california-ballot-measure",
+   "positions": 10,
+   "host": {
+    "match": "exact",
+    "host": "calafscme.org",
+    "org_host": "calafscme.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 72,
+    "captured_at": "2026-11-01T13:00:59.964Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://calafscme.org/afscme-federal-election-endorsements/afscme-california-ballot-measure",
+    "response_sha256": "177233792016ac250899905c4fad88684cf49c287a37227726cd8f332efc8c52",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 10,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

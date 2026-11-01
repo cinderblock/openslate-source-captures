@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 40,
-    "captured_at": "2026-10-31T15:36:54.508Z",
+    "run": "2026-11-01T1300Z",
+    "index": 42,
+    "captured_at": "2026-11-01T13:00:54.992Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/721_md.json",
-    "response_sha256": "2068304f519ce5c3fc1be5d5e3f5606fb9a95c8304f23e507668cb4640d9771d",
+    "response_sha256": "ea861e1f3645efb42a55dedea0d6d8bc6e5b7ac552b8cc20ebbe0cbcc1529475",
     "bytes": "public",
     "claims": [
      "captured",

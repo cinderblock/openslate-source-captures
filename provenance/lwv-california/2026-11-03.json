@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://lwvc.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "lwvc.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 377,
-    "captured_at": "2026-10-31T15:37:21.474Z",
+    "run": "2026-11-01T1300Z",
+    "index": 391,
+    "captured_at": "2026-11-01T13:01:22.358Z",
     "status": 200,
     "error": null,
     "final_url": "https://lwvc.org/ballot-recommendations/",
-    "response_sha256": "c2895f4c97a1b274bd71005602a513c6a00e2cc236c6e643e5c6593009cd0d0e",
+    "response_sha256": "c189de2f7c51ca89acf41751b353fe508990ffad446290d0ab64e27cd4351e11",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021100648id_/https://lwvc.org/ballot-recommendations/",
-    "timestamp": "20261021100648",
-    "digest": "CTXM5X6RYYYISAIH4XEFDN4NVV64XZNB",
+    "url": "https://web.archive.org/web/20261101070622id_/https://lwvc.org/ballot-recommendations/",
+    "timestamp": "20261101070622",
+    "digest": "OQ3LZNFZT7RQ6IGCSQ2VDEUJ7H3EKN3R",
+    "origin": "requested",
     "statements": {
      "found": 14,
      "of": 14
@@ -70,13 +72,13 @@
     "org_host": "lwvc.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 378,
-    "captured_at": "2026-10-31T15:37:23.271Z",
+    "run": "2026-11-01T1300Z",
+    "index": 392,
+    "captured_at": "2026-11-01T13:01:24.349Z",
     "status": 200,
     "error": null,
     "final_url": "https://lwvc.org/wp-content/uploads/2026/03/CA-Fair-Elections-Act.pdf",
-    "response_sha256": "e4b521cc61ef37aa3fe2949aca5555d80605b7e38f663a4470ce593862bc701d",
+    "response_sha256": "62f8e0f3b433a2446ecc32b5e48218f410203c2de1e4351ae16cdd5c965f02a0",
     "bytes": "public",
     "claims": [
      "captured",

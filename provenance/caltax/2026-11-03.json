@@ -2,10 +2,10 @@
  "format": "openslate-source-provenance/1",
  "org": "caltax",
  "election": "2026-11-03",
- "mode": "inferred",
- "org_uri": null,
+ "mode": "transcribed",
+ "org_uri": "https://caltax.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,26 +15,27 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
   {
-   "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
-   "positions": 1,
+   "url": "https://caltax.org/",
+   "positions": 0,
    "host": {
-    "match": "unknown",
-    "host": "voterguide.sos.ca.gov",
-    "org_host": null
+    "match": "exact",
+    "host": "caltax.org",
+    "org_host": "caltax.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 756,
-    "captured_at": "2026-10-31T15:38:07.504Z",
+    "run": "2026-11-01T1300Z",
+    "index": 76,
+    "captured_at": "2026-11-01T13:00:58.352Z",
     "status": 200,
     "error": null,
-    "final_url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
-    "response_sha256": "15f546a71af2c81122fe657fb9b3669eae421b9ebe6066e9e9baebc2ca9d3162",
+    "final_url": "https://caltax.org/",
+    "response_sha256": "1f28f99b97e4bb6765908db3516475a2b076a9e70ca509079fb701d7433adc20",
     "bytes": "public",
     "claims": [
      "captured",
@@ -43,40 +44,31 @@
     ]
    },
    "last_ok": null,
-   "archived": {
-    "url": "https://web.archive.org/web/20261030072111id_/https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
-    "timestamp": "20261030072111",
-    "digest": "VDGVCP3SWC65I4TQYOGYUPJ7XPWKHQCO",
-    "origin": "existing",
-    "statements": {
-     "found": 0,
-     "of": 6
-    }
-   },
+   "archived": null,
    "derivation": {
     "kind": "anchored",
     "exact": 0,
     "quoted_parts": 0,
-    "unanchored": 1,
+    "unanchored": 0,
     "no_statement": 0
    }
   },
   {
-   "url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
-   "positions": 1,
+   "url": "https://caltax.org/wp-content/uploads/2026/10/2026-CalTax-Voters-Guide-Letter-Detailed-scaled.png",
+   "positions": 15,
    "host": {
-    "match": "unknown",
-    "host": "voterguide.sos.ca.gov",
-    "org_host": null
+    "match": "exact",
+    "host": "caltax.org",
+    "org_host": "caltax.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 760,
-    "captured_at": "2026-10-31T15:38:14.187Z",
+    "run": "2026-11-01T1300Z",
+    "index": 77,
+    "captured_at": "2026-11-01T13:01:00.198Z",
     "status": 200,
     "error": null,
-    "final_url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
-    "response_sha256": "42f5499be1f3148d85014eb04763a8d84f3e59ed8485b9fec19bc938eb79d260",
+    "final_url": "https://caltax.org/wp-content/uploads/2026/10/2026-CalTax-Voters-Guide-Letter-Detailed-scaled.png",
+    "response_sha256": "6adc8cb922c4202130636e9d586a335d16a4eed2551d335841ea6fbc89b627e2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -85,148 +77,14 @@
     ]
    },
    "last_ok": null,
-   "archived": {
-    "url": "https://web.archive.org/web/20261030061149id_/https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
-    "timestamp": "20261030061149",
-    "digest": "TMQX4NHM7D4NFSEXKXRBQSVCIJSYL3OX",
-    "origin": "existing",
-    "statements": {
-     "found": 0,
-     "of": 4
-    }
-   },
+   "archived": null,
    "derivation": {
-    "kind": "anchored",
+    "kind": "not-checkable",
     "exact": 0,
     "quoted_parts": 0,
-    "unanchored": 1,
-    "no_statement": 0
-   }
-  },
-  {
-   "url": "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
-   "positions": 1,
-   "host": {
-    "match": "unknown",
-    "host": "voterguide.sos.ca.gov",
-    "org_host": null
-   },
-   "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 761,
-    "captured_at": "2026-10-31T15:38:15.951Z",
-    "status": 200,
-    "error": null,
-    "final_url": "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
-    "response_sha256": "06e65a87eecb6e75da333a250537a22873b4843c548190dbd33cc21a72e0c879",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci"
-    ]
-   },
-   "last_ok": null,
-   "archived": {
-    "url": "https://web.archive.org/web/20261030061721id_/https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
-    "timestamp": "20261030061721",
-    "digest": "UMNB6QXAVMPNVN474S5FGAXANPEEE4QZ",
-    "origin": "existing",
-    "statements": {
-     "found": 0,
-     "of": 4
-    }
-   },
-   "derivation": {
-    "kind": "anchored",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 1,
-    "no_statement": 0
-   }
-  },
-  {
-   "url": "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
-   "positions": 1,
-   "host": {
-    "match": "unknown",
-    "host": "voterguide.sos.ca.gov",
-    "org_host": null
-   },
-   "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 762,
-    "captured_at": "2026-10-31T15:38:17.584Z",
-    "status": 200,
-    "error": null,
-    "final_url": "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
-    "response_sha256": "f59fabd9a979fa191dc78d977f290093793efb298de12d6640c8fd55f0551823",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci"
-    ]
-   },
-   "last_ok": null,
-   "archived": {
-    "url": "https://web.archive.org/web/20261030062325id_/https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
-    "timestamp": "20261030062325",
-    "digest": "ZBYY25LOVEKLEAE2GN2HPIV6FF76Z5RO",
-    "origin": "existing",
-    "statements": {
-     "found": 0,
-     "of": 4
-    }
-   },
-   "derivation": {
-    "kind": "anchored",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 1,
-    "no_statement": 0
-   }
-  },
-  {
-   "url": "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
-   "positions": 1,
-   "host": {
-    "match": "unknown",
-    "host": "voterguide.sos.ca.gov",
-    "org_host": null
-   },
-   "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 764,
-    "captured_at": "2026-10-31T15:38:20.731Z",
-    "status": 200,
-    "error": null,
-    "final_url": "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
-    "response_sha256": "8421fbe9cae1f757ae300f2ff0731be3c6106b27cb306e2a5a4520e4976b3cac",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci"
-    ]
-   },
-   "last_ok": null,
-   "archived": {
-    "url": "https://web.archive.org/web/20261030063523id_/https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
-    "timestamp": "20261030063523",
-    "digest": "K32PR7A2GG2XQL4IPPUOJ6RZGJHVQS7B",
-    "origin": "existing",
-    "statements": {
-     "found": 0,
-     "of": 9
-    }
-   },
-   "derivation": {
-    "kind": "anchored",
-    "exact": 0,
-    "quoted_parts": 0,
-    "unanchored": 1,
-    "no_statement": 0
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
    }
   }
  ]

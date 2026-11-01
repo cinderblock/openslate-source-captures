@@ -1,0 +1,61 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "bryans-oakland-voter-guide",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
+ "generated_from": {
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
+   "positions": 48,
+   "host": {
+    "match": "exact",
+    "host": "docs.google.com",
+    "org_host": "docs.google.com"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 150,
+    "captured_at": "2026-11-01T13:01:10.251Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
+    "response_sha256": "4791c0ca5c8a84b6e664455a04e16a609c1a2c48212f3b308fa7a28d136a34b2",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "8187f259c46d1aa59ff8ed31ea49e7717d6b778ff3aefc7d8178e203209e1fc4"
+    }
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 48,
+    "no_statement": 0
+   }
+  }
+ ]
+}

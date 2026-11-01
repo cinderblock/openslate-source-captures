@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://ieunited.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "ieunited.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 199,
-    "captured_at": "2026-10-31T15:37:10.921Z",
+    "run": "2026-11-01T1300Z",
+    "index": 212,
+    "captured_at": "2026-11-01T13:01:13.875Z",
     "status": 200,
     "error": null,
     "final_url": "https://ieunited.org/2026-endorsements/",
-    "response_sha256": "538c49fd7671de20bae7cfd46dd823a1f289236a24afb9f5bab38d4dcdd4a93e",
+    "response_sha256": "adb360f2e62f28908224e26c7239d29b522beb967fd801160a56b594dee7ef22",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://indivisible.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 251,
-    "captured_at": "2026-10-31T15:37:18.869Z",
+    "run": "2026-11-01T1300Z",
+    "index": 265,
+    "captured_at": "2026-11-01T13:01:21.833Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/resources/candidates/",
-    "response_sha256": "164af895ff355141ae1da0503fa3e038c8ab7f131771a02d491159e5f5305bde",
+    "response_sha256": "bce19b1e3b2a1699497219e23cf2e40fb7868b40dcc744527fea26ab3327f2bf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,9 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021162107id_/https://indivisible.org/resources/candidates/",
-    "timestamp": "20261021162107",
-    "digest": "JOVLQCCKVI25WI6GH54E6A4YS4X3BIEY"
+    "url": "https://web.archive.org/web/20261101070929id_/https://indivisible.org/resources/candidates/",
+    "timestamp": "20261101070929",
+    "digest": "2XZLQNBCNC23W4ERTTYTA72FNC7GXLFC",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -65,13 +67,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 250,
-    "captured_at": "2026-10-31T15:37:15.245Z",
+    "run": "2026-11-01T1300Z",
+    "index": 264,
+    "captured_at": "2026-11-01T13:01:18.542Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/candidates/randy-villegas-ca-22/",
-    "response_sha256": "74dad4c779c24b80614d468a8c3533e61543993742093dbde58df933df22088a",
+    "response_sha256": "32328b01d769bd49b1ebdae86cfed88f8ef19e8e267167c058643504a72ac3c2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -82,9 +84,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071935id_/https://indivisible.org/candidates/randy-villegas-ca-22/",
-    "timestamp": "20261021071935",
-    "digest": "DERT4Z2EMTG6WFC6RA4N6EQKYM3IMO2H",
+    "url": "https://web.archive.org/web/20261101070334id_/https://indivisible.org/candidates/randy-villegas-ca-22/",
+    "timestamp": "20261101070334",
+    "digest": "LXOXH5YUDNBTA4HCP3CH7ZNTNLPHMR6V",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -107,13 +110,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 249,
-    "captured_at": "2026-10-31T15:37:11.960Z",
+    "run": "2026-11-01T1300Z",
+    "index": 263,
+    "captured_at": "2026-11-01T13:01:15.433Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/candidates/aisha-wahab-ca-14/",
-    "response_sha256": "91f0a64eb93f7840a16cfe48a48f545a8eb85c1848ab7c28c9499f914e52798c",
+    "response_sha256": "d1d1fcde6c449fe32484b83adbe2cab5a7e585dc81feea9c010ef96e6f718c3b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -124,9 +127,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260831121911id_/https://indivisible.org/candidates/aisha-wahab-ca-14/",
-    "timestamp": "20260831121911",
-    "digest": "D22RN7ML7SOKVXOZD4E5EY2D5AVFFMPF",
+    "url": "https://web.archive.org/web/20261031102838id_/https://indivisible.org/candidates/aisha-wahab-ca-14/",
+    "timestamp": "20261031102838",
+    "digest": "K33G5NSL2RXCNEXRFMET4GN44I62HW7Z",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1

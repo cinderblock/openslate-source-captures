@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://cbia.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 74,
-    "captured_at": "2026-10-31T15:36:57.814Z",
+    "run": "2026-11-01T1300Z",
+    "index": 81,
+    "captured_at": "2026-11-01T13:00:58.967Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/",
-    "response_sha256": "6002f5a4f07cc17d443f540d16e9c8d3cf101c294e7de79ce961ab51345d90e2",
+    "response_sha256": "6693c94d2df1ffd318a8886a14af60dcf045a295df0d65cc1b6f14323d16e6fa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,9 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261020014713id_/https://cbia.org/",
-    "timestamp": "20261020014713",
-    "digest": "CPENQWTE6WQWEAE2J6JOAAMDSV7JQSPR",
+    "url": "https://web.archive.org/web/20261101065515id_/https://cbia.org/",
+    "timestamp": "20261101065515",
+    "digest": "M7QOGCMKVIJICHH6OK5WLPVFFVXXYRU4",
+    "origin": "requested",
     "statements": {
      "found": 0,
      "of": 1
@@ -69,13 +71,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 75,
-    "captured_at": "2026-10-31T15:36:59.435Z",
+    "run": "2026-11-01T1300Z",
+    "index": 82,
+    "captured_at": "2026-11-01T13:01:01.529Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
-    "response_sha256": "3c72dde2b3e857f905f3141d713deec5429ee6962b7c02e66eafca9062d3754d",
+    "response_sha256": "0ec0c3044cf29c882c463d42169f6ef46de419012a34df60ece3bbb3f3205963",
     "bytes": "public",
     "claims": [
      "captured",
@@ -87,7 +89,8 @@
    "archived": {
     "url": "https://web.archive.org/web/20261020015653id_/https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
     "timestamp": "20261020015653",
-    "digest": "AGXVVNJHJYX5J43PKECCL3FTVEKZ7M7F"
+    "digest": "AGXVVNJHJYX5J43PKECCL3FTVEKZ7M7F",
+    "origin": "existing"
    },
    "derivation": {
     "kind": "not-checkable",

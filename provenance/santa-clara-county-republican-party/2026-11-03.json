@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://svgop.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "svgop.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 637,
-    "captured_at": "2026-10-31T15:38:01.623Z",
+    "run": "2026-11-01T1300Z",
+    "index": 651,
+    "captured_at": "2026-11-01T13:02:06.668Z",
     "status": 200,
     "error": null,
     "final_url": "https://svgop.com/voter-guide",
-    "response_sha256": "e56417698675d132dba557589835b363c056bd4f59b1bc5a61633edb77fd1062",
+    "response_sha256": "4b49d553aaa98a6c069c3862713baf6628668c3c5193c1c72b2031b9e910ee12",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,10 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261006232332id_/https://svgop.com/voter-guide",
-    "timestamp": "20261006232332",
-    "digest": "LHJSUJMKAID5CNFSPU54J637HRQI7I2C",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261031155832id_/https://svgop.com/voter-guide",
+    "timestamp": "20261031155832",
+    "digest": "Z2BV2KGRZ7Y6PKKQSLQ7W3UGOCK5KQGO",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -66,13 +67,13 @@
     "org_host": "svgop.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 636,
-    "captured_at": "2026-10-31T15:38:00.014Z",
+    "run": "2026-11-01T1300Z",
+    "index": 650,
+    "captured_at": "2026-11-01T13:02:05.061Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/6785b4117fb4713248ac921c/t/6ac0a37ed7b0644dc4fe591f/1791009662259/SVGOP+Endorsements+2026+General+Election.jpg",
-    "response_sha256": "ba3271c28a953e8d92432683bc882c269684e4343776918ee3f4c0ffaa41e6c9",
+    "response_sha256": "e12ec26a7db627485113a2d6ce426b04fb0a0289abaffd6b7fd98d6328cd25df",
     "bytes": "public",
     "claims": [
      "captured",
@@ -105,13 +106,13 @@
     "org_host": "svgop.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 635,
-    "captured_at": "2026-10-31T15:37:58.148Z",
+    "run": "2026-11-01T1300Z",
+    "index": 649,
+    "captured_at": "2026-11-01T13:02:03.249Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/6785b4117fb4713248ac921c/t/6ac0a37ed7b0644dc4fe591f/1791009662259/SVGOP+Endorsements+2026+General+Election.jpg",
-    "response_sha256": "1c96fc8e917c194a7fd477882025c5cac1bdbdb4aaed5b6df03cfe102a172b22",
+    "response_sha256": "4d1e05afce3975af55646cb113a18d6ebc4ba4a157adbc20177a463de32016f0",
     "bytes": "public",
     "claims": [
      "captured",

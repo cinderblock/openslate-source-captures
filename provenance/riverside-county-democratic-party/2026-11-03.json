@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.riversidecountydemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "riversidecountydemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 993,
-    "captured_at": "2026-10-31T15:38:46.996Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1035,
+    "captured_at": "2026-11-01T13:02:53.633Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountydemocrats.org/endorsements/",
-    "response_sha256": "850cc61801ed24277709ae71ce0a3417b68237d96c3905264eb12193ab41752e",
+    "response_sha256": "8f88dda7e62f794dc1557544ad1cbc37a8a3d667118a5b40ef468e47c321ebe3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,10 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071510id_/https://www.riversidecountydemocrats.org/endorsements/",
-    "timestamp": "20261021071510",
-    "digest": "CECHS6VLPKSRSREQEUWRMBCADAQPW22Q",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261101070051id_/https://www.riversidecountydemocrats.org/endorsements/",
+    "timestamp": "20261101070051",
+    "digest": "NPXYZHHPIOWG3LC2NNNFQRREGS7RMCLJ",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -66,13 +67,13 @@
     "org_host": "riversidecountydemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 878,
-    "captured_at": "2026-10-31T15:38:42.882Z",
+    "run": "2026-11-01T1300Z",
+    "index": 893,
+    "captured_at": "2026-11-01T13:02:48.850Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.moreno-valley.ca.us/departments/city-clerk/pdfs/2026_Council_Candidate_Information_ElectionTracker.pdf",
-    "response_sha256": "7627d7c82cdc5f59e57637f3c7956277bd1a5d77e0ee0608183160ce9e3a6fe0",
+    "response_sha256": "7694ffbed8a3edd64c70b5e792f0285a3e0d3af16fa1c90367c8c04b24c7af73",
     "bytes": "public",
     "claims": [
      "captured",
@@ -99,13 +100,13 @@
     "org_host": "riversidecountydemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 995,
-    "captured_at": "2026-10-31T15:38:50.356Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1037,
+    "captured_at": "2026-11-01T13:02:57.012Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/RCDP-Voter-Guide-Candidates.jpg",
-    "response_sha256": "8dea681eb9697389a34bafe9d6bc12d7ff167410e2412736f012633258427f76",
+    "response_sha256": "23a69bb9e88f5364ba8e875e2bfd9bc1ff89418c4bd1212e51ff2c0639af79ca",
     "bytes": "public",
     "claims": [
      "captured",
@@ -138,13 +139,13 @@
     "org_host": "riversidecountydemocrats.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 994,
-    "captured_at": "2026-10-31T15:38:48.711Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1036,
+    "captured_at": "2026-11-01T13:02:55.395Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/Propositions.png",
-    "response_sha256": "140981900a0b20db9f964fa1e6919fc7f73d567c229669f4d17d7ba2508a9c7d",
+    "response_sha256": "a3ef223bf46d7ef25500706bad7eb293285fd136d15306a79550c427417f4faf",
     "bytes": "public",
     "claims": [
      "captured",

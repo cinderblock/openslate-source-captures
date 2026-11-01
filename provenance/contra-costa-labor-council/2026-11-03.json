@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.cclabor.net/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "cclabor.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 811,
-    "captured_at": "2026-10-31T15:38:20.045Z",
+    "run": "2026-11-01T1300Z",
+    "index": 825,
+    "captured_at": "2026-11-01T13:02:25.812Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cclabor.net/2026",
-    "response_sha256": "535371a8d8c5480ee3f0ba2000fd34e6ddb4a8e0f95b4a2e80a9103aa2f9455f",
+    "response_sha256": "c1a03dbd8f3f0b144160313852e84c698c73de450b613563f74a6683125460cd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +72,13 @@
     "org_host": "cclabor.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 64,
-    "captured_at": "2026-10-31T15:37:03.635Z",
+    "run": "2026-11-01T1300Z",
+    "index": 66,
+    "captured_at": "2026-11-01T13:01:03.657Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/2026G-CLC-web-endorsements-2.csv",
-    "response_sha256": "e84a8e1b826f683c88aa597dd7cd3011aa075460780df9c781b805541b7f840d",
+    "response_sha256": "6cf0ee5120b069b0417d6766b2bff7650ce07ed8c346ef487618935e694da484",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,10 +89,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030214356id_/https://calaborfed.org/wp-content/uploads/2026/10/2026G-CLC-web-endorsements-2.csv",
-    "timestamp": "20261030214356",
+    "url": "https://web.archive.org/web/20261031032854id_/https://calaborfed.org/wp-content/uploads/2026/10/2026G-CLC-web-endorsements-2.csv",
+    "timestamp": "20261031032854",
     "digest": "FVMKVCDZIODGAR4AWUBVHKFDD75PRYWR",
-    "origin": "requested",
     "statements": {
      "found": 19,
      "of": 19
@@ -114,13 +114,13 @@
     "org_host": "cclabor.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 60,
-    "captured_at": "2026-10-31T15:36:55.882Z",
+    "run": "2026-11-01T1300Z",
+    "index": 62,
+    "captured_at": "2026-11-01T13:00:56.564Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/labor-2026-primary-election-endorsements/",
-    "response_sha256": "585b03631f9045991d5687a1ef48f8782b1dd1361926aeb2413fc8b204b451a3",
+    "response_sha256": "0ea531761821d21b46acc198ead337d753042815a1bf19ab913358978977158e",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://smgop.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 584,
-    "captured_at": "2026-10-31T15:37:56.392Z",
+    "run": "2026-11-01T1300Z",
+    "index": 598,
+    "captured_at": "2026-11-01T13:02:01.603Z",
     "status": 200,
     "error": null,
     "final_url": "https://smgop.org/voter-guide",
-    "response_sha256": "283c335090893237badbf64d9a56ba318eee6d2bf5fb464f04113928ba83626a",
+    "response_sha256": "2c5084a78e58c1ad6d68ef789bc88cddf6fd9f6e00fa0932da827192c0abb2db",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,10 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261006195320id_/https://smgop.org/voter-guide",
-    "timestamp": "20261006195320",
-    "digest": "RIN66HIVQEKAVQO2YRS75FGYPAWTIJHU",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261031155807id_/https://smgop.org/voter-guide",
+    "timestamp": "20261031155807",
+    "digest": "UXCNKT4MHUT6STE3XGJ3GW4RLQOUCZ4E",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -66,13 +67,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 583,
-    "captured_at": "2026-10-31T15:37:54.767Z",
+    "run": "2026-11-01T1300Z",
+    "index": 597,
+    "captured_at": "2026-11-01T13:01:59.954Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/61b3f88ed47f01182bac0e3f/t/6ad0411fde229b645a49bd2d/1792033055749/SMGOP+++November+2026+Election+Guide+v2.pdf",
-    "response_sha256": "47174f77f99084b902b2f64a41cd670feb6d1ede6084fa4004de41b8fae77132",
+    "response_sha256": "2198597e5f17b370affa1d581d9a59fedf731777de594925f58f2f63daa01b76",
     "bytes": "public",
     "claims": [
      "captured",

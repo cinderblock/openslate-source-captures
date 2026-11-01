@@ -1,0 +1,158 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "california-church-impact",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://churchimpact.org/",
+ "generated_from": {
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://churchimpact.org/wp-content/uploads/2026/09/CA-2026-Ballot-Guide.pdf",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "churchimpact.org",
+    "org_host": "churchimpact.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 85,
+    "captured_at": "2026-11-01T13:01:01.427Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://churchimpact.org/wp-content/uploads/2026/09/CA-2026-Ballot-Guide.pdf",
+    "response_sha256": "0f57ba0c8b96ac502c0a918e5b08885145f1b880b8416d2d08a62ed9d7fe9a45",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://churchimpact.org/index.php/2026/09/08/ca-church-impacts-recommendations-for-november-2026-ballot-propositions/",
+   "positions": 0,
+   "host": {
+    "match": "exact",
+    "host": "churchimpact.org",
+    "org_host": "churchimpact.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 84,
+    "captured_at": "2026-11-01T13:00:59.523Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://churchimpact.org/index.php/2026/09/08/ca-church-impacts-recommendations-for-november-2026-ballot-propositions/",
+    "response_sha256": "4740a1a6071df6ac3555eba37602814cb8cee1678ac05680c63643acd46fd488",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  },
+  {
+   "url": "https://i0.wp.com/churchimpact.org/wp-content/uploads/2026/09/Democracy.png?resize=300%2C300&ssl=1",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "i0.wp.com",
+    "org_host": "churchimpact.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 209,
+    "captured_at": "2026-11-01T13:01:12.790Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://i0.wp.com/churchimpact.org/wp-content/uploads/2026/09/Democracy.png?resize=300%2C300&ssl=1",
+    "response_sha256": "f30c04f9c24cb26296f11d9ae7ce912ae3bb1ab7c00d957e23a1cc7e260d2e30",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  },
+  {
+   "url": "https://i0.wp.com/churchimpact.org/wp-content/uploads/2026/09/Vote-Voice.jpeg?resize=393%2C508&ssl=1",
+   "positions": 0,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "i0.wp.com",
+    "org_host": "churchimpact.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 210,
+    "captured_at": "2026-11-01T13:01:14.377Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://i0.wp.com/churchimpact.org/wp-content/uploads/2026/09/Vote-Voice.jpeg?resize=393%2C508&ssl=1",
+    "response_sha256": "92110eb7dd6cba22763eb439f3d2c522270f148a815133ced4765a80a824517e",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "not-checkable",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0,
+    "reason": "image"
+   }
+  }
+ ]
+}

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sftu.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "sftu.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 539,
-    "captured_at": "2026-10-31T15:37:51.777Z",
+    "run": "2026-11-01T1300Z",
+    "index": 553,
+    "captured_at": "2026-11-01T13:01:56.276Z",
     "status": 200,
     "error": null,
     "final_url": "https://sftu.org/endorsements/",
-    "response_sha256": "1530b039ae193586551eed724af3d409ada778ecc78828539c9961e3a1519b68",
+    "response_sha256": "09543d44ba54a89d704e442e5384c62f3752cb6d8366869847c65e26dc0f66a0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071202id_/https://sftu.org/endorsements/",
-    "timestamp": "20261021071202",
-    "digest": "KXGWBY7CHNKYSUFLTLTFYEMBZ22HZKPU",
+    "url": "https://web.archive.org/web/20261030230428id_/https://sftu.org/endorsements/",
+    "timestamp": "20261030230428",
+    "digest": "XYY6NHN3KD72FK24WZM4SNDT3XH6KYDU",
     "origin": "existing",
     "statements": {
      "found": 9,

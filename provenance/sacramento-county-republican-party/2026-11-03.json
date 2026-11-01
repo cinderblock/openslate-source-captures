@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.saccountygop.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "saccountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1026,
-    "captured_at": "2026-10-31T15:38:52.524Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1068,
+    "captured_at": "2026-11-01T13:03:01.974Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.saccountygop.com/endorsed-candidates/",
-    "response_sha256": "fe7b02039925c86d79109997c57751dfc83a712a08c4e406ff3ea2d0694d9869",
+    "response_sha256": "f51c58e359e3830066fbf86e28921ea8e54dde6752a478a080220180c3d95906",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +72,13 @@
     "org_host": "saccountygop.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1025,
-    "captured_at": "2026-10-31T15:38:49.398Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1067,
+    "captured_at": "2026-11-01T13:02:58.663Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.saccountygop.com/ballot-measures/",
-    "response_sha256": "fcc88de7e7391ff17d93e84bde8c4e72ebc8671b917f503528d7c9a7d0ac4d2f",
+    "response_sha256": "c29230c5eab740e8ec8b0d349cb4ccf7e601bf962b3f2cf3cbc8cf5e615d390a",
     "bytes": "public",
     "claims": [
      "captured",

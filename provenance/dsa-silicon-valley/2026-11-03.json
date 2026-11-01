@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://siliconvalleydsa.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "siliconvalleydsa.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 139,
-    "captured_at": "2026-10-31T15:37:04.766Z",
+    "run": "2026-11-01T1300Z",
+    "index": 149,
+    "captured_at": "2026-11-01T13:01:07.574Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/document/d/e/2PACX-1vQAtAN3xtKSl7Pkx34nNpJyypPlm_Zga45PZHEYVk6jNpwxcp0GDBFrLsU9wjTjliya6ZP0OrMkljEt/pub",
-    "response_sha256": "2ceef323761afc72c8a6bc11c86ce669003770e557ec856ae981569527965cfd",
+    "response_sha256": "4da74d2b7746b54e091db164f212c674122211bc401b3de178a324ae2f2a6351",
     "bytes": "public",
     "claims": [
      "captured",
@@ -48,6 +49,7 @@
     "url": "https://web.archive.org/web/20261017035920id_/https://docs.google.com/document/d/e/2PACX-1vQAtAN3xtKSl7Pkx34nNpJyypPlm_Zga45PZHEYVk6jNpwxcp0GDBFrLsU9wjTjliya6ZP0OrMkljEt/pub",
     "timestamp": "20261017035920",
     "digest": "P7FZJWHYXDKZCPDBLH54TYOAOANFPDGM",
+    "origin": "existing",
     "statements": {
      "found": 158,
      "of": 158
@@ -70,13 +72,13 @@
     "org_host": "siliconvalleydsa.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 543,
-    "captured_at": "2026-10-31T15:37:53.047Z",
+    "run": "2026-11-01T1300Z",
+    "index": 557,
+    "captured_at": "2026-11-01T13:01:58.398Z",
     "status": 200,
     "error": null,
     "final_url": "https://siliconvalleydsa.org/voters-guide/",
-    "response_sha256": "fb80c99e5f1728ee6790924066faa587b071653277898a8a09d866cba87bae9a",
+    "response_sha256": "0c8d08873105af611c75ac7bba8fc6acbbd5ba390c6d50c74fc70c3a7bfad475",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,9 +88,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261018232504id_/https://siliconvalleydsa.org/voters-guide/",
-    "timestamp": "20261018232504",
-    "digest": "WV7MXIV74CKXAQWLDIUR3NK2SL2454X3",
+    "url": "https://web.archive.org/web/20261030230631id_/https://siliconvalleydsa.org/voters-guide/",
+    "timestamp": "20261030230631",
+    "digest": "SPN7O5IPFXB7ISEAWR5E3ZX57PUPDOX2",
     "origin": "existing"
    },
    "derivation": {

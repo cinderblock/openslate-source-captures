@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://montereycountydems.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "montereycountydems.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 436,
-    "captured_at": "2026-10-31T15:37:27.163Z",
+    "run": "2026-11-01T1300Z",
+    "index": 450,
+    "captured_at": "2026-11-01T13:01:28.635Z",
     "status": 200,
     "error": null,
     "final_url": "https://montereycountydems.org/endorsements/",
-    "response_sha256": "611fd19aa11cec92bb837dbad3523df90b9d540d2b6b3a392645d4c3efad3f6c",
+    "response_sha256": "3ce44d9fb61343d7f44064fde1f01588edb6f32a37e50b9eddb6c94362b9918f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261009122152id_/https://montereycountydems.org/endorsements/",
-    "timestamp": "20261009122152",
-    "digest": "5SFOTPKMDS6UP3LA62RRZNMV3ZP3ADJZ",
+    "url": "https://web.archive.org/web/20261031161101id_/https://montereycountydems.org/endorsements/",
+    "timestamp": "20261031161101",
+    "digest": "GUZXQSMEC5SZO7XNHOXQY77T2MGBVEUP",
+    "origin": "requested",
     "statements": {
      "found": 48,
      "of": 48
@@ -70,13 +72,13 @@
     "org_host": "montereycountydems.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 435,
-    "captured_at": "2026-10-31T15:37:25.476Z",
+    "run": "2026-11-01T1300Z",
+    "index": 449,
+    "captured_at": "2026-11-01T13:01:27.012Z",
     "status": 200,
     "error": null,
     "final_url": "https://montereycountydems.org/",
-    "response_sha256": "67ff8fd326ce1f9b75e8b9820b29a23d9570b3cdde5eda646f87e1dd26128514",
+    "response_sha256": "bf47d14f40ba2cb59163310f3770d24ac69164218b160f09d8db175aa182c9d6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,9 +88,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260816170904id_/https://montereycountydems.org/",
-    "timestamp": "20260816170904",
-    "digest": "TKKGBY7EWILC23I5KJMDTV4KVS7G5MZF"
+    "url": "https://web.archive.org/web/20261031102735id_/https://montereycountydems.org/",
+    "timestamp": "20261031102735",
+    "digest": "BBBWULM4BZSHHWJ3Y4YF4I5N6F2O2T5L",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

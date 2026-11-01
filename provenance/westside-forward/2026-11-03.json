@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://westsideforwardsf.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "westsideforwardsf.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 775,
-    "captured_at": "2026-10-31T15:38:08.317Z",
+    "run": "2026-11-01T1300Z",
+    "index": 789,
+    "captured_at": "2026-11-01T13:02:14.782Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.westsideforwardsf.org/voter-guide",
-    "response_sha256": "6912a72d453aa2559b4ef3d6d48e7f17e5f037e79f3d144cee66f8c4d2247f39",
+    "response_sha256": "ba4dc51d34d8179007b58f0177ccf931a094b1b1f6e84311ee7e2db086caf6e7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,10 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261014012628id_/https://westsideforwardsf.org/voter-guide",
-    "timestamp": "20261014012628",
-    "digest": "6BATJDJKAOAM36CG3HL7WY3IHPKGDLEY",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261031161916id_/https://www.westsideforwardsf.org/voter-guide",
+    "timestamp": "20261031161916",
+    "digest": "DDJY2O4RHWMOPXKOJCMEH5ZUKT5FLJ2L",
+    "origin": "requested",
     "statements": {
      "found": 3,
      "of": 24

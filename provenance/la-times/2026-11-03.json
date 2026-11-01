@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.latimes.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 865,
-    "captured_at": "2026-10-31T15:38:43.776Z",
+    "run": "2026-11-01T1300Z",
+    "index": 879,
+    "captured_at": "2026-11-01T13:02:49.173Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
-    "response_sha256": "723553dd021246b00d33d1e1a63409894083deb28470f6b0e1941c774566a568",
+    "response_sha256": "537881e4a5fc0b3fdc3470feaab58065ae8f41d99aa98a0c16cfbd74a0de081a",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -45,10 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017040041id_/https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
-    "timestamp": "20261017040041",
-    "digest": "C3VXPH2NF4GFB7YUUPVCN3NGWLBUWRFO",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261031234747id_/https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
+    "timestamp": "20261031234747",
+    "digest": "ZE7KNYE2X7ZCSFI5N5J5ICSOYSTUBMN5",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -71,13 +72,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 867,
-    "captured_at": "2026-10-31T15:38:47.060Z",
+    "run": "2026-11-01T1300Z",
+    "index": 881,
+    "captured_at": "2026-11-01T13:02:52.532Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/topic/editorials",
-    "response_sha256": "4e5f20532c90d9e5a18bf97dd89308365356e47dd39187fc3707eed877277505",
+    "response_sha256": "f64cd4302cb3920e745450ae6af134684f4e34efeed664e4c0ba260b390db2f2",
     "bytes": "withheld",
     "claims": [
      "captured",

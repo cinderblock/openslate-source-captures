@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.lacdp.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "lacdp.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 860,
-    "captured_at": "2026-10-31T15:38:40.481Z",
+    "run": "2026-11-01T1300Z",
+    "index": 874,
+    "captured_at": "2026-11-01T13:02:46.088Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.lacdp.org/candidates",
-    "response_sha256": "dc77f6f1a90cd11f22fb320eac4ab5a7836d66934fd874844f5159d34914c2a7",
+    "response_sha256": "f82e0de8700d8c689e9016cee5b1e96fc05a34130cf56eb71d120ed23166e048",
     "bytes": "public",
     "claims": [
      "captured",
@@ -85,13 +86,13 @@
     "org_host": "lacdp.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 859,
-    "captured_at": "2026-10-31T15:38:38.672Z",
+    "run": "2026-11-01T1300Z",
+    "index": 873,
+    "captured_at": "2026-11-01T13:02:44.309Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.lacdp.org/ballotmeasures",
-    "response_sha256": "fcb0a6379d163ce63a29253c24d29283a910163e008ee66537eb8489708393d9",
+    "response_sha256": "60a24007b83f9b1082fac401453f64beb609499a0ed81691f9cc88c0d3459da1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -116,10 +117,10 @@
     ]
    },
    "archived": {
-    "url": "https://web.archive.org/web/20261020000945id_/https://www.lacdp.org/ballotmeasures",
-    "timestamp": "20261020000945",
-    "digest": "IBDBNXX44TUDLIC5FD7SKOIWEDCP4PI7",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261101065315id_/https://www.lacdp.org/ballotmeasures",
+    "timestamp": "20261101065315",
+    "digest": "R4NXMBX2MDCA2GQD767NFZAAZEC5KPRS",
+    "origin": "requested",
     "statements": {
      "found": 77,
      "of": 77

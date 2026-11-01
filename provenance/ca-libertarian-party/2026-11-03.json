@@ -1,0 +1,90 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "ca-libertarian-party",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://ca.lp.org/",
+ "generated_from": {
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://ca.lp.org/ballot-propositions/",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "ca.lp.org",
+    "org_host": "ca.lp.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 40,
+    "captured_at": "2026-11-01T13:00:54.971Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.lp.org/ballot-propositions/",
+    "response_sha256": "614bf3dafedef9cac0dacb1e0b92c02f9825aac917d71b2955c9a78522fa67ce",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 14
+   }
+  },
+  {
+   "url": "https://ca.lp.org/candidates/",
+   "positions": 2,
+   "host": {
+    "match": "exact",
+    "host": "ca.lp.org",
+    "org_host": "ca.lp.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 41,
+    "captured_at": "2026-11-01T13:00:56.878Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://ca.lp.org/candidates/",
+    "response_sha256": "f7fafec8e13de09849dd6242385944188e9ebb86e0a370c2be1c69d71cdf4ca7",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 2,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

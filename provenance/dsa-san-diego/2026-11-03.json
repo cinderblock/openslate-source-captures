@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://dsasandiego.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "dsasandiego.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 834,
-    "captured_at": "2026-10-31T15:38:30.079Z",
+    "run": "2026-11-01T1300Z",
+    "index": 848,
+    "captured_at": "2026-11-01T13:02:34.899Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dsasandiego.org/november-2026-voter-guide",
-    "response_sha256": "2094ff738196880167b60679a1f387d688c1e390253f2bc274d41f1905a480ac",
+    "response_sha256": "03260d4bfde8c26dc86f03f53ac2d7e57fd871b6de8a777df989b9979ac25e8d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +72,13 @@
     "org_host": "dsasandiego.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 833,
-    "captured_at": "2026-10-31T15:38:28.161Z",
+    "run": "2026-11-01T1300Z",
+    "index": 847,
+    "captured_at": "2026-11-01T13:02:33.039Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dsasandiego.org/endorsements",
-    "response_sha256": "8519d90bc2fee58e19a283705143a04dbd461839f610085b8e15804bf97a2ecd",
+    "response_sha256": "45ea550bd0e99f6ec7ac26238709efe93125d77440d1ca62121575652f47d5c0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,10 +89,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261017045027id_/https://www.dsasandiego.org/endorsements",
-    "timestamp": "20261017045027",
-    "digest": "EDVZMU5Y3QSB3DD4UUSCDQWMNIFYQSAG",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261031234821id_/https://www.dsasandiego.org/endorsements",
+    "timestamp": "20261031234821",
+    "digest": "CF4YSSDE5HKVEOEWXWTVDJD3LYMBDMP2",
+    "origin": "requested",
     "statements": {
      "found": 2,
      "of": 2

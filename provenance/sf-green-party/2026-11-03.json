@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfgreenparty.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "sfgreenparty.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 534,
-    "captured_at": "2026-10-31T15:37:50.102Z",
+    "run": "2026-11-01T1300Z",
+    "index": 548,
+    "captured_at": "2026-11-01T13:01:54.490Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfgreenparty.org/endorsements/123-november-2026-endorsements",
-    "response_sha256": "c2c1e87c8c5441e2d70b1785067a99767ef861296268234112c4909ea6dee662",
+    "response_sha256": "c25f46b2923cbc3e6936cddd528706e7e0b9ef407282472052148a961d030599",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,10 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261005222158id_/https://sfgreenparty.org/endorsements/123-november-2026-endorsements",
-    "timestamp": "20261005222158",
-    "digest": "STGJZ5TMGAGUMEY5MC5RXTX3IXWMQSJM",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261031155428id_/https://sfgreenparty.org/endorsements/123-november-2026-endorsements",
+    "timestamp": "20261031155428",
+    "digest": "ZP2TN5YMTG6FXGHBUUG5SQQUZKIT7AZJ",
+    "origin": "requested",
     "statements": {
      "found": 32,
      "of": 34

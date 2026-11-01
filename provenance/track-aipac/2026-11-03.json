@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.trackaipac.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,22 +29,32 @@
     "org_host": "trackaipac.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1122,
-    "captured_at": "2026-10-31T15:39:18.869Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1164,
+    "captured_at": "2026-11-01T13:03:28.250Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.trackaipac.com/endorsements",
-    "response_sha256": "d2e5fd686c8b4981a491a8eac363fe0b6b5f10001e67bbb20f97701395a22b43",
+    "response_sha256": "fa4de0134845539ed09dc4909d7cee1ec8f8466634e5767bc5aee06baecf31ea",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261027163135id_/https://www.trackaipac.com/endorsements",
+    "timestamp": "20261027163135",
+    "digest": "5K4DBZWAWPNG4XV4F2OQKSA3DKQO4QX3",
+    "origin": "existing",
+    "statements": {
+     "found": 8,
+     "of": 8
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -61,22 +72,32 @@
     "org_host": "trackaipac.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1120,
-    "captured_at": "2026-10-31T15:39:15.461Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1162,
+    "captured_at": "2026-11-01T13:03:24.942Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.trackaipac.com/candidates",
-    "response_sha256": "aaef5fb9d487dda0fa417839f3a30f1fda5350fbbb1d4ec77c240246f7502b52",
+    "response_sha256": "2306d3a36c37d40f569705fd5990b818c8603a1097faef4a228f13f17e6837ad",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031155108id_/https://www.trackaipac.com/candidates",
+    "timestamp": "20261031155108",
+    "digest": "M54RPQTXZVHPRMSP56XKB7EQ65TP4QTP",
+    "origin": "requested",
+    "statements": {
+     "found": 5,
+     "of": 5
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -94,22 +115,32 @@
     "org_host": "trackaipac.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1121,
-    "captured_at": "2026-10-31T15:39:17.082Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1163,
+    "captured_at": "2026-11-01T13:03:26.547Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.trackaipac.com/congress",
-    "response_sha256": "391a5ae98197e4a043ac76c355827375874ab09974d9b77411199655fdb55c76",
+    "response_sha256": "0d5b221d47e9d482665edd8355a809b2a30461abfbaf4d4509d815e7deb695a1",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031155212id_/https://www.trackaipac.com/congress",
+    "timestamp": "20261031155212",
+    "digest": "F2HFL3JYVXYHMP73GT3KQM3DUE3J3EDE",
+    "origin": "requested",
+    "statements": {
+     "found": 40,
+     "of": 40
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -127,13 +158,13 @@
     "org_host": "trackaipac.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 1119,
-    "captured_at": "2026-10-31T15:39:13.522Z",
+    "run": "2026-11-01T1300Z",
+    "index": 1161,
+    "captured_at": "2026-11-01T13:03:23.267Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.trackaipac.com/blog/updated-methodology",
-    "response_sha256": "927998a6b68f2b118aeaf889a322c3c0d5262a4a7e719ee360c34b554e00df0c",
+    "response_sha256": "2fb72b2331d58bb36a42645421297d5248e5c042d3fcfcc42418e672284ba6f3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -142,7 +173,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261031155136id_/https://www.trackaipac.com/blog/updated-methodology",
+    "timestamp": "20261031155136",
+    "digest": "3RJTF2SZFEQFUR5XIOXE7EY2DKZQNZEW",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,

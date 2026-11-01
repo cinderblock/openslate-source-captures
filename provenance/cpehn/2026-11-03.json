@@ -1,0 +1,57 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "cpehn",
+ "election": "2026-11-03",
+ "mode": "scraped",
+ "org_uri": "https://cpehn.org/",
+ "generated_from": {
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://cpehn.org/about-us/blog/prop-endorsements-2026/",
+   "positions": 14,
+   "host": {
+    "match": "exact",
+    "host": "cpehn.org",
+    "org_host": "cpehn.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 93,
+    "captured_at": "2026-11-01T13:01:01.943Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://cpehn.org/about-us/blog/prop-endorsements-2026/",
+    "response_sha256": "2c985606d46eb47ba112419cc7bb97cd4ce06f39e2aa65025b6547b84da6fe60",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://calmatters.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "calmatters.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 69,
-    "captured_at": "2026-10-31T15:36:57.161Z",
+    "run": "2026-11-01T1300Z",
+    "index": 74,
+    "captured_at": "2026-11-01T13:00:57.741Z",
     "status": 200,
     "error": null,
     "final_url": "https://calmatters.org/california-voter-guide-2026/propositions/",
-    "response_sha256": "9ccd0081c86e0734ca3452834844ad89cb1f3f15bd214498d2c606e7b28162f8",
+    "response_sha256": "aca8a05309fc8259748324433cfa9ab24d668413b8cd34a4cfceb9cb42370be8",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -44,9 +45,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261018001713id_/https://calmatters.org/california-voter-guide-2026/propositions/",
-    "timestamp": "20261018001713",
-    "digest": "PJPG4QHEPS33O25OTLW2OF6X7GDVYRQH"
+    "url": "https://web.archive.org/web/20261101064444id_/https://calmatters.org/california-voter-guide-2026/propositions/",
+    "timestamp": "20261101064444",
+    "digest": "N36E2RAZ7UBLSKF2UW72GUW7WMVKDLHD",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -65,13 +67,13 @@
     "org_host": "calmatters.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 70,
-    "captured_at": "2026-10-31T15:36:58.881Z",
+    "run": "2026-11-01T1300Z",
+    "index": 75,
+    "captured_at": "2026-11-01T13:00:59.362Z",
     "status": 200,
     "error": null,
     "final_url": "https://calmatters.org/category/politics/elections/",
-    "response_sha256": "aef78ceb74044df2f247ebb936c1d2dce2b8f2eefb91ae47ef2ec88df5a15067",
+    "response_sha256": "2aac7ffb255f642dda777f0dea04ce6e4573be26fc227a6e1f2cc8dd77fa652f",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -81,9 +83,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261022013236id_/https://calmatters.org/category/politics/elections/",
-    "timestamp": "20261022013236",
-    "digest": "L2OCMDCPJUMWYZ6S7XE6U6DW43L35U3E"
+    "url": "https://web.archive.org/web/20261031234308id_/https://calmatters.org/category/politics/elections/",
+    "timestamp": "20261031234308",
+    "digest": "ZW5NRCSPTJGHX5KO4KJ77I6W75B4BLE5",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sdlincolnclub.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 525,
-    "captured_at": "2026-10-31T15:37:44.529Z",
+    "run": "2026-11-01T1300Z",
+    "index": 539,
+    "captured_at": "2026-11-01T13:01:50.045Z",
     "status": 200,
     "error": null,
     "final_url": "https://sdlincolnclub.com/endorsement-committee/",
-    "response_sha256": "b137de4918466359432505fa1b1aee9268715ab7a14843a64682a3c56f82fff0",
+    "response_sha256": "48b1a3a08771c081160bf141b60d1da0a3e9a9db27019bfa33a30dcda47da8f4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,13 +72,13 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 141,
-    "captured_at": "2026-10-31T15:37:02.877Z",
+    "run": "2026-11-01T1300Z",
+    "index": 152,
+    "captured_at": "2026-11-01T13:01:05.537Z",
     "status": 200,
     "error": null,
     "final_url": "https://drive.google.com/file/d/1e_b4fKKa0L0pSywFKOb4v291Obu1sbS_/view?usp=sharing",
-    "response_sha256": "1ccc69e84bd3aa0c9dfb055ed61dfb12539f9b279ce2e6e9c4101256ed918aae",
+    "response_sha256": "9f489c96bd4d248fca5d52c9995b56265dadd58df199d6f9612c4e5e76482e3c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,7 +87,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "1ba4d9b35ab32e5e8ef82de5b220ccb2f7823d6a2f1cecdf2d71f70ef17bde5e"
+     "dom_sha256": "684524d9175a23db11e86adb937f05987afbdd198e51469bcc7088e1df419966"
     }
    },
    "last_ok": null,

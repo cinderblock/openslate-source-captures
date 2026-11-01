@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sandiegosierraclub.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 516,
-    "captured_at": "2026-10-31T15:37:45.038Z",
+    "run": "2026-11-01T1300Z",
+    "index": 530,
+    "captured_at": "2026-11-01T13:01:49.131Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/news/endorsed-candidates",
-    "response_sha256": "a49e71eca63622740f601eb785db5620058eadbf4d2ef6a892150219086b38ad",
+    "response_sha256": "5cd545d72594381be10e7f5f38102cab362f005443ff6b1baa1751c70d8bed09",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261009122154id_/https://sandiegosierraclub.org/news/endorsed-candidates",
-    "timestamp": "20261009122154",
-    "digest": "2ZK5I5OXMFPTUCZH7HJGBFK5TI4RVD3S",
+    "url": "https://web.archive.org/web/20261031161122id_/https://sandiegosierraclub.org/news/endorsed-candidates",
+    "timestamp": "20261031161122",
+    "digest": "RGKYPSIRRSFDBRQLIV5MAGEBMHX57GBP",
+    "origin": "requested",
     "statements": {
      "found": 15,
      "of": 15
@@ -70,13 +72,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 515,
-    "captured_at": "2026-10-31T15:37:42.843Z",
+    "run": "2026-11-01T1300Z",
+    "index": 529,
+    "captured_at": "2026-11-01T13:01:46.885Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/",
-    "response_sha256": "93d3194b7eab168d6a0a970ab1347eda4458636f07681b4192deaf16aaaa3b3b",
+    "response_sha256": "aafc9fce6d9b7da4a480a7568819ca6ddf5199823d69248982147d9e1ec526c8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,9 +88,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021161426id_/https://sandiegosierraclub.org/",
-    "timestamp": "20261021161426",
-    "digest": "TW5IRO5GKPCWN2UI27UDVLBPJE2KCYK5"
+    "url": "https://web.archive.org/web/20261101071002id_/https://sandiegosierraclub.org/",
+    "timestamp": "20261101071002",
+    "digest": "TCQEH3HZ66BQFWYKEZOJQGJXJISVDVL2",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -107,13 +110,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 517,
-    "captured_at": "2026-10-31T15:37:46.918Z",
+    "run": "2026-11-01T1300Z",
+    "index": 531,
+    "captured_at": "2026-11-01T13:01:50.792Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/no-on-45",
-    "response_sha256": "6f4ac0c1da2f6533f7e55f0eef4772b3a1addf273480bcbf626ad249dbfb3a0c",
+    "response_sha256": "229a18e68eea61f8f26b11f15af83441029c1a28f65052699409afee01c12c3d",
     "bytes": "public",
     "claims": [
      "captured",

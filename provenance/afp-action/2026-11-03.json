@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://afpaction.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "afpaction.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
+    "run": "2026-11-01T1300Z",
     "index": 26,
-    "captured_at": "2026-10-31T15:36:52.515Z",
+    "captured_at": "2026-11-01T13:00:52.991Z",
     "status": 200,
     "error": null,
     "final_url": "https://afpaction.com/endorsements/",
-    "response_sha256": "89976061e4e1f05d6797c26a5eff3dae2effab7aa3632ff49c468257a19f716b",
+    "response_sha256": "c18088ad884b3dd30286f6d79ce54a6b845e6b8e54608426d442ad02d214a9cf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -45,9 +46,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261007160652id_/https://afpaction.com/endorsements/",
-    "timestamp": "20261007160652",
-    "digest": "Z5LSIEX444EPGTA2PEBABGIBCQD4RNVV",
+    "url": "https://web.archive.org/web/20261031160004id_/https://afpaction.com/endorsements/",
+    "timestamp": "20261031160004",
+    "digest": "LFHZK4PM2LJKH6CKON273TKQ62DEUPK6",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1

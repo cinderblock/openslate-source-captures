@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://lwvsf.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "lwvsf.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 379,
-    "captured_at": "2026-10-31T15:37:21.907Z",
+    "run": "2026-11-01T1300Z",
+    "index": 393,
+    "captured_at": "2026-11-01T13:01:23.350Z",
     "status": 200,
     "error": null,
     "final_url": "https://lwvsf.org/ballot-recommendations",
-    "response_sha256": "d843e9ee7e63c8be324f2f4cbfbb9a04a49ef10c85bd8becc8a32881b78ed8c9",
+    "response_sha256": "b96f0cb13731176fbb3b7f9a6f85369382e7e86370983fbc9e28a53a4f433465",
     "bytes": "public",
     "claims": [
      "captured",
@@ -47,6 +48,7 @@
     "url": "https://web.archive.org/web/20261025181840id_/https://lwvsf.org/ballot-recommendations",
     "timestamp": "20261025181840",
     "digest": "XAZY6CL62IFN6HAQA77T7FQ6D6MVXS7V",
+    "origin": "existing",
     "statements": {
      "found": 10,
      "of": 14

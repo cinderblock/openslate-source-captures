@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.nfib.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 883,
-    "captured_at": "2026-10-31T15:38:46.223Z",
+    "run": "2026-11-01T1300Z",
+    "index": 898,
+    "captured_at": "2026-11-01T13:02:52.040Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
-    "response_sha256": "a2268c2a0ed5e0dd3c547e2738230d022855b8f3a613db51157db90ea72dd729",
+    "response_sha256": "088d4f717c5959a9c4a2f2fe61e58308696362ccfbcf0a95924d4da4424b8c8c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -67,13 +68,13 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 773,
-    "captured_at": "2026-10-31T15:38:05.743Z",
+    "run": "2026-11-01T1300Z",
+    "index": 787,
+    "captured_at": "2026-11-01T13:02:12.112Z",
     "status": 200,
     "error": null,
     "final_url": "https://web.archive.org/web/20261010195617/https://www.nfib.com/news/press-release/nfib-announces-california-ballot-proposition-choices/",
-    "response_sha256": "3feb2c787a826bacf29acbfd086c38bd8ba2ab2e94c5b1d05620420b198e096c",
+    "response_sha256": "c609151c4e42d995ae121788d807a86728440d381559618cb34adeac70007abc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -100,13 +101,13 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 882,
-    "captured_at": "2026-10-31T15:38:44.603Z",
+    "run": "2026-11-01T1300Z",
+    "index": 897,
+    "captured_at": "2026-11-01T13:02:50.200Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.nfib.com/news/press-release/california-small-businesses-endorse-slate-of-candidates-for-election-to-congress/",
-    "response_sha256": "42d9357e1fccce2b76c159ac5aea4816ffebbf85cc12766532f69da17980281c",
+    "response_sha256": "7f6c2975c7988ab1be7616fe3226438d201497d25f27e67021ee3e45316f80ec",
     "bytes": "public",
     "claims": [
      "captured",
@@ -134,13 +135,13 @@
     "org_host": "nfib.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 884,
-    "captured_at": "2026-10-31T15:38:47.819Z",
+    "run": "2026-11-01T1300Z",
+    "index": 899,
+    "captured_at": "2026-11-01T13:02:53.629Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.nfib.com/news/press-release/small-business-pac-endorses-30-candidates-for-the-california-legislature/",
-    "response_sha256": "487adcaaf58f5d96796bb6be5192f4d14c9977f17a463f883872c324ea578e12",
+    "response_sha256": "aa488b60359bfef8c99e16bffd5fa08eb0898887870c26ed7c9d4992561dab27",
     "bytes": "public",
     "claims": [
      "captured",

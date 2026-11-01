@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://contracostadems.com/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "contracostadems.com"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 81,
-    "captured_at": "2026-10-31T15:36:58.695Z",
+    "run": "2026-11-01T1300Z",
+    "index": 90,
+    "captured_at": "2026-11-01T13:01:00.979Z",
     "status": 200,
     "error": null,
     "final_url": "https://contracostadems.com/",
-    "response_sha256": "f76953abb2f49a3c6ea9ad1c64f0b358eb6f9b815cf54ab0abe8be8d7cabf35e",
+    "response_sha256": "cc26a7d22af03eb63c0c7d6edede2a861963849544873f317c57bec75bfdedd2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -48,6 +49,7 @@
     "url": "https://web.archive.org/web/20261021163544id_/https://contracostadems.com/",
     "timestamp": "20261021163544",
     "digest": "SMUBHSNID2JH3DAM5FWLRWPQA3H367S4",
+    "origin": "existing",
     "statements": {
      "found": 79,
      "of": 79

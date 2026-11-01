@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://runforsomething.net/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 512,
-    "captured_at": "2026-10-31T15:37:41.403Z",
+    "run": "2026-11-01T1300Z",
+    "index": 526,
+    "captured_at": "2026-11-01T13:01:45.236Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidates/",
-    "response_sha256": "454b56bcdfb81375de00fad1e209eef42c00c149634392626f0081fe4871d813",
+    "response_sha256": "3104575f4a4080b5cc0ea76931060cdd86457626d9278e94133d0c6e1110e9d2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -66,13 +67,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 136,
-    "captured_at": "2026-10-31T15:38:06.540Z",
+    "run": "2026-11-01T1300Z",
+    "index": 146,
+    "captured_at": "2026-11-01T13:02:10.971Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidates/CA/",
-    "response_sha256": "f10102543777e417db896b0ea03b4764b5d7623043a721ea9030d2e0fbb1849f",
+    "response_sha256": "bb2936f2d6fc139f46a18a9f38afb36eeb785f9c857333dbdbf9d76f19a41f56",
     "bytes": "public",
     "claims": [
      "captured",
@@ -84,7 +85,8 @@
    "archived": {
     "url": "https://web.archive.org/web/20261022230609id_/https://directory.runforsomething.net/candidates/CA/",
     "timestamp": "20261022230609",
-    "digest": "GFGI3RI2BKHB7KLQRPSTH3QEJXDMIFTR"
+    "digest": "GFGI3RI2BKHB7KLQRPSTH3QEJXDMIFTR",
+    "origin": "existing"
    },
    "derivation": {
     "kind": "anchored",
@@ -103,13 +105,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 115,
-    "captured_at": "2026-10-31T15:37:32.053Z",
+    "run": "2026-11-01T1300Z",
+    "index": 125,
+    "captured_at": "2026-11-01T13:01:35.498Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/7c7d80adcc72529ab659a9553fc9a75a/lopez-jessie/",
-    "response_sha256": "1a7b9e4c11b3bc467c7ff168b13113df13e7fce3d37c6f7c109c989d1acc038c",
+    "response_sha256": "11235f6985847124d7fb92636603afb3906e598dd889d181fd199135699c3254",
     "bytes": "public",
     "claims": [
      "captured",
@@ -146,13 +148,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 117,
-    "captured_at": "2026-10-31T15:37:35.389Z",
+    "run": "2026-11-01T1300Z",
+    "index": 127,
+    "captured_at": "2026-11-01T13:01:38.777Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/874a33c6af7e9cd605cc52f3169d173d/adams-matthew/",
-    "response_sha256": "e23a82835010b74d6219937fc8aeab386b33aa40b57dbfa2bb42d8aa0c7f34be",
+    "response_sha256": "dcdd9614ab58b66c4e400ffd3efe8dedd1dbf1852bdd7d07c549296da6d43567",
     "bytes": "public",
     "claims": [
      "captured",
@@ -189,13 +191,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 111,
-    "captured_at": "2026-10-31T15:37:25.434Z",
+    "run": "2026-11-01T1300Z",
+    "index": 121,
+    "captured_at": "2026-11-01T13:01:28.728Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/448b3ec3bb67925b2d5b35a7a534e284/castorena-chris/",
-    "response_sha256": "e39361e71957cfc3856487c7bf5beb683025f7e35282c5225479d70a4fb8f058",
+    "response_sha256": "1c55c16069ec60737e404316c87f93f86f5e4acfe5c35fabedf561500c023de3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -232,13 +234,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 101,
-    "captured_at": "2026-10-31T15:37:08.984Z",
+    "run": "2026-11-01T1300Z",
+    "index": 111,
+    "captured_at": "2026-11-01T13:01:12.046Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/0cb374b55a81ce5875d3f43135a64aee/bhat-patel-priya/",
-    "response_sha256": "f19cb1f057fe1da8bf22afcf56f6866b80cd2cd69fdd0038bcd5064e4ea2eaea",
+    "response_sha256": "bcccc1e0d0e904e1df19bfe9f9c4cfaa4669bedf5ff88ca2313821b55825688e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -252,6 +254,7 @@
     "url": "https://web.archive.org/web/20260905112216id_/https://directory.runforsomething.net/candidate/0cb374b55a81ce5875d3f43135a64aee/bhat-patel-priya/",
     "timestamp": "20260905112216",
     "digest": "JO7JFALBWJNHNMVTU27BIVHCGLVZ7WJU",
+    "origin": "existing",
     "statements": {
      "found": 1,
      "of": 1
@@ -274,13 +277,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 122,
-    "captured_at": "2026-10-31T15:37:43.545Z",
+    "run": "2026-11-01T1300Z",
+    "index": 132,
+    "captured_at": "2026-11-01T13:01:47.207Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/9916b6f74a18d4a5f17f3b2d788b99e3/hebert-shelby/",
-    "response_sha256": "7fd615fcaa1821ac73a2783350a74644b7cf6d5b3ccd7ee0b5ebc60900c1b596",
+    "response_sha256": "711a2797f5794f5052cdf202321b81d7029cbbfa96f3c2168bbda73a33da1c0f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -317,13 +320,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 121,
-    "captured_at": "2026-10-31T15:37:41.935Z",
+    "run": "2026-11-01T1300Z",
+    "index": 131,
+    "captured_at": "2026-11-01T13:01:45.563Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/981d2b5e884b933edfbf68daa7e3067d/briscoe-destiny/",
-    "response_sha256": "0ee5e7ce9e3617d05caf4c2b8a45f0d2340afe883887ad1b07e27617545291f2",
+    "response_sha256": "77d480c4bb30f26f6ede4f5c9d784be8ee80dd8dc97fc9594f63c564db44ce03",
     "bytes": "public",
     "claims": [
      "captured",
@@ -360,13 +363,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 125,
-    "captured_at": "2026-10-31T15:37:48.392Z",
+    "run": "2026-11-01T1300Z",
+    "index": 135,
+    "captured_at": "2026-11-01T13:01:52.221Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/ad2aba27a4b784d06dd2668980a9fa38/dimartino-anthony/",
-    "response_sha256": "74b3ddb73220005d1aa8b6f8fcc0daf39e9dcb289ade5c900b8327048930995f",
+    "response_sha256": "5c261fe1de82e6c43d12cc90bf0d914e1df5ce80e6c1e9bb4cc2b1e40b9a6a0f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -403,13 +406,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 97,
-    "captured_at": "2026-10-31T15:37:02.415Z",
+    "run": "2026-11-01T1300Z",
+    "index": 107,
+    "captured_at": "2026-11-01T13:01:05.186Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/05c25793f054076732cab0de9b5ac935/perez-luz/",
-    "response_sha256": "39de2fba2a00971ca6b2b9b6f72cbe50f2ae3ad9922dec4d692cecd47479472d",
+    "response_sha256": "df259bc1a75d8a4fe0af9ec7c366b8238e770dba3af835d7b1c49782cf5c91e2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -446,13 +449,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 135,
-    "captured_at": "2026-10-31T15:38:04.936Z",
+    "run": "2026-11-01T1300Z",
+    "index": 145,
+    "captured_at": "2026-11-01T13:02:09.244Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/eb607b585c656b0259875489336b5ab7/sida-joz/",
-    "response_sha256": "9c5ef69922447059a25dc69513f6cc0fb83894c3260525bbd19cfb3ecc0567bb",
+    "response_sha256": "c6824e54e3ad3ffd33f7c6dafd5185147871541c709b2e8b12840b19d75d1960",
     "bytes": "public",
     "claims": [
      "captured",
@@ -463,9 +466,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260809154951id_/https://directory.runforsomething.net/candidate/eb607b585c656b0259875489336b5ab7/sida-joz/",
-    "timestamp": "20260809154951",
-    "digest": "FGAFS5KF2HZPXMLEL5IVKBAJHXIPL6DT",
+    "url": "https://web.archive.org/web/20261031102635id_/https://directory.runforsomething.net/candidate/eb607b585c656b0259875489336b5ab7/sida-joz/",
+    "timestamp": "20261031102635",
+    "digest": "FERNPWKKV2KDAKKZPKUGIXKVWTPQ6OKV",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -488,13 +492,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 134,
-    "captured_at": "2026-10-31T15:38:03.296Z",
+    "run": "2026-11-01T1300Z",
+    "index": 144,
+    "captured_at": "2026-11-01T13:02:07.587Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/e8cb664592f6923dfae7deb886f85dcb/maldonado-jozef/",
-    "response_sha256": "77436f015cf4640c484c3f88910edb04de27b8b00ee3df9bc4273c64bb391296",
+    "response_sha256": "1a22779b7a449a6ab6c2a9bc84b60e004e7d8b23b2626e17cd7547ce394141ed",
     "bytes": "public",
     "claims": [
      "captured",
@@ -531,13 +535,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 112,
-    "captured_at": "2026-10-31T15:37:27.144Z",
+    "run": "2026-11-01T1300Z",
+    "index": 122,
+    "captured_at": "2026-11-01T13:01:30.385Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/58205c65793ee65c600da33b50b04ad0/syrop-george/",
-    "response_sha256": "dc9a7efc81920e39f10474b340953e4710eb59bf494298dde75c90094fa8684d",
+    "response_sha256": "157f927de55d359e0ea33c11e67cd28060ee23b9f36e0d659a1b40fcec855c5d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -574,13 +578,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 118,
-    "captured_at": "2026-10-31T15:37:37.054Z",
+    "run": "2026-11-01T1300Z",
+    "index": 128,
+    "captured_at": "2026-11-01T13:01:40.415Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/89aa6550df4754387aaefb6762d958c5/palumbo-taryn/",
-    "response_sha256": "0188e01ae4a8f9ffe142208f70e5f10f29d6420ed70d325ce2ae5c7e1ecb9456",
+    "response_sha256": "bb876c720865ca0bfedaae371e88866984c6cc5dca257d3ded01d8c28f38be08",
     "bytes": "public",
     "claims": [
      "captured",
@@ -617,13 +621,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 128,
-    "captured_at": "2026-10-31T15:37:53.282Z",
+    "run": "2026-11-01T1300Z",
+    "index": 138,
+    "captured_at": "2026-11-01T13:01:57.262Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/b599d8d4e1ca19734081363c88657534/martiz-nancy/",
-    "response_sha256": "a43d40b9d5be5f62ed9a97bea7c24d84a829eb8a52e99313bd63c8fe10a43a90",
+    "response_sha256": "4f9ac2d3d30c26caf6da6eaa050a0974e452453f1371ba1d81076ae063016407",
     "bytes": "public",
     "claims": [
      "captured",
@@ -660,13 +664,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 133,
-    "captured_at": "2026-10-31T15:38:01.661Z",
+    "run": "2026-11-01T1300Z",
+    "index": 143,
+    "captured_at": "2026-11-01T13:02:05.802Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/d9fe047389446715633d403143e2e5b8/johnson-krystle/",
-    "response_sha256": "459379e2d0a26a8f7993d8f4d69a23ed98e76d202048a6cf78943c6e1a634a13",
+    "response_sha256": "3005aff01497846c34ee8d0ef10346089f119472e5831a5406a2c7a8536b7f92",
     "bytes": "public",
     "claims": [
      "captured",
@@ -703,13 +707,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 113,
-    "captured_at": "2026-10-31T15:37:28.785Z",
+    "run": "2026-11-01T1300Z",
+    "index": 123,
+    "captured_at": "2026-11-01T13:01:32.083Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/673899d74b84c0a8fb7a3229b58b7cad/roy-marissa/",
-    "response_sha256": "49450049d87782b660f864da2e8a85a0ff08f8ea6f9cbc1d49ff153a05ecc9c3",
+    "response_sha256": "0d9e24dd7d672941ff0a25ac8460b1eef03a1371f539f0cd56afb3cc8dc29ffb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -746,13 +750,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 108,
-    "captured_at": "2026-10-31T15:37:20.528Z",
+    "run": "2026-11-01T1300Z",
+    "index": 118,
+    "captured_at": "2026-11-01T13:01:23.804Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/2ffe39e244287fc6ec0f86b49ef60b50/mazariegos-estuardo/",
-    "response_sha256": "e1901958123628ac8df83cc27227e977c1d6c806b7b9338379c30b5de4c33d2f",
+    "response_sha256": "2f7c2d5acbb08daab21c2b8907218a4be3f80a71eac5a60e4572c82a5dce9ef4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -789,13 +793,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 102,
-    "captured_at": "2026-10-31T15:37:10.638Z",
+    "run": "2026-11-01T1300Z",
+    "index": 112,
+    "captured_at": "2026-11-01T13:01:13.780Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/0e688c6e45511b24d4a1fa9e9ba41ca8/bagley-jennifer/",
-    "response_sha256": "4116cc5c8fc728d4f78c73381bb003e7f8d97dad77924305edc78771fb5535df",
+    "response_sha256": "423d39d780fd9c49db68151e65c669334154a5f0817e55aa98b142eaa5ff0c70",
     "bytes": "public",
     "claims": [
      "captured",
@@ -832,13 +836,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 119,
-    "captured_at": "2026-10-31T15:37:38.697Z",
+    "run": "2026-11-01T1300Z",
+    "index": 129,
+    "captured_at": "2026-11-01T13:01:42.086Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/8e52867745133bbe4a582c6b4109f1c2/macias-brandon/",
-    "response_sha256": "ff5d358fb78654c73aef0ee1d3fa9a8d678b26236fe3126bb970c74f9d517905",
+    "response_sha256": "3a134666001f237cc86c16ed0d63ef748a7e0eec6f40d35eb55e5cb74d6f93a4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -875,13 +879,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 110,
-    "captured_at": "2026-10-31T15:37:23.790Z",
+    "run": "2026-11-01T1300Z",
+    "index": 120,
+    "captured_at": "2026-11-01T13:01:27.066Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/3ef40838c70d1e1d1602f044fe367ead/burciaga-athena/",
-    "response_sha256": "31ad3fff0303e1f12066265d76f1432ccd8e6ad9e0a3a77b81863186b655c10f",
+    "response_sha256": "c854b9da45f546e73194429e9b502d0ed18d1be47c340fba02ce5c7f160fc39f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -892,9 +896,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260914101351id_/https://directory.runforsomething.net/candidate/3ef40838c70d1e1d1602f044fe367ead/burciaga-athena/",
-    "timestamp": "20260914101351",
+    "url": "https://web.archive.org/web/20261031103121id_/https://directory.runforsomething.net/candidate/3ef40838c70d1e1d1602f044fe367ead/burciaga-athena/",
+    "timestamp": "20261031103121",
     "digest": "SKMC4324ZKUW4ZH2RHGNNCQGC65WGKPJ",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -917,13 +922,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 100,
-    "captured_at": "2026-10-31T15:37:07.351Z",
+    "run": "2026-11-01T1300Z",
+    "index": 110,
+    "captured_at": "2026-11-01T13:01:10.265Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/0c27e60fd0fad3552f553e9591252abc/reed-charlotte/",
-    "response_sha256": "dc4c30fb2ec0bdbd7e7ac9959ea46c63781cecaf606ddaddc148dbe9d1a2935f",
+    "response_sha256": "b84137237eac6af0e6c17679a490a0ee480cb7d2b45a10e90b26da00cb2affe9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -960,13 +965,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 96,
-    "captured_at": "2026-10-31T15:37:00.644Z",
+    "run": "2026-11-01T1300Z",
+    "index": 106,
+    "captured_at": "2026-11-01T13:01:03.357Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/050c8c616add5609d698a68fa89881fc/perez-jesse/",
-    "response_sha256": "5264eb1b72e52a5fcc2d29db49c03e9580a76e0fceeeb29e4b20cf0a2578442f",
+    "response_sha256": "74d0dd9b68f6f9338dc4833a23a21eeec320a8549fbf686c531b4e4194f7e114",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1003,13 +1008,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 98,
-    "captured_at": "2026-10-31T15:37:04.022Z",
+    "run": "2026-11-01T1300Z",
+    "index": 108,
+    "captured_at": "2026-11-01T13:01:06.820Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/078d11a85cb628ae6600cccfafbc6f30/santana-james/",
-    "response_sha256": "db0eb4f25c52e34ec5e77cc88ff42f7e28fbb5a60c19ca9fe8893246f64ddf8d",
+    "response_sha256": "8e8804c4867d185b2c31c8206738d9f40ee3945e0ef99a5af8f347d9fbc1a0c9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1046,13 +1051,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 126,
-    "captured_at": "2026-10-31T15:37:50.003Z",
+    "run": "2026-11-01T1300Z",
+    "index": 136,
+    "captured_at": "2026-11-01T13:01:53.882Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/ae7291884a738398f179a3fa778a218a/farac-rachel/",
-    "response_sha256": "aa488b9cd724d15820f824dcf6b1136ba76e20709082b1af59b2b8bd804bb8d0",
+    "response_sha256": "f18b39a41095f39f33699d538ad9208bc5b8476b91f5d7129b822d8d03a3f24d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1089,13 +1094,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 107,
-    "captured_at": "2026-10-31T15:37:18.870Z",
+    "run": "2026-11-01T1300Z",
+    "index": 117,
+    "captured_at": "2026-11-01T13:01:22.164Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/2b0947e4bb078ff072b47dc41b9af524/wang-charlene/",
-    "response_sha256": "a41386ebed0a85d3dce3d754f40e780a4f978ad8ad52f60d8c8c98d8dc10c755",
+    "response_sha256": "a975d518267f26ffe401395fc996e8e6c9f5f597c24ab9bca9279694e27391b4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1132,13 +1137,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 129,
-    "captured_at": "2026-10-31T15:37:54.911Z",
+    "run": "2026-11-01T1300Z",
+    "index": 139,
+    "captured_at": "2026-11-01T13:01:58.978Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/b5ea0238c5ebafd68dbfb3c53ab6c123/bustos-hector/",
-    "response_sha256": "03fbdbd1ad90d2fac51fec4e89e1edc6e96696754a5c30f3a9287e3d7f6596d6",
+    "response_sha256": "81ffd5357afc97de105aa14326f06ec5457fc9d6a78f283d5f1d3042a20f52f1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1175,13 +1180,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 132,
-    "captured_at": "2026-10-31T15:37:59.907Z",
+    "run": "2026-11-01T1300Z",
+    "index": 142,
+    "captured_at": "2026-11-01T13:02:03.983Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/c20213415b3d80d59137b55753be5458/oliver-sabrina/",
-    "response_sha256": "0d11e8e57ff63c35af347c6376c4501386215590c3750940cf7108a4db77d729",
+    "response_sha256": "203b9d3b4de117e9a928b813f2cc227e4901134832d627f4679b005b56282e41",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1218,13 +1223,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 127,
-    "captured_at": "2026-10-31T15:37:51.657Z",
+    "run": "2026-11-01T1300Z",
+    "index": 137,
+    "captured_at": "2026-11-01T13:01:55.559Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/b3411e1fda792ac3ee87780599beab9f/schavrien-ryan/",
-    "response_sha256": "e6de37e48ba02f49a7e612f4bb206224e38849da2936c412b5c1ca4a4e52a585",
+    "response_sha256": "4bad0e457777aff9d3adf5f42751534b320003dcca83d6fbed2bf4ff4c3ea987",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1261,13 +1266,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 130,
-    "captured_at": "2026-10-31T15:37:56.532Z",
+    "run": "2026-11-01T1300Z",
+    "index": 140,
+    "captured_at": "2026-11-01T13:02:00.703Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/bd4da1b194a5e272694dd79bd7d245a8/coston-brianna/",
-    "response_sha256": "d30e95e5008dc1b1507744623230f04c7883289f5ce17ccce202e2109bf7d0e0",
+    "response_sha256": "b1f98bbd485923b5a7d5b484d6587520c54ed500256d627ce998e45898969d71",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1304,13 +1309,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 120,
-    "captured_at": "2026-10-31T15:37:40.320Z",
+    "run": "2026-11-01T1300Z",
+    "index": 130,
+    "captured_at": "2026-11-01T13:01:43.796Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/91abcc388909149a9dae9dbe54bb2d91/ibbotson-christine/",
-    "response_sha256": "2dff0df500a879c160e2eef2e3736c24573c2186724fe87f8f7873e15f5c9313",
+    "response_sha256": "0809b9e6e7db361bb571b208a8eab346043a6caeecb43a381d3d1d75835e85a2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1347,13 +1352,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 124,
-    "captured_at": "2026-10-31T15:37:46.765Z",
+    "run": "2026-11-01T1300Z",
+    "index": 134,
+    "captured_at": "2026-11-01T13:01:50.578Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/a26df90b55c968fe35873c4eda7eac46/sandoval-robert/",
-    "response_sha256": "982d1540c4234ddaaac8dcc3aec4e5a5c915d9129916028e7fbf652e00ba18c8",
+    "response_sha256": "75c8934a4e8dbb2529de4acd8a15662cf9b732c864ce22e4608497a9cb3fd84a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1390,13 +1395,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 114,
-    "captured_at": "2026-10-31T15:37:30.443Z",
+    "run": "2026-11-01T1300Z",
+    "index": 124,
+    "captured_at": "2026-11-01T13:01:33.831Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/74111a6ae294fc9b975b1203e072ed8b/ramos-isuri-s/",
-    "response_sha256": "d194fedaee1ee14ab033abbc0caa4f23a98859722219e12ecf045cded0879bc1",
+    "response_sha256": "7528409daa74b95ed71c80df715717523107a1483a042965cd4dac692d80b16d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1433,13 +1438,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 106,
-    "captured_at": "2026-10-31T15:37:17.243Z",
+    "run": "2026-11-01T1300Z",
+    "index": 116,
+    "captured_at": "2026-11-01T13:01:20.464Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/26cc9fa8d0fda4e8c6a978c4a0c7ae4c/magana-jose/",
-    "response_sha256": "5177e832323797ecc0fd29057b0438a760ead048cc1f659ab2b201808d8542dc",
+    "response_sha256": "cc42b60f4e497c84533af0ee745a5fe3fbb094ebdcaae5e4a3a227f5a92566e9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1476,13 +1481,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 103,
-    "captured_at": "2026-10-31T15:37:12.267Z",
+    "run": "2026-11-01T1300Z",
+    "index": 113,
+    "captured_at": "2026-11-01T13:01:15.414Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/14b3b3d0d3eedb0e4f20e3cecebfd00b/pamukcu-aysha-dominguez/",
-    "response_sha256": "87c95bf62d9c5f57ae690eb68d69e92f8fed9af0596e2f7a997ba4c2bd433452",
+    "response_sha256": "224ea520275fa7b3b4f39a9887fb1dc3178f8d4454032a88884442fa8c673894",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1519,13 +1524,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 105,
-    "captured_at": "2026-10-31T15:37:15.615Z",
+    "run": "2026-11-01T1300Z",
+    "index": 115,
+    "captured_at": "2026-11-01T13:01:18.797Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/25db495d3ae25e5c91edd6dbd282f9fc/flores-eddie/",
-    "response_sha256": "2921e6467215ef3a7f38cd38af58cea2273d955d384155139ca7c0803e60e983",
+    "response_sha256": "e96984ff0529ada4e92951e7697f8844b0d6b5334fd37a63a5a2085204b16fbf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1562,13 +1567,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 109,
-    "captured_at": "2026-10-31T15:37:22.139Z",
+    "run": "2026-11-01T1300Z",
+    "index": 119,
+    "captured_at": "2026-11-01T13:01:25.434Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/3553f43772964acbdc38b56171d1f649/casselberry-john/",
-    "response_sha256": "89891fc4e5c3d5c78ea854a65a00b61189005d5bc4889898840b9dee160e51e3",
+    "response_sha256": "381eb5c390ee9bf998582f6879191d49d11b6d589d3579f05913e19960440347",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1579,9 +1584,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260917063935id_/https://directory.runforsomething.net/candidate/3553f43772964acbdc38b56171d1f649/casselberry-john/",
-    "timestamp": "20260917063935",
+    "url": "https://web.archive.org/web/20261031103246id_/https://directory.runforsomething.net/candidate/3553f43772964acbdc38b56171d1f649/casselberry-john/",
+    "timestamp": "20261031103246",
     "digest": "2Y6PXE5XZVJAU7OSXA7G7LYC6BVAE2PI",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -1604,13 +1610,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 104,
-    "captured_at": "2026-10-31T15:37:13.904Z",
+    "run": "2026-11-01T1300Z",
+    "index": 114,
+    "captured_at": "2026-11-01T13:01:17.087Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/161489285b102ca2fd7889f22dba57a4/garcia-leslie/",
-    "response_sha256": "f189439dfc12c41cf8d5b8b2b967980f66f080885b6d3c35139b1657d5906e65",
+    "response_sha256": "ceace93870c14279ab79813c3f625dcce20c9656689cffe945bdd4f74183d171",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1647,13 +1653,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 116,
-    "captured_at": "2026-10-31T15:37:33.665Z",
+    "run": "2026-11-01T1300Z",
+    "index": 126,
+    "captured_at": "2026-11-01T13:01:37.121Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/841ff0097af7ea78b6972049630910d3/byers-chelsea/",
-    "response_sha256": "f6dbf596c73b8bb14a9d6d8c737214e6fcf792473fe435d1eb51a99db22f8b01",
+    "response_sha256": "833156b9a6f313bd105d846b039350f6a02809928ffd4e540fc0d79c17cf6485",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1690,13 +1696,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 131,
-    "captured_at": "2026-10-31T15:37:58.280Z",
+    "run": "2026-11-01T1300Z",
+    "index": 141,
+    "captured_at": "2026-11-01T13:02:02.346Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/be3ad9c0018071066eb48cf44daa6118/post-stephen/",
-    "response_sha256": "2215bd7e98bcf396df1a673f493f21acfcfbc86b02ad6c604206e5a4a27f7c6e",
+    "response_sha256": "4af332f161fe4fdab46ffea6dbf4d3a1ef4e9bac5e33baa9f67fbe37175a4906",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1733,13 +1739,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 123,
-    "captured_at": "2026-10-31T15:37:45.155Z",
+    "run": "2026-11-01T1300Z",
+    "index": 133,
+    "captured_at": "2026-11-01T13:01:48.903Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/a0b9acb16d44d9d21119861ecb0f4b62/ayra-aram/",
-    "response_sha256": "590fad0184c0dc27427f2e3b3b51f8d37cd3cce78b34e71b605db8a4ed640f0b",
+    "response_sha256": "095478ced2cd4cae8b10f22576e05fca596bdccde83edaba2fe68c3a98d677bb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1776,13 +1782,13 @@
     "org_host": "runforsomething.net"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 99,
-    "captured_at": "2026-10-31T15:37:05.723Z",
+    "run": "2026-11-01T1300Z",
+    "index": 109,
+    "captured_at": "2026-11-01T13:01:08.511Z",
     "status": 200,
     "error": null,
     "final_url": "https://directory.runforsomething.net/candidate/0b0082d668cfec7ecb9994e2067139e7/shaughnessy-christian/",
-    "response_sha256": "9b718491a0c28ffae2a8b5b75c73ceb22407d49bc9ecbb32186a1f8c5ddbe0a4",
+    "response_sha256": "269796b25100ca352c20f04fee8f00a30ff51d0dea374592afeb43c23262613c",
     "bytes": "public",
     "claims": [
      "captured",

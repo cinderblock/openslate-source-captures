@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://dsa-la.org/",
  "generated_from": {
-  "endorsements_commit": "eea431010b8544e35a56112953ac58aa44d6843b",
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -15,7 +15,8 @@
    "2026-10-31T0024Z",
    "2026-10-31T1200Z",
    "2026-10-31T1220Z",
-   "2026-10-31T1536Z"
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
   ]
  },
  "sources": [
@@ -28,13 +29,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 661,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 675,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -44,9 +45,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing"
    },
    "derivation": {
@@ -66,13 +67,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 147,
-    "captured_at": "2026-10-31T15:37:01.936Z",
+    "run": "2026-11-01T1300Z",
+    "index": 158,
+    "captured_at": "2026-11-01T13:01:04.909Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "4e4d6c197ff70f544942cabeac6cd98bf0e33e67f509a16a4441c77de74a87bc",
+    "response_sha256": "5971eaa449f4088de76518a04267c7de8cdae2b817f98dc6095f9ba19ae1843d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -104,13 +105,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 720,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 734,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -121,9 +122,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#la-mayor",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#la-mayor",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -147,13 +148,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 715,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 729,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -164,9 +165,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#la-city-attorney",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#la-city-attorney",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -190,13 +191,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 716,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 730,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -207,9 +208,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#la-city-council-3",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#la-city-council-3",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -233,13 +234,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 717,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 731,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -250,9 +251,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#la-city-council-9",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#la-city-council-9",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -276,13 +277,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 718,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 732,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -293,9 +294,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#la-county-sheriff",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#la-county-sheriff",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -319,13 +320,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 721,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 735,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -336,9 +337,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#laccd-2",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#laccd-2",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -362,13 +363,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 722,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 736,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -379,9 +380,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#laccd-4",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#laccd-4",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -405,13 +406,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 723,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 737,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -422,9 +423,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#laccd-6",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#laccd-6",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -448,13 +449,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 719,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 733,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -465,9 +466,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#la-county-superior-court",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#la-county-superior-court",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 4,
@@ -491,13 +492,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 678,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 692,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -508,9 +509,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-appellate-justices",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-appellate-justices",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -534,13 +535,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 679,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 693,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -551,9 +552,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-board-of-equalization-3",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-board-of-equalization-3",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -577,13 +578,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 726,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 740,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -594,9 +595,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#santa-clarita-council-2",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#santa-clarita-council-2",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -620,13 +621,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 727,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 741,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -637,9 +638,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#santa-clarita-council-4",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#santa-clarita-council-4",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -663,13 +664,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 728,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 742,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -680,9 +681,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#santa-clarita-council-5",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#santa-clarita-council-5",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -706,13 +707,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 752,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 766,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -723,9 +724,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#william-s-hart-union-2",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#william-s-hart-union-2",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -749,13 +750,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 753,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 767,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -766,9 +767,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#william-s-hart-union-5",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#william-s-hart-union-5",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -792,13 +793,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 731,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 745,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -809,9 +810,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#saugus-union",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#saugus-union",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 3,
@@ -835,13 +836,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 729,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 743,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -852,9 +853,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#santa-clarita-valley-water",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#santa-clarita-valley-water",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -878,13 +879,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 724,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 738,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -895,9 +896,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#lynwood-wide",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#lynwood-wide",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 3,
@@ -921,13 +922,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 711,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 725,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -938,9 +939,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#huntington-park-council",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#huntington-park-council",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -964,13 +965,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 710,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 724,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -981,9 +982,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#cudahy-wide",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#cudahy-wide",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 2,
@@ -1007,13 +1008,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 751,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 765,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1024,9 +1025,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#west-hollywood-wide",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#west-hollywood-wide",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 3,
@@ -1050,13 +1051,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 662,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 676,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1067,9 +1068,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#alhambra-council-1",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#alhambra-council-1",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1093,13 +1094,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 663,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 677,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1110,9 +1111,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#alhambra-council-5",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#alhambra-council-5",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1136,13 +1137,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 725,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 739,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1153,9 +1154,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#monterey-park-council-5",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#monterey-park-council-5",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1179,13 +1180,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 712,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 726,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1196,9 +1197,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#inglewood-usd-1",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#inglewood-usd-1",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1222,13 +1223,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 713,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 727,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1239,9 +1240,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#inglewood-usd-2",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#inglewood-usd-2",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1265,13 +1266,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 714,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 728,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1282,9 +1283,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#inglewood-usd-3",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#inglewood-usd-3",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1308,13 +1309,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 665,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 679,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1325,9 +1326,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-inglewood-bb",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-inglewood-bb",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1351,13 +1352,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 664,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 678,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1368,9 +1369,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-inglewood-at",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-inglewood-at",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1394,13 +1395,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 666,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 680,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1411,9 +1412,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-inglewood-mm",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-inglewood-mm",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1437,13 +1438,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 748,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 762,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1454,9 +1455,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#west-covina-council-2",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#west-covina-council-2",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1480,13 +1481,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 749,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 763,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1497,9 +1498,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#west-covina-council-4",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#west-covina-council-4",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1523,13 +1524,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 750,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 764,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1540,9 +1541,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#west-covina-council-5",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#west-covina-council-5",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1566,13 +1567,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 677,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 691,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1583,9 +1584,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#burbank-wide",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#burbank-wide",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 3,
@@ -1609,13 +1610,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 730,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 744,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1626,9 +1627,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#santa-monica-wide",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#santa-monica-wide",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 3,
@@ -1652,13 +1653,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 675,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 689,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1669,9 +1670,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-county-a",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-county-a",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1695,13 +1696,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 676,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 690,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1712,9 +1713,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-county-e",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-county-e",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1738,13 +1739,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 674,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 688,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1755,9 +1756,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-te",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-te",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1781,13 +1782,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 669,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 683,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1798,9 +1799,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-la",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-la",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1824,13 +1825,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 670,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 684,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1841,9 +1842,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-pl",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-pl",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1867,13 +1868,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 667,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 681,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1884,9 +1885,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-ee",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-ee",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1910,13 +1911,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 671,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 685,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1927,9 +1928,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-prk",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-prk",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1953,13 +1954,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 672,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 686,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1970,9 +1971,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-prt",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-prt",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -1996,13 +1997,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 673,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 687,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2013,9 +2014,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-sc",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-sc",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2039,13 +2040,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 668,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 682,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2056,9 +2057,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-fd",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ballot-measure-la-city-fd",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2082,13 +2083,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 704,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 718,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2099,9 +2100,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-senate-20",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-senate-20",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2125,13 +2126,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 705,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 719,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2142,9 +2143,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-senate-22",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-senate-22",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2168,13 +2169,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 706,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 720,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2185,9 +2186,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-senate-24",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-senate-24",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2211,13 +2212,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 707,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 721,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2228,9 +2229,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-senate-26",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-senate-26",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2254,13 +2255,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 708,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 722,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2271,9 +2272,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-senate-28",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-senate-28",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2297,13 +2298,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 709,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 723,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2314,9 +2315,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-senate-30",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-senate-30",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2340,13 +2341,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 680,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 694,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2357,9 +2358,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-34",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-34",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2383,13 +2384,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 682,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 696,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2400,9 +2401,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-40",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-40",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2426,13 +2427,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 686,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 700,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2443,9 +2444,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-44",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-44",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2469,13 +2470,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 690,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 704,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2486,9 +2487,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-51",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-51",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2512,13 +2513,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 694,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 708,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2529,9 +2530,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-55",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-55",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2555,13 +2556,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 697,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 711,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2572,9 +2573,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-61",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-61",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2598,13 +2599,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 701,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 715,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2615,9 +2616,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-66",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-66",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2641,13 +2642,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 681,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 695,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2658,9 +2659,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-39",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-39",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2684,13 +2685,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 683,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 697,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2701,9 +2702,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-41",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-41",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2727,13 +2728,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 684,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 698,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2744,9 +2745,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-42",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-42",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2770,13 +2771,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 685,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 699,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2787,9 +2788,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-43",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-43",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2813,13 +2814,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 687,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 701,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2830,9 +2831,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-46",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-46",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2856,13 +2857,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 688,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 702,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2873,9 +2874,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-48",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-48",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2899,13 +2900,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 689,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 703,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2916,9 +2917,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-49",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-49",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2942,13 +2943,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 691,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 705,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2959,9 +2960,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-52",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-52",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -2985,13 +2986,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 692,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 706,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3002,9 +3003,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-53",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-53",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3028,13 +3029,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 693,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 707,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3045,9 +3046,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-54",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-54",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3071,13 +3072,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 695,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 709,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3088,9 +3089,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-56",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-56",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3114,13 +3115,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 696,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 710,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3131,9 +3132,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-57",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-57",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3157,13 +3158,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 698,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 712,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3174,9 +3175,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-62",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-62",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3200,13 +3201,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 699,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 713,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3217,9 +3218,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-64",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-64",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3243,13 +3244,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 700,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 714,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3260,9 +3261,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-65",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-65",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3286,13 +3287,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 702,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 716,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3303,9 +3304,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-67",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-67",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3329,13 +3330,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 703,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 717,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3346,9 +3347,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#ca-state-assembly-69",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#ca-state-assembly-69",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3372,13 +3373,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 735,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 749,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3389,9 +3390,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-29",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-29",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3415,13 +3416,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 739,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 753,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3432,9 +3433,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-34",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-34",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3458,13 +3459,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 742,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 756,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3475,9 +3476,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-37",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-37",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3501,13 +3502,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 732,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 746,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3518,9 +3519,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-26",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-26",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3544,13 +3545,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 733,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 747,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3561,9 +3562,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-27",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-27",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3587,13 +3588,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 734,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 748,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3604,9 +3605,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-28",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-28",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3630,13 +3631,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 736,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 750,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3647,9 +3648,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-30",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-30",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3673,13 +3674,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 737,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 751,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3690,9 +3691,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-31",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-31",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3716,13 +3717,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 738,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 752,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3733,9 +3734,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-32",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-32",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3759,13 +3760,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 740,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 754,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3776,9 +3777,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-35",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-35",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3802,13 +3803,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 741,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 755,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3819,9 +3820,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-36",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-36",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3845,13 +3846,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 743,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 757,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3862,9 +3863,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-38",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-38",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3888,13 +3889,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 744,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 758,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3905,9 +3906,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-41",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-41",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3931,13 +3932,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 745,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 759,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3948,9 +3949,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-42",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-42",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -3974,13 +3975,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 746,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 760,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -3991,9 +3992,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-43",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-43",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,
@@ -4017,13 +4018,13 @@
     "org_host": "dsa-la.org"
    },
    "latest": {
-    "run": "2026-10-31T1536Z",
-    "index": 747,
-    "captured_at": "2026-10-31T15:38:03.279Z",
+    "run": "2026-11-01T1300Z",
+    "index": 761,
+    "captured_at": "2026-11-01T13:02:08.339Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.dsa-la.org/",
-    "response_sha256": "d5e75d9c6b4d4205b1f3a3b93c279036b2a30cfa3ef12c961ef9fbc149deb360",
+    "response_sha256": "b490ff2a8c2d699f861cb120d2efebf3a9b417fe4b24e3b0abaa39113165e87d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -4034,9 +4035,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071147id_/https://voterguide.dsa-la.org/#us-congress-44",
-    "timestamp": "20261021071147",
-    "digest": "AAWXXQVZUFRV636SLTTL3TQ7LTURJSSA",
+    "url": "https://web.archive.org/web/20261031031620id_/https://voterguide.dsa-la.org/#us-congress-44",
+    "timestamp": "20261031031620",
+    "digest": "VLHTFOPWXTEQRO45WLSOJLDAOX4VUYRE",
     "origin": "existing",
     "statements": {
      "found": 1,

@@ -1,0 +1,57 @@
+{
+ "format": "openslate-source-provenance/1",
+ "org": "friends-committee-on-legislation-california",
+ "election": "2026-11-03",
+ "mode": "transcribed",
+ "org_uri": "https://www.fclca.org/",
+ "generated_from": {
+  "endorsements_commit": "2a6857e577b5379fc39ba1af8dfbedc8b08441b3",
+  "runs": [
+   "2026-10-30T1700Z",
+   "2026-10-30T1731Z",
+   "2026-10-30T1747Z",
+   "2026-10-30T1808Z",
+   "2026-10-31T0003Z",
+   "2026-10-31T0024Z",
+   "2026-10-31T1200Z",
+   "2026-10-31T1220Z",
+   "2026-10-31T1536Z",
+   "2026-11-01T1300Z"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://img1.wsimg.com/blobby/go/338b2ff6-a307-4a2e-8213-b9357ccabaf1/downloads/c9ac7122-ab29-4729-b316-e22df0b32f7c/FCLCA%202026%20Ballot%20Recommendations.pdf",
+   "positions": 14,
+   "host": {
+    "match": "hosted-elsewhere",
+    "host": "img1.wsimg.com",
+    "org_host": "fclca.org"
+   },
+   "latest": {
+    "run": "2026-11-01T1300Z",
+    "index": 262,
+    "captured_at": "2026-11-01T13:01:16.820Z",
+    "status": 200,
+    "error": null,
+    "final_url": "https://img1.wsimg.com/blobby/go/338b2ff6-a307-4a2e-8213-b9357ccabaf1/downloads/c9ac7122-ab29-4729-b316-e22df0b32f7c/FCLCA%202026%20Ballot%20Recommendations.pdf",
+    "response_sha256": "f19cad7f0c4faee4490acc8b7c145f6bf0d8aa96aa8ff820bc1d46511d60a4b8",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": null,
+   "archived": null,
+   "derivation": {
+    "kind": "anchored",
+    "exact": 14,
+    "quoted_parts": 0,
+    "unanchored": 0,
+    "no_statement": 0
+   }
+  }
+ ]
+}
