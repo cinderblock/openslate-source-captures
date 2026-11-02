@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.everytown.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 857,
-    "captured_at": "2026-11-02T13:02:44.279Z",
+    "captured_at": "2026-11-02T19:54:47.471Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/candidates/",
-    "response_sha256": "c7556f6e9bc56a8faf9e21d6dbc3ba862cc72eb36dd687a010cbb2a3e45e555b",
+    "response_sha256": "e9e31c7bd76c3aa3e2431d51cafb0a8cb22c6b7edc8df0e2e3fd72a974601ed3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 858,
-    "captured_at": "2026-11-02T13:02:46.239Z",
+    "captured_at": "2026-11-02T19:54:49.401Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/faq/",
-    "response_sha256": "ce6fda58d1a6cc5d7b11658471a58584bb95dd7834c270cf39de6d755189500b",
+    "response_sha256": "beca584a734af8c83bd51b41fcb014a548b92e33d392b920777826ea17b9fd2b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -108,13 +110,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 205,
-    "captured_at": "2026-11-02T13:01:11.980Z",
+    "captured_at": "2026-11-02T19:53:22.202Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/wp-json/heliotrope/v1/candidates/search?state=CA&year=2026&office_level=federal&offset=0&limit=100",
-    "response_sha256": "375b6a79c3fd66453d53256e6a72b5d0fe05450518571037fd8d4e6dc8a527e5",
+    "response_sha256": "4d9438d726f165e220011abebf128966ca63d38f2414822d14cfcc649d700c43",
     "bytes": "public",
     "claims": [
      "captured",
@@ -149,13 +151,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 207,
-    "captured_at": "2026-11-02T13:01:15.857Z",
+    "captured_at": "2026-11-02T19:53:25.908Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/wp-json/heliotrope/v1/candidates/search?state=CA&year=2026&office_level=state&offset=0&limit=100",
-    "response_sha256": "5bb28ae67d92a3bb91e3f1a3c3f6bbbe770dc88e0e70218e28c0348d933153f2",
+    "response_sha256": "d173d50992f75991ce9a86ee983c521cd300af1ec40fa294b23bd56c0c7c7026",
     "bytes": "public",
     "claims": [
      "captured",
@@ -190,13 +192,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 206,
-    "captured_at": "2026-11-02T13:01:13.887Z",
+    "captured_at": "2026-11-02T19:53:24.057Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/wp-json/heliotrope/v1/candidates/search?state=CA&year=2026&office_level=local&offset=0&limit=100",
-    "response_sha256": "a9ebaea5d2b0d8db44f26af7264c8de55483d5fcdc0bfc80aafff176a34bbfc2",
+    "response_sha256": "7a66a7d5edfd05029ca03331160e13cbce2cecf8a468bdebc3c4f68d0cf1831e",
     "bytes": "public",
     "claims": [
      "captured",

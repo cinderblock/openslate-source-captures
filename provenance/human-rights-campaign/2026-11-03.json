@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.hrc.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 861,
-    "captured_at": "2026-11-02T13:02:44.407Z",
+    "captured_at": "2026-11-02T19:54:48.533Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/lets-get-free-house-elections",
-    "response_sha256": "c509e4a76d273efd41734bc16e21f1b4fd02f8b3bc4c6a0f6517d7a9439724d1",
+    "response_sha256": "cdfb8266d96304d9091dead462a860a3585d1c1fcdd3e785fdf4a4cc1b550fe1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +77,13 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 862,
-    "captured_at": "2026-11-02T13:02:46.720Z",
+    "captured_at": "2026-11-02T19:54:50.901Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/lets-get-free-state-elections",
-    "response_sha256": "31fa78c3313dc9af3f46f72ff502b32c94c75be36cd614b2a5af6c8a758d7d97",
+    "response_sha256": "b0307ef063d3276ca1bc30f08f722bcaec17d47a863ea9986287176ca84781b7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -118,13 +120,13 @@
     "org_host": "hrc.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 863,
-    "captured_at": "2026-11-02T13:02:49.030Z",
+    "captured_at": "2026-11-02T19:54:53.365Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hrc.org/press-releases/human-rights-campaign-endorses-a-slate-of-pro-equality-members-and-candidates-up-for-election-in-key-competitive-u-s-house-districts",
-    "response_sha256": "0502564ac6b88177e112d659bebb582088a69a01ec92d99e1ac1f94e331e9bc0",
+    "response_sha256": "6a8a217071efb9cf208de902c2218778f5730d94ab7c3d306b2ffee7f9063c8f",
     "bytes": "public",
     "claims": [
      "captured",

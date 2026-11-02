@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sdgreenparty.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1088,
-    "captured_at": "2026-11-02T13:03:15.903Z",
+    "captured_at": "2026-11-02T19:55:20.729Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/candidates",
-    "response_sha256": "1a5d123ab91052a8ed8788a723cbae074bb4d8d1f8da0310dd6481f03efcf457",
+    "response_sha256": "afa0e7cb5e3fb7eb2e535a5ef32cdbba0dd965c667a2d8cdf72b9048d21eedfa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1085,
-    "captured_at": "2026-11-02T13:03:09.987Z",
+    "captured_at": "2026-11-02T19:55:14.062Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/announcements",
-    "response_sha256": "f0c49c7f19b344970f97914d3e21b9b852231cefe0bfa0763674b76959781bad",
+    "response_sha256": "d63d0b913afebd19a152f365f23f8c503a0049d0938bfb6f97fe8757cb639d6e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -108,13 +110,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 870,
-    "captured_at": "2026-11-02T13:02:51.115Z",
+    "captured_at": "2026-11-02T19:54:54.032Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-    "response_sha256": "172610e35a07286dd6945783dc9491e45d07075e8371cbedb0bd164ba8d6ca48",
+    "response_sha256": "849d5d6392ca2c1b1995011150d73fc30106bb389d163d0ac445861564ad76a1",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -146,13 +148,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1086,
-    "captured_at": "2026-11-02T13:03:11.934Z",
+    "captured_at": "2026-11-02T19:55:16.535Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/announcements/feb-2026-endorsements",
-    "response_sha256": "333525c67a759795f52103fca583fa0da133868c624f7e222b2dfb431ef95597",
+    "response_sha256": "f51218875111f2b262238cab979d8c59adb91ef6aa17309a1fdc1a4dcc6ee05b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -189,13 +191,13 @@
     "org_host": "sdgreenparty.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1087,
-    "captured_at": "2026-11-02T13:03:13.822Z",
+    "captured_at": "2026-11-02T19:55:18.560Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdgreenparty.org/announcements/gpsd-gm-endorses-lemon-grove-bird-initiative-drop-the-jnf-and-gkn-out",
-    "response_sha256": "83d372fb524a99452ed6dd10e8f89aec3635db06e1f4769f80c32218efcbd9f9",
+    "response_sha256": "82e5cb164b7a3897e05badc58f3eb4dbd2b5d6678f0a46c6945b90aa63726025",
     "bytes": "public",
     "claims": [
      "captured",

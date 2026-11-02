@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://ocbc.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "ocbc.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 453,
-    "captured_at": "2026-11-02T13:01:33.093Z",
+    "captured_at": "2026-11-02T19:53:41.740Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocbc.org/bizpac/",
-    "response_sha256": "b04562a36b0d64b740a14f269b277591a0190eb2faf460687f7f5742797f0b16",
+    "response_sha256": "8fa2f3313ed08ae55a5e961b16536ea36e0d6a3f7f1e0cffce5809398c7294b0",
     "bytes": "public",
     "claims": [
      "captured",

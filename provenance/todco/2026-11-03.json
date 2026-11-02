@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 440,
-    "captured_at": "2026-11-02T13:01:28.828Z",
+    "captured_at": "2026-11-02T19:53:36.599Z",
     "status": 200,
     "error": null,
     "final_url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
-    "response_sha256": "cf0feec3eb4ec32ef7a65234c70dc9b1fd73e7809c4479c645f63f95612274a0",
+    "response_sha256": "73c985667c8926c5f9ba8c10202524a748e7429019501f1ce4374b2acc444a8d",
     "bytes": "release",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.hjta.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "hjta.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 859,
-    "captured_at": "2026-11-02T13:02:44.251Z",
+    "captured_at": "2026-11-02T19:54:47.427Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hjta.org/2026votingguide/",
-    "response_sha256": "9ec1b8aba9bf4d4bf708fd07e90eb5126f4d9d7f4b54d2618629b25c9e4b014c",
+    "response_sha256": "da22a48a3e4067554e555abe8cac656104a8ef9020cc188a019fdcb9689ed3b1",
     "bytes": "public",
     "claims": [
      "captured",

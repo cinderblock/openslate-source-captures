@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.laforward.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 316,
-    "captured_at": "2026-11-02T13:01:19.906Z",
+    "captured_at": "2026-11-02T19:53:28.175Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/",
-    "response_sha256": "aa5348f23c73aa1c59483c3dcd05e46aa24e087eb9106e749d2c3942966a9df2",
+    "response_sha256": "e098791a33555a1336d1f1a2dd9084862de3db571e1acbd8f67812528b9ba56a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 317,
-    "captured_at": "2026-11-02T13:01:21.532Z",
+    "captured_at": "2026-11-02T19:53:29.846Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/burbank-usd",
-    "response_sha256": "89967fd624cb8a09d36289234b76fb2b7fe42c6fd1f98abff8122553071acb0d",
+    "response_sha256": "5432bfd555a73c0fcf7007b39b5ac2f259b61bdee42899dd503f647731ea0eae",
     "bytes": "public",
     "claims": [
      "captured",
@@ -108,13 +110,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 318,
-    "captured_at": "2026-11-02T13:01:23.284Z",
+    "captured_at": "2026-11-02T19:53:31.723Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/centinela-valley-union-high-school-district",
-    "response_sha256": "07e3a9bb7da086c4b18826173ce6345f8b28355f77318d47344c31f24244ba19",
+    "response_sha256": "ed03110704d2aa7dddaaa00e1094c6c4456c3c9daba4926177b90cc7e091ddfc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -145,13 +147,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 319,
-    "captured_at": "2026-11-02T13:01:25.152Z",
+    "captured_at": "2026-11-02T19:53:33.419Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/culver-city-usd",
-    "response_sha256": "f6b9afbffb1ac3ba21e7764ddc03c8e1a695e428bc8798c2332cbe235c7ac93b",
+    "response_sha256": "0a1ef304edfdbe208b45c7d255d8b065047c12e844954a791aca454d14d7a9f7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -183,13 +185,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 320,
-    "captured_at": "2026-11-02T13:01:26.876Z",
+    "captured_at": "2026-11-02T19:53:35.198Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/foothill-municipal-water-district",
-    "response_sha256": "9b8455da56b4663ab832a3231f7d0fe84ca0b8dcb62aab027df1d6367a8b170f",
+    "response_sha256": "09a8158471fece824b37bc3febb4af0a8d8ca927a65037d656b8edea4fd52533",
     "bytes": "public",
     "claims": [
      "captured",
@@ -220,13 +222,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 321,
-    "captured_at": "2026-11-02T13:01:28.629Z",
+    "captured_at": "2026-11-02T19:53:36.889Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/garvey-school-district",
-    "response_sha256": "370e222084151728ee1559c241d53b80c2977518c91cfe89637a2dda9548095f",
+    "response_sha256": "7ff9f32ed23ad9e28960ca78ad2783150f98f2ebc73f5f149cd1cd329630c4e2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -258,13 +260,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 322,
-    "captured_at": "2026-11-02T13:01:30.380Z",
+    "captured_at": "2026-11-02T19:53:38.657Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/glendora-usd",
-    "response_sha256": "70c4efee3d44e22b63c4204c1e585b551c08405b7ab6780e8b0e9d6a69b98516",
+    "response_sha256": "0ffcc7f0b062acf2daca914ce21b8d42d45077b17471a5c7f5a9bbbfd15708c0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -296,13 +298,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 323,
-    "captured_at": "2026-11-02T13:01:32.113Z",
+    "captured_at": "2026-11-02T19:53:40.463Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/inglewood-usd",
-    "response_sha256": "22354225cdfbedd2a1831e9d68c541b95fa2f8b700b45aeebc419ffe31d88feb",
+    "response_sha256": "40ec3d5f2e2318d89cd88c06819efdb9cfda99cea114baa0eb3ff960d77c663d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -334,13 +336,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 324,
-    "captured_at": "2026-11-02T13:01:34.026Z",
+    "captured_at": "2026-11-02T19:53:42.227Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/la-community-college-district",
-    "response_sha256": "12cffcb60e4731feef7277681068df02003308865416d13ec9364e95a5ad91eb",
+    "response_sha256": "0a1033c36f9551ce73d1c6ec956e524c63f90953efb7d95a6c4972f7575322d3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -372,13 +374,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 325,
-    "captured_at": "2026-11-02T13:01:35.762Z",
+    "captured_at": "2026-11-02T19:53:43.817Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/los-angeles-usd",
-    "response_sha256": "c2776e69383ad0f86daf5f1959446b757b126f74be1e63dea27c4f1bf26bf055",
+    "response_sha256": "5fb7ac93b84ae67d15fa2322c46a70ee5b93e148297ef6cff1fc6c7b010605cb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -414,13 +416,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 326,
-    "captured_at": "2026-11-02T13:01:37.464Z",
+    "captured_at": "2026-11-02T19:53:45.543Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/lynwood-usd",
-    "response_sha256": "0382526a276ef4a94c62938ffa16905928251686b45faa35ff38efa6f3454f3c",
+    "response_sha256": "7d81fed8d8cb8687e3f547bcdc6c4d176699df3a4003cc32b8122f748f06e2a5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -452,13 +454,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 327,
-    "captured_at": "2026-11-02T13:01:39.180Z",
+    "captured_at": "2026-11-02T19:53:47.183Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/palos-verdes-usd",
-    "response_sha256": "bb27d6641c95e81ccb1a1d7cdc1450836375a846245944bf6d90ece81453857f",
+    "response_sha256": "062cdb3515993d72905ed1a059b4c12d85e32c5c42b2dfec4607bd39c6f145c3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -490,13 +492,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 328,
-    "captured_at": "2026-11-02T13:01:40.910Z",
+    "captured_at": "2026-11-02T19:53:49.021Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/pasadena-area-community-college-district",
-    "response_sha256": "0dbb3fde3417ef8725df5c3099e2649000efb262a4386306e5fc4af0b22cab3f",
+    "response_sha256": "1c4781b6d687cd28bd1b3f91d3cc3c2a1d4491e94c4aacf1285f3682939eb2c5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -528,13 +530,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 329,
-    "captured_at": "2026-11-02T13:01:42.681Z",
+    "captured_at": "2026-11-02T19:53:50.654Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/rowland-usd",
-    "response_sha256": "4a4eea9c9b8a4a23e4a00a709ed1ab8039cad4da28d328a0c629b843007f27f1",
+    "response_sha256": "0856b60534787d4a14667ca55c3877b2b8cc34e725d7b4a3ee9072733918ecd8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -566,13 +568,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 330,
-    "captured_at": "2026-11-02T13:01:44.434Z",
+    "captured_at": "2026-11-02T19:53:52.309Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/santa-clarita-valley-water-agency",
-    "response_sha256": "bd5804b975ee16d56b4e04281482a7030d4622807387bea1fb681cf3ba6562fb",
+    "response_sha256": "898987d68c1c125b13f9396121b7ce7319543eaffac8150885e0a99775ae57e7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -603,13 +605,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 331,
-    "captured_at": "2026-11-02T13:01:46.143Z",
+    "captured_at": "2026-11-02T19:53:54.005Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/santa-monica-college",
-    "response_sha256": "5fc2b819a7ce65ba8520e48e87dffcb12a251394932bd59695a29ce7f9510395",
+    "response_sha256": "07265b17a0a88373d8f613ca836713759a1c8469479b91f85a7661703377ba68",
     "bytes": "public",
     "claims": [
      "captured",
@@ -641,13 +643,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 332,
-    "captured_at": "2026-11-02T13:01:47.854Z",
+    "captured_at": "2026-11-02T19:53:55.599Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/santa-monica-malibu-usd",
-    "response_sha256": "28157efa31bafbc4b3fba729d46d3b0fde873c54b85443cb8f7a3e14d54e258a",
+    "response_sha256": "80ab3255d03b3eae9ef64af1ad438c2297704d3ea30f204286aaeca5a4f1e885",
     "bytes": "public",
     "claims": [
      "captured",
@@ -679,13 +681,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 333,
-    "captured_at": "2026-11-02T13:01:49.648Z",
+    "captured_at": "2026-11-02T19:53:57.278Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/saugus-union-school-district",
-    "response_sha256": "e8cc3e5840183c60abe3776e93dc639c8fc538e803c65225bbbd2f82000db24c",
+    "response_sha256": "76533e53f88fc2a1cbf162f763dfb0694b51f690fbb25279557b383d0e48735c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -717,13 +719,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 334,
-    "captured_at": "2026-11-02T13:01:51.476Z",
+    "captured_at": "2026-11-02T19:53:59.144Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/torrance-usd",
-    "response_sha256": "7e77cd7081103aeefe3aac64a6b6d6000993383dd690b4be11e79dd28f119445",
+    "response_sha256": "770a6da72cd40554f94708120bcc23fc74d9bd3cd9e76bb49d6d6e67efb9c550",
     "bytes": "public",
     "claims": [
      "captured",
@@ -755,13 +757,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 335,
-    "captured_at": "2026-11-02T13:01:53.193Z",
+    "captured_at": "2026-11-02T19:54:00.789Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/william-s-hart-union-school-district",
-    "response_sha256": "fed56573f1a0df92dd2c59bef51ab78b48bafc3d1523eeb7a08e328624aed3be",
+    "response_sha256": "76996fccdf9450131d1a720f7173cb6999280955e980a8d14c09975fc5cacb52",
     "bytes": "public",
     "claims": [
      "captured",
@@ -793,13 +795,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 336,
-    "captured_at": "2026-11-02T13:01:54.908Z",
+    "captured_at": "2026-11-02T19:54:02.453Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/districts/wiseburn-usd",
-    "response_sha256": "4e3eedd6e5ca797ccf931b05c96d532a513213ad61328a2b71a8c538960c8553",
+    "response_sha256": "25294adb2e4aafae960d7a03951ebc4ae6120e52e8ed720b420eff0aabd02b3b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -831,13 +833,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 337,
-    "captured_at": "2026-11-02T13:01:56.641Z",
+    "captured_at": "2026-11-02T19:54:04.100Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/alhambra",
-    "response_sha256": "a9954eb2dc02051aac9e39d74d0ced651d13b294cebe2cbfae0ba7cea97db533",
+    "response_sha256": "f6c509c0fcf746facf3840a8efc3984abfe7dc4aa0f0e6a3d185b312dcb32b76",
     "bytes": "public",
     "claims": [
      "captured",
@@ -874,13 +876,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 339,
-    "captured_at": "2026-11-02T13:01:59.994Z",
+    "captured_at": "2026-11-02T19:54:07.416Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/baldwin-park",
-    "response_sha256": "e3f33925f4b54f538c81b9594a4b434af416f14d3219ad10104804dc98a9b5bc",
+    "response_sha256": "e839faee0f3cc0fb62d425a6686e3d4ad6e5aabd56ccf0fe777adda40a77d506",
     "bytes": "public",
     "claims": [
      "captured",
@@ -912,13 +914,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 340,
-    "captured_at": "2026-11-02T13:02:01.697Z",
+    "captured_at": "2026-11-02T19:54:09.160Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/burbank",
-    "response_sha256": "9485dcdb178788994c04cef2c588b3fd1808870569b3ae310b7f77f726104c5f",
+    "response_sha256": "9291738d558972f688ea02298690257c01b2f1fb42be2b5d8d000c643c4da0fe",
     "bytes": "public",
     "claims": [
      "captured",
@@ -955,13 +957,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 341,
-    "captured_at": "2026-11-02T13:02:03.417Z",
+    "captured_at": "2026-11-02T19:54:10.753Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/carson",
-    "response_sha256": "b9c790b4bc8b4f34b4983e42408f36bfaa441d6d9822e9888f0ec893fcdd9a8e",
+    "response_sha256": "0ca9fc8083866cdfa67a8d4ecef2cde06e521bcde9586508941bb2adcafb951f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -998,13 +1000,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 342,
-    "captured_at": "2026-11-02T13:02:05.129Z",
+    "captured_at": "2026-11-02T19:54:12.476Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-glendora",
-    "response_sha256": "b3ac08a6e5b41ffdc0bc7c0e229aebc443c1606f48d8eb602f5b603fa00853fc",
+    "response_sha256": "2009ad41c5fae1290c1283d112505a4ca168185999ab5bf0ba4038dc00b196fa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1041,13 +1043,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 343,
-    "captured_at": "2026-11-02T13:02:06.835Z",
+    "captured_at": "2026-11-02T19:54:14.198Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-lynwood",
-    "response_sha256": "cc471a05a872b99a28a94b3305e8beb300a295d3680e30661478e24ae01e609a",
+    "response_sha256": "977c0aa4c1fe60ea9784bac8fb7b3a804deba7eec5afed7b977f0c16aa306a30",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1084,13 +1086,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 344,
-    "captured_at": "2026-11-02T13:02:08.532Z",
+    "captured_at": "2026-11-02T19:54:15.888Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-maywood",
-    "response_sha256": "1921b7d70739f4a8ef84084ffc6041e610d18f88edeb76269441a8898fe5ff12",
+    "response_sha256": "2eeb80887b508f47109fa1806b29c18fa3b17d71b70455bbf9c828a73c07bba0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1127,13 +1129,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 345,
-    "captured_at": "2026-11-02T13:02:10.244Z",
+    "captured_at": "2026-11-02T19:54:17.555Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-monrovia",
-    "response_sha256": "0f815b2190a4d243f42fe68ef97216712584ea6675482798ebd9a6be41b39deb",
+    "response_sha256": "6a136da225b663cc10865d39736c94cafe82c5aa5b2f3afb6139be7e45743698",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1170,13 +1172,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 346,
-    "captured_at": "2026-11-02T13:02:11.949Z",
+    "captured_at": "2026-11-02T19:54:19.278Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-palmdale",
-    "response_sha256": "6a86b68d049653f1710d1bef158da46b8f55d53d5e598618aacb298d514463ea",
+    "response_sha256": "a8d16a5d3bc1e92ed477cde7be4391626e56c78d4d0d3ff70efedc1d2e4a50ee",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1208,13 +1210,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 347,
-    "captured_at": "2026-11-02T13:02:13.743Z",
+    "captured_at": "2026-11-02T19:54:20.952Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-paramount",
-    "response_sha256": "6ebb4a1340aa562bb472f0aa63537b5599a5c2ea34005b3ab489dfca002b3920",
+    "response_sha256": "c561a52e5fd63875f47debd1e2c3a762e94859e5d6c26a070b7f87dc059233a2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1246,13 +1248,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 348,
-    "captured_at": "2026-11-02T13:02:15.425Z",
+    "captured_at": "2026-11-02T19:54:22.648Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-south-gate",
-    "response_sha256": "0c4bcf16114fd80d04c5f39a901128b2deb0415ecbaa5266b3588402abb431c5",
+    "response_sha256": "e7b4403402f549051685eef5806616750130e71b0f3915054b15046e711f3df3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1284,13 +1286,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 349,
-    "captured_at": "2026-11-02T13:02:17.131Z",
+    "captured_at": "2026-11-02T19:54:24.366Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/city-of-whittier",
-    "response_sha256": "826dd1327b06e62f12e8c0d89affe5cb8f6d0cb54e7c03c6fe42c8cad94679b2",
+    "response_sha256": "79a672149f16d5bb9902f8f312b93926f25808968247aacd9b2a30d2bebbeb26",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1322,13 +1324,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 350,
-    "captured_at": "2026-11-02T13:02:18.853Z",
+    "captured_at": "2026-11-02T19:54:26.220Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/claremont",
-    "response_sha256": "f9d844eb25345524d39fc012c8abbd37d908d26ad0c14a253c15f0ae62c98b3e",
+    "response_sha256": "2c70e0df86d0ccc45dc331bc3a7cf4b45a8d408cff7f7b695f96b457d54a0112",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1365,13 +1367,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 351,
-    "captured_at": "2026-11-02T13:02:20.546Z",
+    "captured_at": "2026-11-02T19:54:27.864Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/cudahy",
-    "response_sha256": "5105905c62f19fc154a5e6a19fbbc6e05c5782ff1c98d70946b5d2c78ac390cb",
+    "response_sha256": "cf35b64bab2db27281ffd4c436e5dd48ccab97c174c54609732fbee2245ef1ad",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1408,13 +1410,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 352,
-    "captured_at": "2026-11-02T13:02:22.265Z",
+    "captured_at": "2026-11-02T19:54:29.565Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/culver-city",
-    "response_sha256": "59d0aceb4b257f0d460c68fb70080a994cc90a2aca48c9793c6116afe96f00ff",
+    "response_sha256": "de65719e285bcd74be9b92de1427a49a2dafa9a26c18da13154f908f0a7ef8c0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1451,13 +1453,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 353,
-    "captured_at": "2026-11-02T13:02:24.050Z",
+    "captured_at": "2026-11-02T19:54:31.178Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/duarte",
-    "response_sha256": "f2c3e4fca108126618083db549a8d4d8c3d46bcb23b4ca3e0663c97d270d7f7a",
+    "response_sha256": "528ac4642215c55558d086ca55a0de7f47e3457ed1cafa982b80a7bd46229f8e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1489,13 +1491,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 354,
-    "captured_at": "2026-11-02T13:02:25.785Z",
+    "captured_at": "2026-11-02T19:54:32.861Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/el-segundo",
-    "response_sha256": "61996690db6a3330581c1cd5e88e4a220ff2312c429b440d966ca861ce081d37",
+    "response_sha256": "e86ef212d713f8604362df8d4158631c34f963d160d9a97223e7f99b90eb7e88",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1532,13 +1534,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 355,
-    "captured_at": "2026-11-02T13:02:27.500Z",
+    "captured_at": "2026-11-02T19:54:34.591Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/hawthorne",
-    "response_sha256": "de4582f8f08d660d26f3188c7b9bf6631faca0ef1a554614771c4f2d2c367ba7",
+    "response_sha256": "e0f6f0e9006210b9e951638eebcbdeb10244d6ba7f62d3889d73c4e52e831eab",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1575,13 +1577,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 356,
-    "captured_at": "2026-11-02T13:02:29.220Z",
+    "captured_at": "2026-11-02T19:54:36.310Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/hermosa-beach",
-    "response_sha256": "58ccc70af1ae71112938e708f9df869a5f5ab740823a08b2e0d6606d8d63b88e",
+    "response_sha256": "ddfcf7948da4e9344639b9ac301306ed11460b117db2a6cfc50a89afb864fda0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1617,13 +1619,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 357,
-    "captured_at": "2026-11-02T13:02:31.028Z",
+    "captured_at": "2026-11-02T19:54:38.039Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/inglewood",
-    "response_sha256": "0c6a1d1e8b6779e442c50ed6534596facd255a9c5d27c1e197566776ecfb47b4",
+    "response_sha256": "5023bee2bd85af25323e3eea99e202ce465876beac82771dbdbb8a19a5e97226",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1660,13 +1662,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 358,
-    "captured_at": "2026-11-02T13:02:32.723Z",
+    "captured_at": "2026-11-02T19:54:39.681Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/la-county-ballot-measures",
-    "response_sha256": "121f59b85a58417d00c84d65985041ad878070a349bf0dbe64935289072bfec3",
+    "response_sha256": "0a37f78946b1cfd8e613bf43ccb06708e74735b0f7006e7dc05e7784af2d971b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1703,13 +1705,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 359,
-    "captured_at": "2026-11-02T13:02:34.481Z",
+    "captured_at": "2026-11-02T19:54:41.359Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/la-county-candidates",
-    "response_sha256": "ab0a8513ebbcc361b278910fff239f6c6e0c6a922b8d98fca65e5da8133c2e77",
+    "response_sha256": "c809965c701b0e30ee97cc75c219917603f5c7f9cb14e530547d3d8713b9f15e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1746,13 +1748,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 360,
-    "captured_at": "2026-11-02T13:02:36.076Z",
+    "captured_at": "2026-11-02T19:54:42.954Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/lawndale",
-    "response_sha256": "06cea7c46c766ddcc76476a830672fa3f24f83bf1796947d1874d376b868523d",
+    "response_sha256": "8998e440e4522d4f97b8b506e82aaa0eff29beeceb7f1fc4b23cab804bc3588b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1789,13 +1791,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 361,
-    "captured_at": "2026-11-02T13:02:37.791Z",
+    "captured_at": "2026-11-02T19:54:44.656Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/los-angeles",
-    "response_sha256": "fec33ed75b9a36ecc49e4585ede6dccad37394a5e774c9e2043969ced7149839",
+    "response_sha256": "dfbfeddfd7d7f5d54ba31c8f081ee2d469dbea149dc0400eccf83d3480b7e307",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1832,13 +1834,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 362,
-    "captured_at": "2026-11-02T13:02:39.403Z",
+    "captured_at": "2026-11-02T19:54:46.343Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/manhattan-beach",
-    "response_sha256": "920275f7b8a9be6c30e29023a93222c97568dbb7e24a62bc8b5b6f413f9d4a1d",
+    "response_sha256": "c7fa5238cbb741f5b9c78e291b4704e8660cabf5ff01a5960861688fd7ef5ed2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1875,13 +1877,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 363,
-    "captured_at": "2026-11-02T13:02:41.107Z",
+    "captured_at": "2026-11-02T19:54:48.006Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/monterey-park",
-    "response_sha256": "005c3496449d8eb60b37ce6853f0307b30dadcf34bd34be200bf2688c192dbd5",
+    "response_sha256": "e8eec5d44db126623942f357d5eadb3e43826705ffb82627cc1c5def8f17111a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1918,13 +1920,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 364,
-    "captured_at": "2026-11-02T13:02:42.790Z",
+    "captured_at": "2026-11-02T19:54:49.688Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/pasadena",
-    "response_sha256": "8f8b495f6008fb9bcfa365bea45b2956bd278ca8ba626c09ddc45ba6a6a227da",
+    "response_sha256": "56c4baf2d66facd9dc1e7c1e0564ac28d55570bcdfd47b472e4dfac8be5283dd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1956,13 +1958,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 365,
-    "captured_at": "2026-11-02T13:02:44.487Z",
+    "captured_at": "2026-11-02T19:54:51.349Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/rosemead",
-    "response_sha256": "26d7a505db0319773295239381fe4a876dfc7200e822dd9ed8ac0cbfc0cff56b",
+    "response_sha256": "bdf12d1251f180c87d8b7a7f1238b543aacaf41869159dbfd5179e77ffa084b0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1999,13 +2001,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 366,
-    "captured_at": "2026-11-02T13:02:46.216Z",
+    "captured_at": "2026-11-02T19:54:53.129Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/santa-clarita",
-    "response_sha256": "b32155b13a9a9633a19833a263ee4ec5baa67a6060d93df3e37def46b2593f9b",
+    "response_sha256": "71d2debb57bcedf99e58b4c92fa45b5e564dac1202648188402adc298da4713c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2042,13 +2044,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 367,
-    "captured_at": "2026-11-02T13:02:47.956Z",
+    "captured_at": "2026-11-02T19:54:54.819Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/santa-monica",
-    "response_sha256": "960a08d142ac0d55b6cc959a9507b73174121a2111a3bd934d4a18bfb115cd60",
+    "response_sha256": "aa6736040a37de092837b0a310db3d09ef376258c34203db03abc44aee6282c7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2085,13 +2087,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 368,
-    "captured_at": "2026-11-02T13:02:49.720Z",
+    "captured_at": "2026-11-02T19:54:56.431Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/south-pasadena",
-    "response_sha256": "941067f6faf5ed635a9dac762e25e7bd720d3f45c13378b60a297b107524698e",
+    "response_sha256": "8cda8fdfd97a4f224a76b3eed81ed948a0c3dd019136d0198d6bc7707bfa2495",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2123,13 +2125,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 369,
-    "captured_at": "2026-11-02T13:02:51.428Z",
+    "captured_at": "2026-11-02T19:54:58.139Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/state-assembly",
-    "response_sha256": "ec69baf8d87fe177ee4ee88132420bc186249e1f424a4022a4c2d7c1c281f174",
+    "response_sha256": "8ffad7dbe3403643e5573f03679983a867080a0e882a9d609d8b28cc702299ec",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2166,13 +2168,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 370,
-    "captured_at": "2026-11-02T13:02:53.163Z",
+    "captured_at": "2026-11-02T19:54:59.818Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/state-senate",
-    "response_sha256": "14a0272ac1883dfdb8deabfd9b1f299794f846b9ac24994b8c054dfc8b7c84a3",
+    "response_sha256": "0f977444f4af9cd62b3d946c8d5ed4372316cb7a7fab1ec35bc8a9586cec33cc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2209,13 +2211,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 371,
-    "captured_at": "2026-11-02T13:02:54.758Z",
+    "captured_at": "2026-11-02T19:55:01.431Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/statewide-ballot-measures",
-    "response_sha256": "9cb1ad9669343889e0f78a5355f290c7dfd224e0cb71a4635c7b8674e7f8685b",
+    "response_sha256": "21fd1a8c7ac06508b90416566c342f6fb4dcc67e7e4bf122a1664415f38fb0e7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2252,13 +2254,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 372,
-    "captured_at": "2026-11-02T13:02:56.474Z",
+    "captured_at": "2026-11-02T19:55:03.090Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/statewide-offices",
-    "response_sha256": "77c1a8225d9d933290419b37b7025a8c0f207f5df462a9147c72c949a0d11c8c",
+    "response_sha256": "b2acffb0406d2062d63974beec8f9d686ad78c53031f3aa64305aea8fd67ffca",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2295,13 +2297,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 373,
-    "captured_at": "2026-11-02T13:02:58.071Z",
+    "captured_at": "2026-11-02T19:55:04.711Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/the-city-of-huntington-park",
-    "response_sha256": "703b2e419dd79c47e9a241e48300406fc4b85d919083db05df0a07d277663944",
+    "response_sha256": "f40e124269a20e263920da48da2b499848879753a2385bd06ad86ea85e468a92",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2338,13 +2340,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 374,
-    "captured_at": "2026-11-02T13:02:59.834Z",
+    "captured_at": "2026-11-02T19:55:06.406Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/west-covina",
-    "response_sha256": "79cf79fd2b13b366491efbf7e6059ed0bcd3f34291dd54d94c41837e32e8d260",
+    "response_sha256": "02f797a1ae77a2bd20dc25b1340f62d3f2c700779e0712da953e0601d0279edd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2381,13 +2383,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 375,
-    "captured_at": "2026-11-02T13:03:01.569Z",
+    "captured_at": "2026-11-02T19:55:08.081Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/west-hollywood",
-    "response_sha256": "c48b90b661216a70e9780d4d28485a1861274bbcf2ce4dd906f3ff0df137cf16",
+    "response_sha256": "49482e7f9db5fd3b6c5efdb61cb052ff9ca2d34820147f93601ea2dab1cacdf5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -2424,13 +2426,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 338,
-    "captured_at": "2026-11-02T13:01:58.397Z",
+    "captured_at": "2026-11-02T19:54:05.818Z",
     "status": 200,
     "error": null,
     "final_url": "https://laforwardguide.org/guide/associate-justices-court-of-appeal",
-    "response_sha256": "52b84f586dd60da6092f278eaac747af3d6f901af7f463e9bbd61e1dcd5b7e45",
+    "response_sha256": "4895cdc84f8e1b65db278f1f5f2fff0f12b10507963bf3dd0e532b3b743d5b3b",
     "bytes": "public",
     "claims": [
      "captured",

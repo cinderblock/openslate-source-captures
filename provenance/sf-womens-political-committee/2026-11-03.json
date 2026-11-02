@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sfwpc.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "sfwpc.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 555,
-    "captured_at": "2026-11-02T13:01:59.260Z",
+    "captured_at": "2026-11-02T19:54:07.544Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfwpc.org/endorsements-of-candidates-for-november-2026-election/",
-    "response_sha256": "794db721fb1413f7ce1f763630806d06bb849b9cdcafa6b61168a05f2bcfb629",
+    "response_sha256": "6c1a2c748c9de6334bebe34b5f72b10e1e8874f0f54ec83896b1dbf3b588bbcf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +77,13 @@
     "org_host": "sfwpc.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 554,
-    "captured_at": "2026-11-02T13:01:57.359Z",
+    "captured_at": "2026-11-02T19:54:05.851Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfwpc.org/endorsements-of-ballot-measures-for-november-2026-election/",
-    "response_sha256": "0fc39777de1d461ffb4d3b91fd5487b68862a8342c1a52d93af9ec26c6caa913",
+    "response_sha256": "d3e8120b25b84683117ba6a030c0d1ac330e6d272cfd53dbcce5af08e0fdb8ef",
     "bytes": "public",
     "claims": [
      "captured",

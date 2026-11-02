@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sfstandard.com/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "sfstandard.com"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 551,
-    "captured_at": "2026-11-02T13:01:56.879Z",
+    "captured_at": "2026-11-02T19:54:04.681Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfstandard.com/politics/",
-    "response_sha256": "f72c6dc188f5e79e6e18471378fc663df4e7c38df1c56f5fe17449f103e1d5d4",
+    "response_sha256": "1efbe7c1e896a22e0455beb4824b4577590dd30ec1682e01766e80d95f2e9feb",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "sfstandard.com"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 552,
-    "captured_at": "2026-11-02T13:01:58.587Z",
+    "captured_at": "2026-11-02T19:54:06.451Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfstandard.com/sitemaps/sitemap-index.xml/",
-    "response_sha256": "a4feb123efa0f6a7d0052b5188e17576478c0349c9f1ef49d707b966e3a0853f",
+    "response_sha256": "db97d7021f2bdbe964a1f442fa4d0ce617c416628b413a3502ddea283121a5bd",
     "bytes": "withheld",
     "claims": [
      "captured",

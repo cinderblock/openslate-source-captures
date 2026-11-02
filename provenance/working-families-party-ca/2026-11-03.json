@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://workingfamilies.org/states/california/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "workingfamilies.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 790,
-    "captured_at": "2026-11-02T13:02:21.553Z",
+    "captured_at": "2026-11-02T19:54:24.055Z",
     "status": 200,
     "error": null,
     "final_url": "https://workingfamilies.org/state/california/",
-    "response_sha256": "8cdb70dc0c37b7106fc2435d335d45a7aaf04c3f14e1b56220a28802089d9150",
+    "response_sha256": "db139cd368432d110613b5a1c1bfac7c8a5bde98650cb5cae9bb43cfa0eed377",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +77,13 @@
     "org_host": "workingfamilies.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 791,
-    "captured_at": "2026-11-02T13:02:23.169Z",
+    "captured_at": "2026-11-02T19:54:25.650Z",
     "status": 200,
     "error": null,
     "final_url": "https://workingfamilies.org/wp-admin/admin-ajax.php",
-    "response_sha256": "212044327d8da10a8a5dc4209b36a5d2f1ea86aef740a874704453f2b0cb593e",
+    "response_sha256": "a6bd09f4f6aae078172c63174a248b80594b682433e1b23b5cbd615ae7f17fd9",
     "bytes": "public",
     "claims": [
      "captured",

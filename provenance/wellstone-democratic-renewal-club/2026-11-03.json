@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.wellstoneclub.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "wellstoneclub.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1186,
-    "captured_at": "2026-11-02T13:03:30.660Z",
+    "captured_at": "2026-11-02T19:55:35.551Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.wellstoneclub.org/endorsements.html",
-    "response_sha256": "5d9daf1599917d04000eb06e544b9f5f92428279717d56a8621a3c0b424641e1",
+    "response_sha256": "adfa6d5d2bcbd118db4ac6fd51b78b082c3576e9a6c3eeae944965b4793df100",
     "bytes": "public",
     "claims": [
      "captured",

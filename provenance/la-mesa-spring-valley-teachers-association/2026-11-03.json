@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1103,
-    "captured_at": "2026-11-02T13:03:24.807Z",
+    "captured_at": "2026-11-02T19:55:30.850Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-575.pdf",
-    "response_sha256": "dce3ad897a1d2d73a5b62b1ff766daf1f00462166526cbf985a4bd1912ea5c3e",
+    "response_sha256": "a4380eb0c6ba7bcedc315201fb7bef5c35371e98ebb541409b32c0dd20d49541",
     "bytes": "release",
     "claims": [
      "captured",

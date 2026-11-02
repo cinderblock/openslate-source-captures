@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.lincolnclub.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "lincolnclub.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 883,
-    "captured_at": "2026-11-02T13:02:51.127Z",
+    "captured_at": "2026-11-02T19:54:54.575Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lincolnclub.org/voterguide",
-    "response_sha256": "2c1ad10a1bbbec9422a128ea4a1d5bebbcbf6bd591bbc335633f61ecf1275e80",
+    "response_sha256": "cd429c31cb1367c74cf9de649ec9d0730df52d6fa675abe2a481b6c13d7de556",
     "bytes": "public",
     "claims": [
      "captured",
@@ -47,7 +49,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "a66a913f84e08e376c7f8ff7a2a15917a649d96716497b74d8825959869bd983"
+     "dom_sha256": "c833732df54eb1f87f21b5e4cadf50f2043472e9bb7f881fd97121515a7f63e4"
     }
    },
    "last_ok": null,
@@ -78,13 +80,13 @@
     "org_host": "lincolnclub.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 638,
-    "captured_at": "2026-11-02T13:03:01.863Z",
+    "captured_at": "2026-11-02T19:55:06.977Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/611ecf_569d5f81b0d7416dae1751722b8d5cd8~mv2.png",
-    "response_sha256": "7232eee272b82537a8227656e18d9555a408c51c024122379e652824085afb5c",
+    "response_sha256": "d5a9507fdde8921c33d8106d5e11a112a91aa3d1a887b73a60c174de96913892",
     "bytes": "public",
     "claims": [
      "captured",
@@ -117,13 +119,13 @@
     "org_host": "lincolnclub.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 639,
-    "captured_at": "2026-11-02T13:03:03.443Z",
+    "captured_at": "2026-11-02T19:55:08.600Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/611ecf_774662615d734600ab33eb57e87cebc9~mv2.png",
-    "response_sha256": "1ca92bc6da9900232fa89a087fe103b3a1f902cd8eee2e512ac2b130d5405223",
+    "response_sha256": "c03f8c0c978e153c56e0f05f70c8a38a2fa4d7a5b7deca46e169c7536683e374",
     "bytes": "public",
     "claims": [
      "captured",
@@ -156,13 +158,13 @@
     "org_host": "lincolnclub.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 640,
-    "captured_at": "2026-11-02T13:03:05.120Z",
+    "captured_at": "2026-11-02T19:55:10.168Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/611ecf_cd21701a490f46bb9125eacefbec9558~mv2.png",
-    "response_sha256": "146fb384b9601b8874142620fe3591e182d5c918597636337f262487f2050873",
+    "response_sha256": "5ce8a1a7346dbf17321ac0ecc49a674e8e143860fbce979f6ed926d2f9bfad92",
     "bytes": "public",
     "claims": [
      "captured",

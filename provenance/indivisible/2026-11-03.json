@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://indivisible.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 265,
-    "captured_at": "2026-11-02T13:01:23.972Z",
+    "captured_at": "2026-11-02T19:53:31.579Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/resources/candidates/",
-    "response_sha256": "c5ef32b666a0d3c4cde07b5c6547f73bb0a5cc13312cdf2f634ea4540fb9d64f",
+    "response_sha256": "ed9e8d45b75dfb00fa66d34ffbe4c01f2541e4dbad91a1b9b1df3a03c827fb21",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 264,
-    "captured_at": "2026-11-02T13:01:20.329Z",
+    "captured_at": "2026-11-02T19:53:28.244Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/candidates/randy-villegas-ca-22/",
-    "response_sha256": "46c419887b3ae35740fc33eecefaccd68d1f18f39fe63997f096d7e48a1777e9",
+    "response_sha256": "174b61e622caf68b1f30d9a62efd948a1c3da3cd717020e00a1926d737a7b1d8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -113,13 +115,13 @@
     "org_host": "indivisible.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 263,
-    "captured_at": "2026-11-02T13:01:16.860Z",
+    "captured_at": "2026-11-02T19:53:25.037Z",
     "status": 200,
     "error": null,
     "final_url": "https://indivisible.org/candidates/aisha-wahab-ca-14/",
-    "response_sha256": "af9206a4694bddfcf6417b6c64c7dc9608a6e1011768b643c8c2b1976c5b75b0",
+    "response_sha256": "2a206d33cddc31837566b06990556c8998ce1975e226e786f405da36c5702c84",
     "bytes": "public",
     "claims": [
      "captured",

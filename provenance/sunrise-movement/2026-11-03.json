@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sunrisemovement.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "sunrisemovement.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1156,
-    "captured_at": "2026-11-02T13:03:26.834Z",
+    "captured_at": "2026-11-02T19:55:32.312Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sunrisemovement.org/endorsements/",
-    "response_sha256": "d7291d3ab70a19c7da77f72ade8e23df822e537ef7ce6ccbf973345619ad4cc1",
+    "response_sha256": "7cd2f39da2ea26f670bff3e8eb5683cf622b55fa2400b65d1848e868ad070d5d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "sunrisemovement.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1155,
-    "captured_at": "2026-11-02T13:03:24.962Z",
+    "captured_at": "2026-11-02T19:55:29.966Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sunrisemovement.org/endorsement/we-proudly-endorse-mai-vang/",
-    "response_sha256": "57481d5e83d946ab91bff447e3783306b69cda9b3bf9b5b69f7452c03ef6864d",
+    "response_sha256": "e1691b565611986661b95b6c58f7efad4297543902aecb6afaffac455644fb4a",
     "bytes": "public",
     "claims": [
      "captured",

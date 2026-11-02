@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sandiegouniontribune.com/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "sandiegouniontribune.com"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1073,
-    "captured_at": "2026-11-02T13:03:05.766Z",
+    "captured_at": "2026-11-02T19:55:09.405Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sandiegouniontribune.com/2026/10/02/the-u-t-editorial-boards-endorsements/",
-    "response_sha256": "bb040ea159a7d816925088d0fe1dd6802c3e8a9748cefd8d2d2bd916aa2eed47",
+    "response_sha256": "068bf28ec40994c135e29d27a48cff24d43a6cd996c6d17cf61457989800baf3",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -75,13 +77,13 @@
     "org_host": "sandiegouniontribune.com"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1075,
-    "captured_at": "2026-11-02T13:03:09.056Z",
+    "captured_at": "2026-11-02T19:55:14.227Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sandiegouniontribune.com/opinion/endorsements/",
-    "response_sha256": "78586ba50d3dba132e8e9cb9e7bfdc7068a1a6cab90861c006d2294aeac239a6",
+    "response_sha256": "731dffc285ca2055b17cd5d9012750dab9f9125ddc1e9c3ba80151971773c5ea",
     "bytes": "withheld",
     "claims": [
      "captured",

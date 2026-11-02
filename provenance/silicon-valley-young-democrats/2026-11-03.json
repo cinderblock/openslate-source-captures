@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.svyd.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "svyd.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1157,
-    "captured_at": "2026-11-02T13:03:24.982Z",
+    "captured_at": "2026-11-02T19:55:30.347Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.svyd.org/2026-general-endorsements",
-    "response_sha256": "9a1359f5d2886915b2cfb4eb86e76c70cd3589d7ae1a1237428be7d52a20188d",
+    "response_sha256": "39a4a9cb0944162175b0a7ef04bb1277429f945c4dc7685e0a6b0f69b86662b9",
     "bytes": "public",
     "claims": [
      "captured",

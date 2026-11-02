@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://dsasf.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "dsasf.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 159,
-    "captured_at": "2026-11-02T13:01:06.443Z",
+    "captured_at": "2026-11-02T19:53:14.972Z",
     "status": 200,
     "error": null,
     "final_url": "https://dsasf.org/dsa-sf-november-2026-voter-guide/",
-    "response_sha256": "9c75c163d3859a8345f4c0f33a73e0128ebafa8e35881fff6655d698b8878ac4",
+    "response_sha256": "2e3f3afb7bf01ec3ffc0951457ac968090c372b55556587bf70b09d4ad44bb1e",
     "bytes": "public",
     "claims": [
      "captured",

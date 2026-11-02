@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sddemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "sddemocrats.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1083,
-    "captured_at": "2026-11-02T13:03:08.993Z",
+    "captured_at": "2026-11-02T19:55:13.373Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sddemocrats.org/candidates.html",
-    "response_sha256": "459d887cdbda13303820e37dd770ffee19ff407ae82e6fba2d4419e0193c26f8",
+    "response_sha256": "5abff240c640613231b491bf2fc35edc146a3d15f4acb8434886e7d146b99f1c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,13 +72,13 @@
     "org_host": "sddemocrats.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 1084,
-    "captured_at": "2026-11-02T13:03:10.656Z",
+    "captured_at": "2026-11-02T19:55:15.466Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sddemocrats.org/propositions--ballot-measures.html",
-    "response_sha256": "91c53fa3b7500903912b909566346a926d496a7918757a18ccca62dfe720a857",
+    "response_sha256": "92ecfca278455e09faf93b410dd7a5895efa46f8dfb2f2ee63afeaf8b7db7d75",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://montereycountydems.org/",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "montereycountydems.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 450,
-    "captured_at": "2026-11-02T13:01:31.240Z",
+    "captured_at": "2026-11-02T19:53:38.872Z",
     "status": 200,
     "error": null,
     "final_url": "https://montereycountydems.org/endorsements/",
-    "response_sha256": "fec44dae00c718a5fbfa4cdf01b8feacbc1f59e52c3a368e0db33fcd28fd098c",
+    "response_sha256": "1ce5165ad7594619ea2d369a697c27bdc1ddc2345d1dd1ed21b5487275ede7e9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +77,13 @@
     "org_host": "montereycountydems.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 449,
-    "captured_at": "2026-11-02T13:01:29.650Z",
+    "captured_at": "2026-11-02T19:53:37.216Z",
     "status": 200,
     "error": null,
     "final_url": "https://montereycountydems.org/",
-    "response_sha256": "b8ce75ee38ff337f944b38a1416e4f327045498805c8fcd52e269a298ef13d14",
+    "response_sha256": "499af10676c152d36f90785f72960620e30482c00ef1a0484c2cc333768d6bc9",
     "bytes": "public",
     "claims": [
      "captured",

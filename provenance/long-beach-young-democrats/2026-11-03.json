@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
  "generated_from": {
-  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
+  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -19,7 +19,9 @@
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
    "2026-11-01T1631Z",
-   "2026-11-02T1300Z"
+   "2026-11-02T1300Z",
+   "2026-11-02T1325Z",
+   "2026-11-02T1953Z"
   ]
  },
  "sources": [
@@ -32,13 +34,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 39,
-    "captured_at": "2026-11-02T13:00:59.676Z",
+    "captured_at": "2026-11-02T19:53:08.049Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "85a7fd924fd6beeb35d8da1ff0a47fbc2b55c2ad5338c27bb7ecee3078fa0c9c",
+    "response_sha256": "d4bfb8519ff0be11664489cf2692ea04c2b3081e719c65a1a3967de66600ef55",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,23 +77,19 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-02T1300Z",
+    "run": "2026-11-02T1953Z",
     "index": 867,
-    "captured_at": "2026-11-02T13:02:47.275Z",
+    "captured_at": "2026-11-02T19:54:49.300Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "58c6897b39e5cc52027c5ac0b0e90aa7e775ed9b1ae2de3c3343801d534cf267",
+    "response_sha256": "8b91155fa17e994438186ae0315db5b44481c6925584ae970a9f46a4441a526d",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ],
-    "rendered": {
-     "status": 200,
-     "dom_sha256": "5100994d4650ba04d1840f669eee129227f4af988a5ce4fc66b9a04a4c1efe3a"
-    }
+    ]
    },
    "last_ok": null,
    "archived": null,
