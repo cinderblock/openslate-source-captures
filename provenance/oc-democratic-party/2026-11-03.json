@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://orangecountydemocrats.com/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 463,
-    "captured_at": "2026-11-01T16:32:08.446Z",
+    "captured_at": "2026-11-02T13:01:35.040Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/oc-endorsements-2",
-    "response_sha256": "17e24187500de364d3c3cfb47d9914cd9bf6211e24d105a7d5ece6f38d958332",
+    "response_sha256": "3748003f737341f49dd0f66eb9566e7413cd81c10e8361257c39fb40ffaf14d8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -74,13 +75,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 464,
-    "captured_at": "2026-11-01T16:32:10.840Z",
+    "captured_at": "2026-11-02T13:01:40.492Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/statewide-endorsements",
-    "response_sha256": "b9a8f26ad949c8f0a26860d16ccf114ad2b5ee641bf50e893599adc11630b8b0",
+    "response_sha256": "face48db6d6f9b32b3cc2f43bbe1d14c411ae9b4b272e2b557bab083ea3e74af",
     "bytes": "public",
     "claims": [
      "captured",
@@ -117,13 +118,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 465,
-    "captured_at": "2026-11-01T16:32:13.184Z",
+    "captured_at": "2026-11-02T13:01:49.550Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Aliso-Viejo.jpg",
-    "response_sha256": "f8c5e8d18a7dfeaf799aacf201dffe73f353d2dbaf8e64e62d2bcf57cf27caa6",
+    "response_sha256": "aadceaa046ac9f6ff29422c59d864b0b2d5045f78653753ef39d9e863bc024df",
     "bytes": "public",
     "claims": [
      "captured",
@@ -132,7 +133,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192229id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Aliso-Viejo.jpg",
+    "timestamp": "20261101192229",
+    "digest": "HJRL5UNNDFX6IOVZJJEEEQSGRRBMTPES",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -151,13 +157,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 466,
-    "captured_at": "2026-11-01T16:32:14.930Z",
+    "captured_at": "2026-11-02T13:01:51.554Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Anaheim.jpg",
-    "response_sha256": "0faad4eeab49c3b12c5b40b18430cdd8f6d90c37a993415c32e641c4b1938c99",
+    "response_sha256": "1039cb4553f89830329080b52a4ecf2b8a0a7aa2d716830968ed519f9359fb24",
     "bytes": "public",
     "claims": [
      "captured",
@@ -166,7 +172,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192244id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Anaheim.jpg",
+    "timestamp": "20261101192244",
+    "digest": "MEVOWEX5DN52DF3ZTMKALAN24FFYXV3B",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -185,13 +196,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 468,
-    "captured_at": "2026-11-01T16:32:18.449Z",
+    "captured_at": "2026-11-02T13:01:55.499Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Buena-Park.jpg",
-    "response_sha256": "82f4a4bddc01810e537f26549b4cf2d428ed0b7651095a4bea1d73b0c72abb13",
+    "response_sha256": "e601ef2e1d088a2c45a1812c25d83b14c1c0c9a55dfbed64caabdef626a8859f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -200,7 +211,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192311id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Buena-Park.jpg",
+    "timestamp": "20261101192311",
+    "digest": "JH5JO6JRBZPK7NWNMLK4XRPGV4WWE43E",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -219,13 +235,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 470,
-    "captured_at": "2026-11-01T16:32:21.976Z",
+    "captured_at": "2026-11-02T13:01:59.475Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Cypress.jpg",
-    "response_sha256": "7c806b35d3a6faf7116fbab52c913db41db0b96a5a9eefc82b6966f345c4c6c6",
+    "response_sha256": "da2219da02c5a36773fad8e0b42abae8eefd91c183830738c3a64a93034102ea",
     "bytes": "public",
     "claims": [
      "captured",
@@ -234,7 +250,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192328id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Cypress.jpg",
+    "timestamp": "20261101192328",
+    "digest": "W47RGPKKPIEVV2MOTQGOPNPHQP7D6C6Q",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -253,13 +274,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 471,
-    "captured_at": "2026-11-01T16:32:23.723Z",
+    "captured_at": "2026-11-02T13:02:01.452Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Dana-Point.jpg",
-    "response_sha256": "d48f7058af59f5542d20f811b4fbf9006ffbf3f8c0e41f2cb137765cfc460418",
+    "response_sha256": "efa9a3140d1f9a7416fd69a2a48a59e4fba8e2b501674f89100ee26c635b215c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -268,7 +289,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192350id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Dana-Point.jpg",
+    "timestamp": "20261101192350",
+    "digest": "4GCHDGCKR3FO6F3MLSLED3S453NV46FA",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -287,13 +313,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 472,
-    "captured_at": "2026-11-01T16:32:25.475Z",
+    "captured_at": "2026-11-02T13:02:03.458Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Fountain-Valley.jpg",
-    "response_sha256": "6d631f983335bb04f65759b61676a9297209fbbb11d18afa7e729059d692d88a",
+    "response_sha256": "4848877a6520ee3058e98874572458d9188124c02de9c5835f781b322c67cfc5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -326,13 +352,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 473,
-    "captured_at": "2026-11-01T16:32:27.226Z",
+    "captured_at": "2026-11-02T13:02:05.403Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Fullerton.jpg",
-    "response_sha256": "c0bddbe40d5fd93b0bb8542759dadc203f979a1e14ccce0981a9870a4563a90f",
+    "response_sha256": "6092f19a1d85165d2b1024ba58aab0d161dfc034d076408ea89c2f910955eec3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -341,7 +367,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192506id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Fullerton.jpg",
+    "timestamp": "20261101192506",
+    "digest": "BA7JDBZC3YMZDBFMRNMNKM3FY257XIVP",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -360,13 +391,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 474,
-    "captured_at": "2026-11-01T16:32:28.982Z",
+    "captured_at": "2026-11-02T13:02:07.446Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Garden-Grove.jpg",
-    "response_sha256": "17d1ec6efcec10e8a6f9a556e010e02083c7a3d20c29a538669215f5e49f7c55",
+    "response_sha256": "cf6f9163efecfbe0c083fa6b38e3060e33ec4f9a9963a89aecea66105e9c8d0d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -375,7 +406,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192427id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Garden-Grove.jpg",
+    "timestamp": "20261101192427",
+    "digest": "2HUYOOBN7DEZN6D4ZH23SPWPK4CVL6GQ",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -394,13 +430,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 475,
-    "captured_at": "2026-11-01T16:32:30.741Z",
+    "captured_at": "2026-11-02T13:02:09.506Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Huntington-Beach.jpg",
-    "response_sha256": "b3a5547ba0c157e9d6327a5770952e106009d4e9a27c40def0940be247fa864b",
+    "response_sha256": "16d10f656c4f76a2309760d7bad67f4a488ef99b1f4d1a387b3ed720795882fa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -409,7 +445,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192442id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Huntington-Beach.jpg",
+    "timestamp": "20261101192442",
+    "digest": "FJUJDLH7JIC33YDUV3GV7MTIGBQ6UJOI",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -428,13 +469,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 476,
-    "captured_at": "2026-11-01T16:32:32.478Z",
+    "captured_at": "2026-11-02T13:02:11.473Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Irvine.jpg",
-    "response_sha256": "2f610d48a6a902e0b0681204c35283b201947810afa2d0d1415b1ee4beb11071",
+    "response_sha256": "0c18752d77e6d11925728972be86d05d0e3ab225de4ed180d4d68810d73e46b0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -444,10 +485,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261016021535id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Irvine.jpg",
-    "timestamp": "20261016021535",
+    "url": "https://web.archive.org/web/20261102024737id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Irvine.jpg",
+    "timestamp": "20261102024737",
     "digest": "5Q56F2RMSVCFFUHDGERSK2PHI4H64C6V",
-    "origin": "existing"
+    "origin": "requested"
    },
    "derivation": {
     "kind": "not-checkable",
@@ -467,13 +508,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 477,
-    "captured_at": "2026-11-01T16:32:34.228Z",
+    "captured_at": "2026-11-02T13:02:13.429Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-La-Habra.jpg",
-    "response_sha256": "24b6c34bec1204213ed0835a71df8437c1c2361ae57d474c8688478830a28bb1",
+    "response_sha256": "9ec065e25b3379d80857878ae425c84e4a3200bbbfbd75c047005b4b54cd7ea6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -482,7 +523,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192545id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-La-Habra.jpg",
+    "timestamp": "20261101192545",
+    "digest": "4O4I3Y4ARTWKPPMHJRHZW72WR5FPKB2E",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -501,13 +547,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 478,
-    "captured_at": "2026-11-01T16:32:36.010Z",
+    "captured_at": "2026-11-02T13:02:15.476Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-La-Palma.jpg",
-    "response_sha256": "a0e2b9f397e698ce2be30efa71617202496c7a81478e2eeb89ec615404c3de14",
+    "response_sha256": "79cbabcc2b7b5f464f2aa2330aa905b1f8ee77c929fa3d0b50944e9f8d625cfe",
     "bytes": "public",
     "claims": [
      "captured",
@@ -516,7 +562,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192539id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-La-Palma.jpg",
+    "timestamp": "20261101192539",
+    "digest": "SFOM4SV5SLYRTNSX2DLWTRMG4CFCKK3F",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -535,13 +586,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 479,
-    "captured_at": "2026-11-01T16:32:37.775Z",
+    "captured_at": "2026-11-02T13:02:17.477Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Laguna-Beach.jpg",
-    "response_sha256": "d3d5a11ad9a48650abb816074f4a0aa388c9721a59c63e6370892d95026d1c95",
+    "response_sha256": "3bd5914d79cd107df45fd71653707b2979a8b8b52caa1d47ce62544d33752843",
     "bytes": "public",
     "claims": [
      "captured",
@@ -574,13 +625,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 480,
-    "captured_at": "2026-11-01T16:32:39.518Z",
+    "captured_at": "2026-11-02T13:02:19.447Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Laguna-Hills.jpg",
-    "response_sha256": "288a7141df23b8d57f97595055308e91f6f6085bf8ea1d202f4c9e820ffcd562",
+    "response_sha256": "d0689787e82410e9f3e3b84cd8305ea422d07914a2587764e93733bc29a91226",
     "bytes": "public",
     "claims": [
      "captured",
@@ -589,7 +640,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192551id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Laguna-Hills.jpg",
+    "timestamp": "20261101192551",
+    "digest": "4GKTK2AIYGO72I5FESRZNKK4NRXZK6NF",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -608,13 +664,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 481,
-    "captured_at": "2026-11-01T16:32:41.263Z",
+    "captured_at": "2026-11-02T13:02:21.462Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Laguna-Niguel.jpg",
-    "response_sha256": "921fd9a25d8707386c6d8ae99f7bea35d18e4ea838d0cd2c75df564b159ea219",
+    "response_sha256": "fea043b27bb23ed16d8707501edb7d3d489b3069dc4d89ce06658a404af22383",
     "bytes": "public",
     "claims": [
      "captured",
@@ -623,7 +679,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192611id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Laguna-Niguel.jpg",
+    "timestamp": "20261101192611",
+    "digest": "7PZ6ABLKQTABFMG2BVV7QRBT3TXW5KCA",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -642,13 +703,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 482,
-    "captured_at": "2026-11-01T16:32:43.008Z",
+    "captured_at": "2026-11-02T13:02:23.453Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Laguna-Woods.jpg",
-    "response_sha256": "78c11351915570277cc70efe8a4dbd9b60f4fa2e558b10e31490de66c1e93d0d",
+    "response_sha256": "86aa8d42ec623c58c9967ab69a2c37e5dba788d020aa56120ae8fe219df47b40",
     "bytes": "public",
     "claims": [
      "captured",
@@ -657,7 +718,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192627id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Laguna-Woods.jpg",
+    "timestamp": "20261101192627",
+    "digest": "75JUKM77XG2BNEHBV3PVRTY2PRIRZZUV",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -676,13 +742,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 483,
-    "captured_at": "2026-11-01T16:32:44.783Z",
+    "captured_at": "2026-11-02T13:02:25.419Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Lake-Forest.jpg",
-    "response_sha256": "36a6d1af54e7bc1222398128ed85176f10bbc263d87c259809f836cee99d1607",
+    "response_sha256": "f80881fb971b164e2c2033fca50f2ceea6d565144ddb56a08d6f3a8e7d29eb1b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -691,7 +757,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192643id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Lake-Forest.jpg",
+    "timestamp": "20261101192643",
+    "digest": "CIFJMAMLVVJCPQMFHL27XGYXJQEYDP2Z",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -710,13 +781,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 484,
-    "captured_at": "2026-11-01T16:32:46.526Z",
+    "captured_at": "2026-11-02T13:02:27.364Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Los-Alamitos.jpg",
-    "response_sha256": "f04ab9b909bfedb840725e24c20718ac3955288939b42f9b868f095831aca88b",
+    "response_sha256": "8870bfa5aa549d64313ccac21b61a6643f7f1d1d5c380cb38fbae4ac41685b2b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -749,13 +820,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 486,
-    "captured_at": "2026-11-01T16:32:50.066Z",
+    "captured_at": "2026-11-02T13:02:31.353Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Newport-Beach.jpg",
-    "response_sha256": "ae03c685611d942baabc1814be92fe5f47da57d8d919310fef346f848ddcd9e3",
+    "response_sha256": "6492e57c5efe830d1887112fac539be8defdd5ad646de68f4cca718821926438",
     "bytes": "public",
     "claims": [
      "captured",
@@ -764,7 +835,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192748id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Newport-Beach.jpg",
+    "timestamp": "20261101192748",
+    "digest": "HWVZFMAVWMQVYVMFHDQ3X66GPIAN4LHY",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -783,13 +859,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 487,
-    "captured_at": "2026-11-01T16:32:51.819Z",
+    "captured_at": "2026-11-02T13:02:33.344Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Orange.jpg",
-    "response_sha256": "0c04626920c436e74cfda420d6170e86363dc6361aefaa2678bf4cec0c9e6ca4",
+    "response_sha256": "0c03b786e8452f6bacada8e397166236463bbbe6cbf4fdd8d5a8530ef6616418",
     "bytes": "public",
     "claims": [
      "captured",
@@ -798,7 +874,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192725id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Orange.jpg",
+    "timestamp": "20261101192725",
+    "digest": "UISO24OFAU6TJI44SMNXCBTCDDABONTD",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -817,13 +898,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 488,
-    "captured_at": "2026-11-01T16:32:53.593Z",
+    "captured_at": "2026-11-02T13:02:35.313Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Placentia.jpg",
-    "response_sha256": "474c01c0a3d0c52ab796d75814aee4061c4bc0be6cbf4ca6c274ea6a701e991b",
+    "response_sha256": "d47654f16034fddfc0a00381cd90fd69aef45a11920c34dfc3eb1dfdb8f7ad92",
     "bytes": "public",
     "claims": [
      "captured",
@@ -832,7 +913,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192741id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Placentia.jpg",
+    "timestamp": "20261101192741",
+    "digest": "LTOPUVYHXYH464TVI3J5H36ZLFQFH3EA",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -851,13 +937,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 489,
-    "captured_at": "2026-11-01T16:32:55.346Z",
+    "captured_at": "2026-11-02T13:02:37.296Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Rancho-Santa-Margarita.jpg",
-    "response_sha256": "fbcc07ce2d708d491823c0dac728fb583efdbace073c7c3e617a0d9fc4ca5405",
+    "response_sha256": "6ad75e8bda9718b3584e70ab6474b2568a3ea60b8ee48fbcecede131d0515cdc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -866,7 +952,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192808id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Rancho-Santa-Margarita.jpg",
+    "timestamp": "20261101192808",
+    "digest": "AKY6OJOINO5DOFVL2L4G2AQPMBYZOD4T",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -885,13 +976,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 490,
-    "captured_at": "2026-11-01T16:32:57.091Z",
+    "captured_at": "2026-11-02T13:02:39.303Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-San-Clemente.jpg",
-    "response_sha256": "4f8307be6f004287b216aa1da19457f119ed57633f40a3380e2e97e3bd012b22",
+    "response_sha256": "76d1879cf39cfa0cd332cb6e0c4aa555ff096733329cb6e7a9d0884d59a70e54",
     "bytes": "public",
     "claims": [
      "captured",
@@ -900,7 +991,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192824id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-San-Clemente.jpg",
+    "timestamp": "20261101192824",
+    "digest": "F27QWF6QUK5HHNA2Z2WQOZWR2TR76M2A",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -919,13 +1015,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 491,
-    "captured_at": "2026-11-01T16:32:58.844Z",
+    "captured_at": "2026-11-02T13:02:41.269Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-San-Juan-Capistrano.jpg",
-    "response_sha256": "a8b5010bb076c2095234ab47457fe7bb052b1af7f6cd897b332edd3067bc0e74",
+    "response_sha256": "8978600abf939fd1b32a51cdce932251606b0bf78e1f751af7b3e175ca47e091",
     "bytes": "public",
     "claims": [
      "captured",
@@ -934,7 +1030,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192840id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-San-Juan-Capistrano.jpg",
+    "timestamp": "20261101192840",
+    "digest": "PNLSSHHXP26IENJUKWPFAP7APFNWZH4N",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -953,13 +1054,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 494,
-    "captured_at": "2026-11-01T16:33:04.141Z",
+    "captured_at": "2026-11-02T13:02:47.176Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Stanton.jpg",
-    "response_sha256": "a5c90e265892d9cbf91576d1150a39477717d06aa0d4ee8dd86e25ba5bed36dc",
+    "response_sha256": "ed2ab56e751d2b6c4bea3de11345f62b1aa0bbda3609fd53d31b6305f2878afc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -968,7 +1069,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192906id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Stanton.jpg",
+    "timestamp": "20261101192906",
+    "digest": "7HIDYBTCZHXHFEZ7DD5DKFEJPXPODOC3",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -987,13 +1093,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 495,
-    "captured_at": "2026-11-01T16:33:05.901Z",
+    "captured_at": "2026-11-02T13:02:49.151Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Tustin.jpg",
-    "response_sha256": "4f99dd7ccc2c60c2d30922a377ec1727181fd129244d1fa2ebd595995063a7c6",
+    "response_sha256": "ffeb024660c55bcc784475a8f9a3cd307a68becd0ae44eade221fb288d67de82",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1002,7 +1108,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101192922id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Tustin.jpg",
+    "timestamp": "20261101192922",
+    "digest": "JCAVIDOYUH6Y2H7E4N34XECVJL5NSGOQ",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -1021,13 +1132,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 496,
-    "captured_at": "2026-11-01T16:33:07.649Z",
+    "captured_at": "2026-11-02T13:02:51.113Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Villa-Park.jpg",
-    "response_sha256": "f5893ae998c60ce787b7b9c4266402153cb1f0ba8beb28066b567ecb00554380",
+    "response_sha256": "c1b0af13311ee2d08cd04e0479381e1aeabb28f188bba4510a57c0c19f0ec15e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1036,7 +1147,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193013id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Villa-Park.jpg",
+    "timestamp": "20261101193013",
+    "digest": "436QOP6JXWX7BF5P4TBRHX3CVQ7E7SVT",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -1055,13 +1171,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 497,
-    "captured_at": "2026-11-01T16:33:09.425Z",
+    "captured_at": "2026-11-02T13:02:53.063Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Westminster.jpg",
-    "response_sha256": "bc64ff6b0bdaf462202024b27911e07a7fcef1211cc59d6a5310626c53570735",
+    "response_sha256": "c38111ce079a03fb2b1dfdd28d715d5f34787fb6601da31b9f3f71898b17c546",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1094,13 +1210,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 498,
-    "captured_at": "2026-11-01T16:33:11.202Z",
+    "captured_at": "2026-11-02T13:02:55.016Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Yorba-Linda.jpg",
-    "response_sha256": "8e34a38746530bfac36ee6c3c1c61608063640c194aa2a1ebffd0f6d57e19707",
+    "response_sha256": "63e4ba6d20efdf5c07c5eb52d40de7526c0fdca8989e9bf6897c8da887d43473",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1109,7 +1225,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193005id_/https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Yorba-Linda.jpg",
+    "timestamp": "20261101193005",
+    "digest": "3SPHNN7BMTJBNULYSFRX7VATXOGKTHR4",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -1128,13 +1249,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 467,
-    "captured_at": "2026-11-01T16:32:16.688Z",
+    "captured_at": "2026-11-02T13:01:53.526Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Brea.jpg",
-    "response_sha256": "0d4938d3fbd65d05d6dc1677a8aac4fcd66bd5809311a9744dfd657c9790c370",
+    "response_sha256": "494580eb285f4993ac3ff2db7efccc1adbbb1eb12affb0ec29a56b26747d82f1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1167,13 +1288,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 469,
-    "captured_at": "2026-11-01T16:32:20.210Z",
+    "captured_at": "2026-11-02T13:01:57.510Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Costa-Mesa.jpg",
-    "response_sha256": "d32d99c0a49fd5f458ce110c980a98e4684a97e5bebd112b6013d67d6651c18e",
+    "response_sha256": "f470038678a83505823454ba89092395556c5f9fda2fcb52e7f995ec6b5544fd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1206,13 +1327,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 492,
-    "captured_at": "2026-11-01T16:33:00.617Z",
+    "captured_at": "2026-11-02T13:02:43.229Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Santa-Ana.jpg",
-    "response_sha256": "fe15f36b1c57de9d75e6cb8f32e3f8c435ec27dc68d395352fdef5b285a321ce",
+    "response_sha256": "984eac372d5bbed16cdd774dec45f1cbbb63e6819ddf9e93426220c89a57cfbd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1245,13 +1366,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 485,
-    "captured_at": "2026-11-01T16:32:48.307Z",
+    "captured_at": "2026-11-02T13:02:29.311Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Mission-Viejo.jpg",
-    "response_sha256": "e6695af190b37d158f583e3a0dcdbac5975e0b90d252b40ef8c49dd9a05d442d",
+    "response_sha256": "6fb3bb8bfa07754059732a417932acceb924ce6734c9529a52fc53a9a1f1799c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1284,13 +1405,13 @@
     "org_host": "orangecountydemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 493,
-    "captured_at": "2026-11-01T16:33:02.378Z",
+    "captured_at": "2026-11-02T13:02:45.211Z",
     "status": 200,
     "error": null,
     "final_url": "https://orangecountydemocrats.com/wp-content/uploads/2026/10/Voter-Guide-Seal-Beach.jpg",
-    "response_sha256": "dad4526e0be68bb5531b659f746726f4f21cb5af0ff17c0b2ab210300b527ab0",
+    "response_sha256": "cdbd30076046f5938eeca7cfcced3b1d2258b92c78bab6d1912c6f4e598259a7",
     "bytes": "public",
     "claims": [
      "captured",

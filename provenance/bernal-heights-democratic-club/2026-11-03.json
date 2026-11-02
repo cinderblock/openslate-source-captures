@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://bhdemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "bhdemocrats.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 36,
-    "captured_at": "2026-11-01T16:31:32.489Z",
+    "captured_at": "2026-11-02T13:00:57.749Z",
     "status": 200,
     "error": null,
     "final_url": "https://bhdemocrats.org/index.php/endorsements-november-2026/",
-    "response_sha256": "66efb7b76b702d923817a6b94dee0fc2935a094ac9ac4f6b11ef935c9a4425d3",
+    "response_sha256": "e06fa0902978da0ed4c482a1050dcb6aefb16d1a515cb510da491cecddbbcdca",
     "bytes": "public",
     "claims": [
      "captured",
@@ -77,13 +78,13 @@
     "org_host": "bhdemocrats.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 37,
-    "captured_at": "2026-11-01T16:31:35.687Z",
+    "captured_at": "2026-11-02T13:00:59.408Z",
     "status": 200,
     "error": null,
     "final_url": "https://bhdemocrats.org/wp-content/uploads/2026/10/image.png",
-    "response_sha256": "4304703b9cf5015290fbf0ff9cc283d13fd4cfa7562850afcdf1bb6ac6e2704c",
+    "response_sha256": "303027440b96c7c25315ff63cc9edce7154ceb070fdf84ac211478e5ca183078",
     "bytes": "public",
     "claims": [
      "captured",
@@ -92,7 +93,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101191703id_/https://bhdemocrats.org/wp-content/uploads/2026/10/image.png",
+    "timestamp": "20261101191703",
+    "digest": "OCW47MDMCZDU5TB33MYSSM6YUJ6QRCE4",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

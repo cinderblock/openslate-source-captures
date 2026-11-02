@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.latimes.com/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 879,
-    "captured_at": "2026-11-01T16:33:23.072Z",
+    "captured_at": "2026-11-02T13:02:53.655Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
-    "response_sha256": "d4ddda1cad5a0ef1691fc97cabee34c3fdade9003ef1c057178aa031e52cc38a",
+    "response_sha256": "865127f2e77ce2a1c2914e98be21bdfbae99165cb7eb0922f7e32a616e207d64",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -74,13 +75,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 881,
-    "captured_at": "2026-11-01T16:33:26.521Z",
+    "captured_at": "2026-11-02T13:02:56.871Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/topic/editorials",
-    "response_sha256": "fc496af3fa7bd85c98b9b2cd7be6385c690206e6e6fc24960a266a416a2cc98d",
+    "response_sha256": "7e32c90cf070f8ab53a182f886e6462bd84d706fbf32481ea0efc4469d7b9f1b",
     "bytes": "withheld",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.actpasadena.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "actpasadena.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 798,
-    "captured_at": "2026-11-01T16:32:55.540Z",
+    "captured_at": "2026-11-02T13:02:25.208Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.actpasadena.org/endorsements",
-    "response_sha256": "c71847e46ab40e02d59ad9a25a5b9c212f25198826d382593019247e571c2325",
+    "response_sha256": "1af7fba08a74fbe4283c033f458ffbcc0dd775e3db2e178d632ede14b29a1c82",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.maldef.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "maldef.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 884,
-    "captured_at": "2026-11-01T16:33:21.520Z",
+    "captured_at": "2026-11-02T13:02:51.235Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.maldef.org/resources/california-2026-ballot-recommendations/",
-    "response_sha256": "6283bc91ec8ec7b0c0a3db9c67d8600f3f322c7eee3316e679bd45fc1bbbeafc",
+    "response_sha256": "9d650be8ab056f2797329a795f0400b0be28cede43a06fafa6e63bf6750a5a12",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://edcdems.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "edcdems.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 163,
-    "captured_at": "2026-11-01T16:31:46.162Z",
+    "captured_at": "2026-11-02T13:01:09.463Z",
     "status": 200,
     "error": null,
     "final_url": "https://edcdems.org/elections/",
-    "response_sha256": "bdb72c98e602f186d7b15bddcefd7d44a952bffe723b00954d1909b502ada983",
+    "response_sha256": "80c6bc99f46aa05bc688b06d19bf90009d60bb99e059b5c4890cd365f8db8b61",
     "bytes": "public",
     "claims": [
      "captured",
@@ -74,13 +75,13 @@
     "org_host": "edcdems.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 162,
-    "captured_at": "2026-11-01T16:31:44.402Z",
+    "captured_at": "2026-11-02T13:01:07.826Z",
     "status": 200,
     "error": null,
     "final_url": "https://edcdems.org/",
-    "response_sha256": "6af502fa4e09eb7a5e8795ee395c6741fb28063d2599bebc6251f177ef8e5d1a",
+    "response_sha256": "da3413cebc06cc11ff47a0d5967e383766d488eaba16a651941dededab164de4",
     "bytes": "public",
     "claims": [
      "captured",

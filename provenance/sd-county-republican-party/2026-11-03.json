@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sandiegorepublicans.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,26 +18,27 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
   {
    "url": "https://sandiegorepublicans.org/voter-guides/san-diego",
-   "positions": 149,
+   "positions": 150,
    "host": {
     "match": "exact",
     "host": "sandiegorepublicans.org",
     "org_host": "sandiegorepublicans.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 528,
-    "captured_at": "2026-11-01T16:32:22.126Z",
+    "captured_at": "2026-11-02T13:01:48.384Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sandiegorepublicans.org/voter-guides/san-diego",
-    "response_sha256": "acbc7ce60b75e98afbfddeb9fd41baeb20b24909978392ed72893e1b640cf791",
+    "response_sha256": "32d848cea044b81001da763d31a9fdeedf57c5c69a28f9c60b7e5b155b3fcde9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -60,7 +61,7 @@
    "derivation": {
     "kind": "anchored",
     "exact": 35,
-    "quoted_parts": 0,
+    "quoted_parts": 1,
     "unanchored": 0,
     "no_statement": 114
    }
@@ -74,13 +75,13 @@
     "org_host": "sandiegorepublicans.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 870,
-    "captured_at": "2026-11-01T16:33:21.176Z",
+    "captured_at": "2026-11-02T13:02:51.115Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-    "response_sha256": "4015e4d96584344104c52f0680392f7f210bed33b8e0c4a6e0f839d5e457d88a",
+    "response_sha256": "172610e35a07286dd6945783dc9491e45d07075e8371cbedb0bd164ba8d6ca48",
     "bytes": "withheld",
     "claims": [
      "captured",

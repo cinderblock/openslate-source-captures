@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://cbia.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 81,
-    "captured_at": "2026-11-01T16:31:36.681Z",
+    "captured_at": "2026-11-02T13:01:01.557Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/",
-    "response_sha256": "05fbaea166fc420084ad5f75607004ebf995a1239c1e0d2fc6dc894a52eabe4f",
+    "response_sha256": "8b319b98b739eca1404d3b8c3995c6579f000d1c5dec9efd89e4259e38e7b51c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -73,13 +74,13 @@
     "org_host": "cbia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 82,
-    "captured_at": "2026-11-01T16:31:39.367Z",
+    "captured_at": "2026-11-02T13:01:03.875Z",
     "status": 200,
     "error": null,
     "final_url": "https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
-    "response_sha256": "3d2d5b5aea2e0f69a1b4f4c5f864ada2c7f8665efd13686ea2bdc771f0b222cb",
+    "response_sha256": "c27d71d463f644f0a17df52daf67fbf9c0bcd0eca82340e5e5228fe1291d2bf5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -89,10 +90,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261020015653id_/https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
-    "timestamp": "20261020015653",
-    "digest": "AGXVVNJHJYX5J43PKECCL3FTVEKZ7M7F",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261102115243id_/https://cbia.org/wp-content/uploads/2026/09/Endorsement-Graphic-1.png",
+    "timestamp": "20261102115243",
+    "digest": "XF2F5QQB3OUFX7PT66HGHEHMUS37PD57",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "not-checkable",

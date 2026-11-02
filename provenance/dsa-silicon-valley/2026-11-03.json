@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://siliconvalleydsa.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "siliconvalleydsa.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 149,
-    "captured_at": "2026-11-01T16:31:45.527Z",
+    "captured_at": "2026-11-02T13:01:09.670Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/document/d/e/2PACX-1vQAtAN3xtKSl7Pkx34nNpJyypPlm_Zga45PZHEYVk6jNpwxcp0GDBFrLsU9wjTjliya6ZP0OrMkljEt/pub",
-    "response_sha256": "77e5cabd1fc66f9782689db7f6b1ed909be29015d02e2cb3e05abaa615e1edcd",
+    "response_sha256": "50beadd10b725b659364e4470bae83350ca1bc189e64d7479ed426bc82e313c8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -74,13 +75,13 @@
     "org_host": "siliconvalleydsa.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 557,
-    "captured_at": "2026-11-01T16:32:32.915Z",
+    "captured_at": "2026-11-02T13:01:59.290Z",
     "status": 200,
     "error": null,
     "final_url": "https://siliconvalleydsa.org/voters-guide/",
-    "response_sha256": "78b7d83d61b71d61260f038be1de8fd3194a60a4ace9b5bf7accf55a37eaf2d8",
+    "response_sha256": "c387da67998c8192442b9eab7cb96dd9f426af36d4788ae7d186c2982d404d54",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.sjgop.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
-    "index": 1139,
-    "captured_at": "2026-11-01T16:33:51.682Z",
+    "run": "2026-11-02T1300Z",
+    "index": 1140,
+    "captured_at": "2026-11-02T13:03:19.868Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sjgop.org/endorsements",
-    "response_sha256": "968cb3c7efa4b250babb3e2953d6720043497a3351d053c73e0e798dcce124c3",
+    "response_sha256": "f73e087485e423c381b8cc40a0731249d9c570e9b60ceed05fe4c61f4f42d0ba",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,9 +52,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031101857id_/https://www.sjgop.org/endorsements",
-    "timestamp": "20261031101857",
-    "digest": "QRLRJZVALOU6JCANQLCKCQEO6SFPATZL",
+    "url": "https://web.archive.org/web/20261102113915id_/https://www.sjgop.org/endorsements",
+    "timestamp": "20261102113915",
+    "digest": "TWN5IVHLON265W3CAHIPEBYBKU23RSHW",
     "origin": "requested",
     "statements": {
      "found": 0,
@@ -77,13 +78,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 614,
-    "captured_at": "2026-11-01T16:32:55.528Z",
+    "captured_at": "2026-11-02T13:02:23.229Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_1bd827b9d0be4905b1ceec6b71227d33~mv2.png",
-    "response_sha256": "1967ae7f5618aeef4f74e6fddf0435ee746db15d931bd5b34019c4462f597be7",
+    "response_sha256": "df11a60bb1338a34c5acbf2b52d7aa73612bb976f679efc2187ce8b397bdfda5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -92,7 +93,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193338id_/https://static.wixstatic.com/media/334d01_1bd827b9d0be4905b1ceec6b71227d33~mv2.png",
+    "timestamp": "20261101193338",
+    "digest": "XLUIJ6MKD4GSRNXXLLRVOZPXUC2XD7VP",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -111,13 +117,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 615,
-    "captured_at": "2026-11-01T16:32:57.176Z",
+    "captured_at": "2026-11-02T13:02:24.823Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_1cbdf10a2ae64bdab0a6bd430b917568~mv2.png",
-    "response_sha256": "b503d11689cc3fffa798df56a5a997a5635cc2ed2ea350a254313994acbcaa9f",
+    "response_sha256": "6f176ffd8d5105f9ee3ffb3955d63b8ebdd081ce09167b631e149443cad6a76d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -126,7 +132,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193438id_/https://static.wixstatic.com/media/334d01_1cbdf10a2ae64bdab0a6bd430b917568~mv2.png",
+    "timestamp": "20261101193438",
+    "digest": "IUGDVVDLVCT4NRXN2444AFBMWYYQTER4",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -145,13 +156,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 616,
-    "captured_at": "2026-11-01T16:32:58.815Z",
+    "captured_at": "2026-11-02T13:02:26.396Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_2c76a849eb7148beb0ca2fc0f6310e1c~mv2.png",
-    "response_sha256": "5ec51bd204ab209ee55793680b06210138268c0a85351bceb53fe21369e908a6",
+    "response_sha256": "c64e2bf189dbbecf773f0077c706758db6cdaa85f939f6d85912cebffb15953e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -160,7 +171,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193420id_/https://static.wixstatic.com/media/334d01_2c76a849eb7148beb0ca2fc0f6310e1c~mv2.png",
+    "timestamp": "20261101193420",
+    "digest": "QLX2SCQIGIC6A77YJCA4MWG6LRZTG7OB",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -179,13 +195,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 617,
-    "captured_at": "2026-11-01T16:33:00.476Z",
+    "captured_at": "2026-11-02T13:02:28.189Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_314010f01a9c47ac822495e6590fab86~mv2.png",
-    "response_sha256": "d8bcdebbbea95b293074a1fe9aef0fa0e30fa21ea4ad6d613b8e486a788484a6",
+    "response_sha256": "540288175e69e45f116f1e3f5cde54dd5cc99f2853a87dbfcfe7f168eb46dc9d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -194,7 +210,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193441id_/https://static.wixstatic.com/media/334d01_314010f01a9c47ac822495e6590fab86~mv2.png",
+    "timestamp": "20261101193441",
+    "digest": "ONGYBL6S3JC36FTHOTFLVST5E72YE2PO",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -213,13 +234,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 618,
-    "captured_at": "2026-11-01T16:33:02.121Z",
+    "captured_at": "2026-11-02T13:02:29.735Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_4b8f8fe58ed5460c8b80c7f12b59a66b~mv2.png",
-    "response_sha256": "60f79c64c7fcd82e7290ceffd459fdf6734c0bcf71faf262c3f5cc6f3c63414f",
+    "response_sha256": "a118f015ec4a762a3fb81cd9cf07c01132df66f65c0e2de50870c9abfde31467",
     "bytes": "public",
     "claims": [
      "captured",
@@ -228,7 +249,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193507id_/https://static.wixstatic.com/media/334d01_4b8f8fe58ed5460c8b80c7f12b59a66b~mv2.png",
+    "timestamp": "20261101193507",
+    "digest": "C5JFFQXRYYJHUYPZAQYWOIAPK5QKIOH4",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -247,13 +273,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 619,
-    "captured_at": "2026-11-01T16:33:03.776Z",
+    "captured_at": "2026-11-02T13:02:31.336Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_4fbe061e9ba04f6587bfd4a99e4ff9d6~mv2.png",
-    "response_sha256": "5ecd89efe57fbe28bca1c94c2b42354445f310ab545bd76cd374dba8e3e0631d",
+    "response_sha256": "f89467cbf07b0cc0d7aaac6e88cef1fde002a91a63ff39bf2c9cc577965a9060",
     "bytes": "public",
     "claims": [
      "captured",
@@ -262,7 +288,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101193523id_/https://static.wixstatic.com/media/334d01_4fbe061e9ba04f6587bfd4a99e4ff9d6~mv2.png",
+    "timestamp": "20261101193523",
+    "digest": "KRVG6BQHWPMJLHBW5ZMS2OGVLVWL5M4J",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -281,13 +312,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 620,
-    "captured_at": "2026-11-01T16:33:05.421Z",
+    "captured_at": "2026-11-02T13:02:33.083Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_53e941e6ddcc4b27a19098c9045e994b~mv2.png",
-    "response_sha256": "0bed2e23019b33ae6d3ee80931452c39cdd8e32ef419cebf56cece531f99e16c",
+    "response_sha256": "79d849efa9c0985c0e7d13e5d677db45ebed64d12b7891a00018a6138c5495a9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -296,7 +327,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230403id_/https://static.wixstatic.com/media/334d01_53e941e6ddcc4b27a19098c9045e994b~mv2.png",
+    "timestamp": "20261101230403",
+    "digest": "FRKBGFFWP7AKW4IDCWOJ53ZNEEUGU7CC",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -315,13 +351,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 621,
-    "captured_at": "2026-11-01T16:33:07.072Z",
+    "captured_at": "2026-11-02T13:02:34.691Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_76406639f05942fba49b365132b30a05~mv2.png",
-    "response_sha256": "702609cb8182a387c9d91604ee7d090d48e6afc556a19fa335717d4d25aa8af7",
+    "response_sha256": "f8700a1a54d40ba979d22d63c27211de687e8f28ce9d3af345041950e9ad984e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -330,7 +366,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230401id_/https://static.wixstatic.com/media/334d01_76406639f05942fba49b365132b30a05~mv2.png",
+    "timestamp": "20261101230401",
+    "digest": "5RLKECPDURZEHPRU6PIAGKTIEGFIJ57L",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -349,13 +390,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 622,
-    "captured_at": "2026-11-01T16:33:08.716Z",
+    "captured_at": "2026-11-02T13:02:36.342Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_76407815c9df42e3acca84317b78501a~mv2.png",
-    "response_sha256": "18de189bddf2bbd4608765331a11b33264d48a5eeaf8f08cbd85decd3f83c004",
+    "response_sha256": "f90c04708b45858d59bd65cfe4a17273c604bb91729f0761e0860a9cdf4ce745",
     "bytes": "public",
     "claims": [
      "captured",
@@ -364,7 +405,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230423id_/https://static.wixstatic.com/media/334d01_76407815c9df42e3acca84317b78501a~mv2.png",
+    "timestamp": "20261101230423",
+    "digest": "PHVHB327VV66WJ4OIJS6PA2IIZTPL3ZY",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -383,13 +429,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 623,
-    "captured_at": "2026-11-01T16:33:10.389Z",
+    "captured_at": "2026-11-02T13:02:37.888Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_8a933021a63e4c1694bacbf89c02c5bf~mv2.png",
-    "response_sha256": "23cefa13d13066fea05b7328ded4f5ba68947963e1f937b38af40745f1f9d523",
+    "response_sha256": "cfe96bed5bb1d2a318bd707e314861130b1e605848765d2936ad5038133ba94d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -398,7 +444,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230448id_/https://static.wixstatic.com/media/334d01_8a933021a63e4c1694bacbf89c02c5bf~mv2.png",
+    "timestamp": "20261101230448",
+    "digest": "PIHQDTB24ISV6JRHUPTALUQN5LMZKAGG",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -417,13 +468,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 624,
-    "captured_at": "2026-11-01T16:33:12.048Z",
+    "captured_at": "2026-11-02T13:02:39.464Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_9b35a9771db34b85bc3c7d4786312750~mv2.png",
-    "response_sha256": "c80480c1d1f7bf0a86233dde0bc358e1b162d73d3425d5eeb24c79eb1c6c7a33",
+    "response_sha256": "fc60ff4301974a82f3554604613c2e43e2a0497073b5f1d49a2e0fd1ca68ab65",
     "bytes": "public",
     "claims": [
      "captured",
@@ -432,7 +483,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230507id_/https://static.wixstatic.com/media/334d01_9b35a9771db34b85bc3c7d4786312750~mv2.png",
+    "timestamp": "20261101230507",
+    "digest": "BIS3K67A7WNSB4IKH7RSHSYUWXX62BO2",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -451,13 +507,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 625,
-    "captured_at": "2026-11-01T16:33:13.698Z",
+    "captured_at": "2026-11-02T13:02:41.129Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_9b410ea453d9472ea5c058851b043a3b~mv2.png",
-    "response_sha256": "6b3fbd7aa8888e0485583ae5865648ae925c99853800487e968fa6ea1b92f72c",
+    "response_sha256": "3e912444a8ef28f8645d83b5e15ea27d434dfffd4340e408b5b3a7d0409c662d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -466,7 +522,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230523id_/https://static.wixstatic.com/media/334d01_9b410ea453d9472ea5c058851b043a3b~mv2.png",
+    "timestamp": "20261101230523",
+    "digest": "EIBUDVYYDV6FKFHXBXS3FR26FGS4RWDP",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -485,13 +546,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 626,
-    "captured_at": "2026-11-01T16:33:15.354Z",
+    "captured_at": "2026-11-02T13:02:42.683Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_b550fbf5a4a44e30af204ad07cf08c9b~mv2.png",
-    "response_sha256": "25dd3972adc9dd2e45ba0e0f536b7fad87d2a825c779f87370ddee3675508e19",
+    "response_sha256": "61c50f98423ffab5d824bb05268aa0db9619a162bc895dbc56e624b18238839e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -500,7 +561,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230539id_/https://static.wixstatic.com/media/334d01_b550fbf5a4a44e30af204ad07cf08c9b~mv2.png",
+    "timestamp": "20261101230539",
+    "digest": "YOJVFAWK4MJ4XDPD2PAIK6DOB6DVNX2I",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -519,13 +585,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 627,
-    "captured_at": "2026-11-01T16:33:17.015Z",
+    "captured_at": "2026-11-02T13:02:44.535Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_c3b18a983fc14a57a2567b3ebcc337c7~mv2.png",
-    "response_sha256": "d4b316b92cea93d50dd9dde9eb48cbbc2bb8817a0e24e0be4422c5016db89465",
+    "response_sha256": "0e978571bea6aa8fca6279a7842a4d0aaa6143a09abf5e6dfaa3ca3ef0fdd223",
     "bytes": "public",
     "claims": [
      "captured",
@@ -534,7 +600,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230605id_/https://static.wixstatic.com/media/334d01_c3b18a983fc14a57a2567b3ebcc337c7~mv2.png",
+    "timestamp": "20261101230605",
+    "digest": "5HEWHC6M55VFPRI5WI33A24ILB5U2O2J",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -553,13 +624,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 628,
-    "captured_at": "2026-11-01T16:33:18.659Z",
+    "captured_at": "2026-11-02T13:02:46.100Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_cbf04195531043fba1fa0f88a79c42c7~mv2.png",
-    "response_sha256": "8a72cf1733c70cd8bb9c37ede9d83f7659f1bbd3a92e0a1b80b6f699b803172e",
+    "response_sha256": "4bb2db27b250f44bd8d8096f7dbb43c512ba5acd4ae98a9e106ebf836adba8f3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -568,7 +639,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230620id_/https://static.wixstatic.com/media/334d01_cbf04195531043fba1fa0f88a79c42c7~mv2.png",
+    "timestamp": "20261101230620",
+    "digest": "JM5TFOHUVNTKWGLQLCODD33WVQN4TFIX",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -587,13 +663,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 629,
-    "captured_at": "2026-11-01T16:33:20.322Z",
+    "captured_at": "2026-11-02T13:02:47.654Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_d3868e133e5f40ada85aceea5e48b0a8~mv2.png",
-    "response_sha256": "a3318e7ae6a1a32519a323a34ccad3d1d009f7e937fdbd5d3cd528a562a2b524",
+    "response_sha256": "558b1b60d4a5c300e67cace810f29cb2e988caf22e568234fa8abe6baac455c1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -602,7 +678,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230639id_/https://static.wixstatic.com/media/334d01_d3868e133e5f40ada85aceea5e48b0a8~mv2.png",
+    "timestamp": "20261101230639",
+    "digest": "32DJRCSAIOSQKLUSVUDWD73E4YBA4VOD",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -621,13 +702,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 630,
-    "captured_at": "2026-11-01T16:33:21.971Z",
+    "captured_at": "2026-11-02T13:02:49.211Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_d7ea50f62b424e2bbaac99f988762b3c~mv2.png",
-    "response_sha256": "249664b762f5be551949f36ecbdec53cfa1f094be29c03853055adcf40aef95c",
+    "response_sha256": "f3b36e828e8a5590f02b301ddbbde840b67054d75b67e94dc6b6d538bfd3c937",
     "bytes": "public",
     "claims": [
      "captured",
@@ -636,7 +717,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230705id_/https://static.wixstatic.com/media/334d01_d7ea50f62b424e2bbaac99f988762b3c~mv2.png",
+    "timestamp": "20261101230705",
+    "digest": "OHE3MKZQX52OAXWRWOLFEE7YXIT7QC5Z",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -655,13 +741,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 631,
-    "captured_at": "2026-11-01T16:33:23.629Z",
+    "captured_at": "2026-11-02T13:02:50.825Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_e40d6ad3680b41f1a033a6db11746b8d~mv2.png",
-    "response_sha256": "8f4b3c2b952b25e2ff25616c31e6d5d479ed117460258124ba3ec61aa4107468",
+    "response_sha256": "024bc35741b508bc1e2fa93eadbffca3f2fc5a5eef25394096f9e9f315f42903",
     "bytes": "public",
     "claims": [
      "captured",
@@ -670,7 +756,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230721id_/https://static.wixstatic.com/media/334d01_e40d6ad3680b41f1a033a6db11746b8d~mv2.png",
+    "timestamp": "20261101230721",
+    "digest": "JKWRMSCUFL7BR52WGQSWEGLQ3QSM55JL",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -689,13 +780,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 632,
-    "captured_at": "2026-11-01T16:33:25.322Z",
+    "captured_at": "2026-11-02T13:02:52.452Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_e67a3173cfe04ca3883c37cbdbae4e7d~mv2.png",
-    "response_sha256": "54e13ce5a80c727b449677a92ed2e35bf1af37ace9e036d450e178c0a2c3cb1b",
+    "response_sha256": "362502e2c6c68309057874003c58ff6e1e6c987b2878992f8e9717a0063a1fe2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -704,7 +795,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230739id_/https://static.wixstatic.com/media/334d01_e67a3173cfe04ca3883c37cbdbae4e7d~mv2.png",
+    "timestamp": "20261101230739",
+    "digest": "WCO6ZAGXVZWZMLN4ODM7ADCX7PJZ3ZYD",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -723,13 +819,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 633,
-    "captured_at": "2026-11-01T16:33:26.984Z",
+    "captured_at": "2026-11-02T13:02:54.011Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_e8f461d64553494da29c007803bfabd5~mv2.png",
-    "response_sha256": "3a3b71716783668af1c65759cd25fc2d3375286f5bf61a3afbea1cd120e44709",
+    "response_sha256": "43d9c2fa3e4fbe4430e55b4aa599aa0226d1fa6f84f15f057e536bf1f8fb538a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -738,7 +834,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230806id_/https://static.wixstatic.com/media/334d01_e8f461d64553494da29c007803bfabd5~mv2.png",
+    "timestamp": "20261101230806",
+    "digest": "TYUE5PYU5KGZEZEXZ5UZ5F6G5543VD5E",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -757,13 +858,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 634,
-    "captured_at": "2026-11-01T16:33:28.645Z",
+    "captured_at": "2026-11-02T13:02:55.582Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_e9b1af9852c64317bcb14d6eb955b2b7~mv2.png",
-    "response_sha256": "00b2c717eeb96d6499126ca97d1946fbcdd816eb6b334ff80e63fbec49f92442",
+    "response_sha256": "dc724bfbb6d8eb1ce638315085c4967c58c81cc410a48ee7efa9cf4caedf68ef",
     "bytes": "public",
     "claims": [
      "captured",
@@ -772,7 +873,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230822id_/https://static.wixstatic.com/media/334d01_e9b1af9852c64317bcb14d6eb955b2b7~mv2.png",
+    "timestamp": "20261101230822",
+    "digest": "PRNHIR66NC6NRAHWZRKPU75344GLNMEZ",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -791,13 +897,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 635,
-    "captured_at": "2026-11-01T16:33:30.287Z",
+    "captured_at": "2026-11-02T13:02:57.134Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_f47e2f92d03f4f45becb474e39bd9ce9~mv2.png",
-    "response_sha256": "ffe62aeb01b0de5593d9a1398d7fc910dbdd370e369102afd151d5f97a0e4f21",
+    "response_sha256": "f0906689d61d3f9ac38497084dca045299b9ec9dde0fe1b6e18d3a5e8e12f771",
     "bytes": "public",
     "claims": [
      "captured",
@@ -806,7 +912,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230838id_/https://static.wixstatic.com/media/334d01_f47e2f92d03f4f45becb474e39bd9ce9~mv2.png",
+    "timestamp": "20261101230838",
+    "digest": "SXWXX4L7XEVOW3EHB35QFGYIMVWXRFXV",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,
@@ -825,13 +936,13 @@
     "org_host": "sjgop.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 636,
-    "captured_at": "2026-11-01T16:33:31.929Z",
+    "captured_at": "2026-11-02T13:02:58.685Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/334d01_fed2539b7a664e77995c778d95fac3f3~mv2.png",
-    "response_sha256": "9f60fd76a35d0326f50eae2ce81ac494b477747989b146892a17939ebbcd0a24",
+    "response_sha256": "f45509f8071830dd98c372454206aadc7beeae5a47f4501aedd0df2f011c859b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -840,7 +951,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230906id_/https://static.wixstatic.com/media/334d01_fed2539b7a664e77995c778d95fac3f3~mv2.png",
+    "timestamp": "20261101230906",
+    "digest": "HZA4RA5R67HB5HE7NLA2YQRUL7RP56SY",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

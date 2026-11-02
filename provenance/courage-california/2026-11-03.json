@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://couragecalifornia.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 91,
-    "captured_at": "2026-11-01T16:31:39.566Z",
+    "captured_at": "2026-11-02T13:01:04.574Z",
     "status": 200,
     "error": null,
     "final_url": "https://couragecalifornia.org/2026-midterm-election-resources/",
-    "response_sha256": "7d9b2efb9b64ceca24858d83c2da0551eb05674fcfb3f5eadbe337a96fba363c",
+    "response_sha256": "ce0fea9a5c932a86d55f5b907fac5a8f1c03f17cef7a778a334c966f8545dfd1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -73,13 +74,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 943,
-    "captured_at": "2026-11-01T16:33:28.160Z",
+    "captured_at": "2026-11-02T13:02:58.292Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california",
-    "response_sha256": "3c064590eb7817c9b4cf46cabe7e7df553a0246cdc818e22bef1bb97d7d3372a",
+    "response_sha256": "3f5e2c7c5a1bf48d4d2fc81cb7baf92bc41645990638f5b1b260fe2992b27781",
     "bytes": "public",
     "claims": [
      "captured",
@@ -90,10 +91,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261026000422id_/https://www.progressivevotersguide.com/california",
-    "timestamp": "20261026000422",
-    "digest": "FWOUMKIICU25TVISC7DTQOVB6U3ROTDX",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261102024705id_/https://www.progressivevotersguide.com/california",
+    "timestamp": "20261102024705",
+    "digest": "DLTZPOVE35S4HU22OFTCKYTPMJEIIIPF",
+    "origin": "requested",
     "statements": {
      "found": 1,
      "of": 1
@@ -116,13 +117,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 92,
-    "captured_at": "2026-11-01T16:31:41.431Z",
+    "captured_at": "2026-11-02T13:01:06.207Z",
     "status": 200,
     "error": null,
     "final_url": "https://couragecalifornia.org/app/uploads/2026/10/V2C-Nov2026StatewideCVG.pdf",
-    "response_sha256": "b063fd4e342c10a97aec157442ff544a7d4bdda9a2cc5fc38d2c4d21b13669b6",
+    "response_sha256": "db162a7e520e6e20bf8dfaa6ed0d76fee5f50469ec356470c8ab2a0ba4f5a929",
     "bytes": "public",
     "claims": [
      "captured",
@@ -159,13 +160,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 197,
-    "captured_at": "2026-11-01T16:31:47.547Z",
+    "captured_at": "2026-11-02T13:01:10.820Z",
     "status": 403,
     "error": null,
     "final_url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf",
-    "response_sha256": "a23a77c514cae0260588cbc1810ae25f29c64c06e52b6540df42a3ede419d885",
+    "response_sha256": "3ace2ba900cdaed7bd5b8fbdeeb892ae1d846360539e9c4a600998cb161d7811",
     "bytes": "public",
     "claims": [
      "captured",
@@ -205,13 +206,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 970,
-    "captured_at": "2026-11-01T16:34:30.396Z",
+    "captured_at": "2026-11-02T13:04:02.303Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/losangeles",
-    "response_sha256": "cb3be4ebcbdcaf46a4f8e87d0c6a9657732a14031b84d900f820f419c8e80505",
+    "response_sha256": "fa4ae6065c74605bdda308d006215d69655aeee61d2234ba0e75d3e441232a87",
     "bytes": "public",
     "claims": [
      "captured",
@@ -222,10 +223,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031201125id_/https://www.progressivevotersguide.com/california/2026/general/county/losangeles",
-    "timestamp": "20261031201125",
-    "digest": "C45CVUS32IXIONMLTXT7QUUYDTDUTXPL",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261102032102id_/https://www.progressivevotersguide.com/california/2026/general/county/losangeles",
+    "timestamp": "20261102032102",
+    "digest": "7GWU3QAEGJGMLT7G6IVA7AVKNUMOHJAU",
     "statements": {
      "found": 1,
      "of": 1
@@ -248,13 +248,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 948,
-    "captured_at": "2026-11-01T16:33:40.336Z",
+    "captured_at": "2026-11-02T13:03:11.041Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/burbank",
-    "response_sha256": "73f5a2df7f3de9ef974b18886e05325e8fbe5cb01a3c2f7bd29d678abf16e689",
+    "response_sha256": "2e3fd341204e20fdd9dce3445f882bf1ea021ff8d82a6bf33a5ba5fca3e94332",
     "bytes": "public",
     "claims": [
      "captured",
@@ -291,13 +291,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 968,
-    "captured_at": "2026-11-01T16:34:25.476Z",
+    "captured_at": "2026-11-02T13:03:57.629Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/westhollywood",
-    "response_sha256": "ed6ccad5fd29d0a739c20f900773327e161b483225237f3be3e306cb06d8f708",
+    "response_sha256": "6077ff292805100e510f62a80b6f779ebb991fed9194ace22e8c0c89e871d313",
     "bytes": "public",
     "claims": [
      "captured",
@@ -327,20 +327,20 @@
   },
   {
    "url": "https://www.progressivevotersguide.com/california/2026/general/county/orange",
-   "positions": 2,
+   "positions": 3,
    "host": {
     "match": "hosted-elsewhere",
     "host": "progressivevotersguide.com",
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 971,
-    "captured_at": "2026-11-01T16:34:33.612Z",
+    "captured_at": "2026-11-02T13:04:05.315Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/orange",
-    "response_sha256": "bba2d1f24776eb272051c93371379f903d14c3192074041c4f93d261d325588c",
+    "response_sha256": "429c32d8a0e79911b8df43ee184127a3b7bd10498772e57b1341ebb93504627c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -350,18 +350,17 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031201323id_/https://www.progressivevotersguide.com/california/2026/general/county/orange",
-    "timestamp": "20261031201323",
-    "digest": "7GWDZMSLFADRTBCOLILPBMUSUNFB76YT",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261102032102id_/https://www.progressivevotersguide.com/california/2026/general/county/orange",
+    "timestamp": "20261102032102",
+    "digest": "JLKITMVDWJTCQB56LO5FAJ5Z3RNFQP2Q",
     "statements": {
-     "found": 1,
-     "of": 2
+     "found": 2,
+     "of": 3
     }
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 1,
+    "exact": 2,
     "quoted_parts": 0,
     "unanchored": 1,
     "no_statement": 0
@@ -376,13 +375,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 944,
-    "captured_at": "2026-11-01T16:33:31.174Z",
+    "captured_at": "2026-11-02T13:03:01.398Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/alisoviejo",
-    "response_sha256": "34c0c832ecc4b126df3eb821bb1d30cdec5fe1aed0caa13eb299da2e7ccf3764",
+    "response_sha256": "ba72ef65abfefd704880680fde47570c8e0c805623cc7797c9b6b37d1736ad8e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -393,10 +392,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031202033id_/https://www.progressivevotersguide.com/california/2026/general/city/alisoviejo",
-    "timestamp": "20261031202033",
-    "digest": "EISKEEODDHGQ3JAMK5THNKACMXELB5FK",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261015130046id_/https://www.progressivevotersguide.com/california/2026/general/city/alisoviejo",
+    "timestamp": "20261015130046",
+    "digest": "4ERYXRXH6IH44AQGNXAHT4BRSVKRIHPK",
+    "origin": "existing",
     "statements": {
      "found": 2,
      "of": 2
@@ -419,13 +418,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 945,
-    "captured_at": "2026-11-01T16:33:33.327Z",
+    "captured_at": "2026-11-02T13:03:03.773Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/anaheim",
-    "response_sha256": "a743a6cf7de60dae4bd3f867fc946f4111cc07e595ecd0c8ddd1e25e31e66aad",
+    "response_sha256": "52dec4d9ffa7d015d1f0d39f3744b9478da66e272e67e2df2c5cba24534cbb05",
     "bytes": "public",
     "claims": [
      "captured",
@@ -436,10 +435,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031201514id_/https://www.progressivevotersguide.com/california/2026/general/city/anaheim",
-    "timestamp": "20261031201514",
-    "digest": "KVYPCI5BUKNBBWUJUXK4SN3IGZ7HOV3E",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261015124254id_/https://www.progressivevotersguide.com/california/2026/general/city/anaheim",
+    "timestamp": "20261015124254",
+    "digest": "DBPJ4VGHA4MOPAM3IYA35PWLPS7DJBIQ",
+    "origin": "existing",
     "statements": {
      "found": 3,
      "of": 3
@@ -462,13 +461,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 952,
-    "captured_at": "2026-11-01T16:33:49.239Z",
+    "captured_at": "2026-11-02T13:03:20.368Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/fullerton",
-    "response_sha256": "0e7ab548164a48df3b9f072614acabbe01bcc7526e96385158fdf093b76d7fb0",
+    "response_sha256": "9b1c38086f3fad8fa618c1a542e0f0fa615ece5f054a05a6e9723fb2ec48c3bb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -505,13 +504,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 953,
-    "captured_at": "2026-11-01T16:33:51.484Z",
+    "captured_at": "2026-11-02T13:03:22.776Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/gardengrove",
-    "response_sha256": "8569df35896cd47a7b110f1a32f3fa8d505d80b60ea1462fb7d58cd1a4c5b5d0",
+    "response_sha256": "6d98bbce2ceb44d24cddfc79f982f6befe063c4c9754d0dc97fa03cb716fd70f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -548,13 +547,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 954,
-    "captured_at": "2026-11-01T16:33:53.743Z",
+    "captured_at": "2026-11-02T13:03:25.113Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/irvine",
-    "response_sha256": "b10847ad933f5ea0165e54062aea5d9827a95d2c708c415965c7baafd6523b64",
+    "response_sha256": "f71de3f0a1e552f2359fbdf33f0735aa254486a3357d62f4363ed1339b344e1a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -565,10 +564,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031201700id_/https://www.progressivevotersguide.com/california/2026/general/city/irvine",
-    "timestamp": "20261031201700",
-    "digest": "RYVBFGDEGVTDTYVJQSOITNMOYKWVIWEZ",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261015125809id_/https://www.progressivevotersguide.com/california/2026/general/city/irvine",
+    "timestamp": "20261015125809",
+    "digest": "EAOCBNOSYV3CEN5C4QDK45ZJGOUFQEN2",
+    "origin": "existing",
     "statements": {
      "found": 3,
      "of": 3
@@ -591,13 +590,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 965,
-    "captured_at": "2026-11-01T16:34:18.415Z",
+    "captured_at": "2026-11-02T13:03:50.647Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/santaana",
-    "response_sha256": "c73850a781cb7c91019255f46b654737c5467678c0398f33ee5b6dc74b45bb07",
+    "response_sha256": "51a2744b7014ff79d6ee443cd3443cb9825802a77a1ed9306651d7437ab3f4ff",
     "bytes": "public",
     "claims": [
      "captured",
@@ -634,13 +633,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 967,
-    "captured_at": "2026-11-01T16:34:23.512Z",
+    "captured_at": "2026-11-02T13:03:55.301Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/stanton",
-    "response_sha256": "efd57c5708aa394cf7d07f00296844c9aedffa3c07f411d8d6ec4d81789d0451",
+    "response_sha256": "b2632a8614b798bb4738d44e1b2f49050fe29de46ed16418424d806b7d334a33",
     "bytes": "public",
     "claims": [
      "captured",
@@ -677,13 +676,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 975,
-    "captured_at": "2026-11-01T16:34:44.169Z",
+    "captured_at": "2026-11-02T13:04:16.307Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/sandiego",
-    "response_sha256": "0ef15692e77ba14a965255ec4fba8b4545a77e937380eb0c2db6221769d6d278",
+    "response_sha256": "983c276da14a8edb50253e7647644b2c76d90c00f07b31abcc7bc70e874ebe4b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -720,13 +719,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 949,
-    "captured_at": "2026-11-01T16:33:42.560Z",
+    "captured_at": "2026-11-02T13:03:13.428Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/elcajon",
-    "response_sha256": "ad32a8b9f14720c7e3e0432c299d54a890e7f8ce6df8a9b3b8f7584e7d1961e2",
+    "response_sha256": "a739905b429564c264ccd84fd421c34631b453ec67f59c901aab1374a009c2e8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -763,13 +762,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 957,
-    "captured_at": "2026-11-01T16:33:59.976Z",
+    "captured_at": "2026-11-02T13:03:32.032Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/nationalcity",
-    "response_sha256": "13f92452e87c8ba5b05952253218809e1e3491be2892bb22cc200d0c8bdb4213",
+    "response_sha256": "bbf556a3c2e4dc9a94af722dd20a14c20d0cc33bbd48c49780bb9f5fc8625168",
     "bytes": "public",
     "claims": [
      "captured",
@@ -806,13 +805,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 959,
-    "captured_at": "2026-11-01T16:34:04.294Z",
+    "captured_at": "2026-11-02T13:03:36.839Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/oceanside",
-    "response_sha256": "60580aaaa1e1f85fafbc55fb22f3558b8b87251a5e2b877d62ed8c705f0ff60c",
+    "response_sha256": "a59ad27d6dd80906ee8475f171e80d758df4e2e372c300199d60c8b8d51eaaba",
     "bytes": "public",
     "claims": [
      "captured",
@@ -849,13 +848,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 963,
-    "captured_at": "2026-11-01T16:34:13.513Z",
+    "captured_at": "2026-11-02T13:03:45.860Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/sandiego",
-    "response_sha256": "f4a41c3a997044128a94bc474a0ef1d7f36449f1ab48bbbc0d0147be449d6acf",
+    "response_sha256": "e11ab521d2200c3f86321fa9b4d181d4c682d398859b975a4d31a66f72739a83",
     "bytes": "public",
     "claims": [
      "captured",
@@ -866,10 +865,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031202441id_/https://www.progressivevotersguide.com/california/2026/general/city/sandiego",
-    "timestamp": "20261031202441",
-    "digest": "R6YCYFKMFMNXYMP6A7LZ6GQTUG7RTWWS",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261015130458id_/https://www.progressivevotersguide.com/california/2026/general/city/sandiego",
+    "timestamp": "20261015130458",
+    "digest": "4DG6S63GYVPTXM37XFUYBRTB4T4V5ZGY",
+    "origin": "existing",
     "statements": {
      "found": 3,
      "of": 3
@@ -892,13 +891,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 958,
-    "captured_at": "2026-11-01T16:34:02.203Z",
+    "captured_at": "2026-11-02T13:03:34.469Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/oakland",
-    "response_sha256": "3d1dead1d8fc369d7bc85f0b1c60bed7ab9c2c3ae6966e4a7ccfe260d4523be1",
+    "response_sha256": "3f2d82049a87eddb06cbc6c6298408c135148ffa0d36fd1efe941b1a95184720",
     "bytes": "public",
     "claims": [
      "captured",
@@ -935,13 +934,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 946,
-    "captured_at": "2026-11-01T16:33:35.568Z",
+    "captured_at": "2026-11-02T13:03:06.114Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/antioch",
-    "response_sha256": "6c0093bdf542f80322f1c15742d717d0c80c5e2789e2d9514c0eb545a50a3e42",
+    "response_sha256": "1cf9e40902fecf15e52bb91b01d0c9f1871c1643863a2908c0c0d7b9a0c8e541",
     "bytes": "public",
     "claims": [
      "captured",
@@ -978,13 +977,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 961,
-    "captured_at": "2026-11-01T16:34:09.293Z",
+    "captured_at": "2026-11-02T13:03:41.364Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/richmond",
-    "response_sha256": "21dc4d6a7d8933752d7f4593dc30dbf3dfcab7dd35ec5417eeac2cddcfa51150",
+    "response_sha256": "f8057f54cf4d26ca4d0d2fe773b66233417f8c3b97d445cf3629519b2be024d7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1021,13 +1020,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 950,
-    "captured_at": "2026-11-01T16:33:44.692Z",
+    "captured_at": "2026-11-02T13:03:15.781Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/fairfield",
-    "response_sha256": "caee5a61e9f1198c677f838b00144cee0de28673687344d5e91cb91ce64f47d0",
+    "response_sha256": "e83acc45a1936eca245d9de592f4340563c3180b967b4f733809053a8267e3fb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1064,13 +1063,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 969,
-    "captured_at": "2026-11-01T16:34:27.930Z",
+    "captured_at": "2026-11-02T13:03:59.869Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/fresno",
-    "response_sha256": "e74cc9aeb58787f813f7e2ce9f544302c80849d6ea54cfb0b6896a09fb677f4f",
+    "response_sha256": "3119ea396009f6e4464f4e325b3027bec5694c4ad6fe85c528d7391120b60604",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1081,10 +1080,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031201053id_/https://www.progressivevotersguide.com/california/2026/general/county/fresno",
-    "timestamp": "20261031201053",
-    "digest": "DIJ5RQ7HHZK7O5NUGTZD6SQWUSHY2GCG",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261102032102id_/https://www.progressivevotersguide.com/california/2026/general/county/fresno",
+    "timestamp": "20261102032102",
+    "digest": "FH2QAXCBC5T4SLKAHQ2UCMSNDCLH63FR",
     "statements": {
      "found": 1,
      "of": 1
@@ -1107,13 +1105,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 951,
-    "captured_at": "2026-11-01T16:33:46.822Z",
+    "captured_at": "2026-11-02T13:03:17.900Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/fresno",
-    "response_sha256": "1462d8df37c8df28c3f592938188d646155cbbe0886ea98b46ff267c81d3fe79",
+    "response_sha256": "19eda473783ca2338b675b3184fdeacee0b4bb35b997df1eb345b529b93d41f6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1150,13 +1148,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 947,
-    "captured_at": "2026-11-01T16:33:38.093Z",
+    "captured_at": "2026-11-02T13:03:08.627Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/bakersfield",
-    "response_sha256": "28b861fa529e2541d7845dd912879784ef4ddc89dc51ea596cfb99161959de05",
+    "response_sha256": "8443baeae2d442ae7cc8c826f2feec542797c70cc5f5e2ae7a94b3cba6156f94",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1193,13 +1191,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 964,
-    "captured_at": "2026-11-01T16:34:15.900Z",
+    "captured_at": "2026-11-02T13:03:48.310Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/sanjose",
-    "response_sha256": "be8d776563faceea1e99e36aa59b3d1198f40a1786a7d5a66b1693ad99f54e96",
+    "response_sha256": "28fb0c754d82320e6e7b9ba9bf29cb29904d368a315f66ba1d14d9fb38851be9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1236,13 +1234,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 966,
-    "captured_at": "2026-11-01T16:34:21.192Z",
+    "captured_at": "2026-11-02T13:03:53.101Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/santamaria",
-    "response_sha256": "447bd8432c1413e16b075c5617441886fc6ff88b7a390b56c834874ffa28e3ec",
+    "response_sha256": "8f7939d2352a39b8c710336d374c3500b91bba1bad663f2b1faec8febdf14031",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1279,13 +1277,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 955,
-    "captured_at": "2026-11-01T16:33:55.849Z",
+    "captured_at": "2026-11-02T13:03:27.486Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/modesto",
-    "response_sha256": "080dd300ac19f4c7c8f77b7d1c3b66018cb22618c2eb4a90b845f80dc3d84d41",
+    "response_sha256": "46bd53ac0baff311f78965c408ffe9d0ec9b028a5d328aad69c996d3443b0cbb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1322,13 +1320,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 976,
-    "captured_at": "2026-11-01T16:34:47.087Z",
+    "captured_at": "2026-11-02T13:04:18.845Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/ventura",
-    "response_sha256": "ce18e73853da3616687fae3a5201580e973f747b8ab99ed96f6b2a9d718e11b8",
+    "response_sha256": "e3df96044d218e9049add1d9c461cdbb0957562b4b04b6ec3b0dd65ada583b7d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1365,13 +1363,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 972,
-    "captured_at": "2026-11-01T16:34:36.112Z",
+    "captured_at": "2026-11-02T13:04:08.038Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/riverside",
-    "response_sha256": "4afe3ffa035c33a78aa181a78ef619e4744a821fbc2dfa4d7b7d8517f0cbbad4",
+    "response_sha256": "924a8a60a42e0f81665fef217c84183ddc1a2fc622127fdf334fe9b212e7225d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1408,13 +1406,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 956,
-    "captured_at": "2026-11-01T16:33:57.815Z",
+    "captured_at": "2026-11-02T13:03:29.759Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/morenovalley",
-    "response_sha256": "bb09c0d2b5aaa31714be4b4c19246af40bef7878300723b49efedaa23ca251b9",
+    "response_sha256": "fdb1ced5696e385c56e6bfff4b2cfd3d0a683aa53cdac10114ef080b3cb17bfb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1451,13 +1449,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 973,
-    "captured_at": "2026-11-01T16:34:38.887Z",
+    "captured_at": "2026-11-02T13:04:11.257Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/sacramento",
-    "response_sha256": "ba2263b5cbc0f3e52c7b0e5c04cbf425e29399f3955de0a49c061defee70c086",
+    "response_sha256": "3a02c222918f2118a15c3ae3e817123e5d4efe29a1c2a6dde5f5cb5168a238ad",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1494,13 +1492,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 974,
-    "captured_at": "2026-11-01T16:34:41.251Z",
+    "captured_at": "2026-11-02T13:04:13.794Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/sanbernardino",
-    "response_sha256": "8d9037e5727f8dc39d260519142da572644e5a7305b95fc7f53da29511e98977",
+    "response_sha256": "18fb8f271517b21822b196cdc08b7670c001b5b5867bf8682bdf7f6753697f21",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1537,13 +1535,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 960,
-    "captured_at": "2026-11-01T16:34:06.914Z",
+    "captured_at": "2026-11-02T13:03:38.981Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/ranchocucamonga",
-    "response_sha256": "db47a964fedb446db605b87e4c2c918e8d6bb0dab911c6cc9fc3071049f0dd14",
+    "response_sha256": "7e35757d8d4512dfc9c3387fafe7e891ee3bb6b5699fe4f97c8660f27579b63a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1554,10 +1552,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031202122id_/https://www.progressivevotersguide.com/california/2026/general/city/ranchocucamonga",
-    "timestamp": "20261031202122",
-    "digest": "3QSTJGDSSGXG5H6PVV5RS6HVKEFESPZD",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261015130238id_/https://www.progressivevotersguide.com/california/2026/general/city/ranchocucamonga",
+    "timestamp": "20261015130238",
+    "digest": "CZNBI7MSAAGSXV43JZ6GC5ODJVWBVTGL",
+    "origin": "existing",
     "statements": {
      "found": 1,
      "of": 1
@@ -1580,13 +1578,13 @@
     "org_host": "couragecalifornia.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 962,
-    "captured_at": "2026-11-01T16:34:11.350Z",
+    "captured_at": "2026-11-02T13:03:43.649Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/sanbernardino",
-    "response_sha256": "80e5318529a09004da0e6d8a64ed33b390481a13721821b4166eb27766c2e629",
+    "response_sha256": "4c59b4bcc61c08108c94da7ef8cc92f3faf7c3b1e1a1ed550bb712dde7b0958a",
     "bytes": "public",
     "claims": [
      "captured",

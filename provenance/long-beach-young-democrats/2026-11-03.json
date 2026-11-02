@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 39,
-    "captured_at": "2026-11-01T16:31:34.814Z",
+    "captured_at": "2026-11-02T13:00:59.676Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "64196bc6100b988e305ae15d4599251d4327edbfafcc8793bfa6978755a8ef32",
+    "response_sha256": "85a7fd924fd6beeb35d8da1ff0a47fbc2b55c2ad5338c27bb7ecee3078fa0c9c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -74,13 +75,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 867,
-    "captured_at": "2026-11-01T16:33:17.057Z",
+    "captured_at": "2026-11-02T13:02:47.275Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "50ac24eef5cc1292efb637b381d48882731d4c6f40ce916cf44df2d0e52990eb",
+    "response_sha256": "58c6897b39e5cc52027c5ac0b0e90aa7e775ed9b1ae2de3c3343801d534cf267",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -89,7 +90,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "eb69e17878162d3f36fb6001e42c4cca6ecf983f4d2c34c68448915d86232d67"
+     "dom_sha256": "5100994d4650ba04d1840f669eee129227f4af988a5ce4fc66b9a04a4c1efe3a"
     }
    },
    "last_ok": null,

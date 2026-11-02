@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.marinij.com/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "marinij.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 885,
-    "captured_at": "2026-11-01T16:33:22.829Z",
+    "captured_at": "2026-11-02T13:02:52.570Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
-    "response_sha256": "4d96c315b9b7a8e84f5c106188a86a4721537095d4dc4df34eac22a21b4bdd88",
+    "response_sha256": "b94e21411bf12892b010951726883919f5670be5a320fa18cbf1f83876b1f5a4",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -48,10 +49,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261023064139id_/https://www.marinij.com/2026/10/16/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
-    "timestamp": "20261023064139",
-    "digest": "YZEOT3U5JW6DREEIBIBYECE2QMW5YT43",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261101191351id_/https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
+    "timestamp": "20261101191351",
+    "digest": "2NJHMQ2QGEK6RCFHKUMGQZ62VY7PCUXP",
+    "origin": "requested",
     "statements": {
      "found": 33,
      "of": 33
@@ -74,13 +75,13 @@
     "org_host": "marinij.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 886,
-    "captured_at": "2026-11-01T16:33:24.454Z",
+    "captured_at": "2026-11-02T13:02:54.188Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
-    "response_sha256": "9f70b69bebee50351578a0273d21b1ff6f4341d7f91d33b594f06420d8c7c971",
+    "response_sha256": "3029db1f8b31dc679f8cdbfaa22e4341115dc19bf07a48f02365d635a7a0f6ea",
     "bytes": "withheld",
     "claims": [
      "captured",

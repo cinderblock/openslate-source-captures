@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.theleaguesf.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "theleaguesf.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
-    "index": 1158,
-    "captured_at": "2026-11-01T16:33:59.668Z",
+    "run": "2026-11-02T1300Z",
+    "index": 1159,
+    "captured_at": "2026-11-02T13:03:27.082Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.theleaguesf.org/june_2026_endorsements",
-    "response_sha256": "49501374ade5395e11f787cb23b17b9815d274f8b7b513ecb10b34796d1b955b",
+    "response_sha256": "5721acec0399b6d133e578414daac2970535ad0e5a297447916d1195e3b9b9af",
     "bytes": "public",
     "claims": [
      "captured",
@@ -60,10 +61,10 @@
     ]
    },
    "archived": {
-    "url": "https://web.archive.org/web/20261023170734id_/https://www.theleaguesf.org/june_2026_endorsements",
-    "timestamp": "20261023170734",
-    "digest": "FKFXNEFYRPEUAJJWZ2OG6VM5B2ZYRTLF",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261101191411id_/https://www.theleaguesf.org/june_2026_endorsements",
+    "timestamp": "20261101191411",
+    "digest": "JKIP7URWUYQZN5WEZZATIVQRIBZX7WNC",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

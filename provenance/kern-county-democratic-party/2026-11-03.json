@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.kerndemocrats.com/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "kerndemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 868,
-    "captured_at": "2026-11-01T16:33:17.754Z",
+    "captured_at": "2026-11-02T13:02:47.360Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kerndemocrats.com/",
-    "response_sha256": "30b70cc5b7ce8b6e071509fc6710bfc3ed8ddbca3c9022fadfc05900d65e809c",
+    "response_sha256": "f7b4fea9c7c7ee62884290f69205b24f3a1fc110bf3ffcb2bf0cdb2de1fa8384",
     "bytes": "public",
     "claims": [
      "captured",
@@ -73,13 +74,13 @@
     "org_host": "kerndemocrats.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 637,
-    "captured_at": "2026-11-01T16:33:33.573Z",
+    "captured_at": "2026-11-02T13:03:00.228Z",
     "status": 200,
     "error": null,
     "final_url": "https://static.wixstatic.com/media/48caea_ce0917ace2134ce29357121dbda3139f~mv2.jpeg",
-    "response_sha256": "292692cece3f2302559537e37a989165527ae09259a9dc0c5d84923114f7f487",
+    "response_sha256": "1d00e9a1b2c13e6cb6e2946b574e146f6a0a5887be2e8e1c96e965fece207142",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,7 +89,12 @@
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261101230922id_/https://static.wixstatic.com/media/48caea_ce0917ace2134ce29357121dbda3139f~mv2.jpeg",
+    "timestamp": "20261101230922",
+    "digest": "QCABSAJWISESNE7NJT74F3IF6FLPF2PG",
+    "origin": "requested"
+   },
    "derivation": {
     "kind": "not-checkable",
     "exact": 0,

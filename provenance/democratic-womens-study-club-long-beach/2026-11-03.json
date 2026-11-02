@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/DWSCLB",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 38,
-    "captured_at": "2026-11-01T16:31:32.609Z",
+    "captured_at": "2026-11-02T13:00:57.764Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "adfdae62f093e62deda30ca57c1272bb932686a09dcfdb08ba5bd047844787a6",
+    "response_sha256": "d2f9fc684337384a9327a82c9fb413ef21dba0b6a037426794f57585b5c9d9e0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -74,13 +75,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 854,
-    "captured_at": "2026-11-01T16:33:12.966Z",
+    "captured_at": "2026-11-02T13:02:42.284Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "20a8acdd2cd0bc263c10ca866984ba43b26c5cd9d2aeb0500939782e524b1805",
+    "response_sha256": "75461d5d6ef3d603a3a12fb6c243733dbcc087e13afa806d343b39f863dba516",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -89,7 +90,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "ee4b3cd791eccd8df9b12cddd3eb1b68e7dddcc14a1b6fe893d74954e82f52ee"
+     "dom_sha256": "f581f037bed6ba1daca0f786e877a78c10692f182175c4733381eca39642ffc0"
     }
    },
    "last_ok": null,

@@ -1,0 +1,32 @@
+HTTP/1.1 200 
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+x-chrome-original-content-encoding: gzip
+x-chrome-original-content-length: 288
+content-security-policy: object-src 'none';base-uri 'self';script-src 'nonce-u7aw4vuzjeNNQnpKAKImog' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/xd3cpp/2
+require-trusted-types-for 'script'
+content-type: text/html; charset=UTF-8
+cross-origin-embedder-policy: require-corp; report-to="gapi"
+cross-origin-resource-policy: cross-origin
+date: Mon, 02 Nov 2026 13:15:51 GMT
+report-to: {"group":"gapi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gapi"}]}
+server: ESF
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript" nonce="u7aw4vuzjeNNQnpKAKImog">
+  window['startup'] = function() {
+    googleapis.server.init();
+  };
+</script>
+<script type="text/javascript"
+  src="https://apis.google.com/js/googleapis.proxy.js?onload=startup" async
+  defer nonce="u7aw4vuzjeNNQnpKAKImog"></script>
+</head>
+<body>
+</body>
+</html>

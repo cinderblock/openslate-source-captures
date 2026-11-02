@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://porac.org/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 524,
-    "captured_at": "2026-11-01T16:32:17.002Z",
+    "captured_at": "2026-11-02T13:01:45.845Z",
     "status": 200,
     "error": null,
     "final_url": "https://porac.org/advocacy/2026-voting-guide/",
-    "response_sha256": "42e7b0aa7335cdf139f00b387ee4a672bb982f7ddadb7a2683798de4b696d669",
+    "response_sha256": "9d784434c5261738c3407eff5da9fc369c99ef78876e028a7e7bdbb6605a0384",
     "bytes": "public",
     "claims": [
      "captured",
@@ -69,13 +70,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 395,
-    "captured_at": "2026-11-01T16:31:59.853Z",
+    "captured_at": "2026-11-02T13:01:26.357Z",
     "status": 200,
     "error": null,
     "final_url": "https://maps.cartifact.com/porac/",
-    "response_sha256": "fd434cc16b557536b57f47065626e3381ffc1747cbccd5bcd633f1c669286656",
+    "response_sha256": "14c9faa4da496ffaefca44ab7ccaa28ce8b3e2f9090482f5fd65e7a674b38c43",
     "bytes": "public",
     "claims": [
      "captured",
@@ -89,10 +90,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031031708id_/https://maps.cartifact.com/porac/",
-    "timestamp": "20261031031708",
+    "url": "https://web.archive.org/web/20261031160244id_/https://maps.cartifact.com/porac/",
+    "timestamp": "20261031160244",
     "digest": "VTIXEMCBIDCTVURHZYNTOTPCF25S6G53",
-    "origin": "requested",
     "statements": {
      "found": 0,
      "of": 103

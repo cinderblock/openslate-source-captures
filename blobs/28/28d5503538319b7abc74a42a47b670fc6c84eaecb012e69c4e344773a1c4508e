@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 02 Nov 2026 13:01:47 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Server: cloudflare
+location: https://directory.runforsomething.net/candidates/
+expires: Mon, 02 Nov 2026 14:01:47 GMT
+status: 301 Moved Permanently
+x-powered-by: WP Engine
+x-redirect-by: redirection
+x-cacheable: non200
+Cache-Control: max-age=600, must-revalidate
+x-cache: MISS
+x-cache-group: normal
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=28,cfOrigin;dur=376
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3%2FQyHpCFiZhU%2B%2BvV7vwRAwoh%2BuSEV3PvWr6Ol%2FkVOF41LZPTZAEh%2FXEFmrNkgTounNTAhVyBiZnh7PJSejEpDm%2FWioXKfLisnhN6teqE1jnZzzs8nYT0XwQxiR2vtr%2FVOxjPJTOp"}]}
+CF-RAY: a5435471899ba7f5-LAX
+alt-svc: h3=":443"; ma=86400
+
+0
+

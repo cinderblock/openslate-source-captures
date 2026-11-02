@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://apnews.com/",
  "generated_from": {
-  "endorsements_commit": "00b7651cc7743bf186007fd65eff1278216e619d",
+  "endorsements_commit": "edbb077e3c2ce2066005582192a6dbc6ca158f71",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -18,7 +18,8 @@
    "2026-10-31T1536Z",
    "2026-11-01T1300Z",
    "2026-11-01T1320Z",
-   "2026-11-01T1631Z"
+   "2026-11-01T1631Z",
+   "2026-11-02T1300Z"
   ]
  },
  "sources": [
@@ -31,13 +32,13 @@
     "org_host": "apnews.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 30,
-    "captured_at": "2026-11-01T16:31:32.396Z",
+    "captured_at": "2026-11-02T13:00:57.752Z",
     "status": 403,
     "error": null,
     "final_url": "https://apnews.com/hub/california",
-    "response_sha256": "69e46c097655522f000523ff6df0c328c4e5791cfe68720c218854a313ed054b",
+    "response_sha256": "543d15c6381efd90fa5403880a1f7f4812393f2a4f9fda3f2061c2172337b4df",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -82,13 +83,13 @@
     "org_host": "apnews.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 31,
-    "captured_at": "2026-11-01T16:31:33.962Z",
+    "captured_at": "2026-11-02T13:00:59.295Z",
     "status": 403,
     "error": null,
     "final_url": "https://apnews.com/search",
-    "response_sha256": "a6399aed0158bda26a2e9b2419722ae2a0c98d78b8a39291a85c632df50412eb",
+    "response_sha256": "62f82b1e8d29e5fe211220708b411d3c71d93040da006d19de1a68fcfadc5b31",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -133,13 +134,13 @@
     "org_host": "apnews.com"
    },
    "latest": {
-    "run": "2026-11-01T1631Z",
+    "run": "2026-11-02T1300Z",
     "index": 29,
-    "captured_at": "2026-11-01T16:31:30.731Z",
+    "captured_at": "2026-11-02T13:00:56.133Z",
     "status": 403,
     "error": null,
     "final_url": "https://apnews.com/ap-sitemap.xml",
-    "response_sha256": "327d0bc976a5b3e962df29d2b92c5c56ba770ea96117e6b126d74339f85084df",
+    "response_sha256": "1e00d46cd8c277e1f51613a01bc20cce035f2969a021e0733ccd666b78ac3935",
     "bytes": "withheld",
     "claims": [
      "captured",
