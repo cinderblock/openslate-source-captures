@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": "standems.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 600,
-    "captured_at": "2026-11-02T19:54:09.427Z",
+    "captured_at": "2026-11-03T13:02:11.579Z",
     "status": 200,
     "error": null,
     "final_url": "https://standems.org/endorsed-candidates",
-    "response_sha256": "13296018db3f82f73fe1b58e4af08c0edc73773fb2e6af5365929b3f99727081",
+    "response_sha256": "536098c9950b2b4dcfb5287dfa6ac4e63e7dec57f96c138405e16aec28d5f2a0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,10 +52,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261101070832id_/https://standems.org/endorsed-candidates",
-    "timestamp": "20261101070832",
-    "digest": "TH3MN2E5L45RVJ7BD4IJIE42QRUAIW2L",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261021161315id_/https://standems.org/endorsed-candidates",
+    "timestamp": "20261021161315",
+    "digest": "FQHB335H2VEPOUI2ANK3RELAJLSNN3SA",
+    "origin": "existing",
     "statements": {
      "found": 27,
      "of": 27

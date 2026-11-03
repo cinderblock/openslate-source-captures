@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 544,
-    "captured_at": "2026-11-02T19:54:06.710Z",
+    "captured_at": "2026-11-03T13:02:02.168Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/our-work/bike-the-vote/",
-    "response_sha256": "694f5eedf74b58040a4a9f109dbacf24f961f5e2ed0428a471a5926bc39f6467",
+    "response_sha256": "6cfce4011581d2ef176763424ea74cdc21ff89a4d03531763aeac46b5e616874",
     "bytes": "public",
     "claims": [
      "captured",
@@ -91,13 +92,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 542,
-    "captured_at": "2026-11-02T19:54:03.514Z",
+    "captured_at": "2026-11-03T13:01:58.900Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/news/vote-no-on-prop-g-save-sunset-dunes-park/",
-    "response_sha256": "258d61f65188954d1ac905a5cdb2c9e4e44bb58026e8dca072038825d1c61247",
+    "response_sha256": "91eba317f65debc2544919cb1185b938c1e8cdb98a2b383285aa51ecf86a1e91",
     "bytes": "public",
     "claims": [
      "captured",
@@ -137,13 +138,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 543,
-    "captured_at": "2026-11-02T19:54:05.100Z",
+    "captured_at": "2026-11-03T13:02:00.550Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/",
-    "response_sha256": "49ca9bbfdcc90d223fe08b43ca9664e1725b308dd75c686badac5a37beb976fe",
+    "response_sha256": "aef80f93cb37a22c92c56242823020c71a2ae41ca94b28b84f71b78468612bd0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -165,7 +166,12 @@
      "time-stamped"
     ]
    },
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261025034440id_/https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/",
+    "timestamp": "20261025034440",
+    "digest": "UYAYSL64HWL6SQBLESZBXI3MBESHFORS",
+    "origin": "existing"
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 0,
@@ -183,13 +189,13 @@
     "org_host": "sfbike.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 541,
-    "captured_at": "2026-11-02T19:54:01.670Z",
+    "captured_at": "2026-11-03T13:01:57.050Z",
     "status": 403,
     "error": null,
     "final_url": "https://sfbike.org/news/endorsing-scott-wiener-for-congress/",
-    "response_sha256": "bae705755808b01606ad5d2da4d25bd8b93f500466443e511c18ff97645bf598",
+    "response_sha256": "bc620fe0ef7c1e56093065c1d49bff606f5d3c7b0562b94fc8cd74ac02d9f928",
     "bytes": "public",
     "claims": [
      "captured",

@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": "acvote.alamedacountyca.gov"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 27,
-    "captured_at": "2026-11-02T19:53:04.034Z",
+    "captured_at": "2026-11-03T13:00:53.251Z",
     "status": 200,
     "error": null,
     "final_url": "https://alamedacountyca.gov/rov_app/candidatelist/",
-    "response_sha256": "c563760c6ec61b868270202393821bf5d766dde5877d09b6beee585948cb2921",
+    "response_sha256": "fdaf703a78d8ad4d1289f098fe593ec6eb81fbc6066d1584e62e5d809b1a1796",
     "bytes": "public",
     "claims": [
      "captured",
@@ -50,10 +51,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260922223959id_/https://alamedacountyca.gov/rov_app/candidatelist/",
-    "timestamp": "20260922223959",
+    "url": "https://web.archive.org/web/20261102215913id_/https://alamedacountyca.gov/rov_app/candidatelist/",
+    "timestamp": "20261102215913",
     "digest": "JXDT67V4BH7INPBV4TIBGEIU5YLBMHES",
-    "origin": "existing"
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -72,13 +73,13 @@
     "org_host": "acvote.alamedacountyca.gov"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 4,
-    "captured_at": "2026-11-02T19:53:04.034Z",
+    "captured_at": "2026-11-03T13:00:53.250Z",
     "status": 200,
     "error": null,
     "final_url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
-    "response_sha256": "61057d0ebdf13bcdaa2086fde7cd0061919bfe60a97827d76a53665ce873d699",
+    "response_sha256": "290f345f3731e648d61a7c36ea8a8e286a3c8c2edbc860603049f6b38a1a98da",
     "bytes": "release",
     "claims": [
      "captured",

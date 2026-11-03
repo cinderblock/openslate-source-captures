@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 546,
-    "captured_at": "2026-11-02T19:54:02.413Z",
+    "captured_at": "2026-11-03T13:01:58.142Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfendorsements.com/",
-    "response_sha256": "f28bfa3250a896c402bb12efcf936dcf203c6c8456eb7d883a98ea96bae908c3",
+    "response_sha256": "a8085b3d9a9919eaef12918d99e43014cbed2dc87fa5bbe579b0e216f830f8ef",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,10 +52,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031234643id_/https://sfendorsements.com/",
-    "timestamp": "20261031234643",
-    "digest": "TDHQTH3SSLKPQ7NATNVEAVBMTXL63GHE",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261102165551id_/https://sfendorsements.com/",
+    "timestamp": "20261102165551",
+    "digest": "GPYBKGMMHNZK5LUL4W7W4VK5ZND2CJRX",
     "statements": {
      "found": 100,
      "of": 100
@@ -77,13 +77,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 856,
-    "captured_at": "2026-11-02T19:54:47.164Z",
+    "captured_at": "2026-11-03T13:02:51.564Z",
     "status": 200,
     "error": null,
     "final_url": "https://gitlab.com/peterxu/sf-endorsements",
-    "response_sha256": "e6fb86449fa250ec3ea2f4ea24052923ce6fd2f9dbc15739ba56aeae54e82704",
+    "response_sha256": "e5da58504d0e7d636a485c7ee379c03b94b3093b06f7a955a63c96584c9aefb4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -92,7 +92,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "ac447dd01996d5277eeb4d43d562cb2977a045c85ba8d5b8e0e9e1aff75c9e25"
+     "dom_sha256": "7602afda91ed74a4697e0ea9b440578725887ed51c31a6d7726c21e3c7d2fda0"
     }
    },
    "last_ok": null,

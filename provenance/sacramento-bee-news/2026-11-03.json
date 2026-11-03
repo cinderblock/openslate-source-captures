@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,9 +35,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 1052,
-    "captured_at": "2026-11-02T19:55:35.100Z",
+    "captured_at": "2026-11-03T13:03:49.830Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/election/",
@@ -49,7 +50,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "df970fcf2eabd3548bc9696383feac1e96790f445da944f35d4f66e6fe6a0d93"
+     "dom_sha256": "2de1d84ce932eae95ad9810e4f202efe617560f400cb6ada15bfb32d852cc3ac"
     }
    },
    "last_ok": null,
@@ -77,9 +78,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 1051,
-    "captured_at": "2026-11-02T19:55:03.599Z",
+    "captured_at": "2026-11-03T13:03:18.329Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
@@ -92,7 +93,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "ae8db79bf3f8abadca989fbe481e5ab1cf97cfce07a9aacd9dc76bb156e1de2d"
+     "dom_sha256": null
     }
    },
    "last_ok": null,
@@ -120,9 +121,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 1067,
-    "captured_at": "2026-11-02T20:03:27.647Z",
+    "captured_at": "2026-11-03T13:11:42.375Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/search/",
@@ -135,7 +136,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "14e12e60ae5dc5d0eee471cec990e295f1207b60188af9b3d51ef504d00c879d"
+     "dom_sha256": "b22d701a04ceaa6633d18a1cf0c317b5a3eb182c4ff8ccd40066cde1d81008b1"
     }
    },
    "last_ok": null,

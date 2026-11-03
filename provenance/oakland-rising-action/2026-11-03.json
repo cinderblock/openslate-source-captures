@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,22 +35,32 @@
     "org_host": "oaklandrisingaction.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 452,
-    "captured_at": "2026-11-02T19:53:38.497Z",
+    "captured_at": "2026-11-03T13:01:32.595Z",
     "status": 200,
     "error": null,
     "final_url": "https://oaklandrisingaction.org/homepage/oakland-progressive-voter-guide/",
-    "response_sha256": "6332fea66c9573ae4539fb17554531a7e7425259801bd396aebe853c84f9765a",
+    "response_sha256": "56f55207acf6a724357ff89b91e59b4f327d9358182b0ddef52c88dcc437e996",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261102215448id_/https://oaklandrisingaction.org/homepage/oakland-progressive-voter-guide/",
+    "timestamp": "20261102215448",
+    "digest": "GIWSBUGD2MS7VZ3WJGXBHXK7WYVTEDML",
+    "origin": "requested",
+    "statements": {
+     "found": 20,
+     "of": 20
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 5,

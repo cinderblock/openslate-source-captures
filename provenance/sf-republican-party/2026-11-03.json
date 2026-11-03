@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,22 +35,32 @@
     "org_host": "sfgop.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 547,
-    "captured_at": "2026-11-02T19:54:02.966Z",
+    "captured_at": "2026-11-03T13:02:00.007Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfgop.org/endorsements",
-    "response_sha256": "a7ef531144101464c888a8e8d6c73adcce4a368ec8902d347748c83ac9736480",
+    "response_sha256": "1724b9d751e9e483c428a2a97f0f3411edf170d95f737844e0c90b8346066701",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
-     "witnessed-by-public-ci"
+     "witnessed-by-public-ci",
+     "independently-archived"
     ]
    },
    "last_ok": null,
-   "archived": null,
+   "archived": {
+    "url": "https://web.archive.org/web/20261102215506id_/https://sfgop.org/endorsements",
+    "timestamp": "20261102215506",
+    "digest": "Q67NXWANNGCMXQPTF2VP54NES754GMSE",
+    "origin": "requested",
+    "statements": {
+     "found": 25,
+     "of": 25
+    }
+   },
    "derivation": {
     "kind": "anchored",
     "exact": 25,

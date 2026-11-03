@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 39,
-    "captured_at": "2026-11-02T19:53:08.049Z",
+    "captured_at": "2026-11-03T13:00:57.048Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "d4bfb8519ff0be11664489cf2692ea04c2b3081e719c65a1a3967de66600ef55",
+    "response_sha256": "f50e208564c18cec49a7bcd978062871fa96714ecf3d34ab3dcea3a6e536a6a4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,9 +52,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261101065747id_/https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "timestamp": "20261101065747",
-    "digest": "UKNB3JRKTXCNSFO5LG7ASJVLXWU7KZIS",
+    "url": "https://web.archive.org/web/20261103034750id_/https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
+    "timestamp": "20261103034750",
+    "digest": "AKYEZM4DFOZRMKJ65FXCQQR2EPXLVZX7",
     "origin": "requested",
     "statements": {
      "found": 5,
@@ -77,19 +78,23 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 867,
-    "captured_at": "2026-11-02T19:54:49.300Z",
+    "captured_at": "2026-11-03T13:02:55.935Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "8b91155fa17e994438186ae0315db5b44481c6925584ae970a9f46a4441a526d",
+    "response_sha256": "0a5894aebb3230aecf4450462e2b1e1c5ed5cb5f5066dc74181129825dd2c98c",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "c982f9ffd947c370b6925cc889286792951e7e3dddfd7d839310bc786453394b"
+    }
    },
    "last_ok": null,
    "archived": null,

@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,6 +35,22 @@
     "org_host": "seiuca.org"
    },
    "latest": {
+    "run": "2026-11-03T1300Z",
+    "index": 540,
+    "captured_at": "2026-11-03T13:01:56.122Z",
+    "status": 504,
+    "error": null,
+    "final_url": "https://seiuca.org/elections/",
+    "response_sha256": "a006be6c857d5b6f5d0243bbc7d0ea8b990f4b23814b0e085bfaf5fa4233eec5",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci",
+     "independently-archived"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-02T1953Z",
     "index": 540,
     "captured_at": "2026-11-02T19:54:00.302Z",
@@ -49,7 +66,6 @@
      "independently-archived"
     ]
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261030225943id_/https://seiuca.org/elections/",
     "timestamp": "20261030225943",

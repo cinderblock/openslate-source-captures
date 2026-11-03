@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": "hjta.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 859,
-    "captured_at": "2026-11-02T19:54:47.427Z",
+    "captured_at": "2026-11-03T13:02:52.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.hjta.org/2026votingguide/",
-    "response_sha256": "da22a48a3e4067554e555abe8cac656104a8ef9020cc188a019fdcb9689ed3b1",
+    "response_sha256": "a3170203fd76a9a88fbe543c14c0dad34547eba111ac7c3f3495453e79122b9e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,10 +52,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261026183530id_/https://www.hjta.org/2026votingguide/",
-    "timestamp": "20261026183530",
-    "digest": "IKKZIS6ALRIY55E5UMDUGDO7JWY4KFYO",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261102221429id_/https://www.hjta.org/2026votingguide/",
+    "timestamp": "20261102221429",
+    "digest": "KHY4EIB7FNLBVSAZGVEIDAROJ7QASW6O",
+    "origin": "requested",
     "statements": {
      "found": 87,
      "of": 87

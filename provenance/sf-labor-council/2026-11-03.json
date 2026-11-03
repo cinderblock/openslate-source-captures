@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": "sflaborcouncil.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 1124,
-    "captured_at": "2026-11-02T19:55:22.348Z",
+    "captured_at": "2026-11-03T13:03:41.696Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sflaborcouncil.org/en/news-details/news/our-endorsements/9251",
-    "response_sha256": "e4c4fec0efec81ec1910833263adcdee0da07d672af1b00ec8773588e0ba2bb2",
+    "response_sha256": "aa56de92fe7f5db03421b30615a556565ede71389b6deedf9a19e090bdedf129",
     "bytes": "public",
     "claims": [
      "captured",
@@ -50,7 +51,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "52bc2074dba9521bbf5acc20b1ca723ef1d81273574cd5d8bb94e11b31538fd5"
+     "dom_sha256": "e2e134caad3c248887513e2bbf669ac2b3bea2e89c19bca7ac2884fabeac9904"
     }
    },
    "last_ok": null,

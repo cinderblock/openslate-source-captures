@@ -21,7 +21,8 @@
    "2026-11-01T1631Z",
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
-   "2026-11-02T1953Z"
+   "2026-11-02T1953Z",
+   "2026-11-03T1300Z"
   ]
  },
  "sources": [
@@ -34,13 +35,13 @@
     "org_host": "milkclub.org"
    },
    "latest": {
-    "run": "2026-11-02T1953Z",
+    "run": "2026-11-03T1300Z",
     "index": 0,
-    "captured_at": "2026-11-02T19:53:04.232Z",
+    "captured_at": "2026-11-03T13:00:53.562Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.milkclub.org/endorsements",
-    "response_sha256": "f064fa49a93862f1a01422438c9d50246f4ca72877f684e7fb7f16c099f4865f",
+    "response_sha256": "d730f469828beea2e5fd42bae2fbea2ba623b1ab18e35b537f128d2b1eccbd31",
     "bytes": "public",
     "claims": [
      "captured",
@@ -63,9 +64,10 @@
     ]
    },
    "archived": {
-    "url": "https://web.archive.org/web/20261009122151id_/http://www.milkclub.org/endorsements",
-    "timestamp": "20261009122151",
-    "digest": "UM4KECJDKAIHC537OQIUZ3YGZ3OKL2YB"
+    "url": "https://web.archive.org/web/20261102220444id_/https://www.milkclub.org/endorsements",
+    "timestamp": "20261102220444",
+    "digest": "VQ4EVCQYIKRWG7KYGCGJZCWE2M2P5DBE",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
