@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,29 +37,13 @@
     "org_host": "eqca.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 853,
-    "captured_at": "2026-11-03T13:02:49.482Z",
-    "status": null,
-    "error": "timeout: no data",
-    "final_url": "https://www.eqca.org/elections/",
-    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "bytes": "withheld",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci",
-     "independently-archived"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-02T1953Z",
-    "index": 853,
-    "captured_at": "2026-11-02T19:54:45.578Z",
+    "captured_at": "2026-11-03T17:29:14.987Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.eqca.org/elections/",
-    "response_sha256": "da1990b7c3083f409b35936e02dd43f19c974e74e5e26f96babc46da1296cf9b",
+    "response_sha256": "786dcf4ae9a105eed5574a89181fa32b774b73c1094aa14263145f914e8afd5b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -66,6 +52,7 @@
      "independently-archived"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261101064609id_/https://www.eqca.org/elections/",
     "timestamp": "20261101064609",

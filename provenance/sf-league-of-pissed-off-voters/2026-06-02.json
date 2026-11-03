@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "theleaguesf.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1159,
-    "captured_at": "2026-11-03T13:03:55.415Z",
+    "captured_at": "2026-11-03T17:30:03.613Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.theleaguesf.org/june_2026_endorsements",
-    "response_sha256": "cc162ab7d11405627e22630f5ae65033827e132ceb45dd35e58cd9bdf150c6c3",
+    "response_sha256": "c5c5bb5e50afb08c5ffe538ea244ec4fa4a3afbaa71223adbec89c8743b848fc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -50,13 +52,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-02T1325Z",
-    "index": 69,
-    "captured_at": "2026-11-02T13:26:03.779Z",
+    "run": "2026-11-03T1321Z",
+    "index": 68,
+    "captured_at": "2026-11-03T13:22:02.469Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.theleaguesf.org/june_2026_endorsements",
-    "response_sha256": "715e1e6330ef84f6862d73df9a3ad7ddd5811e5318e16a78ed129183b4ceefde",
+    "response_sha256": "3302e10914c6722287715d3e56da5a718d292f4a4df4e5c0fdeead095694cc29",
     "bytes": "public",
     "claims": [
      "captured",

@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,9 +37,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1052,
-    "captured_at": "2026-11-03T13:03:49.830Z",
+    "captured_at": "2026-11-03T17:30:05.900Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/election/",
@@ -50,7 +52,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "2de1d84ce932eae95ad9810e4f202efe617560f400cb6ada15bfb32d852cc3ac"
+     "dom_sha256": "a43410072a50aa423be0476b191544fcf70921e93c55c9475cf966c6298c85c9"
     }
    },
    "last_ok": null,
@@ -78,9 +80,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1051,
-    "captured_at": "2026-11-03T13:03:18.329Z",
+    "captured_at": "2026-11-03T17:29:34.400Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
@@ -93,7 +95,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": null
+     "dom_sha256": "42d692978ef642a060326bed5823fec356df9d9c4dde624a28706743f9195437"
     }
    },
    "last_ok": null,
@@ -121,9 +123,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1067,
-    "captured_at": "2026-11-03T13:11:42.375Z",
+    "captured_at": "2026-11-03T17:37:58.443Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/search/",
@@ -136,7 +138,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "b22d701a04ceaa6633d18a1cf0c317b5a3eb182c4ff8ccd40066cde1d81008b1"
+     "dom_sha256": "e7b8c7434ebb18945240ae89cee1232e4feac7fc4e26eb73bf2f806adb730bab"
     }
    },
    "last_ok": null,

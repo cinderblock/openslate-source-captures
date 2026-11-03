@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "stonewalldems.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1153,
-    "captured_at": "2026-11-03T13:03:50.576Z",
+    "captured_at": "2026-11-03T17:29:59.127Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
-    "response_sha256": "dea42773df281214973d269f887107ada9d8dd1f11b4cc0621048993cfa3e6e3",
+    "response_sha256": "2c64454604778a08a556e7ad5d01852e8eb4485ae7fac9aed7e036bb062c108d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,13 +53,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-02T1325Z",
-    "index": 67,
-    "captured_at": "2026-11-02T13:26:01.440Z",
+    "run": "2026-11-03T1321Z",
+    "index": 66,
+    "captured_at": "2026-11-03T13:21:59.874Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
-    "response_sha256": "780e1f487fc6999b0cbb6a8f3092bc7d83e48409753e9cdfadfb9af57b7ea176",
+    "response_sha256": "76dc2955e521a11e8a1ef63d7021c2a7278d618fdf877528df86f4a1a406879e",
     "bytes": "public",
     "claims": [
      "captured",

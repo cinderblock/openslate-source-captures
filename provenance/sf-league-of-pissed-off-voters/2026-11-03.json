@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "theleaguesf.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1158,
-    "captured_at": "2026-11-03T13:03:53.672Z",
+    "captured_at": "2026-11-03T17:30:01.947Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.theleaguesf.org/",
-    "response_sha256": "38e8dddf928699389f58a3c64854b7bdb072e9565af0dcf01758d49f914885e6",
+    "response_sha256": "5865e9a3e0b03cd2dcca5c8dea05cbb6a98a48b98c545c726f90a0114e7216c8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,13 +53,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-02T1325Z",
-    "index": 68,
-    "captured_at": "2026-11-02T13:26:01.662Z",
+    "run": "2026-11-03T1321Z",
+    "index": 67,
+    "captured_at": "2026-11-03T13:22:00.251Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.theleaguesf.org/",
-    "response_sha256": "7595e09b19351413b69eac39d48e1e1f67e190624e3dd35dfd2dab4821c166d9",
+    "response_sha256": "8114d400862e502c9b417191ba69a61632ac7e19c00f03a165e42ac5c71cfe20",
     "bytes": "public",
     "claims": [
      "captured",
@@ -92,13 +94,13 @@
     "org_host": "theleaguesf.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1160,
-    "captured_at": "2026-11-03T13:03:56.958Z",
+    "captured_at": "2026-11-03T17:30:05.174Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.theleaguesf.org/november_2026_endorsements",
-    "response_sha256": "9a688b321d6d9e137168420f5b26f7cfcf8e20b96488c768d055961593dcf1ed",
+    "response_sha256": "27a06fb1c436395c8754644bb76725ea375c20b0337d3ec185bdb98efbffaac0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -107,13 +109,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-02T1325Z",
-    "index": 70,
-    "captured_at": "2026-11-02T13:26:05.666Z",
+    "run": "2026-11-03T1321Z",
+    "index": 69,
+    "captured_at": "2026-11-03T13:22:04.680Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.theleaguesf.org/november_2026_endorsements",
-    "response_sha256": "55dc0612484ae4b321b7b1b04e2a9f7dd7a30b55271b2b823b9cffe7e91ccbef",
+    "response_sha256": "3b5aa1c25e534dfcaeba5d336ee85246d528ea5d46d60973ee12c87cb9737f46",
     "bytes": "public",
     "claims": [
      "captured",

@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,6 +37,22 @@
     "org_host": "ieunited.org"
    },
    "latest": {
+    "run": "2026-11-03T1727Z",
+    "index": 212,
+    "captured_at": "2026-11-03T17:27:47.954Z",
+    "status": null,
+    "error": "timeout: no data",
+    "final_url": "https://ieunited.org/2026-endorsements/",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci",
+     "independently-archived"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-03T1300Z",
     "index": 212,
     "captured_at": "2026-11-03T13:01:13.902Z",
@@ -50,7 +68,6 @@
      "independently-archived"
     ]
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261031101819id_/https://ieunited.org/2026-endorsements/",
     "timestamp": "20261031101819",

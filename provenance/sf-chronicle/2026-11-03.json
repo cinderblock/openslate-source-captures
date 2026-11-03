@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1121,
-    "captured_at": "2026-11-03T13:03:43.361Z",
+    "captured_at": "2026-11-03T17:29:53.410Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/",
-    "response_sha256": "18e35a523037eea8c8fd0b0fe91e8afb1d7318101b6e1b70103e5d24a285bd7c",
+    "response_sha256": "63da9edcd719a001757de04e1c73bf55bbc6d02fc89761f711e3cb8f28c6022d",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -51,7 +53,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "973b41204665a8143bd02dbc8ad4f01a9122068a5fc074b2b194ecb71c08ace7"
+     "dom_sha256": "2a9d6be31d2ace36bc990c4d93345fde1fe5e335486d52cfe41493e68c26bd00"
     }
    },
    "last_ok": null,

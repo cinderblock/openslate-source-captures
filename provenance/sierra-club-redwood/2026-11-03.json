@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1133,
-    "captured_at": "2026-11-03T13:03:50.209Z",
+    "captured_at": "2026-11-03T17:29:58.506Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/redwood/endorsements",
-    "response_sha256": "b269e9f43b314ffb24cc23d153b7998a7a5f71165336da540c32a130935083cb",
+    "response_sha256": "0e5fa43ee12d0bbbe0c94c7d0ac6451646301e68f775960145baf97db4f7e8d0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,7 +53,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "9d51ae165f04f0a6c6110cb81ca976f1987537440d23a148b6d616c24c7ff831"
+     "dom_sha256": "7462a0365650baace2f60194d8de0c62783d02d172927266ebe1824e48eb28dd"
     }
    },
    "last_ok": null,

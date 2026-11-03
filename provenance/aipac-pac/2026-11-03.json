@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 79,
-    "captured_at": "2026-11-03T13:01:00.439Z",
+    "captured_at": "2026-11-03T17:27:35.906Z",
     "status": 200,
     "error": null,
     "final_url": "https://candidates.aipacpac.org/page/featured",
-    "response_sha256": "ac7f7ed72ed0c0284a15cb8e0c069eadbe96b4eb6a563f44051c672254b04c5d",
+    "response_sha256": "fb8165d1e4607f7932879d507627ee4c215cb2c1805ba4a5f7c8f128970ea968",
     "bytes": "public",
     "claims": [
      "captured",
@@ -50,7 +52,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "2e28fbf31b875621a6f98b0956cde1b4eea7d93000465d93b530f9c1872890b3"
+     "dom_sha256": "8f1e49d3210fec152f86143a92c8ace380e1b08ffc0b034428697d7d6aa7794b"
     }
    },
    "last_ok": null,
@@ -81,13 +83,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 78,
-    "captured_at": "2026-11-03T13:00:58.726Z",
+    "captured_at": "2026-11-03T17:27:34.220Z",
     "status": 500,
     "error": null,
     "final_url": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
-    "response_sha256": "751a4a686e742a80efbbd5b9d71826d4a1dda52c5cad20c61d27dee8f0ae0255",
+    "response_sha256": "12105328b1a669bd23e8bde52c08c6e736a0593ad127d7f8ca5eb249e83d7238",
     "bytes": "public",
     "claims": [
      "captured",
@@ -119,13 +121,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 800,
-    "captured_at": "2026-11-03T13:02:34.823Z",
+    "captured_at": "2026-11-03T17:29:00.714Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aipac.org/politics",
-    "response_sha256": "15e2f4d55ad35e3280a04a18dc4d2e7aafaee819fe089f9277e6f158aa9f5d47",
+    "response_sha256": "89cae20482dc0a7b2cf7b23b895f3e232c724a4c9e9f106fc0c175e16ecb70c5",
     "bytes": "public",
     "claims": [
      "captured",

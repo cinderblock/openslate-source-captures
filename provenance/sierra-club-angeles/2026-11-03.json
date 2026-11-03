@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1130,
-    "captured_at": "2026-11-03T13:03:43.658Z",
+    "captured_at": "2026-11-03T17:29:53.740Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/angeles/endorsements",
-    "response_sha256": "8c340ff6011bf4fe823410d58a0f6984f26478b7a2b7154a8a3e4cd362420f1f",
+    "response_sha256": "ac3503188457e895f0568193c6e3e6f55cb4a49e00a076cab47aec9b7e53dff1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,7 +53,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "c1fcd746a8bc4305c964106371846c38e7f2d1d2b4378d47f43a706927a85d02"
+     "dom_sha256": "b442608b342988cb65e87ab3f64104f07a12dbabe291a27ac0bdad6e81688ba9"
     }
    },
    "last_ok": null,

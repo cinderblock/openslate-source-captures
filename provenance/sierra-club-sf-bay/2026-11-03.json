@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1136,
-    "captured_at": "2026-11-03T13:03:54.920Z",
+    "captured_at": "2026-11-03T17:30:03.055Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/2026-endorsements",
-    "response_sha256": "955f7be10b2a59142e247f58213439560586dcaddf4a64c9a5af52cb74e83a8f",
+    "response_sha256": "01aff4b117507e163a0cc203021d49d6bbef0bb3ba883475a7639b54c1aee712",
     "bytes": "public",
     "claims": [
      "captured",
@@ -50,7 +52,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "49c5cce88989575e6c6840013019ed2220cfcc6e723225161a43cca5aaeb3c81"
+     "dom_sha256": "1e45ec034cfba0dd7dbf7cf14ab780c723d40bdb23f486e33469594de06715e2"
     }
    },
    "last_ok": null,
@@ -81,13 +83,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1137,
-    "captured_at": "2026-11-03T13:03:56.467Z",
+    "captured_at": "2026-11-03T17:30:04.575Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/november-2026-combined-endorsements-explanations",
-    "response_sha256": "e07adafcac0c9459a1de2a3beb4b250649409e3e628b3e1683e665658796694a",
+    "response_sha256": "7f27ec058d1ae98ee94f5bd968be084938230eec3bcfb8baae04a1b555afa2ac",
     "bytes": "public",
     "claims": [
      "captured",
@@ -96,7 +98,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "8d66e246bee6a7ab5036530b5c12ef5180f05fddebc007f3eb6ca143196d07b2"
+     "dom_sha256": "e6bb248e535cc85befe0f03749bb26c7667c2c734f389a02be97faf6c5143061"
     }
    },
    "last_ok": null,

@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1119,
-    "captured_at": "2026-11-03T13:03:40.120Z",
+    "captured_at": "2026-11-03T17:29:50.167Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
-    "response_sha256": "98707ec19a88eca02b72ceff180c3c11cb291172e6ad6bff66488e93119cee6f",
+    "response_sha256": "5612942292dfb0eb992340736d6e833d67a8d595bdfb9f526d54f987cf129bce",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -50,7 +52,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "17466989bde3d6aec3886f800900dd80626087dae4bbe58ccb8b7ac34d1d56a4"
+     "dom_sha256": "4b846e9b05e12a4c002468dbb6482c25f7bab275a3decad06f43a5392916033e"
     }
    },
    "last_ok": null,
@@ -77,13 +79,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 35,
-    "captured_at": "2026-11-03T13:00:53.251Z",
+    "captured_at": "2026-11-03T17:27:29.022Z",
     "status": 202,
     "error": null,
     "final_url": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
-    "response_sha256": "7f65c129a7883be89d38f1b95f7ac33b644527881ccc28ec675f8aaa2fb838c4",
+    "response_sha256": "48570e2cab2381d115d2ce345c10e0ed6a26cb6c43f4f3c91f8d6244c81631c3",
     "bytes": "withheld",
     "claims": [
      "captured",

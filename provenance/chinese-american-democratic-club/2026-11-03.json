@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "sfcadc.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1117,
-    "captured_at": "2026-11-03T13:03:39.991Z",
+    "captured_at": "2026-11-03T17:29:49.626Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.sfcadc.org/cadc_11_2026_recommendations",
-    "response_sha256": "304568a4e48b7c60942d2a7264157aea0589d881c6f073be60f9b24575e46957",
+    "response_sha256": "b117e75305d705788a6333d5f0fc0aaa10fd9018fadc59b1a8b2a9f067c4de8f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -51,13 +53,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-02T1325Z",
-    "index": 57,
-    "captured_at": "2026-11-02T13:26:00.593Z",
+    "run": "2026-11-03T1321Z",
+    "index": 56,
+    "captured_at": "2026-11-03T13:21:59.047Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfcadc.org/cadc_11_2026_recommendations",
-    "response_sha256": "a52674d97a1107b9ee828fc7dbbef8c3fd1034e98acfefdf9e05243bf34849e6",
+    "response_sha256": "359ed1f0359965cee238fe1bf6ffa93000e79b0eadf30e5adb902e3da0d37b94",
     "bytes": "public",
     "claims": [
      "captured",
@@ -92,13 +94,13 @@
     "org_host": "sfcadc.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 1118,
-    "captured_at": "2026-11-03T13:03:41.828Z",
+    "captured_at": "2026-11-03T17:29:51.349Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.sfcadc.org/endorsements",
-    "response_sha256": "0b756d182261c6c26e841b9d6221685a1e8d9831e2bee7836234be0fb5eab1aa",
+    "response_sha256": "5961ae8d3bcfcf6d44e2cb8adcbc0417cf20a5dcc8bee22c57f7534c3d834360",
     "bytes": "public",
     "claims": [
      "captured",
@@ -107,13 +109,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-02T1325Z",
-    "index": 58,
-    "captured_at": "2026-11-02T13:26:02.871Z",
+    "run": "2026-11-03T1321Z",
+    "index": 57,
+    "captured_at": "2026-11-03T13:22:01.329Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfcadc.org/endorsements",
-    "response_sha256": "28a0fde6bea924165bd88ff21e05e53c2835ddc48f9768c15bc4e094770d92e0",
+    "response_sha256": "29dba98c25cc144585f421d41e9fcda0b6f7fc86480c9dfd49c8ef49c51f6174",
     "bytes": "public",
     "claims": [
      "captured",

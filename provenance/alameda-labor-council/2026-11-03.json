@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "alamedalabor.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 147,
-    "captured_at": "2026-11-03T13:01:03.404Z",
+    "captured_at": "2026-11-03T17:27:39.117Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/document/d/17P9ht52TNggvTUvs5ZEtCeiWC6kNYrVF_uGE8MMCDvU/edit?tab=t.0",
-    "response_sha256": "20dab665d9cfcd9c50317af42ff38d196f7b0dba731ccee4472650808cfe1338",
+    "response_sha256": "47a8a72d8ca1d1f979a162c42f714bed7df95afb1ae6ea309f8c7ce4d8f478c1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -50,7 +52,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "df7144df983d91b1fb010b2f7da5ad76f21a5e17062a3203c9e77a20e2146aad"
+     "dom_sha256": "b1d19a5182d7a7d546d2efdd38d7012d782956f18fc2b53f1ef3680f33afad4e"
     }
    },
    "last_ok": null,
@@ -81,13 +83,13 @@
     "org_host": "alamedalabor.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 28,
-    "captured_at": "2026-11-03T13:00:53.251Z",
+    "captured_at": "2026-11-03T17:27:29.022Z",
     "status": 200,
     "error": null,
     "final_url": "https://alamedalabor.org/",
-    "response_sha256": "aeb084f247860e36ecbf428ad584fedb13e1d383a041f7c95199bbfd12afd8f1",
+    "response_sha256": "b73007ae45ab6e19cfdc72280aedda27735729bc23e6f0044397723fecdd49c1",
     "bytes": "public",
     "claims": [
      "captured",

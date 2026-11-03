@@ -22,7 +22,9 @@
    "2026-11-02T1300Z",
    "2026-11-02T1325Z",
    "2026-11-02T1953Z",
-   "2026-11-03T1300Z"
+   "2026-11-03T1300Z",
+   "2026-11-03T1321Z",
+   "2026-11-03T1727Z"
   ]
  },
  "sources": [
@@ -35,13 +37,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 405,
-    "captured_at": "2026-11-03T13:01:27.185Z",
+    "captured_at": "2026-11-03T17:28:03.379Z",
     "status": 200,
     "error": null,
     "final_url": "https://mbclc.org/endorsements",
-    "response_sha256": "9cf35c1489fbcc56f70988195937cb04f5ae35d3f6c7281c69bd16e4e1794d12",
+    "response_sha256": "5dca7c950baf066fdc80d9befc507cba2c1a7b1f399bcfe0c74d82026d3eb42e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -78,13 +80,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-11-03T1300Z",
+    "run": "2026-11-03T1727Z",
     "index": 148,
-    "captured_at": "2026-11-03T13:01:05.191Z",
+    "captured_at": "2026-11-03T17:27:40.953Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
-    "response_sha256": "30dd105d4c793f8c6ff3f7d08f2226d58141d26359908c24a4e73e053a27a561",
+    "response_sha256": "fad4d6b29d5d5dc0a46342b907ecdd487c0bfb5f8b476f2de67fcf133ea17fa0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -93,7 +95,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "24423c4c0a4381003631d914546af743d440b1cb4a67dae98d1e4edf15c0fe38"
+     "dom_sha256": "1f17cd0631781548a0ee496e429167bd7d8eb3ff3954b3645d88593cdb07623c"
     }
    },
    "last_ok": null,
