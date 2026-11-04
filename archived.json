@@ -530,7 +530,7 @@
   "digest": "ZPUYFFQDSB5ARZ6RLBL5CVM3DC64ACM5",
   "checked_at": "2026-11-02T12:00:51.075Z",
   "save": {
-   "at": "2026-11-03T12:15:07.376Z",
+   "at": "2026-11-04T22:09:16.211Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-591a690749c4edbf378372ac9005746385db457a",
@@ -1001,12 +1001,10 @@
   "checked_at": "2026-11-03T12:18:31.877Z",
   "origin": "existing",
   "save": {
-   "at": "2026-11-03T12:16:07.624Z",
+   "at": "2026-11-04T22:20:12.233Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-12b03dbb7f0507e555cb4dec0e142595f273c0cf",
-   "snapshot": "20261103121705",
-   "final_url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf"
+   "outcome": "failed",
+   "error": "error:too-many-daily-captures"
   }
  },
  "https://cadem.org/wp-content/uploads/2026/10/2026-Proposition-Endorsements-.pdf": {
@@ -1062,24 +1060,23 @@
   "origin": "existing"
  },
  "https://cagreens.org/green-party-california-state-voter-guide-nov-2026": {
-  "url": "https://web.archive.org/web/20261002045838id_/https://cagreens.org/green-party-california-state-voter-guide-nov-2026",
-  "timestamp": "20261002045838",
-  "digest": "UYDDTSZRKZ6NGV3WRKIMPSW54WK64BOL",
-  "checked_at": "2026-11-04T08:28:44.917Z",
+  "url": "https://web.archive.org/web/20261104221453id_/https://cagreens.org/green-party-california-state-voter-guide-nov-2026",
+  "timestamp": "20261104221453",
+  "digest": "FXHQQEC4Z2C3WGKN2I3NF22AQYPXY4FE",
+  "checked_at": "2026-11-04T22:22:47.727Z",
   "statements": {
    "found": 14,
    "of": 14
   },
-  "compared": "20261002045838",
+  "compared": "20261104221453",
   "save": {
-   "at": "2026-11-02T11:45:33.155Z",
+   "at": "2026-11-04T22:13:40.746Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-c8b3e194d41e3342f338e4edf870c4aec1512810",
-   "snapshot": "20261102114536",
+   "snapshot": "20261104163612",
    "final_url": "https://cagreens.org/green-party-california-state-voter-guide-nov-2026"
-  },
-  "origin": "existing"
+  }
  },
  "https://calaborfed.org/labor-2026-primary-election-endorsements/": {
   "url": "https://web.archive.org/web/20261031032853id_/https://calaborfed.org/labor-2026-primary-election-endorsements/",
@@ -1440,12 +1437,10 @@
   "digest": "U7IIRXOKIN5PB6ER52WUAXEJK7RON7F5",
   "checked_at": "2026-11-04T08:28:56.123Z",
   "save": {
-   "at": "2026-11-02T11:47:07.590Z",
+   "at": "2026-11-04T22:15:19.431Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-d422e1817c5876792956b96280ac42844e7cb233",
-   "snapshot": "20261102114750",
-   "final_url": "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf"
+   "outcome": "failed",
+   "error": "error:too-many-daily-captures"
   },
   "origin": "existing"
  },
@@ -1605,12 +1600,10 @@
   },
   "compared": "20261019181050",
   "save": {
-   "at": "2026-11-03T12:15:41.674Z",
+   "at": "2026-11-04T22:19:56.370Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-e02555832242e58e6c6e026d40a1db943ff195a8",
-   "snapshot": "20261103121542",
-   "final_url": "https://couragecalifornia.org/app/uploads/2026/10/V2C-Nov2026StatewideCVG.pdf"
+   "outcome": "failed",
+   "error": "error:too-many-daily-captures"
   },
   "origin": "existing"
  },
@@ -2064,24 +2057,23 @@
   "origin": "requested"
  },
  "https://directory.runforsomething.net/candidate/3553f43772964acbdc38b56171d1f649/casselberry-john/": {
-  "url": "https://web.archive.org/web/20260917063935id_/https://directory.runforsomething.net/candidate/3553f43772964acbdc38b56171d1f649/casselberry-john/",
-  "timestamp": "20260917063935",
+  "url": "https://web.archive.org/web/20261104221448id_/https://directory.runforsomething.net/candidate/3553f43772964acbdc38b56171d1f649/casselberry-john/",
+  "timestamp": "20261104221448",
   "digest": "2Y6PXE5XZVJAU7OSXA7G7LYC6BVAE2PI",
-  "checked_at": "2026-11-04T08:29:05.505Z",
+  "checked_at": "2026-11-04T22:22:50.349Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20260917063935",
+  "compared": "20261104221448",
   "save": {
-   "at": "2026-11-02T11:44:27.140Z",
+   "at": "2026-11-04T22:13:24.138Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-0d033915d591ef532f0b3a0b55986ca3e3442222",
-   "snapshot": "20261102114430",
+   "snapshot": "20261104163546",
    "final_url": "https://directory.runforsomething.net/candidate/3553f43772964acbdc38b56171d1f649/casselberry-john/"
-  },
-  "origin": "existing"
+  }
  },
  "https://directory.runforsomething.net/candidate/3ef40838c70d1e1d1602f044fe367ead/burciaga-athena/": {
   "url": "https://web.archive.org/web/20261104080023id_/https://directory.runforsomething.net/candidate/3ef40838c70d1e1d1602f044fe367ead/burciaga-athena/",
@@ -2562,24 +2554,23 @@
   "compared": "20261030220601"
  },
  "https://directory.runforsomething.net/candidate/eb607b585c656b0259875489336b5ab7/sida-joz/": {
-  "url": "https://web.archive.org/web/20260809154951id_/https://directory.runforsomething.net/candidate/eb607b585c656b0259875489336b5ab7/sida-joz/",
-  "timestamp": "20260809154951",
-  "digest": "FGAFS5KF2HZPXMLEL5IVKBAJHXIPL6DT",
-  "checked_at": "2026-11-04T08:29:07.365Z",
+  "url": "https://web.archive.org/web/20261104221329id_/https://directory.runforsomething.net/candidate/eb607b585c656b0259875489336b5ab7/sida-joz/",
+  "timestamp": "20261104221329",
+  "digest": "FERNPWKKV2KDAKKZPKUGIXKVWTPQ6OKV",
+  "checked_at": "2026-11-04T22:22:52.410Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20260809154951",
+  "compared": "20261104221329",
   "save": {
-   "at": "2026-11-02T11:41:35.285Z",
+   "at": "2026-11-04T22:11:21.284Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-c90abcdcb86c3294688e1e85adb8fe5efc03de0f",
-   "snapshot": "20261102114138",
+   "snapshot": "20261104163345",
    "final_url": "https://directory.runforsomething.net/candidate/eb607b585c656b0259875489336b5ab7/sida-joz/"
-  },
-  "origin": "existing"
+  }
  },
  "https://directory.runforsomething.net/candidates/CA/": {
   "url": "https://web.archive.org/web/20261103204935id_/https://directory.runforsomething.net/candidates/CA/",
@@ -3621,19 +3612,18 @@
   "origin": "requested"
  },
  "https://growsf.org/voter-guide/san-francisco-voter-guide-june-2026-election/": {
-  "url": "https://web.archive.org/web/20261012032415id_/https://growsf.org/voter-guide/san-francisco-voter-guide-june-2026-election/",
-  "timestamp": "20261012032415",
-  "digest": "QHFAPMX3PXWZLWOORHKMJ544BYZGKSU4",
-  "checked_at": "2026-11-04T08:29:11.304Z",
+  "url": "https://web.archive.org/web/20261104221853id_/https://growsf.org/voter-guide/san-francisco-voter-guide-june-2026-election/",
+  "timestamp": "20261104221853",
+  "digest": "R4KISXI4CLRDMEZW5B4QFAJTOBWCW57W",
+  "checked_at": "2026-11-04T22:22:54.062Z",
   "save": {
-   "at": "2026-11-02T11:50:45.954Z",
+   "at": "2026-11-04T22:18:17.465Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-3ef10932b5028e7f0a4a632043d56cbfefb11651",
-   "snapshot": "20261102115049",
+   "snapshot": "20261104164135",
    "final_url": "https://growsf.org/voter-guide/san-francisco-voter-guide-june-2026-election/"
-  },
-  "origin": "existing"
+  }
  },
  "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/": {
   "url": "https://web.archive.org/web/20261030221821id_/https://growsf.org/voter-guide/",
@@ -3873,7 +3863,7 @@
   "url": "https://web.archive.org/web/20261007162006id_/https://images.squarespace-cdn.com/content/v1/6a84ac168b905e5ae50fadfb/26ff1f5a-5b74-4ac7-b108-54a1c49195c5/Brett+Morrow.png",
   "timestamp": "20261007162006",
   "digest": "47NW32UUKMSOBLG6573DSXG7AWM5MUFT",
-  "checked_at": "",
+  "checked_at": "2026-11-04T22:22:55.774Z",
   "origin": "existing",
   "save": {
    "at": "2026-11-04T08:10:21.889Z",
@@ -5043,41 +5033,43 @@
   "url": "https://web.archive.org/web/20260808000323id_/https://jstreetpac.org/candidate/laura-friedman/",
   "timestamp": "20260808000323",
   "digest": "EPY6MWYSX2DQ23DQXYQXE4FNEM54XLP5",
-  "checked_at": "2026-11-04T08:29:17.096Z",
+  "checked_at": "2026-11-04T22:22:57.447Z",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20260808000323",
   "save": {
-   "at": "2026-11-02T11:41:03.851Z",
+   "at": "2026-11-04T22:11:05.980Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-bc07332ff3a9fffdb77ef14b14d4ae7e8ad794eb",
-   "snapshot": "20261102114214",
-   "final_url": "https://jstreetpac.org/candidate/laura-friedman/"
+   "snapshot": "20261104163327",
+   "final_url": "https://jstreetpac.org/candidate/laura-friedman-recurring-donation/"
   },
-  "origin": "existing"
+  "origin": "existing",
+  "fewer_in": "20261104163327"
  },
  "https://jstreetpac.org/candidate/linda-sanchez/": {
   "url": "https://web.archive.org/web/20260817174024id_/https://jstreetpac.org/candidate/linda-sanchez/",
   "timestamp": "20260817174024",
   "digest": "VEH3MXY3FMZH5AHMYVZJ27CL54BPSQIO",
-  "checked_at": "2026-11-04T08:29:19.758Z",
+  "checked_at": "2026-11-04T22:22:59.253Z",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20260817174024",
   "save": {
-   "at": "2026-11-02T11:42:02.246Z",
+   "at": "2026-11-04T22:12:02.228Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-9d7f0e57773a708955d46655d0d56cc34882266a",
-   "snapshot": "20261102114219",
-   "final_url": "https://jstreetpac.org/candidate/linda-sanchez/"
+   "snapshot": "20261104163527",
+   "final_url": "https://jstreetpac.org/candidate/linda-sanchez-recurring-donation-2/"
   },
-  "origin": "existing"
+  "origin": "existing",
+  "fewer_in": "20261104163527"
  },
  "https://jstreetpac.org/candidate/mark-desaulnier/": {
   "url": "https://web.archive.org/web/20261102024406id_/https://jstreetpac.org/candidate/mark-desaulnier/",
@@ -5283,21 +5275,22 @@
   "url": "https://web.archive.org/web/20260831155428id_/https://jstreetpac.org/candidate/robert-garcia/",
   "timestamp": "20260831155428",
   "digest": "GXCMTQRCTI3R3PAWBDCN7EYVSS3P4DUY",
-  "checked_at": "2026-11-04T08:29:25.003Z",
+  "checked_at": "2026-11-04T22:23:01.072Z",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20260831155428",
   "save": {
-   "at": "2026-11-02T11:42:35.853Z",
+   "at": "2026-11-04T22:12:17.597Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-cd6d6d036f49a13d5521d437a0834227480e3dff",
-   "snapshot": "20261102114243",
-   "final_url": "https://jstreetpac.org/candidate/robert-garcia/"
+   "snapshot": "20261104163443",
+   "final_url": "https://jstreetpac.org/candidate/robert-garcia-recurring-donation/"
   },
-  "origin": "existing"
+  "origin": "existing",
+  "fewer_in": "20261104163443"
  },
  "https://jstreetpac.org/candidate/salud-carbajal/": {
   "url": "https://web.archive.org/web/20261102113934id_/https://jstreetpac.org/candidate/salud-carbajal/",
@@ -5410,12 +5403,11 @@
   },
   "compared": "20260807104739",
   "save": {
-   "at": "2026-11-02T11:40:12.277Z",
+   "at": "2026-11-04T22:10:40.363Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-46424ddc20514c0c826b58cf07cc391f65273abf",
-   "snapshot": "20261102114015",
-   "final_url": "https://jstreetpac.org/candidate/sydney-kamlager/"
+   "error": "error:not-found"
   },
   "origin": "existing"
  },
@@ -5423,21 +5415,22 @@
   "url": "https://web.archive.org/web/20260807004102id_/https://jstreetpac.org/candidate/zoe-lofgren/",
   "timestamp": "20260807004102",
   "digest": "WQZRN4I3DMP63U2XZVCB3ZK5B64FU5HU",
-  "checked_at": "2026-11-04T08:29:37.637Z",
+  "checked_at": "2026-11-04T22:23:03.260Z",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20260807004102",
   "save": {
-   "at": "2026-11-02T11:39:49.668Z",
+   "at": "2026-11-04T22:10:25.013Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-78405c2ba655abfbd1515ee04fff5b5c5ec54644",
-   "snapshot": "20261102113957",
-   "final_url": "https://jstreetpac.org/candidate/zoe-lofgren/"
+   "snapshot": "20261104163250",
+   "final_url": "https://jstreetpac.org/candidate/zoe-lofgren-recurring-donation/"
   },
-  "origin": "existing"
+  "origin": "existing",
+  "fewer_in": "20261104163250"
  },
  "https://jstreetpac.org/candidates/": {
   "url": "https://web.archive.org/web/20261101065131id_/https://jstreetpac.org/candidates/",
@@ -6732,24 +6725,23 @@
   "compared": "20261031025939"
  },
  "https://lookout.co/a-lookout-view-ryan-coonerty-for-santa-cruz-mayor-2/story": {
-  "url": "https://web.archive.org/web/20261015184332id_/https://lookout.co/a-lookout-view-ryan-coonerty-for-santa-cruz-mayor-2/story",
-  "timestamp": "20261015184332",
-  "digest": "JIEXUQL2EU5W3G6PJLRNEVTK77NMLBS3",
-  "checked_at": "2026-11-04T08:31:17.904Z",
+  "url": "https://web.archive.org/web/20261104221927id_/https://lookout.co/a-lookout-view-ryan-coonerty-for-santa-cruz-mayor-2/story",
+  "timestamp": "20261104221927",
+  "digest": "UMFHGBFU3DGORJUG2NOTW5JPFLMOU33T",
+  "checked_at": "2026-11-04T22:23:05.019Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261015184332",
+  "compared": "20261104221927",
   "save": {
-   "at": "2026-10-31T20:25:43.158Z",
+   "at": "2026-11-04T22:19:24.651Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-4f236a8e2e8ad67448141f5bc52971715d4ca161",
-   "snapshot": "20261031202553",
+   "snapshot": "20261104164226",
    "final_url": "https://lookout.co/a-lookout-view-ryan-coonerty-for-santa-cruz-mayor-2/story"
-  },
-  "origin": "existing"
+  }
  },
  "https://lookout.co/a-lookout-view-yes-on-measure-d/story": {
   "url": "https://web.archive.org/web/20261031025958id_/https://lookout.co/a-lookout-view-yes-on-measure-d/story",
@@ -6936,24 +6928,23 @@
   "origin": "requested"
  },
  "https://marindemocrats.org/measure-cc-critical-care-for-marin/": {
-  "url": "https://web.archive.org/web/20261007210459id_/https://marindemocrats.org/measure-cc-critical-care-for-marin/",
-  "timestamp": "20261007210459",
-  "digest": "IKXDEUDGBR6Z5HHHGMJ3F4N2J33UHBZ3",
-  "checked_at": "2026-11-04T08:26:44.364Z",
+  "url": "https://web.archive.org/web/20261104221650id_/https://marindemocrats.org/measure-cc-critical-care-for-marin/",
+  "timestamp": "20261104221650",
+  "digest": "S6CTCY5B7G2YJK2SGMZFVSDSNKXEOV74",
+  "checked_at": "2026-11-04T22:23:07.164Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261007210459",
+  "compared": "20261104221650",
   "save": {
-   "at": "2026-10-31T16:00:04.386Z",
+   "at": "2026-11-04T22:16:06.998Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-179bf72c6361335404d625b4ee85fee8ecf5b3a9",
-   "snapshot": "20261031160038",
+   "snapshot": "20261104163940",
    "final_url": "https://marindemocrats.org/measure-cc-critical-care-for-marin/"
-  },
-  "origin": "existing"
+  }
  },
  "https://marindemocrats.org/measure-n-miller-creek-school-district/": {
   "url": "https://web.archive.org/web/20261031160335id_/https://marindemocrats.org/measure-n-miller-creek-school-district/",
@@ -7931,19 +7922,18 @@
   "origin": "requested"
  },
  "https://montereycountydems.org/": {
-  "url": "https://web.archive.org/web/20260816170904id_/https://montereycountydems.org/",
-  "timestamp": "20260816170904",
-  "digest": "TKKGBY7EWILC23I5KJMDTV4KVS7G5MZF",
-  "checked_at": "2026-11-04T08:26:55.761Z",
+  "url": "https://web.archive.org/web/20261104221346id_/https://montereycountydems.org/",
+  "timestamp": "20261104221346",
+  "digest": "BBBWULM4BZSHHWJ3Y4YF4I5N6F2O2T5L",
+  "checked_at": "2026-11-04T22:23:08.879Z",
   "save": {
-   "at": "2026-10-31T10:07:09.941Z",
+   "at": "2026-11-04T22:11:36.818Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-8c917ebc997d16f83f68eb3bea81ee009d29069f",
-   "snapshot": "20261031102735",
+   "snapshot": "20261104163411",
    "final_url": "https://montereycountydems.org/"
-  },
-  "origin": "existing"
+  }
  },
  "https://montereycountydems.org/endorsements/": {
   "url": "https://web.archive.org/web/20261031161101id_/https://montereycountydems.org/endorsements/",
@@ -8046,16 +8036,16 @@
   "fewer_in": "20230528004027"
  },
  "https://ocgop.org/endorsements/": {
-  "url": "https://web.archive.org/web/20261023100742id_/https://linkjar.to/voter-guide-2026/",
-  "timestamp": "20261023100742",
-  "digest": "JUVWE44WTK2AQF53LARI4UFEVZHWSVKQ",
-  "checked_at": "2026-11-04T08:27:06.098Z",
+  "url": "https://web.archive.org/web/20261104164438id_/https://linkjar.to/voter-guide-2026/",
+  "timestamp": "20261104164438",
+  "digest": "AL7XFUAAWURJDJQDLQDBBCR4FEKHBZAQ",
+  "checked_at": "2026-11-04T22:23:10.728Z",
   "save": {
-   "at": "2026-10-31T10:14:08.405Z",
+   "at": "2026-11-04T22:20:58.763Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-e9c9f939e7f725085f4d2101462bde0c2a43c7cd",
-   "snapshot": "20261031103422",
+   "snapshot": "20261104164438",
    "final_url": "https://linkjar.to/voter-guide-2026/"
   },
   "origin": "existing"
@@ -8812,21 +8802,21 @@
   "origin": "requested"
  },
  "https://ourrevolution.com/estuardo-mazariegos-for-la-city-council-d-9/": {
-  "url": "https://web.archive.org/web/20261025052226id_/https://ourrevolution.com/estuardo-mazariegos-for-la-city-council-d-9/",
-  "timestamp": "20261025052226",
-  "digest": "BS53ALW76OWXBPTZJUSWLBVI5JYECWCO",
-  "checked_at": "2026-11-04T08:29:43.410Z",
+  "url": "https://web.archive.org/web/20261104164716id_/https://ourrevolution.com/estuardo-mazariegos-for-la-city-council-d-9/",
+  "timestamp": "20261104164716",
+  "digest": "FUU5UCTCLK6S33U6YQ4ICOJDGAALLNQM",
+  "checked_at": "2026-11-04T22:23:12.404Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261025052226",
+  "compared": "20261104164716",
   "save": {
-   "at": "2026-11-02T11:50:28.070Z",
+   "at": "2026-11-04T22:22:31.629Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-01d231f0615120d161d3a48be8599f5262bae65b",
-   "snapshot": "20261102115033",
+   "snapshot": "20261104164716",
    "final_url": "https://ourrevolution.com/estuardo-mazariegos-for-la-city-council-d-9/"
   },
   "origin": "existing"
@@ -8947,104 +8937,99 @@
   "origin": "requested"
  },
  "https://ourrevolution.com/our-revolution-endorses-mai-vang/": {
-  "url": "https://web.archive.org/web/20261025052203id_/https://ourrevolution.com/our-revolution-endorses-mai-vang/",
-  "timestamp": "20261025052203",
-  "digest": "3SNCSWCWEA6SRJ5XUYFKQGB2MJ3TG2DB",
-  "checked_at": "2026-11-04T08:29:48.033Z",
+  "url": "https://web.archive.org/web/20261104222219id_/https://ourrevolution.com/our-revolution-endorses-mai-vang/",
+  "timestamp": "20261104222219",
+  "digest": "LHWCPHW4YPEWLBLDQGB67QBDBZ7CO2S4",
+  "checked_at": "2026-11-04T22:23:16.012Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261025052203",
+  "compared": "20261104222219",
   "save": {
-   "at": "2026-11-02T11:49:01.727Z",
+   "at": "2026-11-04T22:22:16.178Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-de803f64f5c07272f2f0d6605605e5bb6a9eee2f",
-   "snapshot": "20261102114914",
+   "snapshot": "20261104164613",
    "final_url": "https://ourrevolution.com/our-revolution-endorses-mai-vang/"
-  },
-  "origin": "existing"
+  }
  },
  "https://ourrevolution.com/progressives-building-local-power-across-california/": {
-  "url": "https://web.archive.org/web/20261025052058id_/https://ourrevolution.com/progressives-building-local-power-across-california/",
-  "timestamp": "20261025052058",
-  "digest": "ZZ7FJCWUN3AMEE4J4T2EFFDJPEZCKCCY",
-  "checked_at": "2026-11-04T08:27:16.361Z",
+  "url": "https://web.archive.org/web/20261104222135id_/https://ourrevolution.com/progressives-building-local-power-across-california/",
+  "timestamp": "20261104222135",
+  "digest": "5FYXBHNTGPDQ72DDOSIV3GKXROCDJC5Y",
+  "checked_at": "2026-11-04T22:23:18.437Z",
   "statements": {
    "found": 4,
    "of": 4
   },
-  "compared": "20261025052058",
+  "compared": "20261104222135",
   "save": {
-   "at": "2026-10-31T10:16:09.970Z",
+   "at": "2026-11-04T22:21:29.539Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-cefb99702ade20d1d7431fadd49a955ea7585418",
-   "snapshot": "20261031103609",
+   "snapshot": "20261104164549",
    "final_url": "https://ourrevolution.com/progressives-building-local-power-across-california/"
-  },
-  "origin": "existing"
+  }
  },
  "https://ourrevolution.com/randy-villegas-for-u-s-congress-in-california/": {
-  "url": "https://web.archive.org/web/20261025052104id_/https://ourrevolution.com/randy-villegas-for-u-s-congress-in-california/",
-  "timestamp": "20261025052104",
-  "digest": "BYUO7OHLXHJJRDANVU76EPRCKX5ZF5YH",
-  "checked_at": "2026-11-04T08:27:18.260Z",
+  "url": "https://web.archive.org/web/20261104222151id_/https://ourrevolution.com/randy-villegas-for-u-s-congress-in-california/",
+  "timestamp": "20261104222151",
+  "digest": "TDYMWOO54CWSLAURZQ3DTYCOAMSYEBXV",
+  "checked_at": "2026-11-04T22:23:20.068Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261025052104",
+  "compared": "20261104222151",
   "save": {
-   "at": "2026-10-31T16:07:26.561Z",
+   "at": "2026-11-04T22:21:44.878Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-82cb4fc8b59e0f2c97099de56f8af087d3d89d72",
-   "snapshot": "20261031160857",
+   "snapshot": "20261104164531",
    "final_url": "https://ourrevolution.com/randy-villegas-for-u-s-congress-in-california/"
-  },
-  "origin": "existing"
+  }
  },
  "https://ourrevolution.com/ro-khanna-for-re-election-to-congress/": {
-  "url": "https://web.archive.org/web/20261025052129id_/https://ourrevolution.com/ro-khanna-for-re-election-to-congress/",
-  "timestamp": "20261025052129",
-  "digest": "CROHVNHUH35HXKG7T7P454LHEDPOAZBC",
-  "checked_at": "2026-11-04T08:29:49.788Z",
+  "url": "https://web.archive.org/web/20261104222303id_/https://ourrevolution.com/ro-khanna-for-re-election-to-congress/",
+  "timestamp": "20261104222303",
+  "digest": "YDCYBQWJQ2VFXZF3IGKUM47AK3MHSSN4",
+  "checked_at": "2026-11-04T22:23:22.210Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261025052129",
+  "compared": "20261104222303",
   "save": {
-   "at": "2026-11-02T11:49:26.690Z",
+   "at": "2026-11-04T22:22:00.688Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-efecc5d27230122d8729b51f90ed90349295929e",
-   "snapshot": "20261102115017",
+   "snapshot": "20261104164548",
    "final_url": "https://ourrevolution.com/ro-khanna-for-re-election-to-congress/"
-  },
-  "origin": "existing"
+  }
  },
  "https://ourrevolution.com/sarah-rascon-for-california-state-senate-sd-26/": {
-  "url": "https://web.archive.org/web/20261025051840id_/https://ourrevolution.com/sarah-rascon-for-california-state-senate-sd-26/",
-  "timestamp": "20261025051840",
-  "digest": "MIXJKSCCV6Y3NE3OG3ZRIYPIEX52TESB",
-  "checked_at": "2026-11-04T08:27:20.050Z",
+  "url": "https://web.archive.org/web/20261104222231id_/https://ourrevolution.com/sarah-rascon-for-california-state-senate-sd-26/",
+  "timestamp": "20261104222231",
+  "digest": "5UKU2NSSOLA3ABRMUZVV32TC27OBSX7B",
+  "checked_at": "2026-11-04T22:23:23.819Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261025051840",
+  "compared": "20261104222231",
   "save": {
-   "at": "2026-10-31T16:05:15.981Z",
+   "at": "2026-11-04T22:21:14.119Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-cbd945ec9e6ac6717ff5a2a75c48db5a19a6b197",
-   "snapshot": "20261031160646",
+   "snapshot": "20261104164531",
    "final_url": "https://ourrevolution.com/sarah-rascon-for-california-state-senate-sd-26/"
-  },
-  "origin": "existing"
+  }
  },
  "https://ourrevolution.com/torres-walker-and-wilson-for-antioch-city-council/": {
   "url": "https://web.archive.org/web/20261102114446id_/https://ourrevolution.com/torres-walker-and-wilson-for-antioch-city-council/",
@@ -9216,19 +9201,18 @@
   "origin": "requested"
  },
  "https://porac.org/advocacy/2026-voting-guide/": {
-  "url": "https://web.archive.org/web/20261008010634id_/https://porac.org/advocacy/2026-voting-guide/",
-  "timestamp": "20261008010634",
-  "digest": "PZ6FVHQAW3FQCO6JWX5VSURBCG5IKVHX",
-  "checked_at": "2026-11-04T08:27:30.496Z",
+  "url": "https://web.archive.org/web/20261104221749id_/https://porac.org/advocacy/2026-voting-guide/",
+  "timestamp": "20261104221749",
+  "digest": "PZDDSRRB4CU7KQ5JNBR72YO6PJGZOAGU",
+  "checked_at": "2026-11-04T22:23:25.533Z",
   "save": {
-   "at": "2026-10-31T16:01:26.241Z",
+   "at": "2026-11-04T22:16:38.222Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-aa1376eb87be67b1970200139250e29ac9420e8e",
-   "snapshot": "20261031160243",
+   "snapshot": "20261104163953",
    "final_url": "https://porac.org/advocacy/2026-voting-guide/"
-  },
-  "origin": "existing"
+  }
  },
  "https://reproductivefreedomforall.org/endorsements/": {
   "url": "https://web.archive.org/web/20261031031649id_/https://reproductivefreedomforall.org/elections/",
@@ -9316,24 +9300,23 @@
   "origin": "requested"
  },
  "https://sandiegosierraclub.org/news/endorsed-candidates": {
-  "url": "https://web.archive.org/web/20261009122154id_/https://sandiegosierraclub.org/news/endorsed-candidates",
-  "timestamp": "20261009122154",
-  "digest": "2ZK5I5OXMFPTUCZH7HJGBFK5TI4RVD3S",
-  "checked_at": "2026-11-04T08:29:54.493Z",
+  "url": "https://web.archive.org/web/20261104221830id_/https://sandiegosierraclub.org/news/endorsed-candidates",
+  "timestamp": "20261104221830",
+  "digest": "QUXHQDPZ2ECPLPWAEX7QJKCCV2U7YWIK",
+  "checked_at": "2026-11-04T22:23:28.831Z",
   "statements": {
    "found": 15,
    "of": 15
   },
-  "compared": "20261009122154",
+  "compared": "20261104221830",
   "save": {
-   "at": "2026-11-02T11:50:10.445Z",
+   "at": "2026-11-04T22:17:19.484Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-09b08f13074fc050a7f9c1661277dd0d19afbb0b",
-   "snapshot": "20261102115016",
+   "snapshot": "20261104164042",
    "final_url": "https://sandiegosierraclub.org/news/endorsed-candidates"
-  },
-  "origin": "existing"
+  }
  },
  "https://sandiegosierraclub.org/no-on-45": {
   "url": "https://web.archive.org/web/20261030225620id_/https://sandiegosierraclub.org/no-on-45",
@@ -11536,19 +11519,18 @@
   }
  },
  "https://thelafed.org/resource/lalaborvoterguide/": {
-  "url": "https://web.archive.org/web/20260716011804id_/https://thelafed.org/resource/lalaborvoterguide/",
-  "timestamp": "20260716011804",
-  "digest": "M34UZCTD22YJYOSPM4LKFPUIIWVIKD3R",
-  "checked_at": "2026-11-04T08:29:58.721Z",
+  "url": "https://web.archive.org/web/20261104221234id_/https://thelafed.org/resource/lalaborvoterguide/",
+  "timestamp": "20261104221234",
+  "digest": "OYXMLAJEIHWIEA2PZJ24Z34RNMCQAEMF",
+  "checked_at": "2026-11-04T22:23:30.783Z",
   "save": {
-   "at": "2026-11-02T11:38:09.095Z",
+   "at": "2026-11-04T22:10:09.442Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-f94ef0ae3439756ec6d934f8d20c96cfa1ba9ddf",
-   "snapshot": "20261102113830",
+   "snapshot": "20261104163348",
    "final_url": "https://thelafed.org/resource/lalaborvoterguide/"
-  },
-  "origin": "existing"
+  }
  },
  "https://uesf.org/our-work/political-action/": {
   "url": "https://web.archive.org/web/20261103195323id_/https://uesf.org/our-work/political-action/",
@@ -13510,64 +13492,61 @@
   "origin": "requested"
  },
  "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-measure-z-invest-in-calm-a-community-treasure/article_1f58e778-9725-48f1-95b0-91887f56ad69.html": {
-  "url": "https://web.archive.org/web/20260915042908id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-measure-z-invest-in-calm-a-community-treasure/article_1f58e778-9725-48f1-95b0-91887f56ad69.html",
-  "timestamp": "20260915042908",
-  "digest": "SX6TIJLCZLVEHWLSBYWAYO2HQFT3PQJX",
-  "checked_at": "2026-11-04T08:30:10.260Z",
+  "url": "https://web.archive.org/web/20261104221455id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-measure-z-invest-in-calm-a-community-treasure/article_1f58e778-9725-48f1-95b0-91887f56ad69.html",
+  "timestamp": "20261104221455",
+  "digest": "B6BYMFAEPSUGUXO6IVJ6A5LZBBVR37UF",
+  "checked_at": "2026-11-04T22:23:32.488Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20260915042908",
+  "compared": "20261104221455",
   "save": {
-   "at": "2026-11-02T11:44:10.729Z",
+   "at": "2026-11-04T22:13:08.711Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-7c07acd5ca0b883faf1817a5633fff8cf5e5261b",
-   "snapshot": "20261102114414",
+   "snapshot": "20261104163601",
    "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-measure-z-invest-in-calm-a-community-treasure/article_1f58e778-9725-48f1-95b0-91887f56ad69.html"
-  },
-  "origin": "existing"
+  }
  },
  "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-2-like-families-state-must-save-for-rainy-days/article_401338ad-e737-4dce-b801-53e972767b6f.html": {
-  "url": "https://web.archive.org/web/20261003181450id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-2-like-families-state-must-save-for-rainy-days/article_401338ad-e737-4dce-b801-53e972767b6f.html",
-  "timestamp": "20261003181450",
-  "digest": "MZGVA3MV7UHW6K5TZGEBBLLBVA4GWF7S",
-  "checked_at": "2026-11-04T08:30:21.175Z",
+  "url": "https://web.archive.org/web/20261104221534id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-2-like-families-state-must-save-for-rainy-days/article_401338ad-e737-4dce-b801-53e972767b6f.html",
+  "timestamp": "20261104221534",
+  "digest": "K3LN55QSBLFDCTEIDGLQODRNIRFMDREJ",
+  "checked_at": "2026-11-04T22:23:34.871Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261003181450",
+  "compared": "20261104221534",
   "save": {
-   "at": "2026-11-02T11:46:25.775Z",
+   "at": "2026-11-04T22:14:23.035Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-29118c06638a92000bf347453e790d78c8034217",
-   "snapshot": "20261102114629",
+   "snapshot": "20261104163645",
    "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-2-like-families-state-must-save-for-rainy-days/article_401338ad-e737-4dce-b801-53e972767b6f.html"
-  },
-  "origin": "existing"
+  }
  },
  "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-3-make-existing-tax-permanent-protect-schools/article_622f1429-97bd-44a3-bdbf-3446d6fdbe70.html": {
-  "url": "https://web.archive.org/web/20261004002632id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-3-make-existing-tax-permanent-protect-schools/article_622f1429-97bd-44a3-bdbf-3446d6fdbe70.html",
-  "timestamp": "20261004002632",
-  "digest": "WQ5NNBZUGGHSMG73VAAW7564ZQFUGH2G",
-  "checked_at": "2026-11-04T08:30:22.956Z",
+  "url": "https://web.archive.org/web/20261104221539id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-3-make-existing-tax-permanent-protect-schools/article_622f1429-97bd-44a3-bdbf-3446d6fdbe70.html",
+  "timestamp": "20261104221539",
+  "digest": "KLRQI2SES4RPKROGDPAEJUUWORTLHAVH",
+  "checked_at": "2026-11-04T22:23:36.492Z",
   "save": {
-   "at": "2026-11-02T11:46:41.916Z",
+   "at": "2026-11-04T22:14:38.336Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-d9d5c377404fcf5ee1c8ab6cb4559f6e60cc765f",
-   "snapshot": "20261102114645",
+   "snapshot": "20261104163809",
    "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-3-make-existing-tax-permanent-protect-schools/article_622f1429-97bd-44a3-bdbf-3446d6fdbe70.html"
   },
-  "origin": "existing",
   "statements": {
    "found": 0,
    "of": 1
   },
-  "compared": "20261004002632"
+  "compared": "20261104221539"
  },
  "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-43-close-ballot-box-taxing-loophole/article_5466ddb0-c059-46de-8f07-fa2563c2c492.html": {
   "url": "https://web.archive.org/web/20261031103100id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-43-close-ballot-box-taxing-loophole/article_5466ddb0-c059-46de-8f07-fa2563c2c492.html",
@@ -13772,12 +13751,10 @@
   "digest": "X5RJCBWAHFTBFULY7HNU2HHP2XFSG4XT",
   "checked_at": "2026-11-03T12:19:52.332Z",
   "save": {
-   "at": "2026-11-03T12:15:24.970Z",
+   "at": "2026-11-04T22:19:40.243Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-3e20937a2ba6128651360c27b71a57ec982ad071",
-   "snapshot": "20261103121526",
-   "final_url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf"
+   "outcome": "failed",
+   "error": "error:too-many-daily-captures"
   },
   "origin": "existing",
   "statements": {
@@ -14020,7 +13997,7 @@
   "url": "https://web.archive.org/web/20261021072137id_/https://www.cta.org/document/2026-candidate-recommendations",
   "timestamp": "20261021072137",
   "digest": "H6QNHLINYTID4QHLKPDNMTHU4HGIKKVI",
-  "checked_at": "2026-11-03T12:19:54.138Z",
+  "checked_at": "2026-11-04T22:23:38.239Z",
   "origin": "existing",
   "statements": {
    "found": 134,
@@ -14028,11 +14005,11 @@
   },
   "compared": "20261021072137",
   "save": {
-   "at": "2026-11-03T12:16:39.059Z",
+   "at": "2026-11-04T22:20:42.898Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-78c060f2a1e1f8edd4a9c6450a23969dcf8ac03d",
-   "snapshot": "20261103121640",
+   "snapshot": "20261104164406",
    "final_url": "https://www.cta.org/document/2026-candidate-recommendations"
   }
  },
@@ -14040,7 +14017,7 @@
   "url": "https://web.archive.org/web/20261021071654id_/https://www.cta.org/document/2026-november-general-election-initiative-recommendations",
   "timestamp": "20261021071654",
   "digest": "CYH63B4EP5WQYC3CQEOUICND5KOIGZPP",
-  "checked_at": "2026-11-03T12:19:55.946Z",
+  "checked_at": "2026-11-04T22:23:40.073Z",
   "origin": "existing",
   "statements": {
    "found": 8,
@@ -14048,11 +14025,11 @@
   },
   "compared": "20261021071654",
   "save": {
-   "at": "2026-11-03T12:16:23.374Z",
+   "at": "2026-11-04T22:20:27.591Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-43ec2f111764cc8dc35455ae8261e1e649312126",
-   "snapshot": "20261103121724",
+   "snapshot": "20261104164339",
    "final_url": "https://www.cta.org/document/2026-november-general-election-initiative-recommendations"
   }
  },
@@ -14319,19 +14296,18 @@
   "origin": "requested"
  },
  "https://www.gunsensevoter.org/faq/": {
-  "url": "https://web.archive.org/web/20261003153330id_/https://gunsensevoter.org/faq/",
-  "timestamp": "20261003153330",
-  "digest": "IIGRDHCRBMI2EORGM7GDEMVJVCTQZBEM",
-  "checked_at": "2026-11-04T08:28:23.496Z",
+  "url": "https://web.archive.org/web/20261104221506id_/https://gunsensevoter.org/faq/",
+  "timestamp": "20261104221506",
+  "digest": "K6VE7WTC5KQY7GFKXJP4ZWHQIGBVB3X2",
+  "checked_at": "2026-11-04T22:23:41.746Z",
   "save": {
-   "at": "2026-10-31T10:18:17.761Z",
+   "at": "2026-11-04T22:14:07.081Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-62131ce8e886a8db9114e2a27dedfb85024739e4",
-   "snapshot": "20261031103821",
+   "snapshot": "20261104163632",
    "final_url": "https://gunsensevoter.org/faq/"
-  },
-  "origin": "existing"
+  }
  },
  "https://www.hjta.org/2026votingguide/": {
   "url": "https://web.archive.org/web/20261102221429id_/https://www.hjta.org/2026votingguide/",
@@ -14449,24 +14425,23 @@
   "origin": "requested"
  },
  "https://www.independent.com/2026/05/14/primary-election-2026-endorsements/": {
-  "url": "https://web.archive.org/web/20260911234742id_/https://www.independent.com/2026/05/14/primary-election-2026-endorsements/",
-  "timestamp": "20260911234742",
-  "digest": "6EEJRL63CDAVAATT5YDNV2BMU5OWSW7W",
-  "checked_at": "2026-11-04T08:28:25.324Z",
+  "url": "https://web.archive.org/web/20261104221409id_/https://www.independent.com/2026/05/14/primary-election-2026-endorsements/",
+  "timestamp": "20261104221409",
+  "digest": "WNTECSVSOOXUOK7DHV5ZXVFGYMSMQITQ",
+  "checked_at": "2026-11-04T22:23:43.489Z",
   "save": {
-   "at": "2026-10-31T10:10:07.719Z",
+   "at": "2026-11-04T22:12:33.015Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-23ddc9757fca2145a369a44c9333d7990c032cea",
-   "snapshot": "20261031103023",
+   "snapshot": "20261104163509",
    "final_url": "https://www.independent.com/2026/05/14/primary-election-2026-endorsements/"
   },
-  "origin": "existing",
   "statements": {
    "found": 0,
    "of": 7
   },
-  "compared": "20260911234742"
+  "compared": "20261104221409"
  },
  "https://www.independent.com/2026/10/07/the-santa-barbara-independent-endorsements-for-the-general-election-november-3-2026/": {
   "url": "https://web.archive.org/web/20261101145052id_/https://www.independent.com/2026/10/07/the-santa-barbara-independent-endorsements-for-the-general-election-november-3-2026/",
@@ -14522,36 +14497,35 @@
   "compared": "20261103204640"
  },
  "https://www.kpbs.org/news/politics/2026/05/06/2026-primary-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian": {
-  "url": "https://web.archive.org/web/20261011054130id_/https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-  "timestamp": "20261011054130",
-  "digest": "QJZ4G2QSR4LDV3RJSCJAJO4LJLUGAU6Q",
-  "checked_at": "2026-11-04T08:28:30.122Z",
+  "url": "https://web.archive.org/web/20261104221807id_/https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+  "timestamp": "20261104221807",
+  "digest": "UF7QWOMGCO3JFSTFR3ZXLABEJGWVBE5O",
+  "checked_at": "2026-11-04T22:23:45.186Z",
   "save": {
-   "at": "2026-10-31T10:05:39.888Z",
+   "at": "2026-11-04T22:17:35.263Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-29a560c76753bf1590b040264f9142fceeae30be",
-   "snapshot": "20261031102630",
+   "snapshot": "20261104164155",
    "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian"
   },
-  "origin": "existing",
   "statements": {
    "found": 0,
    "of": 2
   },
-  "compared": "20261011054130"
+  "compared": "20261104221807"
  },
  "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian": {
   "url": "https://web.archive.org/web/20261011054130id_/https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
   "timestamp": "20261011054130",
   "digest": "QJZ4G2QSR4LDV3RJSCJAJO4LJLUGAU6Q",
-  "checked_at": "2026-11-04T08:28:34.658Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-31T16:13:15.331Z",
+   "at": "2026-11-04T22:18:01.887Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-f90a4073278d7ba60a7bc2ad19f464cbda286183",
-   "snapshot": "20261031161436",
+   "snapshot": "20261104164120",
    "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian"
   },
   "origin": "existing"
@@ -14630,13 +14604,13 @@
   "url": "https://web.archive.org/web/20261009122031id_/https://www.laforward.org/voterguide",
   "timestamp": "20261009122031",
   "digest": "DO5NRFJ5TYO2ZQR6GJOT3Z4K4S5T5IGZ",
-  "checked_at": "2026-11-04T08:28:36.362Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-31T16:08:26.001Z",
+   "at": "2026-11-04T22:17:03.623Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-c249f5ed827cbdf7952b8e9279d7d1ff6bb1a122",
-   "snapshot": "20261031160958",
+   "snapshot": "20261104164132",
    "final_url": "https://www.laforward.org/voterguide"
   },
   "origin": "existing",
@@ -14976,7 +14950,7 @@
   "digest": "",
   "checked_at": "2026-11-03T12:24:48.128Z",
   "save": {
-   "at": "2026-11-03T12:13:53.838Z",
+   "at": "2026-11-04T22:08:04.294Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-ce67a78760d52bf779a4ce279335c421b9b38ca6",
@@ -15630,18 +15604,18 @@
   "url": "https://web.archive.org/web/20261005110414id_/https://www.ocregister.com/2026/10/03/endorsement-carlos-rodriguez-for-yorba-linda-city-council/",
   "timestamp": "20261005110414",
   "digest": "EPGVOHLQG2TCVT3D5YEFPDSW5JIV3UWA",
-  "checked_at": "2026-11-04T08:28:42.198Z",
+  "checked_at": "",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20261005110414",
   "save": {
-   "at": "2026-10-31T10:21:04.341Z",
+   "at": "2026-11-04T22:15:03.744Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-5066e682c629ef266bc7ff9f065c0378a66c035b",
-   "snapshot": "20261031104046",
+   "snapshot": "20261104163727",
    "final_url": "https://www.ocregister.com/2026/10/03/endorsement-carlos-rodriguez-for-yorba-linda-city-council/"
   },
   "origin": "existing"
@@ -15987,18 +15961,18 @@
   "url": "https://web.archive.org/web/20261015125912id_/https://www.progressivevotersguide.com/california/2026/general/city/fairfield",
   "timestamp": "20261015125912",
   "digest": "MU5S52FF4KP2DFA63L2ROMK2NHKHBVBC",
-  "checked_at": "2026-11-04T08:31:28.407Z",
+  "checked_at": "",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20261015125912",
   "save": {
-   "at": "2026-10-31T20:18:06.403Z",
+   "at": "2026-11-04T22:18:33.377Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-79278579b218f8ed001b66914754def32eada4ac",
-   "snapshot": "20261031201811",
+   "snapshot": "20261104164153",
    "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/fairfield"
   },
   "origin": "existing"
@@ -16148,18 +16122,18 @@
   "url": "https://web.archive.org/web/20261015130031id_/https://www.progressivevotersguide.com/california/2026/general/city/oakland",
   "timestamp": "20261015130031",
   "digest": "3CV2ODTBVEXHPYESX65LIKQEGRY3DMOQ",
-  "checked_at": "2026-11-04T08:31:49.632Z",
+  "checked_at": "",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20261015130031",
   "save": {
-   "at": "2026-10-31T20:19:43.909Z",
+   "at": "2026-11-04T22:19:09.295Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-a95677c9a32428cf9b8ea13c955446058b7a97e3",
-   "snapshot": "20261031201947",
+   "snapshot": "20261104164209",
    "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/oakland"
   },
   "origin": "existing"
@@ -18311,7 +18285,7 @@
   "digest": "",
   "checked_at": "2026-11-03T20:00:32.867Z",
   "save": {
-   "at": "2026-11-03T12:14:09.541Z",
+   "at": "2026-11-04T22:08:19.851Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-b5c9af5aad76cd53efcfe927093dfe3ce6a573c8",
@@ -19550,13 +19524,13 @@
   "url": "https://web.archive.org/web/20260616020343id_/https://www.sjgop.org/endorsements",
   "timestamp": "20260616020343",
   "digest": "C5PLDMPMD4A73K2XWNAU2KIIKSPBDCDV",
-  "checked_at": "2026-11-04T08:30:36.800Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-11-02T11:39:12.528Z",
+   "at": "2026-11-04T22:09:31.665Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-d669999b2a530e3cb9c327fbadb79c45938b12aa",
-   "snapshot": "20261102113915",
+   "snapshot": "20261104163300",
    "final_url": "https://www.sjgop.org/endorsements"
   },
   "origin": "existing",
@@ -19625,7 +19599,7 @@
   "digest": "",
   "checked_at": "2026-11-03T20:01:33.258Z",
   "save": {
-   "at": "2026-11-03T12:14:25.296Z",
+   "at": "2026-11-04T22:08:35.332Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-acc26fae707299cd42182cc663fd211b910ea7b7",
@@ -19638,7 +19612,7 @@
   "digest": "",
   "checked_at": "2026-11-03T20:01:35.035Z",
   "save": {
-   "at": "2026-11-03T12:14:41.302Z",
+   "at": "2026-11-04T22:09:00.858Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-ef238f167f83e2e7cb2ceb8f3954b42e0738b68e",
@@ -20035,18 +20009,18 @@
   "url": "https://web.archive.org/web/20261005224332id_/https://www.uniteddems.org/endorsements",
   "timestamp": "20261005224332",
   "digest": "P4WVPG7UCAEF4FL7HLZXKLWY2HTR57AK",
-  "checked_at": "2026-11-04T08:31:02.545Z",
+  "checked_at": "",
   "statements": {
    "found": 53,
    "of": 53
   },
   "compared": "20261005224332",
   "save": {
-   "at": "2026-10-31T15:54:41.752Z",
+   "at": "2026-11-04T22:15:34.753Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-e3bdd799367610dd9415e381899f82f6b9990d7b",
-   "snapshot": "20261031155538",
+   "snapshot": "20261104163811",
    "final_url": "https://www.uniteddems.org/endorsements"
   },
   "origin": "existing"
@@ -20096,18 +20070,18 @@
   "url": "https://web.archive.org/web/20261007210822id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-adam-gray-for-californias-thirteenth-district",
   "timestamp": "20261007210822",
   "digest": "ECGWAWRDXD3PEMUVUBV6NIOM27GEO5ZF",
-  "checked_at": "2026-11-04T08:31:04.438Z",
+  "checked_at": "",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20261007210822",
   "save": {
-   "at": "2026-10-31T16:00:26.403Z",
+   "at": "2026-11-04T22:16:22.904Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-fbd5f15fed2289e05fba985e96f74cb2f176901d",
-   "snapshot": "20261031160100",
+   "snapshot": "20261104164020",
    "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-adam-gray-for-californias-thirteenth-district"
   },
   "origin": "existing"
@@ -20136,18 +20110,18 @@
   "url": "https://web.archive.org/web/20261006173153id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-james-gallagher-for-californias-first-district",
   "timestamp": "20261006173153",
   "digest": "DNXDAJ23DGBVYTPVKLRLNLOY36547VLY",
-  "checked_at": "2026-11-04T08:31:06.613Z",
+  "checked_at": "",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20261006173153",
   "save": {
-   "at": "2026-10-31T15:56:33.405Z",
+   "at": "2026-11-04T22:15:50.672Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "already-archived",
    "job_id": "spn2-caef07c39ee2184b800c98fb343f481d4630f63b",
-   "snapshot": "20261031155659",
+   "snapshot": "20261104163833",
    "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-james-gallagher-for-californias-first-district"
   },
   "origin": "existing"
