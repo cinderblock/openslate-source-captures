@@ -1,0 +1,26 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Wed, 04 Nov 2026 13:04:21 GMT
+Transfer-Encoding: chunked
+Connection: close
+content-security-policy: object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+location: /tracker?role=candidate
+permissions-policy: camera=(), microphone=(), geolocation=(self)
+referrer-policy: strict-origin-when-cross-origin
+Server: cloudflare
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-railway-request-id: SZlZ3RBwTDCIcm8EFFmdQQ
+x-railway-edge: iad1
+x-hikari-trace: iad1.dh1s
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=7,cfOrigin;dur=165
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2P7dKKler7IM%2FOyln0ZiRGuy7JpzWV5LDSs6Gm%2FI8E5jNh3MeU0TAGEHXYzW%2FNKPUNNa7jRelR9wJaqqQx7RRQ9ntFPsCqhiRSw%2BMjAOrMW8p974%2BitMx8PxbuRqIkCfVMd5Kw%3D%3D"}]}
+CF-RAY: a553d2f46ddce721-IAD
+alt-svc: h3=":443"; ma=86400
+
+0
+

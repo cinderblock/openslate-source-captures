@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sdvote.com/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sdvote.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1089,
-    "captured_at": "2026-11-03T17:29:44.762Z",
+    "captured_at": "2026-11-04T13:04:03.651Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf",
-    "response_sha256": "b291541f7756f683d6340858cc3ea55681ccf9738b5239ec488ec4651bf5b3eb",
+    "response_sha256": "8a65e61b2a20307072c97e7b5e83db14539489c28ec69eaed0f59993ba622fcc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -53,8 +54,8 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031003008id_/https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf",
-    "timestamp": "20261031003008",
+    "url": "https://web.archive.org/web/20261103204313id_/https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf",
+    "timestamp": "20261103204313",
     "digest": "D4IC2O6TIQOTPZ5I3Y7ZFUVGTPMF7PQR",
     "origin": "requested"
    },
@@ -75,13 +76,13 @@
     "org_host": "sdvote.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1107,
-    "captured_at": "2026-11-03T17:30:08.789Z",
+    "captured_at": "2026-11-04T13:04:31.182Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/rov/en/sample-ballot-info-lookup.html",
-    "response_sha256": "a32a34b1b9d825f602ac0d0f1d143db6275696e9af2d992a00d29c7cd42df4dd",
+    "response_sha256": "d8d4a2904e7864262f7b2142c1e9d30fb4689f08f8d7eff7c873caba403aeed6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -91,8 +92,8 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031004605id_/https://www.sdvote.com/content/rov/en/sample-ballot-info-lookup.html",
-    "timestamp": "20261031004605",
+    "url": "https://web.archive.org/web/20261104005818id_/https://www.sdvote.com/content/rov/en/sample-ballot-info-lookup.html",
+    "timestamp": "20261104005818",
     "digest": "2IWFYYGTVETPRR3UKSTBG6YBPFBONNRA",
     "origin": "requested"
    },

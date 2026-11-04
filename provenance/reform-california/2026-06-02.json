@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://reformcalifornia.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "reformcalifornia.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 869,
-    "captured_at": "2026-11-03T17:29:21.840Z",
+    "captured_at": "2026-11-04T13:03:40.351Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-    "response_sha256": "9931586385ec916ad460b993bbc5ee3789fe10768fc8ba0ec91e98f3560cf14a",
+    "response_sha256": "bce859caf46ee15740552e0313c9771f7f08a40201b2d049cf9691bf4967610d",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -53,10 +54,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031102630id_/https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-    "timestamp": "20261031102630",
-    "digest": "QAAF3QFPYNP7WRJSCAWM36TP2J64EX5Q",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261011054130id_/https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
+    "timestamp": "20261011054130",
+    "digest": "QJZ4G2QSR4LDV3RJSCJAJO4LJLUGAU6Q",
+    "origin": "existing",
     "statements": {
      "found": 0,
      "of": 2

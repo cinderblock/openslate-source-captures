@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 769,
-    "captured_at": "2026-11-03T17:28:49.301Z",
+    "captured_at": "2026-11-04T13:03:09.598Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
-    "response_sha256": "9643343da31187428de1e39341bb810928fa284e3b2f1a994a1790ef496f4f0c",
+    "response_sha256": "cbf5932662de853dc77b78cb0c4ca8f705dd47a9a60331ad65e631b389504788",
     "bytes": "public",
     "claims": [
      "captured",
@@ -53,10 +54,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261001005111id_/https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
-    "timestamp": "20261001005111",
-    "digest": "XXYTSPDQFFBLI436D5CGP2IYHJVNFDNH",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261104080152id_/https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "timestamp": "20261104080152",
+    "digest": "POXHUR2SQRCML6ONMCFBFR6VWRTWV3IS",
+    "origin": "requested",
     "statements": {
      "found": 0,
      "of": 2

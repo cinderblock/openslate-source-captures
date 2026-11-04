@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sfstandard.com/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sfstandard.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 551,
-    "captured_at": "2026-11-03T17:28:31.377Z",
+    "captured_at": "2026-11-04T13:02:54.871Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfstandard.com/politics/",
-    "response_sha256": "630c8254be7da432e2f19c0816e389b76af5930a3835c7fbc7df1cddd731c151",
+    "response_sha256": "1a897718b67247ff343196540cd6db448bccf6968f735ef8fec0b1ae827ee1e5",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -75,13 +76,13 @@
     "org_host": "sfstandard.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 552,
-    "captured_at": "2026-11-03T17:28:33.236Z",
+    "captured_at": "2026-11-04T13:02:56.557Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfstandard.com/sitemaps/sitemap-index.xml/",
-    "response_sha256": "bc4f7767d7d4a60b14ddd867ce69b17526db625e584035cef7d30353b7303937",
+    "response_sha256": "5d327a56cafb02d0d55613f431d61d47d41971a946f3b94b4f7271fc9803e77d",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -91,9 +92,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261101225851id_/https://sfstandard.com/sitemaps/sitemap-index.xml/",
-    "timestamp": "20261101225851",
-    "digest": "UM273OBI3DGA7QIMCTGOSN3R657Z4ZEB",
+    "url": "https://web.archive.org/web/20261104075537id_/https://sfstandard.com/sitemaps/sitemap-index.xml/",
+    "timestamp": "20261104075537",
+    "digest": "C7WVZMXPCZMT7ZLXHUI2IVBP2ODBZ4PH",
     "origin": "requested"
    },
    "derivation": {

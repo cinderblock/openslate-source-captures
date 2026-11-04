@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sonomademocrats.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sonomademocrats.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 599,
-    "captured_at": "2026-11-03T17:28:36.209Z",
+    "captured_at": "2026-11-04T13:02:58.863Z",
     "status": 200,
     "error": null,
     "final_url": "https://sonomademocrats.org/2026-endorsements/",
-    "response_sha256": "2bec7e8f36a85a9b16059324849da3caa00a9f6f50016a6c53a4dee2eeffceb0",
+    "response_sha256": "30e8566c3bc1aef343eaa72bcc5bb4111ab90904831387f3e330f322543f1f5d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -54,10 +55,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021161645id_/https://sonomademocrats.org/2026-endorsements/",
-    "timestamp": "20261021161645",
-    "digest": "WMGS6OIH332UO3N6QAOBDTSW7RBT3VQU",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261103195524id_/https://sonomademocrats.org/2026-endorsements/",
+    "timestamp": "20261103195524",
+    "digest": "6Q6JY5BF7FLUHSDOZVGUNZGXDQTUXZ23",
+    "origin": "requested",
     "statements": {
      "found": 46,
      "of": 46

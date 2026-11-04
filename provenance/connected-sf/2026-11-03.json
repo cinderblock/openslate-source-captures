@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.connectedsf.com/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "connectedsf.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 833,
-    "captured_at": "2026-11-03T17:29:09.639Z",
+    "captured_at": "2026-11-04T13:03:28.703Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.connectedsf.com/2026-voter-guide",
-    "response_sha256": "febc93f3e70fe7acf6ca43aee4315eb0960399142af490f155357966a5babe20",
+    "response_sha256": "68a6dc3929fb95b0000e16687b91b6da5132b66e88e8cd90dfddc16bd2d40d39",
     "bytes": "public",
     "claims": [
      "captured",
@@ -65,8 +66,8 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 32,
-    "quoted_parts": 1,
+    "exact": 33,
+    "quoted_parts": 0,
     "unanchored": 0,
     "no_statement": 0
    }

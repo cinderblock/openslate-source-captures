@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/sfbay",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1136,
-    "captured_at": "2026-11-03T17:30:03.055Z",
+    "captured_at": "2026-11-04T13:04:21.400Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/2026-endorsements",
-    "response_sha256": "01aff4b117507e163a0cc203021d49d6bbef0bb3ba883475a7639b54c1aee712",
+    "response_sha256": "c567b25d16bcd998b4467e5979c78f47e067d67653be911fa38c38943a86756a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -52,7 +53,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "1e45ec034cfba0dd7dbf7cf14ab780c723d40bdb23f486e33469594de06715e2"
+     "dom_sha256": "b53cd7537e14da19ba4ede823d9013c9b50a972e939a3922dccead165ed8c52d"
     }
    },
    "last_ok": null,
@@ -83,13 +84,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1137,
-    "captured_at": "2026-11-03T17:30:04.575Z",
+    "captured_at": "2026-11-04T13:04:22.978Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/november-2026-combined-endorsements-explanations",
-    "response_sha256": "7f27ec058d1ae98ee94f5bd968be084938230eec3bcfb8baae04a1b555afa2ac",
+    "response_sha256": "2f9e8e3971755b9e027ac44b363ca4bd15ddbdbcde2373f38feb1b4206220565",
     "bytes": "public",
     "claims": [
      "captured",
@@ -98,7 +99,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "e6bb248e535cc85befe0f03749bb26c7667c2c734f389a02be97faf6c5143061"
+     "dom_sha256": "9f89600e6c3578a75b37c5bc4796866a2172644e292356a9637bdd7056768c36"
     }
    },
    "last_ok": null,
@@ -115,8 +116,8 @@
    "derivation": {
     "kind": "anchored",
     "exact": 11,
-    "quoted_parts": 0,
-    "unanchored": 1,
+    "quoted_parts": 1,
+    "unanchored": 0,
     "no_statement": 0
    }
   }

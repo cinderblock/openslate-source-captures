@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.eastbaytimes.com/opinion/endorsements/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "eastbaytimes.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 849,
-    "captured_at": "2026-11-03T17:29:12.165Z",
+    "captured_at": "2026-11-04T13:03:30.798Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.eastbaytimes.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
-    "response_sha256": "682a09db9c864ae9ae99d061e9127b8d08e06ad5ec2ad082af9dcf9e513851c0",
+    "response_sha256": "8df9e80aca796eb8bec32bee130541b670bd19a0dd7c83dba0192eacd780d0f4",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -65,9 +66,9 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 17,
-    "quoted_parts": 21,
-    "unanchored": 0,
+    "exact": 29,
+    "quoted_parts": 8,
+    "unanchored": 1,
     "no_statement": 0
    }
   },
@@ -80,13 +81,13 @@
     "org_host": "eastbaytimes.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 888,
-    "captured_at": "2026-11-03T17:29:27.614Z",
+    "captured_at": "2026-11-04T13:03:47.299Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.mercurynews.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
-    "response_sha256": "35eb9b93323af5bc314b5eed04cc396989da76ee038cc45550c29964d0de6fda",
+    "response_sha256": "660b4ba1574067bb40c23a504b6accb003159b03657a247bc2b2ca777a822b55",
     "bytes": "withheld",
     "claims": [
      "captured",

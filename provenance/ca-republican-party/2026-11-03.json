@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://cagop.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "cagop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 59,
-    "captured_at": "2026-11-03T17:27:31.520Z",
+    "captured_at": "2026-11-04T13:01:57.983Z",
     "status": 200,
     "error": null,
     "final_url": "https://cagop.org/endorsements/",
-    "response_sha256": "ceafcf7188553f63500a9d29aa3dda2e85f111d5db69bc06f3e457762755d412",
+    "response_sha256": "42650a58d8ca81e404d3b3a6992014df9f61f6ed049067b19f10181c7bee451d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -79,13 +80,13 @@
     "org_host": "cagop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 60,
-    "captured_at": "2026-11-03T17:27:33.289Z",
+    "captured_at": "2026-11-04T13:01:59.730Z",
     "status": 200,
     "error": null,
     "final_url": "https://cagop.org/wp-content/uploads/2026/10/CRP-2026G-Statewide-Voter-Guide.pdf",
-    "response_sha256": "4d26280858d167cfb071665a9debc1fd19b268a3f12d2edb85708c64640f35ab",
+    "response_sha256": "966739a0dc483d88137fc83065149ff8bf08f294cca349a8d01652cf5abcf4fc",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.metrochamber.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "metrochamber.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 164,
-    "captured_at": "2026-11-03T17:27:41.425Z",
+    "captured_at": "2026-11-04T13:02:08.225Z",
     "status": 200,
     "error": null,
     "final_url": "https://edge.growthzonecms.com/sites/2034/2026/09/PAC_26-Comprehensive-Primary_Voter-Guide_FINAL.pdf",
-    "response_sha256": "01547317220552a11e979986f10c898c08cf2b931f38d7a43c6c0d9fc7e340ba",
+    "response_sha256": "4f16c078533b065a491734196d58668cee91bea6b91be3db43020f6ce4e3ef2c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -66,8 +67,8 @@
    "derivation": {
     "kind": "anchored",
     "exact": 23,
-    "quoted_parts": 13,
-    "unanchored": 0,
+    "quoted_parts": 12,
+    "unanchored": 1,
     "no_statement": 0
    }
   },
@@ -80,13 +81,13 @@
     "org_host": "metrochamber.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 889,
-    "captured_at": "2026-11-03T17:29:26.292Z",
+    "captured_at": "2026-11-04T13:03:45.063Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.metrochamber.org/",
-    "response_sha256": "20c2a550398ebefebd953eb634030155026f35b360faa690f681be504cd810e8",
+    "response_sha256": "0eac72ffc94bbfd0bf97cd25f7845252b315a7bf23da2092f7d9b477b045f0f1",
     "bytes": "public",
     "claims": [
      "captured",

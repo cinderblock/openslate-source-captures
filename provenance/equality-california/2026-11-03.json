@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.eqca.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "eqca.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 853,
-    "captured_at": "2026-11-03T17:29:14.987Z",
+    "captured_at": "2026-11-04T13:03:34.514Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.eqca.org/elections/",
-    "response_sha256": "786dcf4ae9a105eed5574a89181fa32b774b73c1094aa14263145f914e8afd5b",
+    "response_sha256": "53e4f6eb6e3c3a9c48701f85678ab71e6dd08ceae895319036f109af72eb85d3",
     "bytes": "public",
     "claims": [
      "captured",

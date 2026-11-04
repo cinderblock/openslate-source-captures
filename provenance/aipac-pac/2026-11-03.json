@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://aipacpac.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 79,
-    "captured_at": "2026-11-03T17:27:35.906Z",
+    "captured_at": "2026-11-04T13:02:02.539Z",
     "status": 200,
     "error": null,
     "final_url": "https://candidates.aipacpac.org/page/featured",
-    "response_sha256": "fb8165d1e4607f7932879d507627ee4c215cb2c1805ba4a5f7c8f128970ea968",
+    "response_sha256": "c38023b0fcf913be5f7692cd829799036734adaa02bbe7a71d160d8da2f7cb61",
     "bytes": "public",
     "claims": [
      "captured",
@@ -52,7 +53,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "8f1e49d3210fec152f86143a92c8ace380e1b08ffc0b034428697d7d6aa7794b"
+     "dom_sha256": "845e1ee9c1d108b9d10de765b369a4c55b58fcd37e02b0a771dbf367800a6686"
     }
    },
    "last_ok": null,
@@ -83,13 +84,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 78,
-    "captured_at": "2026-11-03T17:27:34.220Z",
+    "captured_at": "2026-11-04T13:02:00.774Z",
     "status": 500,
     "error": null,
     "final_url": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
-    "response_sha256": "12105328b1a669bd23e8bde52c08c6e736a0593ad127d7f8ca5eb249e83d7238",
+    "response_sha256": "6a79f54169ad0a30168c467f9149de9baba111c94e8d98b3a818bc8dfcfe5935",
     "bytes": "public",
     "claims": [
      "captured",
@@ -121,13 +122,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 800,
-    "captured_at": "2026-11-03T17:29:00.714Z",
+    "captured_at": "2026-11-04T13:03:19.146Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aipac.org/politics",
-    "response_sha256": "89cae20482dc0a7b2cf7b23b895f3e232c724a4c9e9f106fc0c175e16ecb70c5",
+    "response_sha256": "a9737d80f6455e66611d4468b13fd36b0731eaa420f410a6bcec2e99d7d347c3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -137,10 +138,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031161556id_/https://www.aipac.org/politics",
-    "timestamp": "20261031161556",
-    "digest": "OUUAN62MU5NIG7L37UALZOTFRCGOKOSK",
-    "origin": "requested"
+    "url": "https://web.archive.org/web/20261031212128id_/https://www.aipac.org/politics",
+    "timestamp": "20261031212128",
+    "digest": "XKKFB4GQ4FTOL5KD5A4OOVYZ7FF4YTMK"
    },
    "derivation": {
     "kind": "anchored",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://ocvote.gov/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "ocvote.gov"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 458,
-    "captured_at": "2026-11-03T17:28:14.049Z",
+    "captured_at": "2026-11-04T13:02:37.968Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election",
-    "response_sha256": "e6b027fd702712cddb503450c69c45442879527b00178fc77ff947cd83b365e5",
+    "response_sha256": "c8e14ec0f0a6887f2dd626611f3f426a9479446d64b99abb97b746f0864a6c40",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +76,13 @@
     "org_host": "ocvote.gov"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 456,
-    "captured_at": "2026-11-03T17:28:10.183Z",
+    "captured_at": "2026-11-04T13:02:34.117Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocvote.gov/candidates/candidate-filing-log-with-statements",
-    "response_sha256": "6aafc1a1fe7a8ade6263e18825a7c2f30c380fb71efc7a3c7f7ec511e3e9a3b2",
+    "response_sha256": "e8dd10f0033eaf5ffdfc8a6f3c23dd437a09d812f0c24af8c4be863c2ca896a9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -90,7 +91,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "6497bb02af27c2704d419fc08279d7963929a3ff1f7e41b95bc719cc1edccf3e"
+     "dom_sha256": "00ddb201b39998f5d181e629992a5161576a5272f10ec5450bfcec40c1661ed7"
     }
    },
    "last_ok": null,
@@ -117,13 +118,13 @@
     "org_host": "ocvote.gov"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 457,
-    "captured_at": "2026-11-03T17:28:12.428Z",
+    "captured_at": "2026-11-04T13:02:36.343Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocvote.gov/elections/assigned-measure-letters-november-3-2026",
-    "response_sha256": "ec226aea641aace48b4e8777b7eab388cd77f86a87de10215d769f1f92583920",
+    "response_sha256": "18c060b062cd635f854e68620d4ca75449df4176f4dca53b1c5a5fc5ae3ebfcd",
     "bytes": "public",
     "claims": [
      "captured",

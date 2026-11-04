@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://cadem.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 54,
-    "captured_at": "2026-11-03T17:27:31.003Z",
+    "captured_at": "2026-11-04T13:01:57.371Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/endorsements/",
-    "response_sha256": "247b6ae1997fbb3403499db4d1835b826320999d3dd258a31f36c8edd87b8740",
+    "response_sha256": "e58bd23a73ce4fe196b37205d38c494e015ec88f181815b1f3697a1cba4c76e2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +76,13 @@
     "org_host": "cadem.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 55,
-    "captured_at": "2026-11-03T17:27:32.579Z",
+    "captured_at": "2026-11-04T13:01:59.831Z",
     "status": 200,
     "error": null,
     "final_url": "https://cadem.org/wp-content/uploads/2026/02/2026-Convention-Endorsing-Conference-Results-FINAL-Results-PDF.pdf",
-    "response_sha256": "a5414e915c412a672473243e887fde919df9eeab27c23f52caadf302e82d2054",
+    "response_sha256": "940d5bef4846f31de382d9eba62ff7ec46c5f1e22fe27872cdbbfa37e508d70b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -91,10 +92,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261008033854id_/https://cadem.org/wp-content/uploads/2026/02/2026-Convention-Endorsing-Conference-Results-FINAL-Results-PDF.pdf",
-    "timestamp": "20261008033854",
+    "url": "https://web.archive.org/web/20261104005407id_/https://cadem.org/wp-content/uploads/2026/02/2026-Convention-Endorsing-Conference-Results-FINAL-Results-PDF.pdf",
+    "timestamp": "20261104005407",
     "digest": "PXC5PTO47LNHZZNZF5NO7QLDEDSADPFU",
-    "origin": "existing",
+    "origin": "requested",
     "statements": {
      "found": 0,
      "of": 11

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfblueprint.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sfblueprint.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1116,
-    "captured_at": "2026-11-03T17:29:48.601Z",
+    "captured_at": "2026-11-04T13:04:06.720Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfblueprint.org/advocacy/november-2026-voter-guide",
-    "response_sha256": "fb3a0d1fe9035cd1add5f52d7122760a9e4a89426013ec5382a80886554f08ff",
+    "response_sha256": "e30e8f92bd01cc8e274c11166f06cd11aaaf426d633e1a8bde201d01b097b451",
     "bytes": "public",
     "claims": [
      "captured",
@@ -65,9 +66,9 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 17,
+    "exact": 11,
     "quoted_parts": 0,
-    "unanchored": 0,
+    "unanchored": 6,
     "no_statement": 0
    }
   },
@@ -80,13 +81,13 @@
     "org_host": "sfblueprint.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 83,
-    "captured_at": "2026-11-03T17:27:34.980Z",
+    "captured_at": "2026-11-04T13:02:01.781Z",
     "status": 200,
     "error": null,
     "final_url": "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
-    "response_sha256": "abc3501ef8cb8cf7308229617e23a0b1a505760ae0a5eda53e97c88b839691f8",
+    "response_sha256": "56aea95e867abb57e0f2283908610aa1b8311ccb8f765540af34607110ee1708",
     "bytes": "public",
     "claims": [
      "captured",
@@ -96,8 +97,8 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031155222id_/https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
-    "timestamp": "20261031155222",
+    "url": "https://web.archive.org/web/20261005220742id_/https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
+    "timestamp": "20261005220742",
     "digest": "U7IIRXOKIN5PB6ER52WUAXEJK7RON7F5",
     "origin": "existing"
    },

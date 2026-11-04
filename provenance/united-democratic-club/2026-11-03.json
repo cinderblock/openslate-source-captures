@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.uniteddems.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "uniteddems.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1168,
-    "captured_at": "2026-11-03T17:30:04.450Z",
+    "captured_at": "2026-11-04T13:04:21.240Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.uniteddems.org/endorsements",
-    "response_sha256": "9c9ce7f8a926113ee269b0276f8500b291af5d92a3e30f697bcd340a75882df6",
+    "response_sha256": "d0517b84ad56d3463fb9e32df779cb4976cac4789c5115dc3dbe39ce6976d9f8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -54,10 +55,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031155538id_/https://www.uniteddems.org/endorsements",
-    "timestamp": "20261031155538",
-    "digest": "6IPXMPXHEKRUUGR7WEIQQHUTNLQM2EGS",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261005224332id_/https://www.uniteddems.org/endorsements",
+    "timestamp": "20261005224332",
+    "digest": "P4WVPG7UCAEF4FL7HLZXKLWY2HTR57AK",
+    "origin": "existing",
     "statements": {
      "found": 53,
      "of": 53

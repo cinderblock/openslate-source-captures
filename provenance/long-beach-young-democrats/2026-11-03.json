@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 39,
-    "captured_at": "2026-11-03T17:27:32.953Z",
+    "captured_at": "2026-11-04T13:01:59.068Z",
     "status": 200,
     "error": null,
-    "final_url": "https://bluevoterguide.com/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "1f8a7fa4cd89852e89baac3497b53556acb057a8023a262c8f85aa95a5c9fd8d",
+    "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
+    "response_sha256": "9cadca6194646868b34328fac6ae46c8744e97823f27322f397629faf13b0359",
     "bytes": "public",
     "claims": [
      "captured",
@@ -80,13 +81,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 867,
-    "captured_at": "2026-11-03T17:29:20.642Z",
+    "captured_at": "2026-11-04T13:03:38.707Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "cffb56510e01d06aab15c7ad27336b17e613426b1df110ef6ec2ad0f7d25f462",
+    "response_sha256": "c73fe94124a08ca51917bc105a2833be90934a65f55be0c04bcc9a721b121336",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -95,7 +96,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "7d4ad281ffc0b53ed513d2d7acfea5ba000fd41d86f689597009790c3b315770"
+     "dom_sha256": "e7c4dd9fcd23bcc6d3942742ab29e18f9b51bc90169f54f3bc3669d55d2243e0"
     }
    },
    "last_ok": null,

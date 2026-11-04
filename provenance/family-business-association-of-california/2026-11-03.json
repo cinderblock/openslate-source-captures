@@ -5,7 +5,7 @@
  "mode": "inferred",
  "org_uri": null,
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 770,
-    "captured_at": "2026-11-03T17:28:50.879Z",
+    "captured_at": "2026-11-04T13:03:11.122Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
-    "response_sha256": "9638f2ce7ab4d07361cce844cf413f40a676e4325e6c5d247c56765f4d7a8659",
+    "response_sha256": "cb77837e3600b996909c183fbf042035c3d9657af85fcaeff30611ccd9e1123d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -79,13 +80,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 778,
-    "captured_at": "2026-11-03T17:29:03.473Z",
+    "captured_at": "2026-11-04T13:03:24.387Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
-    "response_sha256": "f2c69c81f1836dfd1fceaa5fffaae073d76c831eb18ef49ae5c5bcd5c8653733",
+    "response_sha256": "ef62289f657e082ed6f103bd87ca11d5c5bf0d68ad17c89f6492fd1e03bf57d2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -121,23 +122,19 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 780,
-    "captured_at": "2026-11-03T17:29:06.618Z",
+    "captured_at": "2026-11-04T13:03:27.682Z",
     "status": 200,
     "error": null,
     "final_url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
-    "response_sha256": "b795c1ea0e5adabc76d59602a138836791ffb23dac751dd95d6ca72d0a2cb596",
+    "response_sha256": "f49d37ba3b3cd5fce832b93b2c6036bedcfa2093881e0782777e0ac23a4dee39",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ],
-    "rendered": {
-     "status": 200,
-     "dom_sha256": "af70ab9a608ba7a556ca21014a2bf91220ded86a3eb41435bbed80b4727fcea1"
-    }
+    ]
    },
    "last_ok": null,
    "archived": {

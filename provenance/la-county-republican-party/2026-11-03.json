@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.lagop.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 376,
-    "captured_at": "2026-11-03T17:27:54.327Z",
+    "captured_at": "2026-11-04T13:02:20.467Z",
     "status": 200,
     "error": null,
     "final_url": "https://lagop-endorsement-lookup.vercel.app/",
-    "response_sha256": "37818a9f7c01d33e57d708e2915fcc1e3b8f1c3e5f62446ae29f2e2e8f3845b7",
+    "response_sha256": "6d44a38f1c3f46d6fc1de53110669a958c0dc07de2ca4a705ec0b41f60314d89",
     "bytes": "public",
     "claims": [
      "captured",
@@ -64,8 +65,8 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 14,
-    "quoted_parts": 20,
+    "exact": 15,
+    "quoted_parts": 19,
     "unanchored": 98,
     "no_statement": 0
    }
@@ -79,13 +80,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 876,
-    "captured_at": "2026-11-03T17:29:22.812Z",
+    "captured_at": "2026-11-04T13:03:42.087Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lagop.org/",
-    "response_sha256": "5391f42cc77609222402da4f3caaf448f802b8927d088c5ffcc27209502c911b",
+    "response_sha256": "d87090e922e125d424fd5f7e0db488e443b1f41c95fa89c370745d9471db1412",
     "bytes": "public",
     "claims": [
      "captured",
@@ -117,13 +118,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 377,
-    "captured_at": "2026-11-03T17:27:55.943Z",
+    "captured_at": "2026-11-04T13:02:22.093Z",
     "status": 404,
     "error": null,
     "final_url": "https://lagop-endorsement-lookup.vercel.app/_next/static/chunks/app/page-6de5274a16e7b1f6.js?dpl=dpl_GQ36V56UvLmxAzBWhCHYevkbNL3s",
-    "response_sha256": "14cc56fe4e0a406320f746bf4d8ee2f5584ef28ed3416e484094cfa374891874",
+    "response_sha256": "4c3a393c28a01bb93bd3dd34c04f41bdb9111c3737573b59fd8f77942b5e4905",
     "bytes": "public",
     "claims": [
      "captured",

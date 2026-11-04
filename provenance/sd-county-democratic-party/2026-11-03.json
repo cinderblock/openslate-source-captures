@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sddemocrats.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sddemocrats.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1083,
-    "captured_at": "2026-11-03T17:29:43.433Z",
+    "captured_at": "2026-11-04T13:04:03.016Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sddemocrats.org/candidates.html",
-    "response_sha256": "39f973cbdaf55be5522a23d0fb590296e76c03d9786776b708b416c55b57f911",
+    "response_sha256": "0b98b06e33b30ad808d2bb4445b6be1ecff9ec07b946074836e6444c0352aa76",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +76,13 @@
     "org_host": "sddemocrats.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1084,
-    "captured_at": "2026-11-03T17:29:45.214Z",
+    "captured_at": "2026-11-04T13:04:04.944Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sddemocrats.org/propositions--ballot-measures.html",
-    "response_sha256": "dcd5d01b3a5ca6fefdc4c8aaafea79c59349d75e1bd70381ea1cceebfd2f5991",
+    "response_sha256": "52ca3fe83636968eb72b9eaf27490c4ae2019cecab669d4c1de72eb9de5b682c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -91,9 +92,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031004130id_/https://www.sddemocrats.org/propositions--ballot-measures.html",
-    "timestamp": "20261031004130",
-    "digest": "UR66SLB33RGTS6W3AWIR5B2HXPQCQLHT",
+    "url": "https://web.archive.org/web/20261103205142id_/https://www.sddemocrats.org/propositions--ballot-measures.html",
+    "timestamp": "20261103205142",
+    "digest": "6UKO4I5AMDQZ2UJKYUVTMSHHANIAL5SB",
     "origin": "requested"
    },
    "derivation": {

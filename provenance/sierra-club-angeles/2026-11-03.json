@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/angeles",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1130,
-    "captured_at": "2026-11-03T17:29:53.740Z",
+    "captured_at": "2026-11-04T13:04:12.163Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/angeles/endorsements",
-    "response_sha256": "ac3503188457e895f0568193c6e3e6f55cb4a49e00a076cab47aec9b7e53dff1",
+    "response_sha256": "ba48186fdc4bf7fc369e14eaf316faba594319df6e08a1de804bba98e0b62022",
     "bytes": "public",
     "claims": [
      "captured",
@@ -53,7 +54,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "b442608b342988cb65e87ab3f64104f07a12dbabe291a27ac0bdad6e81688ba9"
+     "dom_sha256": "0400dbd47add7ee32b727616e6df91dea189774765c6ee67d72d9d7dc3bfb826"
     }
    },
    "last_ok": null,

@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://smgop.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 598,
-    "captured_at": "2026-11-03T17:28:36.734Z",
+    "captured_at": "2026-11-04T13:02:59.964Z",
     "status": 200,
     "error": null,
     "final_url": "https://smgop.org/voter-guide",
-    "response_sha256": "1a114a70171f107cb272bac1b5607def883dd8f76b3c6e08ea0e2db37716cfae",
+    "response_sha256": "34e5dcc394518a4893b3060b1ef441b68accf7034929575c1acb7e1ca254cd4f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -75,13 +76,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 597,
-    "captured_at": "2026-11-03T17:28:35.206Z",
+    "captured_at": "2026-11-04T13:02:58.431Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/61b3f88ed47f01182bac0e3f/t/6ad0411fde229b645a49bd2d/1792033055749/SMGOP+++November+2026+Election+Guide+v2.pdf",
-    "response_sha256": "386d9cd1eca78e71d1d41ffcf7fd2e9e7c22458eeeace4f9545acce5387496dd",
+    "response_sha256": "bcd8834822952403c9f069023e66d5c19af232b727f5949b773bc6233ddea241",
     "bytes": "public",
     "claims": [
      "captured",

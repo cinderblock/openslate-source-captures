@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sccdp.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sccdp.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 537,
-    "captured_at": "2026-11-03T17:28:24.955Z",
+    "captured_at": "2026-11-04T13:02:47.625Z",
     "status": 200,
     "error": null,
     "final_url": "https://sccdp.org/index.php/voter-resources/endorsements/2026-endorsements/",
-    "response_sha256": "746402b19e61b7fe5d36776a9828613d9fc083c620d2a507d2a0aad2d7fc07e3",
+    "response_sha256": "8128128c0c58c43a8db6f031058a9d2dcadd33f498733263cfd786ba3cb09e73",
     "bytes": "public",
     "claims": [
      "captured",
@@ -80,13 +81,13 @@
     "org_host": "sccdp.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 538,
-    "captured_at": "2026-11-03T17:28:27.517Z",
+    "captured_at": "2026-11-04T13:02:50.048Z",
     "status": 200,
     "error": null,
     "final_url": "https://sccdp.org/wp-content/uploads/2026/10/SCCDP-Local-Endorsements-November-3-2026.pdf",
-    "response_sha256": "0062e24777fdccb4bb07c285bab2219146eca2b5fa3433f0722c04f849050b8d",
+    "response_sha256": "601f57bb40fb3771c2146a8999c5ccbdf786bee082f7cc5d9b9e184fc3846c6e",
     "bytes": "public",
     "claims": [
      "captured",

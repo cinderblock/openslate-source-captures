@@ -1,0 +1,105 @@
+HTTP/1.1 200 
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+cf-ray: a553e63f6b7937bb-IAD
+x-chrome-original-content-encoding: zstd
+content-type: text/html; charset=utf-8
+cross-origin-opener-policy: same-origin
+date: Wed, 04 Nov 2026 13:17:31 GMT
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+priority: u=0,i
+referrer-policy: same-origin
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ng29vVGXgf7eDVLpEZXU49Mg%2FXLZUQI3biIzM%2BZvtR8Lmmhzendgt5IbVi4e8gsVn%2Fvyo7YYmMlTzy%2B2XXbPrCewIOX8%2B6HK1ouha2t2MRu7yB5K2eD4vk5YuBQK"}]}
+server: cloudflare
+server-timing: cfCacheStatus;desc="DYNAMIC"
+cfEdge;dur=150,cfOrigin;dur=33
+cfExtPri
+vary: origin, Cookie
+Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: DENY
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2026 Voter Guide</title>
+    <link rel="canonical" href="https://linkjar.to/voter-guide-2026/">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/website/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/website/images/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/website/images/icons/favicon-96x96.png">
+    <link rel="stylesheet" type="text/css" href="https://linkjar.com/static/frontend/css/main.de8dfa76.css" />
+    <style>
+      .rpv-default-layout__container{
+        border: none;
+      }
+      
+      .powered-by-pdf-deck{
+        position: fixed;
+        z-index: 2;
+        right: 1.5rem;
+        bottom: calc(1rem + 3px + env(safe-area-inset-bottom, 0px));
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: white;
+        color: rgba(0,0,0,0.72);
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+        font-style:;
+        font-size: 13px;
+        line-height: 1.2;
+        letter-spacing: 0.01em;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 9999px;
+        text-decoration: underline;
+        text-decoration-color: rgba(0,0,0,0.3);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        transition: color 0.15s ease, border-color 0.15s ease, text-decoration-color 0.15s ease, background-color 0.15s ease;
+      }
+      .powered-by-pdf-deck:hover{
+        color: rgba(0,0,0,0.95);
+        background: #fafaf9;
+        border-color: rgba(0,0,0,0.25);
+        text-decoration-color: rgba(0,0,0,0.85);
+      }
+
+      .rpv-toolbar{
+        align-items: center;
+        background-color: #eee;
+        background-color: var(--rpv-default-layout__toolbar-background-color);
+        border-bottom: 1px solid #0000001a;
+        border-bottom: 1px solid var(--rpv-default-layout__toolbar-border-bottom-color);
+        display: flex;
+        height: 2.5rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+      }
+
+      .react-pdf__Page{
+        background-color: transparent !important;
+      }
+
+      @media (max-width: 700px) {
+        .powered-by-pdf-deck-longer {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-document='/_/pdf/aa0dc48e-a2ea-40c8-8408-d58668b90d0b/' data-type="pdf" data-dl="false" data-branding="true" data-brandname="Linkjar" data-title="2026 Voter Guide" data-reporturl="/voter-guide-2026/report/" data-brandinglink="https://linkjar.com/start/?ref=voter-guide-2026" data-layout="auto" data-flipbookstyle="book" data-formpreview="1" data-forms="off" data-signconsent="I agree that my electronic signature is the legal equivalent of my handwritten signature on this document, and I consent to sign electronically." data-signername=""></div>
+    
+    
+    <a class="powered-by-pdf-deck" target="_blank" rel="nofollow" href="https://linkjar.com/start/?ref=voter-guide-2026"><span class="powered-by-pdf-deck-longer">Shared with </span>Linkjar</a>
+    
+    
+	<script type="text/javascript" src="https://pdflink.to/static/frontend/js/main.a4d4f0cb.js"></script>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"ce91968eb60048ecaa346660230191d0","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

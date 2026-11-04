@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfbg.com/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sfbg.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1114,
-    "captured_at": "2026-11-03T17:29:49.124Z",
+    "captured_at": "2026-11-04T13:04:08.014Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
-    "response_sha256": "03770dc8577bf192f50065438c4b99366b357c7449eed60ac6f0a392d035888a",
+    "response_sha256": "b347f6537b87f949651016e69220e312ceb795fafeb86e3dfd6ff57b0e600f2f",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -54,9 +55,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261028040752id_/https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
-    "timestamp": "20261028040752",
-    "digest": "K3T3ZXUFT6MXPU6YQSVXPZRPSAJPAYI5",
+    "url": "https://web.archive.org/web/20261029051108id_/https://www.sfbg.com/2026/10/06/endorsements-for-the-november-3-2026-election/",
+    "timestamp": "20261029051108",
+    "digest": "JP4S5VE6G5P6EAEQTJJFZBT3J7HVJK2R",
     "origin": "existing",
     "statements": {
      "found": 42,
@@ -80,13 +81,13 @@
     "org_host": "sfbg.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1115,
-    "captured_at": "2026-11-03T17:29:51.227Z",
+    "captured_at": "2026-11-04T13:04:10.095Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfbg.com/2026/10/07/guardian-clean-slate-guide-take-this-to-the-polls-on-nov-3-2026/",
-    "response_sha256": "84f4ea203c991387635d82b1dc9092ae7eb0a09c2d20e9c2c3cad6a3d962eed2",
+    "response_sha256": "5a24c75d7a202f52d741fe25267cc1f26bc1c05dd67e0e4fda481e26c14d6502",
     "bytes": "withheld",
     "claims": [
      "captured",

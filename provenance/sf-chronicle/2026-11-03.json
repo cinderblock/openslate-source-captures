@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfchronicle.com/opinion/editorials/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1121,
-    "captured_at": "2026-11-03T17:29:53.410Z",
+    "captured_at": "2026-11-04T13:04:11.557Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/",
-    "response_sha256": "63da9edcd719a001757de04e1c73bf55bbc6d02fc89761f711e3cb8f28c6022d",
+    "response_sha256": "170f22999d6fc9fbbab9ff3c7ab563427b7b9170091e4f46c8d0cd511d5ce630",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -53,7 +54,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "2a9d6be31d2ace36bc990c4d93345fde1fe5e335486d52cfe41493e68c26bd00"
+     "dom_sha256": "f3aa451b423b19b98f8db6d7ba42e001dbaa0f4cc3058a4c215516f287f3974a"
     }
    },
    "last_ok": null,

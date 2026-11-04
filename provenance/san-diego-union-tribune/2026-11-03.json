@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sandiegouniontribune.com/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "sandiegouniontribune.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1073,
-    "captured_at": "2026-11-03T17:29:39.991Z",
+    "captured_at": "2026-11-04T13:03:58.283Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sandiegouniontribune.com/2026/10/02/the-u-t-editorial-boards-endorsements/",
-    "response_sha256": "85c1c8affd534a115121f1dedb431e64d0244c67380c961e9c19e83f709e7b9c",
+    "response_sha256": "ff5afcbdbcaeacf4a938c14943d857712d2e0bc591079c05f16a62c2e2e6725a",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -65,9 +66,9 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 36,
+    "exact": 30,
     "quoted_parts": 0,
-    "unanchored": 0,
+    "unanchored": 6,
     "no_statement": 0
    }
   },
@@ -80,13 +81,13 @@
     "org_host": "sandiegouniontribune.com"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1075,
-    "captured_at": "2026-11-03T17:29:43.166Z",
+    "captured_at": "2026-11-04T13:04:03.152Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sandiegouniontribune.com/opinion/endorsements/",
-    "response_sha256": "108a085f89d78210e6556dae2c890d912924053da302ecd54a179c9df45d2fc6",
+    "response_sha256": "fe4652967defc0009994d2fe7f9a47eafd66f7f0f233daf7cb4bf275f44ce996",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -96,9 +97,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031003826id_/https://www.sandiegouniontribune.com/opinion/endorsements/",
-    "timestamp": "20261031003826",
-    "digest": "3EWQTSTY6QO66LCZLE6IJP7DWJM6HGNL",
+    "url": "https://web.archive.org/web/20261103204903id_/https://www.sandiegouniontribune.com/opinion/endorsements/",
+    "timestamp": "20261103204903",
+    "digest": "6KG5MZLM3HSY4EVD4DXZIIEL4QJZYU3V",
     "origin": "requested"
    },
    "derivation": {

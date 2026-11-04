@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://ocgop.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 454,
-    "captured_at": "2026-11-03T17:28:15.164Z",
+    "captured_at": "2026-11-04T13:02:38.956Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/voter-guide-2026/",
-    "response_sha256": "f87b5e601a3df839959996e4caeeff9c8d34197f56f37bf989b5443c8f743e02",
+    "response_sha256": "f5002d052aab481e1f308a79c8500a186e1dc08e0249ef5bddcabc133408789e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -57,10 +58,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031103422id_/https://linkjar.to/voter-guide-2026/",
-    "timestamp": "20261031103422",
-    "digest": "JM2LXG6RKFQJGZAZTINUK64OTAFTQ24N",
-    "origin": "requested"
+    "url": "https://web.archive.org/web/20261023100742id_/https://linkjar.to/voter-guide-2026/",
+    "timestamp": "20261023100742",
+    "digest": "JUVWE44WTK2AQF53LARI4UFEVZHWSVKQ",
+    "origin": "existing"
    },
    "derivation": {
     "kind": "anchored",
@@ -79,13 +80,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 379,
-    "captured_at": "2026-11-03T17:27:58.839Z",
+    "captured_at": "2026-11-04T13:02:22.851Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/voter-guide-2026/",
-    "response_sha256": "1e1b4ab025fc3ac8088c82f9f9608dc5a75957cdd2a875ef096af51cf5186241",
+    "response_sha256": "bbeb955a1e287a5110573c65e549cef2deca8b67c2d89a7d3ad70548804e44e6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -94,7 +95,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "6f2cce0c5b3b6809ab05529920b361dc2896a012ae7504a76035bb990f693f04"
+     "dom_sha256": "cfb86249dab8c9c268c32902d2b5931d5d3785af8fddded0e277a24e61825354"
     }
    },
    "last_ok": null,
@@ -125,13 +126,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 455,
-    "captured_at": "2026-11-03T17:28:17.066Z",
+    "captured_at": "2026-11-04T13:02:40.651Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocgop.org/november-election/",
-    "response_sha256": "c1ff15cf8313ae06aeed27440aa6295c78124c914ba514378d18e9f48f359c29",
+    "response_sha256": "061a3ea758c34b672efae1401a58a72b06f1b36ba92926c0df8ae4e84964bac4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -162,13 +163,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 378,
-    "captured_at": "2026-11-03T17:27:56.169Z",
+    "captured_at": "2026-11-04T13:02:20.632Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/_/pdf/aa0dc48e-a2ea-40c8-8408-d58668b90d0b/",
-    "response_sha256": "62127bc7c05baa41d09b5ac61129633e37d62323ec8414d9b0635a07ae1e3af0",
+    "response_sha256": "33df7fb06d91eea9d078e2e8295119b2abe4839990bd0f2dcfb3f06b9d9a34cb",
     "bytes": "public",
     "claims": [
      "captured",

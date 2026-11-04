@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.spur.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "spur.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 1152,
-    "captured_at": "2026-11-03T17:30:00.324Z",
+    "captured_at": "2026-11-04T13:04:17.706Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.spur.org/voter-guide/2026-11",
-    "response_sha256": "b3b2ebf38e0a5de6f8a08741e36d2328a51e3f45f9ffb01f90d7f745d3dbdc09",
+    "response_sha256": "f6dc3192f64214b15e7f8e2ec0006348f9f441a8e5556a0ec9ab98f23b4ba11b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -53,10 +54,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030191214id_/https://www.spur.org/voter-guide/2026-11",
-    "timestamp": "20261030191214",
-    "digest": "5UEBU66GBYB7H7CXZ4BU35MWCIY3TIYB",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261103205126id_/https://www.spur.org/voter-guide/2026-11",
+    "timestamp": "20261103205126",
+    "digest": "QYLBNCU2ZJQ7J2V72XUH4ZYZIL74HEWZ",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",

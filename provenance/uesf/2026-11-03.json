@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://uesf.org/",
  "generated_from": {
-  "endorsements_commit": "b43e7b07421cffa6c347ce124d977eec2ad108b0",
+  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -24,7 +24,8 @@
    "2026-11-02T1953Z",
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
-   "2026-11-03T1727Z"
+   "2026-11-03T1727Z",
+   "2026-11-04T1301Z"
   ]
  },
  "sources": [
@@ -37,13 +38,13 @@
     "org_host": "uesf.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 673,
-    "captured_at": "2026-11-03T17:28:43.175Z",
+    "captured_at": "2026-11-04T13:03:04.921Z",
     "status": 200,
     "error": null,
     "final_url": "https://uesf.org/our-work/political-action/",
-    "response_sha256": "8cfe2ee9ed4b086327382b338deb1ba4a0b515151be0e404ba11d991da8ad905",
+    "response_sha256": "f6de6ccc300b9f6b8fe0b7ecd74afaa8515278852da0ed31a84a591ca3de2439",
     "bytes": "public",
     "claims": [
      "captured",
@@ -54,10 +55,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261021071655id_/https://uesf.org/our-work/political-action/",
-    "timestamp": "20261021071655",
-    "digest": "D6D5QAWAMCDX6XTQW5L46A562M7SH7ZI",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261103195323id_/https://uesf.org/our-work/political-action/",
+    "timestamp": "20261103195323",
+    "digest": "DBRIEHFNJMO24IIRY5Y3QAHWVM63FAPQ",
+    "origin": "requested",
     "statements": {
      "found": 18,
      "of": 18
@@ -80,13 +81,13 @@
     "org_host": "uesf.org"
    },
    "latest": {
-    "run": "2026-11-03T1727Z",
+    "run": "2026-11-04T1301Z",
     "index": 674,
-    "captured_at": "2026-11-03T17:28:45.222Z",
+    "captured_at": "2026-11-04T13:03:07.138Z",
     "status": 200,
     "error": null,
     "final_url": "https://uesf.org/wp-content/uploads/2026/10/UESF-Voter-Guide-PDF-FINAL.pdf",
-    "response_sha256": "aa4ea46bdb700fb760aa9c326389e8795f5b1b7992257e6694a9b81598d5d11f",
+    "response_sha256": "dab39b2753d02cc982a72c396add392f2afe270fd99c0e19ee70caa549e35bf3",
     "bytes": "public",
     "claims": [
      "captured",
