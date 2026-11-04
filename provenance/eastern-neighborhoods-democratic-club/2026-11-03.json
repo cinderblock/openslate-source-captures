@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 546,
-    "captured_at": "2026-11-04T13:02:52.110Z",
+    "captured_at": "2026-11-04T17:41:46.214Z",
     "status": 200,
     "error": null,
     "final_url": "https://sfendorsements.com/",
-    "response_sha256": "2f098fbfdc1ed6e63ea63c50ecf9e63e0badf965dc2f4ce96e2967d65dd9905b",
+    "response_sha256": "c95dd1bbb2ffe6f6be8254a73717f048ab74e52d8a060db9e8d51319207632ca",
     "bytes": "public",
     "claims": [
      "captured",
@@ -80,13 +82,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 856,
-    "captured_at": "2026-11-04T13:03:36.488Z",
+    "captured_at": "2026-11-04T17:42:36.057Z",
     "status": 200,
     "error": null,
     "final_url": "https://gitlab.com/peterxu/sf-endorsements",
-    "response_sha256": "0b910c227490789f3f05a2452236bede261b08e50a3510535047f624364f2f31",
+    "response_sha256": "feebf7392a5621bf17957502a2746e61c6ec1c1b242e760c200a2f7e0f849736",
     "bytes": "public",
     "claims": [
      "captured",
@@ -94,8 +96,8 @@
      "witnessed-by-public-ci"
     ],
     "rendered": {
-     "status": 200,
-     "dom_sha256": "8451b5999ff73b5946ad04678b1f13a50587ce2047442d6f12abab71841fd52a"
+     "status": null,
+     "dom_sha256": null
     }
    },
    "last_ok": null,

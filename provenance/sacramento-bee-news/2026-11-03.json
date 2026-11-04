@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,9 +40,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1052,
-    "captured_at": "2026-11-04T13:04:24.060Z",
+    "captured_at": "2026-11-04T17:43:26.618Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/election/",
@@ -53,7 +55,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "523566de7136d0395339595e2368a6281154cdcae76db8f8e63d5ce0ed384a86"
+     "dom_sha256": "4bf916da8c8980d9a06ee56bc01c8c4edb143f2506370ddc780c1ed7f391cdfe"
     }
    },
    "last_ok": null,
@@ -81,9 +83,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1051,
-    "captured_at": "2026-11-04T13:03:52.559Z",
+    "captured_at": "2026-11-04T17:42:55.112Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
@@ -96,7 +98,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "03634d8bcebf05b3e5568b3c13d8533bc8ce0c168fafbe0280988b654f68e972"
+     "dom_sha256": "7e2b9ec50031229843db37f916233a2d4986a0143582e461317510ba0d1769a8"
     }
    },
    "last_ok": null,
@@ -124,9 +126,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1067,
-    "captured_at": "2026-11-04T13:12:16.601Z",
+    "captured_at": "2026-11-04T17:51:19.159Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/search/",
@@ -139,7 +141,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "349570ddc2f666e03d5cb49668914524a70db0c55e1b250556c076ea305ec461"
+     "dom_sha256": "313514ebd014749e4faab891618a60a9600e02b538fd1a15ed59cd1f59757c0c"
     }
    },
    "last_ok": null,

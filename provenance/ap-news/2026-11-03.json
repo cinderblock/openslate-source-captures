@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "apnews.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 30,
-    "captured_at": "2026-11-04T13:01:56.938Z",
+    "captured_at": "2026-11-04T17:40:51.211Z",
     "status": 403,
     "error": null,
     "final_url": "https://apnews.com/hub/california",
-    "response_sha256": "9d7eb796e291d3ba2815dd7bb8543ecf3bdfe655bdcb83903815302b9e9227a7",
+    "response_sha256": "de341fe13984ed9230fae8aab4d9aa66b8adb0bbde0d911d7900d2d64fed7d01",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -53,13 +55,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-03T1321Z",
-    "index": 2,
-    "captured_at": "2026-11-03T13:21:56.956Z",
+    "run": "2026-11-04T1323Z",
+    "index": 3,
+    "captured_at": "2026-11-04T13:23:19.465Z",
     "status": 200,
     "error": null,
     "final_url": "https://apnews.com/hub/california",
-    "response_sha256": "9738d8b5919b5de35dde117a5a998565495cc8900b4098b5b3db1d1d7c562465",
+    "response_sha256": "0c0ea77cde924d10fac0b88e5ac7f5a70cd22a3c2e677498ace63d0b91b2107a",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -89,13 +91,13 @@
     "org_host": "apnews.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 31,
-    "captured_at": "2026-11-04T13:01:58.463Z",
+    "captured_at": "2026-11-04T17:40:52.747Z",
     "status": 403,
     "error": null,
     "final_url": "https://apnews.com/search",
-    "response_sha256": "bed0275889d9ea40c9ad757dd47db5b3a7fb5757d8509617eb699c7c60222213",
+    "response_sha256": "97d55862b342f0e1eda2043da0a4af28ea57040786cab632b757dfd565c47e1d",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -104,13 +106,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-03T1321Z",
-    "index": 3,
-    "captured_at": "2026-11-03T13:21:58.638Z",
+    "run": "2026-11-04T1323Z",
+    "index": 4,
+    "captured_at": "2026-11-04T13:23:21.162Z",
     "status": 200,
     "error": null,
     "final_url": "https://apnews.com/search",
-    "response_sha256": "e2feca568bd163369a107fc8a179b21210367982e291b427efb054ec198e86ef",
+    "response_sha256": "7da49998cef7ee3577562c4accf7d2a0a4790080c30c31f1d78c11c381f1664b",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -140,13 +142,13 @@
     "org_host": "apnews.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 29,
-    "captured_at": "2026-11-04T13:01:55.354Z",
+    "captured_at": "2026-11-04T17:40:49.547Z",
     "status": 403,
     "error": null,
     "final_url": "https://apnews.com/ap-sitemap.xml",
-    "response_sha256": "3e6106a8c3cccb257164f456dfd95b00df1cd2251123b4d04bcaac43e81a5ff3",
+    "response_sha256": "c0e703cc91825b6dfab1b435e17237fe074509480db335c37d73cce8974e9616",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -155,13 +157,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-03T1321Z",
-    "index": 1,
-    "captured_at": "2026-11-03T13:21:55.298Z",
+    "run": "2026-11-04T1323Z",
+    "index": 2,
+    "captured_at": "2026-11-04T13:23:17.745Z",
     "status": 200,
     "error": null,
     "final_url": "https://apnews.com/ap-sitemap.xml",
-    "response_sha256": "83ed8fd69e6bc480b78a0a310a484543d6b28f0121e0fbbcf417ebfdfdd8ca75",
+    "response_sha256": "8955c0dce80ec91cbf976d393cdf40ec77f827260095dc9e0faa66b73febcf13",
     "bytes": "withheld",
     "claims": [
      "captured",

@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 598,
-    "captured_at": "2026-11-04T13:02:59.964Z",
+    "captured_at": "2026-11-04T17:41:54.047Z",
     "status": 200,
     "error": null,
     "final_url": "https://smgop.org/voter-guide",
-    "response_sha256": "34e5dcc394518a4893b3060b1ef441b68accf7034929575c1acb7e1ca254cd4f",
+    "response_sha256": "93eef411ee475ece59b6ea363fc96d83ca878628e3c061eb6c4152f183879132",
     "bytes": "public",
     "claims": [
      "captured",
@@ -76,13 +78,13 @@
     "org_host": "smgop.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 597,
-    "captured_at": "2026-11-04T13:02:58.431Z",
+    "captured_at": "2026-11-04T17:41:52.525Z",
     "status": 200,
     "error": null,
     "final_url": "https://static1.squarespace.com/static/61b3f88ed47f01182bac0e3f/t/6ad0411fde229b645a49bd2d/1792033055749/SMGOP+++November+2026+Election+Guide+v2.pdf",
-    "response_sha256": "bcd8834822952403c9f069023e66d5c19af232b727f5949b773bc6233ddea241",
+    "response_sha256": "d3e3e786ae2644c6b95c0dd048c172e5380e9609baa54dd29c0eed88ea11f644",
     "bytes": "public",
     "claims": [
      "captured",

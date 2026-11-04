@@ -1,0 +1,26 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Wed, 04 Nov 2026 17:43:24 GMT
+Transfer-Encoding: chunked
+Connection: close
+content-security-policy: object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+location: /tracker/endorsements
+permissions-policy: camera=(), microphone=(), geolocation=(self)
+referrer-policy: strict-origin-when-cross-origin
+Server: cloudflare
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-railway-request-id: 3bM9YXCHTiu_b-Fzo3UVLg
+x-railway-edge: iad1
+x-hikari-trace: iad1.dh1s
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=40,cfOrigin;dur=13
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Urr%2F8bQ0BNpfhpFLIB9xkK8wG%2FZ9wa60tEGjQpznHoCTAAM1VtgxAQ2hzeE9KDpg7scjPPnMMI%2B1irKpRTWxW6wwzCh4blqkW5WizGDM9ar7yLVupaV1XfJX2TVSrhM0B5MKLg%3D%3D"}]}
+CF-RAY: a5556bb6ccd72ff2-IAD
+alt-svc: h3=":443"; ma=86400
+
+0
+

@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 539,
-    "captured_at": "2026-11-04T13:02:48.352Z",
+    "captured_at": "2026-11-04T17:41:42.112Z",
     "status": 200,
     "error": null,
     "final_url": "https://sdlincolnclub.com/endorsement-committee/",
-    "response_sha256": "f7c4bc5537836af82df5443589a0fd2c0876dbcd37d4c96d1abbec30f5a52fc5",
+    "response_sha256": "3f368e6f87321874a148e4e22c1a360d051b245c64cf7a725d4dfe7a20d42943",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,13 +83,13 @@
     "org_host": "sdlincolnclub.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 152,
-    "captured_at": "2026-11-04T13:02:07.933Z",
+    "captured_at": "2026-11-04T17:41:02.441Z",
     "status": 200,
     "error": null,
     "final_url": "https://drive.google.com/file/d/1e_b4fKKa0L0pSywFKOb4v291Obu1sbS_/view?usp=sharing",
-    "response_sha256": "0663c9905ab2a8de6f0b37dcf38bfa6f18a9465840b5e2f041f97b08daa87de1",
+    "response_sha256": "ccba4e797be72fe0ac103c0286ed5f5f157216fff3062bac0811d89cc71dac66",
     "bytes": "public",
     "claims": [
      "captured",
@@ -96,7 +98,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "c9ef1bb82acafbedaa56e130d27dc510e0337595d89f4ff594024504f00a2725"
+     "dom_sha256": "e60684883182e1bd0087d57065beb20286871c4a91dc28a6146c8e1446c5defa"
     }
    },
    "last_ok": null,

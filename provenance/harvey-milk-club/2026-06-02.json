@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "milkclub.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 0,
-    "captured_at": "2026-11-04T13:01:55.649Z",
+    "captured_at": "2026-11-04T17:40:49.769Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.milkclub.org/endorsements",
-    "response_sha256": "81f6ebc40d379169109968f23a60f1d573bcbf5c2776158a108279e830240c19",
+    "response_sha256": "ca55dce0003b946ddc7e7c0bdb7101deeff69c81cdf1f46d7abe6b98eefc23f2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -53,13 +55,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-03T1321Z",
+    "run": "2026-11-04T1323Z",
     "index": 0,
-    "captured_at": "2026-11-03T13:21:55.380Z",
+    "captured_at": "2026-11-04T13:23:17.847Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.milkclub.org/endorsements",
-    "response_sha256": "bb0027fee90bdc1fc2423044109d7507951fb3a846e5016ebbb8f26dbc1790c0",
+    "response_sha256": "b3176b6434ba35f8916dfbb177647ef62d2ce890b4e5a47ad8a3a216b77efcdf",
     "bytes": "public",
     "claims": [
      "captured",

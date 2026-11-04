@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1131,
-    "captured_at": "2026-11-04T13:04:13.802Z",
+    "captured_at": "2026-11-04T17:43:12.081Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/california/2026-endorsements-scc-political-committee",
-    "response_sha256": "9933680a24e7c6b66503e07aa45f4343d125383b03c36c34551149b69af58cfa",
+    "response_sha256": "a5c1bdd150edce8d8e896aa59c568d1f96d518457d937bec225577db840f4e32",
     "bytes": "public",
     "claims": [
      "captured",
@@ -54,7 +56,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "e474a2d64bec41c0e2a91c742025040936e0f6e3777ba0a14d4e34f4d1346917"
+     "dom_sha256": "39215b81f5ee7d4f75adaceba1a9aad9a26780e8561d5e493db714ff1135b804"
     }
    },
    "last_ok": null,
@@ -84,13 +86,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1132,
-    "captured_at": "2026-11-04T13:04:15.324Z",
+    "captured_at": "2026-11-04T17:43:13.606Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/california/sierra-club-california-endorses-tom-steyer-california-governor",
-    "response_sha256": "450124a580650af3fd4efdab74fa3cf0a2943b7fd3c89b738184d827081f137b",
+    "response_sha256": "8490c4734eccfb6a1f09bc76f61085c78cd63fa2dabb9f8ef86ff674c6272d0a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -99,7 +101,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "769a6338a87d87dc01c9a1632ee7647b4ccf9ca40fe8b6be23aa8983a9c4c56c"
+     "dom_sha256": "3ccba3329a6c5790a296106e5ac1f391a7db9b906bd06e78fbc5c830c058f767"
     }
    },
    "last_ok": null,

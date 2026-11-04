@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,23 +40,19 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 79,
-    "captured_at": "2026-11-04T13:02:02.539Z",
+    "captured_at": "2026-11-04T17:40:57.031Z",
     "status": 200,
     "error": null,
-    "final_url": "https://candidates.aipacpac.org/page/featured",
-    "response_sha256": "c38023b0fcf913be5f7692cd829799036734adaa02bbe7a71d160d8da2f7cb61",
+    "final_url": "https://www.aipacpac.org/",
+    "response_sha256": "31f6abc2fc2a6f0c9b1d281b0a1ea38117fb6655af90cae2056767aada881fb3",
     "bytes": "public",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ],
-    "rendered": {
-     "status": 200,
-     "dom_sha256": "845e1ee9c1d108b9d10de765b369a4c55b58fcd37e02b0a771dbf367800a6686"
-    }
+    ]
    },
    "last_ok": null,
    "archived": {
@@ -84,13 +82,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 78,
-    "captured_at": "2026-11-04T13:02:00.774Z",
+    "captured_at": "2026-11-04T17:40:54.945Z",
     "status": 500,
     "error": null,
     "final_url": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
-    "response_sha256": "6a79f54169ad0a30168c467f9149de9baba111c94e8d98b3a818bc8dfcfe5935",
+    "response_sha256": "744a323f93a31f5e64352e460ad1b88d5bb7dd67e47dc599ee1f73c72cff9f87",
     "bytes": "public",
     "claims": [
      "captured",
@@ -122,13 +120,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 800,
-    "captured_at": "2026-11-04T13:03:19.146Z",
+    "captured_at": "2026-11-04T17:42:15.989Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aipac.org/politics",
-    "response_sha256": "a9737d80f6455e66611d4468b13fd36b0731eaa420f410a6bcec2e99d7d347c3",
+    "response_sha256": "9d7d7a635046baf7a504d066b8f8bb1994a03b7fe4e88f233e455fdb35daf807",
     "bytes": "public",
     "claims": [
      "captured",

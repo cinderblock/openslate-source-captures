@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "sf.gov"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1111,
-    "captured_at": "2026-11-04T13:04:07.817Z",
+    "captured_at": "2026-11-04T17:43:06.784Z",
     "status": 202,
     "error": null,
     "final_url": "https://www.sf.gov/reports--candidates-nov-3-2026-general-election",
-    "response_sha256": "e1d45890333880e15d5632aa67391c7fc2a7def768307d70745ecec331196b03",
+    "response_sha256": "211846de1fa1981f034417833e482186852424e978f5d6c2153bc91f464aa1b9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -53,17 +55,17 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "932999c2bd39171c85526a2a014caee3ab312ab4ee524c64ab070044f03ae1a4"
+     "dom_sha256": "1ca2a6589c18fe9cec9f2199894936ff41fbf86be9ddc93fb034f43cf8920d82"
     }
    },
    "last_ok": {
-    "run": "2026-11-03T1321Z",
-    "index": 55,
-    "captured_at": "2026-11-03T13:22:02.249Z",
+    "run": "2026-11-04T1323Z",
+    "index": 60,
+    "captured_at": "2026-11-04T13:23:23.921Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sf.gov/candidates-november-3-2026-general-election",
-    "response_sha256": "cb75bf1d33bcd8cde338abf9cb1152c912d20537416a9ce531ebe6f5a8700edf",
+    "response_sha256": "966ac22c1e7c148393b2cb0ba58d662fb3ddc363162e9863648cd2a9c022e247",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,7 +73,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "8cbba219203d042a66617e402166d0d0d0948caa80f424117a86b334f3627169"
+     "dom_sha256": "9a4568888d60c0d3d7b092bb28efbd8d23063239d6e040bd8e24fdb98a0f359a"
     }
    },
    "archived": {
@@ -97,13 +99,13 @@
     "org_host": "sf.gov"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1109,
-    "captured_at": "2026-11-04T13:04:04.718Z",
+    "captured_at": "2026-11-04T17:43:03.392Z",
     "status": 202,
     "error": null,
     "final_url": "https://www.sf.gov/qualified-ballot-measures",
-    "response_sha256": "587f761b4babc76255274a77f3dc95323fdd7b47d1a048bc16bb3454ce08da8c",
+    "response_sha256": "1e14d6b3942441a3fb54e28d6124e0769c672f18062dc801406909447a318668",
     "bytes": "public",
     "claims": [
      "captured",
@@ -112,17 +114,17 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "fdac9bfe16c3c067b77886f6ca7e6bf1720dbea3c842f15bdde091e2e0846846"
+     "dom_sha256": "1ebc3769e9e6cf9250cf6613ba61522b7bed11564f720a7293c1f25255e6bc34"
     }
    },
    "last_ok": {
-    "run": "2026-11-03T1321Z",
-    "index": 53,
-    "captured_at": "2026-11-03T13:21:59.002Z",
+    "run": "2026-11-04T1323Z",
+    "index": 58,
+    "captured_at": "2026-11-04T13:23:20.677Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sf.gov/qualified-ballot-measures",
-    "response_sha256": "aedc1b959167bb2ff3bd5c8689513081ac3636409f7f0e83d350c6cf76a1059b",
+    "response_sha256": "77b1e8c4521dd6a8bbd43dbb102b9ba8a11d8843aa88e5efae229bc4ccc386af",
     "bytes": "public",
     "claims": [
      "captured",
@@ -130,7 +132,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "135f01c024d89fa4ac73eb4ef8b1082203232a04577b37c3e7ed3a15f1550cc7"
+     "dom_sha256": "fdac9bfe16c3c067b77886f6ca7e6bf1720dbea3c842f15bdde091e2e0846846"
     }
    },
    "archived": {
@@ -156,13 +158,13 @@
     "org_host": "sf.gov"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 1110,
-    "captured_at": "2026-11-04T13:04:06.278Z",
+    "captured_at": "2026-11-04T17:43:05.083Z",
     "status": 202,
     "error": null,
     "final_url": "https://www.sf.gov/ranked-choice-voting",
-    "response_sha256": "1f326bdfb82e0e5f7c104212b68cf31d4720baa9c67a884d0b2ecf4c61c72202",
+    "response_sha256": "ace109eaab3641bd286749cb0a6f312742acfad5302a68665e775be48d4bf019",
     "bytes": "public",
     "claims": [
      "captured",
@@ -171,17 +173,17 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "3fc4c78afba1cb50bb0f2869edf6e10b0b7908cd1a6cf235a6d5f45cb0491a66"
+     "dom_sha256": "c124a1b971f3d4510b48c0d45fb51854b805026a19a087e21fc29ca48a4caac5"
     }
    },
    "last_ok": {
-    "run": "2026-11-03T1321Z",
-    "index": 54,
-    "captured_at": "2026-11-03T13:22:00.581Z",
+    "run": "2026-11-04T1323Z",
+    "index": 59,
+    "captured_at": "2026-11-04T13:23:22.261Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sf.gov/ranked-choice-voting",
-    "response_sha256": "752241b001b027b64543dc071df24553dfd0ff8b706d646a9b6faec026b018db",
+    "response_sha256": "c80d5456137447e0685c25ce8c6671e912d3b951d547a5c9e336896b01649ffe",
     "bytes": "public",
     "claims": [
      "captured",
@@ -189,7 +191,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "c9a2156727081486fff553c2b2f22f772148647768b1277cf9ab8eb2d0b82ecb"
+     "dom_sha256": "3fc4c78afba1cb50bb0f2869edf6e10b0b7908cd1a6cf235a6d5f45cb0491a66"
     }
    },
    "archived": {

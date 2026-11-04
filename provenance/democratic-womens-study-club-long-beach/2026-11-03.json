@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 38,
-    "captured_at": "2026-11-04T13:01:57.079Z",
+    "captured_at": "2026-11-04T17:40:51.342Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "452ad500dc566aa48356610cd359e348b97befda87eb2ae2585e674ea8cc525e",
+    "response_sha256": "71f11b944734a8ede8f9a7279fa252ba648f65162419f95e3eefc7337d712bbb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,13 +83,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 854,
-    "captured_at": "2026-11-04T13:03:34.552Z",
+    "captured_at": "2026-11-04T17:42:35.941Z",
     "status": 200,
     "error": null,
-    "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "05bd6496213b126bb1be09728afe6219e15cf687c4032cd4ecc021a6eaeaa8fa",
+    "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FDWSCLB%2Fposts%2Fpfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
+    "response_sha256": "c812ee79411790a729179b2c90373fac6268bb751c8c71650c20497d1ffa58a5",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -96,7 +98,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "c66bd620fc04f4339b281669eebc639cc20d975ac6d0200b5a954e46929e539e"
+     "dom_sha256": "d52074492aa363d4c3cde8340bd25dd2b63abd1f62f89d228948a78e174bffbc"
     }
    },
    "last_ok": null,

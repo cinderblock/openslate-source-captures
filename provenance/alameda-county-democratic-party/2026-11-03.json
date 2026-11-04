@@ -25,7 +25,9 @@
    "2026-11-03T1300Z",
    "2026-11-03T1321Z",
    "2026-11-03T1727Z",
-   "2026-11-04T1301Z"
+   "2026-11-04T1301Z",
+   "2026-11-04T1323Z",
+   "2026-11-04T1740Z"
   ]
  },
  "sources": [
@@ -38,13 +40,13 @@
     "org_host": "acdems.org"
    },
    "latest": {
-    "run": "2026-11-04T1301Z",
+    "run": "2026-11-04T1740Z",
     "index": 3,
-    "captured_at": "2026-11-04T13:01:55.353Z",
+    "captured_at": "2026-11-04T17:40:49.545Z",
     "status": 403,
     "error": null,
     "final_url": "https://acdems.org/endorsements-3/",
-    "response_sha256": "a15e9c332ea4fc0bd99a18648fe4478d9a142253383f5c7fe4121fad6e01e198",
+    "response_sha256": "b924e7303ff323942505f856e628b84e99c992ee34d4453fe258277e4d6b3f9e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -53,18 +55,17 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-03T1300Z",
-    "index": 3,
-    "captured_at": "2026-11-03T13:00:53.250Z",
+    "run": "2026-11-04T1323Z",
+    "index": 1,
+    "captured_at": "2026-11-04T13:23:17.742Z",
     "status": 200,
     "error": null,
     "final_url": "https://acdems.org/endorsements-3/",
-    "response_sha256": "a5a0f822bb369297f83ddc24f483f55cd2d734243174995053233a10cfee824d",
+    "response_sha256": "14b406c90bd571bb9eef5b58e2116016bc070374b64b6b8e42d493b209cdb81b",
     "bytes": "public",
     "claims": [
      "captured",
-     "time-stamped",
-     "witnessed-by-public-ci"
+     "time-stamped"
     ]
    },
    "archived": null,
