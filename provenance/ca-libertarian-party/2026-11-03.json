@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://ca.lp.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "ca.lp.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 40,
-    "captured_at": "2026-11-04T17:40:51.405Z",
+    "captured_at": "2026-11-05T13:00:41.098Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.lp.org/ballot-propositions/",
-    "response_sha256": "ac6c43f5730841d9ac6bd4e9df8c2d805a925311a027b519737593967e8d76be",
+    "response_sha256": "0701b757134c85d0775d3070471c072723dee6e4878cb946e32fafb98a6b2b34",
     "bytes": "public",
     "claims": [
      "captured",
@@ -78,13 +79,13 @@
     "org_host": "ca.lp.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 41,
-    "captured_at": "2026-11-04T17:40:53.173Z",
+    "captured_at": "2026-11-05T13:00:42.894Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.lp.org/candidates/",
-    "response_sha256": "2701fe7ce3fa4f0ad4d78dcfcf843a975ddc2a44f9c85565e23a8a86210565d0",
+    "response_sha256": "a0379e0de99431e52dfb2b1b1da5f63cc7713a840b9bda490dd70c8f4276439d",
     "bytes": "public",
     "claims": [
      "captured",

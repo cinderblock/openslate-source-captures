@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.laforward.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 875,
-    "captured_at": "2026-11-04T17:42:41.085Z",
+    "captured_at": "2026-11-05T13:02:34.553Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.laforward.org/voterguide",
-    "response_sha256": "45741caae8c54016d325862004216a73bb01277ba8f230dbd8265d934cd7a650",
+    "response_sha256": "d8c3dfbb8988e9da93869642fff8e6cff6c3a120c662f533824a8ec2d47699a5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -56,10 +57,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261009122031id_/https://www.laforward.org/voterguide",
-    "timestamp": "20261009122031",
-    "digest": "DO5NRFJ5TYO2ZQR6GJOT3Z4K4S5T5IGZ",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261104221733id_/https://www.laforward.org/voterguide",
+    "timestamp": "20261104221733",
+    "digest": "5GRIBMSMZ7B7PJH7OQQ4CCPKJGRHWOCT",
     "statements": {
      "found": 0,
      "of": 1

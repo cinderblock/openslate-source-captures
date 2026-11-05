@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://dsasandiego.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "dsasandiego.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 848,
-    "captured_at": "2026-11-04T17:42:30.750Z",
+    "captured_at": "2026-11-05T13:02:25.260Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dsasandiego.org/november-2026-voter-guide",
-    "response_sha256": "68e7b1076ddedd1d07023fcbf95ec6b97c61e93dca5d49d1d439b77043e5bcb6",
+    "response_sha256": "b5403244405675ff9c049c136734acb15c8394e3131462001cf022a2dd77c68f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,13 +84,13 @@
     "org_host": "dsasandiego.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 847,
-    "captured_at": "2026-11-04T17:42:28.858Z",
+    "captured_at": "2026-11-05T13:02:23.392Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.dsasandiego.org/endorsements",
-    "response_sha256": "38c5cdff93d16754e0d22cf27181c40113b6efd2f3ed2c94216415248edb2eb2",
+    "response_sha256": "b97dba411d40fb25dc7f618b0887efdfac900db237fd1a7bcf20206dbe0e6321",
     "bytes": "public",
     "claims": [
      "captured",
@@ -100,10 +101,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031234821id_/https://www.dsasandiego.org/endorsements",
-    "timestamp": "20261031234821",
-    "digest": "CF4YSSDE5HKVEOEWXWTVDJD3LYMBDMP2",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261017045027id_/https://www.dsasandiego.org/endorsements",
+    "timestamp": "20261017045027",
+    "digest": "EDVZMU5Y3QSB3DD4UUSCDQWMNIFYQSAG",
+    "origin": "existing",
     "statements": {
      "found": 2,
      "of": 2

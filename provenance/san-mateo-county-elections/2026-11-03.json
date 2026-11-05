@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.smcacre.gov/elections",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 595,
-    "captured_at": "2026-11-04T17:42:53.461Z",
+    "captured_at": "2026-11-05T13:02:51.686Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf",
-    "response_sha256": "27a7a0578ad5fa4d05f349a68e4c86ccb163cab93f1b91f9e43629251ebffd07",
+    "response_sha256": "8048e7cfb22598351769ac29056ea44163064276812ad7e1939c71adac51c49a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -78,13 +79,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 1141,
-    "captured_at": "2026-11-04T17:43:11.572Z",
+    "captured_at": "2026-11-05T13:03:07.112Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
-    "response_sha256": "0127a736b86c16a623e85ff4cb6b5641b6eb5451a5be879e782b632e4032184f",
+    "response_sha256": "587fbaff2d330b9e674258042c2e71c19a3222964e93967137478f0ade2d5243",
     "bytes": "public",
     "claims": [
      "captured",
@@ -116,13 +117,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 567,
-    "captured_at": "2026-11-04T17:42:06.010Z",
+    "captured_at": "2026-11-05T13:01:59.750Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MD-ImpartialAnalysis-Burlingame-Occupancy-Tax_Redacted.pdf",
-    "response_sha256": "d0d8f9248e7196bf9e70b22da4fbdb712b2f9cdcfb5ff311bf911f846e4f0068",
+    "response_sha256": "e024ef1b0517b43ba20fe91aca0c6563a477aa2aaf3e539285075099a49d169f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -154,13 +155,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 569,
-    "captured_at": "2026-11-04T17:42:09.496Z",
+    "captured_at": "2026-11-05T13:02:03.579Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-ImpartialAnalysis-RWC-Housing_Redacted.pdf",
-    "response_sha256": "ceae297546bfba8ddf75191116975f3a13bbe1994c263a4c4fb8b21e0496e0e0",
+    "response_sha256": "70bd831f49639ec51f25de8176f4fe9311f3603a6b309cda928ae567afb5e9c2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -192,13 +193,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 571,
-    "captured_at": "2026-11-04T17:42:12.828Z",
+    "captured_at": "2026-11-05T13:02:07.274Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf",
-    "response_sha256": "a97467d2161e17564df686ac352c3219169db165e3f8184cf498149ac899d103",
+    "response_sha256": "13d61487663d5e28a09189b8776db21cba9951c46699c7420ded476bf4490ab4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -230,13 +231,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 572,
-    "captured_at": "2026-11-04T17:42:14.606Z",
+    "captured_at": "2026-11-05T13:02:09.411Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ImpartialAnalysis-City-of-San-Carlos-Use-Tax.pdf",
-    "response_sha256": "e39f5ad0930e4ade7b65d0deaabef9ce6704b1ea020ba7e77e21ef90c0c75268",
+    "response_sha256": "a44f3819332f715e63a4eaf382f576329e19bbecd28c90fc35c8a76d119ab10a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -268,13 +269,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 573,
-    "captured_at": "2026-11-04T17:42:16.354Z",
+    "captured_at": "2026-11-05T13:02:11.206Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-ImpartialAnalysis-San-Mateo-Transactions-and-Use-Tax-Redacted.pdf",
-    "response_sha256": "f0a423e7ead8d4e3ba73d6896849642f1e4d1c3a81c5da34e9cca09ff9d63a38",
+    "response_sha256": "c5430eb8f20014e537ffd02fc3f2817526c64553fe6418187d0b72663fef3162",
     "bytes": "public",
     "claims": [
      "captured",
@@ -306,13 +307,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 574,
-    "captured_at": "2026-11-04T17:42:18.075Z",
+    "captured_at": "2026-11-05T13:02:13.140Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf",
-    "response_sha256": "12589e852da43124aba1196ed5789e512c2d88dd7adc148fddcd75cdc5a85507",
+    "response_sha256": "6c2fbcfd0c0b28c8e9024f9a028f5d55bd46f3ac4f819be3ae676e7e45687dc0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -344,13 +345,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 575,
-    "captured_at": "2026-11-04T17:42:19.736Z",
+    "captured_at": "2026-11-05T13:02:14.945Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MJ-ImpartialAnalysis-SMC-Charter-Extension-to-Call%20Special%20Election.pdf",
-    "response_sha256": "63ded42d69c196d4f9d4627d530d1d46762f8c481ac5bef4fddbbad95b409056",
+    "response_sha256": "6afde46be624a00c0205faf533d78dd55538ae5250f171930b35da5b8e7604cf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -382,13 +383,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 576,
-    "captured_at": "2026-11-04T17:42:21.462Z",
+    "captured_at": "2026-11-05T13:02:16.734Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MK-ImpartialAnalysis-San-Carlos-SD-Parcel-Tax.pdf",
-    "response_sha256": "6297135ccec7d4c79e14041fe310652405b5682b5914d65d40cadf8e138ab980",
+    "response_sha256": "dd27eb09dc935145ea95a55edd2329083563f5604a5384a1ffb14d36074367c0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -420,13 +421,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 577,
-    "captured_at": "2026-11-04T17:42:23.188Z",
+    "captured_at": "2026-11-05T13:02:18.465Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-ML-ImpartialAnalysis-SMC-Charter-Extreme-Weather.pdf",
-    "response_sha256": "0bf25fff469ff139ee54e640c7e8bb3321608dc91f2b65b49847cb441f607b52",
+    "response_sha256": "7a314d68550524c52fcc7677ef14179988d4abd3f6e7fc93bb4bb55f768b76df",
     "bytes": "public",
     "claims": [
      "captured",
@@ -458,13 +459,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 578,
-    "captured_at": "2026-11-04T17:42:24.835Z",
+    "captured_at": "2026-11-05T13:02:20.292Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MM-ImpartialAnalysis-JUHSD-Parcel-Tax.pdf",
-    "response_sha256": "faa04b28c8bf6394c1b22614da27331571572427d407df8578a7765c3a195f6e",
+    "response_sha256": "ea0137cfe35835cfc5fd5306c85b6dd6fc9b8702d0b13055f103fd65590d1079",
     "bytes": "public",
     "claims": [
      "captured",
@@ -496,13 +497,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 579,
-    "captured_at": "2026-11-04T17:42:26.486Z",
+    "captured_at": "2026-11-05T13:02:22.126Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
-    "response_sha256": "1bc385fa7ddf89d1707cf7279fd280714402322508af4591f8f6cd25e88ef453",
+    "response_sha256": "0bd26fc0f9b227e4935231b36a107899b760748dceb4b4cc1ea4ceb29bae2d9e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -534,13 +535,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 581,
-    "captured_at": "2026-11-04T17:42:29.912Z",
+    "captured_at": "2026-11-05T13:02:25.709Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
-    "response_sha256": "3956295dfe709bfaa7deb56befd9fdadb208f23e90d05ec8e54ce5ab765bd367",
+    "response_sha256": "257f59b12c07eac4cf392ea04bb94633611cd0cb18631c35a2ee24fff983e764",
     "bytes": "public",
     "claims": [
      "captured",
@@ -572,13 +573,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 582,
-    "captured_at": "2026-11-04T17:42:31.571Z",
+    "captured_at": "2026-11-05T13:02:27.433Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-ImpartialAnalysis-MenloPark-Muni-Amendment.pdf",
-    "response_sha256": "2838061dddacb60d87db241a97fa883c987881c560ead9c1327d65ae83564d01",
+    "response_sha256": "1069df7916c27871099c71bf365e996b20efb9edb496bd5aa0d74ba92ce550d6",
     "bytes": "public",
     "claims": [
      "captured",
@@ -610,13 +611,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 583,
-    "captured_at": "2026-11-04T17:42:33.292Z",
+    "captured_at": "2026-11-05T13:02:29.319Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
-    "response_sha256": "76f5f8b91ef1b4255b3c819702f27008c398d557111ac177cb54a435273d3f9c",
+    "response_sha256": "c8f0d7a6998052132deb3062fb3f7c45b0cb453daaf90fa0a90915ace245b43a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -648,13 +649,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 584,
-    "captured_at": "2026-11-04T17:42:35.033Z",
+    "captured_at": "2026-11-05T13:02:31.020Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MR-ImpartialAnalysis-Burlingame-ESD-Bond.pdf",
-    "response_sha256": "140a98a985f95f93cf57334fa978121773fc6d281428d930f2fe95cd72f93c5e",
+    "response_sha256": "70e12720ce55bcf3bad4cc74eec8051ae6ae7f87c0a9f472f94d564a51edc79a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -686,13 +687,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 585,
-    "captured_at": "2026-11-04T17:42:36.760Z",
+    "captured_at": "2026-11-05T13:02:33.855Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf",
-    "response_sha256": "9bd3358b3e12fe24029ebf242f8c1781c509fe6425ea7f352b33f03a07ed0db9",
+    "response_sha256": "f2baa6a4ede444af1ad9deb915ebf5c84ec94ed4d1f85abc520801b30a2c6262",
     "bytes": "public",
     "claims": [
      "captured",
@@ -724,13 +725,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 586,
-    "captured_at": "2026-11-04T17:42:38.397Z",
+    "captured_at": "2026-11-05T13:02:35.560Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MT-ImpartialAnalysis-Pacifica-SD-Parcel-Tax.pdf",
-    "response_sha256": "8ea233357cafdbdb83b6db7512f181d9290e752c7868c92fe20c0f2d643d7abd",
+    "response_sha256": "e015776f3ec0167f4852c0843dfc526f9dd8aba4ea956e0399ea8e79ee1c8387",
     "bytes": "public",
     "claims": [
      "captured",
@@ -762,13 +763,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 587,
-    "captured_at": "2026-11-04T17:42:40.101Z",
+    "captured_at": "2026-11-05T13:02:37.330Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MU-ImpartialAnalysis-SMC-Charter-Reapportionment.pdf",
-    "response_sha256": "015690456854ac8b2fce66aa554410d2295247d5a1421386dc2f49cf8fec7033",
+    "response_sha256": "248b100724d0d2c922f40cae0237fedc66440bea531694fd5f45c3ce20187f5e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -800,13 +801,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 588,
-    "captured_at": "2026-11-04T17:42:41.769Z",
+    "captured_at": "2026-11-05T13:02:39.093Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-ImpartialAnalysis-SMCCD-Bond.pdf",
-    "response_sha256": "7c1122414b5fd436e339882787fae5868e42684e0cdafa1c4df315f0f11464fe",
+    "response_sha256": "d6cbac814ff009cc68a943cdb7dc22e87440ce4bb4a24c897adce1107a45e38f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -838,13 +839,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 589,
-    "captured_at": "2026-11-04T17:42:43.439Z",
+    "captured_at": "2026-11-05T13:02:40.910Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-ImpartialAnalysis-SMFCSD-Bond.pdf",
-    "response_sha256": "92667dc61cea72e420a579f2278121754ed57bfc0702cbbc88ba5a6f87ac3175",
+    "response_sha256": "2072085d9a605812aee43a26671c935a57896de2c2094735ad3b514787753c8d",
     "bytes": "public",
     "claims": [
      "captured",
@@ -876,13 +877,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 591,
-    "captured_at": "2026-11-04T17:42:46.837Z",
+    "captured_at": "2026-11-05T13:02:44.537Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MX-ImpartialAnalysis-City-of-Brisbane-Business-License-Tax.pdf",
-    "response_sha256": "e607c82e8afd798938fb29db64cda8bd7e9e98405523c1696fa3a78862c533e9",
+    "response_sha256": "f5d91e20f557cabb6a524e31202bcbe7be32bcc3d448a32b4d74669b93c03956",
     "bytes": "public",
     "claims": [
      "captured",
@@ -914,13 +915,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 592,
-    "captured_at": "2026-11-04T17:42:48.475Z",
+    "captured_at": "2026-11-05T13:02:46.271Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-ImpartialAnalysis-Belmont-Special-Tax.pdf",
-    "response_sha256": "ebdc35bc4c42b4f8baf4cbf7e62d400341b4b89883f0629ee1cedd483d5dee57",
+    "response_sha256": "619fcbae6ecac57af7a441a8e7ff07b323b325852b8f87edbad86e13d024199f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -952,13 +953,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 594,
-    "captured_at": "2026-11-04T17:42:51.789Z",
+    "captured_at": "2026-11-05T13:02:49.881Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MZ-ImpartialAnalysis-Cabrillo-USD-Parcel-Tax.pdf",
-    "response_sha256": "09fefa3f6d7a7e56d8133d0d6463d81d972436d895e748c3ad9075a66d43acd9",
+    "response_sha256": "bb2a164177d2e083cdaa6a062e82e31c06a8230566ce48ce3421db13fff2a24a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -990,13 +991,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 564,
-    "captured_at": "2026-11-04T17:42:01.054Z",
+    "captured_at": "2026-11-05T13:01:53.997Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MAA-ImpartialAnalysis-SMC-Charter-Affirmation-of-Rights.pdf",
-    "response_sha256": "d33f5be9be7131342f9b6b95c78a593d8cf61abe45256552bcd6f62a8ed9cf45",
+    "response_sha256": "9f5ef0093d81305de0c471ae83b08ffba6c04a85daf8f36b267ce92416762cef",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1028,13 +1029,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 565,
-    "captured_at": "2026-11-04T17:42:02.716Z",
+    "captured_at": "2026-11-05T13:01:56.163Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
-    "response_sha256": "934b2d3870d06563e53ad1cc9882a3295640bdd08a539f47e1a6fd9df79805f9",
+    "response_sha256": "b3cc29915ce80930e28c5f70c1442d580cc870498504f6fece76fb5aab4f7b5b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1066,13 +1067,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 566,
-    "captured_at": "2026-11-04T17:42:04.360Z",
+    "captured_at": "2026-11-05T13:01:57.951Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-ImpartialAnalysis-EPA-Term-Limits_Redacted.pdf",
-    "response_sha256": "106d2bfafa41379b8415569592e767b39c023f9e8af2a9755bb5c2f3e0ae569b",
+    "response_sha256": "332c873409a87c272cad443cf0d205bed523116721ab07c9e67ce9e4d3f4d004",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1104,13 +1105,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 568,
-    "captured_at": "2026-11-04T17:42:07.825Z",
+    "captured_at": "2026-11-05T13:02:01.736Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf",
-    "response_sha256": "a6202b9510e6c3f532522e9c2ba7e63e5529d7d8d53518fb80f347d6e5ac9356",
+    "response_sha256": "1389d802b570ed3cdc293728b947b9f75be5288086b77086529cd9067595dc96",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1142,13 +1143,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 570,
-    "captured_at": "2026-11-04T17:42:11.196Z",
+    "captured_at": "2026-11-05T13:02:05.421Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
-    "response_sha256": "403113767248c4e1eaef5ed41dc95e28ed01364215fabd5b7a8728fe4d910f8a",
+    "response_sha256": "7074c0bea5e01f1561ce11969c0bb009a517328a6dfb71426361449fbf02e78f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1180,13 +1181,13 @@
     "org_host": "smcacre.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 561,
-    "captured_at": "2026-11-04T17:41:55.951Z",
+    "captured_at": "2026-11-05T13:01:48.362Z",
     "status": 200,
     "error": null,
     "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M206-ImpartialAnalysis-Public-Transit-District-Sales-Tax.pdf",
-    "response_sha256": "bd2d36ee228bef32f6ba4de5da2e6b90801a60f1820ee8c257692446ab93e36d",
+    "response_sha256": "0907b6098cd19ed109261d321e583bceaa9152f04d49366fadafbd7671a868de",
     "bytes": "public",
     "claims": [
      "captured",

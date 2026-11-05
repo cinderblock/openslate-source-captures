@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://cayimby.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "cayimby.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 80,
-    "captured_at": "2026-11-04T17:40:55.327Z",
+    "captured_at": "2026-11-05T13:00:44.604Z",
     "status": 200,
     "error": null,
     "final_url": "https://cayimby.org/endorsements/",
-    "response_sha256": "b7fc973b7a6ebb6a926cc774da37a7a29a836191bd66c1b24e1a4b699f4a2990",
+    "response_sha256": "397dfb1c0631fc34b976975aaa746334b20d24e285ce1d7d2af6cf1a93e0c7c0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -57,10 +58,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031233740id_/https://cayimby.org/endorsements/",
-    "timestamp": "20261031233740",
-    "digest": "WNLU3OGDGRCVZT4JGNG5GIEKJCWGJXEB",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261024051739id_/https://cayimby.org/endorsements/",
+    "timestamp": "20261024051739",
+    "digest": "UNNPOKW52JACDKPMGXRAEQ6SP2JVJ7KS",
+    "origin": "existing",
     "statements": {
      "found": 77,
      "of": 77

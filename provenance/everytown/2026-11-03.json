@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.everytown.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 857,
-    "captured_at": "2026-11-04T17:42:36.572Z",
+    "captured_at": "2026-11-05T13:02:29.847Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/candidates/",
-    "response_sha256": "71323eb781dddb98dc2ea12dab8a3cb2ce3621ccf44c796909e145e5106b0ad5",
+    "response_sha256": "4c106092254338af6cd0ecb5ff0f512b7d13f0238dfd83db0fa421bcbfb875fb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -78,13 +79,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 858,
-    "captured_at": "2026-11-04T17:42:38.211Z",
+    "captured_at": "2026-11-05T13:02:31.921Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/faq/",
-    "response_sha256": "8fdd6f5d762a11bb1d10371948c2a6a522a1d089f45d0e47dfaaa45d01ce48bf",
+    "response_sha256": "ff9f5a0df56aea706ba959fd488970e13dc01efd321949cddd66d354124958fa",
     "bytes": "public",
     "claims": [
      "captured",
@@ -94,10 +95,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261003153330id_/https://gunsensevoter.org/faq/",
-    "timestamp": "20261003153330",
-    "digest": "IIGRDHCRBMI2EORGM7GDEMVJVCTQZBEM",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261104221506id_/https://gunsensevoter.org/faq/",
+    "timestamp": "20261104221506",
+    "digest": "K6VE7WTC5KQY7GFKXJP4ZWHQIGBVB3X2"
    },
    "derivation": {
     "kind": "anchored",
@@ -116,13 +116,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 205,
-    "captured_at": "2026-11-04T17:41:09.147Z",
+    "captured_at": "2026-11-05T13:00:55.848Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/wp-json/heliotrope/v1/candidates/search?state=CA&year=2026&office_level=federal&offset=0&limit=100",
-    "response_sha256": "3179a1ebb0843ef126aa9fd79f00f791fa0a3a7a9ccc37b6ed46428927c124d1",
+    "response_sha256": "a693423d81e2bf06b7476d7e5d4a4996592e73c70dc69a235d0305ee8864dc69",
     "bytes": "public",
     "claims": [
      "captured",
@@ -157,13 +157,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 207,
-    "captured_at": "2026-11-04T17:41:13.157Z",
+    "captured_at": "2026-11-05T13:00:59.736Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/wp-json/heliotrope/v1/candidates/search?state=CA&year=2026&office_level=state&offset=0&limit=100",
-    "response_sha256": "0fefade177abe449f2afd05ca01ca3596554c690d60b48020a7c0463bcb599e0",
+    "response_sha256": "b6b239d6183e3e90f329b041cea28ba379223fafb20d83c0499f7056dc4dfbf0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -198,13 +198,13 @@
     "org_host": "everytown.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 206,
-    "captured_at": "2026-11-04T17:41:11.224Z",
+    "captured_at": "2026-11-05T13:00:57.780Z",
     "status": 200,
     "error": null,
     "final_url": "https://gunsensevoter.org/wp-json/heliotrope/v1/candidates/search?state=CA&year=2026&office_level=local&offset=0&limit=100",
-    "response_sha256": "13b05c2ed567eba32c36c1ffc0ccf3ae9d500271e2d0e311b069f8d327cb421a",
+    "response_sha256": "0131eb766a57250a0811424167d6c138db3516aa212c2610b93049220de77f81",
     "bytes": "public",
     "claims": [
      "captured",

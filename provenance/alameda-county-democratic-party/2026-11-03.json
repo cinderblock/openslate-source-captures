@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://acdems.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "acdems.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 3,
-    "captured_at": "2026-11-04T17:40:49.545Z",
-    "status": 403,
+    "captured_at": "2026-11-05T13:00:39.180Z",
+    "status": 200,
     "error": null,
     "final_url": "https://acdems.org/endorsements-3/",
-    "response_sha256": "b924e7303ff323942505f856e628b84e99c992ee34d4453fe258277e4d6b3f9e",
+    "response_sha256": "49db895c31ba5a6a6e560815a48fc7fccd5352a84f33759d83a107bb355d56b2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -54,20 +55,7 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": {
-    "run": "2026-11-04T1323Z",
-    "index": 1,
-    "captured_at": "2026-11-04T13:23:17.742Z",
-    "status": 200,
-    "error": null,
-    "final_url": "https://acdems.org/endorsements-3/",
-    "response_sha256": "14b406c90bd571bb9eef5b58e2116016bc070374b64b6b8e42d493b209cdb81b",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped"
-    ]
-   },
+   "last_ok": null,
    "archived": null,
    "derivation": {
     "kind": "anchored",

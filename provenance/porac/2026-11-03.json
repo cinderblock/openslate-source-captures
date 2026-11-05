@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://porac.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 524,
-    "captured_at": "2026-11-04T17:41:35.850Z",
+    "captured_at": "2026-11-05T13:01:29.063Z",
     "status": 200,
     "error": null,
     "final_url": "https://porac.org/advocacy/2026-voting-guide/",
-    "response_sha256": "e6b45bc3e6b7ec2a02f6b6a06b3e88c9506ec85c377e6d0d4cb26c094803b213",
+    "response_sha256": "a52e103a50ba1e82c3be2490552ac03f0a340af75dd5c2f42037ace2fa9583fd",
     "bytes": "public",
     "claims": [
      "captured",
@@ -56,10 +57,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261008010634id_/https://porac.org/advocacy/2026-voting-guide/",
-    "timestamp": "20261008010634",
-    "digest": "PZ6FVHQAW3FQCO6JWX5VSURBCG5IKVHX",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261104221749id_/https://porac.org/advocacy/2026-voting-guide/",
+    "timestamp": "20261104221749",
+    "digest": "PZDDSRRB4CU7KQ5JNBR72YO6PJGZOAGU"
    },
    "derivation": {
     "kind": "anchored",
@@ -78,13 +78,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 395,
-    "captured_at": "2026-11-04T17:41:19.637Z",
+    "captured_at": "2026-11-05T13:01:09.455Z",
     "status": 200,
     "error": null,
     "final_url": "https://maps.cartifact.com/porac/",
-    "response_sha256": "a388608d0261d56b97c1be3c595e839545eda1c186432f4fd4468772dbab65d1",
+    "response_sha256": "beeee3d9e71d5b9bc37f384a456043702ad1c4d065209cfb9b172ed5ea2f21d7",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sftu.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "sftu.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 553,
-    "captured_at": "2026-11-04T17:41:48.779Z",
+    "captured_at": "2026-11-05T13:01:40.573Z",
     "status": 200,
     "error": null,
     "final_url": "https://sftu.org/endorsements/",
-    "response_sha256": "d941dd5b86e04246bae06c3c087a3fff9b709e55c0178558a0fae14b76b9abfe",
+    "response_sha256": "dd1536b0c546115c8e8f7c517baaf4419a9064fc9fef1790630e3c56bc5e666e",
     "bytes": "public",
     "claims": [
      "captured",

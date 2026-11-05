@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.lagop.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 376,
-    "captured_at": "2026-11-04T17:41:16.286Z",
+    "captured_at": "2026-11-05T13:01:04.310Z",
     "status": 200,
     "error": null,
     "final_url": "https://lagop-endorsement-lookup.vercel.app/",
-    "response_sha256": "2ab9cb1bd727a8c1d3b932175a52ad9a0ac39e79f0a238cf729167bad62e1c1b",
+    "response_sha256": "a77a3ec7e350e1870186f43ba9f6f914562e9538b1d6586aacd0bb844f4e1e78",
     "bytes": "public",
     "claims": [
      "captured",
@@ -82,13 +83,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 876,
-    "captured_at": "2026-11-04T17:42:41.783Z",
+    "captured_at": "2026-11-05T13:02:35.451Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lagop.org/",
-    "response_sha256": "e79c1c543107b9e0bf05b71a3a57ef5dec2b7be42888496f1e86ca53b321ec65",
+    "response_sha256": "495311935be6bc5adaaec1cd83704b03d8f2fb517fc2eeb00fc3ff28b2cfe5b0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -120,13 +121,13 @@
     "org_host": "lagop.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 377,
-    "captured_at": "2026-11-04T17:41:17.849Z",
+    "captured_at": "2026-11-05T13:01:05.913Z",
     "status": 404,
     "error": null,
     "final_url": "https://lagop-endorsement-lookup.vercel.app/_next/static/chunks/app/page-6de5274a16e7b1f6.js?dpl=dpl_GQ36V56UvLmxAzBWhCHYevkbNL3s",
-    "response_sha256": "691339868b8c95070d24955b656f5f5eead71e7ef67dea28eed0de983107fa81",
+    "response_sha256": "d43220fcfc7589874d50cd490a1fae088bb5027d0dd44c507436ab113438aecf",
     "bytes": "public",
     "claims": [
      "captured",

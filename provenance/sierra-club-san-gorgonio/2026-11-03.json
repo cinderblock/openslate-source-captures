@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.sierraclub.org/san-gorgonio",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 1134,
-    "captured_at": "2026-11-04T17:43:16.817Z",
+    "captured_at": "2026-11-05T13:03:12.755Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/san-gorgonio/politics-and-government-inland-empire",
-    "response_sha256": "ec80d860d19817c8bc9fda68da1d42f9867450bcbd3a615d04dd3d5987d2b209",
+    "response_sha256": "8165e1ac273aa07886bca1e1663cad489463deb3fc033c6a38888b0fe7b3dae0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,7 +56,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "d261a9e8b7cf8067fac3c30ffe4f4062705716994e2702573109bf022493c0a7"
+     "dom_sha256": "0471814b8fa06fe10960a95a1a5a2e6936ef3807d1953ae10c23743b4cf38999"
     }
    },
    "last_ok": null,
@@ -81,13 +82,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 1138,
-    "captured_at": "2026-11-04T17:43:22.932Z",
+    "captured_at": "2026-11-05T13:03:18.948Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sites/default/files/2026-10/final-endorsement-article-2026-p-p.pdf",
-    "response_sha256": "e5cbda43c12387c3dc9f35c46bc51582b1cb524c9c8e24217ad91b1afd3f66b1",
+    "response_sha256": "e7d8cc94a5512a3c77cdcc4765e71463eeb397f04f2b3e5ebf1df36fb2ad291a",
     "bytes": "public",
     "claims": [
      "captured",

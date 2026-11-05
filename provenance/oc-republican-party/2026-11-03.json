@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://ocgop.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 454,
-    "captured_at": "2026-11-04T17:41:33.347Z",
+    "captured_at": "2026-11-05T13:01:22.172Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/voter-guide-2026/",
-    "response_sha256": "837c77f2ea87f18fb6a4fd80a701f989e6db67258c16d14bc7c8a96e5139ebb5",
+    "response_sha256": "63e3a895819ba59daeabdd0ef9b8e3e13c07bef86af53e1ca1278871864a52c8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,14 +56,14 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "cfb86249dab8c9c268c32902d2b5931d5d3785af8fddded0e277a24e61825354"
+     "dom_sha256": "679a0e7d4a12c4e668ed012cedabc49104039ef3b5e9315c966ceeae49be7bd3"
     }
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261023100742id_/https://linkjar.to/voter-guide-2026/",
-    "timestamp": "20261023100742",
-    "digest": "JUVWE44WTK2AQF53LARI4UFEVZHWSVKQ",
+    "url": "https://web.archive.org/web/20261104164438id_/https://linkjar.to/voter-guide-2026/",
+    "timestamp": "20261104164438",
+    "digest": "AL7XFUAAWURJDJQDLQDBBCR4FEKHBZAQ",
     "origin": "existing"
    },
    "derivation": {
@@ -82,13 +83,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 379,
-    "captured_at": "2026-11-04T17:41:18.968Z",
+    "captured_at": "2026-11-05T13:01:08.314Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/voter-guide-2026/",
-    "response_sha256": "8452a2f7d3658ba40668be28aa7168c489b6ad098a3f2565655a49b82e50d99d",
+    "response_sha256": "f9344a64fb433c6038ac41072fbb0a9235311afaa9c5a04589c2db45e70bf949",
     "bytes": "public",
     "claims": [
      "captured",
@@ -97,14 +98,14 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "cfb86249dab8c9c268c32902d2b5931d5d3785af8fddded0e277a24e61825354"
+     "dom_sha256": "226267042a4f175ee245b7bc2ea6002abbf2ac8fc9ac6eaf1296cd06b8fd2d69"
     }
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261031103422id_/https://linkjar.to/voter-guide-2026/",
-    "timestamp": "20261031103422",
-    "digest": "JM2LXG6RKFQJGZAZTINUK64OTAFTQ24N",
+    "url": "https://web.archive.org/web/20261104164438id_/https://linkjar.to/voter-guide-2026/",
+    "timestamp": "20261104164438",
+    "digest": "AL7XFUAAWURJDJQDLQDBBCR4FEKHBZAQ",
     "origin": "existing",
     "statements": {
      "found": 0,
@@ -128,13 +129,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 455,
-    "captured_at": "2026-11-04T17:41:35.069Z",
+    "captured_at": "2026-11-05T13:01:23.923Z",
     "status": 200,
     "error": null,
     "final_url": "https://ocgop.org/november-election/",
-    "response_sha256": "ba0cbcb402cadf0356d0eefb9e44e7a2ae08d79ec094c83f26c5f9a3e10612f6",
+    "response_sha256": "f56cfe428ead1e4c95ab4cc0fdc2de450db5feaa4fdcc8b3663ec8c5d76b4db7",
     "bytes": "public",
     "claims": [
      "captured",
@@ -165,13 +166,13 @@
     "org_host": "ocgop.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 378,
-    "captured_at": "2026-11-04T17:41:16.613Z",
+    "captured_at": "2026-11-05T13:01:05.963Z",
     "status": 200,
     "error": null,
     "final_url": "https://linkjar.to/_/pdf/aa0dc48e-a2ea-40c8-8408-d58668b90d0b/",
-    "response_sha256": "b7711f0b975062737363fda9e0ba5d3ca387500850d294fe471b882f07f88b25",
+    "response_sha256": "44ce1080d5c44248c67d735463c97cb546ec819efdc3c7f8a3bfa6e43524a077",
     "bytes": "public",
     "claims": [
      "captured",

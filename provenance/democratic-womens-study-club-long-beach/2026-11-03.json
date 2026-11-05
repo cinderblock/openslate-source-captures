@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/DWSCLB",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 38,
-    "captured_at": "2026-11-04T17:40:51.342Z",
+    "captured_at": "2026-11-05T13:00:41.032Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "71f11b944734a8ede8f9a7279fa252ba648f65162419f95e3eefc7337d712bbb",
+    "response_sha256": "08cdafa308b045e4a0bb26ab9af5b48e73c65b4a9683c6c1573ce520d70b2419",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,13 +84,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 854,
-    "captured_at": "2026-11-04T17:42:35.941Z",
+    "captured_at": "2026-11-05T13:02:27.330Z",
     "status": 200,
     "error": null,
-    "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FDWSCLB%2Fposts%2Fpfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "c812ee79411790a729179b2c90373fac6268bb751c8c71650c20497d1ffa58a5",
+    "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
+    "response_sha256": "b84eb9a47f135139ed51e345fe57e62c2640245ce86f9423464197bef2faa324",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -98,7 +99,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "d52074492aa363d4c3cde8340bd25dd2b63abd1f62f89d228948a78e174bffbc"
+     "dom_sha256": "83d71e3f608cd4101fcc214631353b18f90e4419660cc043f5d5b9a52fc22687"
     }
    },
    "last_ok": null,

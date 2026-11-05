@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.lavote.gov/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "lavote.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 32,
-    "captured_at": "2026-11-04T17:40:49.547Z",
+    "captured_at": "2026-11-05T13:00:39.181Z",
     "status": 200,
     "error": null,
     "final_url": "https://apps.lavote.gov/candidate-statements/",
-    "response_sha256": "e5cb5f19b44feee2742a99a95a659512670b92a6e4d93ffa1ed75354e7fefda0",
+    "response_sha256": "2650ad1c9dd04251516a8bdbfe4eb33436d42f0032de676369424221934d6015",
     "bytes": "public",
     "claims": [
      "captured",
@@ -55,7 +56,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "051ad89cd5ce4b1330ef72a1f5e9d876ce0665344aea4edbf4c5161f398cf135"
+     "dom_sha256": "937a50b9a33149851344191a14bcfb55abec364abeeb838b79fade01703bd611"
     }
    },
    "last_ok": null,
@@ -82,13 +83,13 @@
     "org_host": "lavote.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 279,
-    "captured_at": "2026-11-04T17:41:13.809Z",
+    "captured_at": "2026-11-05T13:01:01.725Z",
     "status": 200,
     "error": null,
     "final_url": "https://isb.lavote.gov/",
-    "response_sha256": "990514eeaa773190c944b7fd4a84115f9cc4d6ab974095c9f3c29d6daf1f997d",
+    "response_sha256": "b824e3ec2f28673d0672b550e4f1cf1bb67c092aefb0086fe7337c8dfb125b00",
     "bytes": "public",
     "claims": [
      "captured",
@@ -97,15 +98,15 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "dd6ed3a10e585a4c01c69c4c3596a1f573cc463390275d8594ae10a50b4c595c"
+     "dom_sha256": "cf74e42cc9a4ef441ac435b9e666dade55d5cd6542ee0fae53a6d077b5f18ba5"
     }
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261027223009id_/https://isb.lavote.gov/",
-    "timestamp": "20261027223009",
-    "digest": "KKBCGUNVXYJYR5DEWNFEYFJ4WIOR6T3D",
-    "origin": "existing"
+    "url": "https://web.archive.org/web/20261105024937id_/https://isb.lavote.gov/",
+    "timestamp": "20261105024937",
+    "digest": "RM3UXHHDKZQOO5OPVKMHAHU27EJK74L3",
+    "origin": "requested"
    },
    "derivation": {
     "kind": "anchored",
@@ -124,13 +125,13 @@
     "org_host": "lavote.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 33,
-    "captured_at": "2026-11-04T17:40:51.654Z",
+    "captured_at": "2026-11-05T13:00:40.968Z",
     "status": 200,
     "error": null,
     "final_url": "https://apps.lavote.gov/statements-api/oc/read/election/4348/contest",
-    "response_sha256": "c93b43ce315b629e4ae65cfa344692bdaa09af506e5ca57ad67ff28e5e1365fa",
+    "response_sha256": "ea19b8275414a5101dc91c92936f344795f1741260b667101e26b6bdd3148128",
     "bytes": "public",
     "claims": [
      "captured",

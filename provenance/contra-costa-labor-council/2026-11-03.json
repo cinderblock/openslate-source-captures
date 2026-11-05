@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.cclabor.net/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "cclabor.net"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 825,
-    "captured_at": "2026-11-04T17:42:21.238Z",
+    "captured_at": "2026-11-05T13:02:14.072Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cclabor.net/2026",
-    "response_sha256": "77a4bf35d8b81cbfeb16fdedca886610c21dad74ae4ca8b8f48c37816673c20c",
+    "response_sha256": "5dbfa141ce5094418d4b70c1614e8d68a65b9ed4be039e46817d226381d1d7e4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,13 +84,13 @@
     "org_host": "cclabor.net"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 66,
-    "captured_at": "2026-11-04T17:41:01.211Z",
+    "captured_at": "2026-11-05T13:00:49.361Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/wp-content/uploads/2026/10/2026G-CLC-web-endorsements-2.csv",
-    "response_sha256": "8c7d63be82e404074e12489f3378418cbb2e935f0d053c5188f18f766b468619",
+    "response_sha256": "076d0f85b642bb9c54f333cfff67430aaa38409ac69f68ed5eefe78562d0a7ba",
     "bytes": "public",
     "claims": [
      "captured",
@@ -125,13 +126,13 @@
     "org_host": "cclabor.net"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 62,
-    "captured_at": "2026-11-04T17:40:52.880Z",
+    "captured_at": "2026-11-05T13:00:42.643Z",
     "status": 200,
     "error": null,
     "final_url": "https://calaborfed.org/labor-2026-primary-election-endorsements/",
-    "response_sha256": "519052d95bf945b3d1965ce10a4e2ef5b4e67c9a3cf215c16a33943247d7636f",
+    "response_sha256": "70bcd94235c17840178c6b92beae9ee13025cdfa09c290a51476224ed8b71729",
     "bytes": "public",
     "claims": [
      "captured",

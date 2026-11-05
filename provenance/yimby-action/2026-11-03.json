@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://yimbyaction.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "yimbyaction.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 1190,
-    "captured_at": "2026-11-04T17:43:28.189Z",
+    "captured_at": "2026-11-05T13:03:24.636Z",
     "status": 200,
     "error": null,
     "final_url": "https://yimbyaction.org/endorsements/november-2026-california-general",
-    "response_sha256": "db70050b7b4b979e46475772b66f4b892b5c6f2231e9d7cd81a7edcb23e0eb65",
+    "response_sha256": "991e3b55b54e22bfc3f1f061cc75f559d950eccb7174c69826e0d494eef87815",
     "bytes": "public",
     "claims": [
      "captured",
@@ -67,9 +68,9 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 16,
+    "exact": 6,
     "quoted_parts": 0,
-    "unanchored": 96,
+    "unanchored": 106,
     "no_statement": 0
    }
   }

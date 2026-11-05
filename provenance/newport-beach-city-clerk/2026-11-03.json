@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.newportbeachca.gov/government/elections",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "newportbeachca.gov"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 896,
-    "captured_at": "2026-11-04T17:42:48.205Z",
+    "captured_at": "2026-11-05T13:02:40.951Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.newportbeachca.gov/government/elections/general-municipal-election-november-3-2026",
-    "response_sha256": "a964fe42454c19130d3e44521e375baffcd7c7cbe184f835cca0ac1b946bbb37",
+    "response_sha256": "a5151a60230e8a8696e9c3feffb12e4259a534b37236e50fc053f0deee4633ca",
     "bytes": "public",
     "claims": [
      "captured",

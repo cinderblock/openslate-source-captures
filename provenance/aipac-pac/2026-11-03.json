@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://aipacpac.org/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 79,
-    "captured_at": "2026-11-04T17:40:57.031Z",
+    "captured_at": "2026-11-05T13:00:46.552Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aipacpac.org/",
-    "response_sha256": "31f6abc2fc2a6f0c9b1d281b0a1ea38117fb6655af90cae2056767aada881fb3",
+    "response_sha256": "71c31e885c8bf036c404bf1228524979fd42fb3af6e6f19cb1d4cb6463fc4d07",
     "bytes": "public",
     "claims": [
      "captured",
@@ -82,13 +83,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 78,
-    "captured_at": "2026-11-04T17:40:54.945Z",
+    "captured_at": "2026-11-05T13:00:44.465Z",
     "status": 500,
     "error": null,
     "final_url": "https://candidates.aipacpac.org/api/v2/donation-page/featured",
-    "response_sha256": "744a323f93a31f5e64352e460ad1b88d5bb7dd67e47dc599ee1f73c72cff9f87",
+    "response_sha256": "b3f1ff008377d6eb0b806eb88cc865b1051698b772e6b4c0f78988aa6a2f811b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -120,13 +121,13 @@
     "org_host": "aipacpac.org"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 800,
-    "captured_at": "2026-11-04T17:42:15.989Z",
+    "captured_at": "2026-11-05T13:02:09.851Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.aipac.org/politics",
-    "response_sha256": "9d7d7a635046baf7a504d066b8f8bb1994a03b7fe4e88f233e455fdb35daf807",
+    "response_sha256": "90f4787e3618f78924c18b91ef9c8b6bcbf72407ded38083f6849f7f176248e7",
     "bytes": "public",
     "claims": [
      "captured",

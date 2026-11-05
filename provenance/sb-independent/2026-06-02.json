@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.independent.com/",
  "generated_from": {
-  "endorsements_commit": "184d16530b0fc4dfc95c3cee004758022ce6a4e2",
+  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -27,7 +27,8 @@
    "2026-11-03T1727Z",
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
-   "2026-11-04T1740Z"
+   "2026-11-04T1740Z",
+   "2026-11-05T1300Z"
   ]
  },
  "sources": [
@@ -40,13 +41,13 @@
     "org_host": "independent.com"
    },
    "latest": {
-    "run": "2026-11-04T1740Z",
+    "run": "2026-11-05T1300Z",
     "index": 865,
-    "captured_at": "2026-11-04T17:42:38.674Z",
+    "captured_at": "2026-11-05T13:02:31.759Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.independent.com/2026/05/14/primary-election-2026-endorsements/",
-    "response_sha256": "08746eab2481a28ab550410c79b884d32f0a20db603f7f74f6fe5bfd8362ba17",
+    "response_sha256": "94dab6ef80d20417cb58e034288c65ffa03774ee27299631530b26ffe647d6a5",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -56,10 +57,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20260911234742id_/https://www.independent.com/2026/05/14/primary-election-2026-endorsements/",
-    "timestamp": "20260911234742",
-    "digest": "6EEJRL63CDAVAATT5YDNV2BMU5OWSW7W",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261104221409id_/https://www.independent.com/2026/05/14/primary-election-2026-endorsements/",
+    "timestamp": "20261104221409",
+    "digest": "WNTECSVSOOXUOK7DHV5ZXVFGYMSMQITQ",
     "statements": {
      "found": 0,
      "of": 7

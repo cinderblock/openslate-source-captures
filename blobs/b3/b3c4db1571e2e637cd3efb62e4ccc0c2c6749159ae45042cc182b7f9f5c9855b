@@ -1,0 +1,26 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Thu, 05 Nov 2026 13:03:16 GMT
+Transfer-Encoding: chunked
+Connection: close
+content-security-policy: object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+location: /tracker?role=candidate
+permissions-policy: camera=(), microphone=(), geolocation=(self)
+referrer-policy: strict-origin-when-cross-origin
+Server: cloudflare
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-railway-request-id: fi21sa5ySvS8qg_WBhdwDg
+x-railway-edge: lax1
+x-hikari-trace: lax1.e74w
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=33,cfOrigin;dur=59
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oho4tWfdnrHVvXBbu%2BIiEoE1ZqOYRuURpitQNVEQRFfwOX89Oh5TpMI45LSeT1gIV0%2FagD3pNBChjE3lvLNNtSOKSawhm1piTTaQsPB7PSS1QUHgMCa6d50272zn4ecFzGtTug%3D%3D"}]}
+CF-RAY: a55c0ec1cec46d20-LAX
+alt-svc: h3=":443"; ma=86400
+
+0
+
