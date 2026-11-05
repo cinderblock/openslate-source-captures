@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,6 +43,21 @@
     "org_host": "acdems.org"
    },
    "latest": {
+    "run": "2026-11-05T1746Z",
+    "index": 3,
+    "captured_at": "2026-11-05T17:46:54.490Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://acdems.org/endorsements-3/",
+    "response_sha256": "f8c95eecac3c2ae6f6a53924a82830cb6a3be626df5ad550dfe0eb359f03b2ba",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-05T1300Z",
     "index": 3,
     "captured_at": "2026-11-05T13:00:39.180Z",
@@ -55,7 +72,6 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": null,
    "archived": null,
    "derivation": {
     "kind": "anchored",

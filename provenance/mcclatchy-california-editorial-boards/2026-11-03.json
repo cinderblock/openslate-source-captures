@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,9 +43,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 1065,
-    "captured_at": "2026-11-05T13:10:07.409Z",
+    "captured_at": "2026-11-05T17:56:21.382Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
@@ -57,7 +59,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "b88e24d864831d1cbd7b7f59e6432f0a0cc3ed2fd57d9fff829600f3fe21d196"
+     "dom_sha256": "eab7354bf0e13d6d7417e50543e591ac6a246409ffc51a845d1c4d5c6e20feec"
     }
    },
    "last_ok": null,

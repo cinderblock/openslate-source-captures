@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "lacdp.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 874,
-    "captured_at": "2026-11-05T13:02:35.410Z",
+    "captured_at": "2026-11-05T17:48:49.977Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.lacdp.org/candidates",
-    "response_sha256": "eaa4b6d359e12494769c9c7ba89f0c5bbaf6dd415d4dd8a9aa02557e12169f17",
+    "response_sha256": "6dd81b3f9b33bf2d8884c9a42fed6941bbebb8198f079fe5d74e1a5e3f7b2b21",
     "bytes": "public",
     "claims": [
      "captured",
@@ -57,13 +59,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-04T1323Z",
-    "index": 33,
-    "captured_at": "2026-11-04T13:23:21.619Z",
+    "run": "2026-11-05T1322Z",
+    "index": 32,
+    "captured_at": "2026-11-05T13:22:47.298Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lacdp.org/candidates",
-    "response_sha256": "9d57965588009389d1d8a79dc82ad63361e26cd0c501b12a7225ad9113a72d96",
+    "response_sha256": "8e893ff795036bef40adff44fdbbc9e03d38993628d6a6d4be777a05b87ec9da",
     "bytes": "public",
     "claims": [
      "captured",
@@ -98,13 +100,13 @@
     "org_host": "lacdp.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 873,
-    "captured_at": "2026-11-05T13:02:33.820Z",
+    "captured_at": "2026-11-05T17:48:48.113Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.lacdp.org/ballotmeasures",
-    "response_sha256": "df494e85e416eff80fac87ecaba3ecfb27b3f0c46847f112a73905bfc634aa9e",
+    "response_sha256": "9ea7de32e213c58d87d03b9666eac131362a3accc68a0bbb4181e30b3079f3f4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -114,13 +116,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-04T1323Z",
-    "index": 32,
-    "captured_at": "2026-11-04T13:23:17.746Z",
+    "run": "2026-11-05T1322Z",
+    "index": 31,
+    "captured_at": "2026-11-05T13:22:45.083Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lacdp.org/ballotmeasures",
-    "response_sha256": "e2e2544ff67310de2c77bf517509bddef5ca080860e729e392dce305ab68aa7e",
+    "response_sha256": "669559b1faf4ca9765395172d7d5dd46e97ed56e4ca46fc69978b0ddae8e253a",
     "bytes": "public",
     "claims": [
      "captured",

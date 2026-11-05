@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 1134,
-    "captured_at": "2026-11-05T13:03:12.755Z",
+    "captured_at": "2026-11-05T17:49:23.026Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/san-gorgonio/politics-and-government-inland-empire",
-    "response_sha256": "8165e1ac273aa07886bca1e1663cad489463deb3fc033c6a38888b0fe7b3dae0",
+    "response_sha256": "87493226d833f648a0e309f7f6739434389599c6cd47c13d25f81cd5350d56b5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -56,7 +58,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "0471814b8fa06fe10960a95a1a5a2e6936ef3807d1953ae10c23743b4cf38999"
+     "dom_sha256": "380c8e7c31cc4faf4f0a440fc6e35849ca5cac4de23ddb60b4b2e72830db4b83"
     }
    },
    "last_ok": null,
@@ -82,13 +84,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 1138,
-    "captured_at": "2026-11-05T13:03:18.948Z",
+    "captured_at": "2026-11-05T17:49:29.250Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sites/default/files/2026-10/final-endorsement-article-2026-p-p.pdf",
-    "response_sha256": "e7d8cc94a5512a3c77cdcc4765e71463eeb397f04f2b3e5ebf1df36fb2ad291a",
+    "response_sha256": "f444eb4d6cfbdc16f8916eb151b54190c3a82edc0c2a8116eb0e99ffe2c817e6",
     "bytes": "public",
     "claims": [
      "captured",

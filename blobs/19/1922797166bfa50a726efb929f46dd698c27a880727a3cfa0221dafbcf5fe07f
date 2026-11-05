@@ -1,0 +1,28 @@
+HTTP/1.1 302 Found
+Date: Thu, 05 Nov 2026 17:47:05 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+x-powered-by: PHP/8.3.36
+cf-edge-cache: cache,platform=wordpress
+expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0
+pragma: no-cache
+Set-Cookie: wordpress_google_apps_login=601f2205795ac2d1b7669237485163e8; path=/; secure; HttpOnly
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+location: https://voterguide.dsa-la.org
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: frame-ancestors 'self' dsa-la.org *.dsa-la.org; upgrade-insecure-requests
+referrer-policy: strict-origin-when-cross-origin
+Server: cloudflare
+Cf-Apo-Via: origin,resnok
+cf-cache-status: BYPASS
+Server-Timing: cfCacheStatus;desc="BYPASS"
+Server-Timing: cfEdge;dur=95,cfOrigin;dur=152
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=odOoZ%2BYWa05Sl4x%2FUimxh2yoxc%2BUnmZl1Y0iUlBF%2FEqEQfuqWoIagPXXM4fKIa7EG%2F4RArOmUrxf4%2B%2F8OdVYF3w6ehDsoXAK5qSGIf58k79QchHh%2BeI547ocKXU%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+CF-RAY: a55dae802b4cc171-LAX
+
+0
+

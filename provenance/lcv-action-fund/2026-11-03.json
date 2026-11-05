@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "lcv.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 882,
-    "captured_at": "2026-11-05T13:02:36.046Z",
+    "captured_at": "2026-11-05T17:48:49.886Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.lcv.org/endorsements/?state=california&cycle=2026&result_page=2",
-    "response_sha256": "d815bccdd880c507904cd18a611e1233f37e6389c8a9bd312b88e8218cf3f7be",
+    "response_sha256": "43130f5d0f6918520bac9fccf2256b2c2ea7b8776a25e0622184a9b02fd04cb6",
     "bytes": "public",
     "claims": [
      "captured",

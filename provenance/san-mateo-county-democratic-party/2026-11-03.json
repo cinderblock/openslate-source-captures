@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 596,
-    "captured_at": "2026-11-05T13:01:43.979Z",
+    "captured_at": "2026-11-05T17:48:00.248Z",
     "status": 403,
     "error": null,
     "final_url": "https://www.smcdems.org/",
-    "response_sha256": "49bb7a9ecd405247efa329215b9b358b9674c9775b48c4b505ae68ee4934044b",
+    "response_sha256": "365b3c6d851db205fc9d9bfd1d1692b679f2020a9f45849a32082d5bc4ddbf52",
     "bytes": "public",
     "claims": [
      "captured",
@@ -56,13 +58,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-04T1323Z",
-    "index": 14,
-    "captured_at": "2026-11-04T13:23:18.615Z",
+    "run": "2026-11-05T1322Z",
+    "index": 13,
+    "captured_at": "2026-11-05T13:22:45.254Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.smcdems.org/",
-    "response_sha256": "bab5e4516a2f8871735a58b6bb89e30196f66c4b49c8425209f60cdd4f698ee4",
+    "response_sha256": "bd21999b54dfd36ba3527f26851759327b95a17321a67a5813f2b294f863628f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -96,13 +98,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 34,
-    "captured_at": "2026-11-05T13:00:39.181Z",
+    "captured_at": "2026-11-05T17:46:54.491Z",
     "status": 200,
     "error": null,
     "final_url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
-    "response_sha256": "bc94952221f7edd321415257290c0c44b85e57d2ab19431a5a5d2ecd7a04fea0",
+    "response_sha256": "ad556890f39b6610777d7c0cbebcff69a20b6aec2ba79fd77fdfbcd7d8dcd03a",
     "bytes": "public",
     "claims": [
      "captured",

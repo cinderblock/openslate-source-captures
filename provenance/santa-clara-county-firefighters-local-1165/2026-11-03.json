@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 42,
-    "captured_at": "2026-11-05T13:00:41.130Z",
+    "captured_at": "2026-11-05T17:46:56.565Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/721_md.json",
-    "response_sha256": "d5a07acf63a97abcea9b1ea1425c3126d8070b84ba846cdb9ba1794f5b2055dc",
+    "response_sha256": "a4bc70552eaeb88d83d74affe517c27e0db3f1926625a387a700c101c978aa4c",
     "bytes": "public",
     "claims": [
      "captured",

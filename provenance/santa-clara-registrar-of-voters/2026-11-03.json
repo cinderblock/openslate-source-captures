@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 198,
-    "captured_at": "2026-11-05T13:00:56.439Z",
+    "captured_at": "2026-11-05T17:47:11.352Z",
     "status": 403,
     "error": null,
     "final_url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
-    "response_sha256": "3a0670dd7d600d4995d055088b1d156cc27b0b6c2959c25cbb00fff2c04cae9d",
+    "response_sha256": "fca886b45386fe165cfa23fa12d6223b48699f524c8e5db436a44792daed2220",
     "bytes": "public",
     "claims": [
      "captured",
@@ -56,13 +58,13 @@
     ]
    },
    "last_ok": {
-    "run": "2026-11-04T1323Z",
-    "index": 9,
-    "captured_at": "2026-11-04T13:23:19.622Z",
+    "run": "2026-11-05T1322Z",
+    "index": 8,
+    "captured_at": "2026-11-05T13:22:46.968Z",
     "status": 200,
     "error": null,
     "final_url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
-    "response_sha256": "2ae359ce13e8ad83ffffa4b7e6d16525c4d01a0bd1af24e27622300fc0fa9f93",
+    "response_sha256": "5f77fa0997404115f787bed9e3bdfd7ceeb30191d39e78e48563ab98da9f9f76",
     "bytes": "public",
     "claims": [
      "captured",
@@ -87,13 +89,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 52,
-    "captured_at": "2026-11-05T13:01:00.659Z",
+    "captured_at": "2026-11-05T17:47:15.389Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
-    "response_sha256": "b3f6669e4c3a543e315cdf7fd136d7d1b574b76800fc6b1d3e90961a1b4c89ef",
+    "response_sha256": "b2f97139121c9cf481fa489bcdb7c2421acb872e3c039989205e12702d076d73",
     "bytes": "public",
     "claims": [
      "captured",

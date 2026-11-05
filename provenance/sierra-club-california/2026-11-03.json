@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 1131,
-    "captured_at": "2026-11-05T13:03:08.116Z",
+    "captured_at": "2026-11-05T17:49:18.346Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/california/2026-endorsements-scc-political-committee",
-    "response_sha256": "f56637c824cf5defe654a562e3b8f7db5f55d295b949b522be0f2cbbe3efe835",
+    "response_sha256": "e9ee19611c9134f725a5d046f9fc14a35048d28ae71b9e88d24a1b5222fd2718",
     "bytes": "public",
     "claims": [
      "captured",
@@ -57,7 +59,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "cd3c195bb0921bff3eeb511a678a9856b1b04c6a1ea7b775618858ef6b3a8628"
+     "dom_sha256": "1f3bdce0dcdb7afe3f145a2795908e74ae938df640501b7664a48a96f5e568f1"
     }
    },
    "last_ok": null,

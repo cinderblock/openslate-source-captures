@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0
+x-chrome-original-Content-Encoding: gzip
+x-chrome-original-Content-Length: 144055
+Content-Type: application/pdf
+Date: Thu, 05 Nov 2026 18:01:20 GMT
+Etag: W/"6ac6a2f4-2a124"
+Last-Modified: Wed, 07 Oct 2026 19:52:20 GMT
+X-CDN: Imperva
+X-Iinfo: 53-44125378-43773454 pVNy RT(1793901680471 120) q(0 0 0 -1) r(0 0)
+
+<!doctype html>
+<html style="height:100%;width:100%">
+  <!-- the placeholder in the body style is for an optional background-color -->
+  <body style="height:100%;width:100%;overflow:hidden;margin:0;padding:0;background-color:rgb(40,40,40);">
+    <template shadowrootmode="closed">
+      <iframe name="17D5820D75AFA762FB3FA2AC403ABE76" src="about:blank" type="application/pdf" internalid="17D5820D75AFA762FB3FA2AC403ABE76"
+        style="border:0;position:absolute;top:0;left:0;width:100%;height:100%"
+        allow="fullscreen *">
+      </iframe>
+      <slot></slot>
+    </template>
+  </body>
+</html>

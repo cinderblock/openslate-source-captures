@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "laforward.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 875,
-    "captured_at": "2026-11-05T13:02:34.553Z",
+    "captured_at": "2026-11-05T17:48:48.613Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.laforward.org/voterguide",
-    "response_sha256": "d8c3dfbb8988e9da93869642fff8e6cff6c3a120c662f533824a8ec2d47699a5",
+    "response_sha256": "cc4d78e21de80d0d0e0398914e46aa94db851bfb386fec119e940dba2a334657",
     "bytes": "public",
     "claims": [
      "captured",

@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,13 +43,13 @@
     "org_host": "docs.google.com"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 150,
-    "captured_at": "2026-11-05T13:00:55.720Z",
+    "captured_at": "2026-11-05T17:47:40.135Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
-    "response_sha256": "292f878f64e071351673159b1496d76eef8f84ef1f9d4222b0c629355826e96b",
+    "response_sha256": "6c732cb9b727f4209fe700fc80b8a7bb86ee588b342517aba59343c3cabb2a5e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -56,7 +58,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "6ca2846bb15e14b3bea86258c2f923edd7316776e87385f80efcd2e20f8875ac"
+     "dom_sha256": "1478a5c193c8bb221c3d1b1a6f3905b799ded56cf746baf5b1c4a54cf464c6b1"
     }
    },
    "last_ok": null,

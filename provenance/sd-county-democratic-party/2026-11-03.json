@@ -28,7 +28,9 @@
    "2026-11-04T1301Z",
    "2026-11-04T1323Z",
    "2026-11-04T1740Z",
-   "2026-11-05T1300Z"
+   "2026-11-05T1300Z",
+   "2026-11-05T1322Z",
+   "2026-11-05T1746Z"
   ]
  },
  "sources": [
@@ -41,28 +43,13 @@
     "org_host": "sddemocrats.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 1083,
-    "captured_at": "2026-11-05T13:02:55.303Z",
-    "status": null,
-    "error": "timeout: no data",
-    "final_url": "https://www.sddemocrats.org/candidates.html",
-    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "bytes": "withheld",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-04T1740Z",
-    "index": 1083,
-    "captured_at": "2026-11-04T17:43:01.223Z",
+    "captured_at": "2026-11-05T17:49:08.044Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sddemocrats.org/candidates.html",
-    "response_sha256": "d7cc625ba1ea984330d81daeaae3197217bfdd77f42045f3135c5a1c9fff1bea",
+    "response_sha256": "0d43b0172e83a63c03d1cf6f7810892bec89133553fccec0eec54933a8c60b4b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -70,6 +57,7 @@
      "witnessed-by-public-ci"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261101191235id_/https://www.sddemocrats.org/candidates.html",
     "timestamp": "20261101191235",
@@ -93,13 +81,13 @@
     "org_host": "sddemocrats.org"
    },
    "latest": {
-    "run": "2026-11-05T1300Z",
+    "run": "2026-11-05T1746Z",
     "index": 1084,
-    "captured_at": "2026-11-05T13:03:26.804Z",
+    "captured_at": "2026-11-05T17:49:09.751Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sddemocrats.org/propositions--ballot-measures.html",
-    "response_sha256": "a38c831966de99cfd52dd7512b758676dc7936b1b6fa62b667fe1a699cde6161",
+    "response_sha256": "9414b0cdf73eea7d5c6aa79c5f6cad0c14960894c4764abde8c192ed8085ba63",
     "bytes": "public",
     "claims": [
      "captured",
