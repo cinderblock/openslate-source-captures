@@ -1,19 +1,19 @@
 {
  "http://www.milkclub.org/endorsements": {
-  "url": "https://web.archive.org/web/20261009122151id_/https://www.milkclub.org/endorsements",
-  "timestamp": "20261009122151",
-  "digest": "UM4KECJDKAIHC537OQIUZ3YGZ3OKL2YB",
-  "checked_at": "2026-11-05T11:44:05.189Z",
+  "url": "https://web.archive.org/web/20261105190109id_/https://www.milkclub.org/endorsements",
+  "timestamp": "20261105190109",
+  "digest": "CYQ62F5DDX6F5MVHK7OQYT4OQJLVILIM",
+  "checked_at": "2026-11-05T19:29:13.413Z",
   "save_requested_at": "2026-10-30T17:47:33.216Z",
   "save": {
-   "at": "2026-11-02T22:03:53.132Z",
+   "at": "2026-11-05T18:57:06.172Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-28ab2fda5fdf992b7e0d528ddc2f6c1ae9f481de",
-   "snapshot": "20261102220444",
+   "snapshot": "20261105190109",
    "final_url": "https://www.milkclub.org/endorsements"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://4ikjgfrcd7qyxpoa.public.blob.vercel-storage.com/alameda_county_candidates.png": {
   "url": "https://web.archive.org/web/20261016202144id_/https://4ikjgfrcd7qyxpoa.public.blob.vercel-storage.com/alameda_county_candidates.png",
@@ -1152,7 +1152,7 @@
   "url": "https://web.archive.org/web/20261031032854id_/https://calaborfed.org/wp-content/uploads/2026/10/2026G-CLC-web-endorsements-2.csv",
   "timestamp": "20261031032854",
   "digest": "FVMKVCDZIODGAR4AWUBVHKFDD75PRYWR",
-  "checked_at": "2026-11-02T22:20:45.749Z",
+  "checked_at": "2026-11-05T19:30:11.644Z",
   "save": {
    "at": "2026-10-30T21:43:56.452Z",
    "via": "anonymous",
@@ -1169,7 +1169,7 @@
   "url": "https://web.archive.org/web/20261030214422id_/https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL.jpg",
   "timestamp": "20261030214422",
   "digest": "W5PMVHXNFEOO6UB35BH32LBHB7QHQDDP",
-  "checked_at": "2026-11-02T22:20:47.598Z",
+  "checked_at": "2026-11-05T19:30:13.337Z",
   "save": {
    "at": "2026-10-30T21:44:22.591Z",
    "via": "anonymous",
@@ -1638,12 +1638,11 @@
   },
   "compared": "20261016185226",
   "save": {
-   "at": "2026-10-31T23:43:42.576Z",
+   "at": "2026-11-05T19:08:40.394Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-c053d231b2464d3149335bb36baab897ae475dfc",
-   "snapshot": "20261031234347",
-   "final_url": "https://cpfelectionguide.org/"
+   "error": "error:not-found"
   },
   "origin": "existing"
  },
@@ -5595,12 +5594,10 @@
   "digest": "BFQUQCVACIWMT7UHM2HEP5LFT4U35LIZ",
   "checked_at": "2026-11-05T11:43:15.807Z",
   "save": {
-   "at": "2026-10-31T23:59:03.301Z",
+   "at": "2026-11-05T19:23:55.384Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-9c6fb5129c7759368aec02c78b2a953c93f7141a",
-   "snapshot": "20261031235906",
-   "final_url": "https://laforwardguide.org/districts/garvey-school-district"
+   "outcome": "failed",
+   "error": "no-response"
   },
   "origin": "existing"
  },
@@ -5610,12 +5607,10 @@
   "digest": "PXEX7A3T2GFADS2DIIIDULVLJT3QAR4I",
   "checked_at": "2026-11-05T11:43:17.512Z",
   "save": {
-   "at": "2026-10-31T23:58:36.159Z",
+   "at": "2026-11-05T19:21:10.349Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-23bb2b1db8d61a3cc9653079bd9388c7ea192d77",
-   "snapshot": "20261031235840",
-   "final_url": "https://laforwardguide.org/districts/glendora-usd"
+   "outcome": "failed",
+   "error": "no-response"
   },
   "origin": "existing"
  },
@@ -5640,12 +5635,11 @@
   "digest": "KVMKZ2KQRPWXU5LUG4ZELU72W6U7GBTW",
   "checked_at": "2026-11-05T11:43:20.888Z",
   "save": {
-   "at": "2026-10-31T23:57:03.459Z",
+   "at": "2026-11-05T19:12:09.766Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-0573ebf3d68cfa2ddf781d1e7a0ed3a247255b8f",
-   "snapshot": "20261031235707",
-   "final_url": "https://laforwardguide.org/districts/la-community-college-district"
+   "error": "error:gateway-timeout"
   },
   "origin": "existing"
  },
@@ -5689,12 +5683,10 @@
   "digest": "DYLEOJNMB4DDKRSDORRL7IYIWYLGWPLU",
   "checked_at": "2026-11-05T11:43:24.724Z",
   "save": {
-   "at": "2026-10-31T23:58:01.025Z",
+   "at": "2026-11-05T19:15:40.280Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-e698dd63bd8ee6f4cbc0b393769ae0028436a6d8",
-   "snapshot": "20261031235813",
-   "final_url": "https://laforwardguide.org/districts/palos-verdes-usd"
+   "outcome": "failed",
+   "error": "no-response"
   },
   "origin": "existing"
  },
@@ -5808,12 +5800,11 @@
   "digest": "D5NQIIWPS7VE6YZB6EPIR66KSGEJIG6N",
   "checked_at": "2026-11-05T11:43:35.740Z",
   "save": {
-   "at": "2026-10-31T23:53:25.504Z",
+   "at": "2026-11-05T19:10:32.819Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-026fa9ac8d88c8c7491b3934490b84e1be8c83bf",
-   "snapshot": "20261031235330",
-   "final_url": "https://laforwardguide.org/districts/william-s-hart-union-school-district"
+   "error": "error:invalid-host-resolution"
   },
   "origin": "existing"
  },
@@ -5823,12 +5814,11 @@
   "digest": "EVMM2TCWPU7NPH64B7HHIMIVOBJPENV3",
   "checked_at": "2026-11-05T11:43:37.559Z",
   "save": {
-   "at": "2026-10-31T23:52:23.087Z",
+   "at": "2026-11-05T19:10:17.206Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-d0d9e6653f59a88aaddc59e32ae36d52211f9d39",
-   "snapshot": "20261031235226",
-   "final_url": "https://laforwardguide.org/districts/wiseburn-usd"
+   "error": "error:gateway-timeout"
   },
   "origin": "existing"
  },
@@ -5843,12 +5833,10 @@
   },
   "compared": "20261017104454",
   "save": {
-   "at": "2026-10-31T23:57:21.283Z",
+   "at": "2026-11-05T19:12:55.247Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-5d19aa2d90aee3f4faba78cb5ece9d42a132a673",
-   "snapshot": "20261031235726",
-   "final_url": "https://laforwardguide.org/guide/alhambra"
+   "outcome": "failed",
+   "error": "no-response"
   },
   "origin": "existing"
  },
@@ -5877,12 +5865,11 @@
   "digest": "JBJBRKVCNGN7FXVFXBRRAPSC3YNA5NWI",
   "checked_at": "2026-11-05T11:43:43.958Z",
   "save": {
-   "at": "2026-10-31T23:53:45.254Z",
+   "at": "2026-11-05T19:11:00.641Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-c744b04c252172b3b93cd53396df9e6339a2fc24",
-   "snapshot": "20261031235351",
-   "final_url": "https://laforwardguide.org/guide/baldwin-park"
+   "error": "error:gateway-timeout"
   },
   "origin": "existing"
  },
@@ -5897,12 +5884,11 @@
   },
   "compared": "20261017071237",
   "save": {
-   "at": "2026-10-31T23:50:51.868Z",
+   "at": "2026-11-05T19:09:46.199Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-b6bdbd75e6cb34990da7f6a43b68c98efecb12c5",
-   "snapshot": "20261031235055",
-   "final_url": "https://laforwardguide.org/guide/burbank"
+   "error": "error:invalid-host-resolution"
   },
   "origin": "existing"
  },
@@ -6097,12 +6083,11 @@
   },
   "compared": "20261017072327",
   "save": {
-   "at": "2026-10-31T23:51:25.883Z",
+   "at": "2026-11-05T19:10:01.808Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-77abc01e5f1c2b49aee227a5bb1af2850fc85107",
-   "snapshot": "20261031235132",
-   "final_url": "https://laforwardguide.org/guide/cudahy"
+   "error": "error:gateway-timeout"
   },
   "origin": "existing"
  },
@@ -6152,12 +6137,10 @@
   },
   "compared": "20261017105729",
   "save": {
-   "at": "2026-10-31T23:58:20.035Z",
+   "at": "2026-11-05T19:18:25.316Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-b47513bdd0d8a7fcca59b6ec3c2ffbe895039b56",
-   "snapshot": "20261031235823",
-   "final_url": "https://laforwardguide.org/guide/el-segundo"
+   "outcome": "failed",
+   "error": "no-response"
   },
   "origin": "existing"
  },
@@ -6305,12 +6288,11 @@
   },
   "compared": "20261017092730",
   "save": {
-   "at": "2026-10-31T23:55:32.225Z",
+   "at": "2026-11-05T19:11:17.748Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-528d9801cdd729d6d31da9cb3d78ac73356218d8",
-   "snapshot": "20261031235544",
-   "final_url": "https://laforwardguide.org/guide/manhattan-beach"
+   "error": "error:invalid-host-resolution"
   },
   "origin": "existing"
  },
@@ -6555,12 +6537,11 @@
   },
   "compared": "20261017094205",
   "save": {
-   "at": "2026-10-31T23:55:48.287Z",
+   "at": "2026-11-05T19:11:33.290Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-c3c5e0034e0c24314bd2471008a2025d9e7a7e68",
-   "snapshot": "20261031235551",
-   "final_url": "https://laforwardguide.org/guide/west-hollywood"
+   "error": "error:gateway-timeout"
   },
   "origin": "existing"
  },
@@ -7013,12 +6994,11 @@
   "digest": "YSSHLEBW2VU24Y3VFUNS6UC42NYQT6RF",
   "checked_at": "2026-11-05T11:45:23.908Z",
   "save": {
-   "at": "2026-10-31T23:43:24.361Z",
+   "at": "2026-11-05T19:08:23.772Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-73140d045ac232f66ed143a3a38a53aa769e7dd1",
-   "snapshot": "20261031234327",
-   "final_url": "https://maringop.org/2026/09/15/marin-gop-endorses/"
+   "error": "error:invalid-host-resolution"
   },
   "origin": "existing"
  },
@@ -8087,19 +8067,19 @@
   }
  },
  "https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election": {
-  "url": "https://web.archive.org/web/20261016021750id_/https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election",
-  "timestamp": "20261016021750",
-  "digest": "A6QNSSGWXGP7TAN4IML54GIPDJZCR3Q6",
-  "checked_at": "2026-11-05T11:45:25.687Z",
+  "url": "https://web.archive.org/web/20261105191152id_/https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election",
+  "timestamp": "20261105191152",
+  "digest": "EOUR7KRTHE3MACWPTYLH3A76UNOYEG3B",
+  "checked_at": "2026-11-05T19:29:15.125Z",
   "save": {
-   "at": "2026-10-31T23:38:43.871Z",
+   "at": "2026-11-05T19:06:34.769Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-c6ed9525acb5988f8f8050842efd2f2cf43f7034",
-   "snapshot": "20261031233948",
+   "snapshot": "20261105191152",
    "final_url": "https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf#page=6": {
   "url": "https://web.archive.org/web/20261030225000id_/https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf#page=6",
@@ -9655,12 +9635,11 @@
   },
   "compared": "20261017035143",
   "save": {
-   "at": "2026-10-31T23:47:01.467Z",
+   "at": "2026-11-05T19:09:14.758Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-61603fe40a2d0c2f5031462a9f4ff505fd1cc5e5",
-   "snapshot": "20261031234749",
-   "final_url": "https://sfparentaction.org/endorsements-2026-nov/"
+   "error": "error:invalid-host-resolution"
   },
   "origin": "existing"
  },
@@ -14115,12 +14094,11 @@
   },
   "compared": "20261017045027",
   "save": {
-   "at": "2026-10-31T23:48:17.106Z",
+   "at": "2026-11-05T19:09:30.435Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-e818b17e8362159c81ae12f8b2bae583396040f9",
-   "snapshot": "20261031234821",
-   "final_url": "https://www.dsasandiego.org/endorsements"
+   "error": "error:not-found"
   },
   "origin": "existing"
  },
@@ -15619,24 +15597,24 @@
   }
  },
  "https://www.ocregister.com/2026/10/04/endorsement-david-penaloza-for-assembly-district-68/": {
-  "url": "https://web.archive.org/web/20261008143456id_/https://www.ocregister.com/2026/10/04/endorsement-david-penaloza-for-assembly-district-68/",
-  "timestamp": "20261008143456",
-  "digest": "SUSBON7S24Z4HUN3D2TXSZGD2YDSZPAG",
-  "checked_at": "2026-11-05T11:44:25.800Z",
+  "url": "https://web.archive.org/web/20261105190104id_/https://www.ocregister.com/2026/10/04/endorsement-david-penaloza-for-assembly-district-68/",
+  "timestamp": "20261105190104",
+  "digest": "YREUUHDM36BYBJLE4UG7ALX2ER6JAB4M",
+  "checked_at": "2026-11-05T19:29:16.809Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261008143456",
+  "compared": "20261105190104",
   "save": {
-   "at": "2026-11-02T22:02:53.676Z",
+   "at": "2026-11-05T18:56:40.464Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-90b6483bdf818278ff01b02c3f1980c515192c37",
-   "snapshot": "20261102220349",
+   "snapshot": "20261105190104",
    "final_url": "https://www.ocregister.com/2026/10/04/endorsement-david-penaloza-for-assembly-district-68/"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.ocregister.com/2026/10/09/endorsement-no-on-newport-beach-measures-h-p-q-and-r/": {
   "url": "https://web.archive.org/web/20261101064822id_/https://www.ocregister.com/2026/10/09/endorsement-no-on-newport-beach-measures-h-p-q-and-r/",
@@ -15777,12 +15755,10 @@
   },
   "compared": "20261014094456",
   "save": {
-   "at": "2026-11-02T22:06:46.429Z",
+   "at": "2026-11-05T18:58:03.686Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-bed90ad74adeb2226cbe089d663a645df6e881a8",
-   "snapshot": "20261102220651",
-   "final_url": "https://www.pressdemocrat.com/2026/10/13/endorsement-yes-on-measure-j-windsors-students-deserve-safe-classrooms/"
+   "outcome": "pending",
+   "job_id": "spn2-bed90ad74adeb2226cbe089d663a645df6e881a8"
   },
   "origin": "existing"
  },
@@ -16045,24 +16021,24 @@
   "fewer_in": "20261015123918"
  },
  "https://www.progressivevotersguide.com/california/2026/general/city/irvine": {
-  "url": "https://web.archive.org/web/20261015125809id_/https://www.progressivevotersguide.com/california/2026/general/city/irvine",
-  "timestamp": "20261015125809",
-  "digest": "EAOCBNOSYV3CEN5C4QDK45ZJGOUFQEN2",
-  "checked_at": "2026-11-05T11:44:34.918Z",
+  "url": "https://web.archive.org/web/20261105190514id_/https://www.progressivevotersguide.com/california/2026/general/city/irvine",
+  "timestamp": "20261105190514",
+  "digest": "IM34VEFPPOOKTL6Q3QJI7WZ62N3WXPB7",
+  "checked_at": "2026-11-05T19:29:20.071Z",
   "statements": {
    "found": 3,
    "of": 3
   },
-  "compared": "20261015125809",
+  "compared": "20261105190514",
   "save": {
-   "at": "2026-11-02T22:08:59.730Z",
+   "at": "2026-11-05T18:59:31.183Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-f43eaf97dad6dd7e9553e73ae1486566ebcddf4c",
-   "snapshot": "20261102221008",
+   "snapshot": "20261105190514",
    "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/irvine"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.progressivevotersguide.com/california/2026/general/city/modesto": {
   "url": "https://web.archive.org/web/20261031202507id_/https://www.progressivevotersguide.com/california/2026/general/city/modesto",
@@ -16165,24 +16141,24 @@
   "fewer_in": "20261015125407"
  },
  "https://www.progressivevotersguide.com/california/2026/general/city/ranchocucamonga": {
-  "url": "https://web.archive.org/web/20261015130238id_/https://www.progressivevotersguide.com/california/2026/general/city/ranchocucamonga",
-  "timestamp": "20261015130238",
-  "digest": "CZNBI7MSAAGSXV43JZ6GC5ODJVWBVTGL",
-  "checked_at": "2026-11-05T11:44:37.155Z",
+  "url": "https://web.archive.org/web/20261105190541id_/https://www.progressivevotersguide.com/california/2026/general/city/ranchocucamonga",
+  "timestamp": "20261105190541",
+  "digest": "PPGS45W7AODHB2AOEEBXA7AXSTGMOWAM",
+  "checked_at": "2026-11-05T19:29:21.761Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261015130238",
+  "compared": "20261105190541",
   "save": {
-   "at": "2026-11-02T22:09:35.623Z",
+   "at": "2026-11-05T19:01:03.610Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-e974341e610237a81b09d490190fceaf78f880bb",
-   "snapshot": "20261102221047",
+   "snapshot": "20261105190541",
    "final_url": "https://www.progressivevotersguide.com/california/2026/general/city/ranchocucamonga"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.progressivevotersguide.com/california/2026/general/city/richmond": {
   "url": "https://web.archive.org/web/20261031201450id_/https://www.progressivevotersguide.com/california/2026/general/city/richmond",
@@ -16347,24 +16323,24 @@
   "origin": "requested"
  },
  "https://www.progressivevotersguide.com/california/2026/general/county/fresno": {
-  "url": "https://web.archive.org/web/20261015120555id_/https://www.progressivevotersguide.com/california/2026/general/county/fresno",
-  "timestamp": "20261015120555",
-  "digest": "E23HWBKQVYWFX6G4LPEZ2LFXO37TTI5F",
-  "checked_at": "2026-11-05T11:40:48.978Z",
+  "url": "https://web.archive.org/web/20261105190348id_/https://www.progressivevotersguide.com/california/2026/general/county/fresno",
+  "timestamp": "20261105190348",
+  "digest": "A2KFFCDNB5RVSF3W43L2NAASXVD2XFCW",
+  "checked_at": "2026-11-05T19:29:23.944Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261015120555",
+  "compared": "20261105190348",
   "save": {
-   "at": "2026-10-31T20:10:49.454Z",
+   "at": "2026-11-05T18:58:29.247Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-d4aa220c18bf00038d49939750c53155db0b3f00",
-   "snapshot": "20261031201053",
+   "snapshot": "20261105190348",
    "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/fresno"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.progressivevotersguide.com/california/2026/general/county/losangeles": {
   "url": "https://web.archive.org/web/20261031201125id_/https://www.progressivevotersguide.com/california/2026/general/county/losangeles",
@@ -16407,24 +16383,24 @@
   "fewer_in": "20261015123114"
  },
  "https://www.progressivevotersguide.com/california/2026/general/county/riverside": {
-  "url": "https://web.archive.org/web/20261015122645id_/https://www.progressivevotersguide.com/california/2026/general/county/riverside",
-  "timestamp": "20261015122645",
-  "digest": "G3SJWQ76X7NJKJQKEX4RCYSEVONXEWRS",
-  "checked_at": "2026-11-05T11:40:54.336Z",
+  "url": "https://web.archive.org/web/20261105190622id_/https://www.progressivevotersguide.com/california/2026/general/county/riverside",
+  "timestamp": "20261105190622",
+  "digest": "IAGNP35HBQDTDIAEXB5FLVYVOVCVP7RY",
+  "checked_at": "2026-11-05T19:29:25.654Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261015122645",
+  "compared": "20261105190622",
   "save": {
-   "at": "2026-10-31T20:11:29.630Z",
+   "at": "2026-11-05T18:58:45.812Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-9602ec706afa3efb15b8dc101d2e560d1694f04d",
-   "snapshot": "20261031201155",
+   "snapshot": "20261105190622",
    "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/riverside"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.progressivevotersguide.com/california/2026/general/county/sacramento": {
   "url": "https://web.archive.org/web/20261031201035id_/https://www.progressivevotersguide.com/california/2026/general/county/sacramento",
@@ -16467,24 +16443,24 @@
   "origin": "requested"
  },
  "https://www.progressivevotersguide.com/california/2026/general/county/sandiego": {
-  "url": "https://web.archive.org/web/20261015130023id_/https://www.progressivevotersguide.com/california/2026/general/county/sandiego",
-  "timestamp": "20261015130023",
-  "digest": "VBWAQE4MBNQCRKRAUDULZIK43ME3F3CP",
-  "checked_at": "2026-11-05T11:40:59.742Z",
+  "url": "https://web.archive.org/web/20261105190549id_/https://www.progressivevotersguide.com/california/2026/general/county/sandiego",
+  "timestamp": "20261105190549",
+  "digest": "DDVWEPICBXPLPIHBNCRPMJX3DHVKJKBZ",
+  "checked_at": "2026-11-05T19:29:27.538Z",
   "statements": {
    "found": 2,
    "of": 2
   },
-  "compared": "20261015130023",
+  "compared": "20261105190549",
   "save": {
-   "at": "2026-10-31T20:18:22.428Z",
+   "at": "2026-11-05T19:00:36.097Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-0030671435556441dbbe45ebb748273bdf3907b7",
-   "snapshot": "20261031201914",
+   "snapshot": "20261105190549",
    "final_url": "https://www.progressivevotersguide.com/california/2026/general/county/sandiego"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.progressivevotersguide.com/california/2026/general/county/ventura": {
   "url": "https://web.archive.org/web/20261031201547id_/https://www.progressivevotersguide.com/california/2026/general/county/ventura",
@@ -16528,24 +16504,24 @@
   "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/alpine": {
-  "url": "https://web.archive.org/web/20261016020758id_/https://www.reformcalifornia.org/voter-guides/alpine",
-  "timestamp": "20261016020758",
-  "digest": "WFQOPOPXBNYU5DB3BGXJJCAFIBKAF6NS",
-  "checked_at": "2026-11-05T11:41:05.023Z",
+  "url": "https://web.archive.org/web/20261105191038id_/https://www.reformcalifornia.org/voter-guides/alpine",
+  "timestamp": "20261105191038",
+  "digest": "PBAJTKCINOYHAFJL3ZG5Q4L6PDI62BIK",
+  "checked_at": "2026-11-05T19:29:29.241Z",
   "statements": {
    "found": 9,
    "of": 9
   },
-  "compared": "20261016020758",
+  "compared": "20261105191038",
   "save": {
-   "at": "2026-10-31T20:37:08.517Z",
+   "at": "2026-11-05T19:05:22.557Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-ec54eae972a8924222cebb47f4d062381b053099",
-   "snapshot": "20261031203720",
+   "snapshot": "20261105191038",
    "final_url": "https://www.reformcalifornia.org/voter-guides/alpine"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/amador": {
   "url": "https://web.archive.org/web/20261031203443id_/https://www.reformcalifornia.org/voter-guides/amador",
@@ -16568,44 +16544,44 @@
   "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/butte": {
-  "url": "https://web.archive.org/web/20261016020800id_/https://www.reformcalifornia.org/voter-guides/butte",
-  "timestamp": "20261016020800",
-  "digest": "TW7KFSSKYPDRZ6XQPIZFBPMYQXBWZKCO",
-  "checked_at": "2026-11-05T11:41:08.526Z",
+  "url": "https://web.archive.org/web/20261105191148id_/https://www.reformcalifornia.org/voter-guides/butte",
+  "timestamp": "20261105191148",
+  "digest": "DOM27XMG6V7V5UC33YDUHLAAXJDSN6NN",
+  "checked_at": "2026-11-05T19:29:30.947Z",
   "statements": {
    "found": 16,
    "of": 21
   },
-  "compared": "20261016020800",
+  "compared": "20261105191148",
   "save": {
-   "at": "2026-10-31T20:39:11.394Z",
+   "at": "2026-11-05T19:06:19.158Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-68cf64884244108a7ae14de7e5141e5f523cfd2f",
-   "snapshot": "20261031203928",
+   "snapshot": "20261105191148",
    "final_url": "https://www.reformcalifornia.org/voter-guides/butte"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/calaveras": {
-  "url": "https://web.archive.org/web/20261016020758id_/https://www.reformcalifornia.org/voter-guides/calaveras",
-  "timestamp": "20261016020758",
-  "digest": "WJXD433COBDFKB5EIOZVWI3VHVRSFQTX",
-  "checked_at": "2026-11-05T11:41:10.366Z",
+  "url": "https://web.archive.org/web/20261105191044id_/https://www.reformcalifornia.org/voter-guides/calaveras",
+  "timestamp": "20261105191044",
+  "digest": "IPDI5673X7M3TQP3L35KQVUVD2LQJW2I",
+  "checked_at": "2026-11-05T19:29:32.599Z",
   "statements": {
    "found": 11,
    "of": 11
   },
-  "compared": "20261016020758",
+  "compared": "20261105191044",
   "save": {
-   "at": "2026-10-31T20:37:44.033Z",
+   "at": "2026-11-05T19:05:37.938Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-4e2fdd4af1d0562f2b9292b91e3d949b263986df",
-   "snapshot": "20261031203747",
+   "snapshot": "20261105191044",
    "final_url": "https://www.reformcalifornia.org/voter-guides/calaveras"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/california": {
   "url": "https://web.archive.org/web/20261101065441id_/https://www.reformcalifornia.org/voter-guides/california",
@@ -16667,124 +16643,124 @@
   "compared": "20261101230140"
  },
  "https://www.reformcalifornia.org/voter-guides/del-norte": {
-  "url": "https://web.archive.org/web/20261016020758id_/https://www.reformcalifornia.org/voter-guides/del-norte",
-  "timestamp": "20261016020758",
-  "digest": "XUCDM7E7J5BVUGDIG23NGP2VDBMVQEEI",
-  "checked_at": "2026-11-05T11:44:40.975Z",
+  "url": "https://web.archive.org/web/20261105191114id_/https://www.reformcalifornia.org/voter-guides/del-norte",
+  "timestamp": "20261105191114",
+  "digest": "MPURIGX5UGBXCHD3QYAOD6JUWPMLV4Z6",
+  "checked_at": "2026-11-05T19:29:34.327Z",
   "statements": {
    "found": 3,
    "of": 6
   },
-  "compared": "20261016020758",
+  "compared": "20261105191114",
   "save": {
-   "at": "2026-11-02T22:12:06.887Z",
+   "at": "2026-11-05T19:06:03.516Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-762bb28c34f17dc7136e9bfb577cd984b256efc8",
-   "snapshot": "20261102221209",
+   "snapshot": "20261105191114",
    "final_url": "https://www.reformcalifornia.org/voter-guides/del-norte"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/el-dorado": {
-  "url": "https://web.archive.org/web/20261016020750id_/https://www.reformcalifornia.org/voter-guides/el-dorado",
-  "timestamp": "20261016020750",
-  "digest": "U2THSZCXTJ7Z35HOVZV4TJY4EKWVYXGS",
-  "checked_at": "2026-11-05T11:41:17.399Z",
+  "url": "https://web.archive.org/web/20261105190624id_/https://www.reformcalifornia.org/voter-guides/el-dorado",
+  "timestamp": "20261105190624",
+  "digest": "VGVIPKWSES2UDJVQXDY2Q5D3BIHE6KS6",
+  "checked_at": "2026-11-05T19:29:37.212Z",
   "statements": {
    "found": 40,
    "of": 48
   },
-  "compared": "20261016020750",
+  "compared": "20261105190624",
   "save": {
-   "at": "2026-10-31T20:26:21.326Z",
+   "at": "2026-11-05T19:01:19.903Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-8c47da15d1791b8969d3e6cc9139c217e4c7cc79",
-   "snapshot": "20261031202649",
+   "snapshot": "20261105190624",
    "final_url": "https://www.reformcalifornia.org/voter-guides/el-dorado"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/fresno": {
-  "url": "https://web.archive.org/web/20261016020753id_/https://www.reformcalifornia.org/voter-guides/fresno",
-  "timestamp": "20261016020753",
-  "digest": "MTXL3OFB6QYJBFRL75RYJ5VQMI7IPDUE",
-  "checked_at": "2026-11-05T11:41:19.171Z",
+  "url": "https://web.archive.org/web/20261105190734id_/https://www.reformcalifornia.org/voter-guides/fresno",
+  "timestamp": "20261105190734",
+  "digest": "5AVA2A77VQX5G42T7WDAMRMQG75R77ZU",
+  "checked_at": "2026-11-05T19:29:38.869Z",
   "statements": {
    "found": 49,
    "of": 66
   },
-  "compared": "20261016020753",
+  "compared": "20261105190734",
   "save": {
-   "at": "2026-10-31T20:29:37.510Z",
+   "at": "2026-11-05T19:02:21.100Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-3195033c4e6e51cd9735e5b6c727f71321fd33a3",
-   "snapshot": "20261031202943",
+   "snapshot": "20261105190734",
    "final_url": "https://www.reformcalifornia.org/voter-guides/fresno"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/glenn": {
-  "url": "https://web.archive.org/web/20261016020755id_/https://www.reformcalifornia.org/voter-guides/glenn",
-  "timestamp": "20261016020755",
-  "digest": "SM7NBXUZAHKXCMJAIRMFOCG3IALHJFIK",
-  "checked_at": "2026-11-05T11:41:20.787Z",
+  "url": "https://web.archive.org/web/20261105190843id_/https://www.reformcalifornia.org/voter-guides/glenn",
+  "timestamp": "20261105190843",
+  "digest": "HBNFIWTGFTNLDSP6PQASNJ2T5MBHBUWI",
+  "checked_at": "2026-11-05T19:29:40.593Z",
   "statements": {
    "found": 8,
    "of": 8
   },
-  "compared": "20261016020755",
+  "compared": "20261105190843",
   "save": {
-   "at": "2026-10-31T20:32:36.430Z",
+   "at": "2026-11-05T19:03:18.522Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-c070a06f488549d90860441686e4bd1e0bdeb12a",
-   "snapshot": "20261031203252",
+   "snapshot": "20261105190843",
    "final_url": "https://www.reformcalifornia.org/voter-guides/glenn"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/humboldt": {
-  "url": "https://web.archive.org/web/20261016020756id_/https://www.reformcalifornia.org/voter-guides/humboldt",
-  "timestamp": "20261016020756",
-  "digest": "LMIOTFEYH2J6DPUSTGVBPZBTLRIYYLWD",
-  "checked_at": "2026-11-05T11:41:22.441Z",
+  "url": "https://web.archive.org/web/20261105190924id_/https://www.reformcalifornia.org/voter-guides/humboldt",
+  "timestamp": "20261105190924",
+  "digest": "C4TDEOO7VDMKHSB4OFMOWKR4HXBTALYS",
+  "checked_at": "2026-11-05T19:29:42.419Z",
   "statements": {
    "found": 17,
    "of": 24
   },
-  "compared": "20261016020756",
+  "compared": "20261105190924",
   "save": {
-   "at": "2026-10-31T20:34:49.208Z",
+   "at": "2026-11-05T19:04:09.704Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-327d76a9985e5991fedecffae36d70608355f7ad",
-   "snapshot": "20261031203500",
+   "snapshot": "20261105190924",
    "final_url": "https://www.reformcalifornia.org/voter-guides/humboldt"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/imperial": {
-  "url": "https://web.archive.org/web/20261016020753id_/https://www.reformcalifornia.org/voter-guides/imperial",
-  "timestamp": "20261016020753",
-  "digest": "3XWD55I4VKUIC3RXG65LUEYNKHEP3SQE",
-  "checked_at": "2026-11-05T11:41:24.199Z",
+  "url": "https://web.archive.org/web/20261105190747id_/https://www.reformcalifornia.org/voter-guides/imperial",
+  "timestamp": "20261105190747",
+  "digest": "LVJTJ77TQZ5XA4H3HGMJH7YOMEGVLANM",
+  "checked_at": "2026-11-05T19:29:44.785Z",
   "statements": {
    "found": 12,
    "of": 13
   },
-  "compared": "20261016020753",
+  "compared": "20261105190747",
   "save": {
-   "at": "2026-10-31T20:30:02.856Z",
+   "at": "2026-11-05T19:02:37.061Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-ce37017461bc0c5bf906d46fb78b6e17291e712a",
-   "snapshot": "20261031203005",
+   "snapshot": "20261105190747",
    "final_url": "https://www.reformcalifornia.org/voter-guides/imperial"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/inyo": {
   "url": "https://web.archive.org/web/20261031203223id_/https://www.reformcalifornia.org/voter-guides/inyo",
@@ -16828,24 +16804,24 @@
   "fewer_in": "20261016020800"
  },
  "https://www.reformcalifornia.org/voter-guides/kings": {
-  "url": "https://web.archive.org/web/20261016020757id_/https://www.reformcalifornia.org/voter-guides/kings",
-  "timestamp": "20261016020757",
-  "digest": "GMXHSTMVNDGTKFTBRZK7OXYEARGWFWU2",
-  "checked_at": "2026-11-05T11:44:42.669Z",
+  "url": "https://web.archive.org/web/20261105191034id_/https://www.reformcalifornia.org/voter-guides/kings",
+  "timestamp": "20261105191034",
+  "digest": "L5WCCP7Q2FPYXX2NE5XO7AQNOESE2IOY",
+  "checked_at": "2026-11-05T19:29:46.416Z",
   "statements": {
    "found": 39,
    "of": 62
   },
-  "compared": "20261016020757",
+  "compared": "20261105191034",
   "save": {
-   "at": "2026-11-02T22:11:39.844Z",
+   "at": "2026-11-05T19:05:06.803Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-e8e50ce3d36dd9b0068cb83389a3a48f6aec88fe",
-   "snapshot": "20261102221142",
+   "snapshot": "20261105191034",
    "final_url": "https://www.reformcalifornia.org/voter-guides/kings"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/lake": {
   "url": "https://web.archive.org/web/20261102221126id_/https://www.reformcalifornia.org/voter-guides/lake",
@@ -16888,24 +16864,24 @@
   "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/los-angeles": {
-  "url": "https://web.archive.org/web/20261016024822id_/https://www.reformcalifornia.org/voter-guides/los-angeles",
-  "timestamp": "20261016024822",
-  "digest": "5TJGBZENL74IGUSAIAG4M7SVIN7MKDHT",
-  "checked_at": "2026-11-05T11:46:02.412Z",
+  "url": "https://web.archive.org/web/20261105191200id_/https://www.reformcalifornia.org/voter-guides/los-angeles",
+  "timestamp": "20261105191200",
+  "digest": "4KWTH5I73BTNRJERJBIGPUKSFU5S6MSR",
+  "checked_at": "2026-11-05T19:29:48.872Z",
   "statements": {
    "found": 113,
    "of": 132
   },
-  "compared": "20261016024822",
+  "compared": "20261105191200",
   "save": {
-   "at": "2026-10-31T23:39:34.174Z",
+   "at": "2026-11-05T19:07:00.425Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-d97c09b59e1dd108adbaf41f1da171bfabf6f780",
-   "snapshot": "20261031233937",
+   "snapshot": "20261105191200",
    "final_url": "https://www.reformcalifornia.org/voter-guides/los-angeles"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/madera": {
   "url": "https://web.archive.org/web/20261101230234id_/https://www.reformcalifornia.org/voter-guides/madera",
@@ -16989,24 +16965,24 @@
   "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/merced": {
-  "url": "https://web.archive.org/web/20261016020750id_/https://www.reformcalifornia.org/voter-guides/merced",
-  "timestamp": "20261016020750",
-  "digest": "4QI6GJC32WZNEX6RBZXFVAINNLOU5RHZ",
-  "checked_at": "2026-11-05T11:44:47.920Z",
+  "url": "https://web.archive.org/web/20261105190636id_/https://www.reformcalifornia.org/voter-guides/merced",
+  "timestamp": "20261105190636",
+  "digest": "HGMUOWVQDD4VS3LRJP7KR4FJXGH3EPFD",
+  "checked_at": "2026-11-05T19:29:50.492Z",
   "statements": {
    "found": 32,
    "of": 38
   },
-  "compared": "20261016020750",
+  "compared": "20261105190636",
   "save": {
-   "at": "2026-11-02T22:10:21.395Z",
+   "at": "2026-11-05T19:01:36.145Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-5b0cabe6069dde7d03c5008eaac9cbda311a8c41",
-   "snapshot": "20261102221115",
+   "snapshot": "20261105190636",
    "final_url": "https://www.reformcalifornia.org/voter-guides/merced"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/modoc": {
   "url": "https://web.archive.org/web/20261101065351id_/https://www.reformcalifornia.org/voter-guides/modoc",
@@ -17049,24 +17025,24 @@
   "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/monterey": {
-  "url": "https://web.archive.org/web/20261016020756id_/https://www.reformcalifornia.org/voter-guides/monterey",
-  "timestamp": "20261016020756",
-  "digest": "LQHLAZ5GZKC75QVFWSRGSSO22FQRDPKR",
-  "checked_at": "2026-11-05T11:41:33.608Z",
+  "url": "https://web.archive.org/web/20261105190949id_/https://www.reformcalifornia.org/voter-guides/monterey",
+  "timestamp": "20261105190949",
+  "digest": "VGMH4AOKT2NBCBY2VP6NOXLE5FAIOJWY",
+  "checked_at": "2026-11-05T19:29:52.241Z",
   "statements": {
    "found": 48,
    "of": 67
   },
-  "compared": "20261016020756",
+  "compared": "20261105190949",
   "save": {
-   "at": "2026-10-31T20:35:46.895Z",
+   "at": "2026-11-05T19:04:25.541Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-26e4bc5c09bf4e584dacc18cc95c44bdc8d1e1b1",
-   "snapshot": "20261031203551",
+   "snapshot": "20261105190949",
    "final_url": "https://www.reformcalifornia.org/voter-guides/monterey"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/napa": {
   "url": "https://web.archive.org/web/20261016042206id_/https://www.reformcalifornia.org/voter-guides/napa",
@@ -17079,34 +17055,33 @@
   },
   "compared": "20261016042206",
   "save": {
-   "at": "2026-10-31T23:40:52.449Z",
+   "at": "2026-11-05T19:07:32.078Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-219f5f5db4c8ce152ceb5ab730d13917ec684fc5",
-   "snapshot": "20261031234058",
-   "final_url": "https://www.reformcalifornia.org/voter-guides/napa"
+   "error": "error:invalid-host-resolution"
   },
   "origin": "existing"
  },
  "https://www.reformcalifornia.org/voter-guides/nevada": {
-  "url": "https://web.archive.org/web/20261016020755id_/https://www.reformcalifornia.org/voter-guides/nevada",
-  "timestamp": "20261016020755",
-  "digest": "BKZ5YHFW3S47JJPPEIO5SGDPHFMJJBVU",
-  "checked_at": "2026-11-05T11:41:35.227Z",
+  "url": "https://web.archive.org/web/20261105190845id_/https://www.reformcalifornia.org/voter-guides/nevada",
+  "timestamp": "20261105190845",
+  "digest": "5H2BZJP66E6SZ6VIQUX7QFMPDRD5QLOU",
+  "checked_at": "2026-11-05T19:29:54.960Z",
   "statements": {
    "found": 16,
    "of": 22
   },
-  "compared": "20261016020755",
+  "compared": "20261105190845",
   "save": {
-   "at": "2026-10-31T20:33:50.572Z",
+   "at": "2026-11-05T19:03:33.850Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-b91ecfcc1683eda713514402631fbbfa7a3857fd",
-   "snapshot": "20261031203353",
+   "snapshot": "20261105190845",
    "final_url": "https://www.reformcalifornia.org/voter-guides/nevada"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/orange": {
   "url": "https://web.archive.org/web/20261016024822id_/https://www.reformcalifornia.org/voter-guides/orange",
@@ -17119,34 +17094,33 @@
   },
   "compared": "20261016024822",
   "save": {
-   "at": "2026-10-31T23:40:06.274Z",
+   "at": "2026-11-05T19:07:16.458Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-5ee903a8de47479d15dd905e2305e4caa5e9c9c6",
-   "snapshot": "20261031234013",
-   "final_url": "https://www.reformcalifornia.org/voter-guides/orange"
+   "error": "error:invalid-host-resolution"
   },
   "origin": "existing"
  },
  "https://www.reformcalifornia.org/voter-guides/placer": {
-  "url": "https://web.archive.org/web/20261016020756id_/https://www.reformcalifornia.org/voter-guides/placer",
-  "timestamp": "20261016020756",
-  "digest": "C7PCSQ6V4O4BNIX5NHJ26ICQMYOFO7WP",
-  "checked_at": "2026-11-05T11:41:36.951Z",
+  "url": "https://web.archive.org/web/20261105190950id_/https://www.reformcalifornia.org/voter-guides/placer",
+  "timestamp": "20261105190950",
+  "digest": "E5566WZSVGDYP7UKY4RJ7Z62XTN6QDDQ",
+  "checked_at": "2026-11-05T19:29:56.767Z",
   "statements": {
    "found": 38,
    "of": 53
   },
-  "compared": "20261016020756",
+  "compared": "20261105190950",
   "save": {
-   "at": "2026-10-31T20:36:13.441Z",
+   "at": "2026-11-05T19:04:41.117Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-e0b6d1e011e92d231c5fe6f18fa18d1420ccc20d",
-   "snapshot": "20261031203620",
+   "snapshot": "20261105190950",
    "final_url": "https://www.reformcalifornia.org/voter-guides/placer"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/riverside": {
   "url": "https://web.archive.org/web/20261031234036id_/https://www.reformcalifornia.org/voter-guides/riverside",
@@ -17170,24 +17144,24 @@
   "fewer_in": "20261016024822"
  },
  "https://www.reformcalifornia.org/voter-guides/sacramento": {
-  "url": "https://web.archive.org/web/20261016020753id_/https://www.reformcalifornia.org/voter-guides/sacramento",
-  "timestamp": "20261016020753",
-  "digest": "E2QL5W3CL535OAFRV7CZLVXXS776YV4M",
-  "checked_at": "2026-11-05T11:44:49.595Z",
+  "url": "https://web.archive.org/web/20261105190758id_/https://www.reformcalifornia.org/voter-guides/sacramento",
+  "timestamp": "20261105190758",
+  "digest": "QO4OK74ZXVBB6CH4VNX6OH4IVDQK54SX",
+  "checked_at": "2026-11-05T19:29:58.873Z",
   "statements": {
    "found": 47,
    "of": 64
   },
-  "compared": "20261016020753",
+  "compared": "20261105190758",
   "save": {
-   "at": "2026-11-02T22:11:05.287Z",
+   "at": "2026-11-05T19:03:02.861Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-349951f9ae3b9535730ae34618d4f481cdeb6c35",
-   "snapshot": "20261102221109",
+   "snapshot": "20261105190758",
    "final_url": "https://www.reformcalifornia.org/voter-guides/sacramento"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/san-benito": {
   "url": "https://web.archive.org/web/20261101065409id_/https://www.reformcalifornia.org/voter-guides/san-benito",
@@ -17249,24 +17223,24 @@
   }
  },
  "https://www.reformcalifornia.org/voter-guides/san-francisco": {
-  "url": "https://web.archive.org/web/20261016020752id_/https://www.reformcalifornia.org/voter-guides/san-francisco",
-  "timestamp": "20261016020752",
-  "digest": "WUUKW57WOYNPIPIX2TE7VALLXHPX6FQ4",
-  "checked_at": "2026-11-05T11:41:38.924Z",
+  "url": "https://web.archive.org/web/20261105190719id_/https://www.reformcalifornia.org/voter-guides/san-francisco",
+  "timestamp": "20261105190719",
+  "digest": "NSCDAWXM5RRLS66B43PJR6OTGGY22YFH",
+  "checked_at": "2026-11-05T19:30:00.510Z",
   "statements": {
    "found": 11,
    "of": 11
   },
-  "compared": "20261016020752",
+  "compared": "20261105190719",
   "save": {
-   "at": "2026-10-31T20:29:07.979Z",
+   "at": "2026-11-05T19:02:03.206Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-3844a52d865fbd43cdbca7d0e7470b66d981fc7e",
-   "snapshot": "20261031202944",
+   "snapshot": "20261105190719",
    "final_url": "https://www.reformcalifornia.org/voter-guides/san-francisco"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.reformcalifornia.org/voter-guides/san-joaquin": {
   "url": "https://web.archive.org/web/20261104010232id_/https://www.reformcalifornia.org/voter-guides/san-joaquin",
@@ -19713,19 +19687,19 @@
   "origin": "requested"
  },
  "https://www.spur.org/voter-guide/2026-06": {
-  "url": "https://web.archive.org/web/20260918045556id_/https://www.spur.org/voter-guide/2026-06",
-  "timestamp": "20260918045556",
-  "digest": "N4OFZ7W43Q45646O62UK26WIDR2WDS7Q",
-  "checked_at": "2026-11-05T11:44:57.095Z",
+  "url": "https://web.archive.org/web/20261105190029id_/https://www.spur.org/voter-guide/2026-06",
+  "timestamp": "20261105190029",
+  "digest": "6N56HLZGJKHMOGM5LRIDJJPPLUNZNXJP",
+  "checked_at": "2026-11-05T19:30:03.338Z",
   "save": {
-   "at": "2026-11-02T21:57:37.019Z",
+   "at": "2026-11-05T18:56:08.892Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-6676d5ed6c0e6bfc4b58a4628c6acf8bf34eac99",
-   "snapshot": "20261102215740",
+   "snapshot": "20261105190029",
    "final_url": "https://www.spur.org/voter-guide/2026-06"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.spur.org/voter-guide/2026-11": {
   "url": "https://web.archive.org/web/20261103205126id_/https://www.spur.org/voter-guide/2026-11",
@@ -20058,24 +20032,24 @@
   "origin": "existing"
  },
  "https://www.uschamber.com/improving-government/u-s-chamber-endorses-candidate-jim-desmond-for-californias-forty-eighth-congressional-district": {
-  "url": "https://web.archive.org/web/20261010052131id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-candidate-jim-desmond-for-californias-forty-eighth-congressional-district",
-  "timestamp": "20261010052131",
-  "digest": "I2CPMSKOYB6JHNLDIXZD5WPM6JON7HU7",
-  "checked_at": "2026-11-05T11:45:01.127Z",
+  "url": "https://web.archive.org/web/20261105190327id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-candidate-jim-desmond-for-californias-forty-eighth-congressional-district",
+  "timestamp": "20261105190327",
+  "digest": "SXFUASEARC4AAERZQ4JSTI4F3TS7OFUP",
+  "checked_at": "2026-11-05T19:30:05.616Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261010052131",
+  "compared": "20261105190327",
   "save": {
-   "at": "2026-11-02T22:04:43.516Z",
+   "at": "2026-11-05T18:57:21.954Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-018d75d2390e5afc6e5ab93b2bce00587f099ee1",
-   "snapshot": "20261102220458",
+   "snapshot": "20261105190327",
    "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-candidate-jim-desmond-for-californias-forty-eighth-congressional-district"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-adam-gray-for-californias-thirteenth-district": {
   "url": "https://web.archive.org/web/20261104221743id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-adam-gray-for-californias-thirteenth-district",
@@ -20097,24 +20071,24 @@
   }
  },
  "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-david-valadao-for-californias-twenty-second-congressional-district": {
-  "url": "https://web.archive.org/web/20261012071917id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-david-valadao-for-californias-twenty-second-congressional-district",
-  "timestamp": "20261012071917",
-  "digest": "6EYI54KECPTH33HE2JFIQSOSNFXBZCIA",
-  "checked_at": "2026-11-05T11:45:04.645Z",
+  "url": "https://web.archive.org/web/20261105190211id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-david-valadao-for-californias-twenty-second-congressional-district",
+  "timestamp": "20261105190211",
+  "digest": "RO2YE7H4BUTTUXRNWFIEO4LWHRZXBPLW",
+  "checked_at": "2026-11-05T19:30:07.624Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261012071917",
+  "compared": "20261105190211",
   "save": {
-   "at": "2026-11-02T22:05:54.145Z",
+   "at": "2026-11-05T18:57:37.832Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-24eef8de5ab5f03cd1d64065abdc47eae8c6e26e",
-   "snapshot": "20261102220644",
+   "snapshot": "20261105190211",
    "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-david-valadao-for-californias-twenty-second-congressional-district"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-james-gallagher-for-californias-first-district": {
   "url": "https://web.archive.org/web/20261104221620id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-james-gallagher-for-californias-first-district",
@@ -20136,24 +20110,24 @@
   }
  },
  "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jay-obernolte-for-californias-twenty-third-district": {
-  "url": "https://web.archive.org/web/20261005025804id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jay-obernolte-for-californias-twenty-third-district",
-  "timestamp": "20261005025804",
-  "digest": "RLXRKDHSVKMN767GQ7HRGIV7ASTO7GRF",
-  "checked_at": "2026-11-05T11:45:06.979Z",
+  "url": "https://web.archive.org/web/20261105190233id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jay-obernolte-for-californias-twenty-third-district",
+  "timestamp": "20261105190233",
+  "digest": "BYK2VWZGBPKFWNFYUCLDKGFKPWUHJGVY",
+  "checked_at": "2026-11-05T19:30:09.349Z",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261005025804",
+  "compared": "20261105190233",
   "save": {
-   "at": "2026-11-02T21:58:36.278Z",
+   "at": "2026-11-05T18:56:24.554Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-d9e447be1b093fbc497cf2721f49a0178f15c1b4",
-   "snapshot": "20261102215854",
+   "snapshot": "20261105190233",
    "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jay-obernolte-for-californias-twenty-third-district"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jim-costa-for-californias-twenty-first-congressional-district": {
   "url": "https://web.archive.org/web/20261031103205id_/https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jim-costa-for-californias-twenty-first-congressional-district",
@@ -20206,12 +20180,11 @@
   },
   "compared": "20261016131200",
   "save": {
-   "at": "2026-10-31T23:41:34.552Z",
+   "at": "2026-11-05T19:08:07.910Z",
    "via": "key",
-   "outcome": "captured",
+   "outcome": "failed",
    "job_id": "spn2-37aeead5284d81948677c92b7121b5260ff1fb46",
-   "snapshot": "20261031234137",
-   "final_url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-kevin-kiley-for-californias-sixth-congressional-district"
+   "error": "error:not-found"
   },
   "origin": "existing"
  },
