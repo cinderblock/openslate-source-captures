@@ -530,7 +530,7 @@
   "digest": "ZPUYFFQDSB5ARZ6RLBL5CVM3DC64ACM5",
   "checked_at": "2026-11-05T11:41:46.717Z",
   "save": {
-   "at": "2026-11-04T22:09:16.211Z",
+   "at": "2026-11-06T00:31:44.721Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-591a690749c4edbf378372ac9005746385db457a",
@@ -950,12 +950,10 @@
   "digest": "QKZUZJTP4W6WXAKQI7NCJEKSWAFXVUAR",
   "checked_at": "2026-11-05T11:42:54.240Z",
   "save": {
-   "at": "2026-10-31T23:38:27.284Z",
+   "at": "2026-11-06T00:36:00.700Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-f3b38f9512282efd58a8e2f91112b69d25209aa5",
-   "snapshot": "20261031233925",
-   "final_url": "https://cadem.org/endorsements/"
+   "outcome": "pending",
+   "job_id": "spn2-f3b38f9512282efd58a8e2f91112b69d25209aa5"
   },
   "origin": "existing"
  },
@@ -998,13 +996,15 @@
   "url": "https://web.archive.org/web/20261021071444id_/https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
   "timestamp": "20261021071444",
   "digest": "T2K3AVB6J2UF23YOP6FLLKADAVDMTYMW",
-  "checked_at": "2026-11-03T12:18:31.877Z",
+  "checked_at": "2026-11-06T00:40:39.676Z",
   "origin": "existing",
   "save": {
-   "at": "2026-11-04T22:20:12.233Z",
+   "at": "2026-11-06T00:34:41.132Z",
    "via": "key",
-   "outcome": "failed",
-   "error": "error:too-many-daily-captures"
+   "outcome": "captured",
+   "job_id": "spn2-12b03dbb7f0507e555cb4dec0e142595f273c0cf",
+   "snapshot": "20261106003444",
+   "final_url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf"
   }
  },
  "https://cadem.org/wp-content/uploads/2026/10/2026-Proposition-Endorsements-.pdf": {
@@ -1182,7 +1182,7 @@
   "url": "https://web.archive.org/web/20261030214448id_/https://calaborfed.org/wp-content/uploads/2026/10/260930-SLATE_CARD_FINAL2.jpg",
   "timestamp": "20261030214448",
   "digest": "NXZ6Q2TJ7WVHZTLP6A6UL7YLTWX522HJ",
-  "checked_at": "2026-11-02T22:21:02.494Z",
+  "checked_at": "2026-11-06T00:40:53.466Z",
   "save": {
    "at": "2026-10-30T21:44:48.726Z",
    "via": "anonymous",
@@ -1270,7 +1270,7 @@
   "url": "https://web.archive.org/web/20261030214518id_/https://californiaprolife.org/2026election/",
   "timestamp": "20261030214518",
   "digest": "WNESGSKXRNSEEFEDBYSLBRFVVJBKT6QE",
-  "checked_at": "2026-11-02T22:21:05.369Z",
+  "checked_at": "2026-11-06T00:40:55.323Z",
   "save": {
    "at": "2026-10-30T21:45:14.869Z",
    "via": "anonymous",
@@ -1387,12 +1387,10 @@
   },
   "compared": "20261024051739",
   "save": {
-   "at": "2026-10-31T23:37:35.603Z",
+   "at": "2026-11-06T00:36:17.157Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-2dc993ef227dc477284c6f0be1490c5dcfdd36b1",
-   "snapshot": "20261031233740",
-   "final_url": "https://cayimby.org/endorsements/"
+   "outcome": "pending",
+   "job_id": "spn2-2dc993ef227dc477284c6f0be1490c5dcfdd36b1"
   },
   "origin": "existing"
  },
@@ -1432,17 +1430,19 @@
   "origin": "requested"
  },
  "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf": {
-  "url": "https://web.archive.org/web/20261005220742id_/https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
-  "timestamp": "20261005220742",
+  "url": "https://web.archive.org/web/20261106003217id_/https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf",
+  "timestamp": "20261106003217",
   "digest": "U7IIRXOKIN5PB6ER52WUAXEJK7RON7F5",
-  "checked_at": "2026-11-04T08:28:56.123Z",
+  "checked_at": "2026-11-06T00:40:42.100Z",
   "save": {
-   "at": "2026-11-04T22:15:19.431Z",
+   "at": "2026-11-06T00:32:16.169Z",
    "via": "key",
-   "outcome": "failed",
-   "error": "error:too-many-daily-captures"
+   "outcome": "captured",
+   "job_id": "spn2-d422e1817c5876792956b96280ac42844e7cb233",
+   "snapshot": "20261106003217",
+   "final_url": "https://cdn.prod.website-files.com/6842b9b588e1dab9f1d01ce9/6aa496004ec0cd1a899d8a2b_BP-NovVoterGuide.pdf"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://churchimpact.org/index.php/2026/09/08/ca-church-impacts-recommendations-for-november-2026-ballot-propositions/": {
   "url": "https://web.archive.org/web/20261101142850id_/https://churchimpact.org/index.php/2026/09/08/ca-church-impacts-recommendations-for-november-2026-ballot-propositions/",
@@ -1575,12 +1575,10 @@
   "digest": "X2GMGCQCQFH3NS36K5ZMUH2ZYDTMP4OQ",
   "checked_at": "2026-11-05T11:43:03.786Z",
   "save": {
-   "at": "2026-10-31T23:37:54.165Z",
+   "at": "2026-11-06T00:35:44.720Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-d663b9bfd9e060906f468a0ba26aa691458262dd",
-   "snapshot": "20261031233838",
-   "final_url": "https://couragecalifornia.org/2026-midterm-election-resources/"
+   "outcome": "pending",
+   "job_id": "spn2-d663b9bfd9e060906f468a0ba26aa691458262dd"
   },
   "origin": "existing",
   "statements": {
@@ -1593,17 +1591,19 @@
   "url": "https://web.archive.org/web/20261019181050id_/https://couragecalifornia.org/app/uploads/2026/10/V2C-Nov2026StatewideCVG.pdf",
   "timestamp": "20261019181050",
   "digest": "BDZQ6UQD3UQZ3673HHDIBRTA7MTBUAGL",
-  "checked_at": "2026-11-03T12:18:33.666Z",
+  "checked_at": "2026-11-06T00:40:44.358Z",
   "statements": {
    "found": 111,
    "of": 111
   },
   "compared": "20261019181050",
   "save": {
-   "at": "2026-11-04T22:19:56.370Z",
+   "at": "2026-11-06T00:34:24.692Z",
    "via": "key",
-   "outcome": "failed",
-   "error": "error:too-many-daily-captures"
+   "outcome": "captured",
+   "job_id": "spn2-e02555832242e58e6c6e026d40a1db943ff195a8",
+   "snapshot": "20261106003426",
+   "final_url": "https://couragecalifornia.org/app/uploads/2026/10/V2C-Nov2026StatewideCVG.pdf"
   },
   "origin": "existing"
  },
@@ -1678,7 +1678,7 @@
   "url": "https://web.archive.org/web/20261030214641id_/https://cragop.org/house-of-representatives/",
   "timestamp": "20261030214641",
   "digest": "BXEHBRCYEVGHA2NZR76OVKJ3HXF5OTRB",
-  "checked_at": "2026-11-02T22:21:07.455Z",
+  "checked_at": "2026-11-06T00:41:00.354Z",
   "save": {
    "at": "2026-10-30T21:45:53.285Z",
    "via": "anonymous",
@@ -1691,7 +1691,7 @@
   "url": "https://web.archive.org/web/20261030214758id_/https://cragop.org/state-assembly/",
   "timestamp": "20261030214758",
   "digest": "LB6IWZPCRFUKIET7ZQEXMAGLLJWV4LST",
-  "checked_at": "2026-11-02T22:21:14.088Z",
+  "checked_at": "2026-11-06T00:41:02.130Z",
   "save": {
    "at": "2026-10-30T21:47:20.112Z",
    "via": "anonymous",
@@ -1704,7 +1704,7 @@
   "url": "https://web.archive.org/web/20261030214838id_/https://cragop.org/state-board-of-equalization/",
   "timestamp": "20261030214838",
   "digest": "KVJBGZITF23RO2YJQJDLINPKQTHROOKY",
-  "checked_at": "2026-11-02T22:21:15.925Z",
+  "checked_at": "2026-11-06T00:41:03.984Z",
   "save": {
    "at": "2026-10-30T21:48:34.769Z",
    "via": "anonymous",
@@ -1717,7 +1717,7 @@
   "url": "https://web.archive.org/web/20261030214917id_/https://cragop.org/state-senate/",
   "timestamp": "20261030214917",
   "digest": "UKZJQKJRWOBHH4R3FHCUAQNAY3MZ2QNW",
-  "checked_at": "2026-11-02T22:21:17.710Z",
+  "checked_at": "2026-11-06T00:41:05.882Z",
   "save": {
    "at": "2026-10-30T21:49:12.905Z",
    "via": "anonymous",
@@ -1815,7 +1815,7 @@
   "url": "https://web.archive.org/web/20261030214954id_/https://directory.runforsomething.net/candidate/050c8c616add5609d698a68fa89881fc/perez-jesse/",
   "timestamp": "20261030214954",
   "digest": "IHIVOMFZPOHPYAF6EMYHBYKIW6OCX2JX",
-  "checked_at": "2026-11-02T22:21:19.694Z",
+  "checked_at": "2026-11-06T00:41:07.948Z",
   "save": {
    "at": "2026-10-30T21:49:51.081Z",
    "via": "anonymous",
@@ -1853,7 +1853,7 @@
   "url": "https://web.archive.org/web/20261030215032id_/https://directory.runforsomething.net/candidate/078d11a85cb628ae6600cccfafbc6f30/santana-james/",
   "timestamp": "20261030215032",
   "digest": "P3NSHOOSRTZKGOYFCDLWKDO64HZQYAQB",
-  "checked_at": "2026-11-02T22:21:21.663Z",
+  "checked_at": "2026-11-06T00:41:09.717Z",
   "save": {
    "at": "2026-10-30T21:50:29.274Z",
    "via": "anonymous",
@@ -1868,28 +1868,28 @@
   "compared": "20261030215032"
  },
  "https://directory.runforsomething.net/candidate/0b0082d668cfec7ecb9994e2067139e7/shaughnessy-christian/": {
-  "url": "https://web.archive.org/web/20261030215110id_/https://directory.runforsomething.net/candidate/0b0082d668cfec7ecb9994e2067139e7/shaughnessy-christian/",
-  "timestamp": "20261030215110",
-  "digest": "OVV32JYVKVJ33BEVON2NSK7X4RDBB73Z",
-  "checked_at": "2026-11-02T22:21:23.421Z",
+  "url": "https://web.archive.org/web/20260521200618id_/https://directory.runforsomething.net/candidate/0b0082d668cfec7ecb9994e2067139e7/shaughnessy-christian/",
+  "timestamp": "20260521200618",
+  "digest": "6ILN4WEOTR4TG532G3R6QMLZXBIGIYMN",
+  "checked_at": "2026-11-06T00:41:11.493Z",
   "save": {
    "at": "2026-10-30T21:51:07.405Z",
    "via": "anonymous",
    "outcome": "captured",
    "snapshot": "20261030215110"
   },
-  "origin": "requested",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261030215110"
+  "compared": "20260521200618",
+  "origin": "existing"
  },
  "https://directory.runforsomething.net/candidate/0c27e60fd0fad3552f553e9591252abc/reed-charlotte/": {
   "url": "https://web.archive.org/web/20261030215237id_/https://directory.runforsomething.net/candidate/0c27e60fd0fad3552f553e9591252abc/reed-charlotte/",
   "timestamp": "20261030215237",
   "digest": "HUTYQFKWUP4SB647OXU45O7Q5VQFTTXE",
-  "checked_at": "2026-11-02T22:21:25.541Z",
+  "checked_at": "2026-11-06T00:41:13.289Z",
   "save": {
    "at": "2026-10-30T21:51:45.811Z",
    "via": "anonymous",
@@ -1927,7 +1927,7 @@
   "url": "https://web.archive.org/web/20261030215404id_/https://directory.runforsomething.net/candidate/0e688c6e45511b24d4a1fa9e9ba41ca8/bagley-jennifer/",
   "timestamp": "20261030215404",
   "digest": "ZW6ZV3G47HPR7QGKYAMAV4RGNZGLWCVL",
-  "checked_at": "2026-11-02T22:21:27.220Z",
+  "checked_at": "2026-11-06T00:41:15.106Z",
   "save": {
    "at": "2026-10-30T21:53:12.663Z",
    "via": "anonymous",
@@ -1965,7 +1965,7 @@
   "url": "https://web.archive.org/web/20261030215441id_/https://directory.runforsomething.net/candidate/161489285b102ca2fd7889f22dba57a4/garcia-leslie/",
   "timestamp": "20261030215441",
   "digest": "KQQQX5VLSRTT547WR7AV44DKIDCR4C6A",
-  "checked_at": "2026-11-02T22:21:29.175Z",
+  "checked_at": "2026-11-06T00:41:16.817Z",
   "save": {
    "at": "2026-10-30T21:54:38.927Z",
    "via": "anonymous",
@@ -2003,7 +2003,7 @@
   "url": "https://web.archive.org/web/20261030215520id_/https://directory.runforsomething.net/candidate/26cc9fa8d0fda4e8c6a978c4a0c7ae4c/magana-jose/",
   "timestamp": "20261030215520",
   "digest": "WLDMZ47UVJEFPTWQYXNZPMVG7RTKIRQL",
-  "checked_at": "2026-11-02T22:21:30.874Z",
+  "checked_at": "2026-11-06T00:41:18.631Z",
   "save": {
    "at": "2026-10-30T21:55:17.128Z",
    "via": "anonymous",
@@ -2021,7 +2021,7 @@
   "url": "https://web.archive.org/web/20261030215557id_/https://directory.runforsomething.net/candidate/2b0947e4bb078ff072b47dc41b9af524/wang-charlene/",
   "timestamp": "20261030215557",
   "digest": "XZU6S66DVME43SAXKPQQHD2PHCGXAJAB",
-  "checked_at": "2026-11-02T22:21:34.241Z",
+  "checked_at": "2026-11-06T00:41:20.601Z",
   "save": {
    "at": "2026-10-30T21:55:55.291Z",
    "via": "anonymous",
@@ -2098,7 +2098,7 @@
   "url": "https://web.archive.org/web/20261030215637id_/https://directory.runforsomething.net/candidate/448b3ec3bb67925b2d5b35a7a534e284/castorena-chris/",
   "timestamp": "20261030215637",
   "digest": "PQRJH6G5H2XNRAB4Q3AHZ2ME66UVU2WD",
-  "checked_at": "2026-11-02T22:21:36.219Z",
+  "checked_at": "2026-11-06T00:41:22.376Z",
   "save": {
    "at": "2026-10-30T21:56:33.442Z",
    "via": "anonymous",
@@ -2156,7 +2156,7 @@
   "url": "https://web.archive.org/web/20261030215714id_/https://directory.runforsomething.net/candidate/74111a6ae294fc9b975b1203e072ed8b/ramos-isuri-s/",
   "timestamp": "20261030215714",
   "digest": "ZKBCMT6CRVJZECD5AJX3UX2M2UST3BC5",
-  "checked_at": "2026-11-02T22:21:38.486Z",
+  "checked_at": "2026-11-06T00:41:24.213Z",
   "save": {
    "at": "2026-10-30T21:57:11.584Z",
    "via": "anonymous",
@@ -2174,7 +2174,7 @@
   "url": "https://web.archive.org/web/20261030215752id_/https://directory.runforsomething.net/candidate/7c7d80adcc72529ab659a9553fc9a75a/lopez-jessie/",
   "timestamp": "20261030215752",
   "digest": "XMYOKNBFDFJLNL4IHKKOIMJQW3IBDCWU",
-  "checked_at": "2026-11-02T22:21:40.317Z",
+  "checked_at": "2026-11-06T00:41:25.965Z",
   "save": {
    "at": "2026-10-30T21:57:49.724Z",
    "via": "anonymous",
@@ -2252,7 +2252,7 @@
   "url": "https://web.archive.org/web/20261030215830id_/https://directory.runforsomething.net/candidate/8e52867745133bbe4a582c6b4109f1c2/macias-brandon/",
   "timestamp": "20261030215830",
   "digest": "MWONGAQOWSHRKCTLIYTRA5ZBVUGJ7TYO",
-  "checked_at": "2026-11-02T22:21:42.166Z",
+  "checked_at": "2026-11-06T00:41:27.740Z",
   "save": {
    "at": "2026-10-30T21:58:27.845Z",
    "via": "anonymous",
@@ -2270,7 +2270,7 @@
   "url": "https://web.archive.org/web/20261030220006id_/https://directory.runforsomething.net/candidate/91abcc388909149a9dae9dbe54bb2d91/ibbotson-christine/",
   "timestamp": "20261030220006",
   "digest": "CJWQGKVDZJAWERE7UKSYQDBBUCEDJ2HF",
-  "checked_at": "2026-11-02T22:21:43.865Z",
+  "checked_at": "2026-11-06T00:41:29.638Z",
   "save": {
    "at": "2026-10-30T21:59:05.964Z",
    "via": "anonymous",
@@ -2308,7 +2308,7 @@
   "url": "https://web.archive.org/web/20261030220126id_/https://directory.runforsomething.net/candidate/9916b6f74a18d4a5f17f3b2d788b99e3/hebert-shelby/",
   "timestamp": "20261030220126",
   "digest": "GKX5M4K5LWFQ7FQSIW7YREY6QZ3TCCOH",
-  "checked_at": "2026-11-02T22:21:45.680Z",
+  "checked_at": "2026-11-06T00:41:31.766Z",
   "save": {
    "at": "2026-10-30T22:00:38.893Z",
    "via": "anonymous",
@@ -2366,7 +2366,7 @@
   "url": "https://web.archive.org/web/20261030220252id_/https://directory.runforsomething.net/candidate/ad2aba27a4b784d06dd2668980a9fa38/dimartino-anthony/",
   "timestamp": "20261030220252",
   "digest": "5NYUCNJBVNT47JXNCI3TIUP2QSJLSJEU",
-  "checked_at": "2026-11-02T22:21:52.583Z",
+  "checked_at": "2026-11-06T00:41:33.655Z",
   "save": {
    "at": "2026-10-30T22:02:37.714Z",
    "via": "anonymous",
@@ -2424,7 +2424,7 @@
   "url": "https://web.archive.org/web/20261030220409id_/https://directory.runforsomething.net/candidate/b599d8d4e1ca19734081363c88657534/martiz-nancy/",
   "timestamp": "20261030220409",
   "digest": "FSWWNXYKHPYFYXD5KJXB3PVX6WCSVAJD",
-  "checked_at": "2026-11-02T22:21:56.387Z",
+  "checked_at": "2026-11-06T00:41:35.424Z",
   "save": {
    "at": "2026-10-30T22:03:27.890Z",
    "via": "anonymous",
@@ -2482,7 +2482,7 @@
   "url": "https://web.archive.org/web/20261030220445id_/https://directory.runforsomething.net/candidate/be3ad9c0018071066eb48cf44daa6118/post-stephen/",
   "timestamp": "20261030220445",
   "digest": "FGUVA7WNYCD7N7GRFI6ZUHTDQAAF7BZ5",
-  "checked_at": "2026-11-02T22:21:59.516Z",
+  "checked_at": "2026-11-06T00:41:37.564Z",
   "save": {
    "at": "2026-10-30T22:04:42.779Z",
    "via": "anonymous",
@@ -5403,7 +5403,7 @@
   },
   "compared": "20260807104739",
   "save": {
-   "at": "2026-11-04T22:10:40.363Z",
+   "at": "2026-11-06T00:32:00.355Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-46424ddc20514c0c826b58cf07cc391f65273abf",
@@ -5770,12 +5770,10 @@
   "digest": "6PVL3TYP5MS4IM473MYL7O6S5LDXFEEU",
   "checked_at": "2026-11-05T11:43:31.691Z",
   "save": {
-   "at": "2026-11-01T00:01:06.850Z",
+   "at": "2026-11-06T00:33:25.517Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-e7b0795500e6ea23476e6f38792b24621673f79d",
-   "snapshot": "20261101000349",
-   "final_url": "https://laforwardguide.org/districts/saugus-union-school-district"
+   "outcome": "pending",
+   "job_id": "spn2-e7b0795500e6ea23476e6f38792b24621673f79d"
   },
   "origin": "existing"
  },
@@ -6043,12 +6041,10 @@
   "digest": "XK6AVMSWRWKZIMITIZIKHLVK2FQ6OKAR",
   "checked_at": "2026-11-05T11:43:47.698Z",
   "save": {
-   "at": "2026-11-01T00:01:40.240Z",
+   "at": "2026-11-06T00:34:07.952Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-ee3b57911c899db90f056ffa5a159b7c8f8a7e00",
-   "snapshot": "20261101000145",
-   "final_url": "https://laforwardguide.org/guide/city-of-whittier"
+   "outcome": "pending",
+   "job_id": "spn2-ee3b57911c899db90f056ffa5a159b7c8f8a7e00"
   },
   "origin": "existing"
  },
@@ -6155,12 +6151,10 @@
   },
   "compared": "20261017130838",
   "save": {
-   "at": "2026-11-01T00:00:39.545Z",
+   "at": "2026-11-06T00:33:09.208Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-8dcbbd8b8ecd7f6a128a1c3f4194bdfd46c7ddca",
-   "snapshot": "20261101000043",
-   "final_url": "https://laforwardguide.org/guide/hawthorne"
+   "outcome": "pending",
+   "job_id": "spn2-8dcbbd8b8ecd7f6a128a1c3f4194bdfd46c7ddca"
   },
   "origin": "existing"
  },
@@ -6213,7 +6207,13 @@
    "of": 2
   },
   "compared": "20261026094452",
-  "origin": "existing"
+  "origin": "existing",
+  "save": {
+   "at": "2026-11-06T00:36:34.242Z",
+   "via": "key",
+   "outcome": "pending",
+   "job_id": "spn2-b2b06f23e92a6248dd7147bb6e4cc5f3c782ead1"
+  }
  },
  "https://laforwardguide.org/guide/la-county-candidates": {
   "url": "https://web.archive.org/web/20261017073217id_/https://laforwardguide.org/guide/la-county-candidates",
@@ -6497,12 +6497,10 @@
   },
   "compared": "20261017141821",
   "save": {
-   "at": "2026-11-01T00:01:24.199Z",
+   "at": "2026-11-06T00:33:41.472Z",
    "via": "key",
-   "outcome": "captured",
-   "job_id": "spn2-f620e67b481ac91cdf4feb5c8d832bba311657ae",
-   "snapshot": "20261101000222",
-   "final_url": "https://laforwardguide.org/guide/the-city-of-huntington-park"
+   "outcome": "pending",
+   "job_id": "spn2-f620e67b481ac91cdf4feb5c8d832bba311657ae"
   },
   "origin": "existing"
  },
@@ -13726,22 +13724,24 @@
   "origin": "requested"
  },
  "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf": {
-  "url": "https://web.archive.org/web/20261016213607id_/https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
-  "timestamp": "20261016213607",
+  "url": "https://web.archive.org/web/20261106003233id_/https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
+  "timestamp": "20261106003233",
   "digest": "X5RJCBWAHFTBFULY7HNU2HHP2XFSG4XT",
-  "checked_at": "2026-11-03T12:19:52.332Z",
+  "checked_at": "2026-11-06T00:40:46.207Z",
   "save": {
-   "at": "2026-11-04T22:19:40.243Z",
+   "at": "2026-11-06T00:32:33.086Z",
    "via": "key",
-   "outcome": "failed",
-   "error": "error:too-many-daily-captures"
+   "outcome": "captured",
+   "job_id": "spn2-3e20937a2ba6128651360c27b71a57ec982ad071",
+   "snapshot": "20261106003233",
+   "final_url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf"
   },
-  "origin": "existing",
   "statements": {
    "found": 154,
    "of": 154
   },
-  "compared": "20261016213607"
+  "compared": "20261106003233",
+  "origin": "requested"
  },
  "https://www.clubforgrowth.org/club-for-growth-pac-endorses-rep-tom-mcclintock-in-ca-05-re-election-campaign/": {
   "url": "https://web.archive.org/web/20261103194729id_/https://www.clubforgrowth.org/club-for-growth-pac-endorses-rep-tom-mcclintock-in-ca-05-re-election-campaign/",
@@ -13985,12 +13985,10 @@
   },
   "compared": "20261021072137",
   "save": {
-   "at": "2026-11-04T22:20:42.898Z",
+   "at": "2026-11-06T00:35:26.831Z",
    "via": "key",
-   "outcome": "already-archived",
-   "job_id": "spn2-78c060f2a1e1f8edd4a9c6450a23969dcf8ac03d",
-   "snapshot": "20261104164406",
-   "final_url": "https://www.cta.org/document/2026-candidate-recommendations"
+   "outcome": "pending",
+   "job_id": "spn2-78c060f2a1e1f8edd4a9c6450a23969dcf8ac03d"
   }
  },
  "https://www.cta.org/document/2026-november-general-election-initiative-recommendations": {
@@ -14005,12 +14003,10 @@
   },
   "compared": "20261021071654",
   "save": {
-   "at": "2026-11-04T22:20:27.591Z",
+   "at": "2026-11-06T00:35:10.114Z",
    "via": "key",
-   "outcome": "already-archived",
-   "job_id": "spn2-43ec2f111764cc8dc35455ae8261e1e649312126",
-   "snapshot": "20261104164339",
-   "final_url": "https://www.cta.org/document/2026-november-general-election-initiative-recommendations"
+   "outcome": "pending",
+   "job_id": "spn2-43ec2f111764cc8dc35455ae8261e1e649312126"
   }
  },
  "https://www.cta.org/our-advocacy/election-2026": {
@@ -14770,10 +14766,15 @@
   }
  },
  "https://www.mercurynews.com/": {
-  "url": "https://web.archive.org/web/20261029152504id_/https://www.mercurynews.com/",
-  "timestamp": "20261029152504",
-  "digest": "F6SXUM5SXOPKUQPSBXDIIVAHNO4AKF3O",
-  "checked_at": "2026-11-03T12:24:43.064Z",
+  "url": "https://web.archive.org/web/20261106002410id_/https://www.mercurynews.com/",
+  "timestamp": "20261106002410",
+  "digest": "FS7LOTHIKHDDLXUAVWRE47YWAYSZYRHL",
+  "checked_at": "2026-11-06T00:40:48.034Z",
+  "save": {
+   "at": "2026-11-06T00:37:00.226Z",
+   "via": "key",
+   "outcome": "already-archived"
+  },
   "origin": "existing"
  },
  "https://www.mercurynews.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/": {
@@ -14927,7 +14928,7 @@
   "digest": "",
   "checked_at": "2026-11-03T12:24:48.128Z",
   "save": {
-   "at": "2026-11-04T22:08:04.294Z",
+   "at": "2026-11-06T00:30:39.549Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-ce67a78760d52bf779a4ce279335c421b9b38ca6",
@@ -15748,7 +15749,7 @@
   "url": "https://web.archive.org/web/20261014094456id_/https://www.pressdemocrat.com/2026/10/13/endorsement-yes-on-measure-j-windsors-students-deserve-safe-classrooms/",
   "timestamp": "20261014094456",
   "digest": "ZUSSLI3IW4BKYT3O533KL47CG6AG5YUB",
-  "checked_at": "2026-11-05T11:44:29.231Z",
+  "checked_at": "2026-11-06T00:40:49.884Z",
   "statements": {
    "found": 1,
    "of": 1
@@ -15757,8 +15758,10 @@
   "save": {
    "at": "2026-11-05T18:58:03.686Z",
    "via": "key",
-   "outcome": "pending",
-   "job_id": "spn2-bed90ad74adeb2226cbe089d663a645df6e881a8"
+   "outcome": "captured",
+   "job_id": "spn2-bed90ad74adeb2226cbe089d663a645df6e881a8",
+   "snapshot": "20261105200246",
+   "final_url": "https://www.pressdemocrat.com/2026/10/13/endorsement-yes-on-measure-j-windsors-students-deserve-safe-classrooms/"
   },
   "origin": "existing"
  },
@@ -17704,19 +17707,19 @@
   "origin": "requested"
  },
  "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_01_Cover.jpg": {
-  "url": "https://web.archive.org/web/20261007230337id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_01_Cover.jpg",
-  "timestamp": "20261007230337",
+  "url": "https://web.archive.org/web/20261106003716id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_01_Cover.jpg",
+  "timestamp": "20261106003716",
   "digest": "ZWPWN3NHKPEJEAM4JZR4C55X5IPFBOEC",
-  "checked_at": "2026-11-05T11:44:51.320Z",
+  "checked_at": "2026-11-06T00:40:51.640Z",
   "save": {
-   "at": "2026-11-02T22:15:26.610Z",
+   "at": "2026-11-06T00:37:15.847Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-0d78bd41257d5e570da05b462894651c2f4c6894",
-   "snapshot": "20261102221532",
+   "snapshot": "20261106003716",
    "final_url": "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_01_Cover.jpg"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_02_Statewide_Voter_Guide.jpg": {
   "url": "https://web.archive.org/web/20261031001546id_/https://www.riversidecountygop.com/wp-content/uploads/2026/10/RPRC_02_Statewide_Voter_Guide.jpg",
@@ -18272,7 +18275,7 @@
   "digest": "",
   "checked_at": "2026-11-03T20:00:32.867Z",
   "save": {
-   "at": "2026-11-04T22:08:19.851Z",
+   "at": "2026-11-06T00:30:55.278Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-b5c9af5aad76cd53efcfe927093dfe3ce6a573c8",
@@ -19586,7 +19589,7 @@
   "digest": "",
   "checked_at": "2026-11-03T20:01:33.258Z",
   "save": {
-   "at": "2026-11-04T22:08:35.332Z",
+   "at": "2026-11-06T00:31:12.154Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-acc26fae707299cd42182cc663fd211b910ea7b7",
@@ -19599,7 +19602,7 @@
   "digest": "",
   "checked_at": "2026-11-03T20:01:35.035Z",
   "save": {
-   "at": "2026-11-04T22:09:00.858Z",
+   "at": "2026-11-06T00:31:28.241Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-ef238f167f83e2e7cb2ceb8f3954b42e0738b68e",
