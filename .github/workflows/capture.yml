@@ -87,7 +87,12 @@ jobs:
     permissions:
       contents: write
     steps:
+      # The branch as it is now, not the commit this run started on. Another run, the archive job or
+      # a home fill-in may have published since, and provenance is rebuilt from everything published.
+      # The captured bytes came from the capture job, which this can't change.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: cinderblock/openslate-public-endorsements
@@ -144,8 +149,21 @@ jobs:
           fi
           git -C private add blobs
           git -C private diff --cached --quiet || git -C private commit -q -m "capture $id"
-          git -C private push origin HEAD
+          # Blobs are named by their hash, so two runs' commits never conflict.
+          for try in 1 2 3; do
+            git -C private push origin HEAD && break
+            [ "$try" = 3 ] && exit 1
+            git -C private pull --rebase --autostash -q
+          done
           git add runs blobs sources.json provenance
           git commit -q -m "capture $id"
-          git pull --rebase --autostash
-          git push origin HEAD
+          # Someone pushed meanwhile. This run's files are new, so they never conflict. Provenance is
+          # derived, so take this run's copy and rebuild it over both.
+          for try in 1 2 3; do
+            git push origin HEAD && break
+            [ "$try" = 3 ] && exit 1
+            git pull --rebase --autostash -q -X theirs
+            bun src/build-provenance.ts endorsements --private private --large large || true
+            git add provenance
+            git diff --cached --quiet || git commit -q --amend --no-edit
+          done
