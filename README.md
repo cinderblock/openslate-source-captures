@@ -51,6 +51,16 @@ sends, and the saved request bytes show it. A file cited with several
   chooses which pages get the second look. The record is marked `headless-chrome` with what
   triggered it, because it's Chrome's decoded view and the DOM its scripts built, not socket bytes.
 
+### Sources that keep failing
+
+A URL still failing after its retries, in the newest CI run and in at least 3 of the last 4, goes
+in `failing-sources.md`, grouped by what the failure suggests: refused, rate limited, a bot check,
+gone, server errors or no response. The site may be blocking us, may have moved the page or the
+address behind it, or may just be overloaded, and finding out takes a person. Each CI run rewrites
+the list and keeps one issue, "Sources that keep failing", open and current while it holds
+anything, and closes it when it's empty. URLs that came back 200 from a home run are listed last:
+they refuse only CI, and a home run of `src/fill-in.ts` can fill them in.
+
 ## Layout
 
 ```
@@ -62,6 +72,7 @@ runs/<id>/            manifest.json, stamps/*.tsr, manifest.sigstore.json, place
 blobs/ab/<sha256>     raw requests, responses and certificates
 provenance/<org>/<election>.json   which captures back each slate, and what can be checked
 archived.json         Internet Archive snapshots, who asked for them, and whether their text agrees
+failing-sources.md    URLs that keep failing, for a developer to look into
 trust/                pinned timestamp roots and the Sigstore trust root
 ```
 
@@ -94,6 +105,7 @@ bun src/seal.ts out                                           # timestamp
 bun src/publish.ts out --private <dir>                        # place the bytes
 bun src/verify.ts runs/<id>                                   # verify offline
 bun src/build-provenance.ts <endorsements checkout>           # rebuild provenance/
+bun src/failing.ts                                            # rewrite failing-sources.md
 bun src/archive.ts lookup | compare <checkout> | save         # Internet Archive, best effort
 bun src/discover.ts --from <endorsements checkout> <url>      # find the data behind a page
 bun test src web

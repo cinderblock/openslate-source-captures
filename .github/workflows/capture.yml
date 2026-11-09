@@ -86,6 +86,8 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write
+      # One issue lists sources that keep failing, for a developer to look into.
+      issues: write
     steps:
       # The branch as it is now, not the commit this run started on. Another run, the archive job or
       # a home fill-in may have published since, and provenance is rebuilt from everything published.
@@ -131,6 +133,10 @@ jobs:
         continue-on-error: true
         run: bun src/build-provenance.ts endorsements --private private --large large
 
+      - name: List sources that keep failing
+        continue-on-error: true
+        run: bun src/failing.ts failing-sources.md
+
       - name: Commit
         env:
           GH_TOKEN: ${{ github.token }}
@@ -156,14 +162,42 @@ jobs:
             git -C private pull --rebase --autostash -q
           done
           git add runs blobs sources.json provenance
+          if [ -f failing-sources.md ]; then git add failing-sources.md; fi
           git commit -q -m "capture $id"
-          # Someone pushed meanwhile. This run's files are new, so they never conflict. Provenance is
-          # derived, so take this run's copy and rebuild it over both.
+          # Someone pushed meanwhile. This run's files are new, so they never conflict; provenance and
+          # the failing list are derived, so take this run's copy and rebuild them over both.
           for try in 1 2 3; do
             git push origin HEAD && break
             [ "$try" = 3 ] && exit 1
             git pull --rebase --autostash -q -X theirs
             bun src/build-provenance.ts endorsements --private private --large large || true
+            bun src/failing.ts failing-sources.md || true
             git add provenance
+            if [ -f failing-sources.md ]; then git add failing-sources.md; fi
             git diff --cached --quiet || git commit -q --amend --no-edit
           done
+
+      # Opened when something fails repeatedly, kept current, closed once nothing does. Editing the
+      # body notifies nobody; opening it notifies the repository's watchers.
+      - name: Refer repeated failures to a developer
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f failing-sources.md ] || exit 0
+          title="Sources that keep failing"
+          number=$(gh issue list --state open --search "in:title \"$title\"" --json number,title \
+            --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if grep -q "^Nothing is failing repeatedly" failing-sources.md; then
+            if [ -n "$number" ]; then
+              gh issue close "$number" --comment "Nothing is failing repeatedly now."
+            fi
+            exit 0
+          fi
+          # An issue body holds 65,536 characters.
+          head -c 60000 failing-sources.md > body.md
+          link="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/${{ github.event.repository.default_branch }}/failing-sources.md"
+          printf '\n\nThe whole list, kept with the runs: [failing-sources.md](%s)\n' "$link" >> body.md
+          if [ -n "$number" ]; then gh issue edit "$number" --body-file body.md
+          else gh issue create --title "$title" --body-file body.md
+          fi
