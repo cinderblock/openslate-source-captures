@@ -1,0 +1,26 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Mon, 09 Nov 2026 20:20:35 GMT
+Transfer-Encoding: chunked
+Connection: close
+content-security-policy: object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+location: /tracker/endorsements
+permissions-policy: camera=(), microphone=(), geolocation=(self)
+referrer-policy: strict-origin-when-cross-origin
+Server: cloudflare
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-railway-request-id: OOeNXa7JRQCdfOkjU79b0g
+x-railway-edge: ord1
+x-hikari-trace: ord1.zmv5
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=23,cfOrigin;dur=37
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CnkMqtecKvtVIUH%2BdVHLPu0prJJ183ZiB7AjByR7OXWYMmIqOdigYnM8HOCUW%2BZbGci9vGbabMgyhAfoXqgxOKdby2%2F3J3ihjYOTv78pLZXQxMqtUbIhJEjRlZ4x2epgby81cg%3D%3D"}]}
+CF-RAY: a57f84d87da59200-MSP
+alt-svc: h3=":443"; ma=86400
+
+0
+

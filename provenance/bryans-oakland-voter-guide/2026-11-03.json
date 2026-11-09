@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
  "generated_from": {
-  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
+  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -31,7 +31,8 @@
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
-   "2026-11-09T0219Z"
+   "2026-11-09T0219Z",
+   "2026-11-09T2016Z"
   ]
  },
  "sources": [
@@ -44,13 +45,13 @@
     "org_host": "docs.google.com"
    },
    "latest": {
-    "run": "2026-11-09T0219Z",
+    "run": "2026-11-09T2016Z",
     "index": 150,
-    "captured_at": "2026-11-09T02:20:00.363Z",
+    "captured_at": "2026-11-09T20:16:55.486Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS15A-gEKPgnzN2wk6CSMQ9iIlumuAkXhmC2QgiTc81I1_f7TsoM32LTKMxJu0QyzI8JiaecUg1q4mi/pubhtml?gid=51332860&single=true",
-    "response_sha256": "bd8f338a27e8a81911ac3b3990e983ff6ea14871f147acf9fc65e287f4b3620d",
+    "response_sha256": "d9b3c5538ed0b075c2587c0d75ed73e8ebdaa9802fa58f4547d82b1e58719083",
     "bytes": "public",
     "claims": [
      "captured",
@@ -59,7 +60,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "fb40f83bdacdaef35b442fc04555757b9dd9fdc8e540f026f2fef6495a33a9eb"
+     "dom_sha256": "72e076797952f0981664667bcc9967c946e2803b914de300fcd7836d7c5e0524"
     }
    },
    "last_ok": null,

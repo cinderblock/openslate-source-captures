@@ -1,0 +1,23 @@
+HTTP/1.1 500 Internal Server Error
+Date: Mon, 09 Nov 2026 20:16:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: close
+access-control-expose-headers: Request-Context
+Cache-Control: no-cache
+expires: -1
+pragma: no-cache
+x-aspnet-version: 4.0.30319
+request-context: appId=cid-v1:80dca77a-3d15-4a7f-aebb-d277291f4735
+x-powered-by: ASP.NET
+content-security-policy: script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://accessibilityserver.org https://cdn.userway.org/ https://www.google.com/recaptcha/api.js https://www.gstatic.com https://ajax.googleapis.com https://az416426.vo.msecnd.net https://polyfill.io; style-src 'self' 'unsafe-inline' https://*.typekit.net https://*.googleapis.com https://*.bootstrapcdn.com;
+x-azure-ref: 20261109T201658Z-184c9c458c5zp68jhC1CH1ga9s00000022z0000000004abu
+x-fd-int-roxy-purgeid: 0
+x-cache: TCP_MISS
+cf-cache-status: DYNAMIC
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Server: cloudflare
+CF-RAY: a57f7f8a7e4a2592-ORD
+
+{"Message":"An error has occurred."}

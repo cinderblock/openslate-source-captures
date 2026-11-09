@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sfchronicle.com/opinion/editorials/",
  "generated_from": {
-  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
+  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -31,7 +31,8 @@
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
-   "2026-11-09T0219Z"
+   "2026-11-09T0219Z",
+   "2026-11-09T2016Z"
   ]
  },
  "sources": [
@@ -44,13 +45,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-11-09T0219Z",
+    "run": "2026-11-09T2016Z",
     "index": 1119,
-    "captured_at": "2026-11-09T02:22:44.367Z",
+    "captured_at": "2026-11-09T20:19:52.526Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/",
-    "response_sha256": "c0f4e6d8d97f5e81c034b9db6ecd9000240305a69796254e1641673d53d7d839",
+    "response_sha256": "ffc52d9e0ef8dbb836c5f5a59e13635dca38914201acc2d09f610451f430ed5b",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -59,7 +60,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "08a7b2f806fdefdedee03f5b4a3ea42357c84573a747c0351e1b40a7f7c0655a"
+     "dom_sha256": "dba8e1d5ade021760372b1db1b490410ef145f25f8aa1cee97b87f025191d724"
     }
    },
    "last_ok": null,
@@ -86,13 +87,13 @@
     "org_host": "sfchronicle.com"
    },
    "latest": {
-    "run": "2026-11-09T0219Z",
+    "run": "2026-11-09T2016Z",
     "index": 35,
-    "captured_at": "2026-11-09T02:32:50.588Z",
+    "captured_at": "2026-11-09T20:29:50.591Z",
     "status": 202,
     "error": null,
     "final_url": "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
-    "response_sha256": "81639404cf0a13aea8e83b29829e17e4e335a973b66893d0b7d7fac7318ed31d",
+    "response_sha256": "9e0a1f0049e2245057f982ae33b42820da13b310feb553e45e6ea329753753a4",
     "bytes": "withheld",
     "claims": [
      "captured",

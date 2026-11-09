@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sflaborcouncil.org/",
  "generated_from": {
-  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
+  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -31,7 +31,8 @@
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
-   "2026-11-09T0219Z"
+   "2026-11-09T0219Z",
+   "2026-11-09T2016Z"
   ]
  },
  "sources": [
@@ -44,13 +45,13 @@
     "org_host": "sflaborcouncil.org"
    },
    "latest": {
-    "run": "2026-11-09T0219Z",
+    "run": "2026-11-09T2016Z",
     "index": 1124,
-    "captured_at": "2026-11-09T02:22:46.961Z",
+    "captured_at": "2026-11-09T20:19:53.758Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sflaborcouncil.org/en/news-details/news/our-endorsements/9251",
-    "response_sha256": "788231ab628ff57ab42263c939f5c970de419d1136abbfbfb186beb2aa93e5c2",
+    "response_sha256": "5656bdb6be94b10dbd651da8d9ac85800643998bf747ae54c6207f8d11f2724c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -60,7 +61,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "67d661e328f7a2d158a1804231023c1ce4756f94c2d27b64c463d0b781ca05a4"
+     "dom_sha256": "448106858ad05cc7a3ae477ab13f547f1aa41454f2ad7fdb9347e4705e1b4db8"
     }
    },
    "last_ok": null,

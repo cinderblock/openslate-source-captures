@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sacbee.com/",
  "generated_from": {
-  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
+  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -31,7 +31,8 @@
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
-   "2026-11-09T0219Z"
+   "2026-11-09T0219Z",
+   "2026-11-09T2016Z"
   ]
  },
  "sources": [
@@ -44,9 +45,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-09T0219Z",
+    "run": "2026-11-09T2016Z",
     "index": 1052,
-    "captured_at": "2026-11-09T02:34:58.052Z",
+    "captured_at": "2026-11-09T20:31:58.053Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/election/",
@@ -59,7 +60,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "b256b1d533f088b21da2795bf554aa82bfb17f6f52ac5d9d327a09d1d92c0333"
+     "dom_sha256": "a26c346a0770e1dd8ccc246de4e1fcb8eb4ed1a89e522b562df6eaee1b3f6cce"
     }
    },
    "last_ok": null,
@@ -87,9 +88,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-09T0219Z",
+    "run": "2026-11-09T2016Z",
     "index": 1051,
-    "captured_at": "2026-11-09T02:33:40.033Z",
+    "captured_at": "2026-11-09T20:30:40.045Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/news/politics-government/capitol-alert/",
@@ -102,7 +103,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "524b4714a353db80364cd4029e24d7b84caef5cc867bf2b70c475ebbdcdb72fe"
+     "dom_sha256": "5748a71632135accafcf4425c10c3da0c5667d15d48ad2ca15c221827cf413a3"
     }
    },
    "last_ok": null,
@@ -130,9 +131,9 @@
     "org_host": "sacbee.com"
    },
    "latest": {
-    "run": "2026-11-09T0219Z",
+    "run": "2026-11-09T2016Z",
     "index": 1067,
-    "captured_at": "2026-11-09T02:42:50.595Z",
+    "captured_at": "2026-11-09T20:39:50.591Z",
     "status": null,
     "error": "timeout: no data",
     "final_url": "https://www.sacbee.com/search/",
@@ -145,7 +146,7 @@
     ],
     "rendered": {
      "status": null,
-     "dom_sha256": "fa6ab9e7817e3902bc0a3cb35db3e2b3ba81983722d03f366e2abae1f3b40125"
+     "dom_sha256": "cb0772778427eb859e60a4a70ba819eb53d895506be77a2600e9f9160714aa0a"
     }
    },
    "last_ok": null,
