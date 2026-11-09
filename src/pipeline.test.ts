@@ -174,6 +174,19 @@ describe("classify", () => {
     const { guarded } = classify(manifest, list, (hash) => bytes[hash] as Buffer, ["203.0.113.9"]);
     expect([...guarded]).toEqual(["o1"]);
   });
+
+  test("an earlier attempt's bytes get the same treatment as the last one's", () => {
+    const retried = {
+      captures: [
+        { intended: "https://news/a", earlier_attempts: [[hop("n0")]], hops: [hop("n1")] },
+        { intended: "https://org/b", earlier_attempts: [[hop("o0")]], hops: [hop("o1")] },
+      ],
+    } as Manifest;
+    const all: Record<string, Buffer> = { ...bytes, n0: http("news"), o0: http("you are 203.0.113.9") };
+    const { withheld, guarded } = classify(retried, list, (hash) => all[hash] as Buffer, ["203.0.113.9"]);
+    expect([...withheld].sort()).toEqual(["n0", "n1"]);
+    expect([...guarded].sort()).toEqual(["o0", "o1"]);
+  });
 });
 
 describe("hostFact", () => {

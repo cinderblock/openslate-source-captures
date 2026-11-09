@@ -452,6 +452,7 @@ interface ManifestShape {
   capturer: { tool_commit: string; tool_dirty: boolean };
   captures: {
     intended: string;
+    earlier_attempts?: Hop[][];
     hops: Hop[];
     rendered?: { status: number | null; document_sha256: string | null; dom_sha256: string | null };
   }[];
@@ -541,9 +542,11 @@ export async function verifyRun(input: RunInput): Promise<RunReport> {
   }
 
   const urls: UrlFacts[] = [];
-  for (const { intended, hops, rendered } of manifest.captures) {
+  for (const { intended, earlier_attempts, hops, rendered } of manifest.captures) {
     let state: Bytes = "missing";
-    for (const hop of hops) {
+    // Earlier attempts are held to the same standard, and the last hop of the last attempt sets
+    // `state`, because the loop ends there.
+    for (const hop of [...(earlier_attempts ?? []).flat(), ...hops]) {
       const request = await hold(hop.request_sha256);
       if (request.state === "missing") problems.push(`missing request ${hop.request_sha256}`);
       for (const hash of hop.tls?.chain_sha256 ?? []) {

@@ -12,7 +12,7 @@
 import { cpSync, existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { decodeBody, parseResponse } from "./capture";
-import type { Manifest } from "./manifest";
+import { allHops, type Manifest } from "./manifest";
 import type { SourceList } from "./sources";
 
 export const LARGE_BYTES = 5 * 1024 * 1024;
@@ -50,9 +50,10 @@ export function classify(
   );
   const withheld = new Set<string>();
   const guarded = new Set<string>();
-  for (const { intended, hops, rendered } of manifest.captures) {
+  for (const capture of manifest.captures) {
+    const { intended, rendered } = capture;
     const responses = [
-      ...hops.map((hop) => hop.response_sha256),
+      ...allHops(capture).map((hop) => hop.response_sha256),
       rendered?.document_sha256,
       rendered?.dom_sha256,
     ].filter((hash): hash is string => Boolean(hash));
@@ -95,8 +96,9 @@ if (import.meta.main) {
   const { withheld, guarded } = classify(manifest, list, read, guards);
 
   const every = new Set<string>([manifest.sources_sha256]);
-  for (const { hops, rendered } of manifest.captures) {
-    for (const hop of hops) {
+  for (const capture of manifest.captures) {
+    const { rendered } = capture;
+    for (const hop of allHops(capture)) {
       every.add(hop.request_sha256).add(hop.response_sha256);
       for (const hash of hop.tls?.chain_sha256 ?? []) every.add(hash);
     }

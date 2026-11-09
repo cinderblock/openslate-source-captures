@@ -16,18 +16,25 @@ export interface Placement {
   release: string[];
 }
 
+interface HopHashes {
+  request_sha256: string;
+  response_sha256: string;
+  tls: { chain_sha256: string[] } | null;
+}
+
 interface ManifestHashes {
   sources_sha256: string;
   captures: {
-    hops: { request_sha256: string; response_sha256: string; tls: { chain_sha256: string[] } | null }[];
+    earlier_attempts?: HopHashes[][];
+    hops: HopHashes[];
   }[];
 }
 
 /** Pure: every hash a manifest names. */
 export function blobHashes(manifest: ManifestHashes): string[] {
   const hashes = new Set([manifest.sources_sha256]);
-  for (const { hops } of manifest.captures) {
-    for (const hop of hops) {
+  for (const { earlier_attempts, hops } of manifest.captures) {
+    for (const hop of [...(earlier_attempts ?? []).flat(), ...hops]) {
       hashes.add(hop.request_sha256).add(hop.response_sha256);
       for (const hash of hop.tls?.chain_sha256 ?? []) hashes.add(hash);
     }

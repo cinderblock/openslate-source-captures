@@ -55,6 +55,12 @@ export interface Manifest {
   /** One chain of hops per intended URL, in the same order. */
   captures: {
     intended: string;
+    /**
+     * Attempts before `hops`, oldest first, present only when the first didn't return a 200 (see
+     * `src/retry.ts`). Each is a whole redirect chain, kept like the last one.
+     */
+    earlier_attempts?: ManifestHop[][];
+    /** The last attempt: the run's outcome for this URL. */
     hops: ManifestHop[];
     /** A browser's view, beside the hops, for hosts listed in render-hosts.json. */
     rendered?: Rendered;
@@ -91,6 +97,12 @@ export function recordHop(blobDir: string, hop: Exchange): ManifestHop {
     },
   };
 }
+
+/** Every exchange recorded for one URL, earlier attempts first. Each names bytes the run must hold. */
+export const allHops = (capture: Manifest["captures"][number]): ManifestHop[] => [
+  ...(capture.earlier_attempts ?? []).flat(),
+  ...capture.hops,
+];
 
 export const encodeManifest = (manifest: Manifest) =>
   Buffer.from(`${JSON.stringify(manifest, null, 2)}\n`);

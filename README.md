@@ -27,7 +27,13 @@ server sent at all, so none is claimed.
   what was read gets captured, not only the page around it. Nobody picks which.
 - No model anywhere in capture or verification.
 
-Each URL is requested once per run, at most one at a time per host. Requests are GETs, except an
+Each URL is requested once per run, at most one at a time per host. Sites have bad minutes, so a URL
+that doesn't come back 200 is asked again about 15 seconds later (longer if the server's
+`Retry-After` asks, up to 2 minutes), and once more at least 10 minutes after that. The rule
+(`src/retry.ts`) looks only at the status, never the content, and the manifest keeps every
+attempt (`earlier_attempts`, then `hops` for the last), so a retry adds evidence and can't hide any.
+On a host where two quick rechecks got no response at all, the rest of its URLs wait for the later
+one. Requests are GETs, except an
 entry in `discovered.json` that spells out a form body: that's the same POST the page's own button
 sends, and the saved request bytes show it. A file cited with several
 `#page=` fragments is one request.

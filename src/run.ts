@@ -4,14 +4,15 @@
 //   bun src/run.ts <out dir> [--only-hosts a.org,b.org]
 //
 // The URL list is a committed file, never an argument, so a run can't be pointed somewhere new
-// without a public commit. Same tool, same rules and same user agent for every organization.
+// without a public commit. Same tool, same rules and same user agent for every organization. A URL
+// that doesn't come back 200 is asked again by the rule in src/retry.ts, and every attempt is kept.
 // --only-hosts narrows a run to hosts another run failed on; the manifest still says exactly what
 // it set out to fetch.
 
 import { execFileSync } from "node:child_process";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { capture, sha256 } from "./capture";
+import { capture, header, parseResponse, sha256 } from "./capture";
 import {
   encodeManifest,
   MANIFEST_FORMAT,
@@ -22,6 +23,7 @@ import {
 } from "./manifest";
 import { isThinHtml } from "./readable";
 import { type Rendered, renderPage } from "./render";
+import { DOWN_AFTER, LATER_RETRY_MS, needsRetry, noResponse, quickDelay } from "./retry";
 import type { SourceList } from "./sources";
 import { USER_AGENT } from "./user-agent";
 
@@ -69,30 +71,78 @@ if (import.meta.main) {
     byHost.set(host, [...(byHost.get(host) ?? []), url]);
   }
 
-  const results = new Map<string, Manifest["captures"][number]>();
   // "x.pdf#page=57" and "x.pdf#page=58" are one request: a fragment never reaches the server.
-  const fetched = new Map<string, ManifestHop[]>();
-  const queue = [...byHost.values()];
+  // Each resource keeps every attempt, oldest first; the last is its outcome.
+  const fetched = new Map<string, ManifestHop[][]>();
+  const attempt = async (resource: string, post: string | undefined) => {
+    const exchanges = await capture(resource, { userAgent: USER_AGENT, accept: ACCEPT, post });
+    const hops = exchanges.map((hop) => recordHop(blobs, hop));
+    const attempts = fetched.get(resource) ?? [];
+    attempts.push(hops);
+    fetched.set(resource, attempts);
+    return { hops, retryAfter: header(parseResponse(exchanges.at(-1)?.response ?? Buffer.alloc(0)), "retry-after") };
+  };
+
+  // The first pass, with the quick recheck right behind any URL that didn't come back 200.
+  const later: { resource: string; post: string | undefined; due: number }[] = [];
+  const quietHosts = new Map<string, number>();
+  const queue = [...byHost.entries()];
   let done = 0;
-  const worker = async () => {
-    for (let urls = queue.shift(); urls; urls = queue.shift()) {
+  const firstPass = async () => {
+    for (let next = queue.shift(); next; next = queue.shift()) {
+      const [host, urls] = next;
       for (const url of urls) {
         const resource = withoutFragment(url);
-        const known = fetched.get(resource);
-        const hops =
-          known ??
-          (await capture(resource, { userAgent: USER_AGENT, accept: ACCEPT, post: posts.get(url) })).map(
-            (hop) => recordHop(blobs, hop),
-          );
-        fetched.set(resource, hops);
-        results.set(url, { intended: url, hops });
         done++;
         if (done % 50 === 0) console.log(`${done}/${intended.length}`);
-        if (!known) await Bun.sleep(HOST_GAP_MS);
+        if (fetched.has(resource)) continue;
+        const post = posts.get(url);
+        const first = await attempt(resource, post);
+        await Bun.sleep(HOST_GAP_MS);
+        if (!needsRetry(first.hops)) continue;
+        const wait = (quietHosts.get(host) ?? 0) >= DOWN_AFTER ? null : quickDelay(first.retryAfter, Date.now());
+        if (wait !== null) {
+          await Bun.sleep(wait);
+          const quick = await attempt(resource, post);
+          await Bun.sleep(HOST_GAP_MS);
+          if (!needsRetry(quick.hops)) continue;
+          if (noResponse(quick.hops)) quietHosts.set(host, (quietHosts.get(host) ?? 0) + 1);
+        }
+        later.push({ resource, post, due: Date.now() + LATER_RETRY_MS });
       }
     }
   };
-  await Promise.all(Array.from({ length: HOSTS_AT_ONCE }, worker));
+  await Promise.all(Array.from({ length: HOSTS_AT_ONCE }, firstPass));
+
+  // The later recheck, at least LATER_RETRY_MS after the quick one, still one request at a time per
+  // host.
+  const laterByHost = new Map<string, typeof later>();
+  for (const item of later) {
+    const host = hostOf(item.resource);
+    laterByHost.set(host, [...(laterByHost.get(host) ?? []), item]);
+  }
+  const laterQueue = [...laterByHost.values()];
+  const laterPass = async () => {
+    for (let items = laterQueue.shift(); items; items = laterQueue.shift()) {
+      for (const { resource, post, due } of items) {
+        await Bun.sleep(Math.max(0, due - Date.now()));
+        await attempt(resource, post);
+        await Bun.sleep(HOST_GAP_MS);
+      }
+    }
+  };
+  if (later.length) console.log(`asking ${later.length} again after ${LATER_RETRY_MS / 60_000} minutes`);
+  await Promise.all(Array.from({ length: HOSTS_AT_ONCE }, laterPass));
+
+  const results = new Map<string, Manifest["captures"][number]>();
+  for (const url of intended) {
+    const attempts = fetched.get(withoutFragment(url)) ?? [];
+    const hops = attempts.at(-1);
+    if (!hops) continue;
+    const earlier = attempts.slice(0, -1);
+    results.set(url, earlier.length ? { intended: url, earlier_attempts: earlier, hops } : { intended: url, hops });
+  }
+  const finalHops = new Map([...fetched].map(([resource, attempts]) => [resource, attempts.at(-1) ?? []]));
 
   // Beside the plain GET, never instead of it, for hosts that only answer a browser.
   const renderHosts = JSON.parse(readFileSync("render-hosts.json", "utf8")).hosts as Record<
@@ -103,7 +153,7 @@ if (import.meta.main) {
   for (const url of intended) {
     if (renderHosts[hostOf(url)]) toRender.set(withoutFragment(url), "listed");
   }
-  for (const [url, hops] of fetched) {
+  for (const [url, hops] of finalHops) {
     const final = hops.at(-1);
     if (toRender.has(url) || !final) continue;
     if (await isThinHtml(readFileSync(join(blobs, final.response_sha256)))) toRender.set(url, "thin");
@@ -150,5 +200,8 @@ if (import.meta.main) {
     tally[key] = (tally[key] ?? 0) + 1;
   }
   console.log(`run ${run_id}: ${intended.length} URLs`, tally);
+  const retried = [...fetched.values()].filter((attempts) => attempts.length > 1);
+  const recovered = retried.filter((attempts) => !needsRetry(attempts.at(-1) ?? []));
+  console.log(`asked again: ${retried.length} resources, ${recovered.length} of them came back 200`);
   process.exit(0);
 }

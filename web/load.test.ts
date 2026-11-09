@@ -19,6 +19,16 @@ test("blobHashes names every hash once", () => {
   expect(hashes.sort()).toEqual([A, B, C]);
 });
 
+test("blobHashes names earlier attempts' bytes too", () => {
+  const D = "d".repeat(64);
+  const hop = { request_sha256: A, response_sha256: B, tls: null };
+  const hashes = blobHashes({
+    sources_sha256: C,
+    captures: [{ earlier_attempts: [[{ ...hop, response_sha256: D }]], hops: [hop] }],
+  });
+  expect(hashes.sort()).toEqual([A, B, C, D]);
+});
+
 test("indexFolder finds a repository's runs and blobs, skipping tooling", () => {
   const index = indexFolder([
     file("repo/runs/2026-10-30T1700Z/manifest.json"),
