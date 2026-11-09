@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://porac.org/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 524,
-    "captured_at": "2026-11-05T17:47:43.933Z",
+    "captured_at": "2026-11-09T02:20:48.988Z",
     "status": 200,
     "error": null,
     "final_url": "https://porac.org/advocacy/2026-voting-guide/",
-    "response_sha256": "2211479cec08b9944c3e199ce62e01e3a685256701633f74e43f7938116fbb0b",
+    "response_sha256": "a2a1bb21fac14b5802db41fe42161c6425ad6bb0d42a0bbadfc526da543048cb",
     "bytes": "public",
     "claims": [
      "captured",
@@ -80,13 +81,13 @@
     "org_host": "porac.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 395,
-    "captured_at": "2026-11-05T17:47:25.716Z",
+    "captured_at": "2026-11-09T02:20:32.781Z",
     "status": 200,
     "error": null,
     "final_url": "https://maps.cartifact.com/porac/",
-    "response_sha256": "c5aaf67475a9a2f430ae445a9c5c806108419c7b244c599f7b1e6657fff6ef4f",
+    "response_sha256": "5a63dd308cb6b9ad119a04ab9015e1a55446eb31a81661bc06b2fd4fcab6b224",
     "bytes": "public",
     "claims": [
      "captured",

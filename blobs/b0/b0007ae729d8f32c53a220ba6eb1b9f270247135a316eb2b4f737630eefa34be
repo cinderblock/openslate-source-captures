@@ -1,0 +1,70 @@
+HTTP/1.1 200 
+accept-ranges: bytes
+access-control-allow-headers: origin, x-requested-with, content-type
+access-control-allow-methods: PUT, GET, POST, DELETE, OPTIONS
+access-control-allow-origin: *
+x-chrome-original-content-encoding: gzip
+x-chrome-original-content-length: 1231
+content-type: text/html
+date: Mon, 09 Nov 2026 02:48:06 GMT
+host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+last-modified: Fri, 25 Sep 2026 17:41:30 GMT
+server: Apache
+vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PORAC 2026 Voting Guide</title>
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,900">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="mapbox.css">
+    <script defer src="index.js"></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+</head>
+
+<body>
+    <div class="container">
+        <div id='endorsements'>
+            <div id="copy-ux">
+                <div class="header">Interactive Voter Guide</div>
+                 <div class="small-copy">This tool is designed to help you identify the PORAC endorsed candidates in your area for the upcoming election. Please allow up to a few minutes to load.</div>
+                
+                <!-- <div class="small-copy">
+                    The below interactive guide allows you to view PORAC’s endorsed candidates representing your community at the local, state and federal level. <br><br>
+                    PORAC has a rigorous endorsement process that includes written surveys and in-person interviews, and our organization only endorses the most qualified candidates who have the expertise, vision and pragmatism to best serve our California communities. <br><br>
+                    PORAC’s endorsed candidates are committed to improving public safety, expanding important labor protections and advancing policies on behalf of our profession. Type your address below to see who PORAC has endorsed on your ballot and be sure to support these candidates with your vote!<br><br>
+                </div> -->
+            </div>
+            <div id="map-search">
+                                <div id="map-holder" class="flex-item">
+                    <div id="map"></div>
+                <div id="controls" class="flex-item">
+                  <!--  <div id="intructions"></div> -->
+                </div>
+                </div>
+            </div>
+            <div id="results-panel">
+                <div class="header-y">Results</div>
+                <div class="small-copy">Click candidates to zoom map to each district.</div>
+                <div id="results"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

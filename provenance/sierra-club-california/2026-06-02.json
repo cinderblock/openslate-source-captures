@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/california/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 1131,
-    "captured_at": "2026-11-05T17:49:18.346Z",
+    "captured_at": "2026-11-09T02:22:50.932Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/california/2026-endorsements-scc-political-committee",
-    "response_sha256": "e9ee19611c9134f725a5d046f9fc14a35048d28ae71b9e88d24a1b5222fd2718",
+    "response_sha256": "84bda14611d5a6c56b30c9fb8163d09919033d898451a83967e9fb70d22a9cdf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -59,7 +60,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "1f3bdce0dcdb7afe3f145a2795908e74ae938df640501b7664a48a96f5e568f1"
+     "dom_sha256": "731d0b35708b6cdf17d6704d310e4a1a4019deb18968bbf1dd3770dfe4b6bfa3"
     }
    },
    "last_ok": null,
@@ -89,13 +90,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 1132,
-    "captured_at": "2026-11-05T17:49:19.899Z",
+    "captured_at": "2026-11-09T02:22:52.474Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/california/sierra-club-california-endorses-tom-steyer-california-governor",
-    "response_sha256": "4af12275de28340156a95dda34b605ed00c22d9cf602cfe1e5335089420a976e",
+    "response_sha256": "c3d1371a5ccdf110a2ee156aa5bd4a1a8b0541cd85f7ef15832df722b91acd0c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -104,7 +105,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "ad852551d6b9f6616888954a3fd18d4e3993f84116a8092cfc46c332d7663222"
+     "dom_sha256": "048a13e5761b590f27903d75bdce1d61690b24b4fd8e4489aadf30f8486e0786"
     }
    },
    "last_ok": null,

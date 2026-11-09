@@ -1,0 +1,61 @@
+HTTP/1.1 202 Accepted
+Server: CloudFront
+Date: Mon, 09 Nov 2026 02:22:39 GMT
+Content-Length: 2415
+Connection: close
+x-amzn-waf-action: challenge
+Cache-Control: no-store, max-age=0
+Content-Type: text/html; charset=UTF-8
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Methods: OPTIONS,GET,POST
+Access-Control-Expose-Headers: x-amzn-waf-action
+X-Cache: Error from cloudfront
+Via: 1.1 cf1ed2bff0e14503a9d50b681f52ef16.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: PHX52-P3
+X-Amz-Cf-Id: O32XUqRIO5V9vI3GCncbAKg26l_01z9IKCIyM4c1RbI6Lad8_9yh8w==
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+        body {
+            font-family: "Arial";
+        }
+    </style>
+    <script type="text/javascript">
+    window.awsWafCookieDomainList = [];
+    window.gokuProps = {
+"key":"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFn01kvVFRpcSQYEuGb1J0nAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdnbXR/rSU8hANs4TAgEQgDvDZ3lv5YcNLRIGBhR/9FxE0ooUD2w7/4DR4ivM8ij+tzrcQeiARKX6QhxYtrohHpAKe8kYzKv6RLEqvg==",
+          "iv":"grAWSwBgJAAAAcsH",
+          "context":"8gZfwJynFRaR2EhA0AQjmWhysJrPsnkyYPY/osh4T4T9aY/e+zvEb/fFapGg9O+sg76eAYRT5m8gYLEHKNA0d3vsHrvxCGLuIxnZWwCkL2pboeH1nHMPEfbw9aDIR9mR/1zUh4AMQevpqFwD0ZuMMzLofHLT9mxG9+v8/iw4BU2QaLlYLHpD9nnilxkDmZSY/A0Gt/zNyGxcjBctVvAOla3BXD76C0wT5mfSTH8LGs811O4UqQRjZK/8yYjOmrhB0H7WcmYWBy6+/3j6WdWB45GAWjR146p/SlLsUFK7Tw6HfGcTHasv+7Bd3DzzSq3IEY1ss0vlMqfJ1mhiu8M1aLc5HItnEmkecL+uNOyCMKNpiq/K11XjRfUV2sra+UNRgCsSs7R7qokJzFslUqPr+r2gxds/9tbLxnTCe4Xws6hf2rJ8zxwOz3/JvWXSVd0UkihgIBad6A5PAW0eFFLMUfnvOhbXx9Lpf8Ehc/Go/MosbwwGG9Xpc9d6TNsdA1i1/zH+t9gviefEmHqVB01lRlDeqWNoeRL6/33BjE0Jm9YV43stEVLaZ0Jj4IrAnKIqD2/RfuCpoDXnm8NMVspkuLPTMAnY6ptQb+XASSU76ogWZynImf24V5V97hfBDARjj/nObcQXiNMlq6IHsu0mWULaVyCJ7u+lS3o0cLwF5krmHIYKlBIgX9QvXI4pQ+/9KQ4rCYENns/E6PYKLDKIBjiIw0eonxoFAT4RhpCad9aUmEshWpTsBc8yjnT/+rRRigm45e31woj9Wic/4OrV2UkkqQqAOQ=="
+};
+    </script>
+    <script src="https://2ef0668df1ec.459293ff.us-west-1.token.awswaf.com/2ef0668df1ec/0ffc2f058e99/9460be2bab9e/challenge.js"></script>
+</head>
+<body>
+    <div id="challenge-container"></div>
+    <script type="text/javascript">
+        AwsWafIntegration.saveReferrer();
+        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {
+            if (forceRefresh) {
+                AwsWafIntegration.forceRefreshToken().then(() => {
+                    window.location.reload(true);
+                });
+            } else {
+                AwsWafIntegration.getToken().then(() => {
+                    window.location.reload(true);
+                });
+            }
+        });
+    </script>
+    <noscript>
+        <h1>JavaScript is disabled</h1>
+        In order to continue, we need to verify that you're not a robot.
+        This requires JavaScript. Enable JavaScript and then reload the page.
+    </noscript>
+</body>
+</html>

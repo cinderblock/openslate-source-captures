@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://mbclc.org/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 405,
-    "captured_at": "2026-11-05T17:47:28.486Z",
+    "captured_at": "2026-11-09T02:20:34.589Z",
     "status": 200,
     "error": null,
     "final_url": "https://mbclc.org/endorsements",
-    "response_sha256": "33a9d1cdf3a0f51216e37511e3e5f1bf3f4728a36e9d910589e0c52e21e1b40a",
+    "response_sha256": "e624ed284e29f9a690f83c950da61642c6a435988c3a92064bce5232b664bbe9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,13 +87,13 @@
     "org_host": "mbclc.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 148,
-    "captured_at": "2026-11-05T17:47:06.695Z",
+    "captured_at": "2026-11-09T02:19:56.142Z",
     "status": 200,
     "error": null,
     "final_url": "https://docs.google.com/document/d/1_Ggt23axqEaz7c7iJTzyaSJxOjowXAGv/edit?usp=sharing&ouid=101363172576889265232&rtpof=true&sd=true",
-    "response_sha256": "bf3c48c8992d78889cfa51b425dbc5d02980cd84ae6b7d7759da7f812797c8c0",
+    "response_sha256": "0f3c96fb42647b9366d4170e03f4aaf1aa038d343d643fcfe56e35680c453590",
     "bytes": "public",
     "claims": [
      "captured",
@@ -101,7 +102,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "036e416340b6e7bbf572d4a93be34a323e8923b8cb30af5c6b9f2335e1f8e31e"
+     "dom_sha256": "d00c3a03d7019dd53f5c0d6f93fa29d9cf3e106c407b44e7b8b9dcf279c2aa0c"
     }
    },
    "last_ok": null,

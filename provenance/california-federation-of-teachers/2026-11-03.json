@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://www.cft.org/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "cft.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 827,
-    "captured_at": "2026-11-05T17:48:32.367Z",
+    "captured_at": "2026-11-09T02:21:41.133Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cft.org/2026-midterm-elections-hub",
-    "response_sha256": "9e0de2daf41bb3921406ed6e7bf656f16877fe7ae3c5f96a7e7afa41f942e2a1",
+    "response_sha256": "7b788059d97ef688842162640a1703fa193ef508778982522a697fe593b878bc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,13 +82,13 @@
     "org_host": "cft.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 828,
-    "captured_at": "2026-11-05T17:48:35.229Z",
+    "captured_at": "2026-11-09T02:21:43.578Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
-    "response_sha256": "a83223dac73f22e14e2c53f124425d21769451743d586be1d222f6dee6fe9c85",
+    "response_sha256": "1151f7772afd0cd94f90a77cb02b6053dd477fd5313bde67974ae60c701c1a1a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -98,10 +99,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261016213607id_/https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
-    "timestamp": "20261016213607",
+    "url": "https://web.archive.org/web/20261106003233id_/https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf",
+    "timestamp": "20261106003233",
     "digest": "X5RJCBWAHFTBFULY7HNU2HHP2XFSG4XT",
-    "origin": "existing",
+    "origin": "requested",
     "statements": {
      "found": 154,
      "of": 154

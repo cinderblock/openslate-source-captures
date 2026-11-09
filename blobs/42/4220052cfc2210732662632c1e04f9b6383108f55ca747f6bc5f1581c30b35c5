@@ -1,0 +1,207 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=811799, public
+x-chrome-original-Content-Encoding: gzip
+x-chrome-original-Content-Length: 2874
+Content-Type: text/html
+Date: Mon, 09 Nov 2026 02:45:36 GMT
+Expires: Wed, 18 Nov 2026 12:15:35 GMT
+X-CDN: Imperva
+X-Iinfo: 44-68983403-0 0CNN RT(1794192337001 15) q(0 -1 -1 1) r(0 -1)
+
+<!DOCTYPE html>
+<head lang="en">
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-41DQ5KQCWV"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-41DQ5KQCWV');
+		</script>
+
+    <meta charset="UTF-8" />
+<title>Email Signups</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+
+<script>
+var test = '';
+$(document).ready(function() {
+	var APIURL_TEST = 'https://sierraclub--full.sandbox.my.salesforce-sites.com/actions/services/apexrest/SubscriptionAPI',
+		APIURL_PROD = 'https://act.sierraclub.org/actions/services/apexrest/SubscriptionAPI',
+		APIURL_PROXY = '/proxy-json.aspx?url=',
+		url = APIURL_PROXY + escape(APIURL_PROD),
+		currentURL = document.URL.replace(/(<([^>]+)>)/gi, "");
+	if (currentURL.indexOf('mode=test') > -1) {
+		url = APIURL_PROXY + escape(APIURL_TEST);
+        $('#testpre').show()
+	}
+	
+    if (currentURL.length > 10 && currentURL.indexOf('&_gl=') > 0) {
+        currentURL = currentURL.substr(0, currentURL.indexOf('&_gl=')-1);
+    }
+	
+	// form submission
+    var useForm = '.email-signup-form';
+	$('input[name="SourceURL"]').val(currentURL);
+    $('.email-signup-form').on('submit', function(e) {
+        e.preventDefault();
+        var formValuesJSON = {},
+            formValuesArray = $(useForm).serializeArray();
+        var formValue = '';
+        for (var i=0; i<formValuesArray.length; i++) {
+            formValue = formValuesArray[i].value.replace(/"/g,'');
+            formValue = formValue.replace(/'/g,'');
+            formValue = formValue.replace(/\>/g,'');
+            formValue = formValue.replace(/\</g,'');
+            formValue = formValue.replace(/\\/g,'');
+            formValue = formValue.replace(/\//g,'');
+            formValuesJSON[formValuesArray[i].name] = formValue;
+        }
+        console.log({"request" : formValuesJSON });
+        test = JSON.stringify({"request" : formValuesJSON});//print();
+        $('#testpre CODE').html(test);
+
+        // Determine language of form to set language for email validation
+        var textTranslation = {
+            'Processing': {
+              'en': 'Sign up is Processing...',
+              'es': 'Procesando...'
+            },
+            'Err: Invalid Email': {
+              'en': 'Sorry. The email ' + $('#email').val() + ' you entered is invalid.',
+              'es': 'Perdón. Parece que su email' + $('#email').val() + 'no es válido. Por favor, chequea la información y inténtalo de nuevo.'
+            },
+            'Err: Something went wrong': {
+              'en': 'Sorry. Something went wrong with the submission.',
+              'es': 'Perdón. Ha ocurrido un error durante el registro.'
+            },
+            'Success': {
+              'en': 'You&rsquo;re all set. The next time we publish <em>Angeles Newsletter</em> you should get it in your email inbox.',
+              'es': 'Gracias por inscríbirte para recibir comunicaciones del <em>Angeles Newsletter</em>!'
+            }
+        };
+
+        const paramsString = window.location.search;
+        const searchParams = new URLSearchParams(paramsString);
+        const formLanguage = (searchParams.has("LANG") && searchParams.get("LANG") == "ES") ? searchParams.get("LANG").toLowerCase() : 'en';
+
+        // Form Validation
+        $('.email-messaging').html(textTranslation['Processing'][formLanguage]).removeClass('alert-warning alert-success').addClass('alert-info').show();
+        $('.email-signup input[type="submit"]').prop('disabled',true).addClass('disabled');
+        $.ajax({
+            url : url,
+            method: 'POST',
+            dataType: 'json',
+            data: JSON.stringify({"request" : formValuesJSON}),
+            contentType: 'application/json'
+        })
+        .success(function(response, status) {
+            console.log(status);
+            console.log(response);
+            if (response.errorMessage !== null && response.errorMessage !== '') {
+                if (response.errorMessage === 'INVALID_EMAIL_ADDRESS') {
+                    $('.email-messaging').html(textTranslation['Err: Invalid Email'][formLanguage]).removeClass('alert-info alert-success').addClass('alert-warning').show();
+                } else {
+                    $('.email-messaging').html(textTranslation['Err: Something went wrong'][formLanguage] + ' <br>Error: ' + response.errorMessage).removeClass('alert-info alert-success').addClass('alert-warning').show();
+                }
+            } else {
+                $('.email-messaging').html(textTranslation['Success'][formLanguage]).removeClass('alert-info alert-warning').addClass('alert-success').show();
+				$(useForm).hide();
+            }
+        })
+        .fail(function(response, status) {
+            console.log(status);
+            console.log(response);
+            $('.email-messaging').html(textTranslation['Err: Something went wrong'][formLanguage]).removeClass('alert-info alert-success').addClass('alert-warning').show();
+        });
+        return false;
+    });
+});
+</script>
+<style>
+.email-signup {
+    background-color: rgba(255,255,255,0.7);
+    padding-bottom: 15px;
+    position: relative;
+}
+.email-signup-form {
+    padding: 0 0;
+}
+.email-signup-form .submit-container {
+    display: table;
+    padding-top: 20px;
+    width: 100%;
+}
+.email-messaging {
+    display: none;
+    padding: 15px;
+    text-align: center;
+}
+.btn, .btn-primary {
+    background-color: rgb(213, 68, 0);
+    border: 0; 
+}
+.disclaimer DIV { font-size: small; }
+</style>
+</head>
+<body>
+
+<div class="container-fluid email-signup">
+    <div class="email-messaging"></div>
+    <form class="email-signup-form">
+        <input type="hidden" name="Source" value="70131000001hRELAA2" />
+        <input type="hidden" name="SourceURL" value="vault.sierraclub.org/email/signup.asp" />
+        <input type="hidden" name="preferenceCode" value="ANGELESNEWS" />
+        
+        <h3 class="email-signup-title">Sign Up for Angeles Newsletter Email</h3>
+        
+        <div class="form-group pt-1 pb-1">
+            <label for="email">Email</label>
+            <input class="form-control" name="email" placeholder="Email" type="email" id="email" required="required" />
+        </div>
+        <div class="row pt-1 pb-1">
+            <div class="form-group col-sm-6">
+                <label for="firstName">Name</label>
+                <input class="form-control" name="firstName" placeholder="Name" id="firstName" required="required" />
+            </div>
+            
+            <div class="form-group col-sm-6">
+                <label for="lastName">Last Name</label>
+                <input class="form-control" name="lastName" placeholder="Last Name" id="lastName" required="required" />
+            </div>
+        </div>
+        
+        <div class="row pt-1 pb-1">
+
+        
+
+        <div class="form-group col-sm-3">
+            <label for="zip">Zip Code</label>                
+            <input class="form-control" name="postalCode" placeholder="Zip Code" id="zip" required="required" />
+        </div>
+    </div>
+        
+        
+        <div class="submit-container">
+            <div class="form-group col-sm-6">
+                <input type="submit" class="email-signup-submit form-control btn btn-primary" id="email-submit-button" value="Sign Up!" />
+            </div>
+        </div>
+        <div class="disclaimer pt-2">
+            <div class="form-group col-sm-12">
+                By taking this action to protect the planet, you are affirming you want to receive regular Sierra Club communications and may vote on policy designated by the Sierra Club Board. <a href='https://www.sierraclub.org/terms' target='_blank'>Terms and Conditions</a> &amp; <a href='https://www.sierraclub.org/privacy' target='_blank'>Privacy Policy</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<pre id="testpre" style="display:none;"><code></code></pre>
+
+
+</body>
+</html>

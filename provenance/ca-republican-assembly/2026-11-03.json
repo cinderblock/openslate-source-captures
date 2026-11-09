@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://cragop.org/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 102,
-    "captured_at": "2026-11-05T17:47:22.019Z",
+    "captured_at": "2026-11-09T02:20:44.631Z",
     "status": 200,
     "error": null,
     "final_url": "https://cragop.org/statewide-offices/",
-    "response_sha256": "85a3f4538d81d5c2e7b2a385a3388ae7647d545539bb9dd1bc3a6e82be756f92",
+    "response_sha256": "573ef73bcaa62187254e8eb76552150a55cbc3a35de21c535aa24ba88a3e46f3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,13 +82,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 101,
-    "captured_at": "2026-11-05T17:47:20.328Z",
+    "captured_at": "2026-11-09T02:20:42.946Z",
     "status": 200,
     "error": null,
     "final_url": "https://cragop.org/statewide-ballot-measures/",
-    "response_sha256": "719fcfc0adbb4bf3c25373a5a252e76f59680b6ccfb5c20051bbc9decfe741a4",
+    "response_sha256": "f43fab9ab6cf76802af818039ce229272fd7fabd1fb687ec290a1e6e547f8a7b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -124,13 +125,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 99,
-    "captured_at": "2026-11-05T17:47:14.604Z",
+    "captured_at": "2026-11-09T02:20:37.622Z",
     "status": 200,
     "error": null,
     "final_url": "https://cragop.org/state-board-of-equalization/",
-    "response_sha256": "255a30c02fc487bed1faa4bbbea080ef0c9d44ebde6f8cb226168305d1fff3f9",
+    "response_sha256": "379bc6989609c3cacfd0268d1f1dc4703e886d0b90bda3db4166487033557964",
     "bytes": "public",
     "claims": [
      "captured",
@@ -162,13 +163,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 97,
-    "captured_at": "2026-11-05T17:47:08.557Z",
+    "captured_at": "2026-11-09T02:20:31.943Z",
     "status": 200,
     "error": null,
     "final_url": "https://cragop.org/house-of-representatives/",
-    "response_sha256": "da2c599894e6f0ac50e391a5e7ebc21ce52f0f27cdebfc3d20245881bdd333e2",
+    "response_sha256": "4b0b7831a883297e4786f901ac9a3738b215915e843b5c6adeb2190c68adec51",
     "bytes": "public",
     "claims": [
      "captured",
@@ -200,13 +201,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 100,
-    "captured_at": "2026-11-05T17:47:17.278Z",
+    "captured_at": "2026-11-09T02:20:40.256Z",
     "status": 200,
     "error": null,
     "final_url": "https://cragop.org/state-senate/",
-    "response_sha256": "5e9f4419aca961fbaa4477ede926d45fe2f37d02400bd63fd6393413a51af3c7",
+    "response_sha256": "d727da252b31b572375be39708d0ed26f58ecb0b4183384d1c689180818fee8f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -238,13 +239,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 98,
-    "captured_at": "2026-11-05T17:47:11.562Z",
+    "captured_at": "2026-11-09T02:20:34.800Z",
     "status": 200,
     "error": null,
     "final_url": "https://cragop.org/state-assembly/",
-    "response_sha256": "9d7c331588aa54cc5d39ef4f8626ae676654da740f9fe6d0ac159b55773afe7c",
+    "response_sha256": "b5bf38c8436c989d8c3257bad3c4dd3ffd53c8d2b45b68463ae1dc9483c7e481",
     "bytes": "public",
     "claims": [
      "captured",
@@ -276,13 +277,13 @@
     "org_host": "cragop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 103,
-    "captured_at": "2026-11-05T17:47:23.719Z",
+    "captured_at": "2026-11-09T02:20:47.305Z",
     "status": 200,
     "error": null,
     "final_url": "https://cragop.org/wp-content/uploads/2026/10/Updated-10-01-26-November-2026-General-Election-Endorsements-.pdf",
-    "response_sha256": "cea4294dca7bc766beb4f67b3abbec0266ffa70f60b44a3a35045ea0a744e87a",
+    "response_sha256": "c159b8a778a93fd73e3862365277c8dd5c47c4a76bd66705a4e3d27e80ea9312",
     "bytes": "public",
     "claims": [
      "captured",

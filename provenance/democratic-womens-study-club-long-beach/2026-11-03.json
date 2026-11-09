@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/DWSCLB",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 38,
-    "captured_at": "2026-11-05T17:46:56.281Z",
+    "captured_at": "2026-11-09T02:19:41.645Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "77a5d50e049bc5b5beb405e4edb19156b22582d544a1e4277064ec4acfe481db",
+    "response_sha256": "a39bece8d84646faec1758c4cec6c315193539e499b4bbe186529e7eb90975e1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,19 +87,23 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 854,
-    "captured_at": "2026-11-05T17:48:42.380Z",
+    "captured_at": "2026-11-09T02:21:52.186Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "a0dc997cbb6b6bf1cce4edd6612435025004acaf84ae66c094b3ddc51be12bb7",
+    "response_sha256": "181ef5a5dab17b3999a70148b805de3e8ce7fb0ee5b30761d5277a2ba464df47",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "fec7c127978784120512c68ffd56696af7032f6898152727f9d27521fcb41be3"
+    }
    },
    "last_ok": null,
    "archived": {

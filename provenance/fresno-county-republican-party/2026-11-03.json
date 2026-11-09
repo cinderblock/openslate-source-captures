@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.fresnogop.org/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "fresnogop.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 855,
-    "captured_at": "2026-11-05T17:48:43.507Z",
+    "captured_at": "2026-11-09T02:21:52.716Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.fresnogop.org/",
-    "response_sha256": "4379a11a6d0d2ea0fddb7bafe813f3bc90c6054e135e198660f5b20a1e2f9c74",
+    "response_sha256": "382bbec408efe20ee2670c24b8492b31d96a2ec33c93b99e000e35631c4126f4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -71,9 +72,9 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 45,
-    "quoted_parts": 0,
-    "unanchored": 0,
+    "exact": 0,
+    "quoted_parts": 4,
+    "unanchored": 41,
     "no_statement": 0
    }
   }

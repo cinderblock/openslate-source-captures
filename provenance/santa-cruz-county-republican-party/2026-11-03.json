@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://santacruzrepublicans.com/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,29 +44,13 @@
     "org_host": "santacruzrepublicans.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 533,
-    "captured_at": "2026-11-05T17:47:50.306Z",
-    "status": 202,
-    "error": null,
-    "final_url": "https://santacruzrepublicans.com/candidates/",
-    "response_sha256": "cdd97eb775ec2b4d9e1f8f64173a7bc879c3aa0baf136907697bff1cfe0ce96d",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci",
-     "independently-archived"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-05T1300Z",
-    "index": 533,
-    "captured_at": "2026-11-05T13:01:33.955Z",
+    "captured_at": "2026-11-09T02:20:55.907Z",
     "status": 200,
     "error": null,
     "final_url": "https://santacruzrepublicans.com/candidates/",
-    "response_sha256": "35555ed95f496f2f3e533082b0e8b1e12a0a6938db5326ccd7e88f8dd23d8f3f",
+    "response_sha256": "5e1fe71b28862029608690a17377a94902a66b44dfed078aa457f6bf289022f4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -74,6 +59,7 @@
      "independently-archived"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261030225709id_/https://santacruzrepublicans.com/candidates/",
     "timestamp": "20261030225709",
@@ -101,29 +87,13 @@
     "org_host": "santacruzrepublicans.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 534,
-    "captured_at": "2026-11-05T17:47:51.942Z",
-    "status": 202,
-    "error": null,
-    "final_url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2-2/",
-    "response_sha256": "278258fda95144058820632e93c15add2b9be9eed03f1d2992b4fc6f61377781",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci",
-     "independently-archived"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-05T1300Z",
-    "index": 534,
-    "captured_at": "2026-11-05T13:01:35.597Z",
+    "captured_at": "2026-11-09T02:20:57.484Z",
     "status": 200,
     "error": null,
     "final_url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2-2/",
-    "response_sha256": "a373a11bb4f79eb7dcb9536d45978c79a4485b0613c373a119749fb61cd3a677",
+    "response_sha256": "fb37f4af9785591ece17e208f5862fe70ec508ac3c1d1f7f83873f0db480cba4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -132,6 +102,7 @@
      "independently-archived"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261030225717id_/https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2-2/",
     "timestamp": "20261030225717",
@@ -158,29 +129,13 @@
     "org_host": "santacruzrepublicans.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 535,
-    "captured_at": "2026-11-05T17:47:53.626Z",
-    "status": 202,
-    "error": null,
-    "final_url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2/",
-    "response_sha256": "a869157318afa827d75a294206d96e37a52d162b37edcc0b07e3456c529c528b",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci",
-     "independently-archived"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-05T1300Z",
-    "index": 535,
-    "captured_at": "2026-11-05T13:01:37.226Z",
+    "captured_at": "2026-11-09T02:20:59.204Z",
     "status": 200,
     "error": null,
     "final_url": "https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2/",
-    "response_sha256": "ab0bd75dfed08e105f829992001bb6b7284aeb94aa2c91dc2513a9d1fff308da",
+    "response_sha256": "50abce408dfb728cc18e53042a5f1dc1d206d51e932e5148f1dd87b0fa0e6767",
     "bytes": "public",
     "claims": [
      "captured",
@@ -189,6 +144,7 @@
      "independently-archived"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261030225752id_/https://santacruzrepublicans.com/santa-cruz-gop-voter-guide-2/",
     "timestamp": "20261030225752",
@@ -215,28 +171,13 @@
     "org_host": "santacruzrepublicans.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 532,
-    "captured_at": "2026-11-05T17:47:48.690Z",
-    "status": 202,
-    "error": null,
-    "final_url": "https://santacruzrepublicans.com/",
-    "response_sha256": "c4a8a248aa6d1d2b90385c0b8f483f4e452c6a35e65c049896885d94b0c0bdb7",
-    "bytes": "public",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-05T1300Z",
-    "index": 532,
-    "captured_at": "2026-11-05T13:01:32.322Z",
+    "captured_at": "2026-11-09T02:20:54.254Z",
     "status": 200,
     "error": null,
     "final_url": "https://santacruzrepublicans.com/",
-    "response_sha256": "db542fd5a1dca893236ee2ed413e039797dbf64fa60d54d34cda80cdea19d97e",
+    "response_sha256": "8b1d3e02f3d9d2ae01e35d46f16855bee3818574b6281ad09c403e28e3d7e6ab",
     "bytes": "public",
     "claims": [
      "captured",
@@ -244,6 +185,7 @@
      "witnessed-by-public-ci"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261030225633id_/https://santacruzrepublicans.com/",
     "timestamp": "20261030225633",

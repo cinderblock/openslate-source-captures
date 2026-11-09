@@ -1,0 +1,17 @@
+HTTP/1.1 308 Permanent Redirect
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: application/json
+Date: Mon, 09 Nov 2026 02:21:25 GMT
+Location: https://www.westsideforwardsf.org/voter-guide
+Refresh: 0;url=https://www.westsideforwardsf.org/voter-guide
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Id: sfo1::z7wxf-1794190885554-00c8951978e1
+Connection: close
+Transfer-Encoding: chunked
+
+4f
+{"redirect": "https://www.westsideforwardsf.org/voter-guide", "status": "308"}
+
+0
+

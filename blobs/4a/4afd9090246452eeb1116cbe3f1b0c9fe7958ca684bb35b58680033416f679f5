@@ -1,0 +1,26 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Mon, 09 Nov 2026 02:23:11 GMT
+Transfer-Encoding: chunked
+Connection: close
+content-security-policy: object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+location: /media/blog/updated-methodology
+permissions-policy: camera=(), microphone=(), geolocation=(self)
+referrer-policy: strict-origin-when-cross-origin
+Server: cloudflare
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-railway-request-id: 4Bq5te5tQAyU1QNKyCLmYg
+x-railway-edge: lax1
+x-hikari-trace: lax1.sx7j
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=29,cfOrigin;dur=79
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ccc9AAub6TMc6RKeqiL3z%2BTl65818NQ%2FHZPbZjg5gdBD2VBtZZQlOzHv8nmPSANsYACWVdmHPKedf%2F8NDLDrd%2FBc1vQdInZchHN0sLPBmQVUksiJxynVY1812QrETDMeEFC%2FUQ%3D%3D"}]}
+CF-RAY: a5795aa0984b7ab3-LAX
+alt-svc: h3=":443"; ma=86400
+
+0
+

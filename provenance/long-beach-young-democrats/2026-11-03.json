@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 39,
-    "captured_at": "2026-11-05T17:46:58.191Z",
+    "captured_at": "2026-11-09T02:19:43.495Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "b2da684879ba7511e3cf5f9339647bf1338138fc9532714f5d751fd047197caf",
+    "response_sha256": "a380c2f9ff91a30f4cbccbae2a2c5519551d16866d2d26b691bbc35a02e6a00e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -86,19 +87,23 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 867,
-    "captured_at": "2026-11-05T17:48:46.231Z",
+    "captured_at": "2026-11-09T02:21:56.307Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "55aa042f69c0c5e392f36a0904492f5e5477e540d8c57cc9ab71143d24ce64c0",
+    "response_sha256": "3231c13d7fa39360993c8495a1ac118ed1150a6054b262ee7fefebb6063d0543",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ]
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "ba3865c8218089e90743059aca7269de6f8c7806d6abd7a7342ef5eb79dcc13a"
+    }
    },
    "last_ok": null,
    "archived": null,

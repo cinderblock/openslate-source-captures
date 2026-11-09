@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sdvote.com/",
  "generated_from": {
-  "endorsements_commit": "f8e6453f08b889dbef44c6ead24573d0381ec55f",
+  "endorsements_commit": "4e569985d2a54f9c80e5a10f3e36be7862e2e226",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -30,7 +30,8 @@
    "2026-11-04T1740Z",
    "2026-11-05T1300Z",
    "2026-11-05T1322Z",
-   "2026-11-05T1746Z"
+   "2026-11-05T1746Z",
+   "2026-11-09T0219Z"
   ]
  },
  "sources": [
@@ -43,13 +44,13 @@
     "org_host": "sdvote.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 1089,
-    "captured_at": "2026-11-05T17:49:08.575Z",
+    "captured_at": "2026-11-09T02:22:37.088Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf",
-    "response_sha256": "e2030da7b15ddc7582eb14cb55983769581b335828143d9c4e466c55310d774a",
+    "response_sha256": "976fe72e16da51a7995be629a8e4a7241d4fec57e3c6793ea446ddf2885c4de8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -81,13 +82,13 @@
     "org_host": "sdvote.com"
    },
    "latest": {
-    "run": "2026-11-05T1746Z",
+    "run": "2026-11-09T0219Z",
     "index": 1107,
-    "captured_at": "2026-11-05T17:49:32.527Z",
+    "captured_at": "2026-11-09T02:23:01.058Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sdvote.com/content/rov/en/sample-ballot-info-lookup.html",
-    "response_sha256": "cee2a735aca3d093bdfb1b58d671231afcd74c4ff6de7682e239a47112ad80cc",
+    "response_sha256": "bc9e46bbca00b6a05876ed2836d338ef1fce2b10e1bab7ff6224205bea86297c",
     "bytes": "public",
     "claims": [
      "captured",
