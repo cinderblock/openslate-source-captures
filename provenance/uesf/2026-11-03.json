@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://uesf.org/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "uesf.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 673,
-    "captured_at": "2026-11-09T20:18:15.414Z",
+    "captured_at": "2026-11-16T19:57:37.765Z",
     "status": 200,
     "error": null,
-    "final_url": "https://uesf.org/our-work/political-action/?doing_wp_cron=1794255495.3480520248413085937500",
-    "response_sha256": "b62373ce557707e4ce3bd15cd2b97db3da131609e63fcabe601fe380513dcf27",
+    "final_url": "https://uesf.org/our-work/political-action/",
+    "response_sha256": "86bf3bf5128b281ac41aea9d6aa2aab5b47064ac9741dae09296aa69b801277f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,13 +89,13 @@
     "org_host": "uesf.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 674,
-    "captured_at": "2026-11-09T20:18:18.031Z",
+    "captured_at": "2026-11-16T19:57:39.800Z",
     "status": 200,
     "error": null,
     "final_url": "https://uesf.org/wp-content/uploads/2026/10/UESF-Voter-Guide-PDF-FINAL.pdf",
-    "response_sha256": "2de702e10a377c0c1d4f858ae577c04402aa133fc0ee93b486f8d4f58771f863",
+    "response_sha256": "bed7412c4ed93835465a5ecf4b9d717cd6b1a292c49aabcb30d28cc39a167c62",
     "bytes": "public",
     "claims": [
      "captured",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://jstreetpac.org/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 311,
-    "captured_at": "2026-11-09T20:23:36.346Z",
+    "captured_at": "2026-11-16T19:58:04.775Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidates/",
-    "response_sha256": "5d1c1ecec191e37f154cfdf4b7931859f8620483c8279b2680cb34c0caca4385",
+    "response_sha256": "94765c446f749109a9d05280795627e23db2341ca981fd717a8ee133f9820c02",
     "bytes": "public",
     "claims": [
      "captured",
@@ -61,10 +62,10 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261101065131id_/https://jstreetpac.org/candidates/",
-    "timestamp": "20261101065131",
-    "digest": "U2H4PUQPWMFMEPTRK2M22WAYMNKRP4BM",
-    "origin": "requested"
+    "url": "https://web.archive.org/web/20261019154734id_/https://jstreetpac.org/candidates/",
+    "timestamp": "20261019154734",
+    "digest": "NZINT3MMDB23AEV35YFAUDAFOTKVN3VG",
+    "origin": "existing"
    },
    "derivation": {
     "kind": "anchored",
@@ -83,13 +84,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 297,
-    "captured_at": "2026-11-09T20:21:38.730Z",
+    "captured_at": "2026-11-16T19:57:18.191Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mike-mcguire-recurring-donation/",
-    "response_sha256": "bad93cbfe8d6dfe81622824b14ec2d5644d8261d1145f22edb8146c0add6c5f7",
+    "response_sha256": "6398c68b74571dc9fa4e406333b67b7e2626574b70e7f91e98324799008ab0e5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -126,13 +127,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 285,
-    "captured_at": "2026-11-09T20:18:52.440Z",
+    "captured_at": "2026-11-16T19:56:34.594Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/jared-huffman-recurring-donation/",
-    "response_sha256": "c62a892ff729aa3984e9c644d090947357e99a67b010f59df38a8117c5132ff6",
+    "response_sha256": "3d1c0f1eab17d3d3998dc9dfa95958382a367464fb4cf4a6d8a125424b3bcef8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -169,13 +170,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 281,
-    "captured_at": "2026-11-09T20:17:35.759Z",
+    "captured_at": "2026-11-16T19:56:25.312Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/ami-bera-recurring-donation/",
-    "response_sha256": "b250172ac4f08362c907d9af5d1137b09489cd75f74015bb47eda5da2d6dd597",
+    "response_sha256": "6038ed1a8f779c02adc267766173e8e5f72632c5655103a77a48ee6cf4d5d8a0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -212,13 +213,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 298,
-    "captured_at": "2026-11-09T20:21:46.245Z",
+    "captured_at": "2026-11-16T19:57:20.034Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mike-thompson-recurring-donation/",
-    "response_sha256": "889c23286bae701084918e6f35597e4d3cd71f594025c32d74d567268b9598e8",
+    "response_sha256": "f998b7e28d9362c4df7f908253d1fe150d9255aa8b09b010ec909c38f574ae9a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -255,13 +256,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 301,
-    "captured_at": "2026-11-09T20:22:07.587Z",
+    "captured_at": "2026-11-16T19:57:26.644Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/richard-pan-recurring-donation/",
-    "response_sha256": "5cca2fb10814598e47a5fc3c255ea16f53fc582e334c733ee234f4e674877686",
+    "response_sha256": "dbdd6e2052ba2f66cb56012b42758c6f73f0c98fd3dc8322deb8cf548afab75c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -298,13 +299,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 286,
-    "captured_at": "2026-11-09T20:19:18.927Z",
+    "captured_at": "2026-11-16T19:56:37.007Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/john-garamendi-recurring-donation/",
-    "response_sha256": "74a0672d32c4580fcc5ea18b368b393075d345075d09fd000fb0c930e0378fc8",
+    "response_sha256": "879e3486f53f3cfe1de304aee521246de29d1c81cec248488dfd5257a0333c2f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -341,13 +342,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 287,
-    "captured_at": "2026-11-09T20:19:44.347Z",
+    "captured_at": "2026-11-16T19:56:39.156Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/josh-harder-recurring-donation/",
-    "response_sha256": "4ded4c67af3f531fd2020f504256c18e3664b1a96d25608ec76c1123a0caed45",
+    "response_sha256": "1e5e3e5710c969af236a29db30b4f592e95a7cb9bccd83279fd733f9ebfe5f02",
     "bytes": "public",
     "claims": [
      "captured",
@@ -384,13 +385,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 293,
-    "captured_at": "2026-11-09T20:20:31.855Z",
+    "captured_at": "2026-11-16T19:56:52.122Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mark-desaulnier-recurring-donation/",
-    "response_sha256": "69e162181c1cdfc2f211d7ae3c47da2d2adb595730ccae665047377a00582927",
+    "response_sha256": "f9e727d4916b5b9db52c9d34e702ca00f35463d81609aa44a885093a6f006128",
     "bytes": "public",
     "claims": [
      "captured",
@@ -427,13 +428,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 308,
-    "captured_at": "2026-11-09T20:22:55.425Z",
+    "captured_at": "2026-11-16T19:57:41.613Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/scott-wiener-recurring-donation/",
-    "response_sha256": "495715d6e7d1374e62e92b5a39a02c95f99e09ae879c35c715a0d8e7e9f4c05a",
+    "response_sha256": "0971e433fb2267be6d6c881ccfe6bdaca0139a0fb6598822b4a3568080930c60",
     "bytes": "public",
     "claims": [
      "captured",
@@ -470,13 +471,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 290,
-    "captured_at": "2026-11-09T20:20:09.823Z",
+    "captured_at": "2026-11-16T19:56:45.824Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/lateefah-simon-recurring-donation/",
-    "response_sha256": "db4d87ec194b5ed039736b545d6e14fdff475cc6b98ec8d7aa9ad308f581ea26",
+    "response_sha256": "d3a82989fe31e706c5acdc4315035891d7e8b975d4d5af4ff65bdc11e8b64483",
     "bytes": "public",
     "claims": [
      "captured",
@@ -513,13 +514,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 280,
-    "captured_at": "2026-11-09T20:17:18.254Z",
+    "captured_at": "2026-11-16T19:56:22.850Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/aisha-wahab-recurring-donation/",
-    "response_sha256": "8922964f89c52c43fb56c8aa56b1096a9c0b47c42e1233b531a2060112e9a6d8",
+    "response_sha256": "b9a4b657b46ecb77bb5940b95c98e1ac6b7457324af001972539aeb8512b71d9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -556,13 +557,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 289,
-    "captured_at": "2026-11-09T20:20:00.656Z",
+    "captured_at": "2026-11-16T19:56:43.641Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/kevin-mullin-recurring-donation/",
-    "response_sha256": "a0017d23b4c645ed6b00ab04a070c2320821e2ae7f78c3c3a99571d800f568c7",
+    "response_sha256": "989778ce082420d3b36ca37256862f170402dfda3a00afc69b4e5fe02e56733a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -599,13 +600,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 305,
-    "captured_at": "2026-11-09T20:22:32.171Z",
+    "captured_at": "2026-11-16T19:57:35.348Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/sam-liccardo-recurring-donation/",
-    "response_sha256": "1c1ead9795049741bdc6e97a42abfcc1a0dad7f6e38216c1787cac68d6b5e9a5",
+    "response_sha256": "4b659d7ad6a0a054c791a945225a0b03fc5d079166670b69bb1b189254b9be8f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -642,13 +643,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 302,
-    "captured_at": "2026-11-09T20:22:13.850Z",
+    "captured_at": "2026-11-16T19:57:29.029Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/ro-khanna-recurring-donation/",
-    "response_sha256": "47525500952d4ffcc9cdcd933da5d6370b3e5aca60432374d89d4f2149edaf7e",
+    "response_sha256": "0a1381397ca94e1261790333b1ee64a729a33552a1af9b4a6efb36078f94d74c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -685,13 +686,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 310,
-    "captured_at": "2026-11-09T20:23:30.658Z",
+    "captured_at": "2026-11-16T19:58:02.722Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/zoe-lofgren-recurring-donation/",
-    "response_sha256": "0c9af89e34d06957afea724779faec0def248aba8e0ef6e59c44954c38dab1a4",
+    "response_sha256": "e759790d4a18b0ee1a3f483831e198eb67690d28ca6adcb65bafe198e3ee2918",
     "bytes": "public",
     "claims": [
      "captured",
@@ -728,13 +729,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 304,
-    "captured_at": "2026-11-09T20:22:24.876Z",
+    "captured_at": "2026-11-16T19:57:33.310Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/salud-carbajal-recurring-donation/",
-    "response_sha256": "9a6d7cf4a0bed84c237d0c4ba6147d046a19c3d9b30d4f956414623c53348e8e",
+    "response_sha256": "68199245ef15e74eb8358f1ec9b186e7571d09eaa5abcc6c75410f05d6ad4b26",
     "bytes": "public",
     "claims": [
      "captured",
@@ -771,13 +772,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 300,
-    "captured_at": "2026-11-09T20:22:00.948Z",
+    "captured_at": "2026-11-16T19:57:24.193Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/raul-ruiz-recurring-donation/",
-    "response_sha256": "1d9c971002494819d7ad2e920b25e65380d0250aebbf141582f13f63a9f9180d",
+    "response_sha256": "045866d0f78dc6f823a05565ec7ce2f4203c73b9bc7f9bedeaf5a46412300a1c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -814,13 +815,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 288,
-    "captured_at": "2026-11-09T20:19:52.457Z",
+    "captured_at": "2026-11-16T19:56:41.218Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/judy-chu-recurring-donation/",
-    "response_sha256": "1f450cc26c71c86a75295f270158001d7d2ed072540421717213f0a78d87e3a1",
+    "response_sha256": "9f692bcb920e126c2745c8354731ba2e9b118c95cb2c3849dd9a20e5af5d810e",
     "bytes": "public",
     "claims": [
      "captured",
@@ -857,13 +858,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 291,
-    "captured_at": "2026-11-09T20:20:17.915Z",
+    "captured_at": "2026-11-16T19:56:48.216Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/laura-friedman-recurring-donation/",
-    "response_sha256": "37e22af4f447db965ecdf78d491a8de66e235740edb03ccd22b80b567f179c14",
+    "response_sha256": "d0e36eea2e8c1ad0d4a91cbdcec24269ec3bbc68964c0e5219c82887dc1178f5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -900,13 +901,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 284,
-    "captured_at": "2026-11-09T20:18:32.415Z",
+    "captured_at": "2026-11-16T19:56:31.738Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/gil-cisneros-recurring-donation/",
-    "response_sha256": "7eee816949c2d24e0e22529d9ca835efaf024b526742074be04382dd0d8354bf",
+    "response_sha256": "ee3a5167db804932868dbbec56941fed99022c4b8306a2ce3922d886b89a384f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -943,13 +944,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 299,
-    "captured_at": "2026-11-09T20:21:54.741Z",
+    "captured_at": "2026-11-16T19:57:21.728Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/pete-aguilar-recurring-donation/",
-    "response_sha256": "0305772c132fb9a5fcb0c589e6b1945631dc265747a49fe38529240c351ad2f0",
+    "response_sha256": "463f8743c773a6e5444bfdb3495a15ac342505c2d67a899f98a2c053beb58e01",
     "bytes": "public",
     "claims": [
      "captured",
@@ -986,13 +987,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 309,
-    "captured_at": "2026-11-09T20:33:26.742Z",
+    "captured_at": "2026-11-16T20:09:30.490Z",
     "status": 404,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/sydney-kamlager/",
-    "response_sha256": "5da8e6d01171ed109ac9348c1b3d723280969e78f7f2937c5b835c33e16f0a30",
+    "response_sha256": "514f1affe473cf01c31567bd92580601026d0cd12c338a6b4c7df618dbbb6440",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1044,13 +1045,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 294,
-    "captured_at": "2026-11-09T20:20:43.156Z",
+    "captured_at": "2026-11-16T19:56:54.844Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mark-takano-recurring-donation/",
-    "response_sha256": "1fa3f8db0473aca812a659eef621e805a015fd8d123b530dea9f66329557f37f",
+    "response_sha256": "bd5179f07240c38f42f54e783018041fa110a9294f571fceabcbce7e5de209c1",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1087,13 +1088,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 292,
-    "captured_at": "2026-11-09T20:20:25.625Z",
+    "captured_at": "2026-11-16T19:56:50.059Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/linda-sanchez-recurring-donation-2/",
-    "response_sha256": "07e006bb49c382a6dd3d5c388471485297cc67e7541818a49d483d3acd0aa3ab",
+    "response_sha256": "376b5f0a862dbc510096d3523f1f6ac9cfe7c49534d864c2eef5a4f52fa93569",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1130,13 +1131,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 303,
-    "captured_at": "2026-11-09T20:22:18.370Z",
+    "captured_at": "2026-11-16T19:57:31.098Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/robert-garcia-recurring-donation/",
-    "response_sha256": "82d142977e29fd611bf88b7d875c8b0123a1e59317dd9072b00ee3a1a253bd62",
+    "response_sha256": "247656d9bd0dd132250785cc8d7a610feda43eae7447048e9de8c6a196495e41",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1173,13 +1174,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 283,
-    "captured_at": "2026-11-09T20:18:11.325Z",
+    "captured_at": "2026-11-16T19:56:29.913Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/derek-tran-recurring-donation/",
-    "response_sha256": "93e6b952a5004b8ef08a96642ee73ca741d0db28c68410148786174afaf72cb8",
+    "response_sha256": "634ac255b5b10996efd736f455d8dc130fefb25051d1a805917a20758166cb67",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1216,13 +1217,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 282,
-    "captured_at": "2026-11-09T20:17:53.626Z",
+    "captured_at": "2026-11-16T19:56:27.748Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/dave-min-recurring-donation/",
-    "response_sha256": "e08343580031f6ee160a15ae24fae35ceb0c1f8b068a474a61b96a4ef3264e91",
+    "response_sha256": "9d07755fafffac8e55b48fe58cd10bab9a3885bda586f053cba4612c033ab58a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1259,13 +1260,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 295,
-    "captured_at": "2026-11-09T20:21:00.785Z",
+    "captured_at": "2026-11-16T19:56:57.019Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/marni-von-wilpert-recurring-donation/",
-    "response_sha256": "9f37430114769a0f906d810eca8cbd114166daa55b95c56b44f2ac4ad4c1225e",
+    "response_sha256": "5ee4c3afee45244bb3a74a2da097b2392f90c58be7a6fc1594206a51e17b3c72",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1302,13 +1303,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 296,
-    "captured_at": "2026-11-09T20:31:36.648Z",
+    "captured_at": "2026-11-16T20:09:27.666Z",
     "status": 404,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/mike-levin/",
-    "response_sha256": "bd21895f309e5870d74a405131b73e1663ff225a1c363d52751e5a8b5a61c0db",
+    "response_sha256": "210acfc041fbe29d789109af63995bae5fb4539c0f5179ef2c94a83771dd1f63",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1360,13 +1361,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 307,
-    "captured_at": "2026-11-09T20:22:47.119Z",
+    "captured_at": "2026-11-16T19:57:39.903Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/scott-peters-recurring-donation/",
-    "response_sha256": "9058efd5827d0ffbfd23184337c9c54897ee7b066ab97a5b660ade8e33861920",
+    "response_sha256": "545646771f6c7a11a2dd30fe9609d4970d129d38723a286adb9eeaf579507849",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1403,13 +1404,13 @@
     "org_host": "jstreetpac.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 306,
-    "captured_at": "2026-11-09T20:22:39.516Z",
+    "captured_at": "2026-11-16T19:57:37.840Z",
     "status": 200,
     "error": null,
     "final_url": "https://jstreetpac.org/candidate/sara-jacobs-recurring-donation/",
-    "response_sha256": "468d083cac74a98bf0f85c2dd45277b654a1b597cb4627b23246dc9ffb753e3b",
+    "response_sha256": "ed9ab7ddc193dcfad7e4548b593eef54e0bd959144088465f7e40c87339134c6",
     "bytes": "public",
     "claims": [
      "captured",

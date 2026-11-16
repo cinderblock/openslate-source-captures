@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sandiegosierraclub.org/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 530,
-    "captured_at": "2026-11-09T20:17:53.103Z",
+    "captured_at": "2026-11-16T19:57:12.197Z",
     "status": 200,
     "error": null,
-    "final_url": "https://sandiegosierraclub.org/news/endorsed-candidates",
-    "response_sha256": "d7947cf42c11ac60d1f4b6c034583c5c8f139fd2add26df48bc2e6c64c39ba1d",
+    "final_url": "https://sandiegosierraclub.org/news/excom-candidates",
+    "response_sha256": "c8795ff82b57042d6140cbf68c649f834e4275641b747279dbce0a2fd4d8b2b2",
     "bytes": "public",
     "claims": [
      "captured",
@@ -72,9 +73,9 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 7,
-    "quoted_parts": 8,
-    "unanchored": 0,
+    "exact": 0,
+    "quoted_parts": 0,
+    "unanchored": 15,
     "no_statement": 16
    }
   },
@@ -87,13 +88,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 529,
-    "captured_at": "2026-11-09T20:17:50.695Z",
+    "captured_at": "2026-11-16T19:57:08.954Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/",
-    "response_sha256": "f3d0a59fef61c97e26c11490fb2e853cb066f76d8255f62232a6e88232faec40",
+    "response_sha256": "f953e234d9c6f8f39e1fe1c4cba4238fc38b976bc62ef2f4e684fcfa52bb61d4",
     "bytes": "public",
     "claims": [
      "captured",
@@ -125,13 +126,13 @@
     "org_host": "sandiegosierraclub.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 531,
-    "captured_at": "2026-11-09T20:17:54.889Z",
+    "captured_at": "2026-11-16T19:57:13.993Z",
     "status": 200,
     "error": null,
     "final_url": "https://sandiegosierraclub.org/no-on-45",
-    "response_sha256": "1e43a1a9462386bc29bda5df208246552a177c9fb3c9c2a1565028affed18e36",
+    "response_sha256": "64ae33ca0de6a470b499f4efeb2f71ef4ea5ad6917e3c4ba53f488a922b27e01",
     "bytes": "public",
     "claims": [
      "captured",

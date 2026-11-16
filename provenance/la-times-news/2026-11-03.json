@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.latimes.com/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 878,
-    "captured_at": "2026-11-09T20:19:01.177Z",
+    "captured_at": "2026-11-16T19:58:37.722Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/california/story/2026-10-01/2026-california-general-election-voter-guide",
-    "response_sha256": "e81ef81913c706bbca6080a14dcf65138fa108fe306461dfb9da70e6c79db878",
+    "response_sha256": "598af73a6d9dfbeddcec9bd27acd61f7bd85409bf40fe0a040ddf4e342a6cf36",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -83,13 +84,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 877,
-    "captured_at": "2026-11-09T20:18:59.555Z",
+    "captured_at": "2026-11-16T19:58:36.209Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/california",
-    "response_sha256": "93f5c4df2e3dd4b30101ff6d7063595b81b97e173185145079e6f9a94dd2aaf6",
+    "response_sha256": "6d6f4e98bf7b6868daf8e7b1abc9c910e5f09298a87c180b19f9a5da2bd86c4f",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -121,13 +122,13 @@
     "org_host": "latimes.com"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 880,
-    "captured_at": "2026-11-09T20:19:04.429Z",
+    "captured_at": "2026-11-16T19:58:41.836Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.latimes.com/sitemaps/sitemap-202610.xml",
-    "response_sha256": "6647df81b852a8b8b54d478d66b34a0650236f06ab1d2f4e73e22df5920001c2",
+    "response_sha256": "ae9ade45af8a0eba32e94b3473390753fb2bad8416d1c17b2fee3b06b682fffe",
     "bytes": "withheld",
     "claims": [
      "captured",

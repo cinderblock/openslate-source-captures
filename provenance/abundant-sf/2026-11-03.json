@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.abundantsanfrancisco.org/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "abundantsanfrancisco.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 793,
-    "captured_at": "2026-11-09T20:18:27.152Z",
+    "captured_at": "2026-11-16T19:58:01.231Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.abundantsanfrancisco.org/vote",
-    "response_sha256": "4aeddd514ed5e32f26e667cdb6dfe4694fd3c88ac2f19649f40dbb60a92a3d93",
+    "response_sha256": "3785b7239f9a3bf02ac8bd9da80b7214a29a10fe073da71b5dbf248acdadf439",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,13 +89,13 @@
     "org_host": "abundantsanfrancisco.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 794,
-    "captured_at": "2026-11-09T20:18:29.092Z",
+    "captured_at": "2026-11-16T19:58:02.878Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.abundantsanfrancisco.org/vote/ballot-measures",
-    "response_sha256": "8dc849741a7e0130a57bc272806ae0e5c18ef939115351b758038498f02323b9",
+    "response_sha256": "9447fe7fd3bbde069584add21d53b191d87dd25498dbf889a68df6021970d9ed",
     "bytes": "public",
     "claims": [
      "captured",

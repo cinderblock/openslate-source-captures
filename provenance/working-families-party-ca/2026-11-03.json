@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://workingfamilies.org/states/california/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,6 +46,22 @@
     "org_host": "workingfamilies.org"
    },
    "latest": {
+    "run": "2026-11-16T1955Z",
+    "index": 790,
+    "captured_at": "2026-11-16T20:09:29.279Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://workingfamilies.org/states/california/",
+    "response_sha256": "72969c20956bac78400057069aba3fb0ad74ab1080d66f171a90380d25598a97",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci",
+     "independently-archived"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-09T2016Z",
     "index": 790,
     "captured_at": "2026-11-09T20:18:27.218Z",
@@ -60,7 +77,6 @@
      "independently-archived"
     ]
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261030235150id_/https://workingfamilies.org/state/california/",
     "timestamp": "20261030235150",
@@ -88,6 +104,21 @@
     "org_host": "workingfamilies.org"
    },
    "latest": {
+    "run": "2026-11-16T1955Z",
+    "index": 791,
+    "captured_at": "2026-11-16T20:09:31.332Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://workingfamilies.org/wp-admin/admin-ajax.php",
+    "response_sha256": "de6bb8caa2a516b1a39e33291bb502b39dec6ce3d00c9e4488c363771490629a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-09T2016Z",
     "index": 791,
     "captured_at": "2026-11-09T20:18:28.862Z",
@@ -102,7 +133,6 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": null,
    "archived": null,
    "derivation": {
     "kind": "anchored",

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://sandiegorepublicans.org/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "sandiegorepublicans.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 528,
-    "captured_at": "2026-11-09T20:17:49.780Z",
+    "captured_at": "2026-11-16T19:57:09.064Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sandiegorepublicans.org/voter-guides/san-diego",
-    "response_sha256": "d9793836230cd3d17f779e571938b53adbbf703807f66bc89f3e58f6b2bc1205",
+    "response_sha256": "49fa35cb93ecb5281440b988739a5dc58a9f31aae1a9d46965ce474131517c26",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,13 +89,13 @@
     "org_host": "sandiegorepublicans.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 870,
-    "captured_at": "2026-11-09T20:19:00.101Z",
+    "captured_at": "2026-11-16T19:58:34.699Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.kpbs.org/news/politics/2026/09/30/2026-general-election-guide-to-endorsements-from-san-diego-democrats-republicans-green-libertarian",
-    "response_sha256": "b268c02c553576c99256b66fc4946007b851317c4b3224736ce52e19f2cb15fb",
+    "response_sha256": "4546c899a62f7c5d296d0c3f6c004a12fbb9f965dc344e85019d346bc92cd337",
     "bytes": "withheld",
     "claims": [
      "captured",

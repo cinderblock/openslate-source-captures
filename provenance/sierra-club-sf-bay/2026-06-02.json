@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.sierraclub.org/sfbay",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "sierraclub.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 1136,
-    "captured_at": "2026-11-09T20:20:06.888Z",
+    "captured_at": "2026-11-16T19:59:34.996Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.sierraclub.org/sfbay/2026-endorsements",
-    "response_sha256": "2cdd8a59b6d69eac83da09eb48197baa00bcefc658590725fa11d7825a2a2c1d",
+    "response_sha256": "97476d10835b48148b071c4ea1d4cb00efcbc01ec253a64810de37df3d3e38e3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -60,15 +61,14 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "201f7212d4e94f1cc42bc224b9cee954ff2c896195e1c595ce302a30c6641b2c"
+     "dom_sha256": "88dd5f36b243f5ae889715a5a33b4d0b2361dd776fa1e8dce191df49df97bd8f"
     }
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030090703id_/https://www.sierraclub.org/sfbay/2026-endorsements",
-    "timestamp": "20261030090703",
-    "digest": "RM5NM77QFPMSIVPUEMQUTCNHNLISCQGT",
-    "origin": "existing",
+    "url": "https://web.archive.org/web/20261110202245id_/https://www.sierraclub.org/sfbay/2026-endorsements",
+    "timestamp": "20261110202245",
+    "digest": "PTUQS3DZ47M3YGFHI6PKSSSES3YT2OQQ",
     "statements": {
      "found": 59,
      "of": 60

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.marinij.com/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "marinij.com"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 885,
-    "captured_at": "2026-11-09T20:19:02.050Z",
+    "captured_at": "2026-11-16T20:09:31.046Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
-    "response_sha256": "bef8ae6a16bf2cd3061477f7387f1638efd7b6796c3d76cc2dc8ea6c5db1e2ea",
+    "response_sha256": "caf11b0ebde5a43a6c4a44a296ab249e76691a39dda6e338ed08c24332fd935c",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -73,9 +74,9 @@
    },
    "derivation": {
     "kind": "anchored",
-    "exact": 33,
+    "exact": 0,
     "quoted_parts": 0,
-    "unanchored": 0,
+    "unanchored": 33,
     "no_statement": 0
    }
   },
@@ -88,13 +89,13 @@
     "org_host": "marinij.com"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 886,
-    "captured_at": "2026-11-09T20:19:03.640Z",
+    "captured_at": "2026-11-16T19:58:55.929Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.marinij.com/2026/10/30/marin-ij-editorial-board-endorsements-for-the-nov-3-election/",
-    "response_sha256": "1c590b304eda2bbdf153a38d749a2a3b8945108be670d2c17a49fd6d0d45452a",
+    "response_sha256": "46dddc1370ff2f152d61724d02b0a081d8016f128b13b9741f48a976f854f59a",
     "bytes": "withheld",
     "claims": [
      "captured",

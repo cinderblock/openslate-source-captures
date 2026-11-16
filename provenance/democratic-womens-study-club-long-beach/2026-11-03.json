@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.facebook.com/DWSCLB",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 38,
-    "captured_at": "2026-11-09T20:16:36.251Z",
+    "captured_at": "2026-11-16T19:55:48.295Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Democratic_Womens_Study_Club_of_Long_Beach/CA/2916",
-    "response_sha256": "d40189d77fea3f6adef64abaf2751ff8391835784edceb38c24e846242939692",
+    "response_sha256": "11de8f55f0f02280a194c7cbd18df653f036de3e5f7ebe29ac9bf53c8ee0a282",
     "bytes": "public",
     "claims": [
      "captured",
@@ -88,13 +89,13 @@
     "org_host": "facebook.com"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 854,
-    "captured_at": "2026-11-09T20:18:50.838Z",
+    "captured_at": "2026-11-16T19:58:25.882Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.facebook.com/DWSCLB/posts/pfbid0re4zBhoi9gTzbJNkUnn9FuMbnTzwePGkh9CBQFfdgLUC87GpUKNmWDWHkWorD1XMl",
-    "response_sha256": "a2f931f9e47f70408dad2a85176132f44f985c61aeaed7629f6974e56b177b5c",
+    "response_sha256": "4c3d581f059f456713197b225fcd83dd3d4528c64f220b341d9af40982913412",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -103,7 +104,7 @@
     ],
     "rendered": {
      "status": 200,
-     "dom_sha256": "aefdfc7b5a100ce75d760c9e6cc7e4b1fbb661142448bd3f6fccd9b1db8761aa"
+     "dom_sha256": "71f4903475bcd62fd199f8766d42452cde0444aeef4dff6731f1645a3df80cd9"
     }
    },
    "last_ok": null,

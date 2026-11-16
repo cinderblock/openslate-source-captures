@@ -5,7 +5,7 @@
  "mode": "transcribed",
  "org_uri": "https://weareprogressives.org/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "weareprogressives.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 782,
-    "captured_at": "2026-11-09T20:18:18.352Z",
+    "captured_at": "2026-11-16T19:57:44.366Z",
     "status": 200,
     "error": null,
     "final_url": "https://weareprogressives.org/",
-    "response_sha256": "40cfecf9c055efb66154019a51b777b3c77e80d738258f26c5067d28a0f5fc36",
+    "response_sha256": "b2c0c1a09b8d2832fb751f86bbda9a6b781ca0268caded8114684641b7109f30",
     "bytes": "public",
     "claims": [
      "captured",
@@ -87,13 +88,13 @@
     "org_host": "weareprogressives.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 783,
-    "captured_at": "2026-11-09T20:18:20.140Z",
+    "captured_at": "2026-11-16T19:58:32.461Z",
     "status": 200,
-    "error": null,
+    "error": "Error: read ECONNRESET",
     "final_url": "https://weareprogressives.org/wp-content/uploads/2025/11/rv-twitter.png",
-    "response_sha256": "0355939a47b72acf598708f81a3f058b8f61bb84cfac2a3ae32da892ad988dcd",
+    "response_sha256": "1837bcfc1c7d5fe3a89224e5c80e91041e29c307fec9ace00acaff58ac8f9721",
     "bytes": "public",
     "claims": [
      "captured",
@@ -114,7 +115,7 @@
     "quoted_parts": 0,
     "unanchored": 0,
     "no_statement": 0,
-    "reason": "image"
+    "reason": "unreadable: unexpected end of file"
    }
   },
   {
@@ -126,13 +127,13 @@
     "org_host": "weareprogressives.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 784,
-    "captured_at": "2026-11-09T20:18:22.024Z",
+    "captured_at": "2026-11-16T19:58:42.749Z",
     "status": 200,
     "error": null,
     "final_url": "https://weareprogressives.org/wp-content/uploads/2026/03/hilda-solis_rv-twitter.png",
-    "response_sha256": "32f4f323dae192110e17777db797d4890fa7c5053ff99bb92bb5c755d11295b0",
+    "response_sha256": "74c39e8a342f0ae31b45404689bae1ce0bfb306ca1c0b72706cf89dd64b29cdf",
     "bytes": "public",
     "claims": [
      "captured",
@@ -165,13 +166,13 @@
     "org_host": "weareprogressives.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 785,
-    "captured_at": "2026-11-09T20:18:23.793Z",
+    "captured_at": "2026-11-16T19:58:46.207Z",
     "status": 200,
     "error": null,
     "final_url": "https://weareprogressives.org/wp-content/uploads/2026/04/aisha-wahab-ca-14_rv-twitter.png",
-    "response_sha256": "2f1a1b7f75511fd3bb4b6e797188b7d3388171583c4b60ab8d8bbcfdf6c03e55",
+    "response_sha256": "f5ceef9027158e1f7a2e10b388d1a2b4bd8494d1c176f591bc207f2bc4f73ebe",
     "bytes": "public",
     "claims": [
      "captured",
@@ -204,13 +205,13 @@
     "org_host": "weareprogressives.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 786,
-    "captured_at": "2026-11-09T20:18:25.474Z",
+    "captured_at": "2026-11-16T19:58:49.239Z",
     "status": 200,
     "error": null,
     "final_url": "https://weareprogressives.org/wp-content/uploads/2026/06/ca-01_cpc-endorsement_rv-twitter.png",
-    "response_sha256": "4177225e9be9e10ec459b863eff876b9edd3ed343f3e4dad352605c5d5600796",
+    "response_sha256": "3620659c7bc3b1706ddf700a40e41f261f3b23ab11e2db219932dbf2dcbec2d5",
     "bytes": "public",
     "claims": [
      "captured",

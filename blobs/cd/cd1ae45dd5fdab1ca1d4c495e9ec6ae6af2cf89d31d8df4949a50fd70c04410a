@@ -1,0 +1,26 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Mon, 16 Nov 2026 19:59:39 GMT
+Transfer-Encoding: chunked
+Connection: close
+content-security-policy: object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+location: /tracker/candidates
+permissions-policy: camera=(), microphone=(), geolocation=(self)
+referrer-policy: strict-origin-when-cross-origin
+Server: cloudflare
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-railway-request-id: dpv5haDSQ6CMqYmQBT7zVQ
+x-railway-edge: iad1
+x-hikari-trace: iad1.trg5
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0Mlr3TnLmYz6t54WXoHUWUMacy7f3Sre7jv4PQa00ejZKeq5mE8Ly%2BPeYt6s%2Bl07kEFjSeamcDIstFx3SuxZiTpT3JSSH8vmZk2orSR3eoCvK%2Bj%2Bq2%2Bzyvxy8nNm%2BEY%2Ba3RjMA%3D%3D"}]}
+cf-cache-status: DYNAMIC
+Speculation-Rules: "/cdn-cgi/speculation"
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=27,cfOrigin;dur=5
+CF-RAY: a5b913d2792bffbc-IAD
+alt-svc: h3=":443"; ma=86400
+
+0
+

@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://vote.santaclaracounty.gov/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 198,
-    "captured_at": "2026-11-09T20:29:52.333Z",
+    "captured_at": "2026-11-16T20:09:29.278Z",
     "status": 403,
     "error": null,
     "final_url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf?VersionId=CM6jbwAVTLFIjLakj6hJku2l9KPAIxli",
-    "response_sha256": "12c9a45d64b430c56b4b34af855d8d502da2fd065ea51ecca617b2575af6438f",
+    "response_sha256": "87e1dd7a8c4aa7498e2bc639568717c7bc439b58e8d8c92fde5416e387e50a30",
     "bytes": "public",
     "claims": [
      "captured",
@@ -91,13 +92,13 @@
     "org_host": "vote.santaclaracounty.gov"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 52,
-    "captured_at": "2026-11-09T20:16:54.275Z",
+    "captured_at": "2026-11-16T19:56:05.049Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
-    "response_sha256": "bb1e602f48ccc11a8e3d5ba5525ac63cf8b9f5441aab4db721409d50160475e9",
+    "response_sha256": "4194bc6456fc25fd9a6374b787d157dbeb206ded819d589bde372a45f8cc1c27",
     "bytes": "public",
     "claims": [
      "captured",

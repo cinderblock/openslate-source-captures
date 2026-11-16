@@ -5,7 +5,7 @@
  "mode": "scraped",
  "org_uri": "https://www.bradyunited.org/",
  "generated_from": {
-  "endorsements_commit": "da8e9c4c91db2a09d9816c9e6eacc42fa25fe1fc",
+  "endorsements_commit": "c2613d59cbeb107a553164d48d8d9220b96ff06e",
   "runs": [
    "2026-10-30T1700Z",
    "2026-10-30T1731Z",
@@ -32,7 +32,8 @@
    "2026-11-05T1322Z",
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
-   "2026-11-09T2016Z"
+   "2026-11-09T2016Z",
+   "2026-11-16T1955Z"
   ]
  },
  "sources": [
@@ -45,13 +46,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 190,
-    "captured_at": "2026-11-09T20:18:08.482Z",
+    "captured_at": "2026-11-16T19:57:15.350Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates?state=california",
-    "response_sha256": "1b6a8c307913b63ce32744443a0cf9c0876df6c8e05a0a963d022ae10d6ad5f5",
+    "response_sha256": "0a0d6cd5b84fcebd6b99daeba548d118eb47d760b57656026182937d4770458a",
     "bytes": "public",
     "claims": [
      "captured",
@@ -83,13 +84,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 180,
-    "captured_at": "2026-11-09T20:17:40.528Z",
+    "captured_at": "2026-11-16T19:56:47.262Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/p2?state=california",
-    "response_sha256": "3cd335ddea73ef4e6a34a3526235ca503b53598ded3e4f8d467282c8c7dcaf89",
+    "response_sha256": "d15b4b261e82261cc5c0f8f9626525c288af2370ae7f8cbb5724409dfb29cc19",
     "bytes": "public",
     "claims": [
      "captured",
@@ -121,13 +122,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 183,
-    "captured_at": "2026-11-09T20:17:48.337Z",
+    "captured_at": "2026-11-16T19:56:55.400Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/rob-bonta",
-    "response_sha256": "884eafe6069a1b424c00fa22586718ddb1b63dbe2675d6311bb13fb5da3f4caa",
+    "response_sha256": "9958dbdef87f8d46c8d3e11ef434bdc9ddc29c1037fa5abcfffe65e6a7876386",
     "bytes": "public",
     "claims": [
      "captured",
@@ -163,13 +164,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 178,
-    "captured_at": "2026-11-09T20:17:35.386Z",
+    "captured_at": "2026-11-16T19:56:42.026Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/mike-mcguire",
-    "response_sha256": "d0217f8a5c38316610105e2d75768fb2b365ac3ba199c271344c9f8d1a500a44",
+    "response_sha256": "f438b17421e19f89fca3f3332903d522f3fa33a195cf6a521c87fd0691dde89c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -180,9 +181,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030232015id_/https://elections.bradyunited.org/candidates/mike-mcguire",
-    "timestamp": "20261030232015",
-    "digest": "OOQVJFZ373GHQXGTUTLPCLOQV4BRTIUD",
+    "url": "https://web.archive.org/web/20261031031857id_/https://elections.bradyunited.org/candidates/mike-mcguire",
+    "timestamp": "20261031031857",
+    "digest": "UEBX3OSJ6TYK4FRY42KV3ILV4FPOTKPM",
     "statements": {
      "found": 1,
      "of": 1
@@ -205,13 +206,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 167,
-    "captured_at": "2026-11-09T20:17:01.043Z",
+    "captured_at": "2026-11-16T19:56:12.713Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/dr-richard-pan",
-    "response_sha256": "1c6cc73e94afed2f7b3ab7efe648d76ec94ea2b9bb147319e7944a5be7fe9ca9",
+    "response_sha256": "d29818351e2d2aa08834c173515a7d88fd7e906e4771ca1acb8de57415ba88a8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -222,10 +223,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030220914id_/https://elections.bradyunited.org/candidates/dr-richard-pan",
-    "timestamp": "20261030220914",
-    "digest": "SRNXPMRPPS6EAYHVMSYJ7FFHRXICP2UU",
-    "origin": "requested",
+    "url": "https://web.archive.org/web/20261031031857id_/https://elections.bradyunited.org/candidates/dr-richard-pan",
+    "timestamp": "20261031031857",
+    "digest": "XAS7CCJZ2FXZYJM3E4JIA4R6WNXSHI5H",
     "statements": {
      "found": 1,
      "of": 1
@@ -248,13 +248,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 172,
-    "captured_at": "2026-11-09T20:17:17.674Z",
+    "captured_at": "2026-11-16T19:56:25.636Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/josh-harder",
-    "response_sha256": "759c8189a4be795b0965b689699c1a6b06cb3acdf2a2e0552dfca9c43a8821cd",
+    "response_sha256": "7451ea6217c22f672df00077d7ddc36484b5a3385c59d02cdbe74c0af0ad8fcc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -291,13 +291,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 189,
-    "captured_at": "2026-11-09T20:18:05.619Z",
+    "captured_at": "2026-11-16T19:57:12.549Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/zoe-lofgren",
-    "response_sha256": "c8bbe530babd46b466aabf28c25b3ff4969466a9f825e727b674522b8490c00a",
+    "response_sha256": "96709534cbb20be347fd6e8a2a75259e6bb4dc5657eaf5eac9c837bfe26047d5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -334,13 +334,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 182,
-    "captured_at": "2026-11-09T20:17:46.049Z",
+    "captured_at": "2026-11-16T19:56:52.827Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/randy-villegas",
-    "response_sha256": "f0a4ac5540b3b37dceff81c59658ac8bdea6316b9ea49b19ca54993c3b85201b",
+    "response_sha256": "71842e5eb78238b796bbd092f7ac1ab5a258105873f2a39a5abcbff686fd85f9",
     "bytes": "public",
     "claims": [
      "captured",
@@ -376,13 +376,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 185,
-    "captured_at": "2026-11-09T20:17:54.128Z",
+    "captured_at": "2026-11-16T19:57:01.124Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/salud-carbajal",
-    "response_sha256": "0362095dff3b2f4f0da6b66427dd612b167ab8193c934416c1156863ad8e45a4",
+    "response_sha256": "25ae7aaf2c732e534d260da213c30db4fee93eaca765550603153c075edea47b",
     "bytes": "public",
     "claims": [
      "captured",
@@ -419,13 +419,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 166,
-    "captured_at": "2026-11-09T20:16:57.868Z",
+    "captured_at": "2026-11-16T19:56:09.893Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/dr-raul-ruiz",
-    "response_sha256": "9f6eb16cd64c8dce134930e166f1edba0d88dd8456d4a35d34a755b5d90979b3",
+    "response_sha256": "b2b62004a926766ffda8570c9060506a65f749c7f2aff13c026e8d3499396177",
     "bytes": "public",
     "claims": [
      "captured",
@@ -462,13 +462,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 171,
-    "captured_at": "2026-11-09T20:17:14.632Z",
+    "captured_at": "2026-11-16T19:56:22.910Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/jacqui-irwin",
-    "response_sha256": "d230f4b14dcd177a0e06b9853fcaee4c3ea0599df99b3f86d27cbefce0ab9129",
+    "response_sha256": "c045092506a103aa2df2fd93736e9cfa401231957905157aa1ee84570f3ec57f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -479,9 +479,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030232005id_/https://elections.bradyunited.org/candidates/jacqui-irwin",
-    "timestamp": "20261030232005",
-    "digest": "JZHLDX4PVGIP2YOP3NAAYKO6MHGP34HK",
+    "url": "https://web.archive.org/web/20261031032258id_/https://elections.bradyunited.org/candidates/jacqui-irwin",
+    "timestamp": "20261031032258",
+    "digest": "CFMEDEQVKPCMWPIYE6BH2XES2JFCRW5M",
     "statements": {
      "found": 1,
      "of": 1
@@ -504,13 +504,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 168,
-    "captured_at": "2026-11-09T20:17:04.878Z",
+    "captured_at": "2026-11-16T19:56:15.283Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/george-whitesides",
-    "response_sha256": "6cd9c8525c6323647672558e8d0c4948ebeab16187fe9f749151dea614e85c98",
+    "response_sha256": "d6ff4e39d1568a288ad2538c7cd4a12c6c317220b088e9a4d0a3f1031a6413d8",
     "bytes": "public",
     "claims": [
      "captured",
@@ -547,13 +547,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 173,
-    "captured_at": "2026-11-09T20:17:20.823Z",
+    "captured_at": "2026-11-16T19:56:28.352Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/judy-chu",
-    "response_sha256": "39d2e9bfe9cda51a5effeb5196d768504884cbca620fdb940d152a55ee1fbda7",
+    "response_sha256": "be15b5d098f2420f5ff2635063bac162e0eb0d4c1d2d11f6d599d03a9043aae3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -590,13 +590,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 169,
-    "captured_at": "2026-11-09T20:17:08.228Z",
+    "captured_at": "2026-11-16T19:56:18.127Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/gil-cisneros",
-    "response_sha256": "58ef9a243f7200e1d019cd876132683c1d50062660c48a3b500665b14b43347a",
+    "response_sha256": "3737cf8785a5efa640cec9ed992f3f4e7178b1c3474c9c0a1245556a8fd292dc",
     "bytes": "public",
     "claims": [
      "captured",
@@ -633,13 +633,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 181,
-    "captured_at": "2026-11-09T20:17:43.003Z",
+    "captured_at": "2026-11-16T19:56:50.101Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/pete-aguilar",
-    "response_sha256": "dadd36fc977bb94a742b42adc9543d7635dddfd3edb24b9453c686fdcac8e483",
+    "response_sha256": "a0c2c2bab536051429eca0dd1cd22fb08f2aa77c1a8abbd9af90122b23c1a33f",
     "bytes": "public",
     "claims": [
      "captured",
@@ -676,13 +676,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 179,
-    "captured_at": "2026-11-09T20:17:37.697Z",
+    "captured_at": "2026-11-16T19:56:44.608Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/norma-torres",
-    "response_sha256": "e52af21a5196fe52f5b53e60ee055ab78fcb142f729c1d321fcc019b32a2774a",
+    "response_sha256": "1388c8edfa6e60876f47dbe138c0daeb58f29690d9b32288f4217831fef888e5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -719,13 +719,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 188,
-    "captured_at": "2026-11-09T20:18:02.323Z",
+    "captured_at": "2026-11-16T19:57:10.017Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/ted-lieu",
-    "response_sha256": "b8c98643536e549ea187bc41e8e05668536dd8db38a30c7cd76dceb1076bd000",
+    "response_sha256": "78b09bd8f0c0c72ed8ac4ca680cb6169f800b86e4d3181f0368bec460f18120c",
     "bytes": "public",
     "claims": [
      "captured",
@@ -762,13 +762,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 170,
-    "captured_at": "2026-11-09T20:17:11.685Z",
+    "captured_at": "2026-11-16T19:56:20.211Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/hilda-solis",
-    "response_sha256": "301f80b03e6d27c33066b508da4ee2eedef9257f9d545266e6b08eb6f76e91f0",
+    "response_sha256": "0de52660fed4cad0699418fb7c7dd26c891ee791c895b5e9c0665972aa03c5b0",
     "bytes": "public",
     "claims": [
      "captured",
@@ -804,13 +804,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 174,
-    "captured_at": "2026-11-09T20:17:23.634Z",
+    "captured_at": "2026-11-16T19:56:31.251Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/mark-takano",
-    "response_sha256": "75c3ba859cb127cf50816d91c0424e82adb5b95f7dda04b64a082e1678ed4672",
+    "response_sha256": "7549a129cd6d46f2d819c2602779d45a458d74c05858200253f47f2bc18d7223",
     "bytes": "public",
     "claims": [
      "captured",
@@ -847,13 +847,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 184,
-    "captured_at": "2026-11-09T20:17:51.116Z",
+    "captured_at": "2026-11-16T19:56:58.119Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/robert-garcia-ca",
-    "response_sha256": "71c2dbb93347e44f7ddd0f874128706b3882f571c8f306e6f33dd07b5371c3f4",
+    "response_sha256": "27c0717016c45df510b1aff6de6a1fefeed4ee757ef86074d4ffd0a875cd05e3",
     "bytes": "public",
     "claims": [
      "captured",
@@ -864,9 +864,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030232108id_/https://elections.bradyunited.org/candidates/robert-garcia-ca",
-    "timestamp": "20261030232108",
-    "digest": "7EXZAG447GPKRUJEZRSMEBE6LJC3MFWB",
+    "url": "https://web.archive.org/web/20261031032258id_/https://elections.bradyunited.org/candidates/robert-garcia-ca",
+    "timestamp": "20261031032258",
+    "digest": "WMYJFSRVWBSDYFBCTQLW6IHKFK7LQ5PK",
     "statements": {
      "found": 1,
      "of": 1
@@ -889,13 +889,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 176,
-    "captured_at": "2026-11-09T20:17:29.550Z",
+    "captured_at": "2026-11-16T19:56:36.642Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/maxine-waters",
-    "response_sha256": "7dd4a4449d2893476a32d04cf520aab29820e0fe09bd9a12d3ac52d7bafc90d4",
+    "response_sha256": "61860fe6af11e30c8905a3e988cdb0a6cfbc5652e16158b387b5737fb21b3e64",
     "bytes": "public",
     "claims": [
      "captured",
@@ -932,13 +932,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 165,
-    "captured_at": "2026-11-09T20:16:54.868Z",
+    "captured_at": "2026-11-16T19:56:07.626Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/dave-min",
-    "response_sha256": "1a34aa679471935feb89675e12d3f11c31d5e10aec9638fa22adf9b255a3e3cc",
+    "response_sha256": "138b289c3e3666be0e90aedf60f169c82c58f4fc9d356612d5653dd65c46fd94",
     "bytes": "public",
     "claims": [
      "captured",
@@ -975,13 +975,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 175,
-    "captured_at": "2026-11-09T20:17:26.635Z",
+    "captured_at": "2026-11-16T19:56:34.028Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/marni-von-wilpert",
-    "response_sha256": "8bc4d3e3ec176c2dd8e2df5d9f1a15707b0b346ac92415aed1f0e96bc2a0d569",
+    "response_sha256": "aa70c2787ae1213b16d3dc93a9e71ecd5b5c44e4804e7650ca28c892a3245819",
     "bytes": "public",
     "claims": [
      "captured",
@@ -992,9 +992,9 @@
    },
    "last_ok": null,
    "archived": {
-    "url": "https://web.archive.org/web/20261030232009id_/https://elections.bradyunited.org/candidates/marni-von-wilpert",
-    "timestamp": "20261030232009",
-    "digest": "5PZTRKWK7SQBZM7GYSYOYJZXCKZ7DJRX",
+    "url": "https://web.archive.org/web/20261031031857id_/https://elections.bradyunited.org/candidates/marni-von-wilpert",
+    "timestamp": "20261031031857",
+    "digest": "VHJS36KTLEKTTOEUU2VMWTTLGH5ICBXI",
     "statements": {
      "found": 1,
      "of": 1
@@ -1017,13 +1017,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 177,
-    "captured_at": "2026-11-09T20:17:32.562Z",
+    "captured_at": "2026-11-16T19:56:39.248Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/mike-levin",
-    "response_sha256": "34e659e11e1086a676fd77a852bdb69a3baea4f9bcf754d4e4567e5c4e81aa5c",
+    "response_sha256": "0731d48f6642d7ad55960ef95ce88ebc543a1a2bc6bbb0eb0cf5959fa62df513",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1060,13 +1060,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 187,
-    "captured_at": "2026-11-09T20:17:59.543Z",
+    "captured_at": "2026-11-16T19:57:07.314Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/scott-peters",
-    "response_sha256": "c6e8491374b104a2dca6a4b00ffb44bbf00b4feae45be6b8895a0a722604eebe",
+    "response_sha256": "1d662608c0566171273490d68ea6df6c079fedd7d7eafe416409e56fd2efb642",
     "bytes": "public",
     "claims": [
      "captured",
@@ -1103,13 +1103,13 @@
     "org_host": "bradyunited.org"
    },
    "latest": {
-    "run": "2026-11-09T2016Z",
+    "run": "2026-11-16T1955Z",
     "index": 186,
-    "captured_at": "2026-11-09T20:17:57.016Z",
+    "captured_at": "2026-11-16T19:57:03.828Z",
     "status": 200,
     "error": null,
     "final_url": "https://elections.bradyunited.org/candidates/sara-jacobs",
-    "response_sha256": "a01733314a1e9f2196bef9555fb3baed9c73cf36a70fa4dc348fc73cb2a46ff2",
+    "response_sha256": "6515c0741963f40c68f9d65564753e5364ca4f215aa9cbbd414c68f0ab4da7e2",
     "bytes": "public",
     "claims": [
      "captured",
