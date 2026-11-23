@@ -1,0 +1,21 @@
+HTTP/1.1 301 Moved Permanently
+location: https://www.fresnogop.org/
+x-cache-status: MISS
+cache-control: public,max-age=0,must-revalidate
+server: Pepyaka
+x-content-type-options: nosniff
+accept-ranges: bytes
+age: 18088
+date: Mon, 23 Nov 2026 21:50:47 GMT
+x-served-by: cache-bur-kbur8200145-BUR
+x-cache: HIT
+server-timing: cache;desc=miss, varnish;desc=miss_hit, dc;desc=fastly_g
+x-wix-request-id: 1795470647.836568317702876585
+strict-transport-security: max-age=31556952
+x-seen-by: yvSunuo/8ld62ehjr5B7kA==,9WD8GAcpJgs/Ng1WkD2i0h9slopJdhD+WySraMrpIY8=,T7xPrjRFKDMHVv938PYVfx9slopJdhD+WySraMrpIY8=,Ua1iSBCTq7qSXjmRCGE1N+B42TB70vORul7vo3FOA2ainXCyAhd7J2xWQb/5pFbRiEjJ19gJ6UUN+Su9S15jeOfYnobzkfHiKN89w6hCASk=,2d58ifebGbosy5xc+FRaln/nG369qNYAhlGCKsg8mycXEgoKaaDTcDojXBed+sVhpc/3V8lE/B1jbfqWgsQUUA==,2UNV7KOq4oGjA5+PKsX47EcNVZxMrnxWFErTxnFN3IM=,2UNV7KOq4oGjA5+PKsX47KtUTHQeecWkgrb9IlLu/OM=,R8nVwPJv9QJL1m78OROO+FDVD1ilFrQYBFbMZj7D3r8=,QCwmNx1TNUYLIqEqVA58ONn/JTN7BXQRppWmvgxoCYgSO5XmrrCSQNDehIjmfew3jZljnkFvJ6c0/ka6/CFEzg==
+Content-Length: 0
+via: 1.1 google
+glb-x-seen-by: bS8wRlGzu0Hc+WrYuHB8QIg44yfcdCMJRkBoQ1h6Vjc=
+Alt-Svc: h3=":443"; ma=2592000
+Connection: close
+

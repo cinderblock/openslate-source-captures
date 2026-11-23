@@ -33,7 +33,8 @@
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
    "2026-11-09T2016Z",
-   "2026-11-16T1955Z"
+   "2026-11-16T1955Z",
+   "2026-11-23T2148Z"
   ]
  },
  "sources": [
@@ -46,13 +47,13 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 39,
-    "captured_at": "2026-11-16T19:55:50.382Z",
+    "captured_at": "2026-11-23T21:48:19.036Z",
     "status": 200,
     "error": null,
     "final_url": "https://bluevoterguide.org/endorser-org/Long_Beach_Young_Democrats_(LBYD)/CA/3268",
-    "response_sha256": "ba2d0efe7c6d3fa500b94372cc622a55c512a120504da64ae36031add7adb74b",
+    "response_sha256": "3d27885bd9d10e94393b0244daa333d4275d9d8af89a44bd95c35f86ea6f89a5",
     "bytes": "public",
     "claims": [
      "captured",
@@ -89,23 +90,19 @@
     "org_host": "bluevoterguide.org"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 867,
-    "captured_at": "2026-11-16T19:58:29.878Z",
+    "captured_at": "2026-11-23T21:50:51.514Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.instagram.com/p/DXQUW-BlDP9/?img_index=2",
-    "response_sha256": "e327a4c3018e2304a8b9fc4792ada98a46b434bdd9d667b2b0c17b5a99b949b6",
+    "response_sha256": "3ba8876d7490742ef1a61f6c68d0e97b40c741002fac3b60b7cbb6e3c2369bbb",
     "bytes": "withheld",
     "claims": [
      "captured",
      "time-stamped",
      "witnessed-by-public-ci"
-    ],
-    "rendered": {
-     "status": 200,
-     "dom_sha256": "c5ae89c8cd16e85ab439b3f6eb6068da599f56f6c117433351c6a7df6551f3fa"
-    }
+    ]
    },
    "last_ok": null,
    "archived": null,

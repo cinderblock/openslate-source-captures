@@ -33,7 +33,8 @@
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
    "2026-11-09T2016Z",
-   "2026-11-16T1955Z"
+   "2026-11-16T1955Z",
+   "2026-11-23T2148Z"
   ]
  },
  "sources": [
@@ -46,13 +47,13 @@
     "org_host": null
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 51,
-    "captured_at": "2026-11-16T19:56:03.440Z",
+    "captured_at": "2026-11-23T21:48:35.557Z",
     "status": 200,
     "error": null,
     "final_url": "https://ca.omniballot.us/published/06085/1968/vg/739_md.json",
-    "response_sha256": "bcff34242051a14d38e87f7558463ed42425d164ac4e4a5c9575b5e4d87db120",
+    "response_sha256": "27a1f6a72c6cf869984991aae7cc61c1da9a31d87f9e5492826eeca4b4f34181",
     "bytes": "public",
     "claims": [
      "captured",
@@ -65,7 +66,7 @@
     "url": "https://web.archive.org/web/20261030214238id_/https://ca.omniballot.us/published/06085/1968/vg/739_md.json",
     "timestamp": "20261030214238",
     "digest": "6PHKPMOFBO7NTHXNEAIY4LDKUGWY4PBI",
-    "origin": "requested",
+    "origin": "existing",
     "statements": {
      "found": 0,
      "of": 1

@@ -33,7 +33,8 @@
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
    "2026-11-09T2016Z",
-   "2026-11-16T1955Z"
+   "2026-11-16T1955Z",
+   "2026-11-23T2148Z"
   ]
  },
  "sources": [
@@ -46,6 +47,21 @@
     "org_host": "smcdems.org"
    },
    "latest": {
+    "run": "2026-11-23T2148Z",
+    "index": 596,
+    "captured_at": "2026-11-23T22:01:46.888Z",
+    "status": 403,
+    "error": null,
+    "final_url": "https://www.smcdems.org/",
+    "response_sha256": "89cfa3dd726ec1637574f0315f823eacc40cab411b99bb8d5c432bb316779c03",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-16T1955Z",
     "index": 596,
     "captured_at": "2026-11-16T19:57:21.933Z",
@@ -60,7 +76,6 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261031155817id_/https://www.smcdems.org/",
     "timestamp": "20261031155817",
@@ -88,13 +103,13 @@
     "org_host": "smcdems.org"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 34,
-    "captured_at": "2026-11-16T19:55:46.445Z",
+    "captured_at": "2026-11-23T21:48:15.319Z",
     "status": 200,
     "error": null,
     "final_url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
-    "response_sha256": "7c4ea0b44596cbe5fb7451fd89bbedb53cdfa86c24f8c2b2beae15607beafa92",
+    "response_sha256": "710ec0c496749d2cf3de4d7f4ac98b3bdd21e62ab9f3ad91960783345ae14f8b",
     "bytes": "public",
     "claims": [
      "captured",

@@ -33,7 +33,8 @@
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
    "2026-11-09T2016Z",
-   "2026-11-16T1955Z"
+   "2026-11-16T1955Z",
+   "2026-11-23T2148Z"
   ]
  },
  "sources": [
@@ -46,13 +47,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 806,
-    "captured_at": "2026-11-16T19:58:27.083Z",
+    "captured_at": "2026-11-23T21:50:26.962Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-20th-22nd-congress-districts-reelect-vince-fong-david-valadao/article_22166104-1a19-4dd4-8884-55710f89abef.html",
-    "response_sha256": "ea53576b0ecb0cb041a451b45b928c4cab62dab84b29c1da828655b671bdd5d4",
+    "response_sha256": "a6b5bb9a0d8dbf6527c3ec61c6a94f75125dedf894260c36c5f4cf6e1eabe8e4",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -88,13 +89,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 807,
-    "captured_at": "2026-11-16T19:58:28.959Z",
+    "captured_at": "2026-11-23T21:50:28.832Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-experience-proven-ability-counts-in-council-races-elect-arias-bittle-crowl-kaur-to/article_a18066dd-e3f0-4720-907d-ff3746785e14.html",
-    "response_sha256": "38c640501149de2cddc7511f084f4d3c3405e71e1512a809bba4f1d7fe100d8f",
+    "response_sha256": "1d24b5ff77c7752df2f77160d7acb2ffb05ff7adcb39aa93a78498cdf8f4ea0c",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -130,13 +131,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 809,
-    "captured_at": "2026-11-16T19:58:48.551Z",
+    "captured_at": "2026-11-23T21:50:49.115Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-kern-benefits-from-having-experienced-candidates-send-gonzales-couch-to-state-assembly/article_64f67350-f50f-4169-a974-1da71eb86b22.html",
-    "response_sha256": "f7df059f7ea0d3d46ec363f3df1155016b7851d51891091b1361a7ea6aa6db32",
+    "response_sha256": "975c16c0d62805fe8f8bffac60dc8a6c30363e4d8b0296cba67ae61489ac9127",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -172,13 +173,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 810,
-    "captured_at": "2026-11-16T19:58:50.092Z",
+    "captured_at": "2026-11-23T21:50:50.964Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-kern-benefits-from-having-experienced-candidates-send-hurtado-magsig-to-state-senate/article_491edb68-fef0-4c7f-9862-8596a25690ee.html",
-    "response_sha256": "f76311b557834dd6543ca75c4054779d8749d6b215acc9d71c2f4930adf7691c",
+    "response_sha256": "55fc9624943427a95e88faf3bf0418fbbc6f97baff08c08309d35f5090da873b",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -214,6 +215,21 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
+    "run": "2026-11-23T2148Z",
+    "index": 808,
+    "captured_at": "2026-11-23T22:01:46.440Z",
+    "status": 429,
+    "error": null,
+    "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-governor-others-will-determine-state-s-fate-voters-will-elect-california-s-nine/article_5b1e3e51-3f31-4081-b348-2c1e7b551ad6.html",
+    "response_sha256": "9771362cda5dd16249b3ac1a706be4eb5b5e339b474bbe694ba319ad61f34de8",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-16T1955Z",
     "index": 808,
     "captured_at": "2026-11-16T20:09:29.525Z",
@@ -228,7 +244,6 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261031104046id_/https://www.bakersfield.com/opinion/our-view/our-view-governor-others-will-determine-state-s-fate-voters-will-elect-california-s-nine/article_5b1e3e51-3f31-4081-b348-2c1e7b551ad6.html",
     "timestamp": "20261031104046",
@@ -256,13 +271,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 811,
-    "captured_at": "2026-11-16T19:58:51.633Z",
+    "captured_at": "2026-11-23T21:50:52.791Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-no-on-proposition-39-overreach-defeats-common-sense/article_18017f1e-e883-4136-9006-a4a1edf15ba6.html",
-    "response_sha256": "ba61f0340fc87aee589e13ac2180d00df70f4a0585b508974db1a473d5cf7ba1",
+    "response_sha256": "44d1348f9453eb5788076720af22441cd71259785495586ed9a2e3b644df2000",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -299,13 +314,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 812,
-    "captured_at": "2026-11-16T19:58:53.175Z",
+    "captured_at": "2026-11-23T21:50:54.644Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-no-on-proposition-4-public-campaign-funding-definition-of-insanity/article_8d0dd9d5-b177-4acf-82fe-96f7b398a6cd.html",
-    "response_sha256": "0e36699c0aea1cd3ca10d402a99ef2b49b129648ac4c40caee22963727939b98",
+    "response_sha256": "f83e270053d048e249690efb0b293ec8547200f9b510aff121490131b70af7cf",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -342,13 +357,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 813,
-    "captured_at": "2026-11-16T19:58:54.713Z",
+    "captured_at": "2026-11-23T21:50:56.493Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-no-on-proposition-44-initiative-harms-patients-clinics/article_4c8b8fc8-fbc1-42d9-94e3-2c001018d705.html",
-    "response_sha256": "72cc0181e869977848ca01509e4b11604505a8af451ff6dbb8edc2b762232caf",
+    "response_sha256": "dbd7e1f836d65b75a78afe15b8954fbc550266c22e650a5ca7b6469e231d783f",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -385,29 +400,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 814,
-    "captured_at": "2026-11-16T20:09:31.489Z",
-    "status": 429,
-    "error": null,
-    "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-no-on-propositions-40-41-42-tax-propositions-hurt-state-californians/article_1c8492b8-5fb9-4897-9f1c-c9ba56460e0d.html",
-    "response_sha256": "b8319673208fdf47cdbafda4bc74c7f12c78060d2d42e54e79d61c6819649b19",
-    "bytes": "withheld",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci",
-     "independently-archived"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-05T1746Z",
-    "index": 814,
-    "captured_at": "2026-11-05T17:48:42.852Z",
+    "captured_at": "2026-11-23T22:01:48.216Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-no-on-propositions-40-41-42-tax-propositions-hurt-state-californians/article_1c8492b8-5fb9-4897-9f1c-c9ba56460e0d.html",
-    "response_sha256": "594ff4ef29b8fb512ffe85aac1804d6929857671daa8e1bf767d831799708f59",
+    "response_sha256": "5311797cafd7cf3f7444d9883ecf7ca7572456973a6cb5e0a181d552c0afd79e",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -416,6 +415,7 @@
      "independently-archived"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261102114504id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-no-on-propositions-40-41-42-tax-propositions-hurt-state-californians/article_1c8492b8-5fb9-4897-9f1c-c9ba56460e0d.html",
     "timestamp": "20261102114504",
@@ -443,13 +443,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 815,
-    "captured_at": "2026-11-16T20:09:33.014Z",
+    "captured_at": "2026-11-23T22:01:50.409Z",
     "status": 429,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-measure-z-invest-in-calm-a-community-treasure/article_1f58e778-9725-48f1-95b0-91887f56ad69.html",
-    "response_sha256": "0b2ef4d4b135da8bc962d474ad2548aa68b7928fda3664e9406aeccf792e19b6",
+    "response_sha256": "8c6c5c5626b5465491b7f10c2c7e1c678701685fe65a1b9d412b219c65d739ca",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -500,13 +500,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 816,
-    "captured_at": "2026-11-16T20:09:50.417Z",
+    "captured_at": "2026-11-23T22:01:53.566Z",
     "status": 429,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-2-like-families-state-must-save-for-rainy-days/article_401338ad-e737-4dce-b801-53e972767b6f.html",
-    "response_sha256": "11d7102bb5a850faa40545041e9b308255c9591aa6ca0e7ef80e48492b24199c",
+    "response_sha256": "919672e434616ae3df1b37a0ee1b7009907361ec019fc2cdb64e8cd7822116fa",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -557,6 +557,21 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
+    "run": "2026-11-23T2148Z",
+    "index": 817,
+    "captured_at": "2026-11-23T22:02:12.011Z",
+    "status": 429,
+    "error": null,
+    "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-3-make-existing-tax-permanent-protect-schools/article_622f1429-97bd-44a3-bdbf-3446d6fdbe70.html",
+    "response_sha256": "9cf45e659888df80b2ea0049d4c3f7e1e7518fcf8fffcc5d933b8cd471af40b4",
+    "bytes": "withheld",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ]
+   },
+   "last_ok": {
     "run": "2026-11-16T1955Z",
     "index": 817,
     "captured_at": "2026-11-16T19:59:50.415Z",
@@ -571,7 +586,6 @@
      "witnessed-by-public-ci"
     ]
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261104221539id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-3-make-existing-tax-permanent-protect-schools/article_622f1429-97bd-44a3-bdbf-3446d6fdbe70.html",
     "timestamp": "20261104221539",
@@ -598,13 +612,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 818,
-    "captured_at": "2026-11-16T19:59:51.956Z",
+    "captured_at": "2026-11-23T21:52:12.011Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-43-close-ballot-box-taxing-loophole/article_5466ddb0-c059-46de-8f07-fa2563c2c492.html",
-    "response_sha256": "5c16644f71d7b0bb5dd77ec4e1f8ffdd4ea55d2184db64b00e4d28ddcca7124f",
+    "response_sha256": "78b6b754ee8e5345c905de0bc4a543e182c7a93f73d7142b2cd633f71f484d22",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -641,28 +655,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 819,
-    "captured_at": "2026-11-16T20:10:11.906Z",
-    "status": 429,
-    "error": null,
-    "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-45-ceqa-is-a-mess-doing-nothing-would-be/article_553677d5-e555-44f8-bd4f-640ab99f53ee.html",
-    "response_sha256": "0803dcc33db1f77cf9884accdcfed1eab51b904190c9c1cf6f31423f61c7cf20",
-    "bytes": "withheld",
-    "claims": [
-     "captured",
-     "time-stamped",
-     "witnessed-by-public-ci"
-    ]
-   },
-   "last_ok": {
-    "run": "2026-11-09T2016Z",
-    "index": 819,
-    "captured_at": "2026-11-09T20:21:12.116Z",
+    "captured_at": "2026-11-23T21:52:13.815Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-45-ceqa-is-a-mess-doing-nothing-would-be/article_553677d5-e555-44f8-bd4f-640ab99f53ee.html",
-    "response_sha256": "d36b6ce1571a30ce7a4c750addc935e0be1784e09766cd0e40deec4982e6c0c8",
+    "response_sha256": "8d999796bc6772c8140a43ac4850720b290569a3ac72c5fba0be1b20e28544c2",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -670,6 +669,7 @@
      "witnessed-by-public-ci"
     ]
    },
+   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261102114343id_/https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-45-ceqa-is-a-mess-doing-nothing-would-be/article_553677d5-e555-44f8-bd4f-640ab99f53ee.html",
     "timestamp": "20261102114343",
@@ -697,13 +697,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 820,
-    "captured_at": "2026-11-16T20:10:29.960Z",
+    "captured_at": "2026-11-23T22:02:34.037Z",
     "status": 429,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-proposition-5-separate-recall-from-replacement/article_de657555-69db-42a1-8037-40859d884da7.html",
-    "response_sha256": "a41287c575815ca89ad1ea6ebead37e4f5f835a9767f3aec23ff8df8689927ce",
+    "response_sha256": "93e3e40844a43bc09467a6e2b338782969d36c6b380014915c8442b215d996d0",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -755,13 +755,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 821,
-    "captured_at": "2026-11-16T20:10:48.017Z",
+    "captured_at": "2026-11-23T22:02:52.455Z",
     "status": 429,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/our-view/our-view-vote-yes-on-props-1-and-37-no-on-38-bond-money-making/article_c376d3eb-adce-4345-87d1-2adb84f9b84a.html",
-    "response_sha256": "f3d9821e9b5684bfdc9bcbc1443425149aa166d7a136694592feea4c2b4009f2",
+    "response_sha256": "e90268fe37b3adf973d9f4720329906469006f901b12f374c7e9d1f69f054d4f",
     "bytes": "withheld",
     "claims": [
      "captured",
@@ -813,13 +813,13 @@
     "org_host": "bakersfield.com"
    },
    "latest": {
-    "run": "2026-11-16T1955Z",
+    "run": "2026-11-23T2148Z",
     "index": 805,
-    "captured_at": "2026-11-16T19:58:09.014Z",
+    "captured_at": "2026-11-23T21:50:25.046Z",
     "status": 200,
     "error": null,
     "final_url": "https://www.bakersfield.com/opinion/",
-    "response_sha256": "327dbeca2768611f6d0fe0c66de942a0150cd32dee74ddd25b498c8f31d34457",
+    "response_sha256": "1f9caadd0e0f65957d079a4e73c34ac4f30cad406a4ae74678c446f473d58ca0",
     "bytes": "withheld",
     "claims": [
      "captured",

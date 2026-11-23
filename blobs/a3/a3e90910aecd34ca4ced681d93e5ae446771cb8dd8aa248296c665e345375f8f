@@ -1,0 +1,63 @@
+HTTP/1.1 200 
+alt-svc: h3=":443"; ma=2592000
+cache-control: no-store
+content-type: text/html; charset=utf-8
+date: Mon, 23 Nov 2026 22:24:55 GMT
+expires: Mon, 23 Nov 2026 22:24:55 GMT
+server: Google Frontend
+strict-transport-security: max-age=63072000; includeSubDomains
+via: 1.1 google
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <script>
+      (() => {
+        let preference = "system";
+        try {
+          const saved = localStorage.getItem("rc-theme-preference");
+          if (saved === "light" || saved === "dark") preference = saved;
+        } catch {}
+        let dark = preference === "dark";
+        if (preference === "system") {
+          try { dark = typeof matchMedia === "function" && matchMedia("(prefers-color-scheme: dark)").matches; }
+          catch { dark = false; }
+        }
+        document.documentElement.classList.toggle("dark", dark);
+        document.documentElement.style.colorScheme = dark ? "dark" : "light";
+      })();
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <script type="module" crossorigin src="/assets/index-DQOernbz.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CPYSmZxr.css">
+  <title>Sutter County | Reform California</title>
+<meta name="description" content="Reform California is waging the fight to take back California from high cost of living, excessive taxes, government corruption.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://reformcalifornia.replit.app/voter-guides/sutter">
+<meta property="og:title" content="Sutter County | Reform California">
+<meta property="og:description" content="Reform California is waging the fight to take back California from high cost of living, excessive taxes, government corruption.">
+<meta property="og:image" content="https://reformcalifornia.replit.app/source/1a639e11a58763.png">
+<meta property="og:url" content="https://reformcalifornia.replit.app/voter-guides/sutter">
+<meta property="og:site_name" content="Reform California">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sutter County | Reform California">
+<meta name="twitter:description" content="Reform California is waging the fight to take back California from high cost of living, excessive taxes, government corruption.">
+<meta name="twitter:image" content="https://reformcalifornia.replit.app/source/1a639e11a58763.png">
+<meta name="twitter:url" content="https://reformcalifornia.replit.app/voter-guides/sutter">
+</head>
+  <body>
+    <div id="root"></div>
+  <script src="https://i.replit.com/script.js" async="" data-website-id="9190b0b4-1d4e-4c15-b94d-c827257136d9"></script></body>
+</html>

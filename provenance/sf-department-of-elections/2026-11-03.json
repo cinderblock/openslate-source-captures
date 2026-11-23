@@ -33,7 +33,8 @@
    "2026-11-05T1746Z",
    "2026-11-09T0219Z",
    "2026-11-09T2016Z",
-   "2026-11-16T1955Z"
+   "2026-11-16T1955Z",
+   "2026-11-23T2148Z"
   ]
  },
  "sources": [
@@ -46,6 +47,25 @@
     "org_host": "sf.gov"
    },
    "latest": {
+    "run": "2026-11-23T2148Z",
+    "index": 1111,
+    "captured_at": "2026-11-23T22:02:34.194Z",
+    "status": 202,
+    "error": null,
+    "final_url": "https://www.sf.gov/reports--candidates-nov-3-2026-general-election",
+    "response_sha256": "9dee97043419c9c3dbde322fe8dd260d681cdcf4fc1a45131d89c19381646599",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "786d2fbc68fa8ab0214a1940759e1204c3bbb99b4785f7a1ea6b5bdb0a4317ca"
+    }
+   },
+   "last_ok": {
     "run": "2026-11-16T1955Z",
     "index": 1111,
     "captured_at": "2026-11-16T19:59:21.031Z",
@@ -64,7 +84,6 @@
      "dom_sha256": "78aa03f5e35c1744b82d99a778ecf9552cb41335eb1c5369602cf4f670171cc3"
     }
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261104075638id_/https://www.sf.gov/candidates-november-3-2026-general-election",
     "timestamp": "20261104075638",
@@ -88,6 +107,25 @@
     "org_host": "sf.gov"
    },
    "latest": {
+    "run": "2026-11-23T2148Z",
+    "index": 1109,
+    "captured_at": "2026-11-23T22:01:57.782Z",
+    "status": 202,
+    "error": null,
+    "final_url": "https://www.sf.gov/qualified-ballot-measures",
+    "response_sha256": "2a25ed2a3c7b92295719150ea4c2dc996ff808d2c5de8c2051918f334c9ff11a",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "31407fdeeefc80d56665d1a0db1f2325b0d00f84891059b3f9268c5735bcc1e4"
+    }
+   },
+   "last_ok": {
     "run": "2026-11-16T1955Z",
     "index": 1109,
     "captured_at": "2026-11-16T19:59:17.885Z",
@@ -106,7 +144,6 @@
      "dom_sha256": "9b215357281483efe6755b08b38f04e196e5784461b920e8ff4b98ff900cbbc4"
     }
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261031004705id_/https://www.sf.gov/qualified-ballot-measures",
     "timestamp": "20261031004705",
@@ -130,6 +167,25 @@
     "org_host": "sf.gov"
    },
    "latest": {
+    "run": "2026-11-23T2148Z",
+    "index": 1110,
+    "captured_at": "2026-11-23T22:02:16.102Z",
+    "status": 202,
+    "error": null,
+    "final_url": "https://www.sf.gov/ranked-choice-voting",
+    "response_sha256": "74b16e3c066b35f6137d94211c35fe0301cdb886365b41068ce214bf4f3a6143",
+    "bytes": "public",
+    "claims": [
+     "captured",
+     "time-stamped",
+     "witnessed-by-public-ci"
+    ],
+    "rendered": {
+     "status": 200,
+     "dom_sha256": "1c7a1f458c1df81c1c029a67b468778dd35b85d2739a2b2fe5bc73423b94b61e"
+    }
+   },
+   "last_ok": {
     "run": "2026-11-16T1955Z",
     "index": 1110,
     "captured_at": "2026-11-16T19:59:19.421Z",
@@ -148,7 +204,6 @@
      "dom_sha256": "1424d31040ddc6af6b599ca9fa407dea7e91cbef94d6dc63fd0b31ebb0fb0f05"
     }
    },
-   "last_ok": null,
    "archived": {
     "url": "https://web.archive.org/web/20261103192737id_/https://www.sf.gov/ranked-choice-voting",
     "timestamp": "20261103192737",
