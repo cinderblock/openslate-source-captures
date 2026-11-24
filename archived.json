@@ -52,7 +52,7 @@
   "checked_at": "2026-11-10T20:28:57.413Z",
   "save_requested_at": "2026-10-30T17:48:36.217Z",
   "save": {
-   "at": "2026-11-17T21:12:49.993Z",
+   "at": "2026-11-24T22:41:29.589Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-6213011e9e15a98273b156ecec00adcc12e29ed5",
@@ -467,7 +467,7 @@
   "digest": "ZPUYFFQDSB5ARZ6RLBL5CVM3DC64ACM5",
   "checked_at": "2026-11-05T11:41:46.717Z",
   "save": {
-   "at": "2026-11-17T21:15:01.601Z",
+   "at": "2026-11-24T22:43:56.097Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-591a690749c4edbf378372ac9005746385db457a",
@@ -481,7 +481,7 @@
   "digest": "SWAVWAY4XN6GNPYV5HSIEW3KQORMELLW",
   "checked_at": "2026-11-05T11:41:53.152Z",
   "save": {
-   "at": "2026-11-17T21:16:38.721Z",
+   "at": "2026-11-24T22:45:24.472Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-dc93209a4bd0c73bcac10545deac38495d147007",
@@ -496,26 +496,27 @@
   "checked_at": "2026-11-05T11:41:54.819Z",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:22:13.900Z",
+   "at": "2026-11-24T22:50:38.151Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-4ec87d8f504a36b8cf86e08bcc583c33b32393bc",
-   "error": "forbiddenaccess"
+   "error": "error:no-request"
   }
  },
  "https://apps.lavote.gov/candidate-statements/": {
-  "url": "https://web.archive.org/web/20261012082146id_/https://apps.lavote.gov/candidate-statements/",
-  "timestamp": "20261012082146",
-  "digest": "P5KKP6KANF4NGF3VUIVFUKEP4BAATDSN",
-  "checked_at": "2026-11-05T11:41:56.850Z",
+  "url": "https://web.archive.org/web/20261124224950id_/https://apps.lavote.gov/candidate-statements/",
+  "timestamp": "20261124224950",
+  "digest": "XNZ5TDGYY4JJU6PQYPEL6T2XUK4O5FZG",
+  "checked_at": "2026-11-24T23:14:41.994Z",
   "save": {
-   "at": "2026-11-17T21:21:10.929Z",
+   "at": "2026-11-24T22:49:41.153Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-7596945688cfce0e77582b524c9743d3755aab09",
-   "error": "error:no-request"
+   "snapshot": "20261124224950",
+   "final_url": "https://apps.lavote.gov/candidate-statements/"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://apps.lavote.gov/statements-api/oc/read/election/4348/contest": {
   "url": "https://web.archive.org/web/20261102221443id_/https://apps.lavote.gov/statements-api/oc/read/election/4348/contest",
@@ -533,19 +534,19 @@
   "origin": "requested"
  },
  "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751": {
-  "url": "https://web.archive.org/web/20261006195316id_/https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
-  "timestamp": "20261006195316",
+  "url": "https://web.archive.org/web/20261124224803id_/https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751",
+  "timestamp": "20261124224803",
   "digest": "7WRJJDWHQ5CZBVY2A657XNAJMDPE4DIM",
-  "checked_at": "2026-11-17T21:45:02.804Z",
+  "checked_at": "2026-11-24T23:14:44.250Z",
   "save": {
-   "at": "2026-11-17T21:19:25.366Z",
+   "at": "2026-11-24T22:48:01.228Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-4cbac8e3c3aa1f1ae2d42853e65f304928ffca7e",
-   "snapshot": "20261117211927",
+   "snapshot": "20261124224803",
    "final_url": "https://assets.nationbuilder.com/smcdcc/pages/116/attachments/original/1788916751/unnamed.png?1788916751"
   },
-  "origin": "existing"
+  "origin": "requested"
  },
  "https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board": {
   "url": "https://web.archive.org/web/20261110202346id_/https://ballotpedia.org/Endorsements_by_San_Francisco_Chronicle_Editorial_Board",
@@ -562,24 +563,24 @@
   }
  },
  "https://bhdemocrats.org/index.php/endorsements-november-2026/": {
-  "url": "https://web.archive.org/web/20261030213454id_/https://bhdemocrats.org/index.php/endorsements-november-2026/",
-  "timestamp": "20261030213454",
-  "digest": "C3XNAPP2KTWOSZTJVJCQ46JODXZRALLP",
-  "checked_at": "2026-11-17T21:45:04.553Z",
+  "url": "https://web.archive.org/web/20261124225513id_/https://bhdemocrats.org/index.php/endorsements-november-2026/",
+  "timestamp": "20261124225513",
+  "digest": "K7DLW66WIM4BQS2JB2TXKGHJAT7GT2G7",
+  "checked_at": "2026-11-24T23:14:45.992Z",
   "save": {
-   "at": "2026-11-17T21:26:54.849Z",
+   "at": "2026-11-24T22:55:04.916Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-528e26a014de1441abe338402808d7f033df39aa",
-   "snapshot": "20261117212724",
+   "snapshot": "20261124225513",
    "final_url": "https://bhdemocrats.org/index.php/endorsements-november-2026/"
   },
-  "origin": "existing",
+  "origin": "requested",
   "statements": {
    "found": 0,
    "of": 47
   },
-  "compared": "20261030213454"
+  "compared": "20261124225513"
  },
  "https://bhdemocrats.org/wp-content/uploads/2026/10/image.png": {
   "url": "https://web.archive.org/web/20261101191703id_/https://bhdemocrats.org/wp-content/uploads/2026/10/image.png",
@@ -675,13 +676,13 @@
   "url": "https://web.archive.org/web/20261030213530id_/https://ca.omniballot.us/published/06085/1968/vg/721_md.json",
   "timestamp": "20261030213530",
   "digest": "SOBILO2EFT4457RNQKZ2IXOTPXX5F6BC",
-  "checked_at": "2026-11-17T21:45:06.320Z",
+  "checked_at": "2026-11-24T23:14:48.304Z",
   "save": {
-   "at": "2026-11-17T21:27:10.659Z",
+   "at": "2026-11-24T22:55:20.604Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-44f29814e3ccfb9e4d784363fda7aab2c7f7a496",
-   "snapshot": "20261117212713",
+   "snapshot": "20261124225521",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/721_md.json"
   },
   "origin": "existing",
@@ -695,13 +696,13 @@
   "url": "https://web.archive.org/web/20261030213556id_/https://ca.omniballot.us/published/06085/1968/vg/723_md.json",
   "timestamp": "20261030213556",
   "digest": "H27QZWRPSKU5U5F65WNXSXDCJ3GZOOYK",
-  "checked_at": "2026-11-17T21:45:08.197Z",
+  "checked_at": "2026-11-24T23:14:50.063Z",
   "save": {
-   "at": "2026-11-17T21:27:28.081Z",
+   "at": "2026-11-24T22:55:36.248Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-5bbf8ffbf1e8a1d935aa9b1a2f8631e2940655d4",
-   "snapshot": "20261117212813",
+   "snapshot": "20261124225537",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/723_md.json"
   },
   "origin": "existing",
@@ -715,13 +716,13 @@
   "url": "https://web.archive.org/web/20261030213710id_/https://ca.omniballot.us/published/06085/1968/vg/725_md.json",
   "timestamp": "20261030213710",
   "digest": "UEH4URPQYOEOY6XWP3XMUNIL3WUH2EIX",
-  "checked_at": "2026-11-17T21:45:10.220Z",
+  "checked_at": "2026-11-24T23:14:52.998Z",
   "save": {
-   "at": "2026-11-17T21:27:45.080Z",
+   "at": "2026-11-24T22:56:02.117Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-ee64c5b7efa10063557337a93c570e70191b34c0",
-   "snapshot": "20261117212745",
+   "snapshot": "20261124225602",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/725_md.json"
   },
   "origin": "existing",
@@ -735,13 +736,13 @@
   "url": "https://web.archive.org/web/20261030213736id_/https://ca.omniballot.us/published/06085/1968/vg/731_md.json",
   "timestamp": "20261030213736",
   "digest": "AAYCXLGBFLUD6IOK6WH7ECGRQCXTJ5UF",
-  "checked_at": "2026-11-17T21:45:12.082Z",
+  "checked_at": "2026-11-24T23:14:54.951Z",
   "save": {
-   "at": "2026-11-17T21:28:00.732Z",
+   "at": "2026-11-24T22:56:17.722Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-db32ef2eaeb985e34d0f9497f62134451691a7d7",
-   "snapshot": "20261117212801",
+   "snapshot": "20261124225618",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/731_md.json"
   },
   "origin": "existing",
@@ -755,13 +756,13 @@
   "url": "https://web.archive.org/web/20261030213845id_/https://ca.omniballot.us/published/06085/1968/vg/732_md.json",
   "timestamp": "20261030213845",
   "digest": "HKIMHZDQ3LUUZI4Z55POZCIVMNM2XNVB",
-  "checked_at": "2026-11-17T21:45:14.043Z",
+  "checked_at": "2026-11-24T23:14:56.653Z",
   "save": {
-   "at": "2026-11-17T21:28:16.513Z",
+   "at": "2026-11-24T22:56:33.313Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-b42744d638be7717d262f535154e50c8762e8cdf",
-   "snapshot": "20261117212817",
+   "snapshot": "20261124225634",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/732_md.json"
   },
   "origin": "existing",
@@ -775,15 +776,16 @@
   "url": "https://web.archive.org/web/20261030214001id_/https://ca.omniballot.us/published/06085/1968/vg/733_md.json",
   "timestamp": "20261030214001",
   "digest": "JBI5AGZ4AULV5U53OXYAGS3HKBL3LHLX",
-  "checked_at": "2026-11-05T11:46:27.317Z",
+  "checked_at": "2026-11-24T23:14:58.307Z",
   "save": {
-   "at": "2026-11-17T21:28:31.999Z",
+   "at": "2026-11-24T22:57:09.344Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-755c31f08e3bc6aaeb1195b0b6c38a61de77e311",
-   "error": "error:gateway-timeout"
+   "snapshot": "20261124225710",
+   "final_url": "https://ca.omniballot.us/published/06085/1968/vg/733_md.json"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 0,
    "of": 1
@@ -794,13 +796,13 @@
   "url": "https://web.archive.org/web/20261030214124id_/https://ca.omniballot.us/published/06085/1968/vg/734_md.json",
   "timestamp": "20261030214124",
   "digest": "2RWUJT7JNKMF5Q2OKRNJZURRNVHF2HSK",
-  "checked_at": "2026-11-17T21:45:15.790Z",
+  "checked_at": "2026-11-24T23:15:01.532Z",
   "save": {
-   "at": "2026-11-17T21:29:07.979Z",
+   "at": "2026-11-24T22:57:25.531Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-63c2d7cc8c13c97175612f1b267b8b58e9666d4c",
-   "snapshot": "20261117212930",
+   "snapshot": "20261124225726",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/734_md.json"
   },
   "origin": "existing",
@@ -814,13 +816,13 @@
   "url": "https://web.archive.org/web/20261030214146id_/https://ca.omniballot.us/published/06085/1968/vg/735_md.json",
   "timestamp": "20261030214146",
   "digest": "X7U5TSZL3ZR6QZXSYPCSA27WN45GEUFY",
-  "checked_at": "2026-11-17T21:45:19.274Z",
+  "checked_at": "2026-11-24T23:15:05.249Z",
   "save": {
-   "at": "2026-11-17T21:29:23.799Z",
+   "at": "2026-11-24T22:57:41.093Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-e3b48dfcfea59ad1a5f587d339bc28e3dc888f66",
-   "snapshot": "20261117212937",
+   "snapshot": "20261124225741",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/735_md.json"
   },
   "origin": "existing",
@@ -834,13 +836,13 @@
   "url": "https://web.archive.org/web/20261030214212id_/https://ca.omniballot.us/published/06085/1968/vg/738_md.json",
   "timestamp": "20261030214212",
   "digest": "FDRMLM2QM5PXA3VNCX3ZJXSYH74DJ6MC",
-  "checked_at": "2026-11-17T21:45:20.973Z",
+  "checked_at": "2026-11-24T23:15:06.969Z",
   "save": {
-   "at": "2026-11-17T21:29:39.458Z",
+   "at": "2026-11-24T22:58:06.947Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-023ae3744b80c15891b3aba81905756fa9756929",
-   "snapshot": "20261117213016",
+   "snapshot": "20261124225810",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/738_md.json"
   },
   "origin": "existing",
@@ -854,13 +856,13 @@
   "url": "https://web.archive.org/web/20261030214238id_/https://ca.omniballot.us/published/06085/1968/vg/739_md.json",
   "timestamp": "20261030214238",
   "digest": "6PHKPMOFBO7NTHXNEAIY4LDKUGWY4PBI",
-  "checked_at": "2026-11-17T21:45:22.778Z",
+  "checked_at": "2026-11-24T23:15:08.669Z",
   "save": {
-   "at": "2026-11-17T21:30:05.311Z",
+   "at": "2026-11-24T22:58:25.188Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-e83b6188042be37605ac0ceaf26f2451faef6358",
-   "snapshot": "20261117213047",
+   "snapshot": "20261124225826",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/739_md.json"
   },
   "origin": "existing",
@@ -874,13 +876,13 @@
   "url": "https://web.archive.org/web/20261030214304id_/https://ca.omniballot.us/published/06085/1968/vg/lookups.json",
   "timestamp": "20261030214304",
   "digest": "6BSY2MYXEVJPBEDM7JNZZWRGIR73QEO7",
-  "checked_at": "2026-11-17T21:45:24.423Z",
+  "checked_at": "2026-11-24T23:15:10.512Z",
   "save": {
-   "at": "2026-11-17T21:30:20.895Z",
+   "at": "2026-11-24T22:58:41.095Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-2339199b7253eee1cfde1375164d59ed5aa58f51",
-   "snapshot": "20261117213021",
+   "snapshot": "20261124225841",
    "final_url": "https://ca.omniballot.us/published/06085/1968/vg/lookups.json"
   },
   "origin": "existing"
@@ -1009,13 +1011,13 @@
   "url": "https://web.archive.org/web/20261010182717id_/https://cagop.org/wp-content/uploads/2026/10/CRP-2026G-Statewide-Voter-Guide.pdf",
   "timestamp": "20261010182717",
   "digest": "ZARUO3IGJV4DINSQYHHESNPTONYOYQ4W",
-  "checked_at": "2026-11-17T21:45:30.769Z",
+  "checked_at": "2026-11-24T23:15:13.185Z",
   "save": {
-   "at": "2026-11-17T21:20:39.517Z",
+   "at": "2026-11-24T22:49:09.795Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-1d5a4363cbc3a88041ae15d0b66627b2ad6a96a7",
-   "snapshot": "20261117212040",
+   "snapshot": "20261124224910",
    "final_url": "https://cagop.org/wp-content/uploads/2026/10/CRP-2026G-Statewide-Voter-Guide.pdf"
   },
   "origin": "existing"
@@ -1229,23 +1231,24 @@
   "compared": "20261101142739"
  },
  "https://californiaprolife.org/2026election/": {
-  "url": "https://web.archive.org/web/20261030214518id_/https://californiaprolife.org/2026election/",
-  "timestamp": "20261030214518",
+  "url": "https://web.archive.org/web/20261104014011id_/https://californiaprolife.org/2026election/",
+  "timestamp": "20261104014011",
   "digest": "WNESGSKXRNSEEFEDBYSLBRFVVJBKT6QE",
-  "checked_at": "2026-11-06T00:40:55.323Z",
+  "checked_at": "2026-11-24T23:15:15.061Z",
   "save": {
-   "at": "2026-11-17T21:31:33.638Z",
+   "at": "2026-11-24T22:59:06.881Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-979e6633f55edb9ffeada97cffdc5c89b22eb223",
-   "error": "error:job-failed"
+   "snapshot": "20261124225910",
+   "final_url": "https://californiaprolife.org/2026election/"
   },
-  "origin": "requested",
   "statements": {
    "found": 10,
    "of": 49
   },
-  "compared": "20261030214518"
+  "compared": "20261104014011",
+  "origin": "existing"
  },
  "https://calmatters.org/california-voter-guide-2026/propositions/": {
   "url": "https://web.archive.org/web/20261102203315id_/https://calmatters.org/california-voter-guide-2026/propositions/",
@@ -1558,18 +1561,18 @@
   "url": "https://web.archive.org/web/20261019181050id_/https://couragecalifornia.org/app/uploads/2026/10/V2C-Nov2026StatewideCVG.pdf",
   "timestamp": "20261019181050",
   "digest": "BDZQ6UQD3UQZ3673HHDIBRTA7MTBUAGL",
-  "checked_at": "2026-11-17T21:45:38.430Z",
+  "checked_at": "2026-11-24T23:15:16.826Z",
   "statements": {
    "found": 111,
    "of": 111
   },
   "compared": "20261019181050",
   "save": {
-   "at": "2026-11-17T21:23:16.957Z",
+   "at": "2026-11-24T22:52:02.302Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-e02555832242e58e6c6e026d40a1db943ff195a8",
-   "snapshot": "20261117212317",
+   "snapshot": "20261124225203",
    "final_url": "https://couragecalifornia.org/app/uploads/2026/10/V2C-Nov2026StatewideCVG.pdf"
   },
   "origin": "existing"
@@ -1617,7 +1620,7 @@
   "digest": "XNHKRQ7KKLPWN3SGQ7N4LKJY5T2PKPKQ",
   "checked_at": "2026-11-05T11:42:03.705Z",
   "save": {
-   "at": "2026-11-17T21:16:06.864Z",
+   "at": "2026-11-24T22:44:43.184Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-400bc0f61e59673de28544e4f526eccc35b1d88d",
@@ -1631,7 +1634,7 @@
   "digest": "4XZNFLEZLC7C55PNDKX45VLLPQB7X2CH",
   "checked_at": "2026-11-05T11:42:05.362Z",
   "save": {
-   "at": "2026-11-17T21:15:37.729Z",
+   "at": "2026-11-24T22:44:27.102Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-ab25c608594ef3998c76d8cbe15000ebee483151",
@@ -1640,44 +1643,47 @@
   "origin": "existing"
  },
  "https://cragop.org/house-of-representatives/": {
-  "url": "https://web.archive.org/web/20261030214641id_/https://cragop.org/house-of-representatives/",
-  "timestamp": "20261030214641",
-  "digest": "BXEHBRCYEVGHA2NZR76OVKJ3HXF5OTRB",
-  "checked_at": "2026-11-06T00:41:00.354Z",
+  "url": "https://web.archive.org/web/20261124225925id_/https://cragop.org/house-of-representatives/",
+  "timestamp": "20261124225925",
+  "digest": "ZKPKY7EB7QZBG7BPS7LGE4OE2THBQF4D",
+  "checked_at": "2026-11-24T23:15:18.804Z",
   "save": {
-   "at": "2026-11-17T21:32:00.453Z",
+   "at": "2026-11-24T22:59:22.495Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-871a41b560391f0688b17f52dbad3989861e3bd3",
-   "error": "error:job-failed"
+   "snapshot": "20261124225925",
+   "final_url": "https://cragop.org/house-of-representatives/"
   },
   "origin": "requested"
  },
  "https://cragop.org/state-assembly/": {
-  "url": "https://web.archive.org/web/20261030214758id_/https://cragop.org/state-assembly/",
-  "timestamp": "20261030214758",
-  "digest": "LB6IWZPCRFUKIET7ZQEXMAGLLJWV4LST",
-  "checked_at": "2026-11-06T00:41:02.130Z",
+  "url": "https://web.archive.org/web/20261124225951id_/https://cragop.org/state-assembly/",
+  "timestamp": "20261124225951",
+  "digest": "VI4IYVJHB5QYFKTD4W64EJQJDRQNGRGZ",
+  "checked_at": "2026-11-24T23:15:20.601Z",
   "save": {
-   "at": "2026-11-17T21:32:15.973Z",
+   "at": "2026-11-24T22:59:38.274Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-c5a24be6f03838123ae1f42da7fe5050503d0874",
-   "error": "error:job-failed"
+   "snapshot": "20261124225951",
+   "final_url": "https://cragop.org/state-assembly/"
   },
   "origin": "requested"
  },
  "https://cragop.org/state-board-of-equalization/": {
-  "url": "https://web.archive.org/web/20261030214838id_/https://cragop.org/state-board-of-equalization/",
-  "timestamp": "20261030214838",
-  "digest": "KVJBGZITF23RO2YJQJDLINPKQTHROOKY",
-  "checked_at": "2026-11-06T00:41:03.984Z",
+  "url": "https://web.archive.org/web/20261124230009id_/https://cragop.org/state-board-of-equalization/",
+  "timestamp": "20261124230009",
+  "digest": "UN7JH6QCB7ZK5AKPLWYQ6X2MFCZMKOF7",
+  "checked_at": "2026-11-24T23:15:23.076Z",
   "save": {
-   "at": "2026-11-17T21:32:31.489Z",
+   "at": "2026-11-24T23:00:04.074Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-5fd54299a5a4827cf4d25ce0f24eea5c469f12b4",
-   "error": "error:job-failed"
+   "snapshot": "20261124230009",
+   "final_url": "https://cragop.org/state-board-of-equalization/"
   },
   "origin": "requested"
  },
@@ -1787,11 +1793,10 @@
   "digest": "IHIVOMFZPOHPYAF6EMYHBYKIW6OCX2JX",
   "checked_at": "2026-11-06T00:41:07.948Z",
   "save": {
-   "at": "2026-11-17T21:33:24.026Z",
+   "at": "2026-11-24T23:00:19.552Z",
    "via": "key",
-   "outcome": "failed",
-   "job_id": "spn2-116493b3ceffb003ae4f4358d965285a09b14e51",
-   "error": "error:job-failed"
+   "outcome": "pending",
+   "job_id": "spn2-116493b3ceffb003ae4f4358d965285a09b14e51"
   },
   "origin": "requested",
   "statements": {
@@ -1824,15 +1829,16 @@
   "url": "https://web.archive.org/web/20261030215032id_/https://directory.runforsomething.net/candidate/078d11a85cb628ae6600cccfafbc6f30/santana-james/",
   "timestamp": "20261030215032",
   "digest": "P3NSHOOSRTZKGOYFCDLWKDO64HZQYAQB",
-  "checked_at": "2026-11-06T00:41:09.717Z",
+  "checked_at": "2026-11-24T23:15:24.853Z",
   "save": {
-   "at": "2026-11-17T21:33:39.927Z",
+   "at": "2026-11-24T23:00:35.235Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-1fbe246d18ca2361fdd073718e996084a26aae6d",
-   "error": "error:job-failed"
+   "snapshot": "20261124230039",
+   "final_url": "https://directory.runforsomething.net/candidate/078d11a85cb628ae6600cccfafbc6f30/santana-james/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -1843,13 +1849,14 @@
   "url": "https://web.archive.org/web/20261030215110id_/https://directory.runforsomething.net/candidate/0b0082d668cfec7ecb9994e2067139e7/shaughnessy-christian/",
   "timestamp": "20261030215110",
   "digest": "OVV32JYVKVJ33BEVON2NSK7X4RDBB73Z",
-  "checked_at": "2026-11-10T20:29:43.226Z",
+  "checked_at": "2026-11-24T23:15:26.851Z",
   "save": {
-   "at": "2026-11-17T21:34:08.078Z",
+   "at": "2026-11-24T23:01:02.360Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-7e3ea6cbdc68df6044efa42c26ea26209455215a",
-   "error": "error:job-failed"
+   "snapshot": "20261124230129",
+   "final_url": "https://directory.runforsomething.net/candidate/0b0082d668cfec7ecb9994e2067139e7/shaughnessy-christian/"
   },
   "statements": {
    "found": 1,
@@ -1862,15 +1869,16 @@
   "url": "https://web.archive.org/web/20261030215237id_/https://directory.runforsomething.net/candidate/0c27e60fd0fad3552f553e9591252abc/reed-charlotte/",
   "timestamp": "20261030215237",
   "digest": "HUTYQFKWUP4SB647OXU45O7Q5VQFTTXE",
-  "checked_at": "2026-11-06T00:41:13.289Z",
+  "checked_at": "2026-11-24T23:15:28.812Z",
   "save": {
-   "at": "2026-11-17T21:34:23.774Z",
+   "at": "2026-11-24T23:01:17.827Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-31a3df9ed57269f3af0c57e1ed18a453aa28f817",
-   "error": "error:job-failed"
+   "snapshot": "20261124230122",
+   "final_url": "https://directory.runforsomething.net/candidate/0c27e60fd0fad3552f553e9591252abc/reed-charlotte/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -1881,18 +1889,18 @@
   "url": "https://web.archive.org/web/20260905112216id_/https://directory.runforsomething.net/candidate/0cb374b55a81ce5875d3f43135a64aee/bhat-patel-priya/",
   "timestamp": "20260905112216",
   "digest": "JO7JFALBWJNHNMVTU27BIVHCGLVZ7WJU",
-  "checked_at": "2026-11-17T21:45:42.063Z",
+  "checked_at": "2026-11-24T23:15:30.536Z",
   "statements": {
    "found": 1,
    "of": 1
   },
   "compared": "20260905112216",
   "save": {
-   "at": "2026-11-17T21:17:04.439Z",
+   "at": "2026-11-24T22:45:39.955Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-408293b11aa84728f75ab6b05792800572d04a74",
-   "snapshot": "20261117211707",
+   "snapshot": "20261124224547",
    "final_url": "https://directory.runforsomething.net/candidate/0cb374b55a81ce5875d3f43135a64aee/bhat-patel-priya/"
   },
   "origin": "existing"
@@ -1901,13 +1909,13 @@
   "url": "https://web.archive.org/web/20261030215404id_/https://directory.runforsomething.net/candidate/0e688c6e45511b24d4a1fa9e9ba41ca8/bagley-jennifer/",
   "timestamp": "20261030215404",
   "digest": "ZW6ZV3G47HPR7QGKYAMAV4RGNZGLWCVL",
-  "checked_at": "2026-11-17T21:45:43.933Z",
+  "checked_at": "2026-11-24T23:15:32.396Z",
   "save": {
-   "at": "2026-11-17T21:34:39.489Z",
+   "at": "2026-11-24T23:01:34.876Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-e60b476a706402a5caa693bbf72e806613d7670e",
-   "snapshot": "20261117213443",
+   "snapshot": "20261124230138",
    "final_url": "https://directory.runforsomething.net/candidate/0e688c6e45511b24d4a1fa9e9ba41ca8/bagley-jennifer/"
   },
   "origin": "existing",
@@ -1938,23 +1946,24 @@
   "origin": "requested"
  },
  "https://directory.runforsomething.net/candidate/161489285b102ca2fd7889f22dba57a4/garcia-leslie/": {
-  "url": "https://web.archive.org/web/20261030215441id_/https://directory.runforsomething.net/candidate/161489285b102ca2fd7889f22dba57a4/garcia-leslie/",
-  "timestamp": "20261030215441",
+  "url": "https://web.archive.org/web/20261101145421id_/https://directory.runforsomething.net/candidate/161489285b102ca2fd7889f22dba57a4/garcia-leslie/",
+  "timestamp": "20261101145421",
   "digest": "KQQQX5VLSRTT547WR7AV44DKIDCR4C6A",
-  "checked_at": "2026-11-06T00:41:16.817Z",
+  "checked_at": "2026-11-24T23:15:34.126Z",
   "save": {
-   "at": "2026-11-17T21:35:06.810Z",
+   "at": "2026-11-24T23:02:00.709Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-90bcc600d1258744e54db83a1f64f921c0dc6f42",
-   "error": "error:job-failed"
+   "snapshot": "20261124230247",
+   "final_url": "https://directory.runforsomething.net/candidate/161489285b102ca2fd7889f22dba57a4/garcia-leslie/"
   },
-  "origin": "requested",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261030215441"
+  "compared": "20261101145421",
+  "origin": "existing"
  },
  "https://directory.runforsomething.net/candidate/25db495d3ae25e5c91edd6dbd282f9fc/flores-eddie/": {
   "url": "https://web.archive.org/web/20261031102001id_/https://directory.runforsomething.net/candidate/25db495d3ae25e5c91edd6dbd282f9fc/flores-eddie/",
@@ -1980,13 +1989,13 @@
   "url": "https://web.archive.org/web/20261030215520id_/https://directory.runforsomething.net/candidate/26cc9fa8d0fda4e8c6a978c4a0c7ae4c/magana-jose/",
   "timestamp": "20261030215520",
   "digest": "WLDMZ47UVJEFPTWQYXNZPMVG7RTKIRQL",
-  "checked_at": "2026-11-17T21:45:45.609Z",
+  "checked_at": "2026-11-24T23:15:36.025Z",
   "save": {
-   "at": "2026-11-17T21:35:22.488Z",
+   "at": "2026-11-24T23:02:16.296Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-05473af51acff45bf20179b172fde38bba68272a",
-   "snapshot": "20261117213525",
+   "snapshot": "20261124230219",
    "final_url": "https://directory.runforsomething.net/candidate/26cc9fa8d0fda4e8c6a978c4a0c7ae4c/magana-jose/"
   },
   "origin": "existing",
@@ -2000,15 +2009,16 @@
   "url": "https://web.archive.org/web/20261030215557id_/https://directory.runforsomething.net/candidate/2b0947e4bb078ff072b47dc41b9af524/wang-charlene/",
   "timestamp": "20261030215557",
   "digest": "XZU6S66DVME43SAXKPQQHD2PHCGXAJAB",
-  "checked_at": "2026-11-06T00:41:20.601Z",
+  "checked_at": "2026-11-24T23:15:37.816Z",
   "save": {
-   "at": "2026-11-17T21:35:38.282Z",
+   "at": "2026-11-24T23:02:31.821Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-e3e8e7aed38b3eac96c1dbd18707cc193eda46b0",
-   "error": "error:job-failed"
+   "snapshot": "20261124230319",
+   "final_url": "https://directory.runforsomething.net/candidate/2b0947e4bb078ff072b47dc41b9af524/wang-charlene/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2075,23 +2085,24 @@
   "origin": "requested"
  },
  "https://directory.runforsomething.net/candidate/448b3ec3bb67925b2d5b35a7a534e284/castorena-chris/": {
-  "url": "https://web.archive.org/web/20261030215637id_/https://directory.runforsomething.net/candidate/448b3ec3bb67925b2d5b35a7a534e284/castorena-chris/",
-  "timestamp": "20261030215637",
+  "url": "https://web.archive.org/web/20261101145421id_/https://directory.runforsomething.net/candidate/448b3ec3bb67925b2d5b35a7a534e284/castorena-chris/",
+  "timestamp": "20261101145421",
   "digest": "PQRJH6G5H2XNRAB4Q3AHZ2ME66UVU2WD",
-  "checked_at": "2026-11-06T00:41:22.376Z",
+  "checked_at": "2026-11-24T23:15:39.600Z",
   "save": {
-   "at": "2026-11-17T21:36:04.366Z",
+   "at": "2026-11-24T23:03:02.911Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-af0efbbc3dd9327597163c597e4496e315826bc0",
-   "error": "error:job-failed"
+   "snapshot": "20261124230306",
+   "final_url": "https://directory.runforsomething.net/candidate/448b3ec3bb67925b2d5b35a7a534e284/castorena-chris/"
   },
-  "origin": "requested",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261030215637"
+  "compared": "20261101145421",
+  "origin": "existing"
  },
  "https://directory.runforsomething.net/candidate/58205c65793ee65c600da33b50b04ad0/syrop-george/": {
   "url": "https://web.archive.org/web/20261031101445id_/https://directory.runforsomething.net/candidate/58205c65793ee65c600da33b50b04ad0/syrop-george/",
@@ -2134,37 +2145,39 @@
   "origin": "requested"
  },
  "https://directory.runforsomething.net/candidate/74111a6ae294fc9b975b1203e072ed8b/ramos-isuri-s/": {
-  "url": "https://web.archive.org/web/20261030215714id_/https://directory.runforsomething.net/candidate/74111a6ae294fc9b975b1203e072ed8b/ramos-isuri-s/",
-  "timestamp": "20261030215714",
+  "url": "https://web.archive.org/web/20261103204946id_/https://directory.runforsomething.net/candidate/74111a6ae294fc9b975b1203e072ed8b/ramos-isuri-s/",
+  "timestamp": "20261103204946",
   "digest": "ZKBCMT6CRVJZECD5AJX3UX2M2UST3BC5",
-  "checked_at": "2026-11-06T00:41:24.213Z",
+  "checked_at": "2026-11-24T23:15:41.291Z",
   "save": {
-   "at": "2026-11-17T21:36:19.966Z",
+   "at": "2026-11-24T23:03:18.711Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-16e13bf1b0a3d7e1c24b85a781b2f215f0bd245e",
-   "error": "error:job-failed"
+   "snapshot": "20261124230321",
+   "final_url": "https://directory.runforsomething.net/candidate/74111a6ae294fc9b975b1203e072ed8b/ramos-isuri-s/"
   },
-  "origin": "requested",
   "statements": {
    "found": 1,
    "of": 1
   },
-  "compared": "20261030215714"
+  "compared": "20261103204946",
+  "origin": "existing"
  },
  "https://directory.runforsomething.net/candidate/7c7d80adcc72529ab659a9553fc9a75a/lopez-jessie/": {
   "url": "https://web.archive.org/web/20261030215752id_/https://directory.runforsomething.net/candidate/7c7d80adcc72529ab659a9553fc9a75a/lopez-jessie/",
   "timestamp": "20261030215752",
   "digest": "XMYOKNBFDFJLNL4IHKKOIMJQW3IBDCWU",
-  "checked_at": "2026-11-06T00:41:25.965Z",
+  "checked_at": "2026-11-24T23:15:43.222Z",
   "save": {
-   "at": "2026-11-17T21:36:35.636Z",
+   "at": "2026-11-24T23:03:34.227Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-e705b395a95f4aa3297e15fd02ed0f197a1cf338",
-   "error": "error:job-failed"
+   "snapshot": "20261124230337",
+   "final_url": "https://directory.runforsomething.net/candidate/7c7d80adcc72529ab659a9553fc9a75a/lopez-jessie/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2235,15 +2248,16 @@
   "url": "https://web.archive.org/web/20261030215830id_/https://directory.runforsomething.net/candidate/8e52867745133bbe4a582c6b4109f1c2/macias-brandon/",
   "timestamp": "20261030215830",
   "digest": "MWONGAQOWSHRKCTLIYTRA5ZBVUGJ7TYO",
-  "checked_at": "2026-11-06T00:41:27.740Z",
+  "checked_at": "2026-11-24T23:15:45.529Z",
   "save": {
-   "at": "2026-11-17T21:37:01.568Z",
+   "at": "2026-11-24T23:04:00.247Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-d17091423318793edd89b4ddb9000f8f6648f662",
-   "error": "error:job-failed"
+   "snapshot": "20261124230403",
+   "final_url": "https://directory.runforsomething.net/candidate/8e52867745133bbe4a582c6b4109f1c2/macias-brandon/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2254,13 +2268,13 @@
   "url": "https://web.archive.org/web/20261030220006id_/https://directory.runforsomething.net/candidate/91abcc388909149a9dae9dbe54bb2d91/ibbotson-christine/",
   "timestamp": "20261030220006",
   "digest": "CJWQGKVDZJAWERE7UKSYQDBBUCEDJ2HF",
-  "checked_at": "2026-11-17T21:45:48.201Z",
+  "checked_at": "2026-11-24T23:15:47.747Z",
   "save": {
-   "at": "2026-11-17T21:37:17.401Z",
+   "at": "2026-11-24T23:04:15.865Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-5f65f806c0260d58086d284262de03467446076c",
-   "snapshot": "20261117213819",
+   "snapshot": "20261124230419",
    "final_url": "https://directory.runforsomething.net/candidate/91abcc388909149a9dae9dbe54bb2d91/ibbotson-christine/"
   },
   "origin": "existing",
@@ -2294,15 +2308,16 @@
   "url": "https://web.archive.org/web/20261030220126id_/https://directory.runforsomething.net/candidate/9916b6f74a18d4a5f17f3b2d788b99e3/hebert-shelby/",
   "timestamp": "20261030220126",
   "digest": "GKX5M4K5LWFQ7FQSIW7YREY6QZ3TCCOH",
-  "checked_at": "2026-11-06T00:41:31.766Z",
+  "checked_at": "2026-11-24T23:15:49.616Z",
   "save": {
-   "at": "2026-11-17T21:37:32.969Z",
+   "at": "2026-11-24T23:04:32.285Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-8a0a31e3cf9d0f3c0112f289753b84a2452b1ec9",
-   "error": "error:job-failed"
+   "snapshot": "20261124230436",
+   "final_url": "https://directory.runforsomething.net/candidate/9916b6f74a18d4a5f17f3b2d788b99e3/hebert-shelby/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2353,15 +2368,16 @@
   "url": "https://web.archive.org/web/20261030220252id_/https://directory.runforsomething.net/candidate/ad2aba27a4b784d06dd2668980a9fa38/dimartino-anthony/",
   "timestamp": "20261030220252",
   "digest": "5NYUCNJBVNT47JXNCI3TIUP2QSJLSJEU",
-  "checked_at": "2026-11-06T00:41:33.655Z",
+  "checked_at": "2026-11-24T23:15:51.338Z",
   "save": {
-   "at": "2026-11-17T21:38:09.219Z",
+   "at": "2026-11-24T23:05:10.091Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-11767fd8737f8b4baca0ce415411ad84d89d6ba4",
-   "error": "error:job-failed"
+   "snapshot": "20261124230516",
+   "final_url": "https://directory.runforsomething.net/candidate/ad2aba27a4b784d06dd2668980a9fa38/dimartino-anthony/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2412,15 +2428,16 @@
   "url": "https://web.archive.org/web/20261030220409id_/https://directory.runforsomething.net/candidate/b599d8d4e1ca19734081363c88657534/martiz-nancy/",
   "timestamp": "20261030220409",
   "digest": "FSWWNXYKHPYFYXD5KJXB3PVX6WCSVAJD",
-  "checked_at": "2026-11-06T00:41:35.424Z",
+  "checked_at": "2026-11-24T23:15:53.701Z",
   "save": {
-   "at": "2026-11-17T21:38:24.985Z",
+   "at": "2026-11-24T23:05:27.503Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-3879118b596ffbb09e30385d29aa7f3374343022",
-   "error": "error:job-failed"
+   "snapshot": "20261124230535",
+   "final_url": "https://directory.runforsomething.net/candidate/b599d8d4e1ca19734081363c88657534/martiz-nancy/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2471,15 +2488,16 @@
   "url": "https://web.archive.org/web/20261030220445id_/https://directory.runforsomething.net/candidate/be3ad9c0018071066eb48cf44daa6118/post-stephen/",
   "timestamp": "20261030220445",
   "digest": "FGUVA7WNYCD7N7GRFI6ZUHTDQAAF7BZ5",
-  "checked_at": "2026-11-06T00:41:37.564Z",
+  "checked_at": "2026-11-24T23:15:55.459Z",
   "save": {
-   "at": "2026-11-17T21:38:40.948Z",
+   "at": "2026-11-24T23:05:44.138Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-24bb434be9f61a5a514762ce83cca0306cda0d55",
-   "error": "error:job-failed"
+   "snapshot": "20261124230557",
+   "final_url": "https://directory.runforsomething.net/candidate/be3ad9c0018071066eb48cf44daa6118/post-stephen/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2490,15 +2508,16 @@
   "url": "https://web.archive.org/web/20261030220523id_/https://directory.runforsomething.net/candidate/c20213415b3d80d59137b55753be5458/oliver-sabrina/",
   "timestamp": "20261030220523",
   "digest": "D4L7URQMJALFOXSPGCRSZQBECFCNDBDN",
-  "checked_at": "2026-11-10T20:31:48.968Z",
+  "checked_at": "2026-11-24T23:15:57.214Z",
   "save": {
-   "at": "2026-11-17T21:39:06.867Z",
+   "at": "2026-11-24T23:06:09.878Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-1d1408b5ad5430c5d91fe04f3d1ac8d08456b29c",
-   "error": "error:job-failed"
+   "snapshot": "20261124230613",
+   "final_url": "https://directory.runforsomething.net/candidate/c20213415b3d80d59137b55753be5458/oliver-sabrina/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2529,15 +2548,16 @@
   "url": "https://web.archive.org/web/20261030220601id_/https://directory.runforsomething.net/candidate/e8cb664592f6923dfae7deb886f85dcb/maldonado-jozef/",
   "timestamp": "20261030220601",
   "digest": "P7DSPEXYQWOPKIDPQCEWKDWG33CT2PLP",
-  "checked_at": "2026-11-10T20:31:50.692Z",
+  "checked_at": "2026-11-24T23:15:58.866Z",
   "save": {
-   "at": "2026-11-17T21:39:22.665Z",
+   "at": "2026-11-24T23:06:25.833Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-dc513b45fdf4171edc964d20051fbe4a42e329ab",
-   "error": "error:job-failed"
+   "snapshot": "20261124230629",
+   "final_url": "https://directory.runforsomething.net/candidate/e8cb664592f6923dfae7deb886f85dcb/maldonado-jozef/"
   },
-  "origin": "requested",
+  "origin": "existing",
   "statements": {
    "found": 1,
    "of": 1
@@ -2655,16 +2675,17 @@
   "compared": "20261101142939"
  },
  "https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing": {
-  "url": "https://web.archive.org/web/20261030220640id_/https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing",
-  "timestamp": "20261030220640",
-  "digest": "37VJD2QXJDYEOBRSOLK6YNHSDTYN4JH4",
-  "checked_at": "2026-11-10T20:31:56.643Z",
+  "url": "https://web.archive.org/web/20261124230644id_/https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing",
+  "timestamp": "20261124230644",
+  "digest": "5LGV3JBJPZN4PHBYPXZB6SSLPGOZ5ZQD",
+  "checked_at": "2026-11-24T23:16:00.898Z",
   "save": {
-   "at": "2026-11-17T21:39:38.635Z",
+   "at": "2026-11-24T23:06:41.556Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-3ff0c9f20a5ba335c5e2fd7156f62915181d0d9e",
-   "error": "error:job-failed"
+   "snapshot": "20261124230644",
+   "final_url": "https://drive.google.com/file/d/17Qd-dBCdZdi7LjmEHbVmLca-mlfQ8ENC/view?usp=sharing"
   },
   "origin": "requested"
  },
@@ -2872,13 +2893,13 @@
   "url": "https://web.archive.org/web/20261030220754id_/https://edge.growthzonecms.com/sites/2034/2026/09/PAC_26-Comprehensive-Primary_Voter-Guide_FINAL.pdf",
   "timestamp": "20261030220754",
   "digest": "IGYZXC2YPZFKRHAR3CUUMNZ7H5FZNTV3",
-  "checked_at": "2026-11-17T21:45:50.075Z",
+  "checked_at": "2026-11-24T23:16:02.827Z",
   "save": {
-   "at": "2026-11-17T21:40:04.599Z",
+   "at": "2026-11-24T23:07:07.453Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-b0d85da66dcdce1706a3ef0bcec546bd9c9ac4f9",
-   "snapshot": "20261117214005",
+   "snapshot": "20261124230708",
    "final_url": "https://edge.growthzonecms.com/sites/2034/2026/09/PAC_26-Comprehensive-Primary_Voter-Guide_FINAL.pdf"
   },
   "origin": "existing",
@@ -3530,7 +3551,7 @@
   "digest": "",
   "checked_at": "2026-11-05T11:42:08.975Z",
   "save": {
-   "at": "2026-11-17T21:13:05.565Z",
+   "at": "2026-11-24T22:41:45.126Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-bc08771eb20b7b100eca5c43f93269732706b08e",
@@ -4499,13 +4520,13 @@
   "url": "https://web.archive.org/web/20261030222230id_/https://img1.wsimg.com/blobby/go/00e1d586-84bf-47d7-8009-c4d0a6ebcb89/downloads/77573883-533c-4f5c-8832-690624e5aa91/SBGOP_2026_Complete_Updated_Voter_Guide.pdf?ver=1791570575256",
   "timestamp": "20261030222230",
   "digest": "6ULH42TUYKSCG2HRQUJPVCDRTEYPYWLH",
-  "checked_at": "2026-11-17T21:45:53.676Z",
+  "checked_at": "2026-11-24T23:16:04.602Z",
   "save": {
-   "at": "2026-11-17T21:40:20.286Z",
+   "at": "2026-11-24T23:07:23.083Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-0c5e5ae6f75b52f90c24296634ae0dc59e65306c",
-   "snapshot": "20261117214111",
+   "snapshot": "20261124230750",
    "final_url": "https://img1.wsimg.com/blobby/go/00e1d586-84bf-47d7-8009-c4d0a6ebcb89/downloads/77573883-533c-4f5c-8832-690624e5aa91/SBGOP_2026_Complete_Updated_Voter_Guide.pdf?ver=1791570575256"
   },
   "origin": "existing",
@@ -4738,44 +4759,44 @@
   "origin": "requested"
  },
  "https://irp.cdn-website.com/6880267d/files/uploaded/2.South_County_Voter_Guide_2_Page_Americana_QR.pdf": {
-  "url": "https://web.archive.org/web/20261030224524id_/https://irp.cdn-website.com/6880267d/files/uploaded/2.South_County_Voter_Guide_2_Page_Americana_QR.pdf",
-  "timestamp": "20261030224524",
-  "digest": "M7G6ZNBAAQDERRXJXL7LGOEHL3POIFGR",
-  "checked_at": "",
+  "url": "https://web.archive.org/web/20261124230739id_/https://irp.cdn-website.com/6880267d/files/uploaded/2.South_County_Voter_Guide_2_Page_Americana_QR.pdf",
+  "timestamp": "20261124230739",
+  "digest": "QMY4L5KOPLNGGRQ2RQSTSVCKVCNIXMET",
+  "checked_at": "2026-11-24T23:16:06.532Z",
   "save": {
-   "at": "2026-11-17T21:41:18.167Z",
+   "at": "2026-11-24T23:07:38.632Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-f0b2afe9db6e833bd12ba31946895921348e451c",
-   "snapshot": "20261117214118",
+   "snapshot": "20261124230739",
    "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/2.South_County_Voter_Guide_2_Page_Americana_QR.pdf"
   },
-  "origin": "existing",
   "statements": {
    "found": 14,
    "of": 14
   },
-  "compared": "20261030224524"
+  "compared": "20261124230739",
+  "origin": "requested"
  },
  "https://irp.cdn-website.com/6880267d/files/uploaded/3..Final.Local+Measures+.pdf": {
-  "url": "https://web.archive.org/web/20261030224540id_/https://irp.cdn-website.com/6880267d/files/uploaded/3..Final.Local+Measures+.pdf",
-  "timestamp": "20261030224540",
-  "digest": "YGXY572MBIOCQNIEFW3FNONFDSCL2MEB",
-  "checked_at": "",
+  "url": "https://web.archive.org/web/20261124230843id_/https://irp.cdn-website.com/6880267d/files/uploaded/3..Final.Local+Measures+.pdf",
+  "timestamp": "20261124230843",
+  "digest": "I7P2KTJZVVGYNINPOYJYICXINAUJU5SA",
+  "checked_at": "2026-11-24T23:16:08.217Z",
   "save": {
-   "at": "2026-11-17T21:41:33.659Z",
+   "at": "2026-11-24T23:08:04.602Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-2682f30ed87771d26ed4bad3b5daf106addab328",
-   "snapshot": "20261117214134",
+   "snapshot": "20261124230843",
    "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/3..Final.Local+Measures+.pdf"
   },
-  "origin": "existing",
   "statements": {
    "found": 3,
    "of": 8
   },
-  "compared": "20261030224540"
+  "compared": "20261124230843",
+  "origin": "requested"
  },
  "https://irp.cdn-website.com/6880267d/files/uploaded/9.Fed..SOS.FEDERAL.Santa_Barbara_Voter_Guide_With_Bob_Smith.pdf": {
   "url": "https://web.archive.org/web/20261030224606id_/https://irp.cdn-website.com/6880267d/files/uploaded/9.Fed..SOS.FEDERAL.Santa_Barbara_Voter_Guide_With_Bob_Smith.pdf",
@@ -4783,11 +4804,11 @@
   "digest": "5Y7RJM4FLIHHQ5KJ2KOYWAVRWFUOELEQ",
   "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:42:09.614Z",
+   "at": "2026-11-24T23:08:20.071Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-ab980c9984eda9327438f080528eea0f3eac7112",
-   "snapshot": "20261117214210",
+   "snapshot": "20261124230842",
    "final_url": "https://irp.cdn-website.com/6880267d/files/uploaded/9.Fed..SOS.FEDERAL.Santa_Barbara_Voter_Guide_With_Bob_Smith.pdf"
   },
   "origin": "existing",
@@ -5406,7 +5427,7 @@
   },
   "compared": "20260807104739",
   "save": {
-   "at": "2026-11-17T21:16:22.987Z",
+   "at": "2026-11-24T22:45:08.972Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-46424ddc20514c0c826b58cf07cc391f65273abf",
@@ -5441,11 +5462,11 @@
   "digest": "NZINT3MMDB23AEV35YFAUDAFOTKVN3VG",
   "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:23:01.330Z",
+   "at": "2026-11-24T22:51:35.697Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-03139d23644ccaef404ae45f993400d9967b7ea1",
-   "snapshot": "20261117212306",
+   "snapshot": "20261124225139",
    "final_url": "https://jstreetpac.org/candidates/"
   },
   "origin": "existing"
@@ -5495,13 +5516,14 @@
   "url": "https://web.archive.org/web/20261030224900id_/https://lachamber.com/blog/2026/10/08/the-business-voice/los-angeles-let-s-turn-out-in-numbers/",
   "timestamp": "20261030224900",
   "digest": "ZHQ7WK4RWZLX7AI2AYG7GO3K44NMRR7M",
-  "checked_at": "2026-11-10T20:33:07.322Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:42:40.992Z",
+   "at": "2026-11-24T23:09:01.591Z",
    "via": "key",
-   "outcome": "failed",
+   "outcome": "captured",
    "job_id": "spn2-7937c2dce4e92d1fc74c0dabcf44700f83ae0f5d",
-   "error": "error:job-failed"
+   "snapshot": "20261124230905",
+   "final_url": "https://lachamber.com/blog/2026/10/08/the-business-voice/los-angeles-let-s-turn-out-in-numbers/"
   }
  },
  "https://lachamber.com/clientuploads/pdf/2026/26_Voter-Guide.pdf": {
@@ -5510,11 +5532,11 @@
   "digest": "DOCVQBIBEJSH3SVFAJJVFXBQ5OEEG3I6",
   "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:42:25.160Z",
+   "at": "2026-11-24T23:08:35.521Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-2716d3270bcb0ae9aac53562314a8b8e4f9313a1",
-   "snapshot": "20261117214226",
+   "snapshot": "20261124230838",
    "final_url": "https://lachamber.com/clientuploads/pdf/2026/26_Voter-Guide.pdf"
   },
   "origin": "existing"
@@ -5657,13 +5679,13 @@
   "url": "https://web.archive.org/web/20261030225015id_/https://laforwardguide.org/districts/los-angeles-usd",
   "timestamp": "20261030225015",
   "digest": "5IHJYBDBBCLMKNN7REFLJB7KPO2CCG2V",
-  "checked_at": "2026-11-10T20:33:13.405Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-30T23:22:37.385Z",
+   "at": "2026-11-24T23:10:09.142Z",
    "via": "key",
-   "outcome": "asked",
+   "outcome": "captured",
    "job_id": "spn2-fd163af1408ec22ba389bd83f6b7005470f922cf",
-   "snapshot": "20261030224958",
+   "snapshot": "20261124231012",
    "final_url": "https://laforwardguide.org/districts/los-angeles-usd"
   },
   "statements": {
@@ -5737,13 +5759,13 @@
   "url": "https://web.archive.org/web/20261030225004id_/https://laforwardguide.org/districts/santa-clarita-valley-water-agency",
   "timestamp": "20261030225004",
   "digest": "242SWEIYBHQXID6T7XORB77Q6RR2ERIA",
-  "checked_at": "2026-11-10T20:33:16.868Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-30T23:23:00.982Z",
+   "at": "2026-11-24T23:09:32.925Z",
    "via": "key",
-   "outcome": "asked",
+   "outcome": "captured",
    "job_id": "spn2-25b6edab853b5cbb418193a7f3549b03ca24948b",
-   "snapshot": "20261030225004",
+   "snapshot": "20261124230949",
    "final_url": "https://laforwardguide.org/districts/santa-clarita-valley-water-agency"
   }
  },
@@ -5861,13 +5883,13 @@
   "url": "https://web.archive.org/web/20261030225048id_/https://laforwardguide.org/guide/associate-justices-court-of-appeal",
   "timestamp": "20261030225048",
   "digest": "JMDZHDLJUTYAGNVCCY6QQ36KU5PIF6MX",
-  "checked_at": "2026-11-10T20:33:18.523Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-30T23:23:17.205Z",
+   "at": "2026-11-24T23:11:06.732Z",
    "via": "key",
-   "outcome": "asked",
+   "outcome": "captured",
    "job_id": "spn2-647441f330f190ccbd032970a32d60cced894220",
-   "snapshot": "20261030225048",
+   "snapshot": "20261124231109",
    "final_url": "https://laforwardguide.org/guide/associate-justices-court-of-appeal"
   },
   "statements": {
@@ -6632,12 +6654,11 @@
   "digest": "PCLUG4HIKEDO2CKSGDAHL34KYETD6K4R",
   "checked_at": "2026-11-10T20:33:22.233Z",
   "save": {
-   "at": "2026-10-30T23:24:08.869Z",
+   "at": "2026-11-24T23:11:22.382Z",
    "via": "key",
-   "outcome": "asked",
+   "outcome": "failed",
    "job_id": "spn2-41cb932517132cd0ab205289d420cdabc62ad78d",
-   "snapshot": "20261030225050",
-   "final_url": "https://localnewsmatters.org/2026/10/22/regional-transit-measure-bay-area/"
+   "error": "error:no-request"
   }
  },
  "https://lookout.co/a-lookout-view-casey-clark-and-nancy-bilicich-for-watsonville-city-council/story": {
@@ -7059,11 +7080,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:22:45.726Z",
+   "at": "2026-11-24T22:51:20.102Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-0dba04c7b215bca5b03468a16d13f6f712ebb87f",
-   "snapshot": "20261117212246",
+   "snapshot": "20261124225120",
    "final_url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-1@4x-1.png"
   }
  },
@@ -7074,11 +7095,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:22:30.036Z",
+   "at": "2026-11-24T22:51:04.515Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-1d7a0864e7356da13b4aa16b55029c288595354e",
-   "snapshot": "20261117212313",
+   "snapshot": "20261124225105",
    "final_url": "https://maringop.org/wp-content/uploads/2026/09/Artboard-2@4x-1.png"
   }
  },
@@ -8124,12 +8145,14 @@
   "url": "https://web.archive.org/web/20261030225000id_/https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf#page=6",
   "timestamp": "20261030225000",
   "digest": "YJHF34UFZANVCSDILE2HYHBXQYPHD4TY",
-  "checked_at": "2026-11-05T11:42:40.171Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-30T23:25:08.171Z",
+   "at": "2026-11-24T23:09:17.393Z",
    "via": "key",
-   "outcome": "failed",
-   "error": "error:too-many-daily-captures"
+   "outcome": "captured",
+   "job_id": "spn2-4c583e418291e30c3b96601db6c9c7dd11e72229",
+   "snapshot": "20261124231006",
+   "final_url": "https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf"
   },
   "origin": "existing",
   "statements": {
@@ -8162,12 +8185,14 @@
   "url": "https://web.archive.org/web/20261030225021id_/https://ocvote.gov/sites/default/files/2026-09/C-CMES%20-%20LAYOUT%20(1).pdf#page=4",
   "timestamp": "20261030225021",
   "digest": "L25TCSQOVCGUF55U3AP7J24E3FUC5KLZ",
-  "checked_at": "2026-11-05T11:42:42.525Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-30T23:25:23.960Z",
+   "at": "2026-11-24T23:10:25.362Z",
    "via": "key",
-   "outcome": "failed",
-   "error": "error:too-many-daily-captures"
+   "outcome": "captured",
+   "job_id": "spn2-697e40744ecb080253283a1e74292c3d182e5617",
+   "snapshot": "20261124231025",
+   "final_url": "https://ocvote.gov/sites/default/files/2026-09/C-CMES%20-%20LAYOUT%20(1).pdf"
   },
   "origin": "existing",
   "statements": {
@@ -8180,12 +8205,14 @@
   "url": "https://web.archive.org/web/20261030225034id_/https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf#page=4",
   "timestamp": "20261030225034",
   "digest": "BOMGU2DJ6VNDTTAUTEJPFABHMUNXN6CI",
-  "checked_at": "2026-11-05T11:42:47.078Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-10-30T23:25:39.617Z",
+   "at": "2026-11-24T23:10:40.845Z",
    "via": "key",
-   "outcome": "failed",
-   "error": "error:too-many-daily-captures"
+   "outcome": "captured",
+   "job_id": "spn2-02677663cc2d025b6b120dff998aa5c684f41df1",
+   "snapshot": "20261124231124",
+   "final_url": "https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf"
   },
   "origin": "existing",
   "statements": {
@@ -9511,7 +9538,7 @@
   "digest": "",
   "checked_at": "2026-11-10T20:32:10.850Z",
   "save": {
-   "at": "2026-11-17T21:13:21.866Z",
+   "at": "2026-11-24T22:42:00.834Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-a7d054c0e0c3d3f21b1d25722bbf5c7a819cb75e",
@@ -9524,9 +9551,11 @@
   "digest": "",
   "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:13:37.858Z",
+   "at": "2026-11-24T22:42:16.540Z",
    "via": "key",
-   "outcome": "already-archived"
+   "outcome": "failed",
+   "job_id": "spn2-dc3e16adeeb4ea6b68c1e399253b7ff65dffa06f",
+   "error": "error:no-request"
   }
  },
  "https://sfbike.org/news/vote-yes-for-transit-funding-measures-h-and-rtm/": {
@@ -9535,7 +9564,7 @@
   "digest": "JGPG7ZDMGU5L2FKUFUDVWLEAKQJNM5QO",
   "checked_at": "2026-11-10T20:32:18.149Z",
   "save": {
-   "at": "2026-11-17T21:26:39.313Z",
+   "at": "2026-11-24T22:54:39.128Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-422b4962cce1e0e6a86af94bf33469286a5d9888",
@@ -9765,7 +9794,7 @@
   "checked_at": "2026-11-10T20:32:29.926Z",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:15:19.461Z",
+   "at": "2026-11-24T22:44:11.571Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-42aaadc42f828cc685106359e602b7d72dcd7622",
@@ -9976,11 +10005,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:19:42.217Z",
+   "at": "2026-11-24T22:48:18.496Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-649e0f171cd21def4acb8dc6c6ecf29fab20dbd2",
-   "snapshot": "20261117211943",
+   "snapshot": "20261124224819",
    "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-ImpartialAnalysis-RWC-Housing_Redacted.pdf"
   }
  },
@@ -10176,11 +10205,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:17:20.139Z",
+   "at": "2026-11-24T22:46:06.228Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-d42e2c997d64c1a52b1a3a8f7f662b566c986b86",
-   "snapshot": "20261117211720",
+   "snapshot": "20261124224606",
    "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-ImpartialAnalysis-MenloPark-Muni-Amendment.pdf"
   }
  },
@@ -10281,11 +10310,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:21:58.282Z",
+   "at": "2026-11-24T22:50:22.561Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-a06a855901bbdd82942c73663e6bd4bdd8af0305",
-   "snapshot": "20261117212158",
+   "snapshot": "20261124225039",
    "final_url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-ImpartialAnalysis-SMFCSD-Bond.pdf"
   }
  },
@@ -11296,11 +11325,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:19:09.783Z",
+   "at": "2026-11-24T22:47:35.381Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-eb9c3f4bef46fc9350271459bc6a413cd97d60c2",
-   "snapshot": "20261117211954",
+   "snapshot": "20261124224757",
    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-1.jpg"
   }
  },
@@ -11341,11 +11370,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:18:33.387Z",
+   "at": "2026-11-24T22:47:19.878Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-07bbb6bce1e9d6d6e69ce25ca848409dc3cb25b4",
-   "snapshot": "20261117211923",
+   "snapshot": "20261124224720",
    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-2.jpg"
   }
  },
@@ -11393,11 +11422,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:18:17.808Z",
+   "at": "2026-11-24T22:47:04.336Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-7de6706faa902482ed3a260ec9cf50de5eb27069",
-   "snapshot": "20261117211818",
+   "snapshot": "20261124224704",
    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-4.jpg"
   }
  },
@@ -11453,11 +11482,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:17:35.875Z",
+   "at": "2026-11-24T22:46:21.899Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-39280a6206b4a09cfb8c2137214a26a34453399a",
-   "snapshot": "20261117211807",
+   "snapshot": "20261124224659",
    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-6-1.jpg"
   }
  },
@@ -11483,11 +11512,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:20:08.406Z",
+   "at": "2026-11-24T22:48:33.958Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-bc9f4236bf21d797a5f6c6bf2b175a887969664e",
-   "snapshot": "20261117212049",
+   "snapshot": "20261124224834",
    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-8.jpg"
   }
  },
@@ -11513,11 +11542,11 @@
   "checked_at": "",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:18:01.963Z",
+   "at": "2026-11-24T22:46:37.616Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-5ee4ceb66c3017a849a08a15b71a8815ec9d43ae",
-   "snapshot": "20261117211802",
+   "snapshot": "20261124224638",
    "final_url": "https://thelafed.org/app/uploads/2026/10/LA-FED-MIDTERM-2026-ENDORSEMENT-GUIDE-9.jpg"
   }
  },
@@ -14083,11 +14112,11 @@
   },
   "compared": "20261021072137",
   "save": {
-   "at": "2026-11-17T21:24:26.975Z",
+   "at": "2026-11-24T22:52:34.136Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-78c060f2a1e1f8edd4a9c6450a23969dcf8ac03d",
-   "snapshot": "20261117212428",
+   "snapshot": "20261124225235",
    "final_url": "https://www.cta.org/document/2026-candidate-recommendations"
   }
  },
@@ -14103,11 +14132,11 @@
   },
   "compared": "20261021071654",
   "save": {
-   "at": "2026-11-17T21:24:10.158Z",
+   "at": "2026-11-24T22:52:18.286Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-43ec2f111764cc8dc35455ae8261e1e649312126",
-   "snapshot": "20261117212412",
+   "snapshot": "20261124225219",
    "final_url": "https://www.cta.org/document/2026-november-general-election-initiative-recommendations"
   }
  },
@@ -15047,7 +15076,7 @@
   "digest": "",
   "checked_at": "2026-11-03T12:24:48.128Z",
   "save": {
-   "at": "2026-11-17T21:13:53.561Z",
+   "at": "2026-11-24T22:42:32.423Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-ce67a78760d52bf779a4ce279335c421b9b38ca6",
@@ -15061,7 +15090,7 @@
   "checked_at": "2026-11-03T12:24:49.976Z",
   "origin": "existing",
   "save": {
-   "at": "2026-11-17T21:20:55.465Z",
+   "at": "2026-11-24T22:49:25.502Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-adc9347a98b9692944c6d2dd34b09559dba303e3",
@@ -15080,7 +15109,7 @@
   },
   "compared": "20261023145136",
   "save": {
-   "at": "2026-11-17T21:25:08.634Z",
+   "at": "2026-11-24T22:53:25.609Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-88bdaa05da11045f829fc069bd4b940519ffa93f",
@@ -15777,9 +15806,11 @@
   },
   "compared": "20261029110639",
   "save": {
-   "at": "2026-11-17T21:26:23.852Z",
+   "at": "2026-11-24T22:54:23.623Z",
    "via": "key",
-   "outcome": "already-archived"
+   "outcome": "failed",
+   "job_id": "spn2-21c3bbec7ee9ccc0ac97cd57e235db64843a7e52",
+   "error": "error:no-request"
   }
  },
  "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/voter-guide": {
@@ -17783,11 +17814,11 @@
   "digest": "GH7THF5Q252NG4F3GQXFP5JZUFNK3JKN",
   "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:25:24.280Z",
+   "at": "2026-11-24T22:53:41.171Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-a43018e2c3f7862e5df3bc331cbc6bdfe7573aa5",
-   "snapshot": "20261117212524",
+   "snapshot": "20261124225351",
    "final_url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/Propositions.png"
   },
   "origin": "existing"
@@ -17798,11 +17829,11 @@
   "digest": "R24CQGG3IGBNMNCZVBGPQEBLKNYSR5CY",
   "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:25:39.875Z",
+   "at": "2026-11-24T22:54:06.940Z",
    "via": "key",
    "outcome": "captured",
    "job_id": "spn2-991f0dd149631fd4855e99dfeadbf7e42fe39bae",
-   "snapshot": "20261117212540",
+   "snapshot": "20261124225408",
    "final_url": "https://www.riversidecountydemocrats.org/wp-content/uploads/2026/09/RCDP-Voter-Guide-Candidates.jpg"
   },
   "origin": "existing"
@@ -18391,7 +18422,7 @@
   "digest": "",
   "checked_at": "2026-11-03T20:00:32.867Z",
   "save": {
-   "at": "2026-11-17T21:14:09.569Z",
+   "at": "2026-11-24T22:43:08.556Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-b5c9af5aad76cd53efcfe927093dfe3ce6a573c8",
@@ -19687,11 +19718,11 @@
   },
   "compared": "20261023103233",
   "save": {
-   "at": "2026-11-17T21:24:42.492Z",
+   "at": "2026-11-24T22:53:09.997Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-cda93fc45e3829b22948b7135c19c48ef1aa66f9",
-   "error": "error:no-request"
+   "error": "forbiddenaccess"
   }
  },
  "https://www.smdailyjournal.com/opinion/editorials/editorial-booker-brownstone-and-ruddock-for-half-moon-bay-city-council/article_79bbc030-75ba-4470-9893-2489506d8b3e.html": {
@@ -19706,7 +19737,7 @@
   },
   "compared": "20261014225736",
   "save": {
-   "at": "2026-11-17T21:21:26.842Z",
+   "at": "2026-11-24T22:50:06.897Z",
    "via": "key",
    "outcome": "failed",
    "job_id": "spn2-c3f55ef5f2f3a4f71dc86877a09db68f6ff4fb24",
@@ -19719,22 +19750,22 @@
   "digest": "",
   "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:14:25.734Z",
+   "at": "2026-11-24T22:43:24.253Z",
    "via": "key",
-   "outcome": "already-archived"
+   "outcome": "failed",
+   "job_id": "spn2-acc26fae707299cd42182cc663fd211b910ea7b7",
+   "error": "error:no-request"
   }
  },
  "https://www.smdailyjournal.com/opinion/editorials/editorial-yes-on-measures-j-and-u-no-on-measures-l-and-aa/article_3df72153-8634-48dc-9781-ceecbd5c72e8.html": {
   "url": "",
   "timestamp": "",
   "digest": "",
-  "checked_at": "2026-11-03T20:01:35.035Z",
+  "checked_at": "",
   "save": {
-   "at": "2026-11-17T21:14:42.118Z",
+   "at": "2026-11-24T22:43:40.027Z",
    "via": "key",
-   "outcome": "failed",
-   "job_id": "spn2-ef238f167f83e2e7cb2ceb8f3954b42e0738b68e",
-   "error": "error:no-request"
+   "outcome": "already-archived"
   }
  },
  "https://www.sonomacountygop.org/": {
